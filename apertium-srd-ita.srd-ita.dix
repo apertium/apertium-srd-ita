@@ -4,6 +4,7 @@
 
   <sdefs>
     <sdef n="n"     c="Noun"/>
+    <sdef n="pr"    c="Preposición"/>
     <sdef n="sg"    c="Singular"/>
     <sdef n="pl"    c="Plural"/>
     <sdef n="f"     c="Feminine"/>
@@ -12,10 +13,14 @@
   </sdefs>
 
    <section id="main" type="standard">
-      <!-- SECTION: Nouns -->
+      <!-- SECTION: Preposiciones -->
+
+      <e><p><l>de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
+
+      <!-- SECTION: Sustantivos -->
       <e><p><l>domo<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
 
-      <!-- SECTION: Punctuation -->
+      <!-- SECTION: Punctuación -->
       <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
    </section>
 </dictionary>
