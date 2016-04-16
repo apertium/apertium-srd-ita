@@ -11,6 +11,9 @@
     <sdef n="adv"     c=""/>
     <sdef n="itg"     c=""/>
     <sdef n="adj"     c=""/>
+    <sdef n="det"     c=""/>
+    <sdef n="def"     c=""/>
+    <sdef n="ind"     c=""/>
     <sdef n="np"      c=""/>
     <sdef n="ant"     c=""/>
     <sdef n="num"     c=""/>
@@ -36,7 +39,7 @@
 
       <e><p><l>de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
       <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
-      <e><p><l>chin<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+      <e><p><l>cun<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
       <e><p><l>dae<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
       <e><p><l>dainanti<b/>a<s n="pr"/></l><r>davanti<b/>a<s n="pr"/></r></p></e>
       <e><p><l>daesegus<s n="pr"/></l><r>dietro<s n="pr"/></r></p></e>
@@ -48,6 +51,9 @@
       <!-- SECCIÓN: Pronombres -->
 
       <!-- SECCIÓN: Determinantes -->
+
+      <e><p><l>su<s n="det"/><s n="def"/></l><r>il<s n="det"/><s n="def"/></r></p></e>
+      <e><p><l>unu<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
 
