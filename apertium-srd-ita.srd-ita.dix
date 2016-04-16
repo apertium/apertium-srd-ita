@@ -7,6 +7,7 @@
     <sdef n="cnjcoo"  c=""/>
     <sdef n="cnjsub"  c=""/>
     <sdef n="vblex"   c=""/>
+    <sdef n="vbhaver" c=""/>
     <sdef n="vbser"   c=""/>
     <sdef n="adv"     c=""/>
     <sdef n="itg"     c=""/>
@@ -22,7 +23,13 @@
     <sdef n="pl"      c="Plural"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="m"       c="Masculine"/>
+
+    <sdef n="cm"      c="Coma"/>
     <sdef n="sent"    c="Sentence marker"/>
+    <sdef n="lpar"    c="Left parenthesis"/>
+    <sdef n="rpar"    c="Right parenthesis"/>
+    <sdef n="lquest"  c="Left question mark"/>
+
   </sdefs>
 
    <section id="main" type="standard">
@@ -53,7 +60,7 @@
       <!-- SECCIÓN: Determinantes -->
 
       <e><p><l>su<s n="det"/><s n="def"/></l><r>il<s n="det"/><s n="def"/></r></p></e>
-      <e><p><l>unu<s n="det"/><s n="ind"/></l><r>uno<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>unu<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
 
@@ -116,13 +123,14 @@
       <!-- SECCIÓN: Adverbios -->
 
       <e><p><l>ue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
-      <e><p><l>proite<s n="adv"/></l><r>perché<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>pro<b/>ite<s n="adv"/><s n="itg"/></l><r>perché<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>cando<s n="adv"/></l><r>quando<s n="adv"/><s n="itg"/></r></p></e>
 
       <e><p><l>oe<s n="adv"/></l><r>oggi<s n="adv"/></r></p></e>
       <e><p><l>aici<s n="adv"/></l><r>così<s n="adv"/></r></p></e>
       <e><p><l>como<s n="adv"/></l><r>adesso<s n="adv"/></r></p></e>
       <e><p><l>fintzas<s n="adv"/></l><r>anche<s n="adv"/></r></p></e>
+      <e><p><l>puru<s n="adv"/></l><r>anche<s n="adv"/></r></p></e>
       <e><p><l>galu<s n="adv"/></l><r>ancora<s n="adv"/></r></p></e>
       <e><p><l>apenas<s n="adv"/></l><r>appena<s n="adv"/></r></p></e>
       <e><p><l>atentamente<s n="adv"/></l><r>attentamente<s n="adv"/></r></p></e>
@@ -132,7 +140,6 @@
       <e><p><l>fatzarbu<s n="adv"/></l><r>di<b/>fronte<s n="adv"/></r></p></e>
       <e><p><l>foras<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
       <e><p><l>eris<s n="adv"/></l><r>ieri<s n="adv"/></r></p></e>
-      <e><p><l>in<b/>domo<s n="adv"/></l><r>in<b/>casa<s n="adv"/></r></p></e>
       <e><p><l>paris<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e>
       <e><p><l>intundu<s n="adv"/></l><r>intorno<s n="adv"/></r></p></e>
       <e><p><l>imbetzes<s n="adv"/></l><r>invece<s n="adv"/></r></p></e>
@@ -154,6 +161,7 @@
       <!-- SECCIÓN: Verbos -->
 
       <e><p><l>èssere<s n="vblex"/></l><r>essere<s n="vbser"/></r></p></e>
+      <e><p><l>àere<s n="vblex"/></l><r>avere<s n="vbhaver"/></r></p></e>
 
       <e><p><l>amare<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
       <e><p><l>ancorare<s n="vblex"/></l><r>ancorare<s n="vblex"/></r></p></e>
@@ -200,7 +208,12 @@
   
 
       <!-- SECCIÓN: Punctuación -->
-      <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
+      <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+      <e><re>[.\?;:!]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+      <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
+      <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+  
    </section>
 </dictionary>
 
