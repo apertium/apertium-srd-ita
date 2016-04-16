@@ -3,21 +3,60 @@
   <alphabet></alphabet>
 
   <sdefs>
-    <sdef n="n"     c="Noun"/>
-    <sdef n="pr"    c="Preposición"/>
-    <sdef n="sg"    c="Singular"/>
-    <sdef n="pl"    c="Plural"/>
-    <sdef n="f"     c="Feminine"/>
-    <sdef n="m"     c="Masculine"/>
-    <sdef n="sent"  c="Sentence marker"/>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="cnjcoo"  c=""/>
+    <sdef n="cnjsub"  c=""/>
+    <sdef n="vblex"   c=""/>
+    <sdef n="vbser"   c=""/>
+    <sdef n="adv"     c=""/>
+    <sdef n="itg"     c=""/>
+    <sdef n="adj"     c=""/>
+    <sdef n="np"      c=""/>
+    <sdef n="ant"     c=""/>
+    <sdef n="num"     c=""/>
+    <sdef n="pr"      c="Preposición"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="sent"    c="Sentence marker"/>
   </sdefs>
 
    <section id="main" type="standard">
-      <!-- SECTION: Preposiciones -->
+      <!-- SECCIÓN: Conjunciones -->
+
+      <e><p><l>e<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+      <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
+      <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
+     
+      <e><p><l>mancari<s n="cnjsub"/></l><r>anche<b/>se<s n="cnjsub"/></r></p></e>
+      <e><p><l>chi<s n="cnjsub"/></l><r>che<s n="cnjsub"/></r></p></e>
+
+      <!-- SECCIÓN: Preposiciones -->
 
       <e><p><l>de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
+      <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
+      <e><p><l>chin<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+      <e><p><l>dae<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
+      <e><p><l>dainanti<b/>a<s n="pr"/></l><r>davanti<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>daesegus<s n="pr"/></l><r>dietro<s n="pr"/></r></p></e>
+      <e><p><l>ifforas<s n="pr"/></l><r>fuori<s n="pr"/></r></p></e>
+      <e><p><l>in<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+      <e><p><l>suta<s n="pr"/></l><r>sotto<s n="pr"/></r></p></e>
+      <e><p><l>cara<b/>a<s n="pr"/></l><r>verso<s n="pr"/></r></p></e>
 
-      <!-- SECTION: Sustantivos -->
+      <!-- SECCIÓN: Pronombres -->
+
+      <!-- SECCIÓN: Determinantes -->
+
+      <!-- SECCIÓN: Numeros -->
+
+
+      <e><p><l>chimbe<s n="num"/></l><r>cinque<s n="num"/></r></p></e>
+      <e><p><l>duos<s n="num"/></l><r>due<s n="num"/></r></p></e>
+      <e><p><l>ses<s n="num"/></l><r>sei<s n="num"/></r></p></e>
+
+      <!-- SECCIÓN: Sustantivos -->
       <e><p><l>domo<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>giardinu<s n="n"/><s n="m"/></l><r>giardino<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tempus<s n="n"/><s n="m"/></l><r>tempo<s n="n"/><s n="m"/></r></p></e>
@@ -48,9 +87,112 @@
       <e><p><l>manighedda<s n="n"/><s n="f"/></l><r>manina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>conca<s n="n"/><s n="f"/></l><r>conca<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>abba<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
-      
 
-      <!-- SECTION: Punctuación -->
+      <!-- SECCIÓN: Nombres propios -->
+
+      <e><p><l>Giacomo<s n="np"/><s n="ant"/><s n="m"/></l><r>Giacomo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Maria<s n="np"/><s n="ant"/><s n="f"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+      <!-- SECCIÓN: Adjetivos -->
+
+
+      <e><p><l>bellu<s n="adj"/></l><r>bello<s n="adj"/></r></p></e>
+      <e><p><l>caente<s n="adj"/></l><r>caldo<s n="adj"/></r></p></e>
+      <e><p><l>cuntentu<s n="adj"/></l><r>contento<s n="adj"/></r></p></e>
+      <e><p><l>felitze<s n="adj"/></l><r>felice<s n="adj"/></r></p></e>
+      <e><p><l>frittu<s n="adj"/></l><r>freddo<s n="adj"/></r></p></e>
+      <e><p><l>mannu<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
+      <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/></r></p></e>
+      <e><p><l>betzu<s n="adj"/></l><r>vecchio<s n="adj"/></r></p></e>
+      <e><p><l>lestru<s n="adj"/></l><r>veloce<s n="adj"/></r></p></e>
+      <e><p><l>accurtzu<s n="adj"/></l><r>vicino<s n="adj"/></r></p></e>
+
+      <!-- SECCIÓN: Adverbios -->
+
+      <e><p><l>ue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>proite<s n="adv"/></l><r>perché<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>cando<s n="adv"/></l><r>quando<s n="adv"/><s n="itg"/></r></p></e>
+
+      <e><p><l>como<s n="adv"/></l><r>adesso<s n="adv"/></r></p></e>
+      <e><p><l>fintzas<s n="adv"/></l><r>anche<s n="adv"/></r></p></e>
+      <e><p><l>galu<s n="adv"/></l><r>ancora<s n="adv"/></r></p></e>
+      <e><p><l>apenas<s n="adv"/></l><r>appena<s n="adv"/></r></p></e>
+      <e><p><l>atentamente<s n="adv"/></l><r>attentamente<s n="adv"/></r></p></e>
+      <e><p><l>travessu<s n="adv"/></l><r>attraverso<s n="adv"/></r></p></e>
+      <e><p><l>vene<s n="adv"/></l><r>bene<s n="adv"/></r></p></e>
+      <e><p><l>daesegus<s n="adv"/></l><r>dietro<s n="adv"/></r></p></e>
+      <e><p><l>fatzarbu<s n="adv"/></l><r>di<b/>fronte<s n="adv"/></r></p></e>
+      <e><p><l>foras<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
+      <e><p><l>eris<s n="adv"/></l><r>ieri<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>domo<s n="adv"/></l><r>in<b/>casa<s n="adv"/></r></p></e>
+      <e><p><l>paris<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e>
+      <e><p><l>intundu<s n="adv"/></l><r>intorno<s n="adv"/></r></p></e>
+      <e><p><l>imbetzes<s n="adv"/></l><r>invece<s n="adv"/></r></p></e>
+      <e><p><l>abbellu-abbellu<s n="adv"/></l><r>lentamente<s n="adv"/></r></p></e>
+      <e><p><l>mai<s n="adv"/></l><r>mai<s n="adv"/></r></p></e>
+      <e><p><l>meda<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
+      <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+      <e><p><l>nono<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
+      <e><p><l>oe<s n="adv"/></l><r>oggi<s n="adv"/></r></p></e>
+      <e><p><l>ora<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>tottue<s n="adv"/></l><r>ovunque<s n="adv"/></r></p></e>
+      <e><p><l>oviamente<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
+      <e><p><l>luego<s n="adv"/></l><r>poi<s n="adv"/></r></p></e>
+      <e><p><l>probabilmente<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
+      <e><p><l>duncas<s n="adv"/></l><r>quindi<s n="adv"/></r></p></e>
+      <e><p><l>semper<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
+      <e><p><l>suta<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
+      <e><p><l>bighinu<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
+
+      <!-- SECCIÓN: Verbos -->
+
+      <e><p><l>èssere<s n="vblex"/></l><r>essere<s n="vbser"/></r></p></e>
+
+      <e><p><l>amare<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
+      <e><p><l>ancorare<s n="vblex"/></l><r>ancorare<s n="vblex"/></r></p></e>
+      <e><p><l>andare<s n="vblex"/></l><r>andare<s n="vblex"/></r></p></e>
+      <e><p><l>ascurtare<s n="vblex"/></l><r>ascoltare<s n="vblex"/></r></p></e>
+      <e><p><l>colare<s n="vblex"/></l><r>attraversare<s n="vblex"/></r></p></e>
+      <e><p><l>tènnere<s n="vblex"/></l><r>avere<s n="vblex"/></r></p></e>
+      <e><p><l>viere<s n="vblex"/></l><r>bere<s n="vblex"/></r></p></e>
+      <e><p><l>chircare<s n="vblex"/></l><r>cercare<s n="vblex"/></r></p></e>
+      <e><p><l>b'at<s n="vblex"/></l><r>c'è<s n="vblex"/></r></p></e>
+      <e><p><l>pedire<s n="vblex"/></l><r>chiedere<s n="vblex"/></r></p></e>
+      <e><p><l>contare<s n="vblex"/></l><r>contare<s n="vblex"/></r></p></e>
+      <e><p><l>acuntentare<s n="vblex"/></l><r>contentare<s n="vblex"/></r></p></e>
+      <e><p><l>currere<s n="vblex"/></l><r>correre<s n="vblex"/></r></p></e>
+      <e><p><l>narrere<s n="vblex"/></l><r>dire<s n="vblex"/></r></p></e>
+      <e><p><l>dimandare<s n="vblex"/></l><r>domandare<s n="vblex"/></r></p></e>
+      <e><p><l>drommire<s n="vblex"/></l><r>dormire<s n="vblex"/></r></p></e>
+      <e><p><l>fàghere<s n="vblex"/></l><r>fare<s n="vblex"/></r></p></e>
+      <e><p><l>accabbare<s n="vblex"/></l><r>finire<s n="vblex"/></r></p></e>
+      <e><p><l>jocare<s n="vblex"/></l><r>giocare<s n="vblex"/></r></p></e>
+      <e><p><l>mirare<s n="vblex"/></l><r>guardare<s n="vblex"/></r></p></e>
+      <e><p><l>mandicare<s n="vblex"/></l><r>mangiare<s n="vblex"/></r></p></e>
+      <e><p><l>cuvare<s n="vblex"/></l><r>nascondere<s n="vblex"/></r></p></e>
+      <e><p><l>ottènnere<s n="vblex"/></l><r>ottenere<s n="vblex"/></r></p></e>
+      <e><p><l>faveddare<s n="vblex"/></l><r>parlare<s n="vblex"/></r></p></e>
+      <e><p><l>pessare<s n="vblex"/></l><r>pensare<s n="vblex"/></r></p></e>
+      <e><p><l>piaghere<s n="vblex"/></l><r>piacere<s n="vblex"/></r></p></e>
+      <e><p><l>podere<s n="vblex"/></l><r>potere<s n="vblex"/></r></p></e>
+      <e><p><l>respondere<s n="vblex"/></l><r>rispondere<s n="vblex"/></r></p></e>
+      <e><p><l>resessire<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
+      <e><p><l>lischire<s n="vblex"/></l><r>sapere<s n="vblex"/></r></p></e>
+      <e><p><l>setzere<s n="vblex"/></l><r>sedere<s n="vblex"/></r></p></e>
+      <e><p><l>intendere<s n="vblex"/></l><r>sentire<s n="vblex"/></r></p></e>
+      <e><p><l>sonare<s n="vblex"/></l><r>sonare<s n="vblex"/></r></p></e>
+      <e><p><l>istare<s n="vblex"/></l><r>stare<s n="vblex"/></r></p></e>
+      <e><p><l>sonare<s n="vblex"/></l><r>suonare<s n="vblex"/></r></p></e>
+      <e><p><l>tènnere<s n="vblex"/></l><r>tenere<s n="vblex"/></r></p></e>
+      <e><p><l>testare<s n="vblex"/></l><r>testare<s n="vblex"/></r></p></e>
+      <e><p><l>agattare<s n="vblex"/></l><r>trovare<s n="vblex"/></r></p></e>
+      <e><p><l>vìdere<s n="vblex"/></l><r>vedere<s n="vblex"/></r></p></e>
+      <e><p><l>vennere<s n="vblex"/></l><r>venire<s n="vblex"/></r></p></e>
+      <e><p><l>ghettare<s n="vblex"/></l><r>versare<s n="vblex"/></r></p></e>
+      <e><p><l>vistare<s n="vblex"/></l><r>vistare<s n="vblex"/></r></p></e>
+  
+
+      <!-- SECCIÓN: Punctuación -->
       <e><p><l>.<s n="sent"/></l><r>.<s n="sent"/></r></p></e>
    </section>
 </dictionary>
