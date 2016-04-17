@@ -9,6 +9,7 @@
     <sdef n="vblex"   c=""/>
     <sdef n="vbhaver" c=""/>
     <sdef n="vbser"   c=""/>
+    <sdef n="vbmod"   c=""/>
     <sdef n="adv"     c=""/>
     <sdef n="itg"     c=""/>
     <sdef n="adj"     c=""/>
@@ -167,6 +168,7 @@
 
       <e><p><l>èssere<s n="vblex"/></l><r>essere<s n="vbser"/></r></p></e>
       <e><p><l>àere<s n="vblex"/></l><r>avere<s n="vbhaver"/></r></p></e>
+      <e><p><l>dèpere<s n="vbmod"/></l><r>devere<s n="vbmod"/></r></p></e>
 
       <e><p><l>amare<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
       <e><p><l>ancorare<s n="vblex"/></l><r>ancorare<s n="vblex"/></r></p></e>
