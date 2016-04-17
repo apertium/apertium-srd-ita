@@ -14,6 +14,7 @@
     <sdef n="itg"     c=""/>
     <sdef n="adj"     c=""/>
     <sdef n="det"     c=""/>
+    <sdef n="rel"     c=""/>
     <sdef n="def"     c=""/>
     <sdef n="pos"     c=""/>
     <sdef n="ind"     c=""/>
@@ -160,9 +161,12 @@
 
       <!-- SECCIÓN: Adverbios -->
 
+      <e><p><l>cando<s n="rel"/><s n="adv"/></l><r>quando<s n="rel"/><s n="adv"/></r></p></e>
+      <e><p><l>ue<s n="rel"/><s n="adv"/></l><r>dove<s n="rel"/><s n="adv"/></r></p></e>
+
       <e><p><l>ue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>pro<b/>ite<s n="adv"/><s n="itg"/></l><r>perché<s n="adv"/><s n="itg"/></r></p></e>
-      <e><p><l>cando<s n="adv"/></l><r>quando<s n="adv"/><s n="itg"/></r></p></e>
+      <e><p><l>cando<s n="adv"/><s n="itg"/></l><r>quando<s n="adv"/><s n="itg"/></r></p></e>
 
       <e><p><l>oe<s n="adv"/></l><r>oggi<s n="adv"/></r></p></e>
       <e><p><l>aici<s n="adv"/></l><r>così<s n="adv"/></r></p></e>
