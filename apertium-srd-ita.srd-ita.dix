@@ -90,7 +90,6 @@
       <e><p><l>su<s n="det"/><s n="def"/></l><r>il<s n="det"/><s n="def"/></r></p></e>
       <e><p><l>unu<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
 
-      <e><p><l>suo<s n="det"/><s n="pos"/></l><r>suo<s n="det"/><s n="pos"/></r></p></e>
       <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
@@ -140,6 +139,8 @@
       <!-- SECCIÓN: Adjetivos -->
 
       <e><p><l>àteru<s n="adj"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
+
+      <e><p><l>suo<s n="adj"/><s n="pos"/></l><r>suo<s n="adj"/><s n="pos"/></r></p></e>
 
       <e><p><l>bellu<s n="adj"/></l><r>bello<s n="adj"/></r></p></e>
       <e><p><l>caente<s n="adj"/></l><r>caldo<s n="adj"/></r></p></e>
