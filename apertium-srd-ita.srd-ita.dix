@@ -20,11 +20,20 @@
     <sdef n="np"      c=""/>
     <sdef n="ant"     c=""/>
     <sdef n="num"     c=""/>
+    <sdef n="prn"     c=""/>
+    <sdef n="pro"     c=""/>
+    <sdef n="enc"     c=""/>
+    <sdef n="ref"     c=""/>
+    <sdef n="tn"      c=""/>
+    <sdef n="p1"      c=""/>
+    <sdef n="p2"      c=""/>
+    <sdef n="p3"      c=""/>
     <sdef n="pr"      c="Preposición"/>
     <sdef n="sg"      c="Singular"/>
     <sdef n="pl"      c="Plural"/>
     <sdef n="f"       c="Feminine"/>
     <sdef n="m"       c="Masculine"/>
+    <sdef n="nt"      c=""/>
 
     <sdef n="cm"      c="Coma"/>
     <sdef n="sent"    c="Sentence marker"/>
@@ -58,6 +67,23 @@
       <e><p><l>cara<b/>a<s n="pr"/></l><r>verso<s n="pr"/></r></p></e>
 
       <!-- SECCIÓN: Pronombres -->
+
+      <e><p><l>deo<s n="prn"/><s n="tn"/><s  n="p1"/></l><r>io<s n="prn"/><s n="tn"/><s  n="p1"/></r></p></e>
+      <e><p><l>tue<s n="prn"/><s n="tn"/><s n="p2"/></l><r>tu<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
+
+      <e><p><l>mi<s n="prn"/><s n="pro"/><s n="p1"/></l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/></r></p></e>
+      <e><p><l>ti<s n="prn"/><s n="pro"/><s n="p2"/></l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/></r></p></e>
+      <e><p><l>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/></r></p></e>
+
+      <e><p><l>mi<s n="prn"/><s n="enc"/><s n="p1"/></l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/></r></p></e>
+      <e><p><l>ti<s n="prn"/><s n="enc"/><s n="p2"/></l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/></r></p></e>
+      <e><p><l>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/></r></p></e>
+
+      <e><p><l>lu<s n="prn"/><s n="pro"/><s n="p3"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/></r></p></e>
+      <e><p><l>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
+
+      <e><p><l>lu<s n="prn"/><s n="enc"/><s n="p3"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/></r></p></e>
+      <e><p><l>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
 
       <!-- SECCIÓN: Determinantes -->
 
@@ -186,6 +212,7 @@
       <e><p><l>currere<s n="vblex"/></l><r>correre<s n="vblex"/></r></p></e>
       <e><p><l>nàrrere<s n="vblex"/></l><r>dire<s n="vblex"/></r></p></e>
       <e><p><l>dimandare<s n="vblex"/></l><r>domandare<s n="vblex"/></r></p></e>
+      <e><p><l>pregontare<s n="vblex"/></l><r>domandare<s n="vblex"/></r></p></e>
       <e><p><l>drommire<s n="vblex"/></l><r>dormire<s n="vblex"/></r></p></e>
       <e><p><l>fàghere<s n="vblex"/></l><r>fare<s n="vblex"/></r></p></e>
       <e><p><l>accabbare<s n="vblex"/></l><r>finire<s n="vblex"/></r></p></e>
@@ -209,7 +236,7 @@
       <e><p><l>tènnere<s n="vblex"/></l><r>tenere<s n="vblex"/></r></p></e>
       <e><p><l>testare<s n="vblex"/></l><r>testare<s n="vblex"/></r></p></e>
       <e><p><l>agatare<s n="vblex"/></l><r>trovare<s n="vblex"/></r></p></e>
-      <e><p><l>vìdere<s n="vblex"/></l><r>vedere<s n="vblex"/></r></p></e>
+      <e><p><l>bidire<s n="vblex"/></l><r>vedere<s n="vblex"/></r></p></e>
       <e><p><l>bènnere<s n="vblex"/></l><r>venire<s n="vblex"/></r></p></e>
       <e><p><l>ghettare<s n="vblex"/></l><r>versare<s n="vblex"/></r></p></e>
       <e><p><l>vistare<s n="vblex"/></l><r>vistare<s n="vblex"/></r></p></e>
