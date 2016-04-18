@@ -94,6 +94,7 @@
       <e><p><l>dae<b/>segus<b/>a<s n="pr"/></l><r>dietro<b/>a<s n="pr"/></r></p></e>
       <e><p><l>ifforas<s n="pr"/></l><r>fuori<s n="pr"/></r></p></e>
       <e><p><l>in<s n="pr"/></l><r>in<s n="pr"/></r></p></e>
+      <e><p><l>pro<b/>mèdiu<b/>de<s n="pr"/></l><r>attraverso<s n="pr"/></r></p></e>
       <e><p><l>suta<s n="pr"/></l><r>sotto<s n="pr"/></r></p></e>
       <e><p><l>cara<b/>a<s n="pr"/></l><r>verso<s n="pr"/></r></p></e>
       <e><p><l>bighinu<b/>a<s n="pr"/></l><r>vicino<b/>a<s n="pr"/></r></p></e>
@@ -102,6 +103,7 @@
 
       <e><p><l>deo<s n="prn"/><s n="tn"/><s  n="p1"/></l><r>io<s n="prn"/><s n="tn"/><s  n="p1"/></r></p></e>
       <e><p><l>tue<s n="prn"/><s n="tn"/><s n="p2"/></l><r>tu<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
+      <e><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
 
       <e><p><l>mi<s n="prn"/><s n="pro"/><s n="p1"/></l><r>mi<s n="prn"/><s n="pro"/><s n="p1"/></r></p></e>
       <e><p><l>ti<s n="prn"/><s n="pro"/><s n="p2"/></l><r>ti<s n="prn"/><s n="pro"/><s n="p2"/></r></p></e>
@@ -118,6 +120,7 @@
       <e><p><l>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
 
       <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e><p><l>totu<s n="prn"/><s n="tn"/></l><r>tutto<s n="prn"/><s n="tn"/></r></p></e>
 
       <e><p><l>ite<s n="prn"/><s n="itg"/><s n="mf"/></l><r>cosa<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
 
@@ -163,12 +166,13 @@
       <e><p><l>resposta<s n="n"/><s n="f"/></l><r>risposta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mama<s n="n"/><s n="f"/></l><r>madre<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mesa<s n="n"/><s n="f"/></l><r>tavola<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>cadira<s n="n"/><s n="f"/></l><r>sedi<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cadira<s n="n"/><s n="f"/></l><r>sedia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sonu<s n="n"/><s n="m"/></l><r>suono<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pugione<s n="n"/><s n="m"/></l><r>uccello<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>animale<s n="n"/><s n="m"/></l><r>animale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>manighedda<s n="n"/><s n="f"/></l><r>manina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>conca<s n="n"/><s n="f"/></l><r>conca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>conca<s n="n"/><s n="f"/></l><r>testa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>abba<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
   
   
@@ -665,18 +669,20 @@
       <e><p><l>galu<s n="adv"/></l><r>ancora<s n="adv"/></r></p></e>
       <e><p><l>àpenas<s n="adv"/></l><r>appena<s n="adv"/></r></p></e>
       <e><p><l>atentamente<s n="adv"/></l><r>attentamente<s n="adv"/></r></p></e>
-      <e><p><l>traessu<s n="adv"/></l><r>attraverso<s n="adv"/></r></p></e>
+      <e><p><l>travessu<s n="adv"/></l><r>attraverso<s n="adv"/></r></p></e>
+      <e><p><l>peri<s n="adv"/></l><r>attraverso<s n="adv"/></r></p></e>
       <e><p><l>vene<s n="adv"/></l><r>bene<s n="adv"/></r></p></e>
       <e><p><l>dae<b/>segus<s n="adv"/></l><r>dietro<s n="adv"/></r></p></e>
       <e><p><l>fatzarbu<s n="adv"/></l><r>di<b/>fronte<s n="adv"/></r></p></e>
       <e><p><l>foras<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
       <e><p><l>eris<s n="adv"/></l><r>ieri<s n="adv"/></r></p></e>
       <e><p><l>paris<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e>
-      <e><p><l>intundu<s n="adv"/></l><r>intorno<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>inghìriu<s n="adv"/></l><r>intorno<s n="adv"/></r></p></e>
       <e><p><l>imbetzes<s n="adv"/></l><r>invece<s n="adv"/></r></p></e>
       <e><p><l>abbellu-abbellu<s n="adv"/></l><r>lentamente<s n="adv"/></r></p></e>
       <e><p><l>mai<s n="adv"/></l><r>mai<s n="adv"/></r></p></e>
       <e><p><l>meda<s n="adv"/></l><r>molto<s n="adv"/></r></p></e>
+      <e><p><l>no<s n="adv"/></l><r>non<s n="adv"/></r></p></e>
       <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
       <e><p><l>nono<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
       <e><p><l>como<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
@@ -695,6 +701,8 @@
       <e><p><l>èssere<s n="vblex"/></l><r>essere<s n="vbser"/></r></p></e>
       <e><p><l>àere<s n="vblex"/></l><r>avere<s n="vbhaver"/></r></p></e>
       <e><p><l>dèpere<s n="vbmod"/></l><r>devere<s n="vbmod"/></r></p></e>
+      <e><p><l>bòlere<s n="vbmod"/></l><r>volere<s n="vbmod"/></r></p></e>
+      <e><p><l>chèrrere<s n="vbmod"/></l><r>volere<s n="vbmod"/></r></p></e>
 
       <e><p><l>amare<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
       <e><p><l>ancorare<s n="vblex"/></l><r>ancorare<s n="vblex"/></r></p></e>
@@ -721,7 +729,7 @@
       <e><p><l>cuvare<s n="vblex"/></l><r>nascondere<s n="vblex"/></r></p></e>
       <e><p><l>otènnere<s n="vblex"/></l><r>ottenere<s n="vblex"/></r></p></e>
       <e><p><l>faeddare<s n="vblex"/></l><r>parlare<s n="vblex"/></r></p></e>
-      <e><p><l>pessare<s n="vblex"/></l><r>pensare<s n="vblex"/></r></p></e>
+      <e><p><l>pensare<s n="vblex"/></l><r>pensare<s n="vblex"/></r></p></e>
       <e><p><l>pràghere<s n="vblex"/></l><r>piacere<s n="vblex"/></r></p></e>
       <e><p><l>pòdere<s n="vblex"/></l><r>potere<s n="vblex"/></r></p></e>
       <e><p><l>respòndere<s n="vblex"/></l><r>rispondere<s n="vblex"/></r></p></e>
@@ -739,7 +747,10 @@
       <e><p><l>bènnere<s n="vblex"/></l><r>venire<s n="vblex"/></r></p></e>
       <e><p><l>ghettare<s n="vblex"/></l><r>versare<s n="vblex"/></r></p></e>
       <e><p><l>vistare<s n="vblex"/></l><r>vistare<s n="vblex"/></r></p></e>
-  
+      <e><p><l>rìere<s n="vblex"/></l><r>ridere<s n="vblex"/></r></p></e>
+      <e><p><l>acurtziare<s n="vblex"/></l><r>avvicinare<s n="vblex"/></r></p></e>
+      <e><p><l>aprobiare<s n="vblex"/></l><r>avvicinare<s n="vblex"/></r></p></e>
+
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>

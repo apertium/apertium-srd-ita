@@ -3,6 +3,10 @@
   <rule>
     <match lemma="quindi" tags="adv"><select lemma="tando" tags="adv"/></match>
   </rule>
+
+  <rule>
+    <match lemma="volere" tags="vbmod.*"><select lemma="bòlere" tags="vblex.*"/></match>
+  </rule>
 </rules>
 
 <!-- 
