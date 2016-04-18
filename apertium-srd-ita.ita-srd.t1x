@@ -13,6 +13,12 @@
     <def-cat n="inf">
        <cat-item tags="vblex.inf"/>
     </def-cat>
+    <def-cat n="ifi">
+       <cat-item tags="vbmod.ifi.*"/>
+       <cat-item tags="vbser.ifi.*"/>
+       <cat-item tags="vbhaver.ifi.*"/>
+       <cat-item tags="vblex.ifi.*"/>
+    </def-cat>
     <def-cat n="imper">
        <cat-item tags="vblex.imp.*"/>
     </def-cat>
@@ -52,6 +58,14 @@
      <attr-item tags="prn.pro"/>
      <attr-item tags="prn.enc"/>
   </def-attr>
+  <def-attr n="a_verb">
+     <attr-item tags="vblex"/>
+     <attr-item tags="vbmod"/>
+     <attr-item tags="vbser"/>
+     <attr-item tags="vbhaver"/>
+  </def-attr>
+
+
 </section-def-attrs>
 <section-def-vars>
 <def-var n="genero"/>
@@ -2142,6 +2156,38 @@
 
 
     <!-- ================================================================== -->
+
+    <rule comment="regla: ifi">
+       <pattern>
+         <pattern-item n="ifi"/>
+       </pattern>
+       <action>
+         
+         <out>
+           <chunk name="ser_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vblex.pri"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pp.m.sg"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
 
     <rule comment="regla: imper enc">
        <pattern>
