@@ -23,6 +23,7 @@
     <sdef n="ant"     c=""/>
     <sdef n="num"     c=""/>
     <sdef n="prn"     c=""/>
+    <sdef n="ord"     c=""/>
     <sdef n="dem"     c=""/>
     <sdef n="pro"     c=""/>
     <sdef n="enc"     c=""/>
@@ -148,11 +149,11 @@
 
       <e><p><l>ite<s n="prn"/><s n="itg"/><s n="mf"/></l><r>cosa<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
 
-      <e><p><l>issu<s n="prn"/><s n="tn"/></l><r>esso<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/></l><r>esso<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>unu<s n="prn"/><s n="tn"/></l><r>uno<s n="prn"/><s n="tn"/></r></p></e>
 
       <e><p><l>chi<s n="rel"/><s n="an"/></l><r>che<s n="rel"/><s n="an"/></r></p></e>
-      <e><p><l>cale<s n="rel"/><s n="aa"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/></r></p></e>
+      <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/></r></p></e>
 
       <!-- SECCIÓN: Determinantes -->
 
@@ -165,6 +166,7 @@
       <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
       <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e><p><l>àteru<s n="det"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
+      <e><p><l>cada<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
 
@@ -677,7 +679,7 @@
       <e><p><l>casu<s n="n"/><s n="m"/></l><r>caso<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ciclista<s n="n"/><s n="mf"/></l><r>ciclista<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tzìrculu<s n="n"/><s n="m"/></l><r>club<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>comune<s n="n"/><s n="m"/></l><r>comune<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>comuna<s n="n"/><s n="f"/></l><r>comune<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cussìgiu<s n="n"/><s n="m"/></l><r>consiglio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>esèrtzitu<s n="n"/><s n="m"/></l><r>esercito<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>frutu<s n="n"/><s n="m"/></l><r>frutto<s n="n"/><s n="m"/></r></p></e>
@@ -689,7 +691,7 @@
       <e><p><l>sustennu<s n="n"/><s n="m"/></l><r>supporto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tapete<s n="n"/><s n="m"/></l><r>tappeto<s n="n"/><s n="m"/></r></p></e>
 
-      <e><p><l>chercu<s n="n"/><s n="f"/></l><r>quercia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>chercu<s n="n"/><s n="m"/></l><r>quercia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cuadru<s n="n"/><s n="m"/></l><r>quadro<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>aeroplanu<s n="n"/><s n="m"/></l><r>aereo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>aviatzione<s n="n"/><s n="f"/></l><r>aviazione<s n="n"/><s n="f"/></r></p></e>
@@ -753,8 +755,8 @@
       <e><p><l>piessignu<s n="adj"/></l><r>particolare<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>printzipale<s n="adj"/></l><r>principale<s n="adj"/></r></p></e>
       <e><p><l>nou<s n="adj"/></l><r>nuovo<s n="adj"/></r></p></e>
-      <e><p><l>minore<s n="adj"/></l><r>piccolo<s n="adj"/></r></p></e>
-      <e><p><l>primu<s n="adj"/></l><r>primo<s n="adj"/></r></p></e>
+      <e><p><l>minore<s n="adj"/></l><r>piccolo<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>primu<s n="adj"/><s n="ord"/></l><r>primo<s n="adj"/></r></p></e>
       <e><p><l>religiosu<s n="adj"/></l><r>religioso<s n="adj"/></r></p></e>
       <e><p><l>aereonauticu<s n="adj"/></l><r>aeronautico<s n="adj"/></r></p></e>
       <e><p><l>castiglianu<s n="adj"/></l><r>castigliano<s n="adj"/></r></p></e>
@@ -1244,6 +1246,7 @@
       <e><p><l>abbandare<s n="vblex"/></l><r>riservare<s n="vblex"/></r></p></e>
       <e><p><l>respetare<s n="vblex"/></l><r>rispettare<s n="vblex"/></r></p></e>
       <e><p><l>riunire<s n="vblex"/></l><r>riunire<s n="vblex"/></r></p></e>
+      <e><p><l>acudire<s n="vblex"/></l><r>provenire<s n="vblex"/></r></p></e>
 
 
 
