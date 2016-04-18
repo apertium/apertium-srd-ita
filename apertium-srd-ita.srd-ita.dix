@@ -22,6 +22,7 @@
     <sdef n="ant"     c=""/>
     <sdef n="num"     c=""/>
     <sdef n="prn"     c=""/>
+    <sdef n="dem"     c=""/>
     <sdef n="pro"     c=""/>
     <sdef n="enc"     c=""/>
     <sdef n="ref"     c=""/>
@@ -70,6 +71,12 @@
       <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
       <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
       <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+    </pardef>
+
+    <pardef n="mf_GD|sp_ND">
+      <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p><par n="sp_ND"/></e>
+      <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p><par n="sp_ND"/></e>
+      <e r="RL"><p><l><s n="mf"/></l><r><s n="m"/></r></p><par n="sp_ND"/></e>
     </pardef>
 
   </pardefs>
@@ -130,13 +137,15 @@
       <e><p><l>unu<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>carchi<s n="det"/><s n="ind"/></l><r>alcun<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/></e>
 
-      <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p></e>
+      <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
+      <e><p><l>àteru<s n="det"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
 
 
       <e><p><l>chimbe<s n="num"/></l><r>cinque<s n="num"/></r></p></e>
-      <e><p><l>duos<s n="num"/></l><r>due<s n="num"/></r></p></e>
+      <e><p><l>duos<s n="num"/></l><r>due<s n="num"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ses<s n="num"/></l><r>sei<s n="num"/></r></p></e>
 
       <!-- SECCIÓN: Sustantivos -->
@@ -163,6 +172,7 @@
       <e><p><l>ogru<s n="n"/><s n="m"/></l><r>occhio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>dimanda<s n="n"/><s n="f"/></l><r>domanda<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pregonta<s n="n"/><s n="f"/></l><r>domanda<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>manedda<s n="n"/><s n="f"/></l><r>manina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>giogu<s n="n"/><s n="m"/></l><r>gioco<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>resposta<s n="n"/><s n="f"/></l><r>risposta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mama<s n="n"/><s n="f"/></l><r>madre<s n="n"/><s n="f"/></r></p></e>
@@ -637,7 +647,6 @@
 
       <!-- SECCIÓN: Adjetivos -->
 
-      <e><p><l>àteru<s n="adj"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
 
       <e><p><l>suo<s n="adj"/><s n="pos"/></l><r>suo<s n="adj"/><s n="pos"/></r></p></e>
 
@@ -650,7 +659,7 @@
 
       <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/></r></p></e>
       <e><p><l>betzu<s n="adj"/></l><r>vecchio<s n="adj"/></r></p></e>
-      <e><p><l>lestru<s n="adj"/></l><r>veloce<s n="adj"/></r></p></e>
+      <e><p><l>lestru<s n="adj"/></l><r>veloce<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>accurtzu<s n="adj"/></l><r>vicino<s n="adj"/></r></p></e>
 
       <!-- SECCIÓN: Adverbios -->
@@ -688,7 +697,7 @@
       <e><p><l>no<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
       <e><p><l>nono<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
       <e><p><l>como<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
-      <e><p><l>in<b/>tottue<s n="adv"/></l><r>ovunque<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>totue<s n="adv"/></l><r>ovunque<s n="adv"/></r></p></e>
       <e><p><l>oviamente<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
       <e><p><l>luego<s n="adv"/></l><r>poi<s n="adv"/></r></p></e>
       <e><p><l>probabilmente<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
@@ -705,6 +714,7 @@
       <e><p><l>dèpere<s n="vbmod"/></l><r>devere<s n="vbmod"/></r></p></e>
       <e><p><l>bòlere<s n="vbmod"/></l><r>volere<s n="vbmod"/></r></p></e>
       <e><p><l>chèrrere<s n="vbmod"/></l><r>volere<s n="vbmod"/></r></p></e>
+      <e><p><l>pòdere<s n="vbmod"/></l><r>potere<s n="vbmod"/></r></p></e>
 
       <e><p><l>amare<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
       <e><p><l>ancorare<s n="vblex"/></l><r>ancorare<s n="vblex"/></r></p></e>
@@ -733,7 +743,6 @@
       <e><p><l>faeddare<s n="vblex"/></l><r>parlare<s n="vblex"/></r></p></e>
       <e><p><l>pensare<s n="vblex"/></l><r>pensare<s n="vblex"/></r></p></e>
       <e><p><l>pràghere<s n="vblex"/></l><r>piacere<s n="vblex"/></r></p></e>
-      <e><p><l>pòdere<s n="vblex"/></l><r>potere<s n="vblex"/></r></p></e>
       <e><p><l>respòndere<s n="vblex"/></l><r>rispondere<s n="vblex"/></r></p></e>
       <e><p><l>resèssere<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
       <e><p><l>ischire<s n="vblex"/></l><r>sapere<s n="vblex"/></r></p></e>
