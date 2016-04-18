@@ -31,6 +31,9 @@
     <sdef n="cog"     c=""/>
     <sdef n="top"     c=""/>
     <sdef n="tn"      c=""/>
+    <sdef n="an"      c=""/>
+    <sdef n="aa"      c=""/>
+    <sdef n="nn"      c=""/>
     <sdef n="p1"      c=""/>
     <sdef n="p2"      c=""/>
     <sdef n="p3"      c=""/>
@@ -88,6 +91,7 @@
       <!-- SECCIÓN: Conjunciones -->
 
       <e><p><l>e<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
+      <e><p><l>e<s n="cnjcoo"/></l><r>ed<s n="cnjcoo"/></r></p></e>
       <e><p><l>però<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
       <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
      
@@ -116,7 +120,7 @@
 
       <!-- SECCIÓN: Pronombres -->
 
-      <e><p><l>deo<s n="prn"/><s n="tn"/><s  n="p1"/></l><r>io<s n="prn"/><s n="tn"/><s  n="p1"/></r></p></e>
+      <e><p><l>deo<s n="prn"/><s n="tn"/><s n="p1"/></l><r>io<s n="prn"/><s n="tn"/><s n="p1"/></r></p></e>
       <e><p><l>tue<s n="prn"/><s n="tn"/><s n="p2"/></l><r>tu<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
       <e><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/></r></p></e>
 
@@ -143,6 +147,9 @@
 
       <e><p><l>issu<s n="prn"/><s n="tn"/></l><r>esso<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>unu<s n="prn"/><s n="tn"/></l><r>uno<s n="prn"/><s n="tn"/></r></p></e>
+
+      <e><p><l>chi<s n="rel"/><s n="an"/></l><r>che<s n="rel"/><s n="an"/></r></p></e>
+      <e><p><l>cale<s n="rel"/><s n="aa"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/></r></p></e>
 
       <!-- SECCIÓN: Determinantes -->
 
@@ -659,7 +666,7 @@
      <e><p><l>tzitadinu<s n="n"/><s n="f"/></l><r>cittadino<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sea<s n="n"/><s n="f"/></l><r>sede<s n="n"/><s n="f"/></r></p></e>
 
-      <e><p><l>bombardamentu<s n="n"/><s  n="m"/></l><r>bombardamento<s n="n"/><s  n="m"/></r></p></e>
+      <e><p><l>bombardamentu<s n="n"/><s n="m"/></l><r>bombardamento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>antzianu<s n="n"/><s n="m"/></l><r>anziano<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sèneghe<s n="n"/><s n="m"/></l><r>anziano<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>atacu<s n="n"/><s n="m"/></l><r>attacco<s n="n"/><s n="m"/></r></p></e>
@@ -679,6 +686,17 @@
       <e><p><l>sustennu<s n="n"/><s n="m"/></l><r>supporto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tapete<s n="n"/><s n="m"/></l><r>tappeto<s n="n"/><s n="m"/></r></p></e>
 
+      <e><p><l>chercu<s n="n"/><s n="f"/></l><r>quercia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cuadru<s n="n"/><s n="m"/></l><r>quadro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>aeroplanu<s n="n"/><s n="m"/></l><r>aereo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>aviatzione<s n="n"/><s n="f"/></l><r>aviazione<s n="n"/><s n="f"/></r></p></e>
+
+      <e><p><l>òpera<s n="n"/><s n="f"/></l><r>opera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>regia<s n="n"/><s n="f"/></l><r>regia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>membru<s n="n"/><s n="m"/></l><r>membro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nord<s n="n"/><s n="m"/></l><r>nord<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>re<s n="n"/><s n="m"/></l><r>re<s n="n"/><s n="m"/></r></p></e>
+
       <!-- SECCIÓN: Nombres propios -->
 
       <e><p><l>Giacomo<s n="np"/><s n="ant"/><s n="m"/></l><r>Giacomo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -686,9 +704,13 @@
 
       <e><p><l>Lafuente<s n="np"/><s n="cog"/><s n="mf"/></l><r>Lafuente<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
       
-      <e><p><l>Guernica<s n="np"/><s n="top"/><s  n="f"/></l><r>Guernica<s  n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Guernica<s n="np"/><s n="top"/><s n="f"/></l><r>Guernica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Ispagna<s n="np"/><s n="top"/><s n="f"/></l><r>Spagna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Biscaglia<s n="np"/><s n="top"/><s n="m"/></l><r>Biscaglia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+
+      <e><p><l>Roberto<s n="np"/><s n="ant"/><s n="m"/></l><r>Roberto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Picasso<s n="np"/><s n="cog"/><s n="mf"/></l><r>Picasso<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+
 
       <!-- SECCIÓN: Adjetivos -->
 
@@ -722,6 +744,18 @@
       <e><p><l>istòricu<s n="adj"/></l><r>storico<s n="adj"/></r></p></e>
       <e><p><l>tedescu<s n="adj"/></l><r>tedesco<s n="adj"/></r></p></e>
       <e><p><l>bolontàriu<s n="adj"/></l><r>volontario<s n="adj"/></r></p></e>
+
+      <e><p><l>naturale<s n="adj"/></l><r>naturale<s n="adj"/></r></p></e>
+      <e><p><l>particulare<s n="adj"/></l><r>particolare<s n="adj"/></r></p></e>
+      <e><p><l>piessignu<s n="adj"/></l><r>particolare<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>printzipale<s n="adj"/></l><r>principale<s n="adj"/></r></p></e>
+      <e><p><l>nou<s n="adj"/></l><r>nuovo<s n="adj"/></r></p></e>
+      <e><p><l>minore<s n="adj"/></l><r>piccolo<s n="adj"/></r></p></e>
+      <e><p><l>primu<s n="adj"/></l><r>primo<s n="adj"/></r></p></e>
+      <e><p><l>religiosu<s n="adj"/></l><r>religioso<s n="adj"/></r></p></e>
+      <e><p><l>aereonauticu<s n="adj"/></l><r>aeronautico<s n="adj"/></r></p></e>
+      <e><p><l>castiglianu<s n="adj"/></l><r>castigliano<s n="adj"/></r></p></e>
+
 
       <!-- SECCIÓN: Adverbios -->
 
@@ -770,7 +804,8 @@
 
       <e><p><l>subra<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
       <e><p><l>de<b/>prus<s n="adv"/></l><r>più<s n="adv"/></r></p></e>
-      <e><p><l>in<b/>prus<s  n="adv"/></l><r>più<s  n="adv"/></r></p></e>
+      <e><p><l>in<b/>prus<s n="adv"/></l><r>più<s n="adv"/></r></p></e>
+      <e><p><l>custu<s n="adv"/></l><r>in<b/>questo<b/>modo<s n="adv"/></r></p></e>
 
       <!-- SECCIÓN: Verbos -->
 
@@ -1201,6 +1236,11 @@
       <e><p><l>subire<s n="vblex"/></l><r>subire<s n="vblex"/></r></p></e>
       <e><p><l>trigare<s n="vblex"/></l><r>tardare<s n="vblex"/></r></p></e>
       <e><p><l>istentare<s n="vblex"/></l><r>tardare<s n="vblex"/></r></p></e>
+
+      <e><p><l>apartare<s n="vblex"/></l><r>riservare<s n="vblex"/></r></p></e>
+      <e><p><l>abbandare<s n="vblex"/></l><r>riservare<s n="vblex"/></r></p></e>
+      <e><p><l>respetare<s n="vblex"/></l><r>rispettare<s n="vblex"/></r></p></e>
+      <e><p><l>riunire<s n="vblex"/></l><r>riunire<s n="vblex"/></r></p></e>
 
 
 
