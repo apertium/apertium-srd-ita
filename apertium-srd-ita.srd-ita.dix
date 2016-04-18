@@ -120,10 +120,12 @@
       <e><p><l>ti<s n="prn"/><s n="enc"/><s n="p2"/></l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/></r></p></e>
       <e><p><l>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/></r></p></e>
 
-      <e><p><l>lu<s n="prn"/><s n="pro"/><s n="p3"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/></r></p></e>
+      <e><p><l>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/></r></p></e>
+      <e><p><l>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/></r></p></e>
       <e><p><l>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="nt"/></r></p></e>
 
-      <e><p><l>lu<s n="prn"/><s n="enc"/><s n="p3"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/></r></p></e>
+      <e><p><l>la<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/></r></p></e>
+      <e><p><l>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/></r></p></e>
       <e><p><l>lu<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></l><r>lo<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
 
       <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -135,7 +137,7 @@
 
       <e><p><l>su<s n="det"/><s n="def"/></l><r>il<s n="det"/><s n="def"/></r></p></e>
       <e><p><l>unu<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
-      <e><p><l>carchi<s n="det"/><s n="ind"/></l><r>alcun<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>carchi<s n="det"/><s n="ind"/></l><r>alcun<s n="det"/><s n="ind"/></r></p><par n="mf_GD|sp_ND"/></e>
 
       <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
       <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
@@ -684,7 +686,7 @@
       <e><p><l>peri<s n="adv"/></l><r>attraverso<s n="adv"/></r></p></e>
       <e><p><l>bene<s n="adv"/></l><r>bene<s n="adv"/></r></p></e>
       <e><p><l>dae<b/>segus<s n="adv"/></l><r>dietro<s n="adv"/></r></p></e>
-      <e><p><l>in<b/>cara<b/>de<s n="adv"/></l><r>di<b/>fronte<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>cara<s n="adv"/></l><r>di<b/>fronte<s n="adv"/></r></p></e>
       <e><p><l>foras<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
       <e><p><l>eris<s n="adv"/></l><r>ieri<s n="adv"/></r></p></e>
       <e><p><l>paris<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e>
@@ -712,7 +714,7 @@
       <e><p><l>èssere<s n="vblex"/></l><r>essere<s n="vbser"/></r></p></e>
       <e><p><l>àere<s n="vblex"/></l><r>avere<s n="vbhaver"/></r></p></e>
       <e><p><l>dèpere<s n="vbmod"/></l><r>devere<s n="vbmod"/></r></p></e>
-      <e><p><l>bòlere<s n="vbmod"/></l><r>volere<s n="vbmod"/></r></p></e>
+      <e><p><l>bòlere<s n="vblex"/></l><r>volere<s n="vbmod"/></r></p></e>
       <e><p><l>chèrrere<s n="vbmod"/></l><r>volere<s n="vbmod"/></r></p></e>
       <e><p><l>pòdere<s n="vbmod"/></l><r>potere<s n="vbmod"/></r></p></e>
 

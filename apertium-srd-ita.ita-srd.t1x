@@ -13,6 +13,9 @@
     <def-cat n="inf">
        <cat-item tags="vblex.inf"/>
     </def-cat>
+    <def-cat n="imper">
+       <cat-item tags="vblex.imp.*"/>
+    </def-cat>
     <def-cat n="pro">
        <cat-item tags="prn.pro.p1.*"/>
        <cat-item tags="prn.pro.p2.*"/>
@@ -2139,6 +2142,70 @@
 
 
     <!-- ================================================================== -->
+
+    <rule comment="regla: imper enc">
+       <pattern>
+         <pattern-item n="imper"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="imp_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: vbmod inf enc">
+       <pattern>
+         <pattern-item n="vbmod"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="pro_pro_vbmod_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
 
 
     <rule comment="regla: vbmod inf enc enc">
