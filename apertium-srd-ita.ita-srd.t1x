@@ -31,7 +31,9 @@
        <cat-item tags="prn.enc.*"/>
     </def-cat>
     <def-cat n="adjec">
-       <cat-item tags="adj.*"/>
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.ord, adj.ind etc. -->
+       <cat-item tags="adj.f.*"/>
+       <cat-item tags="adj.mf.*"/>
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
   </section-def-cats>
