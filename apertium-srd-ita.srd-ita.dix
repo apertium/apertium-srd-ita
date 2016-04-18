@@ -10,6 +10,7 @@
     <sdef n="vbhaver" c=""/>
     <sdef n="vbser"   c=""/>
     <sdef n="vbmod"   c=""/>
+    <sdef n="predet"  c=""/>
     <sdef n="adv"     c=""/>
     <sdef n="itg"     c=""/>
     <sdef n="adj"     c=""/>
@@ -26,6 +27,9 @@
     <sdef n="pro"     c=""/>
     <sdef n="enc"     c=""/>
     <sdef n="ref"     c=""/>
+    <sdef n="loc"     c=""/>
+    <sdef n="cog"     c=""/>
+    <sdef n="top"     c=""/>
     <sdef n="tn"      c=""/>
     <sdef n="p1"      c=""/>
     <sdef n="p2"      c=""/>
@@ -95,6 +99,7 @@
       <e><p><l>de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
       <e><p><l>a<s n="pr"/></l><r>a<s n="pr"/></r></p></e>
       <e><p><l>cun<s n="pr"/></l><r>con<s n="pr"/></r></p></e>
+      <e><p><l>pro<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
       <e><p><l>dae<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
       <e><p><l>dae<b/>in<b/>antis<s n="pr"/></l><r>davanti<b/>a<s n="pr"/></r></p></e>
       <e><p><l>dae<b/>segus<s n="pr"/></l><r>dietro<s n="pr"/></r></p></e>
@@ -105,6 +110,9 @@
       <e><p><l>suta<s n="pr"/></l><r>sotto<s n="pr"/></r></p></e>
       <e><p><l>cara<b/>a<s n="pr"/></l><r>verso<s n="pr"/></r></p></e>
       <e><p><l>bighinu<b/>a<s n="pr"/></l><r>vicino<b/>a<s n="pr"/></r></p></e>
+
+      <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
+      <e><p><l>tra<s n="pr"/></l><r>tra<s n="pr"/></r></p></e>
 
       <!-- SECCIÓN: Pronombres -->
 
@@ -133,7 +141,12 @@
 
       <e><p><l>ite<s n="prn"/><s n="itg"/><s n="mf"/></l><r>cosa<s n="prn"/><s n="itg"/><s n="mf"/></r></p></e>
 
+      <e><p><l>issu<s n="prn"/><s n="tn"/></l><r>esso<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>unu<s n="prn"/><s n="tn"/></l><r>uno<s n="prn"/><s n="tn"/></r></p></e>
+
       <!-- SECCIÓN: Determinantes -->
+
+      <e><p><l>totu<s n="predet"/></l><r>tutto<s n="predet"/></r></p></e>
 
       <e><p><l>su<s n="det"/><s n="def"/></l><r>il<s n="det"/><s n="def"/></r></p></e>
       <e><p><l>unu<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
@@ -642,10 +655,40 @@
 
       <e><p><l>palatzu<s n="n"/><s n="m"/></l><r>palazzo<s n="n"/><s n="m"/></r></p></e>
 
+
+     <e><p><l>tzitadinu<s n="n"/><s n="f"/></l><r>cittadino<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sea<s n="n"/><s n="f"/></l><r>sede<s n="n"/><s n="f"/></r></p></e>
+
+      <e><p><l>bombardamentu<s n="n"/><s  n="m"/></l><r>bombardamento<s n="n"/><s  n="m"/></r></p></e>
+      <e><p><l>antzianu<s n="n"/><s n="m"/></l><r>anziano<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sèneghe<s n="n"/><s n="m"/></l><r>anziano<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>atacu<s n="n"/><s n="m"/></l><r>attacco<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>atu<s n="n"/><s n="m"/></l><r>atto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>casu<s n="n"/><s n="m"/></l><r>caso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ciclista<s n="n"/><s n="mf"/></l><r>ciclista<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzìrculu<s n="n"/><s n="m"/></l><r>club<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>comune<s n="n"/><s n="m"/></l><r>comune<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cussìgiu<s n="n"/><s n="m"/></l><r>consiglio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>esèrtzitu<s n="n"/><s n="m"/></l><r>esercito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>frutu<s n="n"/><s n="m"/></l><r>frutto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>oriente<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>est<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>isport<s n="n"/><s n="m"/></l><r>sport<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>arrimu<s n="n"/><s n="m"/></l><r>supporto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>suportu<s n="n"/><s n="m"/></l><r>supporto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sustennu<s n="n"/><s n="m"/></l><r>supporto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tapete<s n="n"/><s n="m"/></l><r>tappeto<s n="n"/><s n="m"/></r></p></e>
+
       <!-- SECCIÓN: Nombres propios -->
 
       <e><p><l>Giacomo<s n="np"/><s n="ant"/><s n="m"/></l><r>Giacomo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Maria<s n="np"/><s n="ant"/><s n="f"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+
+      <e><p><l>Lafuente<s n="np"/><s n="cog"/><s n="mf"/></l><r>Lafuente<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+      
+      <e><p><l>Guernica<s n="np"/><s n="top"/><s  n="f"/></l><r>Guernica<s  n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Ispagna<s n="np"/><s n="top"/><s n="f"/></l><r>Spagna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Biscaglia<s n="np"/><s n="top"/><s n="m"/></l><r>Biscaglia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 
       <!-- SECCIÓN: Adjetivos -->
 
@@ -663,6 +706,22 @@
       <e><p><l>betzu<s n="adj"/></l><r>vecchio<s n="adj"/></r></p></e>
       <e><p><l>lestru<s n="adj"/></l><r>veloce<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>accurtzu<s n="adj"/></l><r>vicino<s n="adj"/></r></p></e>
+
+      <e><p><l>bascu<s n="adj"/></l><r>basco<s n="adj"/></r></p></e>
+      <e><p><l>diretu<s n="adj"/></l><r>diretto<s n="adj"/></r></p></e>
+      <e><p><l>famadu<s n="adj"/></l><r>famoso<s n="adj"/></r></p></e>
+      <e><p><l>italianu<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
+      <e><p><l>capitale<s n="adj"/></l><r>capitale<s n="adj"/></r></p></e>
+      <e><p><l>tzivile<s n="adj"/></l><r>civile<s n="adj"/></r></p></e>
+      <e><p><l>comunale<s n="adj"/></l><r>comunale<s n="adj"/></r></p></e>
+      <e><p><l>traditzionale<s n="adj"/></l><r>tradizionale<s n="adj"/></r></p></e>
+      <e><p><l>ufitziale<s n="adj"/></l><r>ufficiale<s n="adj"/></r></p></e>
+      <e><p><l>sagradu<s n="adj"/></l><r>sacro<s n="adj"/></r></p></e>
+      <e><p><l>santu<s n="adj"/></l><r>santo<s n="adj"/></r></p></e>
+      <e><p><l>ispagnolu<s n="adj"/></l><r>spagnolo<s n="adj"/></r></p></e>
+      <e><p><l>istòricu<s n="adj"/></l><r>storico<s n="adj"/></r></p></e>
+      <e><p><l>tedescu<s n="adj"/></l><r>tedesco<s n="adj"/></r></p></e>
+      <e><p><l>bolontàriu<s n="adj"/></l><r>volontario<s n="adj"/></r></p></e>
 
       <!-- SECCIÓN: Adverbios -->
 
@@ -708,6 +767,10 @@
       <e><p><l>semper<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
       <e><p><l>suta<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
       <e><p><l>bighinu<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
+
+      <e><p><l>subra<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
+      <e><p><l>de<b/>prus<s n="adv"/></l><r>più<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>prus<s  n="adv"/></l><r>più<s  n="adv"/></r></p></e>
 
       <!-- SECCIÓN: Verbos -->
 
@@ -1122,6 +1185,24 @@
       <e><p><l>bìvere<s n="vblex"/></l><r>vivere<s n="vblex"/></r></p></e>
       <e><p><l>bolare<s n="vblex"/></l><r>volare<s n="vblex"/></r></p></e>
       <e><p><l>votare<s n="vblex"/></l><r>votare<s n="vblex"/></r></p></e>
+
+      <e><p><l>bombardare<s n="vblex"/></l><r>bombardare<s n="vblex"/></r></p></e>
+      <e><p><l>chistire<s n="vblex"/></l><r>conservare<s n="vblex"/></r></p></e>
+      <e><p><l>cunservare<s n="vblex"/></l><r>conservare<s n="vblex"/></r></p></e>
+      <e><p><l>remonire<s n="vblex"/></l><r>conservare<s n="vblex"/></r></p></e>
+      <e><p><l>creare<s n="vblex"/></l><r>creare<s n="vblex"/></r></p></e>
+      <e><p><l>produire<s n="vblex"/></l><r>creare<s n="vblex"/></r></p></e>
+      <e><p><l>ligare<s n="vblex"/></l><r>legare<s n="vblex"/></r></p></e>
+      <e><p><l>prèndere<s n="vblex"/></l><r>legare<s n="vblex"/></r></p></e>
+      <e><p><l>cambiare<s n="vblex"/></l><r>sostituire<s n="vblex"/></r></p></e>
+      <e><p><l>mudare<s n="vblex"/></l><r>sostituire<s n="vblex"/></r></p></e>
+      <e><p><l>remplasare<s n="vblex"/></l><r>sostituire<s n="vblex"/></r></p></e>
+      <e><p><l>sostituire<s n="vblex"/></l><r>sostituire<s n="vblex"/></r></p></e>
+      <e><p><l>subire<s n="vblex"/></l><r>subire<s n="vblex"/></r></p></e>
+      <e><p><l>trigare<s n="vblex"/></l><r>tardare<s n="vblex"/></r></p></e>
+      <e><p><l>istentare<s n="vblex"/></l><r>tardare<s n="vblex"/></r></p></e>
+
+
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
