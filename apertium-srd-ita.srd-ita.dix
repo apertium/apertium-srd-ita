@@ -114,6 +114,11 @@
 
       <e><p><l>pro<b/>custu<s n="cnjadv"/></l><r>perció<s n="cnjadv"/></r></p></e>
       
+      <e><p><l>come<s n="cnjadv"/></l><r>come<s n="cnjadv"/></r></p></e>
+      <e><p><l>de<b/>manera<b/>chi<s  n="cnjadv"/></l><r>in<b/>modo<b/>che<s  n="cnjadv"/></r></p></e>
+      
+      
+       
       <!-- SECCIÓN: Preposiciones -->
 
       <e><p><l>de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
@@ -133,6 +138,8 @@
 
       <e><p><l>durante<s n="pr"/></l><r>durante<s n="pr"/></r></p></e>
       <e><p><l>tra<s n="pr"/></l><r>tra<s n="pr"/></r></p></e>
+
+      <e><p><l>longu<s n="pr"/></l><r>lungo<s n="pr"/></r></p></e>
 
       <e><p><l>intre<s n="pr"/></l><r>fra<s n="pr"/></r></p></e>
       <e><p><l>sena<s n="pr"/></l><r>senza<s n="pr"/></r></p></e>
@@ -193,6 +200,7 @@
 
       <e><p><l>chi<s n="rel"/><s n="an"/></l><r>che<s n="rel"/><s n="an"/></r></p></e>
       <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/></r></p></e>
+      <e><p><l>su<b/>chi<s n="rel"/><s n="an"/></l><r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
 
       <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
       <e><p><l>perunu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
@@ -216,6 +224,7 @@
       <e><p><l>ambos<s n="prn"/><s n="tn"/></l><r>entrambi<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>perunu<s n="prn"/><s n="tn"/></l><r>nessuno<s n="prn"/><s n="tn"/></r></p></e>
 
+      
  
 
       <!-- SECCIÓN: Determinantes -->
@@ -238,6 +247,7 @@
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>tzertu<s n="det"/><s n="ind"/></l><r>certo<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>meda<s n="det"/><s n="ind"/></l><r>molto<s n="det"/><s n="ind"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
 
@@ -2174,6 +2184,11 @@
       <e><p><l>santu<s n="n"/><s n="f"/></l><r>santo<s n="n"/><s n="f"/></r></p></e>
 
 
+      <e><p><l>aperitivu<s n="n"/><s n="m"/></l><r>aperitivo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>birra<s n="n"/><s n="f"/></l><r>birra<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fita<s n="n"/><s n="f"/></l><r>fetta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>locale<s n="n"/><s n="m"/></l><r>locale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>arte<g><b/>de<b/>coghinare</g><s n="n"/><s n="f"/></l><r>gastronomia<s n="n"/><s n="f"/></r></p></e>
 
 
       <!-- SECCIÓN: Nombres propios -->
@@ -2187,6 +2202,7 @@
       <e><p><l>Ispagna<s n="np"/><s n="top"/><s n="f"/></l><r>Spagna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Biscaglia<s n="np"/><s n="top"/><s n="m"/></l><r>Biscaglia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Paisu<b/>Bascu<s n="np"/><s n="top"/><s n="m"/></l><r>Paese<b/>Bascho<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>Paisu<b/>Bascu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Paese<b/>Bascho<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
 
       <e><p><l>Cristos<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
@@ -2914,6 +2930,11 @@
 
       <e><p><l>ex<s n="adj"/></l><r>ex<s n="adj"/></r></p></e>
 
+      <e><p><l>ruju<s n="adj"/></l><r>rosso<s n="adj"/></r></p></e>
+      <e><p><l>sìmile<s n="adj"/></l><r>simile<s n="adj"/></r></p></e>
+      <e><p><l>prètzisu<s n="adj"/></l><r>simile<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>curiosu<s n="adj"/></l><r>curioso<s n="adj"/></r></p></e>
+      <e><p><l>fichete<s n="adj"/></l><r>curioso<s n="adj"/></r></p><par n="mf_GD"/></e>
 
 
       <!-- SECCIÓN: Adverbios -->
@@ -3027,6 +3048,7 @@
       <e><p><l>tantu<s n="adv"/></l><r>tanto<s n="adv"/></r></p></e>
 
 
+      <e><p><l>traditzionalmente<s n="adv"/></l><r>tradizionalmente<s n="adv"/></r></p></e>
 
 
 
@@ -3867,6 +3889,12 @@
       <e><p><l>cumpònnere<s n="vblex"/></l><r>comporre<s n="vblex"/></r></p></e>
       <e><p><l>traduire<s n="vblex"/></l><r>tradurre<s n="vblex"/></r></p></e>
       <e><p><l>umanare<s n="vblex"/></l><r>umanarsi<s n="vblex"/></r></p></e>
+
+      <e><p><l>appetitare<s n="vblex"/></l><r>stuzzicare<s n="vblex"/></r></p></e>
+      <e><p><l>tastare<s n="vblex"/></l><r>gustare<s n="vblex"/></r></p></e>
+
+     
+
 
 
 
