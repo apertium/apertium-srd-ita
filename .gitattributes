@@ -16,6 +16,11 @@
 /apertium-srd-ita.srd-ita.t3x -text
 /autogen.sh -text
 /configure.ac -text
+dev/glossariu.ita-srd.nospaces.txt -text
+dev/glossariu.ita-srd.spaces.txt -text
+dev/testvoc/bidix-unknowns.sh -text
+dev/testvoc/generation.sh -text
+dev/testvoc/streamparser.py -text
 /modes.xml -text
 texts/cuento.2.srd.txt -text
 texts/cuento.ita.txt -text
