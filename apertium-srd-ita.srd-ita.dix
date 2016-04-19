@@ -114,7 +114,7 @@
 
       <e><p><l>pro<b/>custu<s n="cnjadv"/></l><r>perció<s n="cnjadv"/></r></p></e>
       
-      <e><p><l>come<s n="cnjadv"/></l><r>come<s n="cnjadv"/></r></p></e>
+      <e><p><l>comente<s n="cnjsub"/></l><r>come<s n="cnjadv"/></r></p></e>
       <e><p><l>de<b/>manera<b/>chi<s  n="cnjadv"/></l><r>in<b/>modo<b/>che<s  n="cnjadv"/></r></p></e>
       
       
@@ -200,12 +200,11 @@
 
       <e><p><l>chi<s n="rel"/><s n="an"/></l><r>che<s n="rel"/><s n="an"/></r></p></e>
       <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/></r></p></e>
+      <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
       <e><p><l>su<b/>chi<s n="rel"/><s n="an"/></l><r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
 
-      <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
       <e><p><l>perunu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-      <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-      <e><p><l>custu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>ciò<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+      <e><p><l>custu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>ciò<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e><p><l>cantu<s n="prn"/><s n="itg"/></l><r>quanto<s n="prn"/><s n="itg"/></r></p></e>
       <e><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/></l><r>ci<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/></r></p></e>
@@ -247,7 +246,6 @@
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>tzertu<s n="det"/><s n="ind"/></l><r>certo<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
-      <e><p><l>meda<s n="det"/><s n="ind"/></l><r>molto<s n="det"/><s n="ind"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
 
@@ -2022,7 +2020,7 @@
 
       <e><p><l>referendum<s n="n"/><s n="m"/></l><r>referendum<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 
-      <e><p><l>bar<s n="n"/><s n="m"/></l><r>bar<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>bar<s n="n"/><s n="m"/></l><r>bar<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>gas<s n="n"/><s n="m"/></l><r>gas<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>subraprus<s n="n"/><s n="m"/></l><r>surplus<s n="n"/><s n="m"/></r></p></e>
 
@@ -2187,8 +2185,11 @@
       <e><p><l>aperitivu<s n="n"/><s n="m"/></l><r>aperitivo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>birra<s n="n"/><s n="f"/></l><r>birra<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fita<s n="n"/><s n="f"/></l><r>fetta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>pretzisione<s n="n"/><s n="f"/></l><r>precisione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>locale<s n="n"/><s n="m"/></l><r>locale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arte<g><b/>de<b/>coghinare</g><s n="n"/><s n="f"/></l><r>gastronomia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>petitu<s n="n"/><s n="m"/></l><r>stuzzichino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ingrediente<s n="n"/><s n="m"/></l><r>ingrediente<s n="n"/><s n="m"/></r></p></e>
 
 
       <!-- SECCIÓN: Nombres propios -->
@@ -2277,7 +2278,7 @@
       <e><p><l>Tunisia<s n="np"/><s n="top"/><s n="m"/></l><r>Tunisia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Turchia<s n="np"/><s n="top"/><s n="f"/></l><r>Turchia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Tzina<s n="np"/><s n="top"/><s n="f"/></l><r>Cina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Venètzia<s n="np"/><s n="top"/><s n="m"/></l><r>Venezia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Venètzia<s n="np"/><s n="top"/><s n="f"/></l><r>Venezia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Vienna<s n="np"/><s n="top"/><s n="m"/></l><r>Vienna<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Vietnam<s n="np"/><s n="top"/><s n="m"/></l><r>Vietnam<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 
@@ -2548,7 +2549,7 @@
       <e><p><l>fritu<s n="adj"/></l><r>freddo<s n="adj"/></r></p></e>
       <e><p><l>mannu<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="GD_mf"/></e>
 
-      <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/></r></p></e>
+      <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>betzu<s n="adj"/></l><r>vecchio<s n="adj"/></r></p></e>
       <e><p><l>lestru<s n="adj"/></l><r>veloce<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>accurtzu<s n="adj"/></l><r>vicino<s n="adj"/></r></p></e>
@@ -2931,10 +2932,12 @@
       <e><p><l>ex<s n="adj"/></l><r>ex<s n="adj"/></r></p></e>
 
       <e><p><l>ruju<s n="adj"/></l><r>rosso<s n="adj"/></r></p></e>
+      <e><p><l>nieddu<s n="adj"/></l><r>rosso<s n="adj"/></r></p></e>
       <e><p><l>sìmile<s n="adj"/></l><r>simile<s n="adj"/></r></p></e>
       <e><p><l>prètzisu<s n="adj"/></l><r>simile<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>curiosu<s n="adj"/></l><r>curioso<s n="adj"/></r></p></e>
       <e><p><l>fichete<s n="adj"/></l><r>curioso<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>venetzianu<s n="adj"/></l><r>veneziano<s n="adj"/></r></p></e>
 
 
       <!-- SECCIÓN: Adverbios -->
@@ -2947,6 +2950,9 @@
       <e><p><l>cando<s n="adv"/><s n="itg"/></l><r>quando<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>comente<s n="adv"/><s n="itg"/></l><r>come<s n="adv"/></r></p></e>
       <e><p><l>inue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
+
+      <e><p><l>etc<s n="adv"/></l><r>ecc<s n="adv"/></r></p></e>
+      <e r="RL"><p><l>etc<s n="adv"/></l><r>etc<s n="adv"/></r></p></e>
 
       <e><p><l>oe<s n="adv"/></l><r>oggi<s n="adv"/></r></p></e>
       <e><p><l>aici<s n="adv"/></l><r>così<s n="adv"/></r></p></e>

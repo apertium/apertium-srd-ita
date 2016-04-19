@@ -7,6 +7,19 @@
   <rule>
     <match lemma="volere" tags="vbmod.*"><select lemma="bòlere" tags="vblex.*"/></match>
   </rule>
+
+  <rule weight="0.1">
+    <match lemma="rosso" tags="adj.*"><select lemma="nieddu" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="rosso" tags="adj.*"><select lemma="ruju" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="vino" tags="n.*"/>
+    <match lemma="rosso" tags="adj.*"><select lemma="nieddu" tags="adj.*"/></match>
+  </rule>
 </rules>
 
 <!-- 
