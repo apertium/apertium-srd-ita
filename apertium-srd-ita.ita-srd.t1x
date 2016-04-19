@@ -13,6 +13,12 @@
     <def-cat n="inf">
        <cat-item tags="vblex.inf"/>
     </def-cat>
+    <def-cat n="fti">
+       <cat-item tags="vbmod.fti.*"/>
+       <cat-item tags="vbser.fti.*"/>
+       <cat-item tags="vbhaver.fti.*"/>
+       <cat-item tags="vblex.fti.*"/>
+    </def-cat>
     <def-cat n="ifi">
        <cat-item tags="vbmod.ifi.*"/>
        <cat-item tags="vbser.ifi.*"/>
@@ -2223,6 +2229,42 @@
        </action>
     </rule>
 
+
+    <rule comment="regla: fti">
+       <pattern>
+         <pattern-item n="fti"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vblex.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+    
 
     <rule comment="regla: imper enc">
        <pattern>
