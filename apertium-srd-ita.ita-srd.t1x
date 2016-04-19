@@ -40,6 +40,7 @@
        <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.ord, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
+       <cat-item tags="adj.pos.*"/>
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
   </section-def-cats>
@@ -2146,6 +2147,7 @@
          </out>
        </action>
     </rule>
+
 
 
 

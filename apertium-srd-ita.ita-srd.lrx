@@ -1,11 +1,15 @@
 <rules>
 
-  <rule>
+  <rule weight="1.0">
     <match lemma="quindi" tags="adv"><select lemma="tando" tags="adv"/></match>
   </rule>
 
-  <rule>
+  <rule weight="1.0">
     <match lemma="volere" tags="vbmod.*"><select lemma="bòlere" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="parlare" tags="vblex.*"><select lemma="faeddare" tags="vblex.*"/></match>
   </rule>
 
   <rule weight="0.1">
@@ -20,6 +24,28 @@
     <match lemma="vino" tags="n.*"/>
     <match lemma="rosso" tags="adj.*"><select lemma="nieddu" tags="adj.*"/></match>
   </rule>
+
+  <rule weight="0.5">
+    <match lemma="stare" tags="vblex.*"><select lemma="istare" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.4">
+    <match lemma="stare" tags="vblex.*"><select lemma="èssere" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="stare" tags="vblex.*"><select lemma="èssere" tags="vblex.*"/></match>
+    <match tags="vblex.ger"/>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="stare" tags="vblex.*"><select lemma="èssere" tags="vblex.*"/></match>
+    <match/>
+    <match tags="vblex.ger"/>
+  </rule>
+
+
+
 </rules>
 
 <!-- 
