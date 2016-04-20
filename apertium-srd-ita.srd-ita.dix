@@ -120,6 +120,7 @@
       
       <e><p><l>sigomente<s n="cnjadv"/></l><r>siccome<s n="cnjadv"/></r></p></e>
       <e><p><l>nemmancu<s n="cnjadv"/></l><r>tantomeno<s n="cnjadv"/></r></p></e>
+      <e><p><l>segundu<s n="cnjadv"/></l><r>secondo<s n="cnjadv"/></r></p></e>
 
       
        
@@ -361,7 +362,7 @@
       <e><p><l>abba<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>adesione<s n="n"/><s n="f"/></l><r>adesione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>adotzione<s n="n"/><s n="f"/></l><r>adozione<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>adotzione<s n="n"/><s n="f"/></l><r>adozione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ammiratzione<s n="n"/><s n="f"/></l><r>ammirazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>aeroplanu<s n="n"/><s n="m"/></l><r>aeroplano<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>aeroportu<s n="n"/><s n="m"/></l><r>aeroporto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>agèntzia<s n="n"/><s n="f"/></l><r>agenzia<s n="n"/><s n="f"/></r></p></e>
@@ -1556,6 +1557,7 @@
       <e><p><l>soddu<s n="n"/><s n="m"/></l><r>soldo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>bandu<s n="n"/><s n="m"/></l><r>bando<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fundu<s n="n"/><s n="m"/></l><r>fondo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>isfundu<s n="n"/><s n="m"/></l><r>sfondo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>crau<s n="n"/><s n="m"/></l><r>chiodo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>perìodu<s n="n"/><s n="m"/></l><r>periodo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nodu<s n="n"/><s n="m"/></l><r>nodo<s n="n"/><s n="m"/></r></p></e>
@@ -2896,7 +2898,11 @@
       <e><p><l>ufitziale<s n="n"/><s n="m"/></l><r>ufficiale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fundatore<s n="n"/><s n="m"/></l><r>fondatore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>partidu<s n="n"/><s n="m"/></l><r>partito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>istemma<s n="n"/><s n="m"/></l><r>stemma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>patronu<s n="n"/><s n="m"/></l><r>patrono<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>patronu<s n="n"/><s n="f"/></l><r>patrono<s n="n"/><s n="f"/></r></p></e>
 
+      <e><p><l>ammenta<s n="n"/><s n="f"/></l><r>insieme<s n="n"/><s n="m"/></r></p></e>
 
 
       <!-- SECCIÓN: Nombres propios -->
@@ -3029,6 +3035,8 @@
       <e><p><l>Cruz<s n="np"/><s n="cog"/><s n="mf"/></l><r>Cruz<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
       <e><p><l>Monica<s n="np"/><s n="ant"/><s n="f"/></l><r>Monica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Andrea<s n="np"/><s n="ant"/><s n="f"/></l><r>Andrea<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>Andrea<s n="np"/><s n="ant"/><s n="m"/></l><r>Andrea<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Andrìa<s n="np"/><s n="ant"/><s n="m"/></l><r>Andrea<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Lucia<s n="np"/><s n="ant"/><s n="f"/></l><r>Lucia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Cecilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Cecilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Emilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Emilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -3939,6 +3947,7 @@
       <e><p><l>massimamente<s n="adv"/></l><r>sommamente<s n="adv"/></r></p></e>
       <e><p><l>totora<s n="adv"/></l><r>continuamente<s n="adv"/></r></p></e>
       <e><p><l>sempermai<s n="adv"/></l><r>naturalmente<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>comintzu<s n="adv"/></l><r>inizialmente<s n="adv"/></r></p></e>
       <e><p><l>oramai<s n="adv"/></l><r>ormai<s n="adv"/></r></p></e>
       <e><p><l>tardu<s n="adv"/></l><r>tardi<s n="adv"/></r></p></e>
       <e><p><l>pustiscràs<s n="adv"/></l><r>dopodomani<s n="adv"/></r></p></e>
@@ -5322,6 +5331,7 @@
       <e><p><l>vengare<s n="vblex"/></l><r>vendicare<s n="vblex"/></r></p></e>
       <e><p><l>vidimare<s n="vblex"/></l><r>vidimare<s n="vblex"/></r></p></e>
       <e><p><l>regnare<s n="vblex"/></l><r>regnare<s n="vblex"/></r></p></e>
+      <e><p><l>ispodessare<s n="vblex"/></l><r>spodestare<s n="vblex"/></r></p></e>
 
 <!--
       <e><p><l>s'abigiare<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>

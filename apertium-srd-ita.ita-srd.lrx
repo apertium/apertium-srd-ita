@@ -44,6 +44,20 @@
     <match tags="vblex.ger"/>
   </rule>
 
+  <rule weight="0.8">
+    <match lemma="Andrea" tags="np.*"><select lemma="Andrea" tags="np.*"/></match>
+  </rule>
+
+  <rule weight="0.6">
+    <match lemma="Andrea" tags="np.*"><select lemma="Andrìa" tags="np.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="santo" tags="n.*"/>
+    <match lemma="Andrea" tags="np.*"><select lemma="Andrìa" tags="np.*"/></match>
+  </rule>
+
+
 
 
 </rules>
