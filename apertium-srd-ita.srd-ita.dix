@@ -18,6 +18,7 @@
     <sdef n="adj"     c=""/>
     <sdef n="det"     c=""/>
     <sdef n="rel"     c=""/>
+    <sdef n="acr"     c=""/>
     <sdef n="def"     c=""/>
     <sdef n="pos"     c=""/>
     <sdef n="ind"     c=""/>
@@ -264,6 +265,8 @@
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>tzertu<s n="det"/><s n="ind"/></l><r>certo<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
+
+      <e><p><l>unu<b/>àteru<s n="det"/><s n="ind"/></l><r>un<b/>altro<s n="det"/><s n="ind"/></r></p></e>
 
       <!-- SECCIÓN: Numeros -->
 
@@ -610,6 +613,7 @@
       <e><p><l>nadale<s n="n"/><s n="m"/></l><r>natale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>natura<s n="n"/><s n="f"/></l><r>natura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>natzionalismu<s n="n"/><s n="m"/></l><r>nazionalismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>neologismu<s n="n"/><s n="m"/></l><r>neologismo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>natzione<s n="n"/><s n="f"/></l><r>nazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>netzessidade<s n="n"/><s n="f"/></l><r>necessità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>nùmene<s n="n"/><s n="m"/></l><r>nome<s n="n"/><s n="m"/></r></p></e>
@@ -2134,10 +2138,10 @@
       <e><p><l>protzedimentu<s n="n"/><s n="m"/></l><r>procedimentu<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>aspetu<s n="n"/><s n="m"/></l><r>aspettu<s n="n"/><s n="m"/></r></p></e>
 
-      <e><p><l>sotzialista<s n="n"/><s n="mf"/></l><r>socialista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>natzionalista<s n="n"/><s n="mf"/></l><r>nazionalista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>giornalista<s n="n"/><s n="mf"/></l><r>giornalista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>protagonista<s n="n"/><s n="mf"/></l><r>protagonista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>sotzialista<s n="n"/></l><r>socialista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>natzionalista<s n="n"/></l><r>nazionalista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>giornalista<s n="n"/></l><r>giornalista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>protagonista<s n="n"/></l><r>protagonista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>artista<s n="n"/><s n="mf"/></l><r>artista<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>esponente<s n="n"/><s n="mf"/></l><r>esponente<s n="n"/><s n="mf"/></r></p></e>
 
@@ -2887,16 +2891,24 @@
       <e><p><l>bista<s n="n"/><s n="f"/></l><r>vista<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>voltura<s n="n"/><s n="f"/></l><r>voltura<s n="n"/><s n="f"/></r></p></e>
 
+      <e><p><l>ideatzione<s n="n"/><s n="f"/></l><r>ideazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>interpretatzione<s n="n"/><s n="f"/></l><r>interpretazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ufitziale<s n="n"/><s n="m"/></l><r>ufficiale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fundatore<s n="n"/><s n="m"/></l><r>fondatore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>partidu<s n="n"/><s n="m"/></l><r>partito<s n="n"/><s n="m"/></r></p></e>
 
 
 
       <!-- SECCIÓN: Nombres propios -->
+
+      <e><p><l>PNB<s n="n"/><s n="acr"/><s n="m"/></l><r>PNV<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 
       <e><p><l>Giacomo<s n="np"/><s n="ant"/><s n="m"/></l><r>Giacomo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Maria<s n="np"/><s n="ant"/><s n="f"/></l><r>Maria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 
       <e><p><l>Lafuente<s n="np"/><s n="cog"/><s n="mf"/></l><r>Lafuente<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
       
+      <e><p><l>Navarra<s n="np"/><s n="top"/><s n="f"/></l><r>Navarra<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Jugoslàvia<s n="np"/><s n="top"/><s n="f"/></l><r>Jugoslavia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Guernica<s n="np"/><s n="top"/><s n="f"/></l><r>Guernica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Ispagna<s n="np"/><s n="top"/><s n="f"/></l><r>Spagna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -3230,9 +3242,12 @@
       <e><p><l>Alighèra<s n="np"/><s n="top"/><s n="f"/></l><r>Alghero<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
 
+      <e><p><l>Luis<s n="np"/><s n="ant"/><s n="m"/></l><r>Luis<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Pamplona<s n="np"/><s n="top"/><s n="f"/></l><r>Pamplona<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 
       <!-- SECCIÓN: Adjetivos -->
 
+      <e><p><l>cale<s n="adj"/><s n="itg"/></l><r>quale<s n="adj"/><s n="itg"/></r></p></e>
 
       <e><p><l>meu<s n="adj"/><s n="pos"/></l><r>mio<s n="adj"/><s n="pos"/></r></p></e>
       <e><p><l>tuo<s n="adj"/><s n="pos"/></l><r>tuo<s n="adj"/><s n="pos"/></r></p></e>
@@ -3242,6 +3257,10 @@
 
       <e><p><l>segundu<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
 
+
+      <e><p><l>catolicu<s n="adj"/></l><r>cattolico<s n="adj"/></r></p></e>
+      <e><p><l>verticale<s n="adj"/></l><r>verticale<s n="adj"/></r></p></e>
+      <e><p><l>diagonale<s n="adj"/></l><r>diagonale<s n="adj"/></r></p></e>
       <e><p><l>bellu<s n="adj"/></l><r>bello<s n="adj"/></r></p></e>
       <e><p><l>caente<s n="adj"/></l><r>caldo<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>cuntentu<s n="adj"/></l><r>contento<s n="adj"/></r></p></e>
@@ -3271,6 +3290,7 @@
       <e><p><l>tzivile<s n="adj"/></l><r>civile<s n="adj"/></r></p></e>
       <e><p><l>comunale<s n="adj"/></l><r>comunale<s n="adj"/></r></p></e>
       <e><p><l>traditzionale<s n="adj"/></l><r>tradizionale<s n="adj"/></r></p></e>
+      <e><p><l>setentrionale<s n="adj"/></l><r>settentrionale<s n="adj"/></r></p></e>
       <e><p><l>ufitziale<s n="adj"/></l><r>ufficiale<s n="adj"/></r></p></e>
       <e><p><l>sagradu<s n="adj"/></l><r>sacro<s n="adj"/></r></p></e>
       <e><p><l>santu<s n="adj"/></l><r>santo<s n="adj"/></r></p></e>
@@ -3531,6 +3551,8 @@
       <e><p><l>superiore<s n="adj"/></l><r>superiore<s n="adj"/></r></p></e>
       <e><p><l>ulteriore<s n="adj"/></l><r>ulteriore<s n="adj"/></r></p></e>
       <e><p><l>abundante<s n="adj"/></l><r>abbondante<s n="adj"/></r></p></e>
+      <e><p><l>rilevante<s n="adj"/></l><r>rilevante<s n="adj"/></r></p></e>
+      <e><p><l>importante<s n="adj"/></l><r>rilevante<s n="adj"/></r></p></e>
       <e><p><l>importante<s n="adj"/></l><r>importante<s n="adj"/></r></p></e>
       <e><p><l>reghente<s n="adj"/></l><r>recente<s n="adj"/></r></p></e>
       <e><p><l>antetzedente<s n="adj"/></l><r>antecedente<s n="adj"/></r></p></e>
@@ -3559,13 +3581,13 @@
       <e><p><l>mesu<s n="adj"/></l><r>mezzo<s n="adj"/></r></p></e>
       
 
-      <e><p><l>frantzesu<s n="adj"/></l><r>francese<s n="adj"/></r></p></e>
-      <e><p><l>irlandesu<s n="adj"/></l><r>irlandese<s n="adj"/></r></p></e>
-      <e><p><l>gallesu<s n="adj"/></l><r>gallese<s n="adj"/></r></p></e>
-      <e><p><l>tzinesu<s n="adj"/></l><r>cinese<s n="adj"/></r></p></e>
-      <e><p><l>logudoresu<s n="adj"/></l><r>logudorese<s n="adj"/></r></p></e>
-      <e><p><l>piemontesu<s n="adj"/></l><r>piemontese<s n="adj"/></r></p></e>
-      <e><p><l>iscotzesu<s n="adj"/></l><r>iscotzese<s n="adj"/></r></p></e>
+      <e><p><l>frantzesu<s n="adj"/></l><r>francese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>irlandesu<s n="adj"/></l><r>irlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>gallesu<s n="adj"/></l><r>gallese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>tzinesu<s n="adj"/></l><r>cinese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>logudoresu<s n="adj"/></l><r>logudorese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>piemontesu<s n="adj"/></l><r>piemontese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>iscotzesu<s n="adj"/></l><r>iscotzese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>àrabu<s n="adj"/></l><r>arabo<s n="adj"/></r></p></e>
       <e><p><l>eletronicu<s n="adj"/></l><r>elettronico<s n="adj"/></r></p></e>
       <e><p><l>crìticu<s n="adj"/></l><r>critico<s n="adj"/></r></p></e>
@@ -3606,7 +3628,7 @@
       <e><p><l>romanzu<s n="adj"/></l><r>romanzo<s n="adj"/></r></p></e>
       <e><p><l>galitzianu<s n="adj"/></l><r>galizianu<s n="adj"/></r></p></e>
 
-      <e><p><l>indipendentista<s n="adj"/></l><r>indipendentista<s n="adj"/></r></p></e>
+      <e><p><l>indipendentista<s n="adj"/></l><r>indipendentista<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>grande<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
       <e><p><l>musicale<s n="adj"/></l><r>musicale<s n="adj"/></r></p></e>
       <e><p><l>formale<s n="adj"/></l><r>formale<s n="adj"/></r></p></e>
@@ -3849,6 +3871,7 @@
       <e><p><l>aguale<s n="adj"/></l><r>uguale<s n="adj"/></r></p></e>
       <e><p><l>obispale<s n="adj"/></l><r>vescovile<s n="adj"/></r></p></e>
 
+      <e><p><l>natzionalista<s n="adj"/></l><r>nazionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
 
 
       <!-- SECCIÓN: Adverbios -->
@@ -4036,6 +4059,7 @@
       <e><p><l>de<b/>a<b/>veras<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
 
 
+      <e><p><l>etimologicamente<s n="adv"/></l><r>etimologicamente<s n="adv"/></r></p></e>
 
 
       <!-- SECCIÓN: Verbos -->
@@ -5297,6 +5321,7 @@
       <e><p><l>ùnghere<s n="vblex"/></l><r>ungere<s n="vblex"/></r></p></e>
       <e><p><l>vengare<s n="vblex"/></l><r>vendicare<s n="vblex"/></r></p></e>
       <e><p><l>vidimare<s n="vblex"/></l><r>vidimare<s n="vblex"/></r></p></e>
+      <e><p><l>regnare<s n="vblex"/></l><r>regnare<s n="vblex"/></r></p></e>
 
 <!--
       <e><p><l>s'abigiare<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>
@@ -5312,6 +5337,7 @@
       <e><p><l>s'innamorare<s n="vblex"/></l><r>innamorarsi<s n="vblex"/></r></p></e>
       <e><p><l>s'iscostiare<s n="vblex"/></l><r>discostarsi<s n="vblex"/></r></p></e>
 -->
+
 
 
 
