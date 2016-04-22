@@ -196,6 +196,8 @@
       <e><p><l>mi<s n="prn"/><s n="enc"/><s n="p1"/></l><r>mi<s n="prn"/><s n="enc"/><s n="p1"/></r></p></e>
       <e><p><l>ti<s n="prn"/><s n="enc"/><s n="p2"/></l><r>ti<s n="prn"/><s n="enc"/><s n="p2"/></r></p></e>
       <e><p><l>si<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/></l><r>si<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/></r></p></e>
+      <e><p><l>bos<s n="prn"/><s n="enc"/><s n="p2"/></l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/></r></p></e>
+
 
       <e><p><l>la<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/></r></p></e>
       <e><p><l>lu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/></l><r>lo<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/></r></p></e>
@@ -317,6 +319,29 @@
       <e><p><l>chentu<s n="num"/></l><r>cento<s n="num"/></r></p></e>
       <e><p><l>degheoto<s n="num"/></l><r>diciotto<s n="num"/></r></p></e>
       <e><p><l>oto<s n="num"/></l><r>otto<s n="num"/></r></p></e>
+
+      <e><p><l>III<s n="num"/></l><r>III<s n="num"/></r></p></e>
+      <e><p><l>II<s n="num"/></l><r>II<s n="num"/></r></p></e>
+      <e><p><l>I<s n="num"/></l><r>I<s n="num"/></r></p></e>
+      <e><p><l>IV<s n="num"/></l><r>IV<s n="num"/></r></p></e>
+      <e><p><l>IX<s n="num"/></l><r>IX<s n="num"/></r></p></e>
+      <e><p><l>VIII<s n="num"/></l><r>VIII<s n="num"/></r></p></e>
+      <e><p><l>VII<s n="num"/></l><r>VII<s n="num"/></r></p></e>
+      <e><p><l>VI<s n="num"/></l><r>VI<s n="num"/></r></p></e>
+      <e><p><l>V<s n="num"/></l><r>V<s n="num"/></r></p></e>
+      <e><p><l>XIII<s n="num"/></l><r>XIII<s n="num"/></r></p></e>
+      <e><p><l>XII<s n="num"/></l><r>XII<s n="num"/></r></p></e>
+      <e><p><l>XI<s n="num"/></l><r>XI<s n="num"/></r></p></e>
+      <e><p><l>XIV<s n="num"/></l><r>XIV<s n="num"/></r></p></e>
+      <e><p><l>XIX<s n="num"/></l><r>XIX<s n="num"/></r></p></e>
+      <e><p><l>X<s n="num"/></l><r>X<s n="num"/></r></p></e>
+      <e><p><l>XVIII<s n="num"/></l><r>XVIII<s n="num"/></r></p></e>
+      <e><p><l>XVII<s n="num"/></l><r>XVII<s n="num"/></r></p></e>
+      <e><p><l>XVI<s n="num"/></l><r>XVI<s n="num"/></r></p></e>
+      <e><p><l>XV<s n="num"/></l><r>XV<s n="num"/></r></p></e>
+      <e><p><l>XXI<s n="num"/></l><r>XXI<s n="num"/></r></p></e>
+      <e><p><l>XX<s n="num"/></l><r>XX<s n="num"/></r></p></e>
+
 
 
       <!-- SECCIÓN: Sustantivos -->
