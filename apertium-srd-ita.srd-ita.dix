@@ -85,6 +85,12 @@
       <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
     </pardef>
 
+    <pardef n="GD_mf|ND_sp">
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
+    </pardef>
+
     <pardef n="mf_GD|sp_ND">
       <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p><par n="sp_ND"/></e>
       <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p><par n="sp_ND"/></e>
@@ -122,7 +128,13 @@
       <e><p><l>nemmancu<s n="cnjadv"/></l><r>tantomeno<s n="cnjadv"/></r></p></e>
       <e><p><l>segundu<s n="cnjadv"/></l><r>secondo<s n="cnjadv"/></r></p></e>
 
+      <e><p><l>si<s n="cnjadv"/></l><r>se<s n="cnjadv"/></r></p></e>
+      <e><p><l>però<s n="cnjadv"/></l><r>però<s n="cnjadv"/></r></p></e>
       
+      <e><p><l>mentres<s n="cnjcoo"/></l><r>mentre<s n="cnjcoo"/></r></p></e>
+      
+      <e><p><l>ca<s n="cnjsub"/></l><r>poiché<s n="cnjsub"/></r></p></e>
+  
        
       <!-- SECCIÓN: Preposiciones -->
 
@@ -163,17 +175,12 @@
       <e><p><l>paris<b/>cun<s n="pr"/></l><r>insieme<b/>con<s n="pr"/></r></p></e>
       <e><p><l>subra<s n="pr"/></l><r>su<s n="pr"/></r></p></e>
 
-      <e><p><l>finas<s n="pr"/></l><r>sino<s n="pr"/></r></p></e>
-      <e><p><l>totora<s n="adv"/></l><r>tuttora<s n="adv"/></r></p></e>
-      <e><p><l>istanote<s n="adv"/></l><r>stanotte<s n="adv"/></r></p></e>
-      <e><p><l>duncas<s n="adv"/></l><r>dunque<s n="adv"/></r></p></e>
-      <e><p><l>casumai<s n="adv"/></l><r>semmai<s n="adv"/></r></p></e>
-      <e><p><l>meda<s n="adv"/></l><r>assai<s n="adv"/></r></p></e>
-      <e><p><l>posca<s n="adv"/></l><r>poi<s n="adv"/></r></p></e>
-      <e><p><l>mancari<s n="adv"/></l><r>magari<s n="adv"/></r></p></e>
-      <e><p><l>finas<s n="adv"/></l><r>perfino<s n="adv"/></r></p></e>
-      <e><p><l>duncas<s n="adv"/></l><r>pertanto<s n="adv"/></r></p></e>
+      <e><p><l>posca<s n="pr"/></l><r>dopo<s n="pr"/></r></p></e>
+      <e><p><l>nointames<s n="pr"/></l><r>nonostante<s n="pr"/></r></p></e>
+      <e><p><l>tràmite<s n="pr"/></l><r>tramite<s n="pr"/></r></p></e>
+      <e><p><l>ultres<s n="pr"/></l><r>oltre<s n="pr"/></r></p></e>
 
+      <e><p><l>finas<s n="pr"/></l><r>sino<s n="pr"/></r></p></e>
 
 
 
@@ -246,8 +253,15 @@
 
       <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualcuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>ognunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
-      
  
+      <e><p><l>cale<s n="prn"/><s n="itg"/></l><r>quale<s n="prn"/><s n="itg"/></r></p></e>
+      <e><p><l>cussu<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>cusse<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>tale<s n="prn"/><s n="tn"/></l><r>tale<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>carchi<s n="prn"/><s n="tn"/></l><r>alcuno<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>isse<s n="prn"/><s n="tn"/></l><r>egli<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>cussu<s n="prn"/><s n="tn"/></l><r>quello<s n="prn"/><s n="tn"/></r></p></e>
+       
 
       <!-- SECCIÓN: Determinantes -->
 
@@ -272,6 +286,12 @@
 
       <e><p><l>unu<b/>àteru<s n="det"/><s n="ind"/></l><r>un<b/>altro<s n="det"/><s n="ind"/></r></p></e>
 
+      <e><p><l>niunu<s n="det"/><s n="ind"/></l><r>nessuno<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>nisciunu<s n="det"/><s n="ind"/></l><r>nessuno<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>tale<s n="det"/><s n="dem"/></l><r>tale<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>diversu<s n="det"/><s n="ind"/></l><r>diverso<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>vàriu<s n="det"/><s n="ind"/></l><r>vario<s n="det"/><s n="ind"/></r></p></e>
+ 
       <!-- SECCIÓN: Numeros -->
 
 
@@ -2929,7 +2949,42 @@
       <e><p><l>patronu<s n="n"/><s n="f"/></l><r>patrono<s n="n"/><s n="f"/></r></p></e>
 
       <e><p><l>ammenta<s n="n"/><s n="f"/></l><r>insieme<s n="n"/><s n="m"/></r></p></e>
-
+     
+      <e><p><l>sighidu<s n="n"/><s n="m"/></l><r>seguito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>paru<s n="n"/><s n="f"/></l><r>specie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>genia<s n="n"/><s n="f"/></l><r>specie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>creze<s n="n"/><s n="f"/></l><r>specie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>casta<s n="n"/><s n="f"/></l><r>specie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>maistru<s n="n"/><s n="m"/></l><r>maestro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>inimigu<s n="n"/><s n="m"/></l><r>nemico<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>segnore<s n="n"/><s n="m"/></l><r>signore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tratadu<s n="n"/><s n="m"/></l><r>trattato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>minutu<s n="n"/><s n="m"/></l><r>minuto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>currente<s n="n"/><s n="f"/></l><r>corrente<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>adòbiu<s n="n"/><s n="m"/></l><r>incontro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cuntènnidu<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>contenutu<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>capia<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>càbidu<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>professionista<s n="n"/><s n="m"/></l><r>professionista<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>presoneri<s n="n"/><s n="m"/></l><r>prigioniero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>etzetzione<s n="n"/><s n="f"/></l><r>eccezione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>intzidente<s n="n"/><s n="m"/></l><r>incidente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mortu<s n="n"/><s n="m"/></l><r>morto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>grogu<s n="n"/><s n="m"/></l><r>giallo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>dòpiu<s n="n"/><s n="m"/></l><r>doppio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>assuntu<s n="n"/><s n="m"/></l><r>assunto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>assumidu<s n="n"/><s n="m"/></l><r>assunto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>curtzu<s n="n"/><s n="m"/></l><r>corto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>parcu<s n="n"/><s n="m"/></l><r>parco<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>istendardu<s n="n"/><s n="m"/></l><r>standard<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>istandard<s n="n"/><s n="m"/></l><r>standard<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>segnore<s n="n"/><s n="f"/></l><r>signore<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>pòberu<s n="n"/><s n="m"/></l><r>povero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>abitadu<s n="n"/><s n="m"/></l><r>abitato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>contemporàneu<s n="n"/><s n="m"/></l><r>contemporaneo<s n="n"/><s n="m"/></r></p></e>
+      
+ 
 
       <!-- SECCIÓN: Nombres propios -->
 
@@ -3907,6 +3962,55 @@
 
       <e><p><l>natzionalista<s n="adj"/></l><r>nazionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
 
+      <e><p><l>finas<s n="adj"/></l><r>fino<s n="adj"/></r></p></e>
+      <e><p><l>tècnicu<s n="adj"/></l><r>tecnico<s n="adj"/></r></p></e>
+      <e><p><l>mègius<s n="adj"/></l><r>migliore<s n="adj"/></r></p></e>
+      <e><p><l>grecu<s n="adj"/></l><r>greco<s n="adj"/></r></p></e>
+      <e><p><l>bonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
+      <e><p><l>dòpiu<s n="adj"/></l><r>doppio<s n="adj"/></r></p></e>
+      <e><p><l>mèigu<s n="adj"/></l><r>medico<s n="adj"/></r></p></e>
+      <e><p><l>autu<s n="adj"/></l><r>atto<s n="adj"/></r></p></e>
+      <e><p><l>nòbile<s n="adj"/></l><r>nobile<s n="adj"/></r></p></e>
+      <e><p><l>poderosu<s n="adj"/></l><r>potente<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>segretu<s n="adj"/></l><r>segreto<s n="adj"/></r></p></e>
+      <e><p><l>produtore<s n="adj"/></l><r>produttore<s n="adj"/></r></p></e>
+      <e><p><l>parcu<s n="adj"/></l><r>parco<s n="adj"/></r></p></e>
+      <e><p><l>assolutu<s n="adj"/></l><r>assoluto<s n="adj"/></r></p></e>
+      <e><p><l>responsàbile<s n="adj"/></l><r>responsabile<s n="adj"/></r></p></e>
+      <e><p><l>grae<s n="adj"/></l><r>pesante<s n="adj"/></r></p></e>
+      <e><p><l>mìscrinu<s n="adj"/></l><r>blu<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
+      <e><p><l>biaitu<s n="adj"/></l><r>blu<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
+      <e><p><l>familiare<s n="adj"/></l><r>familiare<s n="adj"/></r></p></e>
+      <e><p><l>soberanu<s n="adj"/></l><r>sovrano<s n="adj"/></r></p></e>
+      <e><p><l>comunista<s n="adj"/></l><r>comunista<s n="adj"/></r></p></e>
+      <e><p><l>seguru<s n="adj"/></l><r>certo<s n="adj"/></r></p></e>
+      <e><p><l>tostu<s n="adj"/></l><r>duro<s n="adj"/></r></p></e>
+      <e><p><l>fidele<s n="adj"/><s n="mf"/></l><r>fedele<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>fitianu<s n="adj"/></l><r>quotidiano<s n="adj"/></r></p></e>
+      <e><p><l>proprietàriu<s n="adj"/></l><r>proprietario<s n="adj"/></r></p></e>
+      <e><p><l>residente<s n="adj"/></l><r>residente<s n="adj"/></r></p></e>
+      <e><p><l>èsteru<s n="adj"/></l><r>estero<s n="adj"/></r></p></e>
+      <e><p><l>maistru<s n="adj"/></l><r>insegnante<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>insinnante<s n="adj"/></l><r>insegnante<s n="adj"/></r></p></e>
+      <e><p><l>istendardu<s n="adj"/></l><r>standard<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
+      <e><p><l>istandard<s n="adj"/></l><r>standard<s n="adj"/></r></p></e>
+      <e><p><l>rurale<s n="adj"/></l><r>rurale<s n="adj"/></r></p></e>
+      <e><p><l>farsu<s n="adj"/></l><r>falso<s n="adj"/></r></p></e>
+      <e><p><l>mòbile<s n="adj"/></l><r>mobile<s n="adj"/></r></p></e>
+      <e><p><l>minerale<s n="adj"/></l><r>minerale<s n="adj"/></r></p></e>
+      <e><p><l>minutu<s n="adj"/></l><r>minuto<s n="adj"/></r></p></e>
+      <e><p><l>lentu<s n="adj"/></l><r>lento<s n="adj"/></r></p></e>
+      <e><p><l>istentosu<s n="adj"/></l><r>lento<s n="adj"/></r></p></e>
+      <e><p><l>coilongu<s n="adj"/></l><r>lento<s n="adj"/></r></p></e>
+      <e><p><l>costante<s n="adj"/></l><r>costante<s n="adj"/></r></p></e>
+      <e><p><l>dèbile<s n="adj"/></l><r>debole<s n="adj"/></r></p></e>
+      <e><p><l>morale<s n="adj"/></l><r>morale<s n="adj"/></r></p></e>
+      <e><p><l>murru<s n="adj"/></l><r>grigio<s n="adj"/></r></p></e>
+      <e><p><l>contemporàneu<s n="adj"/></l><r>contemporaneo<s n="adj"/></r></p></e>
+      <e><p><l>difendidore<s n="adj"/></l><r>difensore<s n="adj"/></r></p></e>
+      <e><p><l>defensore<s n="adj"/></l><r>difensore<s n="adj"/></r></p></e>
+      <e><p><l>amparadore<s n="adj"/></l><r>difensore<s n="adj"/></r></p></e>
+ 
 
       <!-- SECCIÓN: Adverbios -->
 
@@ -3918,6 +4022,10 @@
       <e><p><l>cando<s n="adv"/><s n="itg"/></l><r>quando<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>comente<s n="adv"/><s n="itg"/></l><r>come<s n="adv"/></r></p></e>
       <e><p><l>in<b/>ue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
+
+      <e><p><l>gosi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
+      <e><p><l>gasi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
+      <e><p><l>belle<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
 
       <e><p><l>etc<s n="adv"/></l><r>ecc<s n="adv"/></r></p></e>
       <e r="RL"><p><l>etc<s n="adv"/></l><r>etc<s n="adv"/></r></p></e>
@@ -4095,6 +4203,31 @@
 
 
       <e><p><l>etimologicamente<s n="adv"/></l><r>etimologicamente<s n="adv"/></r></p></e>
+
+      
+      <e><p><l>ultres<s n="adv"/></l><r>oltre<s n="adv"/></r></p></e>
+      <e><p><l>nointames<s n="adv"/></l><r>tuttavia<s n="adv"/></r></p></e>
+      <e><p><l>carrera<s n="adv"/></l><r>via<s n="adv"/></r></p></e>
+      <e><p><l>però<s n="adv"/></l><r>però<s n="adv"/></r></p></e>
+      <e><p><l>chitzo<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
+      <e><p><l>adòbiu<s n="adv"/></l><r>incontro<s n="adv"/></r></p></e>
+      <e><p><l>seguru<s n="adv"/></l><r>certo<s n="adv"/></r></p></e>
+      <e><p><l>peristantu<s n="adv"/></l><r>intanto<s n="adv"/></r></p></e>
+      <e><p><l>indedda<s n="adv"/></l><r>lontano<s n="adv"/></r></p></e>
+      <e><p><l>puru<s n="adv"/></l><r>pure<s n="adv"/></r></p></e>
+      <e><p><l>peri<s n="adv"/></l><r>pure<s n="adv"/></r></p></e>
+      <e><p><l>fintzas<s n="adv"/></l><r>pure<s n="adv"/></r></p></e>
+      <e><p><l>finas<s n="adv"/></l><r>pure<s n="adv"/></r></p></e>
+ 
+      <e><p><l>totora<s n="adv"/></l><r>tuttora<s n="adv"/></r></p></e>
+      <e><p><l>istanote<s n="adv"/></l><r>stanotte<s n="adv"/></r></p></e>
+      <e><p><l>duncas<s n="adv"/></l><r>dunque<s n="adv"/></r></p></e>
+      <e><p><l>casumai<s n="adv"/></l><r>semmai<s n="adv"/></r></p></e>
+      <e><p><l>meda<s n="adv"/></l><r>assai<s n="adv"/></r></p></e>
+      <e><p><l>posca<s n="adv"/></l><r>poi<s n="adv"/></r></p></e>
+      <e><p><l>mancari<s n="adv"/></l><r>magari<s n="adv"/></r></p></e>
+      <e><p><l>finas<s n="adv"/></l><r>perfino<s n="adv"/></r></p></e>
+      <e><p><l>duncas<s n="adv"/></l><r>pertanto<s n="adv"/></r></p></e>
 
 
       <!-- SECCIÓN: Verbos -->
@@ -5360,6 +5493,11 @@
       <e><p><l>regnare<s n="vblex"/></l><r>regnare<s n="vblex"/></r></p></e>
       <e><p><l>ispodessare<s n="vblex"/></l><r>spodestare<s n="vblex"/></r></p></e>
 
+     
+      <e><p><l>escluire<s n="vblex"/></l><r>escludere<s n="vblex"/></r></p></e>
+      <e><p><l>evidentziare<s n="vblex"/></l><r>evidenziare<s n="vblex"/></r></p></e>
+      <e><p><l>ricùrrere<s n="vblex"/></l><r>ricorrere<s n="vblex"/></r></p></e>
+
 <!--
       <e><p><l>s'abigiare<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>
       <e><p><l>s'abrigare<s n="vblex"/></l><r>ripararsi<s n="vblex"/></r></p></e>
@@ -5376,6 +5514,9 @@
 -->
 
 
+    
+     
+      
 
 
 
