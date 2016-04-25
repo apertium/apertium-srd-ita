@@ -268,6 +268,8 @@
       <e><p><l>totu<s n="predet"/></l><r>tutto<s n="predet"/></r></p></e>
 
       <e><p><l>su<s n="det"/><s n="def"/></l><r>il<s n="det"/><s n="def"/></r></p></e>
+      <e r="LR"><p><l>su<s n="det"/><s n="def"/><s n="mf"/></l><r>il<s n="det"/><s n="def"/><s n="GD"/></r></p></e>
+      <e r="RL"><p><l>su<s n="det"/><s n="def"/><s n="GD"/></l><r>il<s n="det"/><s n="def"/><s n="mf"/></r></p></e>
       <e><p><l>unu<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>carchi<s n="det"/><s n="ind"/></l><r>alcun<s n="det"/><s n="ind"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e><p><l>carchi<s n="det"/><s n="ind"/></l><r>qualche<s n="det"/><s n="ind"/></r></p></e>
@@ -278,6 +280,7 @@
       <e><p><l>cada<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ogni<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>custu<s n="det"/><s n="dem"/></l><r>questo<s n="det"/><s n="dem"/></r></p></e>
+      <e r="RL"><p><l>custu<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
 
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>tutt'e<b/>due<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<s n="det"/><s n="ind"/></r></p></e>
@@ -993,6 +996,7 @@
       <e><p><l>dinastia<s n="n"/><s n="f"/></l><r>dinastia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bèstia<s n="n"/><s n="f"/></l><r>bestia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bia<s n="n"/><s n="f"/></l><r>via<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>carrera<s n="n"/><s n="f"/></l><r>via<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>abbadia<s n="n"/><s n="f"/></l><r>abbazia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>burocratzia<s n="n"/><s n="f"/></l><r>burocrazia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>disaura<s n="n"/><s n="f"/></l><r>disgrazia<s n="n"/><s n="f"/></r></p></e>
@@ -3383,7 +3387,7 @@
       <e><p><l>disavantzu<s n="n"/><s n="m"/></l><r>disavanzo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>prètziu<s n="n"/><s n="m"/></l><r>prezzo<s n="n"/><s n="m"/></r></p></e>
 
-      <e><p><l>bividore<s n="n"/><s n="mf"/></l><r>abitante<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>bividore<s n="n"/><s n="m"/></l><r>abitante<s n="n"/><s n="mf"/></r></p></e>
 
       <e><p><l>sussidiariedade<s n="n"/><s n="f"/></l><r>sussidiarietà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>ansiedade<s n="n"/><s n="f"/></l><r>ansietà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
@@ -3470,6 +3474,7 @@
       <e><p><l>isentu<s n="n"/><s n="m"/></l><r>incapace<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>inditze<s n="n"/><s n="m"/></l><r>indice<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>simple<s n="n"/><s n="m"/></l><r>semplice<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>simple<s n="n"/><s n="f"/></l><r>semplice<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tentadore<s n="n"/><s n="m"/></l><r>custode<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>gama<s n="n"/><s n="m"/></l><r>gregge<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>verbale<s n="n"/><s n="m"/></l><r>verbale<s n="n"/><s n="m"/></r></p></e>
@@ -3986,7 +3991,6 @@
       <e><p><l>dansa<s n="n"/><s n="f"/></l><r>danza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>falta<s n="n"/><s n="f"/></l><r>colpevolezza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>farta<s n="n"/><s n="f"/></l><r>colpevolezza<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>simple<s n="n"/><s n="f"/></l><r>semplice<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>màdrighe<s n="n"/><s n="f"/></l><r>matrice<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tentadore<s n="n"/><s n="f"/></l><r>custode<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>seu<s n="n"/><s n="m"/></l><r>cattedrale<s n="n"/><s n="f"/></r></p></e>
@@ -4984,7 +4988,7 @@
       <e><p><l>primorosu<s n="adj"/></l><r>ottimale<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>perenne<s n="adj"/></l><r>perenne<s n="adj"/></r></p></e>
       <e><p><l>primidiu<s n="adj"/></l><r>precoce<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>primàrgiu<s n="adj"/></l><r>preminente<s n="adj"/></r></p></e>
+      <e><p><l>primàrgiu<s n="adj"/></l><r>preminente<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>previdìbile<s n="adj"/></l><r>prevedibile<s n="adj"/></r></p></e>
       <e><p><l>proponìbile<s n="adj"/></l><r>proponibile<s n="adj"/></r></p></e>
       <e><p><l>prorogàbile<s n="adj"/></l><r>prorogabile<s n="adj"/></r></p></e>
@@ -5450,6 +5454,7 @@
       <e><p><l>discapassu<s n="adj"/></l><r>incapace<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>isentu<s n="adj"/></l><r>incapace<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>simple<s n="adj"/></l><r>semplice<s n="adj"/></r></p></e>
+      <e><p><l>sèmplitze<s n="adj"/></l><r>semplice<s n="adj"/></r></p></e>
       <e><p><l>tentadore<s n="adj"/></l><r>custode<s n="adj"/></r></p></e>
       <e><p><l>verbale<s n="adj"/></l><r>verbale<s n="adj"/></r></p></e>
       <e><p><l>reale<s n="adj"/></l><r>reale<s n="adj"/></r></p></e>
@@ -5735,7 +5740,6 @@
       
       <e><p><l>ultres<s n="adv"/></l><r>oltre<s n="adv"/></r></p></e>
       <e><p><l>nointames<s n="adv"/></l><r>tuttavia<s n="adv"/></r></p></e>
-      <e><p><l>carrera<s n="adv"/></l><r>via<s n="adv"/></r></p></e>
       <e><p><l>però<s n="adv"/></l><r>però<s n="adv"/></r></p></e>
       <e><p><l>chitzo<s n="adv"/></l><r>presto<s n="adv"/></r></p></e>
       <e><p><l>adòbiu<s n="adv"/></l><r>incontro<s n="adv"/></r></p></e>
