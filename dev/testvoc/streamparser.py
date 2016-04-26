@@ -51,7 +51,8 @@ class LexicalUnit:
         self.readings = []
         for reading in readings:
             if len(reading) < 1:
-                print("Couldn't parse {}".format(self.lexicalUnit), file=sys.stderr)
+                #print("WARNING: Empty readings for {}".format(self.lexicalUnit), file=sys.stderr)
+                pass
             elif reading[0] not in '*#@':
                 subreadings = []
 
