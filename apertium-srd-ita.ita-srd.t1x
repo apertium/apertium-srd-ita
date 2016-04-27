@@ -2270,6 +2270,10 @@
          <pattern-item n="fti"/>
        </pattern>
        <action>
+         <modify-case>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit v="aa"/>
+         </modify-case>
          <out>
            <chunk name="àere_a_inf">
              <tags>
