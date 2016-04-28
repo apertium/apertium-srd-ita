@@ -1,6 +1,10 @@
 <rules>
 
   <rule weight="1.0">
+    <match lemma="anche" tags="adv"><select lemma="puru" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="quindi" tags="adv"><select lemma="tando" tags="adv"/></match>
   </rule>
 

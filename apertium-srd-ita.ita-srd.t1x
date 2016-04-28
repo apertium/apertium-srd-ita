@@ -7,6 +7,9 @@
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="predet">
+       <cat-item tags="predet.*"/>
+    </def-cat>
     <def-cat n="num">
        <cat-item tags="num.*"/>
     </def-cat>
@@ -2183,6 +2186,29 @@
        </action>
     </rule>
 
+    <rule comment="regla: predet">
+       <pattern>
+         <pattern-item n="predet"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="predet">
+             <tags>
+               <tag><lit-tag v="Sdet"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
     <rule comment="regla: det">
        <pattern>
          <pattern-item n="det"/>
@@ -2334,6 +2360,34 @@
     </rule>
     
 
+    <rule comment="regla: inf enc">
+       <pattern>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="inf_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
     <rule comment="regla: imper enc">
        <pattern>
          <pattern-item n="imper"/>
@@ -2371,7 +2425,7 @@
        <action>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
-           <chunk name="pro_pro_vbmod_inf">
+           <chunk name="pro_vbmod_inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
