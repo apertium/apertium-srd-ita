@@ -248,6 +248,7 @@
       <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/></r></p><par n="mf_GD"/></e>
       
       <e><p><l>nde<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+      <e><p><l>bi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e><p><l>nche<s n="prn"/><s n="pro"/><s n="adv"/></l><r>fintzas<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e><p><l>nche<s n="prn"/><s n="pro"/><s n="adv"/></l><r>puru<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
      
@@ -9290,6 +9291,10 @@
       <e><p><l>chèrrere<s n="vblex"/></l><r>volere<s n="vbmod"/></r></p></e>
       <e><p><l>pòdere<s n="vbmod"/></l><r>potere<s n="vbmod"/></r></p></e>
       <e><p><l>dèvere<s n="vblex"/></l><r>dovere<s n="vbmod"/></r></p></e>
+
+      <!--<e><p><l>b'at<s n="vblex"/></l><r>c'è<s n="vblex"/></r></p></e>-->
+      <!--<e><p><l>b'est<s n="vblex"/></l><r>c'è<s n="vblex"/></r></p></e>-->
+
       <e><p><l>achidare<s n="vblex"/></l><r>alternare<s n="vblex"/></r></p></e>
       <e><p><l>amare<s n="vblex"/></l><r>amare<s n="vblex"/></r></p></e>
       <e><p><l>ancorare<s n="vblex"/></l><r>ancorare<s n="vblex"/></r></p></e>
@@ -9300,10 +9305,8 @@
       <e><p><l>bìere<s n="vblex"/></l><r>bere<s n="vblex"/></r></p></e>
       <e><p><l>bufare<s n="vblex"/></l><r>bere<s n="vblex"/></r></p></e>
       <e><p><l>chircare<s n="vblex"/></l><r>cercare<s n="vblex"/></r></p></e>
-      <e><p><l>b'at<s n="vblex"/></l><r>c'è<s n="vblex"/></r></p></e>
       <e><p><l>dèvere<s n="vblex"/></l><r>dovere<s n="vblex"/></r></p></e>
       <e><p><l>ispentumare<s n="vblex"/></l><r>strapiombare<s n="vblex"/></r></p></e>
-      <e><p><l>b'est<s n="vblex"/></l><r>c'è<s n="vblex"/></r></p></e>
       <e><p><l>pedire<s n="vblex"/></l><r>chiedere<s n="vblex"/></r></p></e>
       <e><p><l>pregontare<s n="vblex"/></l><r>chiedere<s n="vblex"/></r></p></e>
       <e><p><l>contare<s n="vblex"/></l><r>contare<s n="vblex"/></r></p></e>
@@ -9792,7 +9795,6 @@
       <e><p><l>apretziare<s n="vblex"/></l><r>considerare<s n="vblex"/></r></p></e>
       <e><p><l>creschere<s n="vblex"/></l><r>esagerare<s n="vblex"/></r></p></e>
       <e><p><l>atzelerare<s n="vblex"/></l><r>accelerare<s n="vblex"/></r></p></e>
-      <e><p><l>recùperu<s n="vblex"/></l><r>recuperare<s n="vblex"/></r></p></e>
       <e><p><l>alterare<s n="vblex"/></l><r>alterare<s n="vblex"/></r></p></e>
       <e><p><l>disterrare<s n="vblex"/></l><r>emigrare<s n="vblex"/></r></p></e>
       <e><p><l>penetrare<s n="vblex"/></l><r>penetrare<s n="vblex"/></r></p></e>
@@ -9811,7 +9813,6 @@
       <e><p><l>bisitare<s n="vblex"/></l><r>visitare<s n="vblex"/></r></p></e>
       <e><p><l>depositare<s n="vblex"/></l><r>depositare<s n="vblex"/></r></p></e>
       <e><p><l>evitare<s n="vblex"/></l><r>evitare<s n="vblex"/></r></p></e>
-      <e><p><l>imbìdia<s n="vblex"/></l><r>invitare<s n="vblex"/></r></p></e>
       <e><p><l>isperimentare<s n="vblex"/></l><r>sperimentare<s n="vblex"/></r></p></e>
       <e><p><l>tentare<s n="vblex"/></l><r>tentare<s n="vblex"/></r></p></e>
       <e><p><l>afrontare<s n="vblex"/></l><r>affrontare<s n="vblex"/></r></p></e>
