@@ -2360,10 +2360,13 @@
     </rule>
     
 
-    <rule comment="regla: inf enc">
+    <rule comment="regla: inf enc"> <!-- ATENCION: pongo pattern absurdo para desactivar la regla -->
        <pattern>
          <pattern-item n="inf"/>
          <pattern-item n="enc"/>
+           <pattern-item n="enc"/>
+           <pattern-item n="enc"/>
+           <pattern-item n="enc"/>
        </pattern>
        <action>
          <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
