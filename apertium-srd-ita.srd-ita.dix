@@ -268,7 +268,9 @@
       <e><p><l>ognunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
  
       <e><p><l>cale<s n="prn"/><s n="itg"/></l><r>quale<s n="prn"/><s n="itg"/></r></p></e>
-      <e><p><l>cussu<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/></r></p></e>
+      <e r="RL"><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>cusse<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>tale<s n="prn"/><s n="tn"/></l><r>tale<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>carchi<s n="prn"/><s n="tn"/></l><r>alcuno<s n="prn"/><s n="tn"/></r></p></e>
@@ -2532,7 +2534,7 @@
       <e><p><l>ufitzialidade<s n="n"/><s n="f"/></l><r>ufficialità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>finalidade<s n="n"/><s n="f"/></l><r>finalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>sanidade<s n="n"/><s n="f"/></l><r>sanità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>borta<s n="n"/><s n="f"/></l><r>volta<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>borta<s n="n"/><s n="f"/></l><r>volta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>boluntade<s n="n"/><s n="f"/></l><r>volontà<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>vista<s n="n"/><s n="f"/></l><r>vista<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mancàntzia<s n="n"/><s n="f"/></l><r>mancànza<s n="n"/><s n="f"/></r></p></e>
