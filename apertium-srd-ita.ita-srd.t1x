@@ -37,6 +37,11 @@
        <cat-item tags="vbhaver.ifi.*"/>
        <cat-item tags="vblex.ifi.*"/>
     </def-cat>
+    <def-cat n="imper-inf-ger">
+       <cat-item tags="vblex.imp.*"/>
+       <cat-item tags="vblex.inf"/>
+       <cat-item tags="vblex.ger"/>
+    </def-cat>
     <def-cat n="imper">
        <cat-item tags="vblex.imp.*"/>
     </def-cat>
@@ -2360,45 +2365,14 @@
     </rule>
     
 
-    <rule comment="regla: inf enc"> <!-- ATENCION: pongo pattern absurdo para desactivar la regla -->
+    <rule comment="regla: imper-inf-ger enc">
        <pattern>
-         <pattern-item n="inf"/>
-         <pattern-item n="enc"/>
-           <pattern-item n="enc"/>
-           <pattern-item n="enc"/>
-           <pattern-item n="enc"/>
-       </pattern>
-       <action>
-         <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
-         <out>
-           <chunk name="inf_enc">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-               <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
-                 <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
-           </chunk>
-         </out>
-       </action>
-    </rule>
-
-    <rule comment="regla: imper enc">
-       <pattern>
-         <pattern-item n="imper"/>
+         <pattern-item n="imper-inf-ger"/>
          <pattern-item n="enc"/>
        </pattern>
        <action>
          <out>
-           <chunk name="imp_enc">
+           <chunk name="verb_enc">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
