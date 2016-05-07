@@ -21,6 +21,9 @@ dev/glossariu.ita-srd.spaces.txt -text
 dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
+evaluacion/corriere160505.srd.txt -text
+evaluacion/corriere160505.srd.u.txt -text
+evaluacion/corriere160505.txt -text
 /modes.xml -text
 texts/cuento.2.srd.txt -text
 texts/cuento.ita.txt -text
