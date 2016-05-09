@@ -50,8 +50,14 @@
        <cat-item tags="prn.pro.p2.*"/>
        <cat-item tags="prn.pro.p3.*"/>
     </def-cat>
+    <def-cat n="gli">
+       <cat-item tags="prn.pro.p3.m.sg"/>
+    </def-cat>
     <def-cat n="enc">
        <cat-item tags="prn.enc.*"/>
+    </def-cat>
+    <def-cat n="enc-p3">
+       <cat-item tags="prn.enc.p3.*"/>
     </def-cat>
     <def-cat n="adjec">
        <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.ord, adj.ind etc. -->
@@ -2364,6 +2370,40 @@
        </action>
     </rule>
     
+
+    <rule comment="regla: gli enc-p3">
+       <pattern>
+         <pattern-item n="gli"/>
+         <pattern-item n="enc-p3"/>
+       </pattern>
+       <action>
+         <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="gli"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+           <b/>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="enc-p3"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
 
     <rule comment="regla: imper-inf-ger enc">
        <pattern>
