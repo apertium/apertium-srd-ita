@@ -197,9 +197,9 @@
       <e><p><l>tue<s n="prn"/><s n="tn"/><s n="p2"/></l><r>tu<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
       <e><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/></r></p></e>
       <e><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/></r></p></e>
-      <e r="LR"><p><l>issu<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="LR"><p><l>issu<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-      <e r="RL"><p><l>issu<s n="prn"/><s n="pro"/><s n="p3"/><s n="GD"/><s n="pl"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/><s n="GD"/><s n="pl"/></l><r>lui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l>nois<s n="prn"/><s n="tn"/><s n="p1"/></l><r>noi<s n="prn"/><s n="tn"/><s n="p1"/></r></p></e>
       <e><p><l>bois<s n="prn"/><s n="tn"/><s n="p2"/></l><r>voi<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
 
@@ -301,6 +301,7 @@
 
       <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
       <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
+      <e r="RL"><p><l>issoro<s n="det"/><s n="pos"/></l><r>loro<s n="det"/><s n="pos"/></r></p></e>
       <e><p><l>àteru<s n="det"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
       <e><p><l>cada<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ogni<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
