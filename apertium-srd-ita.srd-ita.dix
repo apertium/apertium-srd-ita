@@ -226,7 +226,7 @@
 
       <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>totu<s n="prn"/><s n="tn"/></l><r>tutto<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>totu<s n="prn"/><s n="tn"/></l><r>tutto<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
       <e><p><l>ambos<s n="prn"/><s n="tn"/></l><r>tutti<b/>e<b/>due<s n="prn"/><s n="tn"/></r></p></e>
 
       <e><p><l>bi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>vi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
@@ -288,8 +288,7 @@
 
       <!-- SECCIÓN: Determinantes -->
 
-      <e><p><l>totu<s n="predet"/></l><r>tutto<s n="predet"/></r></p></e>
-      <e r="RL"><p><l>totu<s n="predet"/><s n="GD"/><s n="ND"/></l><r>tutto<s n="predet"/><s n="nt"/><s n="sp"/></r></p></e>
+      <e><p><l>totu<s n="predet"/></l><r>tutto<s n="predet"/></r></p><par n="mf_GD|sp_ND"/></e>
 
       <e><p><l>su<s n="det"/><s n="def"/></l><r>il<s n="det"/><s n="def"/></r></p></e>
       <e r="LR"><p><l>su<s n="det"/><s n="def"/><s n="mf"/></l><r>il<s n="det"/><s n="def"/><s n="GD"/></r></p></e>
