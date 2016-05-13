@@ -176,6 +176,7 @@
       
       <e><p><l>in<b/>foras<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
       <e><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>finas<s n="pr"/></l><r>persino<s n="pr"/></r></p></e>
       <e><p><l>in<b/>mesu<b/>de<s n="pr"/></l><r>in<b/>mezzo<b/>a<s n="pr"/></r></p></e>
       <e><p><l>subra<s n="pr"/></l><r>sopra<s n="pr"/></r></p></e>
       <e><p><l>paris<b/>cun<s n="pr"/></l><r>insieme<b/>con<s n="pr"/></r></p></e>
@@ -398,7 +399,10 @@
       <e><p><l>calore<s n="n"/><s n="m"/></l><r>calore<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>persona<s n="n"/><s n="f"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>migratzione<s n="n"/><s n="f"/></l><r>migrazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>emigratzione<s n="n"/><s n="f"/></l><r>emigrazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>giardinu<s n="n"/><s n="m"/></l><r>giardino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>vertice<s n="n"/><s n="m"/></l><r>riunione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tempus<s n="n"/><s n="m"/></l><r>tempo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>calore<s n="n"/><s n="m"/></l><r>caldo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fritu<s n="n"/><s n="m"/></l><r>freddo<s n="n"/><s n="m"/></r></p></e>
@@ -429,6 +433,7 @@
       <e><p><l>conca<s n="n"/><s n="f"/></l><r>conca<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>conca<s n="n"/><s n="f"/></l><r>testa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>abba<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
+
   
   
       <e><p><l>abitante<s n="n"/><s n="mf"/></l><r>abitante<s n="n"/><s n="mf"/></r></p></e>
@@ -446,12 +451,14 @@
       <e><p><l>album<s n="n"/><s n="m"/></l><r>album<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>alimentu<s n="n"/><s n="m"/></l><r>alimento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>dischente<s n="n"/><s n="m"/></l><r>allievo<s n="n"/><s n="m"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>emigrante<s n="n"/><s n="m"/></l><r>migrante<s n="n"/><s n="m"/></r></p><par n="GD_mf|ND_sp"/></e>
       <e><p><l>ambiente<s n="n"/><s n="m"/></l><r>ambiente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cuntestu<s n="n"/><s n="m"/></l><r>ambito<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>àmbitu<s n="n"/><s n="m"/></l><r>ambito<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>amigu<s n="n"/><s n="m"/></l><r>amico<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>amministratzione<s n="n"/><s n="f"/></l><r>amministrazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>abrile<s n="n"/><s n="m"/></l><r>aprile<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>apparenza<s n="n"/><s n="f"/></l><r>aparentzia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>architetu<s n="n"/><s n="m"/></l><r>architetto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>argumentu<s n="n"/><s n="m"/></l><r>argomento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arma<s n="n"/><s n="f"/></l><r>arma<s n="n"/><s n="f"/></r></p></e>
@@ -630,6 +637,7 @@
       <e><p><l>lagu<s n="n"/><s n="m"/></l><r>lago<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>traballadore<s n="n"/><s n="m"/></l><r>lavoratore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>traballu<s n="n"/><s n="m"/></l><r>lavoro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>lealidade<s n="n"/><s n="f"/></l><r>lealtà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>      
       <e><p><l>lege<s n="n"/><s n="m"/></l><r>legge<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>literadura<s n="n"/><s n="f"/></l><r>letteratura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>letura<s n="n"/><s n="f"/></l><r>lettura<s n="n"/><s n="f"/></r></p></e>
@@ -1703,7 +1711,9 @@
       <e><p><l>mascru<s n="n"/><s n="m"/></l><r>maschio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>frùschiu<s n="n"/><s n="m"/></l><r>fischio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arriscu<s n="n"/><s n="m"/></l><r>rischio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>futuru<s n="n"/><s n="m"/></l><r>futuro<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>càgiu<s n="n"/><s n="m"/></l><r>caglio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bortada<s n="n"/><s n="f"/></l><r>bivio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>bagàlliu<s n="n"/><s n="m"/></l><r>bagaglio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>trincu<s n="n"/><s n="m"/></l><r>taglio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>àgiu<s n="n"/><s n="m"/></l><r>aglio<s n="n"/><s n="m"/></r></p></e>
@@ -2206,7 +2216,7 @@
       <e><p><l>dibatimentu<s n="n"/><s n="m"/></l><r>dibattito<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cojuiu<s n="n"/><s n="m"/></l><r>matrimonio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>applicazione<s n="n"/><s n="f"/></l><r>applicazione<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>aba<s n="adv"/></l><r>acqua<s n="adv"/></r></p></e>
+      <e><p><l>aba<s n="n"/><s n="f"/></l><r>acqua<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>terremotu<s n="n"/><s n="m"/></l><r>terremoto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sezione<s n="n"/><s n="f"/></l><r>sezione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>separatismu<s n="n"/><s n="m"/></l><r>separatismo<s n="n"/><s n="m"/></r></p></e>
@@ -2270,6 +2280,7 @@
       <e><p><l>printzipadu<s n="n"/><s n="m"/></l><r>principato<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pastoriu<s n="n"/><s n="m"/></l><r>pastorizia<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>motu<s n="n"/><s n="m"/></l><r>moto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mètida<s n="n"/><s n="m"/></l><r>metodo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>misturitzu<s n="n"/><s n="m"/></l><r>miscuglio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>metodologia<s n="n"/><s n="f"/></l><r>metodologia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mecanismu<s n="n"/><s n="m"/></l><r>meccanismo<s n="n"/><s n="m"/></r></p></e>
@@ -2589,12 +2600,15 @@
       <e><p><l>birra<s n="n"/><s n="f"/></l><r>birra<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fita<s n="n"/><s n="f"/></l><r>fetta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pretzisione<s n="n"/><s n="f"/></l><r>precisione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>chistione<s n="n"/><s n="f"/></l><r>polemica<s n="n"/><s n="f"/></r></p></e>      
       <e><p><l>locale<s n="n"/><s n="m"/></l><r>locale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>enogastronomia<s n="n"/><s n="f"/></l><r>enogastronomia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzirculatzione<s n="n"/><s n="f"/></l><r>circolazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>petitu<s n="n"/><s n="m"/></l><r>stuzzichino<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ingrediente<s n="n"/><s n="m"/></l><r>ingrediente<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>mandighìngiu<s n="n"/><s n="m"/></l><r>prurito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>incartamentu<s n="n"/><s n="m"/></l><r>dossier<s n="n"/><s n="m"/></r></p><par n="mf_GD"/></e>
       <e><p><l>dimanda<s n="n"/><s n="f"/></l><r>quesito<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>collocamentu<s n="n"/><s n="m"/></l><r>collocamento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>andamentu<s n="n"/><s n="m"/></l><r>andamento<s n="n"/><s n="m"/></r></p></e>
@@ -3562,6 +3576,7 @@
       <e><p><l>istadiale<s n="n"/><s n="f"/></l><r>estate<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>istiu<s n="n"/><s n="m"/></l><r>estate<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>retze<s n="n"/><s n="f"/></l><r>rete<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cunvergèntzia<s n="n"/><s n="f"/></l><r>convergenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pretu<s n="n"/><s n="m"/></l><r>lite<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>naviu<s n="n"/><s n="m"/></l><r>nave<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tempus<s n="n"/><s n="m"/></l><r>clima<s n="n"/><s n="m"/></r></p></e>
@@ -3588,6 +3603,7 @@
       <e><p><l>piessinnu<s n="n"/><s n="m"/></l><r>carattere<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>valore<s n="n"/><s n="m"/></l><r>valore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>istima<s n="n"/><s n="f"/></l><r>amore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>minuda<s n="n"/><s n="f"/></l><r>dettaglio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>faddonca<s n="n"/><s n="f"/></l><r>errore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>faddina<s n="n"/><s n="f"/></l><r>errore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>isbàlliu<s n="n"/><s n="m"/></l><r>errore<s n="n"/><s n="m"/></r></p></e>
@@ -5475,6 +5491,7 @@
       <e><p><l>Brandina<s n="np"/><s n="ant"/><s n="f"/></l><r>Brandina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Brando<s n="np"/><s n="ant"/><s n="m"/></l><r>Brando<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Braulio<s n="np"/><s n="ant"/><s n="m"/></l><r>Braulio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Brennero<s n="np"/><s n="ant"/><s n="m"/></l><r>Brennero<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Brenno<s n="np"/><s n="ant"/><s n="m"/></l><r>Brenno<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Bretannione<s n="np"/><s n="ant"/><s n="m"/></l><r>Bretannione<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Brigida<s n="np"/><s n="ant"/><s n="f"/></l><r>Brigida<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -8181,8 +8198,9 @@
       <e><p><l>segundu<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>catolicu<s n="adj"/></l><r>cattolico<s n="adj"/></r></p></e>
       <e><p><l>catolicu<s n="n"/></l><r>cattolico<s n="n"/></r></p></e>
-  
+      <e><p><l>libicu<s n="adj"/></l><r>libico<s n="adj"/></r></p></e>
       <e><p><l>bellu<s n="adj"/></l><r>bello<s n="adj"/></r></p></e>
+      <e><p><l>coladu<s n="adj"/></l><r>scorso<s n="adj"/></r></p></e>
       <e><p><l>caente<s n="adj"/></l><r>caldo<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>cuntentu<s n="adj"/></l><r>contento<s n="adj"/></r></p></e>
       <e><p><l>felitze<s n="adj"/></l><r>felice<s n="adj"/></r></p></e>
@@ -8782,6 +8800,7 @@
       <e><p><l>estremu<s n="adj"/></l><r>estremo<s n="adj"/></r></p></e>
       <e><p><l>matessi<s n="adj"/></l><r>medesimo<s n="adj"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e><p><l>matessi<s n="adj"/></l><r>stesso<s n="adj"/></r></p><par n="mf_GD|sp_ND"/></e>
+      <e><p><l>bilaterale<s n="adj"/></l><r>bilaterale<s n="adj"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e><p><l>grusseri<s n="adj"/></l><r>grossolano<s n="adj"/></r></p></e>
       <e><p><l>malesanu<s n="adj"/></l><r>malsano<s n="adj"/></r></p></e>
       <e><p><l>gùrpinu<s n="adj"/></l><r>volpino<s n="adj"/></r></p></e>
@@ -8980,8 +8999,10 @@
       <e><p><l>èsteru<s n="adj"/></l><r>estero<s n="adj"/></r></p></e>
       <e><p><l>maistru<s n="adj"/></l><r>insegnante<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>insinnante<s n="adj"/></l><r>insegnante<s n="adj"/></r></p></e>
-      <e><p><l>istendardu<s n="adj"/></l><r>standard<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
+      <e><p><l>istendardu<s n="adj"/></l><r>stendardo<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
+      <e><p><l>conseguente<s n="adj"/></l><r>conseguente<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
       <e><p><l>istandard<s n="adj"/></l><r>standard<s n="adj"/></r></p></e>
+      <e><p><l>fragile<s n="adj"/></l><r>fragile<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
       <e><p><l>rurale<s n="adj"/></l><r>rurale<s n="adj"/></r></p></e>
       <e><p><l>farsu<s n="adj"/></l><r>falso<s n="adj"/></r></p></e>
       <e><p><l>mòbile<s n="adj"/></l><r>mobile<s n="adj"/></r></p></e>
@@ -9071,6 +9092,7 @@
       <e><p><l>lisu<s n="adj"/></l><r>liscio<s n="adj"/></r></p></e>
       <e><p><l>unfradu<s n="adj"/></l><r>gonfio<s n="adj"/></r></p></e>
       <e><p><l>ischidadu<s n="adj"/></l><r>sveglio<s n="adj"/></r></p></e>
+      <e><p><l>austriacu<s n="adj"/></l><r>austriaco<s n="adj"/></r></p></e>
       <e><p><l>benefitziàriu<s n="adj"/></l><r>beneficiario<s n="adj"/></r></p></e>
       <e><p><l>cunfiantziàriu<s n="adj"/></l><r>fiduciario<s n="adj"/></r></p></e>
       <e><p><l>fidutziàriu<s n="adj"/></l><r>fiduciario<s n="adj"/></r></p></e>
@@ -9082,6 +9104,7 @@
       <e><p><l>oràriu<s n="adj"/></l><r>orario<s n="adj"/></r></p></e>
       <e><p><l>publitzitàriu<s n="adj"/></l><r>pubblicitario<s n="adj"/></r></p></e>
       <e><p><l>sanitàriu<s n="adj"/></l><r>sanitario<s n="adj"/></r></p></e>
+      <e><p><l>credibile<s n="adj"/></l><r>credìbile<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
       <e><p><l>unitàriu<s n="adj"/></l><r>unitario<s n="adj"/></r></p></e>
       <e><p><l>comunitàriu<s n="adj"/></l><r>comunitario<s n="adj"/></r></p></e>
       <e><p><l>volontàriu<s n="adj"/></l><r>volontario<s n="adj"/></r></p></e>
@@ -9284,6 +9307,7 @@
       <e><p><l>costituidu<s n="adj"/></l><r>costituito<s n="adj"/></r></p></e>
       <e><p><l>cuncordadu<s n="adj"/></l><r>pattuito<s n="adj"/></r></p></e>
       <e><p><l>artu<s n="adj"/></l><r>alto<s n="adj"/></r></p></e>
+      <e><p><l>a<b/>disora<s n="adj"/></l><r>anacronistico<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>lestru<s n="adj"/></l><r>svelto<s n="adj"/></r></p></e>
       <e><p><l>ischidu<s n="adj"/></l><r>colto<s n="adj"/></r></p></e>
       <e><p><l>coltu<s n="adj"/></l><r>colto<s n="adj"/></r></p></e>
@@ -9521,7 +9545,7 @@
 
       <e><p><l>cando<s n="rel"/><s n="adv"/></l><r>quando<s n="rel"/><s n="adv"/></r></p></e>
       <e><p><l>ue<s n="rel"/><s n="adv"/></l><r>dove<s n="rel"/><s n="adv"/></r></p></e>
-<e><p><l>a fortza<s n="adv"/></l><r>a<b/>fortza<s n="adv"/></r></p></e>
+      <e><p><l>a fortza<s n="adv"/></l><r>a<b/>forza<s n="adv"/></r></p></e>
 
       <e><p><l>ue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>pro<b/>ite<s n="adv"/><s n="itg"/></l><r>perché<s n="adv"/><s n="itg"/></r></p></e>
@@ -9532,12 +9556,15 @@
       <e><p><l>gosi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
       <e><p><l>gasi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
       <e><p><l>belle<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
-
+      
+      <e><p><l>a<b/>fùrriu<s n="adv"/></l><r>profondament<s n="adv"/></r></p></e>
+      <e><p><l>fintzas<b/>a<b/>como<s n="adv"/></l><r>finora<s n="adv"/></r></p></e>
       <e><p><l>etc<s n="adv"/></l><r>ecc<s n="adv"/></r></p></e>
       <e r="RL"><p><l>etc<s n="adv"/></l><r>etc<s n="adv"/></r></p></e>
-
       <e><p><l>oe<s n="adv"/></l><r>oggi<s n="adv"/></r></p></e>
       <e><p><l>como<s n="adv"/></l><r>adesso<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>su<b/>matessi<b/>tempus<s n="adv"/></l><r>nel<b/>contempo<s n="adv"/></r></p></e>
+      <e><p><l>finas<s n="adv"/></l><r>persino<s n="adv"/></r></p></e>
       <e><p><l>fintzas<s n="adv"/></l><r>anche<s n="adv"/></r></p></e>
       <e><p><l>tambene<s n="adv"/></l><r>anche<s n="adv"/></r></p></e>
       <e><p><l>puru<s n="adv"/></l><r>anche<s n="adv"/></r></p></e>
@@ -9671,6 +9698,7 @@
       <e><p><l>traditzionalmente<s n="adv"/></l><r>tradizionalmente<s n="adv"/></r></p></e>
 
       <e><p><l>che<b/>a<s n="adv"/></l><r>analogamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>fundu<s n="adv"/></l><r>profondamente<s n="adv"/></r></p></e>
       <e><p><l>de<b/>annu<b/>in<b/>annu<s n="adv"/></l><r>annualmente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>su<b/>presente<s n="adv"/></l><r>attualmente<s n="adv"/></r></p></e>
       <e><p><l>oe<b/>in<b/>die<s n="adv"/></l><r>attualmente<s n="adv"/></r></p></e>
@@ -9803,6 +9831,7 @@
       <e><p><l>pedire<s n="vblex"/></l><r>chiedere<s n="vblex"/></r></p></e>
       <e><p><l>pregontare<s n="vblex"/></l><r>chiedere<s n="vblex"/></r></p></e>
       <e><p><l>contare<s n="vblex"/></l><r>contare<s n="vblex"/></r></p></e>
+      <e><p><l>ativare<s n="vblex"/></l><r>implementare<s n="vblex"/></r></p></e>
       <e><p><l>acuntentare<s n="vblex"/></l><r>contentare<s n="vblex"/></r></p></e>
       <e><p><l>cùrrere<s n="vblex"/></l><r>correre<s n="vblex"/></r></p></e>
       <e><p><l>nàrrere<s n="vblex"/></l><r>dire<s n="vblex"/></r></p></e>
@@ -10240,6 +10269,7 @@
       <e><p><l>presentziare<s n="vblex"/></l><r>presenziare<s n="vblex"/></r></p></e>
       <e><p><l>atzionare<s n="vblex"/></l><r>azionare<s n="vblex"/></r></p></e>
       <e><p><l>agiùnghere<s n="vblex"/></l><r>aggiungere<s n="vblex"/></r></p></e>
+      <e><p><l>sutalineare<s n="vblex"/></l><r>sottolineare<s n="vblex"/></r></p></e>
       <e><p><l>cunferentziare<s n="vblex"/></l><r>dare<b/>una<b/>conferenza<s n="vblex"/></r></p></e>
       <e><p><l>minorare<s n="vblex"/></l><r>minorare<s n="vblex"/></r></p></e>
       <e><p><l>domare<s n="vblex"/></l><r>domare<s n="vblex"/></r></p></e>
@@ -10391,6 +10421,7 @@
       <e><p><l>misturare<s n="vblex"/></l><r>mischiare<s n="vblex"/></r></p></e>
       <e><p><l>impicare<s n="vblex"/></l><r>impiccare<s n="vblex"/></r></p></e>
       <e><p><l>filare<s n="vblex"/></l><r>filare<s n="vblex"/></r></p></e>
+      <e><p><l>tòrrare<g><b/>a<b/>definire</g><s n="vblex"/></l><r>ridefinire<s n="vblex"/></r></p></e>
       <e><p><l>corfire<s n="vblex"/></l><r>colpire<s n="vblex"/></r></p></e>
       <e><p><l>bòmbere<s n="vblex"/></l><r>vomitare<s n="vblex"/></r></p></e>
       <e><p><l>bombare<s n="vblex"/></l><r>schizzare<s n="vblex"/></r></p></e>
@@ -10776,6 +10807,7 @@
       <e><p><l>asciutare<s n="vblex"/></l><r>asciugare<s n="vblex"/></r></p></e>
       <e><p><l>furriare<s n="vblex"/></l><r>cambiare<s n="vblex"/></r></p></e>
       <e><p><l>cassare<s n="vblex"/></l><r>cacciare<s n="vblex"/></r></p></e>
+      <e><p><l>espresare<s n="vblex"/></l><r>esternare<s n="vblex"/></r></p></e>
       <e><p><l>cumentzare<s n="vblex"/></l><r>cominciare<s n="vblex"/></r></p></e>
       <e><p><l>dassare<s n="vblex"/></l><r>lasciare<s n="vblex"/></r></p></e>
       <e><p><l>odiare<s n="vblex"/></l><r>odiare<s n="vblex"/></r></p></e>
@@ -10919,6 +10951,7 @@
       <e><p><l>ammustrare<s n="vblex"/></l><r>esibire<s n="vblex"/></r></p></e>
       <e><p><l>impèdire<s n="vblex"/></l><r>impedire<s n="vblex"/></r></p></e>
       <e><p><l>giagarare<s n="vblex"/></l><r>aggredire<s n="vblex"/></r></p></e>
+      <e><p><l>decrasare<s n="vblex"/></l><r>declassare<s n="vblex"/></r></p></e>
       <e><p><l>fàghere<s n="vblex"/></l><r>agire<s n="vblex"/></r></p></e>
       <e><p><l>apostivigare<s n="vblex"/></l><r>stabilire<s n="vblex"/></r></p></e>
       <e><p><l>definire<s n="vblex"/></l><r>definire<s n="vblex"/></r></p></e>
@@ -11330,6 +11363,8 @@
       <e><p><l>duritare<s n="vblex"/></l><r>esitare<s n="vblex"/></r></p></e>
       <e><p><l>eliminare<s n="vblex"/></l><r>smaltire<s n="vblex"/></r></p></e>
       <e><p><l>emìtere<s n="vblex"/></l><r>emettere<s n="vblex"/></r></p></e>
+      <e><p><l>isbagliare<s n="vblex"/></l><r>sbagliare<s n="vblex"/></r></p></e>
+
       <e><p><l>erogare<s n="vblex"/></l><r>erogare<s n="vblex"/></r></p></e>
       <e><p><l>escecutare<s n="vblex"/></l><r>requisire<s n="vblex"/></r></p></e>
       <e><p><l>esecutare<s n="vblex"/></l><r>eseguire<s n="vblex"/></r></p></e>
