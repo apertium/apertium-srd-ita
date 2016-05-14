@@ -37,10 +37,10 @@
        <cat-item tags="vbhaver.ifi.*"/>
        <cat-item tags="vblex.ifi.*"/>
     </def-cat>
-    <def-cat n="imper-inf-ger">
+    <def-cat n="imper-ger-pp">
        <cat-item tags="vblex.imp.*"/>
-       <cat-item tags="vblex.inf"/>
        <cat-item tags="vblex.ger"/>
+       <cat-item tags="vblex.pp"/>
     </def-cat>
     <def-cat n="imper">
        <cat-item tags="vblex.imp.*"/>
@@ -96,16 +96,24 @@
      <attr-item tags="vbser"/>
      <attr-item tags="vbhaver"/>
   </def-attr>
-
+   <def-attr n="a_np_acr">
+     <attr-item tags="np"/>
+     <attr-item tags="acr"/>
+   </def-attr>
 
 </section-def-attrs>
+
 <section-def-vars>
-<def-var n="genero"/>
-<def-var n="numero"/>
-<def-var n="concPrimero"/>
-<def-var n="concSegundo"/>
-<def-var n="concTercero"/>
+  <def-var n="genero"/>
+  <def-var n="numero"/>
+  <def-var n="concPrimero"/>
+  <def-var n="concSegundo"/>
+  <def-var n="concTercero"/>
+  <def-var n="caseFirstWord"/>
+  <def-var n="EOS"/>
+  <def-var n="debug"/>
 </section-def-vars>
+
 <section-def-macros>
 
     <def-macro n="f_concord1" npar="1">
@@ -2113,6 +2121,47 @@
       </choose>
     </def-macro>
 
+    <def-macro n="firstWord" npar="1">
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="sl" part="a_np_acr"/>
+	      <lit v=""/>
+	    </equal>
+	  </test>
+	  <choose>
+	    <when>
+	      <test>
+		<equal>
+		  <var n="EOS"/>
+		  <lit v="true"/>
+		</equal>
+	      </test>
+	      <modify-case>
+		<clip pos="1" side="tl" part="lem"/>
+		<lit v="aa"/>
+	      </modify-case>
+	      <let>
+		<var n="caseFirstWord"/>
+		<lit v="Aa"/>
+	      </let>
+	    </when>
+	  </choose>
+	</when>
+	<otherwise>
+	  <let>
+	    <var n="caseFirstWord"/>
+	    <lit v="aa"/>
+	  </let>
+	</otherwise>
+      </choose>
+      <let>
+	<var n="EOS"/>
+	<lit v="false"/>
+      </let>
+    </def-macro>
+
   </section-def-macros>
 
 <section-rules>
@@ -2405,9 +2454,9 @@
     </rule>
 
 
-    <rule comment="regla: imper-inf-ger enc">
+    <rule comment="regla: imper-ger-pp enc">
        <pattern>
-         <pattern-item n="imper-inf-ger"/>
+         <pattern-item n="imper-ger-pp"/>
          <pattern-item n="enc"/>
        </pattern>
        <action>
@@ -2433,9 +2482,9 @@
        </action>
     </rule>
 
-    <rule comment="regla: imper-inf-ger enc enc">
+    <rule comment="regla: imper-ger-pp enc enc">
        <pattern>
-         <pattern-item n="imper-inf-ger"/>
+         <pattern-item n="imper-ger-pp"/>
          <pattern-item n="enc"/>
          <pattern-item n="enc"/>
        </pattern>
@@ -2462,6 +2511,74 @@
                  <clip pos="3" side="tl" part="lemq"/>
                </lu>
              </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: inf enc">
+       <pattern>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
+         <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
+         <out>
+           <chunk name="inf_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: inf enc enc">
+       <pattern>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
+         <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
+         <out>
+           <chunk name="inf_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
            </chunk>
          </out>
        </action>
