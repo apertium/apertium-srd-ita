@@ -40,10 +40,10 @@
     <def-cat n="imper">
        <cat-item tags="vblex.imp.*"/>
     </def-cat>
-    <def-cat n="imper-inf-ger">
+    <def-cat n="imper-ger-pp">
        <cat-item tags="vblex.imp.*"/>
-       <cat-item tags="vblex.inf"/>
        <cat-item tags="vblex.ger"/>
+       <cat-item tags="vblex.pp"/>
     </def-cat>
     <def-cat n="pro">
        <cat-item tags="prn.pro.p1.*"/>
@@ -2066,8 +2066,6 @@
     </rule>
 
 
-
-
     <rule comment="regla: adjec">
        <pattern>
          <pattern-item n="adjec"/>
@@ -2090,6 +2088,7 @@
          </out>
        </action>
     </rule>
+
 
     <rule comment="regla: pro">
        <pattern>
@@ -2191,15 +2190,17 @@
     <!-- ================================================================== -->
 
    
-
-    <rule comment="regla: imper-inf-ger enc">
+    <rule comment="regla: imper-ger-pp enc">
        <pattern>
-         <pattern-item n="imper-inf-ger"/>
+         <pattern-item n="imper-ger-pp"/>
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>     
          <out>
-           <chunk name="imp_enc">
+           <chunk name="verb_enc">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -2220,52 +2221,21 @@
        </action>
     </rule>
 
-
-    <rule comment="regla: imper-inf-ger enc enc">
+    <rule comment="regla: imper-ger-pp enc enc">
        <pattern>
-         <pattern-item n="imper-inf-ger"/>
+         <pattern-item n="imper-ger-pp"/>
          <pattern-item n="enc"/>
          <pattern-item n="enc"/>
        </pattern>
        <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>     
+         <call-macro n="f_concord1">
+           <with-param pos="3"/>
+         </call-macro>     
          <out>
-           <chunk name="imp_enc">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-             <mlu>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
-               <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
-                 <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
-               <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
-               </lu>
-             </mlu>
-           </chunk>
-         </out>
-       </action>
-    </rule>
-
-
-    <rule comment="regla: imper-inf-ger enc enc enc">
-       <pattern>
-         <pattern-item n="imper-inf-ger"/>
-         <pattern-item n="enc"/>
-         <pattern-item n="enc"/>
-         <pattern-item n="enc"/>
-       </pattern>
-       <action>
-         <out>
-           <chunk name="imp_enc">
+           <chunk name="verb_enc">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -2285,18 +2255,11 @@
                  <clip pos="3" side="tl" part="tags"/>
                  <clip pos="3" side="tl" part="lemq"/>
                </lu>
-               <lu>
-                 <clip pos="4" side="tl" part="lemh"/>
-                 <clip pos="4" side="tl" part="tags"/>
-                 <clip pos="4" side="tl" part="lemq"/>
-               </lu>
              </mlu>
            </chunk>
          </out>
        </action>
     </rule>
-
-
 
 </section-rules>
 
