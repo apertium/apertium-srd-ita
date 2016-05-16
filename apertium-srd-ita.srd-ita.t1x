@@ -68,6 +68,7 @@
      <attr-item tags="nt"/>
      <attr-item tags="mf"/>
      <attr-item tags="GD"/>
+     <attr-item tags="mfSG"/> <!-- si el nombre és sg és com GD, sinó és mf; va acompanyat sempre de ND -->
   </def-attr>
   <def-attr n="nbr">
      <attr-item tags="ND"/>
@@ -197,6 +198,43 @@
 	  </choose>
 	</when>
       </choose>    
+      <choose>
+	<when>
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="mfSG"/>
+	    </equal>
+	  </test>
+	  <choose> 
+	    <when>
+	      <test>
+	        <equal>
+	          <clip pos="1" side="tl" part="nbr"/>
+	          <lit-tag v="sg"/>
+	        </equal>
+	      </test>
+	      <choose> 
+	        <when>
+	          <test>
+		    <equal>
+		      <var n="genero"/>
+		      <lit-tag v="f"/>
+		    </equal>
+	          </test>
+	          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></let>
+	        </when>
+	        <otherwise>
+	          <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+	        </otherwise>
+	      </choose>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
+	    </otherwise>
+	  </choose>
+	</when>
+      </choose>
     </def-macro>
 
 
