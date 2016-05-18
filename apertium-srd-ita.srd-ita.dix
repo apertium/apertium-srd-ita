@@ -474,7 +474,7 @@
       <e><p><l>mereu<s n="n"/><s  n="m"/></l><r>proprietà<s n="n"/><s  n="f"/></r></p></e>
       <e><p><l>investimentu<s n="n"/><s  n="m"/></l><r>investimento<s n="n"/><s  n="m"/></r></p></e>
       <e><p><l>incuinamentu<s n="n"/><s  n="m"/></l><r>inquinamento<s n="n"/><s  n="m"/></r></p></e>
-      <e><p><l>giassu<s n="n"/><s  n="m"/></l><r>località<s n="n"/><s  n="m"/></r></p></e>
+      <e><p><l>giassu<s n="n"/><s  n="m"/></l><r>località<s n="n"/><s  n="f"/></r></p></e>
       <e><p><l>paràgrafu<s n="n"/><s  n="m"/></l><r>paragrafo<s n="n"/><s  n="m"/></r></p></e>
       <e><p><l>abitante<s n="n"/><s n="mf"/></l><r>abitante<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>abusu<s n="n"/><s n="m"/></l><r>abuso<s n="n"/><s n="m"/></r></p></e>
@@ -491,7 +491,7 @@
       <e><p><l>album<s n="n"/><s n="m"/></l><r>album<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>alimentu<s n="n"/><s n="m"/></l><r>alimento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>dischente<s n="n"/><s n="m"/></l><r>allievo<s n="n"/><s n="m"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>emigrante<s n="n"/><s n="m"/></l><r>migrante<s n="n"/><s n="m"/></r></p><par n="GD_mf|ND_sp"/></e>
+      <e><p><l>emigrante<s n="n"/></l><r>migrante<s n="n"/></r></p><par n="GD_mf|ND_sp"/></e>
       <e><p><l>ambiente<s n="n"/><s n="m"/></l><r>ambiente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cuntestu<s n="n"/><s n="m"/></l><r>ambito<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>àmbitu<s n="n"/><s n="m"/></l><r>ambito<s n="n"/><s n="m"/></r></p></e>
@@ -2249,7 +2249,7 @@
       <e><p><l>mereu<s n="n"/><s n="m"/></l><r>proprietà<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>investimentu<s n="n"/><s n="m"/></l><r>investimento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>incuinamentu<s n="n"/><s n="m"/></l><r>inquinamento<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>giassu<s n="n"/><s n="m"/></l><r>località<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>giassu<s n="n"/><s n="m"/></l><r>località<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>paràgrafu<s n="n"/><s n="m"/></l><r>paragrafo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cumprimentu<s n="n"/><s n="m"/></l><r>compimento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>armonia<s n="n"/><s n="f"/></l><r>armonia<s n="n"/><s n="f"/></r></p></e>
@@ -2399,7 +2399,6 @@
       <e><p><l>mecanismu<s n="n"/><s n="m"/></l><r>meccanismo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>lissèntzia<s n="n"/><s n="f"/></l><r>licenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>imperialismu<s n="n"/><s n="m"/></l><r>imperialismo<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>giòvia<s n="n"/><s n="f"/></l><r>giovedì<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ecologia<s n="n"/><s n="f"/></l><r>ecologia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>diàlogu<s n="n"/><s n="m"/></l><r>dialogo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>depòsitu<s n="n"/><s n="m"/></l><r>deposito<s n="n"/><s n="m"/></r></p></e>
@@ -2541,6 +2540,7 @@
       <e><p><l>lunis<s n="n"/><s n="m"/></l><r>lunedì<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>martis<s n="n"/><s n="m"/></l><r>martedì<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>gioja<s n="n"/><s n="m"/></l><r>giovedì<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>giòvia<s n="n"/><s n="f"/></l><r>giovedì<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>alcol<s n="n"/><s n="m"/></l><r>alcol<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>referendum<s n="n"/><s n="m"/></l><r>referendum<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
@@ -2639,9 +2639,9 @@
       <e><p><l>mèdiu<s n="n"/><s n="m"/></l><r>mezzo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>indiritzu<s n="n"/><s n="m"/></l><r>indirizzo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>internèt<s n="n"/><s n="m"/></l><r>internet<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>detzisu<s n="n"/><s n="m"/></l><r>decisu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>protzedimentu<s n="n"/><s n="m"/></l><r>procedimentu<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>aspetu<s n="n"/><s n="m"/></l><r>aspettu<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>detzisu<s n="n"/><s n="m"/></l><r>deciso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>protzedimentu<s n="n"/><s n="m"/></l><r>procedimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>aspetu<s n="n"/><s n="m"/></l><r>aspetto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>esperanto<s n="n"/><s n="m"/></l><r>esperanto<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>sotzialista<s n="n"/></l><r>socialista<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -3699,7 +3699,7 @@
       <e><p><l>sofisma<s n="n"/><s n="m"/></l><r>sofisma<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>papa<s n="n"/><s n="m"/></l><r>papa<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sofista<s n="n"/></l><r>sofista<s n="n"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>isciaferru<s n="n"/></l><r>autista<s n="n"/></r></p></e>
+      <e><p><l>isciaferru<s n="n"/></l><r>autista<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ligòngiu<s n="n"/><s n="m"/></l><r>legame<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>esàminu<s n="n"/><s n="m"/></l><r>esame<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>gravàmine<s n="n"/><s n="m"/></l><r>gravame<s n="n"/><s n="m"/></r></p></e>
@@ -8843,7 +8843,7 @@
       <e><p><l>islovenu<s n="adj"/></l><r>sloveno<s n="adj"/></r></p></e>
       <e><p><l>islovenu<s n="n"/></l><r>sloveno<s n="n"/></r></p></e>
       <e><p><l>islovacu<s n="adj"/></l><r>slovacco<s n="adj"/></r></p></e>
-      <e><p><l>islovacu<s n="n"/></l><r>slovacco<s n="n"/></r></p></e>
+      <e><p><l>islovacu<s n="n"/></l><r>sloveno<s n="n"/></r></p></e>
       <e><p><l>latinu<s n="adj"/></l><r>latino<s n="adj"/></r></p></e>
       <e><p><l>latinu<s n="n"/></l><r>latino<s n="n"/></r></p></e>
       <e><p><l>internu<s n="adj"/></l><r>interno<s n="adj"/></r></p></e>
