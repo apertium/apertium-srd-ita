@@ -130,7 +130,7 @@
       
       <e><p><l>comente<s n="cnjsub"/></l><r>come<s n="cnjadv"/></r></p></e>
       <e><p><l>de<b/>manera<b/>chi<s n="cnjadv"/></l><r>in<b/>modo<b/>che<s n="cnjadv"/></r></p></e>
-      
+      <e><p><l>in<b/>manera<s n="cnjadv"/></l><r>in<b/>maniera<s n="cnjadv"/></r></p></e>
       <e><p><l>sigomente<s n="cnjadv"/></l><r>siccome<s n="cnjadv"/></r></p></e>
       <e><p><l>nemmancu<s n="cnjadv"/></l><r>tantomeno<s n="cnjadv"/></r></p></e>
       <e><p><l>segundu<s n="cnjadv"/></l><r>secondo<s n="cnjadv"/></r></p></e>
@@ -179,7 +179,9 @@
       <e><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
       <e><p><l>finas<s n="pr"/></l><r>persino<s n="pr"/></r></p></e>
       <e><p><l>in<b/>mesu<b/>de<s n="pr"/></l><r>in<b/>mezzo<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>dae<b/>como<b/>in<b/>susu<s n="pr"/></l><r>d'ora<b/>in<b/>poi<s n="pr"/></r></p></e>
       <e><p><l>subra<s n="pr"/></l><r>sopra<s n="pr"/></r></p></e>
+      <e><p><l>susu<s n="pr"/></l><r>su<s n="pr"/></r></p></e>
       <e><p><l>paris<b/>cun<s n="pr"/></l><r>insieme<b/>con<s n="pr"/></r></p></e>
       <e><p><l>subra<s n="pr"/></l><r>su<s n="pr"/></r></p></e>
 
@@ -424,6 +426,7 @@
       <e><p><l>persona<s n="n"/><s n="f"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>migratzione<s n="n"/><s n="f"/></l><r>migrazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>emigratzione<s n="n"/><s n="f"/></l><r>emigrazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>autodeterminatzione<s n="n"/><s n="f"/></l><r>autodeterminazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>giardinu<s n="n"/><s n="m"/></l><r>giardino<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vertice<s n="n"/><s n="m"/></l><r>riunione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tempus<s n="n"/><s n="m"/></l><r>tempo<s n="n"/><s n="m"/></r></p></e>
@@ -788,7 +791,7 @@
       <e><p><l>ministru<s n="n"/><s n="m"/></l><r>ministro<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>minoria<s n="n"/><s n="f"/></l><r>minoranza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>modalidade<s n="n"/><s n="f"/></l><r>modalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>manera<s n="n"/><s n="f"/></l><r>modo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>manera<s n="n"/><s n="f"/></l><r>maniera<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mugere<s n="n"/><s n="f"/></l><r>moglie<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>momentu<s n="n"/><s n="m"/></l><r>momento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mundu<s n="n"/><s n="m"/></l><r>mondo<s n="n"/><s n="m"/></r></p></e>
@@ -2471,6 +2474,7 @@
       <e><p><l>apuntu<s n="n"/><s n="m"/></l><r>appunto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>agiornamentu<s n="n"/><s n="m"/></l><r>aggiornamento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>solidariedade<s n="n"/><s n="f"/></l><r>solidarietà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>plurinatzionalidade<s n="n"/><s n="f"/></l><r>plurinatzionalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>mesidade<s n="n"/><s n="f"/></l><r>metà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>discapassidade<s n="n"/><s n="f"/></l><r>incapacità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>sicagna<s n="n"/><s n="f"/></l><r>siccità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
@@ -2610,6 +2614,7 @@
       <e><p><l>sordadu<s n="n"/><s n="m"/></l><r>soldato<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>banda<s n="n"/><s n="f"/></l><r>lato<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>chirru<s n="n"/><s n="m"/></l><r>lato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>còmporu<s n="n"/><s n="m"/></l><r>acquisto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>assessoradu<s n="n"/><s n="m"/></l><r>assessorato<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>deputadu<s n="n"/><s n="m"/></l><r>deputato<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>decretu<s n="n"/><s n="m"/></l><r>decreto<s n="n"/><s n="m"/></r></p></e>
@@ -3310,7 +3315,7 @@
       <e><p><l>cumprou<s n="n"/><s n="m"/></l><r>riscontro<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>faddina<s n="n"/><s n="f"/></l><r>sbaglio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>iscalinu<s n="n"/><s n="m"/></l><r>scalino<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>cuncàmbiu<s n="n"/><s n="m"/></l><r>scambio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cuncambiu<s n="n"/><s n="m"/></l><r>scambio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>catzotu<s n="n"/><s n="m"/></l><r>schiaffo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>isciropu<s n="n"/><s n="m"/></l><r>sciroppo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>iscontu<s n="n"/><s n="m"/></l><r>sconto<s n="n"/><s n="m"/></r></p></e>
@@ -4153,6 +4158,7 @@
       <e><p><l>pseudònimu<s n="n"/><s n="m"/></l><r>pseudonimo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>penùrtimu<s n="n"/><s n="m"/></l><r>penultimo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>autònomu<s n="n"/><s n="m"/></l><r>autonomo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cuncambiu<s n="n"/><s n="m"/></l><r>scambio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>firmu<s n="n"/><s n="m"/></l><r>fermo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>artisanu<s n="n"/><s n="m"/></l><r>artigiano<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>dinnu<s n="n"/><s n="m"/></l><r>degno<s n="n"/><s n="m"/></r></p></e>
@@ -4544,6 +4550,7 @@
       <e><p><l>Berlinu<s n="np"/><s n="top"/><s n="m"/></l><r>Berlino<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bolìvia<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bologna<s n="np"/><s n="top"/><s n="f"/></l><r>Bologna<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Bolivia<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Brasile<s n="np"/><s n="top"/><s n="m"/></l><r>Brasile<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bratislava<s n="np"/><s n="top"/><s n="f"/></l><r>Bratislava<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bucarest<s n="np"/><s n="top"/><s n="m"/></l><r>Bucarest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -4560,6 +4567,7 @@
       <e><p><l>Dublinu<s n="np"/><s n="top"/><s n="m"/></l><r>Dublino<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Finlàndia<s n="np"/><s n="top"/><s n="f"/></l><r>Finlandia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Frantza<s n="np"/><s n="top"/><s n="f"/></l><r>Francia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Ecuador<s n="np"/><s n="top"/><s n="f"/></l><r>Ecuador<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Galles<s n="np"/><s n="top"/><s n="m"/></l><r>Galles<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Gènova<s n="np"/><s n="top"/><s n="f"/></l><r>Genova<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Germània<s n="np"/><s n="top"/><s n="f"/></l><r>Germania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -4610,6 +4618,7 @@
       <e><p><l>Tunisia<s n="np"/><s n="top"/><s n="f"/></l><r>Tunisia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Turchia<s n="np"/><s n="top"/><s n="f"/></l><r>Turchia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Tzina<s n="np"/><s n="top"/><s n="f"/></l><r>Cina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Unione<b/>Soviètica<s n="np"/><s n="top"/><s n="f"/></l><r>Unione<b/>Sovietica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Venètzia<s n="np"/><s n="top"/><s n="f"/></l><r>Venezia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Vienna<s n="np"/><s n="top"/><s n="f"/></l><r>Vienna<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Vietnam<s n="np"/><s n="top"/><s n="m"/></l><r>Vietnam<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -4823,8 +4832,10 @@
       <e><p><l>Colòmbia<s n="np"/><s n="top"/><s n="f"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Còrsica<s n="np"/><s n="top"/><s n="f"/></l><r>Corsica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Cuba<s n="np"/><s n="top"/><s n="f"/></l><r>Cuba<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Cunfederatzione<b/>Elvètica<s n="np"/><s n="top"/><s n="f"/></l><r>Confederatzione<b/>Elvetica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Etiòpia<s n="np"/><s n="top"/><s n="f"/></l><r>Etiopia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Europa<s n="np"/><s n="top"/><s n="f"/></l><r>Europa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Euskadi<s n="np"/><s n="top"/><s n="f"/></l><r>Euskadi<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Filadelfia<s n="np"/><s n="top"/><s n="f"/></l><r>Filadelfia<b/><s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Firenze<s n="np"/><s n="top"/><s n="f"/></l><r>Firenze<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Giappone<s n="np"/><s n="top"/><s n="f"/></l><r>Giappone<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -8338,6 +8349,7 @@
       <e><p><l>egoista<s n="adj"/></l><r>egoista<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>dominante<s n="adj"/></l><r>dominante<s n="adj"/></r></p></e>
       <e><p><l>legale<s n="adj"/></l><r>legale<s n="adj"/></r></p></e>
+      <e><p><l>plurinatzionale<s n="adj"/></l><r>plurinazionale<s n="adj"/></r></p></e>
       <e><p><l>federale<s n="adj"/></l><r>federale<s n="adj"/></r></p></e>
       <e><p><l>coloniale<s n="adj"/></l><r>coloniale<s n="adj"/></r></p></e>
       <e><p><l>penale<s n="adj"/></l><r>penale<s n="adj"/></r></p></e>
@@ -8370,21 +8382,28 @@
       <e><p><l>indispensàbile<s n="adj"/></l><r>indispensabile<s n="adj"/></r></p></e>
       <e><p><l>cardinale<s n="adj"/></l><r>cardinale<s n="adj"/></r></p></e>
       <e><p><l>sitzilianu<s n="adj"/></l><r>siciliano<s n="adj"/></r></p></e>
+      <e><p><l>austurianu<s n="adj"/></l><r>asturiano<s n="adj"/></r></p></e>
       <e><p><l>sitzilianu<s n="n"/></l><r>siciliano<s n="n"/></r></p></e>
       <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>betzu<s n="adj"/></l><r>vecchio<s n="adj"/></r></p></e>
+      <e><p><l>paritariu<s n="adj"/></l><r>paritario<s n="adj"/></r></p></e>
+      <e><p><l>paritàriu<s n="adj"/></l><r>paritario<s n="adj"/></r></p></e>
       <e><p><l>lestru<s n="adj"/></l><r>veloce<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>accurtzu<s n="adj"/></l><r>vicino<s n="adj"/></r></p></e>
       <e><p><l>locale<s n="adj"/></l><r>locale<s n="adj"/></r></p></e>
       <e><p><l>generale<s n="adj"/></l><r>generale<s n="adj"/></r></p></e>
       <e><p><l>culturale<s n="adj"/></l><r>culturale<s n="adj"/></r></p></e>
       <e><p><l>diferente<s n="adj"/></l><r>differente<s n="adj"/></r></p></e>
+      <e><p><l>contraente<s n="adj"/></l><r>contraente<s n="adj"/></r></p></e>
       <e><p><l>imponente<s n="adj"/></l><r>imponente<s n="adj"/></r></p></e>
       <e><p><l>diferente<s n="adj"/></l><r>diverso<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>bascu<s n="adj"/></l><r>basco<s n="adj"/></r></p></e>
       <e><p><l>bascu<s n="n"/></l><r>basco<s n="n"/></r></p></e>
       <e><p><l>diretu<s n="adj"/></l><r>diretto<s n="adj"/></r></p></e>
       <e><p><l>famadu<s n="adj"/></l><r>famoso<s n="adj"/></r></p></e>
+      <e><p><l>ogetivu<s n="adj"/></l><r>oggettivo<s n="adj"/></r></p></e>
+      <e><p><l>federativu<s n="adj"/></l><r>federativo<s n="adj"/></r></p></e>
+      <e><p><l>pagu<s n="adj"/></l><r>poco<s n="adj"/></r></p></e>
       <e><p><l>italianu<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
       <e><p><l>italianu<s n="n"/></l><r>italiano<s n="n"/></r></p></e>
       <e><p><l>capitale<s n="adj"/></l><r>capitale<s n="adj"/></r></p></e>
@@ -8394,6 +8413,7 @@
       <e><p><l>setentrionale<s n="adj"/></l><r>settentrionale<s n="adj"/></r></p></e>
       <e><p><l>ufitziale<s n="adj"/></l><r>ufficiale<s n="adj"/></r></p></e>
       <e><p><l>sagradu<s n="adj"/></l><r>sacro<s n="adj"/></r></p></e>
+      <e><p><l>mistu<s n="adj"/></l><r>mist<s n="adj"/></r></p></e>
       <e><p><l>santu<s n="adj"/></l><r>santo<s n="adj"/></r></p></e>
       <e><p><l>ispagnolu<s n="adj"/></l><r>spagnolo<s n="adj"/></r></p></e>
       <e><p><l>ispagnolu<s n="n"/></l><r>spagnolo<s n="n"/></r></p></e>
@@ -8442,6 +8462,7 @@
       <e><p><l>sitzilianu<s n="adj"/></l><r>siciliano<s n="adj"/></r></p></e>
       <e><p><l>sitzilianu<s n="n"/></l><r>siciliano<s n="n"/></r></p></e>
       <e><p><l>variu<s n="adj"/></l><r>vario<s n="adj"/></r></p></e>
+      <e><p><l>majoritariu<s n="adj"/></l><r>maggioritario<s n="adj"/></r></p></e>
       <e><p><l>diversu<s n="adj"/></l><r>diverso<s n="adj"/></r></p></e>
       <e><p><l>australianu<s n="adj"/></l><r>australiano<s n="adj"/></r></p></e>
       <e><p><l>australianu<s n="n"/></l><r>australiano<s n="n"/></r></p></e>
@@ -8763,7 +8784,6 @@
       <e><p><l>polìticu<s n="adj"/></l><r>politico<s n="adj"/></r></p></e>
       <e><p><l>polìticu<s n="n"/></l><r>politico<s n="n"/></r></p></e>
       <e><p><l>linguìsticu<s n="adj"/></l><r>linguistico<s n="adj"/></r></p></e>
-      <e><p><l>sardu<s n="adj"/></l><r>sardo<s n="adj"/></r></p></e>
       <e><p><l>sardu<s n="n"/></l><r>sardo<s n="n"/></r></p></e>
       <e><p><l>europeu<s n="adj"/></l><r>europeo<s n="adj"/></r></p></e>
       <e><p><l>europeu<s n="n"/></l><r>europeo<s n="n"/></r></p></e>
@@ -8834,6 +8854,12 @@
       <e r="LR"><p><l>corsu<s n="n"/></l><r>corso<s n="n"/></r></p></e>
       <e><p><l>etotu<s n="adj"/></l><r>stesso<s n="adj"/></r></p></e>
       <e><p><l>russu<s n="adj"/></l><r>russo<s n="adj"/></r></p></e>
+      <e><p><l>sardu<s n="adj"/></l><r>sardo<s n="adj"/></r></p></e>
+      <e><p><l>friulanu<s n="adj"/></l><r>sardo<s n="adj"/></r></p></e>
+      <e><p><l>lìgure<s n="adj"/></l><r>ligure<s n="adj"/></r></p></e>
+      <e><p><l>emilianu<s n="adj"/></l><r>emiliano<s n="adj"/></r></p></e>
+      <e><p><l>lombardu<s n="adj"/></l><r>lombardo<s n="adj"/></r></p></e>
+      <e><p><l>vènetu<s n="adj"/></l><r>veneto<s n="adj"/></r></p></e>
       <e><p><l>cumpletu<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
       <e><p><l>altu<s n="adj"/></l><r>alto<s n="adj"/></r></p></e>
       <e><p><l>giustu<s n="adj"/></l><r>giusto<s n="adj"/></r></p></e>
@@ -9791,7 +9817,7 @@
       <e><p><l>ebbia<s n="adv"/></l><r>soltanto<s n="adv"/></r></p></e>
       <e><p><l>massimamente<s n="adv"/></l><r>soprattutto<s n="adv"/></r></p></e>
 
-      <e><p><l>belle<s n="preadv"/></l><r>circa<s n="preadv"/></r></p></e>
+      <e><p><l>belle<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
       <e><p><l>gasi<s n="adv"/></l><r>così<s n="adv"/></r></p></e>
       <e><p><l>gosi<s n="adv"/></l><r>così<s n="adv"/></r></p></e>
       <e><p><l>aici<s n="adv"/></l><r>così<s n="adv"/></r></p></e>
