@@ -464,7 +464,7 @@
       <e><p><l>afirmatzione<s n="n"/><s  n="f"/></l><r>affermazione<s n="n"/><s  n="f"/></r></p></e>
       <e><p><l>repressione<s n="n"/><s  n="f"/></l><r>repressione<s n="n"/><s  n="f"/></r></p></e>
       <e><p><l>seminàriu<s n="n"/><s  n="m"/></l><r>seminario<s n="n"/><s  n="m"/></r></p></e>
-      <e><p><l>fìgiu<s n="n"/><s  n="f"/></l><r>figlio<s n="n"/><s  n="f"/></r></p></e>
+      <e><p><l>fìgiu<s n="n"/></l><r>figlio<s n="n"/></r></p></e>
       <e><p><l>cunseguèntzia<s n="n"/><s  n="f"/></l><r>conseguenza<s n="n"/><s  n="f"/></r></p></e>
       <e><p><l>propiedade<s n="n"/><s  n="f"/></l><r>proprietà<s n="n"/><s  n="f"/></r></p></e>
       <e><p><l>padre<s n="n"/><s  n="m"/></l><r>padre<s n="n"/><s  n="m"/></r></p></e>
@@ -8384,6 +8384,7 @@
       <e><p><l>sitzilianu<s n="adj"/></l><r>siciliano<s n="adj"/></r></p></e>
       <e><p><l>austurianu<s n="adj"/></l><r>asturiano<s n="adj"/></r></p></e>
       <e><p><l>sitzilianu<s n="n"/></l><r>siciliano<s n="n"/></r></p></e>
+      <e><p><l>austurianu<s n="n"/></l><r>asturiano<s n="n"/></r></p></e>
       <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>betzu<s n="adj"/></l><r>vecchio<s n="adj"/></r></p></e>
       <e><p><l>paritariu<s n="adj"/></l><r>paritario<s n="adj"/></r></p></e>
@@ -8841,6 +8842,8 @@
       <e><p><l>armenu<s n="n"/></l><r>armeno<s n="n"/></r></p></e>
       <e><p><l>islovenu<s n="adj"/></l><r>sloveno<s n="adj"/></r></p></e>
       <e><p><l>islovenu<s n="n"/></l><r>sloveno<s n="n"/></r></p></e>
+      <e><p><l>islovacu<s n="adj"/></l><r>slovacco<s n="adj"/></r></p></e>
+      <e><p><l>islovacu<s n="n"/></l><r>slovacco<s n="n"/></r></p></e>
       <e><p><l>latinu<s n="adj"/></l><r>latino<s n="adj"/></r></p></e>
       <e><p><l>latinu<s n="n"/></l><r>latino<s n="n"/></r></p></e>
       <e><p><l>internu<s n="adj"/></l><r>interno<s n="adj"/></r></p></e>
@@ -8855,11 +8858,18 @@
       <e><p><l>etotu<s n="adj"/></l><r>stesso<s n="adj"/></r></p></e>
       <e><p><l>russu<s n="adj"/></l><r>russo<s n="adj"/></r></p></e>
       <e><p><l>sardu<s n="adj"/></l><r>sardo<s n="adj"/></r></p></e>
-      <e><p><l>friulanu<s n="adj"/></l><r>sardo<s n="adj"/></r></p></e>
+      <e><p><l>friulanu<s n="adj"/></l><r>friulano<s n="adj"/></r></p></e>
       <e><p><l>lìgure<s n="adj"/></l><r>ligure<s n="adj"/></r></p></e>
       <e><p><l>emilianu<s n="adj"/></l><r>emiliano<s n="adj"/></r></p></e>
       <e><p><l>lombardu<s n="adj"/></l><r>lombardo<s n="adj"/></r></p></e>
       <e><p><l>vènetu<s n="adj"/></l><r>veneto<s n="adj"/></r></p></e>
+      <e><p><l>russu<s n="n"/></l><r>russo<s n="n"/></r></p></e>
+      <e><p><l>sardu<s n="n"/></l><r>sardo<s n="n"/></r></p></e>
+      <e><p><l>friulanu<s n="n"/></l><r>friulano<s n="n"/></r></p></e>
+      <e><p><l>lìgure<s n="n"/></l><r>ligure<s n="n"/></r></p></e>
+      <e><p><l>emilianu<s n="n"/></l><r>emiliano<s n="n"/></r></p></e>
+      <e><p><l>lombardu<s n="n"/></l><r>lombardo<s n="n"/></r></p></e>
+      <e><p><l>vènetu<s n="n"/></l><r>veneto<s n="n"/></r></p></e>
       <e><p><l>cumpletu<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
       <e><p><l>altu<s n="adj"/></l><r>alto<s n="adj"/></r></p></e>
       <e><p><l>giustu<s n="adj"/></l><r>giusto<s n="adj"/></r></p></e>
