@@ -4793,7 +4793,7 @@
       <e><p><l>Budapest<s n="np"/><s n="top"/><s n="m"/></l><r>Budapest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Calabria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Califòrnia<s n="np"/><s n="top"/><s n="f"/></l><r>California<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Canada<s n="np"/><s n="top"/><s n="f"/></l><r>Canada<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Canada<s n="np"/><s n="top"/><s n="m"/></l><r>Canada<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Carbònia<s n="np"/><s n="top"/><s n="f"/></l><r>Carbonia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Catalogna<s n="np"/><s n="top"/><s n="f"/></l><r>Catalogna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Colòmbia<s n="np"/><s n="top"/><s n="f"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -4805,7 +4805,7 @@
       <e><p><l>Euskadi<s n="np"/><s n="top"/><s n="f"/></l><r>Euskadi<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Filadelfia<s n="np"/><s n="top"/><s n="f"/></l><r>Filadelfia<b/><s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Firenze<s n="np"/><s n="top"/><s n="f"/></l><r>Firenze<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Giappone<s n="np"/><s n="top"/><s n="f"/></l><r>Giappone<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Giapone<s n="np"/><s n="top"/><s n="m"/></l><r>Giappone<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Girona<s n="np"/><s n="top"/><s n="f"/></l><r>Girona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Guyana<s n="np"/><s n="top"/><s n="f"/></l><r>Guyana<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Hanoi<s n="np"/><s n="top"/><s n="m"/></l><r>Hanoi<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -4820,7 +4820,7 @@
       <e><p><l>Isvìtzera<s n="np"/><s n="top"/><s n="f"/></l><r>Svizzera<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Itàlia<s n="np"/><s n="top"/><s n="f"/></l><r>Italia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Londra<s n="np"/><s n="top"/><s n="f"/></l><r>Londra<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Libanu<s n="np"/><s n="top"/><s n="f"/></l><r>Libano<s n="np"/><s n="loc"/><s n="f"/></r></p></e>      
+      <e><p><l>Libanu<s n="np"/><s n="top"/><s n="m"/></l><r>Libano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>      
       <e><p><l>Malta<s n="np"/><s n="top"/><s n="f"/></l><r>Malta<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Mesopotamia<s n="np"/><s n="top"/><s n="f"/></l><r>Mesopotamia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Napoli<s n="np"/><s n="top"/><s n="m"/></l><r>Napoli<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -4837,6 +4837,36 @@
       <e><p><l>Venezia<s n="np"/><s n="top"/><s n="f"/></l><r>Venezia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Vienna<s n="np"/><s n="top"/><s n="f"/></l><r>Vienna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Vietnàm<s n="np"/><s n="top"/><s n="m"/></l><r>Vietnam<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+
+      <e><p><l>Àrbus<s n="np"/><s n="top"/><s n="m"/></l><r>Arbus<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Barùmini<s n="np"/><s n="top"/><s n="m"/></l><r>Barumini<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Forru<s n="np"/><s n="top"/><s n="m"/></l><r>Collinas<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Furtei<s n="np"/><s n="top"/><s n="m"/></l><r>Furtei<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Genuri<s n="np"/><s n="top"/><s n="m"/></l><r>Genuri<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Gonnos<b/>Fanàdiga<s n="np"/><s n="top"/><s n="m"/></l><r>Gonnosfanadiga<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Gèsturi<s n="np"/><s n="top"/><s n="m"/></l><r>Gesturi<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Gùspini<s n="np"/><s n="top"/><s n="m"/></l><r>Guspini<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Is<b/>Pratzas<s n="np"/><s n="top"/><s n="f"/></l><r>Las<b/>Plassas<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Pabillonis<s n="np"/><s n="top"/><s n="m"/></l><r>Pabillonis<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Lunamatrona<s n="np"/><s n="top"/><s n="f"/></l><r>Lunamatrona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Pauli Arbarei<s n="np"/><s n="top"/><s n="m"/></l><r>Pauli Arbarei<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Samassi<s n="np"/><s n="top"/><s n="m"/></l><r>Samassi<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Seddori<s n="np"/><s n="top"/><s n="m"/></l><r>Seddori<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Sàrdara<s n="np"/><s n="top"/><s n="f"/></l><r>Sardara<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Segariu<s n="np"/><s n="top"/><s n="m"/></l><r>Segariu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Serramanna<s n="np"/><s n="top"/><s n="f"/></l><r>Serramanna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>San Gavino Monreale<s n="np"/><s n="top"/><s n="m"/></l><r>San<b/>Gavino<b/>Monreale<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Serramanna<s n="np"/><s n="top"/><s n="f"/></l><r>Sardara<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Setzu<s n="np"/><s n="top"/><s n="m"/></l><r>Setzu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Siddi<s n="np"/><s n="top"/><s n="m"/></l><r>Siddi<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Tuili<s n="np"/><s n="top"/><s n="m"/></l><r>Tuili<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Turri<s n="np"/><s n="top"/><s n="m"/></l><r>Turri<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Ùssara<b/>Manna<s n="np"/><s n="top"/><s n="f"/></l><r>Ussaramanna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Biddexidru<s n="np"/><s n="top"/><s n="f"/></l><r>Villacidro<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Bissa Mara<s n="np"/><s n="top"/><s n="f"/></l><r>Villamar<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Biddanoa<b/>Forru<s n="np"/><s n="top"/><s n="f"/></l><r>Villanovaforru<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Biddanoa<b/>Franca<s n="np"/><s n="top"/><s n="f"/></l><r>Villanovafranca<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+
 
       <e><p><l>Alighèra<s n="np"/><s n="top"/><s n="f"/></l><r>Alghero<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 
