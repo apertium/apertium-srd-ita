@@ -13,6 +13,12 @@
     <def-cat n="num">
        <cat-item tags="num.*"/>
     </def-cat>
+    <def-cat n="verb">
+       <cat-item tags="vbmod.*"/>
+       <cat-item tags="vbser.*"/>
+       <cat-item tags="vbhaver.*"/>
+       <cat-item tags="vblex.*"/>
+    </def-cat>
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
     </def-cat>
@@ -75,7 +81,11 @@
        <cat-item tags="adj.pos.*"/>
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
+    <def-cat n="adv">
+       <cat-item tags="adv"/>
+    </def-cat>
   </section-def-cats>
+
   <section-def-attrs>
   <def-attr n="gen">
      <attr-item tags="m"/>
@@ -2261,12 +2271,11 @@
                <lu>
                  <clip pos="1" side="tl" part="lemh"/>
                  <clip pos="1" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
                <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="lem"/>
                  <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
+                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
              </mlu>
            </chunk>
@@ -2296,17 +2305,15 @@
                <lu>
                  <clip pos="1" side="tl" part="lemh"/>
                  <clip pos="1" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
                <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="lem"/>
                  <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
                </lu>
                <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="lem"/>
                  <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
+                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
              </mlu>
            </chunk>
@@ -2337,20 +2344,60 @@
                <lu>
                  <clip pos="1" side="tl" part="lemh"/>
                  <clip pos="1" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
                <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="lem"/>
                  <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
                </lu>
                <lu>
-                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="lem"/>
                  <clip pos="4" side="tl" part="tags"/>
-                 <clip pos="4" side="tl" part="lemq"/>
+                 <clip pos="1" side="tl" part="lemq"/>
                </lu>
              </mlu>
            </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: verb (tractament multiparaules)">
+       <pattern>
+         <pattern-item n="verb"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adverb (tractament multiparaules)">
+       <pattern>
+         <pattern-item n="adv"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="adv">
+             <tags>
+               <tag><lit-tag v="adv"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
          </out>
        </action>
     </rule>
