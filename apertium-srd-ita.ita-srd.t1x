@@ -2132,8 +2132,10 @@
 	    </equal>
 	  </test>
 	  <let><clip pos="1" side="tl" part="lemh"/><lit v="bi"/></let>
-	</when>
-      </choose>
+	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
+	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
+ 	</when> 
+	     </choose>
     </def-macro>
 
   </section-def-macros>

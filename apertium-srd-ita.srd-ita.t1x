@@ -44,6 +44,15 @@
        <cat-item tags="vblex.imp.*"/>
        <cat-item tags="vblex.ger"/>
        <cat-item tags="vblex.pp"/>
+       <cat-item tags="vbmod.imp.*"/>
+       <cat-item tags="vbmod.ger"/>
+       <cat-item tags="vbmod.pp"/>
+       <cat-item tags="vbser.imp.*"/>
+       <cat-item tags="vbser.ger"/>
+       <cat-item tags="vbser.pp"/>
+       <cat-item tags="vbhaver.imp.*"/>
+       <cat-item tags="vbhaver.ger"/>
+       <cat-item tags="vbhaver.pp"/>
     </def-cat>
     <def-cat n="pro">
        <cat-item tags="prn.pro.p1.*"/>
