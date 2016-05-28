@@ -7,6 +7,9 @@
     <def-cat n="tn">
        <cat-item tags="prn.tn.*"/>
     </def-cat>
+    <def-cat n="predet">
+       <cat-item tags="predet.*"/>
+    </def-cat>
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
@@ -87,6 +90,9 @@
   </section-def-cats>
 
   <section-def-attrs>
+   <def-attr n="a_num">
+     <attr-item tags="num"/>
+  </def-attr>
   <def-attr n="gen">
      <attr-item tags="m"/>
      <attr-item tags="f"/>
@@ -2138,7 +2144,7 @@
            <with-param pos="1"/>
          </call-macro>     
          <out>
-           <chunk name="j">
+           <chunk name="adj">
              <tags>
                <tag><lit-tag v="SA"/></tag>
              </tags>
@@ -2201,6 +2207,29 @@
     </rule>
 
 
+    <rule comment="regla: predet">
+       <pattern>
+         <pattern-item n="predet"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="predet">
+             <tags>
+               <tag><lit-tag v="det"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
 
     <rule comment="regla: det">
        <pattern>
@@ -2211,7 +2240,7 @@
            <with-param pos="1"/>
          </call-macro>     
          <out>
-           <chunk name="d">
+           <chunk name="det">
              <tags>
                <tag><lit-tag v="SDet"/></tag>
              </tags>
@@ -2219,6 +2248,78 @@
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: predet det">
+       <pattern>
+         <pattern-item n="predet"/>
+         <pattern-item n="det"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>     
+         <out>
+           <chunk name="det">
+             <tags>
+               <tag><lit-tag v="SDet"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: predet det nom">
+       <pattern>
+         <pattern-item n="predet"/>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>     
+         <out>
+           <chunk name="predet-det-nom">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>

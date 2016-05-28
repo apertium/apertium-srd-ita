@@ -76,7 +76,11 @@
        <cat-item tags="adv"/>
     </def-cat>
   </section-def-cats>
+
   <section-def-attrs>
+   <def-attr n="a_num">
+     <attr-item tags="num"/>
+  </def-attr>
   <def-attr n="gen">
      <attr-item tags="m"/>
      <attr-item tags="f"/>
@@ -2204,8 +2208,6 @@
          </out>
        </action>
     </rule>
-
-
 
 
     <rule comment="regla: adjec">
