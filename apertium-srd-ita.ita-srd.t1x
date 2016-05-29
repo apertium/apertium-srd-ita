@@ -25,7 +25,13 @@
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="vblex_inf">
+       <cat-item tags="vblex.inf"/>
+    </def-cat>
     <def-cat n="inf">
+       <cat-item tags="vbmod.inf"/>
+       <cat-item tags="vbser.inf"/>
+       <cat-item tags="vbhaver.inf"/>
        <cat-item tags="vblex.inf"/>
     </def-cat>
     <def-cat n="fti">
@@ -50,8 +56,20 @@
        <cat-item tags="vblex.imp.*"/>
        <cat-item tags="vblex.ger"/>
        <cat-item tags="vblex.pp"/>
+       <cat-item tags="vbmod.imp.*"/>
+       <cat-item tags="vbmod.ger"/>
+       <cat-item tags="vbmod.pp"/>
+       <cat-item tags="vbser.imp.*"/>
+       <cat-item tags="vbser.ger"/>
+       <cat-item tags="vbser.pp"/>
+       <cat-item tags="vbhaver.imp.*"/>
+       <cat-item tags="vbhaver.ger"/>
+       <cat-item tags="vbhaver.pp"/>
     </def-cat>
     <def-cat n="imper">
+       <cat-item tags="vbmod.imp.*"/>
+       <cat-item tags="vbser.imp.*"/>
+       <cat-item tags="vbhaver.imp.*"/>
        <cat-item tags="vblex.imp.*"/>
     </def-cat>
     <def-cat n="pro">
@@ -2607,7 +2625,7 @@
     <rule comment="regla: vbmod inf enc">
        <pattern>
          <pattern-item n="vbmod"/>
-         <pattern-item n="inf"/>
+         <pattern-item n="vblex_inf"/>
          <pattern-item n="enc"/>
        </pattern>
        <action>
@@ -2644,7 +2662,7 @@
     <rule comment="regla: vbmod inf enc enc">
        <pattern>
          <pattern-item n="vbmod"/>
-         <pattern-item n="inf"/>
+         <pattern-item n="vblex_inf"/>
          <pattern-item n="enc"/>
          <pattern-item n="enc"/>
        </pattern>

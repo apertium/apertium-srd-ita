@@ -25,7 +25,13 @@
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="vblex_inf">
+       <cat-item tags="vblex.inf"/>
+    </def-cat>
     <def-cat n="inf">
+       <cat-item tags="vbmod.inf"/>
+       <cat-item tags="vbser.inf"/>
+       <cat-item tags="vbhaver.inf"/>
        <cat-item tags="vblex.inf"/>
     </def-cat>
     <def-cat n="fti">
@@ -47,6 +53,9 @@
        <cat-item tags="vblex.ifi.*"/>
     </def-cat>
     <def-cat n="imper">
+       <cat-item tags="vbmod.imp.*"/>
+       <cat-item tags="vbser.imp.*"/>
+       <cat-item tags="vbhaver.imp.*"/>
        <cat-item tags="vblex.imp.*"/>
     </def-cat>
     <def-cat n="imper-ger-pp">
