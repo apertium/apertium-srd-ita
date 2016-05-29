@@ -4,6 +4,9 @@
     <def-cat n="nom">
        <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="tn">
+       <cat-item tags="prn.tn.*"/>
+    </def-cat>
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
@@ -2233,6 +2236,30 @@
        </action>
     </rule>
 
+    <rule comment="regla: tn">
+       <pattern>
+         <pattern-item n="tn"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <rule comment="regla: predet">
        <pattern>
          <pattern-item n="predet"/>
@@ -2289,7 +2316,7 @@
            <with-param pos="1"/>
          </call-macro>     
          <out>
-           <chunk name="z">
+           <chunk name="num">
              <tags>
                <tag><lit-tag v="SNum"/></tag>
              </tags>

@@ -2336,7 +2336,7 @@
            <with-param pos="1"/>
          </call-macro>     
          <out>
-           <chunk name="z">
+           <chunk name="num">
              <tags>
                <tag><lit-tag v="SNum"/></tag>
              </tags>
