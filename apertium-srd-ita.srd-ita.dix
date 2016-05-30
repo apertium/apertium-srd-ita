@@ -304,15 +304,13 @@
       <e><p><l>calicunu<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>calicunu<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>unos<b/>cuantos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>unos<b/>cuantos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>unos<b/>cuantos<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 
       <e r="LR"><p><l>issu<s n="prn"/><s n="tn"/></l><r>egli<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="m"/></l><r>quello<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="f"/></l><r>quello<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
-      <e><p><l>ambos<b/>duos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>ambos<b/>duos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
-     
+      <e><p><l>ambos<b/>duos<s n="prn"/><s n="tn"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
 
 
       <!-- SECCIÓN: Determinantes -->
@@ -335,7 +333,6 @@
       <e><p><l>ogni<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>custu<s n="det"/><s n="dem"/></l><r>questo<s n="det"/><s n="dem"/></r></p></e>
       <e r="RL"><p><l>custu<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
-
 
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ambos<b/>duos<s n="det"/><s n="ind"/></l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/></r></p></e>
