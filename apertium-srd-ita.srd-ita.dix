@@ -310,7 +310,10 @@
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="m"/></l><r>quello<s n="prn"/><s n="tn"/><s n="m"/></r></p></e>
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="f"/></l><r>quello<s n="prn"/><s n="tn"/><s n="f"/></r></p></e>
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
-       
+      <e><p><l>ambos<b/>duos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>ambos<b/>duos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+     
+
 
       <!-- SECCIÓN: Determinantes -->
 
@@ -333,8 +336,9 @@
       <e><p><l>custu<s n="det"/><s n="dem"/></l><r>questo<s n="det"/><s n="dem"/></r></p></e>
       <e r="RL"><p><l>custu<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
 
-      <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>tutt'e<b/>due<s n="det"/><s n="ind"/></r></p></e>
+
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>ambos<b/>duos<s n="det"/><s n="ind"/></l><r>tutt'e<b/>due<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>tzertu<s n="det"/><s n="ind"/></l><r>certo<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
       <e r="RL"><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p><par n="GD_mf"/></e>
