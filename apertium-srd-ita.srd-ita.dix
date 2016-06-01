@@ -722,7 +722,7 @@
       <e><p><l>misteriu<s n="n"/><s  n="m"/></l><r>misteru<s n="n"/><s  n="m"/></r></p></e>
       <e><p><l>metallu<s n="n"/><s  n="m"/></l><r>metallo<s n="n"/><s  n="m"/></r></p></e>
       <e><p><l>megioru<s n="n"/><s  n="m"/></l><r>miglioramento<s n="n"/><s  n="m"/></r></p></e>
-      <e><p><l>escursionista<s n="n"/></l><r>escursionista<s n="n"/></r></p></e>
+      <e><p><l>escursionista<s n="n"/></l><r>escursionista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>apicadore<s n="n"/></l><r>rocciatore<s n="n"/></r></p></e>
       <e><p><l>foiba<s n="n"/><s n="f"/></l><r>foiba<s n="n"/><s n="f"/></r></p></e>      
       <e><p><l>idea<s n="n"/><s n="f"/></l><r>idea<s n="n"/><s n="f"/></r></p></e>
@@ -1035,7 +1035,7 @@
       <e><p><l>re<s n="n"/><s n="m"/></l><r>re<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>monarca<s n="n"/><s n="mf"/></l><r>monarca<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>patzifista<s n="n"/><s n="mf"/></l><r>pacifista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>patzifista<s n="n"/></l><r>pacifista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>gìuighe<s n="n"/><s n="mf"/></l><r>giudice<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>erederi<s n="n"/></l><r>erede<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>bardianu<s n="n"/></l><r>custode<s n="n"/></r></p><par n="GD_mf"/></e>
@@ -2344,7 +2344,7 @@
       <e><p><l>corrutzione<s n="n"/><s n="f"/></l><r>corruzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>columbu<s n="n"/><s n="m"/></l><r>colombo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>colonu<s n="n"/><s n="m"/></l><r>colono<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>chitarrista<s n="n"/></l><r>chitarrista<s n="n"/></r></p></e>
+      <e><p><l>chitarrista<s n="n"/></l><r>chitarrista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>carrigu<s n="n"/><s n="m"/></l><r>carico<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>biologia<s n="n"/><s n="f"/></l><r>biologia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>avantzamentu<s n="n"/><s n="m"/></l><r>avanzamento<s n="n"/><s n="m"/></r></p></e>
@@ -2638,7 +2638,7 @@
       <e><p><l>natzionalista<s n="n"/></l><r>nazionalista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>giornalista<s n="n"/></l><r>giornalista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>protagonista<s n="n"/></l><r>protagonista<s n="n"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>artista<s n="n"/><s n="mf"/></l><r>artista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>artista<s n="n"/></l><r>artista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>esponente<s n="n"/><s n="mf"/></l><r>esponente<s n="n"/><s n="mf"/></r></p></e>
 
       <e><p><l>soverania<s n="n"/><s n="f"/></l><r>fuori<b/>da<s n="n"/><s n="f"/></r></p></e>
@@ -2791,13 +2791,13 @@
       <e><p><l>prisma<s n="n"/><s n="m"/></l><r>prisma<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>patriotu<s n="n"/></l><r>patriota<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>pibincosu<s n="n"/><s n="m"/></l><r>sofista<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>federalista<s n="n"/><s n="mf"/></l><r>federalista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>oculista<s n="n"/><s n="mf"/></l><r>oculista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>opinionista<s n="n"/><s n="mf"/></l><r>opinionista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>giurista<s n="n"/><s n="mf"/></l><r>giurista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>istatista<s n="n"/><s n="mf"/></l><r>statista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>autista<s n="n"/><s n="mf"/></l><r>autista<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>linguista<s n="n"/><s n="mf"/></l><r>linguista<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>federalista<s n="n"/></l><r>federalista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>oculista<s n="n"/></l><r>oculista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>opinionista<s n="n"/></l><r>opinionista<s n="n"/></r></p></e>
+      <e><p><l>giurista<s n="n"/></l><r>giurista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>istatista<s n="n"/></l><r>statista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>autista<s n="n"/></l><r>autista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>linguista<s n="n"/></l><r>linguista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>telegiornale<s n="n"/><s n="m"/></l><r>telegiornale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ligàmine<s n="n"/><s n="m"/></l><r>legame<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>càrrigu<s n="n"/><s n="m"/></l><r>gravame<s n="n"/><s n="m"/></r></p></e>
@@ -3417,7 +3417,7 @@
       <e><p><l>contenutu<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>capia<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>càbidu<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>professionista<s n="n"/><s n="mf"/></l><r>professionista<s n="n"/></r></p></e>
+      <e><p><l>professionista<s n="n"/></l><r>professionista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>presoneri<s n="n"/></l><r>prigioniero<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>etzetzione<s n="n"/><s n="f"/></l><r>eccezione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>intzidente<s n="n"/><s n="m"/></l><r>incidente<s n="n"/><s n="m"/></r></p></e>
