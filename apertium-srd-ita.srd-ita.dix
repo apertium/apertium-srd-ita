@@ -86,6 +86,12 @@
       <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
     </pardef>
 
+    <pardef n="GD_m">
+      <e r="LR"><p><l><s n="f"/></l><r><s n="m"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="m"/></r></p></e>
+    </pardef>
+
     <pardef n="GD_mf|ND_sp">
       <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
       <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p><par n="ND_sp"/></e>
@@ -4031,16 +4037,14 @@
       <e><p><l>covardu<s n="n"/><s n="m"/></l><r>vigliacco<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sicu<s n="n"/><s n="m"/></l><r>secco<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tzurpu<s n="n"/></l><r>cieco<s n="n"/></r></p></e>
-      <e><p><l>dotore<s n="n"/></l><r>medico<s n="n"/></r></p></e>
-      <e><p><l>dutore<s n="n"/></l><r>medico<s n="n"/></r></p></e>
+      <e><p><l>dotore<s n="n"/></l><r>medico<s n="n"/></r></p><par n="GD_m"/></e>
+      <e><p><l>dutore<s n="n"/></l><r>medico<s n="n"/></r></p><par n="GD_m"/></e>
       <e><p><l>dillindadu<s n="n"/><s n="m"/></l><r>specifico<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>monàrchicu<s n="n"/><s n="m"/></l><r>monarchico<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>catòlicu<s n="n"/><s n="m"/></l><r>cattolico<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>orgànicu<s n="n"/><s n="m"/></l><r>organico<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>monàrchicu<s n="n"/></l><r>monarchico<s n="n"/></r></p></e>
+      <e><p><l>catòlicu<s n="n"/></l><r>cattolico<s n="n"/></r></p></e>
       <e><p><l>tònicu<s n="n"/><s n="m"/></l><r>tonico<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ingeniadu<s n="n"/></l><r>simpatico<s n="n"/></r></p></e>
-      <e><p><l>antigòriu<s n="n"/><s n="m"/></l><r>antico<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>romànticu<s n="n"/><s n="m"/></l><r>romantico<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>romànticu<s n="n"/></l><r>romantico<s n="n"/></r></p></e>
       <e><p><l>tula<s n="n"/><s n="f"/></l><r>solco<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arbu<s n="n"/><s n="m"/></l><r>bianco<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>lista<s n="n"/><s n="f"/></l><r>elenco<s n="n"/><s n="m"/></r></p></e>
@@ -8425,6 +8429,15 @@
       <e><p><l>istràngiu<s n="adj"/></l><r>straniero<s n="adj"/></r></p></e>
       <e><p><l>secretu<s n="adj"/></l><r>segreto<s n="adj"/></r></p></e>
       <e><p><l>fìsicu<s n="adj"/></l><r>fisico<s n="adj"/></r></p></e> 
+      <e><p><l>fìsicu<s n="n"/></l><r>fisico<s n="n"/></r></p></e> 
+      <e><p><l>chìmicu<s n="adj"/></l><r>chimico<s n="adj"/></r></p></e> 
+      <e><p><l>chìmicu<s n="n"/></l><r>chimico<s n="n"/></r></p></e> 
+      <e><p><l>matemàticu<s n="adj"/></l><r>matematico<s n="adj"/></r></p></e> 
+      <e><p><l>matemàticu<s n="n"/></l><r>matematico<s n="n"/></r></p></e> 
+      <e><p><l>idràulicu<s n="adj"/></l><r>idraulico<s n="adj"/></r></p></e> 
+      <e><p><l>idràulicu<s n="n"/></l><r>idraulico<s n="n"/></r></p><par n="GD_m"/></e> 
+      <e><p><l>mecànicu<s n="adj"/></l><r>meccanico<s n="adj"/></r></p></e> 
+      <e><p><l>mecànicu<s n="n"/></l><r>meccanico<s n="n"/></r></p><par n="GD_m"/></e> 
       <e><p><l>aranesu<s n="adj"/></l><r>aranese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>aranesu<s n="n"/></l><r>aranese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ucrainu<s n="adj"/></l><r>ucraino<s n="adj"/></r></p></e>
