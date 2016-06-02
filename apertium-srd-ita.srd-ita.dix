@@ -8299,12 +8299,18 @@
       <!-- SECCIÓN: Adjetivos -->
 
       <e><p><l>cale<s n="adj"/><s n="itg"/></l><r>quale<s n="adj"/><s n="itg"/></r></p></e>
+
       <e><p><l>meu<s n="adj"/><s n="pos"/></l><r>mio<s n="adj"/><s n="pos"/></r></p></e>
       <e><p><l>tuo<s n="adj"/><s n="pos"/></l><r>tuo<s n="adj"/><s n="pos"/></r></p></e>
       <e><p><l>suo<s n="adj"/><s n="pos"/></l><r>suo<s n="adj"/><s n="pos"/></r></p></e>
       <e><p><l>nostru<s n="adj"/><s n="pos"/></l><r>nostro<s n="adj"/><s n="pos"/></r></p></e>
       <e><p><l>bostru<s n="adj"/><s n="pos"/></l><r>vostro<s n="adj"/><s n="pos"/></r></p></e>
+
+      <e><p><l>primu<s n="adj"/><s n="ord"/></l><r>primo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>segundu<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
+
       <e><p><l>catolicu<s n="adj"/></l><r>cattolico<s n="adj"/></r></p></e>
       <e><p><l>catolicu<s n="n"/></l><r>cattolico<s n="n"/></r></p></e>
       <e><p><l>libicu<s n="adj"/></l><r>libico<s n="adj"/></r></p></e>
@@ -8350,8 +8356,6 @@
 
       <e><p><l>coufitziale<s n="adj"/></l><r>coufficiale<s n="adj"/></r></p></e>
       <e><p><l>virtuale<s n="adj"/></l><r>virtuale<s n="adj"/></r></p></e>
-      <e><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/></r></p></e>
-      <e><p><l>tertzu<s n="adj"/></l><r>terzo<s n="adj"/></r></p></e>
       <e><p><l>palestinesu<s n="adj"/></l><r>palestinese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>palestinesu<s n="n"/></l><r>palestinese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>radicale<s n="adj"/></l><r>radicale<s n="adj"/></r></p></e>
@@ -8418,7 +8422,6 @@
       <e><p><l>printzipale<s n="adj"/></l><r>principale<s n="adj"/></r></p></e>
       <e><p><l>nou<s n="adj"/></l><r>nuovo<s n="adj"/></r></p></e>
       <e><p><l>minore<s n="adj"/></l><r>piccolo<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>primu<s n="adj"/><s n="ord"/></l><r>primo<s n="adj"/></r></p></e>
       <e><p><l>religiosu<s n="adj"/></l><r>religioso<s n="adj"/></r></p></e>
       <e><p><l>aereonauticu<s n="adj"/></l><r>aeronautico<s n="adj"/></r></p></e>
       <e><p><l>castiglianu<s n="adj"/></l><r>castigliano<s n="adj"/></r></p></e>
