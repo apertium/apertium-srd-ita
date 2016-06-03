@@ -127,6 +127,7 @@
       <e><p><l>che<s n="cnjsub"/></l><r>che<s n="cnjsub"/></r></p></e>
       <e><p><l>ca<s n="cnjsub"/></l><r>perchè<s n="cnjsub"/></r></p></e>
       <e><p><l>si<s n="cnjadv"/></l><r>se<s n="cnjadv"/></r></p></e>
+      <e><p><l>però<s n="cnjadv"/></l><r>però<s n="cnjadv"/></r></p></e>
 
       <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>per<b/>cosa<s n="cnjsub"/></r></p></e>
       <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>perchè<s n="cnjsub"/></r></p></e>
@@ -145,9 +146,10 @@
       <e><p><l>sende<b/>chi<s n="cnjadv"/></l><r>dato<b/>che<s n="cnjadv"/></r></p></e>
       
       <e><p><l>mentras<s n="cnjadv"/></l><r>mentre<s n="cnjcoo"/></r></p></e>
-      
+      <e><p><l>ne<s n="cnjadv"/></l><r>né<s n="cnjcoo"/></r></p></e>
       <e><p><l>ca<s n="cnjsub"/></l><r>poiché<s n="cnjsub"/></r></p></e>
-  
+      <e><p><l>pro<b/>chi<s n="cnjsub"/></l><r>affinché<s n="cnjsub"/></r></p></e>
+      <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>perché<s n="cnjsub"/></r></p></e> 
        
       <!-- SECCIÓN: Preposiciones -->
 
@@ -180,8 +182,8 @@
 
       <e><p><l>che<b/>a<s n="pr"/></l><r>come<b/>a<s n="pr"/></r></p></e>
       <e><p><l>finas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
-      
       <e><p><l>in<b/>foras<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
+      <e><p><l>a<b/>foras<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
       <e><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
       <e><p><l>finas<s n="pr"/></l><r>persino<s n="pr"/></r></p></e>
       <e><p><l>in<b/>mesu<b/>de<s n="pr"/></l><r>in<b/>mezzo<b/>a<s n="pr"/></r></p></e>
@@ -189,6 +191,8 @@
       <e><p><l>subra<s n="pr"/></l><r>sopra<s n="pr"/></r></p></e>
       <e><p><l>susu<s n="pr"/></l><r>su<s n="pr"/></r></p></e>
       <e><p><l>paris<b/>cun<s n="pr"/></l><r>insieme<b/>con<s n="pr"/></r></p></e>
+      <e><p><l>cara<b/>a<s n="pr"/></l><r>cara<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>che<b/>a<s n="pr"/></l><r>come<s n="pr"/></r></p></e>
       <e><p><l>subra<s n="pr"/></l><r>su<s n="pr"/></r></p></e>
 
       <e><p><l>posca<s n="pr"/></l><r>dopo<s n="pr"/></r></p></e>
@@ -196,7 +200,9 @@
       <e><p><l>tràmite<s n="pr"/></l><r>tramite<s n="pr"/></r></p></e>
       <e><p><l>ultres<s n="pr"/></l><r>oltre<s n="pr"/></r></p></e>
 
-      <e><p><l>finas<s n="pr"/></l><r>sino<s n="pr"/></r></p></e>
+      <e><p><l>finas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>pro<b/>mèdiu<b/>de<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>paris<b/>cun<s n="pr"/></l><r>insieme<b/>a<s n="pr"/></r></p></e>
 
 
 
@@ -292,7 +298,7 @@
      
       <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualche<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>perunu<s n="prn"/><s n="tn"/></l><r>nessun<s n="prn"/><s n="tn"/></r></p></e>
-      <e r="LR"><p><l>cadaunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
+      <e r="LR"><p><l>cadaunu<s n="prn"/><s n="tn"/></l><r>ciascuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>nemos<s n="prn"/><s n="tn"/></l><r>nessuno<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
       <e><p><l>ambos<s n="prn"/><s n="tn"/></l><r>entrambi<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>perunu<s n="prn"/><s n="tn"/></l><r>nessuno<s n="prn"/><s n="tn"/></r></p></e>
@@ -301,7 +307,10 @@
 
       <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualcuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>ognunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
- 
+      <e><p><l>cadaunu<s n="prn"/><s n="tn"/></l><r>ciascuno<s n="prn"/><s n="tn"/></r></p></e>
+      
+      <e><p><l>su<b/>chi<s n="prn"/><s n="itg"/></l><r>quello<b/>che<s n="prn"/><s n="itg"/></r></p></e> 
+      <e><p><l>su<b/>cale<s n="prn"/><s n="itg"/></l><r>il<b/>quale<s n="prn"/><s n="itg"/></r></p></e>
       <e><p><l>cale<s n="prn"/><s n="itg"/></l><r>quale<s n="prn"/><s n="itg"/></r></p></e>
       <e r="RL"><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
@@ -340,7 +349,7 @@
       <e><p><l>custu<s n="det"/><s n="dem"/></l><r>questo<s n="det"/><s n="dem"/></r></p></e>
       <e r="RL"><p><l>custu<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
 
-      <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<b/>i<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ambos<b/>duos<s n="det"/><s n="ind"/></l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>tzertu<s n="det"/><s n="ind"/></l><r>certo<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
@@ -10702,6 +10711,7 @@
       <e><p><l>intro de pagu tempus<s n="adv"/></l><r>in<b/>poco<b/>tempo<s n="adv"/></r></p></e>
       <e><p><l>gosi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
       <e><p><l>gasi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
+      <e><p><l>gai<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
       <e><p><l>belle<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
       
       <e><p><l>a<b/>fùrriu<s n="adv"/></l><r>profondament<s n="adv"/></r></p></e>
@@ -10746,7 +10756,6 @@
       <e><p><l>semper<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
       <e><p><l>suta<s n="adv"/></l><r>sotto<s n="adv"/></r></p></e>
       <e><p><l>bighinu<s n="adv"/></l><r>vicino<s n="adv"/></r></p></e>
-      <e><p><l>sigomente<s n="adv"/></l><r>siccome<s n="adv"/></r></p></e>
       <e><p><l>in<b/>fatu<s n="adv"/></l><r>appresso<s n="adv"/></r></p></e>
       <e><p><l>si<b/>in<b/>casu<s n="adv"/></l><r>se<b/>nel<b/>caso<s n="adv"/></r></p></e>
       <e><p><l>nessi<s n="adv"/></l><r>almeno<s n="adv"/></r></p></e>
