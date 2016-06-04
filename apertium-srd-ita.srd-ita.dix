@@ -341,8 +341,8 @@
       <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
       <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e r="RL"><p><l>issoro<s n="det"/><s n="pos"/></l><r>loro<s n="det"/><s n="pos"/></r></p></e>
-      <e><p><l>issoro<s n="prn"/><s n="pos"/></l><r>il<b/>loro<s n="prn"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
-      <e r="RL"><p><l>issoro<s n="prn"/><s n="pos"/></l><r>loro<s n="prn"/><s n="pos"/></r></p></e>
+      <e><p><l>issoro<s n="prn"/><s n="pos"/></l><r>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
+      <e r="RL"><p><l>issoro<s n="prn"/><s n="pos"/></l><r>loro<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
       <e><p><l>àteru<s n="det"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
       <e><p><l>cada<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ogni<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
@@ -1907,6 +1907,8 @@
       <e><p><l>iscannu<s n="n"/><s n="m"/></l><r>sgabello<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>famosu<s n="adj"/></l><r>famoso<s n="adj"/></r></p></e>
       <e><p><l>a.C<s n="adv"/></l><r>a.C<s n="adv"/></r></p></e>
+      <e><p><l>d.C<s n="adv"/></l><r>d.C<s n="adv"/></r></p></e>
+      <e><p><l>p.es<s n="adv"/></l><r>p.es<s n="adv"/></r></p></e>
       <e><p><l>tribù<s n="n"/><s n="f"/></l><r>tribù<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ispesa<s n="n"/><s n="f"/></l><r>spesa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fora<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
@@ -2089,7 +2091,6 @@
       <e><p><l>cubeddu<s n="n"/><s n="m"/></l><r>tinello<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>crae<s n="n"/><s n="m"/></l><r>chiave<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cala<s n="n"/><s n="f"/></l><r>cala<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>bostru<s n="adj"/></l><r>vostro<s n="adj"/></r></p></e>
       <e><p><l>bisita<s n="n"/><s n="f"/></l><r>visita<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>autorizadu<s n="adj"/></l><r>autorizato<s n="adj"/></r></p></e>
       <e><p><l>tua<s n="adj"/></l><r>tua<s n="adj"/></r></p></e>
@@ -2178,7 +2179,6 @@
       <e><p><l>irachenu<s n="adj"/></l><r>iracheno<s n="adj"/></r></p></e>
       <e><p><l>dimissione<s n="n"/><s n="f"/></l><r>dimissione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>diga<s n="n"/><s n="f"/></l><r>diga<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>d.C<s n="adv"/></l><r>d.C<s n="adv"/></r></p></e>
       <e><p><l>cunservadore<s n="adj"/></l><r>cunservatore<s n="adj"/></r></p></e>
       <e><p><l>cubire<s n="vblex"/></l><r>desiderare<s n="vblex"/></r></p></e>
       <e><p><l>assistente<s n="n"/><s n="m"/></l><r>assistente<s n="n"/><s n="m"/></r></p></e>
@@ -9216,15 +9216,15 @@
       <e><p><l>cale<s n="adj"/><s n="itg"/></l><r>quale<s n="adj"/><s n="itg"/></r></p></e>
 
       <e><p><l>meu<s n="adj"/><s n="pos"/></l><r>mio<s n="adj"/><s n="pos"/></r></p></e>
-      <e><p><l>meu<s n="prn"/><s n="pos"/></l><r>mio<s n="prn"/><s n="pos"/></r></p></e>
+      <e><p><l>meu<s n="prn"/><s n="pos"/></l><r>mio<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
       <e><p><l>tuo<s n="adj"/><s n="pos"/></l><r>tuo<s n="adj"/><s n="pos"/></r></p></e>
-      <e><p><l>tuo<s n="prn"/><s n="pos"/></l><r>tuo<s n="prn"/><s n="pos"/></r></p></e>
+      <e><p><l>tuo<s n="prn"/><s n="pos"/></l><r>tuo<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
       <e><p><l>suo<s n="adj"/><s n="pos"/></l><r>suo<s n="adj"/><s n="pos"/></r></p></e>
-      <e><p><l>suo<s n="prn"/><s n="pos"/></l><r>suo<s n="prn"/><s n="pos"/></r></p></e>
+      <e><p><l>suo<s n="prn"/><s n="pos"/></l><r>suo<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
       <e><p><l>nostru<s n="adj"/><s n="pos"/></l><r>nostro<s n="adj"/><s n="pos"/></r></p></e>
-      <e><p><l>nostru<s n="prn"/><s n="pos"/></l><r>nostro<s n="prn"/><s n="pos"/></r></p></e>
+      <e><p><l>nostru<s n="prn"/><s n="pos"/></l><r>nostro<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
       <e><p><l>bostru<s n="adj"/><s n="pos"/></l><r>vostro<s n="adj"/><s n="pos"/></r></p></e>
-      <e><p><l>bostru<s n="prn"/><s n="pos"/></l><r>vostro<s n="prn"/><s n="pos"/></r></p></e>
+      <e><p><l>bostru<s n="prn"/><s n="pos"/></l><r>vostro<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
 
       <e><p><l>primu<s n="adj"/><s n="ord"/></l><r>primo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>segundu<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
@@ -10629,7 +10629,6 @@
       <e><p><l>a<b/>fùrriu<s n="adv"/></l><r>profondament<s n="adv"/></r></p></e>
       <e><p><l>fintzas<b/>a<b/>como<s n="adv"/></l><r>finora<s n="adv"/></r></p></e>
       <e><p><l>etc<s n="adv"/></l><r>ecc<s n="adv"/></r></p></e>
-      <e r="RL"><p><l>etc<s n="adv"/></l><r>etc<s n="adv"/></r></p></e>
       <e><p><l>oe<s n="adv"/></l><r>oggi<s n="adv"/></r></p></e>
       <e><p><l>como<s n="adv"/></l><r>adesso<s n="adv"/></r></p></e>
       <e><p><l>a<b/>su<b/>matessi<b/>tempus<s n="adv"/></l><r>nel<b/>contempo<s n="adv"/></r></p></e>
