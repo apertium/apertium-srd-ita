@@ -1752,7 +1752,8 @@
      <e><p><l>more<s n="n"/><s n="f"/></l><r>causa<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>detzisione<s n="n"/><s n="f"/></l><r>decisione<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>tantu<s n="n"/><s n="m"/></l><r>tanto<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>campidanesu<s n="adj"/></l><r>campidanese<s n="adj"/></r></p></e>
+     <e><p><l>campidanesu<s n="adj"/></l><r>campidanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+     <e><p><l>campidanesu<s n="n"/></l><r>campidanese<s n="n"/></r></p><par n="GD_mf"/></e>
      <e><p><l>televisione<s n="n"/><s n="f"/></l><r>televisione<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>male<s n="n"/><s n="m"/></l><r>male<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>tzinu<s n="adj"/></l><r>misero<s n="adj"/></r></p></e>
@@ -1767,7 +1768,6 @@
      <e><p><l>cuddu<s n="adj"/></l><r>quello<s n="adj"/></r></p></e>
      <e><p><l>note<s n="n"/><s n="f"/></l><r>note<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>otentu<s n="adj"/></l><r>ottenuto<s n="adj"/></r></p></e>
-     <e><p><l>aligheresu<s n="adj"/></l><r>algherese<s n="adj"/></r></p></e>
       <e><p><l>tretu<s n="n"/><s n="m"/></l><r>tratto<s n="adj"/><s n="n"/><s n="m"/></r></p></e>
       <e><p><l>agiuntu<s n="adj"/></l><r>aggiunto<s n="adj"/></r></p></e>
       <e><p><l>trèghere<s n="vblex"/></l><r>asciugare<s n="vblex"/></r></p></e>
@@ -1802,8 +1802,9 @@
       <e><p><l>sala<s n="n"/><s n="f"/></l><r>sala<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nàschidu<s n="adj"/></l><r>nato<s n="adj"/></r></p></e>
       <e><p><l>gregorianu<s n="adj"/></l><r>gregoriano<s n="adj"/></r></p></e>
-      <e><p><l>romanu<s n="n"/><s n="f"/></l><r>romano<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>gadduresu<s n="adj"/></l><r>gallurese<s n="adj"/></r></p></e>
+      <e><p><l>romanu<s n="n"/></l><r>romano<s n="n"/></r></p></e>
+      <e><p><l>gadduresu<s n="adj"/></l><r>gallurese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>gadduresu<s n="n"/></l><r>gallurese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>costeri<s n="adj"/></l><r>costiero<s n="adj"/></r></p></e>
       <e><p><l>riforma<s n="n"/><s n="f"/></l><r>riforma<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>grande<s n="adj"/><s n="mf"/></l><r>grande<s n="n"/><s n="mf"/></r></p></e>
@@ -1815,7 +1816,8 @@
       <e><p><l>ìndiu<s n="adj"/></l><r>indio<s n="adj"/></r></p></e>
       <e><p><l>calendàriu<s n="n"/><s n="m"/></l><r>calendario<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>operativu<s n="adj"/></l><r>operativo<s n="adj"/></r></p></e>
-      <e><p><l>tataresu<s n="adj"/></l><r>sassarese<s n="adj"/></r></p></e>
+      <e><p><l>tataresu<s n="adj"/></l><r>sassarese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>tataresu<s n="n"/></l><r>sassarese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>regista<s n="n"/></l><r>regista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>lughe<s n="n"/><s n="m"/></l><r>luce<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>definitivu<s n="adj"/></l><r>definitivo<s n="adj"/></r></p></e>
@@ -1865,7 +1867,8 @@
       <e><p><l>cuntenutu<s n="adj"/></l><r>contenuto<s n="adj"/></r></p></e>
       <e><p><l>collana<s n="n"/><s n="f"/></l><r>collana<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>Brasile<s n="np"/><s n="top"/><s n="m"/></l><r>Brasile<s n="np"/><s n="top"/><s n="m"/></r></p></e>
-      <e><p><l>nugoresu<s n="adj"/></l><r>nuorese<s n="adj"/></r></p></e>
+      <e><p><l>nugoresu<s n="adj"/></l><r>nuorese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>nugoresu<s n="n"/></l><r>nuorese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>legislatzione<s n="n"/><s n="f"/></l><r>legislazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>croatu<s n="adj"/></l><r>croato<s n="adj"/></r></p></e>
       <e><p><l>artìsticu<s n="adj"/></l><r>artistico<s n="adj"/></r></p></e>
@@ -1907,7 +1910,8 @@
       <e><p><l>tribù<s n="n"/><s n="f"/></l><r>tribù<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ispesa<s n="n"/><s n="f"/></l><r>spesa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fora<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
-      <e><p><l>canadesu<s n="adj"/></l><r>canadese<s n="adj"/></r></p></e>
+      <e><p><l>canadesu<s n="adj"/></l><r>canadese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>canadesu<s n="n"/></l><r>canadese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>attivista<s n="n"/></l><r>attivista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>traduidu<s n="adj"/></l><r>tradotto<s n="adj"/></r></p></e>
       <e><p><l>insegnante<s n="n"/><s n="mf"/></l><r>insegnante<s n="n"/><s n="mf"/></r></p></e>
@@ -1996,7 +2000,8 @@
       <e><p><l>timoria<s n="n"/><s n="m"/></l><r>paura<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>promotore<s n="n"/></l><r>promotore<s n="n"/></r></p></e>
       <e><p><l>primariu<s n="n"/></l><r>primario<s n="n"/></r></p></e>
-      <e><p><l>maltesu<s n="adj"/></l><r>maltese<s n="adj"/></r></p></e>
+      <e><p><l>maltesu<s n="adj"/></l><r>maltese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>maltesu<s n="n"/></l><r>maltese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>istrangiu<s n="n"/></l><r>straniero<s n="n"/></r></p></e>
       <e><p><l>iscumpartu<s n="n"/><s n="m"/></l><r>scomparto<s n="adj"/><s n="m"/></r></p></e>
       <e><p><l>iscritzione<s n="n"/><s n="f"/></l><r>iscrizione<s n="n"/><s n="f"/></r></p></e>
@@ -2075,10 +2080,12 @@
       <e><p><l>mapa<s n="n"/><s n="f"/></l><r>mappa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mantesu<s n="adj"/></l><r>mantenuto<s n="adj"/></r></p></e>
       <e><p><l>indìgenu<s n="adj"/></l><r>indigeno<s n="adj"/></r></p></e>
-      <e><p><l>genovesu<s n="adj"/></l><r>genovese<s n="adj"/></r></p></e>
+      <e><p><l>genovesu<s n="adj"/></l><r>genovese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>genovesu<s n="n"/></l><r>genovese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>esemplare<s n="n"/><s n="m"/></l><r>esemplare<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>desertu<s n="adj"/></l><r>deserto<s n="adj"/></r></p></e>
-      <e><p><l>danesu<s n="adj"/></l><r>danese<s n="adj"/></r></p></e>
+      <e><p><l>danesu<s n="adj"/></l><r>danese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>danesu<s n="n"/></l><r>danese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>cubeddu<s n="n"/><s n="m"/></l><r>tinello<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>crae<s n="n"/><s n="m"/></l><r>chiave<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cala<s n="n"/><s n="f"/></l><r>cala<s n="n"/><s n="f"/></r></p></e>
@@ -2200,8 +2207,10 @@
       <e><p><l>grogu<s n="adj"/></l><r>giallo<s n="adj"/></r></p></e>
       <e><p><l>gioventude<s n="n"/><s n="m"/></l><r>gioventù<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>gigante<s n="adj"/></l><r>gigante<s n="adj"/></r></p></e>
-      <e><p><l>giaponesu<s n="adj"/></l><r>giapponese<s n="adj"/></r></p></e>
-      <e><p><l>finlandesu<s n="adj"/></l><r>finlandese<s n="adj"/></r></p></e>
+      <e><p><l>giaponesu<s n="adj"/></l><r>giapponese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>giaponesu<s n="n"/></l><r>giapponese<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>finlandesu<s n="adj"/></l><r>finlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>finlandesu<s n="n"/></l><r>finlandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>fache<s n="n"/><s n="f"/></l><r>aspetto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>didàticu<s n="adj"/></l><r>didattico<s n="adj"/></r></p></e>
       <e><p><l>cultu<s n="adj"/></l><r>colto<s n="adj"/></r></p></e>
@@ -2237,7 +2246,8 @@
       <e><p><l>protestante<s n="adj"/></l><r>protestante<s n="adj"/></r></p></e>
       <e><p><l>preferidu<s n="adj"/></l><r>preferito<s n="adj"/></r></p></e>
       <e><p><l>palcu<s n="n"/><s n="m"/></l><r>palco<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>norvegesu<s n="adj"/></l><r>norvegese<s n="adj"/></r></p></e>
+      <e><p><l>norvegesu<s n="adj"/></l><r>norvegese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>norvegesu<s n="n"/></l><r>norvegese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>multimediale<s n="adj"/></l><r>multimediale<s n="adj"/></r></p></e>
       <e><p><l>moderadu<s n="adj"/></l><r>moderato<s n="adj"/></r></p></e>
       <e><p><l>mentras<s n="adv"/></l><r>mentre<s n="adv"/></r></p></e>
@@ -2479,7 +2489,8 @@
       <e><p><l>isposare<s n="vblex"/></l><r>sposare<s n="vblex"/></r></p></e>
       <e><p><l>ispidale<s n="n"/><s n="m"/></l><r>ospedale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ispartzire<s n="vblex"/></l><r>spargere<s n="vblex"/></r></p></e>
-      <e><p><l>islandesu<s n="adj"/></l><r>islandese<s n="adj"/></r></p></e>
+      <e><p><l>islandesu<s n="adj"/></l><r>islandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>islandesu<s n="n"/></l><r>islandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>isfolladu<s n="adj"/></l><r>sfollato<s n="adj"/></r></p></e>
       <e><p><l>iscurtare<s n="vblex"/></l><r>ascoltare<s n="vblex"/></r></p></e>
       <e><p><l>integrante<s n="adj"/></l><r>integrante<s n="adj"/></r></p></e>
@@ -3530,8 +3541,8 @@
       <e><p><l>santandria<s n="n"/><s n="f"/></l><r>novembre<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>banda<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>chirru<s n="n"/><s n="m"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>umanu<s n="n"/><s n="f"/></l><r>umano<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>santu<s n="n"/><s n="f"/></l><r>santo<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>umanu<s n="n"/></l><r>umano<s n="n"/></r></p></e>
+      <e><p><l>santu<s n="n"/></l><r>santo<s n="n"/></r></p></e>
 
 
       <e><p><l>aperitivu<s n="n"/><s n="m"/></l><r>aperitivo<s n="n"/><s n="m"/></r></p></e>
@@ -3697,7 +3708,8 @@
       <e><p><l>dotore<s n="n"/></l><r>dottore<s n="n"/></r></p></e>
       <e><p><l>reduidore<s n="n"/></l><r>riduttore<s n="n"/></r></p></e>
       <e><p><l>bidore<s n="n"/></l><r>tutore<s n="n"/></r></p></e>
-      <e><p><l>burocratesu<s n="n"/><s n="m"/></l><r>burocratese<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>burocratesu<s n="n"/></l><r>burocratese<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>burocratesu<s n="adj"/></l><r>burocratese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>burocrate<s n="n"/><s n="m"/></l><r>burocrate<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>istudiante<s n="n"/><s n="mf"/></l><r>studente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>imbiadore<s n="n"/></l><r>mittente<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -5374,6 +5386,9 @@
       <e><p><l>artzipèlagu<s n="n"/><s n="m"/></l><r>arcipelago<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>artziadu<s n="adj"/></l><r>alzato<s n="adj"/></r></p></e>
       <e><p><l>aligeresu<s n="adj"/></l><r>algherese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>aligheresu<s n="adj"/></l><r>algherese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>aligeresu<s n="n"/></l><r>algherese<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>aligheresu<s n="n"/></l><r>algherese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>agenda<s n="n"/><s n="f"/></l><r>agenda<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>addurare<s n="vblex"/></l><r>fermarsi<s n="vblex"/></r></p></e>
       <e><p><l>acontèssidu<s n="adj"/></l><r>capitato<s n="adj"/></r></p></e>
@@ -9270,8 +9285,6 @@
       <e><p><l>mègius<s n="adj"/></l><r>meglio<s n="adj"/></r></p></e>
       <e><p><l>initziale<s n="adj"/></l><r>iniziale<s n="adj"/></r></p></e>
       <e><p><l>potente<s n="adj"/></l><r>ponente<s n="adj"/></r></p></e>
-      <e r="RL"><p><l>albanesu<s n="adj"/><s n="GD"/></l><r>albanese<s n="adj"/><s n="mf"/></r></p></e>
-      <e r="RL"><p><l>albanesu<s n="n"/><s n="GD"/></l><r>albanese<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>eguale<s n="adj"/></l><r>uguale<s n="adj"/></r></p></e>
       <e><p><l>solare<s n="adj"/></l><r>solare<s n="adj"/></r></p></e>
       <e><p><l>medievale<s n="adj"/></l><r>medievale<s n="adj"/></r></p></e>
