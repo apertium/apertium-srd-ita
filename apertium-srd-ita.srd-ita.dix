@@ -339,9 +339,9 @@
       <e r="LR"><p><l>carchi<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>qualche<s n="det"/><s n="ind"/><s n="mf"/><s n="GD"/></r></p></e>
 
       <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
-      <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
+      <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<g><b/>loro</g><s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e r="RL"><p><l>issoro<s n="det"/><s n="pos"/></l><r>loro<s n="det"/><s n="pos"/></r></p></e>
-      <e><p><l>issoro<s n="prn"/><s n="pos"/></l><r>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
+      <e><p><l>issoro<s n="prn"/><s n="pos"/></l><r>il<g><b/>loro</g><s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e r="RL"><p><l>issoro<s n="prn"/><s n="pos"/></l><r>loro<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
       <e><p><l>àteru<s n="det"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
       <e><p><l>cada<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
@@ -2287,7 +2287,7 @@
       <e><p><l>fache<s n="n"/><s n="f"/></l><r>aspetto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>didàticu<s n="adj"/></l><r>didattico<s n="adj"/></r></p></e>
       <e><p><l>cultu<s n="adj"/></l><r>colto<s n="adj"/></r></p></e>
-        <e><p><l>Cuba<s n="np"/><s n="top"/><s n="f"/></l><r>Cuba<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Cuba<s n="np"/><s n="top"/><s n="f"/></l><r>Cuba<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>còmicu<s n="adj"/></l><r>comico<s n="adj"/></r></p></e>
       <e><p><l>cojuadu<s n="adj"/></l><r>sposato<s n="adj"/></r></p></e>
       <e><p><l>cantadore<s n="adj"/></l><r>cantante<s n="adj"/></r></p><par n="GD_mf"/></e>
