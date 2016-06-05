@@ -1765,7 +1765,6 @@
     <e><p><l>puntu<s n="n"/></l><r>punto<s n="n"/></r></p></e>
     <e><p><l>amu<s n="n"/><s n="m"/></l><r>amo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pare<s n="adv"/></l><r>a<b/>vicenda<s n="adv"/></r></p></e>
-    <e><p><l>gente<s n="n"/><s n="m"/></l><r>gente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bividore<s n="n"/></l><r>bevitore<s n="n"/></r></p></e>
     <e><p><l>bividore<s n="n"/></l><r>vivente<s n="n"/></r></p></e>
     <e><p><l>ue<s n="adv"/></l><r>dove<s n="adv"/></r></p></e>
@@ -1814,7 +1813,7 @@
      <e><p><l>martzu<s n="adj"/></l><r>marcio<s n="adj"/></r></p></e>
      <e><p><l>rapresentante<s n="n"/><s n="mf"/></l><r>rapresentante<s n="n"/><s n="mf"/></r></p></e>
      <e><p><l>rapresentante<s n="adj"/><s n="mf"/></l><r>rapresentante<s n="adj"/><s n="mf"/></r></p></e>
-     <e><p><l>cummissione<s n="n"/><s n="f"/></l><r>commissione<s n="n"/><s n="m"/></r></p></e>
+     <e><p><l>cummissione<s n="n"/><s n="f"/></l><r>commissione<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>pranu<s n="adj"/></l><r>piano<s n="adj"/></r></p></e>
      <e><p><l>pranu<s n="n"/><s n="m"/></l><r>piano<s n="adj"/><s n="m"/></r></p></e>
      <e><p><l>corte<s n="n"/><s n="f"/></l><r>cortile<s n="n"/><s n="m"/></r></p></e>
@@ -2069,7 +2068,7 @@
       <e><p><l>moru<s n="adj"/></l><r>moro<s n="adj"/></r></p></e>
       <e><p><l>missionàriu<s n="adj"/></l><r>missionario<s n="adj"/></r></p></e>
       <e><p><l>formativu<s n="adj"/></l><r>formativo<s n="adj"/></r></p></e>
-      <e><p><l>condaghe<s n="n"/><s n="m"/></l><r>registro<b/>d’amministrazione<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>condaghe<s n="n"/><s n="m"/></l><r>registro<g><b/>d’amministrazione</g><s n="n"/><s n="m"/></r></p></e>
       <e><p><l>barigare<s n="vblex"/></l><r>varcare<s n="vblex"/></r></p></e>
       <e><p><l>barigare<s n="vblex"/></l><r>trascorrere<s n="vblex"/></r></p></e>
       <e><p><l>anteriore<s n="adj"/></l><r>anteriore<s n="adj"/></r></p></e>
@@ -2148,7 +2147,6 @@
       <e><p><l>imprendidore<s n="adj"/></l><r>imprenditore<s n="adj"/></r></p></e>
       <e><p><l>galanu<s n="adj"/></l><r>piacevole<s n="adj"/></r></p></e>
       <e><p><l>eticheta<s n="n"/><s n="f"/></l><r>etichetta<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>Aragona<s n="n"/><s n="f"/></l><r>Aragona<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>animadu<s n="adj"/></l><r>animato<s n="adj"/></r></p></e>
       <e><p><l>acusadu<s n="adj"/></l><r>accusato<s n="adj"/></r></p></e>
       <e><p><l>te'<s n="adv"/></l><r>tie'<s n="adv"/></r></p></e>
@@ -3504,6 +3502,7 @@
       <e><p><l>tradutore<s n="n"/></l><r>traduttore<s n="n"/></r></p></e>
       <e><p><l>interessu<s n="n"/><s n="m"/></l><r>interesse<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cumponente<s n="n"/><s n="m"/></l><r>componente<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cumponente<s n="n"/><s n="m"/></l><r>componente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>emitente<s n="n"/><s n="f"/></l><r>emittente<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ambu<s n="n"/><s n="m"/></l><r>ambo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>duda<s n="n"/><s n="f"/></l><r>dubbio<s n="n"/><s n="m"/></r></p></e>
