@@ -2401,9 +2401,9 @@
       <e><p><l>consulente<s n="n"/><s n="m"/></l><r>consulente<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>catza<s n="n"/><s n="f"/></l><r>caccia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>castillianu<s n="adj"/></l><r>castigliano<s n="adj"/></r></p></e>
-      <e><p><l>carena<s n="n"/><s n="f"/></l><r>scheletro<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>carena<s n="n"/><s n="f"/></l><r>scheletro<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>brunzu<s n="n"/><s n="m"/></l><r>bronzo<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>autore<s n="n"/><s n="f"/></l><r>autore<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>autore<s n="n"/></l><r>autore<s n="n"/></r></p></e>
       <e><p><l>atestadu<s n="adj"/></l><r>attestato<s n="adj"/></r></p></e>
       <e><p><l>adultu<s n="n"/><s n="m"/></l><r>adulto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>viale<s n="n"/><s n="m"/></l><r>viale<s n="n"/><s n="m"/></r></p></e>
@@ -2471,13 +2471,14 @@
       <e><p><l>insulare<s n="adj"/></l><r>insulare<s n="adj"/></r></p></e>
       <e><p><l>infantile<s n="adj"/></l><r>infantile<s n="adj"/></r></p></e>
       <e><p><l>etruscu<s n="adj"/></l><r>etrusco<s n="adj"/></r></p></e>
+      <e><p><l>etruscu<s n="n"/></l><r>etrusco<s n="n"/></r></p></e>
       <e><p><l>eremidu<s n="adj"/></l><r>solitario<s n="adj"/></r></p></e>
       <e><p><l>designadu<s n="adj"/></l><r>designato<s n="adj"/></r></p></e>
       <e><p><l>cunsortziadu<s n="adj"/></l><r>consorziato<s n="adj"/></r></p></e>
       <e><p><l>cunfinare<s n="vblex"/></l><r>confinare<s n="vblex"/></r></p></e>
       <e><p><l>conte<s n="n"/><s n="m"/></l><r>conte<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>clone<s n="n"/><s n="m"/></l><r>clone<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>chirra<s n="n"/><s n="f"/></l><r>recinto<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>chirra<s n="n"/><s n="f"/></l><r>recinto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>chessa<s n="n"/><s n="f"/></l><r>lentisco<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cantautore<s n="n"/></l><r>cantautore<s n="n"/></r></p></e>
       <e><p><l>breve<s n="adj"/></l><r>breve<s n="adj"/></r></p></e>
@@ -3472,7 +3473,6 @@
       <e><p><l>riserva<s n="n"/><s n="f"/></l><r>riserva<s n="n"/><s n="f"/></r></p></e>
 
       <e><p><l>podere<s n="n"/><s n="m"/></l><r>potere<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>autore<s n="n"/><s n="m"/></l><r>autore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>favore<s n="n"/><s n="m"/></l><r>favore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>impreu<s n="n"/><s n="m"/></l><r>impiego<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>semu<s n="n"/><s n="m"/></l><r>marchio<s n="n"/><s n="m"/></r></p></e>
@@ -3532,7 +3532,9 @@
       <e><p><l>chirru<s n="n"/><s n="m"/></l><r>lato<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>còmporu<s n="n"/><s n="m"/></l><r>acquisto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>assessoradu<s n="n"/><s n="m"/></l><r>assessorato<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>deputadu<s n="n"/><s n="m"/></l><r>deputato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>deputadu<s n="n"/></l><r>deputato<s n="n"/></r></p></e>
+      <e><p><l>eurodeputadu<s n="n"/></l><r>eurodeputato<s n="n"/></r></p></e>
+      <e><p><l>eurocratu<s n="n"/></l><r>eurocrato<s n="n"/></r></p></e>
       <e><p><l>decretu<s n="n"/><s n="m"/></l><r>decreto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>situ<s n="n"/><s n="m"/></l><r>sito<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fundamentu<s n="n"/><s n="m"/></l><r>fondamento<s n="n"/><s n="m"/></r></p></e>
@@ -5440,7 +5442,6 @@
       <e><p><l>fonèticu<s n="adj"/></l><r>fonetico<s n="adj"/></r></p></e>
       <!-- <e><p><l>foghesu<s n="adj"/></l><r>di<b/>Perdasdefogu<s n="adj"/></r></p></e> FIXME -->
       <e><p><l>filosòficu<s n="adj"/></l><r>filosofico<s n="adj"/></r></p></e>
-      <e><p><l>eurodeputadu<s n="adj"/></l><r>eurodeputato<s n="adj"/></r></p></e>
       <e><p><l>estintu<s n="adj"/></l><r>estinto<s n="adj"/></r></p></e>
       <e><p><l>eschimesu<s n="adj"/></l><r>eschimese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>durgalesu<s n="adj"/></l><r>dorgalese<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -9775,6 +9776,8 @@
       <e><p><l>pròpiu<s n="adj"/></l><r>proprio<s n="adj"/></r></p></e>
       <e><p><l>catalanu<s n="adj"/></l><r>catalano<s n="adj"/></r></p></e>
       <e><p><l>catalanu<s n="n"/></l><r>catalano<s n="n"/></r></p></e>
+      <e><p><l>sumeru<s n="adj"/></l><r>sumero<s n="adj"/></r></p></e>
+      <e><p><l>sumeru<s n="n"/></l><r>sumero<s n="n"/></r></p></e>
       <e><p><l>pròpiu<s n="adj"/></l><r>stesso<s n="adj"/></r></p></e>
       <e><p><l>mesu<s n="adj"/></l><r>mezzo<s n="adj"/></r></p></e>
       
