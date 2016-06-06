@@ -1900,12 +1900,14 @@
       <e><p><l>via<s n="adv"/></l><r>via<s n="adv"/></r></p></e>
       <e><p><l>fonte<s n="n"/><s n="f"/></l><r>fonte<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>britànnicu<s n="adj"/></l><r>britannico<s n="adj"/></r></p></e>
+      <e><p><l>britànnicu<s n="n"/></l><r>britannico<s n="n"/></r></p></e>
       <e><p><l>susu<s n="adv"/></l><r>su<s n="adv"/></r></p></e>
       <e><p><l>lemma<s n="n"/><s n="m"/></l><r>lemma<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>impèriu<s n="n"/><s n="m"/></l><r>impero<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>impèriu<s n="n"/><s n="m"/></l><r>commissione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>clima<s n="n"/><s n="m"/></l><r>clima<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>serbu<s n="adj"/></l><r>serbo<s n="adj"/></r></p></e>
+      <e><p><l>serbu<s n="n"/></l><r>serbo<s n="n"/></r></p></e>
       <e><p><l>binchidore<s n="n"/></l><r>vincitore<s n="n"/></r></p></e>
       <e><p><l>gesuita<s n="n"/><s n="mf"/></l><r>gesuita<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>gesuita<s n="adj"/></l><r>gesuita<s n="adj"/></r></p></e>
@@ -1938,11 +1940,11 @@
       <e><p><l>inimigu<s n="adj"/></l><r>nemico<s n="adj"/></r></p></e>
       <e><p><l>cuntenutu<s n="adj"/></l><r>contenuto<s n="adj"/></r></p></e>
       <e><p><l>collana<s n="n"/><s n="f"/></l><r>collana<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>Brasile<s n="np"/><s n="top"/><s n="m"/></l><r>Brasile<s n="np"/><s n="top"/><s n="m"/></r></p></e>
       <e><p><l>nugoresu<s n="adj"/></l><r>nuorese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>nugoresu<s n="n"/></l><r>nuorese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>legislatzione<s n="n"/><s n="f"/></l><r>legislazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>croatu<s n="adj"/></l><r>croato<s n="adj"/></r></p></e>
+      <e><p><l>croatu<s n="n"/></l><r>croato<s n="n"/></r></p></e>
       <e><p><l>artìsticu<s n="adj"/></l><r>artistico<s n="adj"/></r></p></e>
       <e><p><l>papa<s n="n"/><s n="m"/></l><r>papa<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>manifestu<s n="adj"/></l><r>manifesto<s n="adj"/></r></p></e>
@@ -5512,7 +5514,6 @@
       <e><p><l>Berlinu<s n="np"/><s n="top"/><s n="m"/></l><r>Berlino<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bolìvia<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bologna<s n="np"/><s n="top"/><s n="f"/></l><r>Bologna<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Bolivia<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Brasile<s n="np"/><s n="top"/><s n="m"/></l><r>Brasile<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bratislava<s n="np"/><s n="top"/><s n="f"/></l><r>Bratislava<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bucarest<s n="np"/><s n="top"/><s n="m"/></l><r>Bucarest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -5783,7 +5784,6 @@
       <e><p><l>Azerbaigiàn<s n="np"/><s n="top"/><s n="m"/></l><r>Azerbaigian<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Barcellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Birmania<s n="np"/><s n="top"/><s n="f"/></l><r>Birmania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Brasile<s n="np"/><s n="top"/><s n="f"/></l><r>Brasile<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Budapest<s n="np"/><s n="top"/><s n="m"/></l><r>Budapest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Calabria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Califòrnia<s n="np"/><s n="top"/><s n="f"/></l><r>California<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -5813,7 +5813,7 @@
       <e><p><l>Isvìtzera<s n="np"/><s n="top"/><s n="f"/></l><r>Svizzera<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Itàlia<s n="np"/><s n="top"/><s n="f"/></l><r>Italia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Londra<s n="np"/><s n="top"/><s n="f"/></l><r>Londra<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Libanu<s n="np"/><s n="top"/><s n="m"/></l><r>Libano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>      
+      <e><p><l>Lìbanu<s n="np"/><s n="top"/><s n="m"/></l><r>Libano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>      
       <e><p><l>Malta<s n="np"/><s n="top"/><s n="f"/></l><r>Malta<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Mesopotamia<s n="np"/><s n="top"/><s n="f"/></l><r>Mesopotamia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Napoli<s n="np"/><s n="top"/><s n="m"/></l><r>Napoli<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
