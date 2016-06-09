@@ -3624,8 +3624,6 @@
       <e><p><l>santandria<s n="n"/><s n="f"/></l><r>novembre<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>banda<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>chirru<s n="n"/><s n="m"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>umanu<s n="n"/></l><r>umano<s n="n"/></r></p></e>
-      <e><p><l>santu<s n="n"/></l><r>santo<s n="n"/></r></p></e>
 
 
       <e><p><l>aperitivu<s n="n"/><s n="m"/></l><r>aperitivo<s n="n"/><s n="m"/></r></p></e>
@@ -4340,7 +4338,6 @@
       <e><p><l>contenutu<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>capia<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>càbidu<s n="n"/><s n="m"/></l><r>contenuto<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>professionista<s n="n"/></l><r>professionista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>presoneri<s n="n"/></l><r>prigioniero<s n="n"/></r></p></e>
       <e><p><l>etzetzione<s n="n"/><s n="f"/></l><r>eccezione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>intzidente<s n="n"/><s n="m"/></l><r>incidente<s n="n"/><s n="m"/></r></p></e>
@@ -5783,7 +5780,6 @@
       <e><p><l>Albania<s n="np"/><s n="top"/><s n="f"/></l><r>Albania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Amèrica<s n="np"/><s n="top"/><s n="f"/></l><r>America<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Amèrica<b/>Latina<s n="np"/><s n="top"/><s n="f"/></l><r>America<b/>Latina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Amèrica<s n="np"/><s n="top"/><s n="f"/></l><r>America<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Andorra<s n="np"/><s n="top"/><s n="f"/></l><r>Andorra<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Aragona<s n="np"/><s n="top"/><s n="f"/></l><r>Aragona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Armènia<s n="np"/><s n="top"/><s n="f"/></l><r>Armenia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -9874,7 +9870,6 @@
       <e><p><l>galitzianu<s n="adj"/></l><r>galiziano<s n="adj"/></r></p></e>
       <e><p><l>galitzianu<s n="n"/></l><r>galiziano<s n="n"/></r></p></e>
 
-      <e><p><l>indipendentista<s n="adj"/></l><r>indipendentista<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>grande<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
       <e><p><l>musicale<s n="adj"/></l><r>musicale<s n="adj"/></r></p></e>
       <e><p><l>formale<s n="adj"/></l><r>formale<s n="adj"/></r></p></e>
@@ -13005,6 +13000,39 @@
       <e><p><l>reduire<s n="vblex"/></l><r>ridurre<s n="vblex"/></r></p></e>
 
 
+      <e><p><l>Aosta<s n="np"/><s n="top"/><s n="f"/></l><r>Aosta<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Piemonte<s n="np"/><s n="top"/><s n="m"/></l><r>Piemonte<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Ligùria<s n="np"/><s n="top"/><s n="f"/></l><r>Liguria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Lombardia<s n="np"/><s n="top"/><s n="f"/></l><r>Lombardia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Trentinu-Südtirol<s n="np"/><s n="top"/><s n="m"/></l><r>Trentino-Alto<b/>Adige<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Trentu<s n="np"/><s n="top"/><s n="m"/></l><r>Trento<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Venetu<s n="np"/><s n="top"/><s n="m"/></l><r>Veneto<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Venètzia<s n="np"/><s n="top"/><s n="f"/></l><r>Venezia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Friuli-Venetzia<b/>Giulia<s n="np"/><s n="top"/><s n="m"/></l><r>Friuli-Venezia<b/>Giulia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Trieste<s n="np"/><s n="top"/><s n="f"/></l><r>Trieste<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Emìlia-Romagna<s n="np"/><s n="top"/><s n="m"/></l><r>Emilia-Romagna<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Bologna<s n="np"/><s n="top"/><s n="f"/></l><r>Bologna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Toscana<s n="np"/><s n="top"/><s n="f"/></l><r>Toscana<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Firentze<s n="np"/><s n="top"/><s n="f"/></l><r>Firenze<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Florèntzia<s n="np"/><s n="top"/><s n="f"/></l><r>Firenze<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Marche<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Marche<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>Ancona<s n="np"/><s n="top"/><s n="f"/></l><r>Ancona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Umbria<s n="np"/><s n="top"/><s n="f"/></l><r>Umbria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Perugia<s n="np"/><s n="top"/><s n="f"/></l><r>Perugia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Làtziu<s n="np"/><s n="top"/><s n="m"/></l><r>Lazio<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Abrutzu<s n="np"/><s n="top"/><s n="m"/></l><r>Abruzzo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>L'Aquila<s n="np"/><s n="top"/><s n="f"/></l><r>L'Aquila<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Molise<s n="np"/><s n="top"/><s n="m"/></l><r>Molise<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Campubassu<s n="np"/><s n="top"/><s n="m"/></l><r>Campobasso<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Campania<s n="np"/><s n="top"/><s n="f"/></l><r>Campania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Basilicata<s n="np"/><s n="top"/><s n="f"/></l><r>Basilicata<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Potenza<s n="np"/><s n="top"/><s n="f"/></l><r>Potenza<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Pùglia<s n="np"/><s n="top"/><s n="f"/></l><r>Puglia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Bari<s n="np"/><s n="top"/><s n="m"/></l><r>Bari<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Calàbria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Catanzaro<s n="np"/><s n="top"/><s n="m"/></l><r>Catanzaro<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Palermu<s n="np"/><s n="top"/><s n="m"/></l><r>Palermo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Casteddu<s n="np"/><s n="top"/><s n="m"/></l><r>Cagliari<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 
 <!--
       <e><p><l>s'abigiare<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>
