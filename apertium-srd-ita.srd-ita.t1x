@@ -6,6 +6,7 @@
     </def-cat>
     <def-cat n="tn">
        <cat-item tags="prn.tn.*"/>
+       <cat-item tags="prn.pos.*"/> <!-- en el cas ^issoro<prn><pos><mf><sp>/il loro<prn><tn><pos><GD><ND>$ agafa prn.pos (com en sard) i no prn.tn (com en italià) -->
     </def-cat>
     <def-cat n="predet">
        <cat-item tags="predet.*"/>
