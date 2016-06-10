@@ -2059,7 +2059,7 @@
       <e><p><l>neghe<s n="n"/><s n="f"/></l><r>colpa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>legu<s n="adj"/></l><r>laico<s n="adj"/></r></p></e>
       <e><p><l>legu<s n="adj"/></l><r>analfabeta<s n="adj"/></r></p></e>
-      <e><p><l>Papa<s n="n"/><s n="f"/></l><r>Papa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>Papa<s n="n"/><s n="m"/></l><r>Papa<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pacu<s n="n"/><s n="m"/></l><r>poco<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fieru<s n="adj"/></l><r>fiero<s n="adj"/></r></p></e>
       <e><p><l>atlante<s n="n"/><s n="m"/></l><r>atlante<s n="n"/><s n="m"/></r></p></e>
@@ -4848,7 +4848,6 @@
       <e><p><l>tzilleri<s n="n"/><s n="m"/></l><r>bar<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>iter<s n="n"/><s n="m"/></l><r>iter<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 
-      <e><p><l>psichiatra<s n="n"/><s n="m"/></l><r>psichiatra<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>realista<s n="n"/></l><r>realista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>natzionalitàriu<s n="n"/></l><r>nazionalista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>autonomista<s n="n"/></l><r>autonomista<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -5304,7 +5303,7 @@
       <e><p><l>pitzu<s n="n"/><s n="m"/></l><r>cima<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>assèliu<s n="n"/><s n="m"/></l><r>calma<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>summa<s n="n"/><s n="f"/></l><r>somma<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>dissiplina<s n="n"/><s n="f"/></l><r>disciplina<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>disciplina<s n="n"/><s n="f"/></l><r>disciplina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nomenamentu<s n="n"/><s n="m"/></l><r>nomina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ispina<s n="n"/><s n="f"/></l><r>spina<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>trintina<s n="n"/><s n="f"/></l><r>trentina<s n="n"/><s n="f"/></r></p></e>
@@ -5313,7 +5312,12 @@
       <e><p><l>tardàntzia<s n="n"/><s n="f"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mora<s n="n"/><s n="f"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>retardu<s n="n"/><s n="m"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>psichiatra<s n="n"/><s n="f"/></l><r>psichiatra<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>psichiatra<s n="n"/></l><r>psichiatra<s n="n"/></r></p></e>
+      <e><p><l>pediatra<s n="n"/></l><r>pediatra<s n="n"/></r></p></e>
+      <e><p><l>psichiatria<s n="n"/><s n="f"/></l><r>psichiatria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>pediatria<s n="n"/><s n="f"/></l><r>pediatria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>psichiàtricu<s n="adj"/></l><r>psichiatrico<s n="adj"/></r></p></e>
+      <e><p><l>pediàtricu<s n="adj"/></l><r>pediatrico<s n="adj"/></r></p></e>
       <e><p><l>destra<s n="n"/><s n="f"/></l><r>destra<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cura<s n="n"/><s n="f"/></l><r>cura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>incuru<s n="n"/><s n="m"/></l><r>cura<s n="n"/><s n="f"/></r></p></e>
