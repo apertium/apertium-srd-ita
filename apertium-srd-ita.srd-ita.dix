@@ -121,11 +121,16 @@
       <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
       <e><p><l>ma<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
       <e><p><l>ne<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
+      <e><p><l>opuru<s n="cnjcoo"/></l><r>oppure<s n="cnjcoo"/></r></p></e>
+      <e><p><l>puru<s n="cnjcoo"/></l><r>nonché<s n="cnjcoo"/></r></p></e>
+      <e><p><l>in<b/>fatis<s n="cnjcoo"/></l><r>difatti<s n="cnjcoo"/></r></p></e>
+      <e><p><l>overas<s n="cnjcoo"/></l><r>ovvero<s n="cnjcoo"/></r></p></e>
            
       <e><p><l>mancari<s n="cnjsub"/></l><r>anche<b/>se<s n="cnjsub"/></r></p></e>
       <e><p><l>chi<s n="cnjsub"/></l><r>che<s n="cnjsub"/></r></p></e>
       <e><p><l>che<s n="cnjsub"/></l><r>che<s n="cnjsub"/></r></p></e>
       <e><p><l>ca<s n="cnjsub"/></l><r>perchè<s n="cnjsub"/></r></p></e>
+      <e><p><l>ue<s n="cnjsub"/></l><r>dove<s n="cnjsub"/></r></p></e>
       <e><p><l>si<s n="cnjadv"/></l><r>se<s n="cnjadv"/></r></p></e>
       <e><p><l>però<s n="cnjadv"/></l><r>però<s n="cnjadv"/></r></p></e>
 
@@ -149,6 +154,7 @@
       <e><p><l>ca<s n="cnjsub"/></l><r>poiché<s n="cnjsub"/></r></p></e>
       <e><p><l>pro<b/>chi<s n="cnjsub"/></l><r>affinché<s n="cnjsub"/></r></p></e>
       <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>perché<s n="cnjsub"/></r></p></e> 
+      <e><p><l>si<b/>puru<s n="cnjsub"/></l><r>seppur<s n="cnjsub"/></r></p></e> 
        
       <!-- SECCIÓN: Preposiciones -->
 
@@ -1757,6 +1763,9 @@
     <e><p><l>presente<s n="n"/><s n="m"/></l><r>presente<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>cale<s n="prn"/></l><r>quale<s n="prn"/></r></p></e>
     <e><p><l>da<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
+    <e><p><l>pre<s n="pr"/></l><r>pre<s n="pr"/></r></p></e>
+    <e><p><l>anti<s n="pr"/></l><r>anti<s n="pr"/></r></p></e>
+    <e><p><l>pro<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
     <e><p><l>pitzinnu<s n="n"/></l><r>ragazzo<s n="adj"/></r></p></e>
     <e><p><l>generale<s n="n"/><s n="m"/></l><r>generale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>propònnere<s n="vblex"/></l><r>proporre<s n="vblex"/></r></p></e>
@@ -1773,6 +1782,9 @@
     <e><p><l>unione<s n="n"/><s n="f"/></l><r>unione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>belle<s n="adv"/></l><r>quasi<s n="adv"/></r></p></e>
     <e><p><l>belle<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
+    <e><p><l>belle<s n="adv"/></l><r>incirca<s n="adv"/></r></p></e>
+    <e><p><l>incras<s n="adv"/></l><r>indomani<s n="adv"/></r></p></e>
+    <e><p><l>in<b/>cue<s n="adv"/></l><r>ivi<s n="adv"/></r></p></e>
     <e><p><l>fàghere<g><b/>parte</g><s n="vblex"/></l><r>fare<g><b/>parte</g><s n="vblex"/></r></p></e>
     <e><p><l>membru<s n="n"/><s n="m"/></l><r>membro<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>connotu<s n="adj"/></l><r>conosciuto<s n="adj"/></r></p></e>    
@@ -9304,8 +9316,10 @@
 
       <e><p><l>primu<s n="adj"/><s n="ord"/></l><r>primo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>segundu<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
-      <e><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
-      <e><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
+      <e r="LR"><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
+      <e r="LR"><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
+
+      <e><p><l>st.<s n="adj"/></l><r>st.<s n="adj"/></r></p></e>
 
       <e><p><l>catolicu<s n="adj"/></l><r>cattolico<s n="adj"/></r></p></e>
       <e><p><l>catolicu<s n="n"/></l><r>cattolico<s n="n"/></r></p></e>
@@ -10701,6 +10715,7 @@
       <e><p><l>gasi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
       <e><p><l>gai<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
       <e><p><l>belle<s n="preadv"/></l><r>quasi<s n="preadv"/></r></p></e>
+      <e><p><l>finas<s n="preadv"/></l><r>fin<s n="preadv"/></r></p></e>
       
       <e><p><l>a<b/>fùrriu<s n="adv"/></l><r>profondament<s n="adv"/></r></p></e>
       <e><p><l>fintzas<b/>a<b/>como<s n="adv"/></l><r>finora<s n="adv"/></r></p></e>
