@@ -35,6 +35,8 @@
     <sdef n="cog"     c=""/>
     <sdef n="al"      c=""/>
     <sdef n="top"     c=""/>
+    <sdef n="hyd"     c=""/>
+    <sdef n="org"     c=""/>
     <sdef n="tn"      c=""/>
     <sdef n="an"      c=""/>
     <sdef n="aa"      c=""/>
@@ -309,6 +311,7 @@
       <e><p><l>ambos<s n="prn"/><s n="tn"/></l><r>entrambi<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>carchi<b/>cosa<s n="prn"/><s n="tn"/><s n="nt"/></l><r>qualcosa<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>tale<s n="prn"/><s n="tn"/><s n="nt"/></l><r>tale<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l>chiesisiat<s n="prn"/><s n="tn"/></l><r>chiunque<s n="prn"/><s n="tn"/></r></p></e>
 
       <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualcuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>ognunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
@@ -353,6 +356,7 @@
       <e><p><l>àteru<s n="det"/><s n="ind"/></l><r>altro<s n="adj"/><s n="ind"/></r></p></e>
       <e><p><l>cada<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ogni<s n="det"/><s n="ind"/></l><r>ogni<s n="det"/><s n="ind"/></r></p></e>
+      <e><p><l>cada<s n="det"/><s n="ind"/></l><r>ciascuno<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>custu<s n="det"/><s n="dem"/></l><r>questo<s n="det"/><s n="dem"/></r></p></e>
       <e r="RL"><p><l>custu<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
 
@@ -1766,6 +1770,7 @@
     <e><p><l>pre<s n="pr"/></l><r>pre<s n="pr"/></r></p></e>
     <e><p><l>anti<s n="pr"/></l><r>anti<s n="pr"/></r></p></e>
     <e><p><l>pro<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
+    <e><p><l>finas<s n="pr"/></l><r>sino<s n="pr"/></r></p></e>
     <e><p><l>pitzinnu<s n="n"/></l><r>ragazzo<s n="adj"/></r></p></e>
     <e><p><l>generale<s n="n"/><s n="m"/></l><r>generale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>propònnere<s n="vblex"/></l><r>proporre<s n="vblex"/></r></p></e>
@@ -13429,6 +13434,10 @@
       <e><p><l>Bidda<b/>Sorris<s n="np"/><s n="top"/><s n="f"/></l><r>Villasor<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Bidda<b/>Spetziosa<s n="np"/><s n="top"/><s n="f"/></l><r>Villaspeciosa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 
+      <e><p><l>Sir<s n="n"/><s n="m"/></l><r>Sir<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Mr<s n="n"/><s n="m"/></l><r>Mr<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Dr<s n="n"/><s n="m"/></l><r>Dr<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>prof<s n="n"/><s n="m"/></l><r>prof<s n="n"/><s n="m"/></r></p></e>
 <!--
       <e><p><l>s'abigiare<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>
       <e><p><l>s'incarare<s n="vblex"/></l><r>affacciare<s n="vblex"/></r></p></e>
