@@ -19,6 +19,7 @@
     <sdef n="det"     c=""/>
     <sdef n="rel"     c=""/>
     <sdef n="acr"     c=""/>
+    <sdef n="abbr"    c=""/>
     <sdef n="def"     c=""/>
     <sdef n="pos"     c=""/>
     <sdef n="ind"     c=""/>
@@ -157,6 +158,7 @@
       <e><p><l>pro<b/>chi<s n="cnjsub"/></l><r>affinché<s n="cnjsub"/></r></p></e>
       <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>perché<s n="cnjsub"/></r></p></e> 
       <e><p><l>si<b/>puru<s n="cnjsub"/></l><r>seppur<s n="cnjsub"/></r></p></e> 
+      <e><p><l>imbetzes<b/>chi<s n="cnjsub"/></l><r>anziché<s n="cnjsub"/></r></p></e> 
        
       <!-- SECCIÓN: Preposiciones -->
 
@@ -1996,9 +1998,9 @@
       <e><p><l>ispesu<s n="adj"/></l><r>speso<s n="adj"/></r></p></e>
       <e><p><l>iscannu<s n="n"/><s n="m"/></l><r>sgabello<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>famosu<s n="adj"/></l><r>famoso<s n="adj"/></r></p></e>
-      <e><p><l>a.C<s n="adv"/></l><r>a.C<s n="adv"/></r></p></e>
-      <e><p><l>d.C<s n="adv"/></l><r>d.C<s n="adv"/></r></p></e>
-      <e><p><l>p.es<s n="adv"/></l><r>p.es<s n="adv"/></r></p></e>
+      <e><p><l>a.C<s n="abbr"/></l><r>a.C<s n="abbr"/></r></p></e>
+      <e><p><l>d.C<s n="abbr"/></l><r>d.C<s n="abbr"/></r></p></e>
+      <e><p><l>p.es<s n="abbr"/></l><r>p.es<s n="abbr"/></r></p></e>
       <e><p><l>tribù<s n="n"/><s n="f"/></l><r>tribù<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ispesa<s n="n"/><s n="f"/></l><r>spesa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fora<s n="adv"/></l><r>fuori<s n="adv"/></r></p></e>
@@ -13435,9 +13437,11 @@
       <e><p><l>Bidda<b/>Spetziosa<s n="np"/><s n="top"/><s n="f"/></l><r>Villaspeciosa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 
       <e><p><l>Sir<s n="n"/><s n="m"/></l><r>Sir<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Lord<s n="n"/><s n="m"/></l><r>Lord<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Mr<s n="n"/><s n="m"/></l><r>Mr<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Dr<s n="n"/><s n="m"/></l><r>Dr<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>prof<s n="n"/><s n="m"/></l><r>prof<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Jr<s n="n"/><s n="m"/></l><r>Jr<s n="n"/><s n="m"/></r></p></e>
 <!--
       <e><p><l>s'abigiare<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>
       <e><p><l>s'incarare<s n="vblex"/></l><r>affacciare<s n="vblex"/></r></p></e>
