@@ -1770,7 +1770,6 @@
     <e><p><l>locu<s n="n"/><s n="m"/></l><r>posto<s n="adj"/><s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sarvadore<s n="n"/></l><r>salvatore<s n="n"/></r></p></e>
     <e><p><l>sarvadore<s n="adj"/></l><r>salvatore<s n="adj"/></r></p></e>
-    <e><p><l>segundu<s n="adj"/></l><r>secondo<s n="adj"/></r></p></e>
     <e><p><l>ufitziale<s n="n"/><s n="m"/></l><r>ufficiale<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>iscritu<s n="adj"/></l><r>iscritto<s n="adj"/></r></p></e>
     <e><p><l>cada<s n="adj"/></l><r>ogni<s n="adj"/></r></p></e>
@@ -9324,6 +9323,111 @@
 
       <e><p><l>su<g><b/>de<b/>duos</g><s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>su<g><b/>de<b/>tres</g><s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bator</g><s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbe</g><s n="adj"/><s n="ord"/></l><r>quinto<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>ses</g><s n="adj"/><s n="ord"/></l><r>sesto<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sete</g><s n="adj"/><s n="ord"/></l><r>settimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>oto</g><s n="adj"/><s n="ord"/></l><r>ottavo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>noe</g><s n="adj"/><s n="ord"/></l><r>nono<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>deghe</g><s n="adj"/><s n="ord"/></l><r>decimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>ùndighi</g><s n="adj"/><s n="ord"/></l><r>undicesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>dòighi</g><s n="adj"/><s n="ord"/></l><r>dodicesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trèighi</g><s n="adj"/><s n="ord"/></l><r>tredicesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>batòrdighi</g><s n="adj"/><s n="ord"/></l><r>quattordicesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bìndighi</g><s n="adj"/><s n="ord"/></l><r>quindicesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sèighi</g><s n="adj"/><s n="ord"/></l><r>sedicesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>deghessete</g><s n="adj"/><s n="ord"/></l><r>diciassettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>degheoto</g><s n="adj"/><s n="ord"/></l><r>diciottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>deghennoe</g><s n="adj"/><s n="ord"/></l><r>diciannovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>binti</g><s n="adj"/><s n="ord"/></l><r>ventesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintunu</g><s n="adj"/><s n="ord"/></l><r>ventunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintiduos</g><s n="adj"/><s n="ord"/></l><r>ventiduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintitrès</g><s n="adj"/><s n="ord"/></l><r>ventitreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintibator</g><s n="adj"/><s n="ord"/></l><r>ventiquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintighimbe</g><s n="adj"/><s n="ord"/></l><r>venticinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintisès</g><s n="adj"/><s n="ord"/></l><r>ventiseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintisete</g><s n="adj"/><s n="ord"/></l><r>ventisettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintoto</g><s n="adj"/><s n="ord"/></l><r>ventottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>bintinoe</g><s n="adj"/><s n="ord"/></l><r>ventinovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trinta</g><s n="adj"/><s n="ord"/></l><r>trentesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintunu</g><s n="adj"/><s n="ord"/></l><r>trentunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintaduos</g><s n="adj"/><s n="ord"/></l><r>trentaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintatrès</g><s n="adj"/><s n="ord"/></l><r>trentatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintabator</g><s n="adj"/><s n="ord"/></l><r>trentaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintaghimbe</g><s n="adj"/><s n="ord"/></l><r>trentacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintasès</g><s n="adj"/><s n="ord"/></l><r>trentaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintasete</g><s n="adj"/><s n="ord"/></l><r>trentasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintoto</g><s n="adj"/><s n="ord"/></l><r>trentottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>trintanoe</g><s n="adj"/><s n="ord"/></l><r>trentanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>baranta</g><s n="adj"/><s n="ord"/></l><r>quarantesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantunu</g><s n="adj"/><s n="ord"/></l><r>quarantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantaduos</g><s n="adj"/><s n="ord"/></l><r>quarantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantatrès</g><s n="adj"/><s n="ord"/></l><r>quarantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantabator</g><s n="adj"/><s n="ord"/></l><r>quarantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantaghimbe</g><s n="adj"/><s n="ord"/></l><r>quarantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantasès</g><s n="adj"/><s n="ord"/></l><r>quarantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantasete</g><s n="adj"/><s n="ord"/></l><r>quarantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantoto</g><s n="adj"/><s n="ord"/></l><r>quarantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>barantanoe</g><s n="adj"/><s n="ord"/></l><r>quarantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbanta</g><s n="adj"/><s n="ord"/></l><r>cinquantesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantunu</g><s n="adj"/><s n="ord"/></l><r>cinquantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantaduos</g><s n="adj"/><s n="ord"/></l><r>cinquantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantatrès</g><s n="adj"/><s n="ord"/></l><r>cinquantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantabator</g><s n="adj"/><s n="ord"/></l><r>cinquantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantaghimbe</g><s n="adj"/><s n="ord"/></l><r>cinquantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantasès</g><s n="adj"/><s n="ord"/></l><r>cinquantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantasete</g><s n="adj"/><s n="ord"/></l><r>cinquantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantoto</g><s n="adj"/><s n="ord"/></l><r>cinquantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbantanoe</g><s n="adj"/><s n="ord"/></l><r>cinquantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessanta</g><s n="adj"/><s n="ord"/></l><r>sessantesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantunu</g><s n="adj"/><s n="ord"/></l><r>sessantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantaduos</g><s n="adj"/><s n="ord"/></l><r>sessantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantatrès</g><s n="adj"/><s n="ord"/></l><r>sessantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantabator</g><s n="adj"/><s n="ord"/></l><r>sessantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantaghimbe</g><s n="adj"/><s n="ord"/></l><r>sessantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantasès</g><s n="adj"/><s n="ord"/></l><r>sessantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantasete</g><s n="adj"/><s n="ord"/></l><r>sessantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantoto</g><s n="adj"/><s n="ord"/></l><r>sessantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>sessantanoe</g><s n="adj"/><s n="ord"/></l><r>sessantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setanta</g><s n="adj"/><s n="ord"/></l><r>settantesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantunu</g><s n="adj"/><s n="ord"/></l><r>settantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantaduos</g><s n="adj"/><s n="ord"/></l><r>settantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantatrès</g><s n="adj"/><s n="ord"/></l><r>settantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantabator</g><s n="adj"/><s n="ord"/></l><r>settantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantaghimbe</g><s n="adj"/><s n="ord"/></l><r>settantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantasès</g><s n="adj"/><s n="ord"/></l><r>settantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantasete</g><s n="adj"/><s n="ord"/></l><r>settantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantoto</g><s n="adj"/><s n="ord"/></l><r>settantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>setantanoe</g><s n="adj"/><s n="ord"/></l><r>settantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otanta</g><s n="adj"/><s n="ord"/></l><r>ottantesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantunu</g><s n="adj"/><s n="ord"/></l><r>ottantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantaduos</g><s n="adj"/><s n="ord"/></l><r>ottantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantatrès</g><s n="adj"/><s n="ord"/></l><r>ottantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantabator</g><s n="adj"/><s n="ord"/></l><r>ottantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantaghimbe</g><s n="adj"/><s n="ord"/></l><r>ottantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantasès</g><s n="adj"/><s n="ord"/></l><r>ottantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantasete</g><s n="adj"/><s n="ord"/></l><r>ottantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantoto</g><s n="adj"/><s n="ord"/></l><r>ottantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>otantanoe</g><s n="adj"/><s n="ord"/></l><r>ottantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>noranta</g><s n="adj"/><s n="ord"/></l><r>novantesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantunu</g><s n="adj"/><s n="ord"/></l><r>novantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantaduos</g><s n="adj"/><s n="ord"/></l><r>novantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantatrès</g><s n="adj"/><s n="ord"/></l><r>novantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantabator</g><s n="adj"/><s n="ord"/></l><r>novantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantaghimbe</g><s n="adj"/><s n="ord"/></l><r>novantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantasès</g><s n="adj"/><s n="ord"/></l><r>novantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantasete</g><s n="adj"/><s n="ord"/></l><r>novantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantoto</g><s n="adj"/><s n="ord"/></l><r>novantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>norantanoe</g><s n="adj"/><s n="ord"/></l><r>novantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chentu</g><s n="adj"/><s n="ord"/></l><r>centesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>dughentos</g><s n="adj"/><s n="ord"/></l><r>duecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>treghentos</g><s n="adj"/><s n="ord"/></l><r>trecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>batorghentos</g><s n="adj"/><s n="ord"/></l><r>quattrocentesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>chimbighentos</g><s n="adj"/><s n="ord"/></l><r>cinquecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>noighentos</g><s n="adj"/><s n="ord"/></l><r>novecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>milli</g><s n="adj"/><s n="ord"/></l><r>millesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>duamìgia</g><s n="adj"/><s n="ord"/></l><r>duemillesimo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>millione</g><s n="adj"/><s n="ord"/></l><r>millionesimo<s n="adj"/><s n="ord"/></r></p></e>
 
       <e><p><l>st.<s n="adj"/></l><r>st.<s n="adj"/></r></p></e>
 
