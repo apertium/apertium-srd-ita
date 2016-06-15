@@ -2156,7 +2156,6 @@
       <e><p><l>meta<s n="n"/><s n="f"/></l><r>meta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>marcadu<s n="adj"/></l><r>marcato<s n="adj"/></r></p></e>
       <e><p><l>denuntziadu<s n="adj"/></l><r>denunciato<s n="adj"/></r></p></e>
-      <e><p><l>cuartu<s n="adj"/></l><r>quarto<s n="adj"/></r></p></e>
       <e><p><l>continuidade<s n="n"/><s n="f"/></l><r>continuità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>bista<s n="n"/><s n="f"/></l><r>vista<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>aumentadu<s n="adj"/></l><r>aumentato<s n="adj"/></r></p></e>
@@ -9322,6 +9321,9 @@
       <e><p><l>segundu<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
       <e r="LR"><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
       <e r="LR"><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
+
+      <e><p><l>su<g><b/>de<b/>duos</g><s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
+      <e><p><l>su<g><b/>de<b/>tres</g><s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
 
       <e><p><l>st.<s n="adj"/></l><r>st.<s n="adj"/></r></p></e>
 

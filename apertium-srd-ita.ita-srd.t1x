@@ -86,6 +86,10 @@
     <def-cat n="enc-p3">
        <cat-item tags="prn.enc.p3.*"/>
     </def-cat>
+    <def-cat n="adj">
+       <cat-item tags="adj.*"/>
+       <cat-item tags="vblex.pp.*"/>
+    </def-cat>
     <def-cat n="adjec">
        <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.ord, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
@@ -2265,7 +2269,7 @@
 
     <rule comment="regla: adj nom">
        <pattern>
-         <pattern-item n="adjec"/>
+         <pattern-item n="adj"/>
          <pattern-item n="nom"/>
        </pattern>
        <action>
@@ -2423,9 +2427,9 @@
     </rule>
 
 
-    <rule comment="regla: adjec">
+    <rule comment="regla: adj">
        <pattern>
-         <pattern-item n="adjec"/>
+         <pattern-item n="adj"/>
        </pattern>
        <action>
          <call-macro n="f_concord1">
