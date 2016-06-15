@@ -313,7 +313,13 @@
       <e><p><l>ambos<s n="prn"/><s n="tn"/></l><r>entrambi<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>carchi<b/>cosa<s n="prn"/><s n="tn"/><s n="nt"/></l><r>qualcosa<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>tale<s n="prn"/><s n="tn"/><s n="nt"/></l><r>tale<s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
-      <e><p><l>chiesisiat<s n="prn"/><s n="tn"/></l><r>chiunque<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>calesi<b/>siat<s n="prn"/><s n="tn"/></l><r>chiunque<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>calesi<b/>chi<b/>siat<s n="prn"/><s n="tn"/></l><r>qualsiasi<s n="prn"/><s n="tn"/></r></p></e>
+
+      <e><p><l>calesi<b/>siat<s n="adj"/></l><r>qualsiasi<s n="adj"/></r></p></e>
+      <e><p><l>calesi<b/>siat<s n="adj"/></l><r>qualsiasia<s n="adj"/></r></p></e>
+      <e><p><l>calesi<b/>cherzat<s n="adj"/></l><r>qualsivoglia<s n="adj"/></r></p></e>
+      <e><p><l>calesi<b/>siat<s n="adj"/></l><r>qualunque<s n="adj"/></r></p></e>
 
       <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualcuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>ognunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
@@ -5230,7 +5236,7 @@
       <e><p><l>presupostu<s n="n"/><s n="m"/></l><r>presupposto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>macu<s n="n"/></l><r>matto<s n="n"/></r></p></e>
       <e><p><l>fortzadu<s n="n"/></l><r>coatto<s n="n"/></r></p></e>
-      <e><p><l>prepostu<s n="n"/></l><r>addetto<s n="n"/></r></p></e> <!-- FIXME -->
+      <e><p><l>prepostu<s n="n"/></l><r>/addetto<s n="n"/></r></p></e>
       <e><p><l>anteditu<s n="n"/></l><r>predetto<s n="n"/></r></p></e>
       <e><p><l>naradu<s n="n"/></l><r>detto<s n="n"/></r></p></e>
       <e><p><l>interdetu<s n="n"/></l><r>interdetto<s n="n"/></r></p></e>
