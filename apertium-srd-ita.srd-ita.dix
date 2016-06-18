@@ -2098,7 +2098,7 @@
       <e><p><l>primàriu<s n="n"/></l><r>primario<s n="n"/></r></p></e>
       <e><p><l>maltesu<s n="adj"/></l><r>maltese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>maltesu<s n="n"/></l><r>maltese<s n="n"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>istrangiu<s n="n"/></l><r>straniero<s n="n"/></r></p></e>
+      <e><p><l>istràngiu<s n="n"/></l><r>straniero<s n="n"/></r></p></e>
       <e><p><l>iscumpartu<s n="n"/><s n="m"/></l><r>scomparto<s n="adj"/><s n="m"/></r></p></e>
       <e><p><l>iscritzione<s n="n"/><s n="f"/></l><r>iscrizione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>gara<s n="n"/><s n="f"/></l><r>gara<s n="n"/><s n="f"/></r></p></e>
@@ -3787,7 +3787,7 @@
       <e><p><l>proveditore<s n="n"/></l><r>provveditore<s n="n"/></r></p></e>
       <e><p><l>impresàriu<s n="n"/></l><r>imprenditore<s n="n"/></r></p></e>
       <e><p><l>canàrgiu<s n="n"/></l><r>battitore<s n="n"/></r></p></e>
-      <e><p><l>massàju<s n="n"/></l><r>agricoltore<s n="n"/></r></p></e>
+      <e><p><l>massaju<s n="n"/></l><r>agricoltore<s n="n"/></r></p></e>
       <e><p><l>amantiosu<s n="n"/></l><r>cultore<s n="n"/></r></p></e>
       <e><p><l>gestore<s n="n"/></l><r>gestore<s n="n"/></r></p></e>
       <e><p><l>cuestore<s n="n"/><s n="m"/></l><r>questore<s n="n"/><s n="m"/></r></p></e>
@@ -3852,7 +3852,7 @@
       <e><p><l>funtziònàriu<s n="n"/><s n="m"/></l><r>funzionario<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>eràriu<s n="n"/><s n="m"/></l><r>erario<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>aversàriu<s n="n"/></l><r>avversario<s n="n"/></r></p></e>
-      <e><p><l>allogaderi<s n="n"/></l><r>locatario<s n="n"/></r></p></e>
+      <e><p><l>allogaderi<s n="n"/></l><r>locatario<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>feudatàriu<s n="n"/></l><r>feudatario<s n="n"/></r></p></e>
       <e><p><l>destinatàriu<s n="n"/></l><r>destinatario<s n="n"/></r></p></e>
       <e><p><l>segretàriu<s n="n"/></l><r>segretario<s n="n"/></r></p></e>
@@ -5244,7 +5244,9 @@
       <e><p><l>deretu<s n="n"/><s n="m"/></l><r>dritto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cotu<s n="n"/></l><r>cotto<s n="n"/></r></p></e>
       <e><p><l>reduidu<s n="n"/></l><r>ridotto<s n="n"/></r></p></e>
-      <e><p><l>politzioto<s n="n"/></l><r>poliziotto<s n="n"/></r></p></e>
+      <e><p><l>politziotu<s n="n"/></l><r>poliziotto<s n="n"/></r></p></e>
+      <e><p><l>georgianu<s n="n"/></l><r>georgiano<s n="n"/></r></p></e>
+      <e><p><l>georgianu<s n="adj"/></l><r>georgiano<s n="adj"/></r></p></e>
       <e><p><l>feu<s n="n"/></l><r>brutto<s n="n"/></r></p></e>
       <e><p><l>lègiu<s n="n"/></l><r>brutto<s n="n"/></r></p></e>
       <e><p><l>tributu<s n="n"/><s n="m"/></l><r>tributo<s n="n"/><s n="m"/></r></p></e>
@@ -5313,8 +5315,8 @@
       <e><p><l>tardàntzia<s n="n"/><s n="f"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>mora<s n="n"/><s n="f"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ritardu<s n="n"/><s n="m"/></l><r>mora<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>psichiatra<s n="n"/></l><r>psichiatra<s n="n"/></r></p></e>
-      <e><p><l>pediatra<s n="n"/></l><r>pediatra<s n="n"/></r></p></e>
+      <e><p><l>psichiatra<s n="n"/></l><r>psichiatra<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>pediatra<s n="n"/></l><r>pediatra<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>psichiatria<s n="n"/><s n="f"/></l><r>psichiatria<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pediatria<s n="n"/><s n="f"/></l><r>pediatria<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>psichiàtricu<s n="adj"/></l><r>psichiatrico<s n="adj"/></r></p></e>
@@ -5794,6 +5796,13 @@
       <e><p><l>Calabria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Califòrnia<s n="np"/><s n="top"/><s n="f"/></l><r>California<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Canada<s n="np"/><s n="top"/><s n="m"/></l><r>Canada<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Azerbaigián<s n="np"/><s n="top"/><s n="m"/></l><r>Azerbaigian<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Afganistán<s n="np"/><s n="top"/><s n="m"/></l><r>Afganistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Turkmenistán<s n="np"/><s n="top"/><s n="m"/></l><r>Turkmenistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Uzbekistán<s n="np"/><s n="top"/><s n="m"/></l><r>Uzbekistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Kazakistán<s n="np"/><s n="top"/><s n="m"/></l><r>Kazakistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Tagikistán<s n="np"/><s n="top"/><s n="m"/></l><r>Tagikistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Kirgizistán<s n="np"/><s n="top"/><s n="m"/></l><r>Kirgizistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Carbònia<s n="np"/><s n="top"/><s n="f"/></l><r>Carbonia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Catalogna<s n="np"/><s n="top"/><s n="f"/></l><r>Catalogna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Colòmbia<s n="np"/><s n="top"/><s n="f"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -10249,6 +10258,20 @@
       <e><p><l>prenu<s n="adj"/></l><r>pieno<s n="adj"/></r></p></e>
       <e><p><l>armenu<s n="adj"/></l><r>armeno<s n="adj"/></r></p></e>
       <e><p><l>armenu<s n="n"/></l><r>armeno<s n="n"/></r></p></e>
+      <e><p><l>azerbaigianu<s n="adj"/></l><r>azerbaigiano<s n="adj"/></r></p></e>
+      <e><p><l>azerbaigianu<s n="n"/></l><r>azerbaigiano<s n="n"/></r></p></e>
+      <e><p><l>kazaku<s n="adj"/></l><r>kazako<s n="adj"/></r></p></e>
+      <e><p><l>kazaku<s n="n"/></l><r>kazako<s n="n"/></r></p></e>
+      <e><p><l>tagiku<s n="adj"/></l><r>tagiko<s n="adj"/></r></p></e>
+      <e><p><l>tagiku<s n="n"/></l><r>tagiko<s n="n"/></r></p></e>
+      <e><p><l>turkmenu<s n="adj"/></l><r>turkmeno<s n="adj"/></r></p></e>
+      <e><p><l>turkmenu<s n="n"/></l><r>turkmeno<s n="n"/></r></p></e>
+      <e><p><l>kirgizu<s n="adj"/></l><r>kirgizo<s n="adj"/></r></p></e>
+      <e><p><l>kirgizu<s n="n"/></l><r>kirgizo<s n="n"/></r></p></e>
+      <e><p><l>uzbeku<s n="adj"/></l><r>uzbeko<s n="adj"/></r></p></e>
+      <e><p><l>uzbeku<s n="n"/></l><r>uzbeko<s n="n"/></r></p></e>
+      <e><p><l>afganu<s n="adj"/></l><r>afgano<s n="adj"/></r></p></e>
+      <e><p><l>afganu<s n="n"/></l><r>afgano<s n="n"/></r></p></e>
       <e><p><l>islovenu<s n="adj"/></l><r>sloveno<s n="adj"/></r></p></e>
       <e><p><l>islovenu<s n="n"/></l><r>sloveno<s n="n"/></r></p></e>
       <e><p><l>islovacu<s n="adj"/></l><r>slovacco<s n="adj"/></r></p></e>
@@ -10280,7 +10303,7 @@
       <e><p><l>lombardu<s n="n"/></l><r>lombardo<s n="n"/></r></p></e>
       <e><p><l>vènetu<s n="n"/></l><r>veneto<s n="n"/></r></p></e>
       <e><p><l>cumpletu<s n="adj"/></l><r>completo<s n="adj"/></r></p></e>
-      <e><p><l>altu<s n="adj"/></l><r>alto<s n="adj"/></r></p></e>
+      <e><p><l>artu<s n="adj"/></l><r>alto<s n="adj"/></r></p></e>
       <e><p><l>giustu<s n="adj"/></l><r>giusto<s n="adj"/></r></p></e>
       <e><p><l>educativu<s n="adj"/></l><r>educativo<s n="adj"/></r></p></e>
       <e><p><l>negativu<s n="adj"/></l><r>negativo<s n="adj"/></r></p></e>
@@ -10919,7 +10942,7 @@
       <e><p><l>cotu<s n="adj"/></l><r>cotto<s n="adj"/></r></p></e>
       <e><p><l>deduidu<s n="adj"/></l><r>dedotto<s n="adj"/></r></p></e>
       <e><p><l>reduidu<s n="adj"/></l><r>ridotto<s n="adj"/></r></p></e>
-      <e><p><l>politzioto<s n="adj"/></l><r>poliziotto<s n="adj"/></r></p></e>
+      <e><p><l>politziotu<s n="adj"/></l><r>poliziotto<s n="adj"/></r></p></e>
       <e><p><l>feu<s n="adj"/></l><r>brutto<s n="adj"/></r></p></e>
       <e><p><l>lègiu<s n="adj"/></l><r>brutto<s n="adj"/></r></p></e>
       <e><p><l>capitadu<s n="adj"/></l><r>accaduto<s n="adj"/></r></p></e>
@@ -11825,7 +11848,7 @@
       <e><p><l>mesurare<s n="vblex"/></l><r>misurare<s n="vblex"/></r></p></e>
       <e><p><l>rispònnere<s n="vblex"/></l><r>rispondere<s n="vblex"/></r></p></e>
       <e><p><l>prènere<s n="vblex"/></l><r>riempire<s n="vblex"/></r></p></e>
-      <e><p><l>paris<s n="n"/></l><r>insieme<s n="n"/></r></p></e>
+      <e><p><l>paris<s n="n"/><s n="m"/></l><r>insieme<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>dèghere<s n="vblex"/></l><r>convenire<s n="vblex"/></r></p></e>
       <e><p><l>premiare<s n="vblex"/></l><r>premiare<s n="vblex"/></r></p></e>
       <e><p><l>benidore<s n="adj"/></l><r>venturo<s n="adj"/></r></p></e>
