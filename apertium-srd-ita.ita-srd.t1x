@@ -2427,166 +2427,6 @@
     </rule>
 
 
-    <rule comment="regla: adj">
-       <pattern>
-         <pattern-item n="adj"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>     
-         <out>
-           <chunk name="j">
-             <tags>
-               <tag><lit-tag v="SA"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-    <rule comment="regla: tn">
-       <pattern>
-         <pattern-item n="tn"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>     
-         <out>
-           <chunk name="tn">
-             <tags>
-               <tag><lit-tag v="SPron"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-
-    <rule comment="regla: predet">
-       <pattern>
-         <pattern-item n="predet"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>     
-         <out>
-           <chunk name="predet">
-             <tags>
-               <tag><lit-tag v="Sdet"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-    <rule comment="regla: det">
-       <pattern>
-         <pattern-item n="det"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>     
-         <out>
-           <chunk name="d">
-             <tags>
-               <tag><lit-tag v="Sdet"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-
-    <rule comment="regla: num">
-       <pattern>
-         <pattern-item n="num"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>     
-         <out>
-           <chunk name="num">
-             <tags>
-               <tag><lit-tag v="SNum"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-
-    <rule comment="regla: verb (tractament multiparaules)">
-       <pattern>
-         <pattern-item n="verb"/>
-       </pattern>
-       <action>
-         <out>
-           <chunk name="v">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-
-    <rule comment="regla: adverb (tractament multiparaules)">
-       <pattern>
-         <pattern-item n="adv"/>
-       </pattern>
-       <action>
-         <out>
-           <chunk name="adv">
-             <tags>
-               <tag><lit-tag v="adv"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-
     <!-- ================================================================== -->
 
     <rule comment="regla: ifi">
@@ -2942,6 +2782,169 @@
          </out>
        </action>
     </rule>
+
+
+<!-- tractament multiparaules -->
+
+    <rule comment="regla: adj">
+       <pattern>
+         <pattern-item n="adj"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="j">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: tn">
+       <pattern>
+         <pattern-item n="tn"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: predet">
+       <pattern>
+         <pattern-item n="predet"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="predet">
+             <tags>
+               <tag><lit-tag v="Sdet"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: det">
+       <pattern>
+         <pattern-item n="det"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="d">
+             <tags>
+               <tag><lit-tag v="Sdet"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: num">
+       <pattern>
+         <pattern-item n="num"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="num">
+             <tags>
+               <tag><lit-tag v="SNum"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: verb (tractament multiparaules)">
+       <pattern>
+         <pattern-item n="verb"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adverb (tractament multiparaules)">
+       <pattern>
+         <pattern-item n="adv"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="adv">
+             <tags>
+               <tag><lit-tag v="adv"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
 
 </section-rules>
 
