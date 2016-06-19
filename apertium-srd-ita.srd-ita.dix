@@ -383,7 +383,6 @@
  
       <!-- SECCIÓN: Numeros -->
 
-
       <e><p><l>unu<s n="num"/></l><r>uno<s n="num"/></r></p></e>
       <e><p><l>duos<s n="num"/></l><r>due<s n="num"/></r></p><par n="GD_mf"/></e>
       <e><p><l>tres<s n="num"/></l><r>tre<s n="num"/></r></p></e>
@@ -2248,7 +2247,7 @@
       <e><p><l>cumpetitzione<s n="n"/><s n="f"/></l><r>competizione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cumone<s n="adv"/></l><r>in<b/>comune<s n="adv"/></r></p></e>
       <e><p><l>collocadu<s n="adj"/></l><r>collocato<s n="adj"/></r></p></e>
-      <e><p><l>collega<s n="n"/><s n="mf"/></l><r>collega<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>collega<s n="n"/></l><r>collega<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>baronia<s n="n"/><s n="f"/></l><r>baronia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>atribuidu<s n="adj"/></l><r>attributo<s n="adj"/></r></p></e>
       <e><p><l>antropologia<s n="n"/><s n="f"/></l><r>antropologia<s n="n"/><s n="f"/></r></p></e>
@@ -6125,6 +6124,7 @@
       <e><p><l>Sàdili<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sadali<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>Sàgama<s n="np"/><s n="top"/><s n="f"/></l><r>Sàgama<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>S'Alighera<s n="np"/><s n="top"/><s n="f"/></l><r>Alghero<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>Alighera<s n="np"/><s n="top"/><s n="f"/></l><r>Alghero<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Samassi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Samassi<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>Samatzai<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Samatzai<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>Samugheu<s n="np"/><s n="top"/><s n="m"/></l><r>Samugheo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -6232,8 +6232,6 @@
       <e><p><l>Viddalba<s n="np"/><s n="top"/><s n="f"/></l><r>Viddalba<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Vitzi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bitti<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>Xrexei<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Gergei<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
-
-      <e><p><l>Alighèra<s n="np"/><s n="top"/><s n="f"/></l><r>Alghero<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 
       <e><p><l>Luis<s n="np"/><s n="ant"/><s n="m"/></l><r>Luis<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Pamplona<s n="np"/><s n="top"/><s n="f"/></l><r>Pamplona<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -13612,7 +13610,7 @@
       <e><p><l>Ernst<s n="np"/><s n="ant"/><s n="m"/></l><r>Ernst<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Erzegovina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Erzegovina<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Este<s n="np"/><s n="cog"/></l><r>Este<s n="np"/><s n="cog"/></r></p></e>
-      <e><p><l>FAO<s n="n"/><s n="acr"/><s n="f"/></l><r>FAO<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
+      <e><p><l>Fao<s n="n"/><s n="acr"/><s n="f"/></l><r>Fao<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
       <e><p><l>FBI<s n="n"/><s n="acr"/><s n="f"/></l><r>FBI<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
       <e><p><l>FC<s n="n"/><s n="acr"/><s n="m"/></l><r>FC<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
       <e><p><l>Fiat<s n="np"/><s n="org"/><s n="f"/></l><r>Fiat<s n="np"/><s n="org"/><s n="f"/></r></p></e>
