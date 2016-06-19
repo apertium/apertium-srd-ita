@@ -123,11 +123,13 @@
       <e><p><l>e<s n="cnjcoo"/></l><r>ed<s n="cnjcoo"/></r></p></e>
       <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
       <e><p><l>ma<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
-      <e><p><l>ne<s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
+      <e><p><l>però<s n="cnjcoo"/></l><r>però<s n="cnjcoo"/></r></p></e>
       <e><p><l>opuru<s n="cnjcoo"/></l><r>oppure<s n="cnjcoo"/></r></p></e>
       <e><p><l>puru<s n="cnjcoo"/></l><r>nonché<s n="cnjcoo"/></r></p></e>
       <e><p><l>in<b/>fatis<s n="cnjcoo"/></l><r>difatti<s n="cnjcoo"/></r></p></e>
       <e><p><l>overas<s n="cnjcoo"/></l><r>ovvero<s n="cnjcoo"/></r></p></e>
+      <e><p><l>mentras<s n="cnjadv"/></l><r>mentre<s n="cnjcoo"/></r></p></e>
+      <e><p><l>ne<s n="cnjcoo"/></l><r>né<s n="cnjcoo"/></r></p></e>
            
       <e><p><l>mancari<s n="cnjsub"/></l><r>anche<b/>se<s n="cnjsub"/></r></p></e>
       <e><p><l>chi<s n="cnjsub"/></l><r>che<s n="cnjsub"/></r></p></e>
@@ -135,7 +137,11 @@
       <e><p><l>ca<s n="cnjsub"/></l><r>perchè<s n="cnjsub"/></r></p></e>
       <e><p><l>ue<s n="cnjsub"/></l><r>dove<s n="cnjsub"/></r></p></e>
       <e><p><l>si<s n="cnjadv"/></l><r>se<s n="cnjadv"/></r></p></e>
-      <e><p><l>però<s n="cnjadv"/></l><r>però<s n="cnjadv"/></r></p></e>
+      <e><p><l>ca<s n="cnjsub"/></l><r>poiché<s n="cnjsub"/></r></p></e>
+      <e><p><l>pro<b/>chi<s n="cnjsub"/></l><r>affinché<s n="cnjsub"/></r></p></e>
+      <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>perché<s n="cnjsub"/></r></p></e> 
+      <e><p><l>si<b/>puru<s n="cnjsub"/></l><r>seppur<s n="cnjsub"/></r></p></e> 
+      <e><p><l>imbetzes<b/>chi<s n="cnjsub"/></l><r>anziché<s n="cnjsub"/></r></p></e> 
 
       <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>per<b/>cosa<s n="cnjsub"/></r></p></e>
       <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>perchè<s n="cnjsub"/></r></p></e>
@@ -152,13 +158,6 @@
 
       <e><p><l>sende<b/>chi<s n="cnjadv"/></l><r>dato<b/>che<s n="cnjadv"/></r></p></e>
       
-      <e><p><l>mentras<s n="cnjadv"/></l><r>mentre<s n="cnjcoo"/></r></p></e>
-      <e><p><l>ne<s n="cnjcoo"/></l><r>né<s n="cnjcoo"/></r></p></e>
-      <e><p><l>ca<s n="cnjsub"/></l><r>poiché<s n="cnjsub"/></r></p></e>
-      <e><p><l>pro<b/>chi<s n="cnjsub"/></l><r>affinché<s n="cnjsub"/></r></p></e>
-      <e><p><l>pro<b/>ite<s n="cnjsub"/></l><r>perché<s n="cnjsub"/></r></p></e> 
-      <e><p><l>si<b/>puru<s n="cnjsub"/></l><r>seppur<s n="cnjsub"/></r></p></e> 
-      <e><p><l>imbetzes<b/>chi<s n="cnjsub"/></l><r>anziché<s n="cnjsub"/></r></p></e> 
        
       <!-- SECCIÓN: Preposiciones -->
 
@@ -354,7 +353,7 @@
       <e><p><l>unu<s n="det"/><s n="ind"/></l><r>un<s n="det"/><s n="ind"/></r></p></e>
       <e r="LR"><p><l>unu<s n="det"/><s n="ind"/><s n="mf"/></l><r>un<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
       <e r="RL"><p><l>carchi<s n="det"/><s n="ind"/></l><r>alcun<s n="det"/><s n="ind"/></r></p><par n="mf_GD|sp_ND"/></e>
-      <e r="LR"><p><l>carchi<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>qualche<s n="det"/><s n="ind"/><s n="mf"/><s n="GD"/></r></p></e>
+      <e><p><l>carchi<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>qualche<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 
       <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
       <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
@@ -5024,7 +5023,6 @@
       <e><p><l>sanitàriu<s n="n"/></l><r>sanitario<s n="n"/></r></p></e>
       <e><p><l>unitàriu<s n="n"/></l><r>unitario<s n="n"/></r></p></e>
       <e><p><l>comunitàriu<s n="n"/></l><r>comunitario<s n="n"/></r></p></e>
-      <e><p><l>volontàriu<s n="n"/></l><r>volontario<s n="n"/></r></p></e>
       <e><p><l>voluntàriu<s n="n"/></l><r>volontario<s n="n"/></r></p></e>
       <e><p><l>forfetàriu<s n="n"/></l><r>forfettario<s n="n"/></r></p></e>
       <e><p><l>sèriu<s n="n"/></l><r>serio<s n="n"/></r></p></e>
@@ -5051,7 +5049,6 @@
       <e><p><l>recramu<s n="n"/><s n="m"/></l><r>ricamo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nae<s n="n"/><s n="m"/></l><r>ramo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pseudònimu<s n="n"/><s n="m"/></l><r>pseudonimo<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>penùrtimu<s n="n"/></l><r>penultimo<s n="n"/></r></p></e>
       <e><p><l>autònomu<s n="n"/></l><r>autonomo<s n="n"/></r></p></e>
       <e><p><l>firmu<s n="n"/></l><r>fermo<s n="n"/></r></p></e>
       <e><p><l>artisanu<s n="n"/></l><r>artigiano<s n="n"/></r></p></e>
@@ -9836,7 +9833,6 @@
       <e><p><l>istòricu<s n="adj"/></l><r>storico<s n="adj"/></r></p></e>
       <e><p><l>tedescu<s n="adj"/></l><r>tedesco<s n="adj"/></r></p></e>
       <e><p><l>tedescu<s n="n"/></l><r>tedesco<s n="n"/></r></p></e>
-      <e><p><l>bolontàriu<s n="adj"/></l><r>volontario<s n="adj"/></r></p></e>
       <e><p><l>mèdiu<s n="adj"/></l><r>medio<s n="adj"/></r></p></e>
       <e><p><l>naturale<s n="adj"/></l><r>naturale<s n="adj"/></r></p></e>
       <e><p><l>particulare<s n="adj"/></l><r>particolare<s n="adj"/></r></p></e>
@@ -9997,6 +9993,9 @@
       <e><p><l>màssimu<s n="adj"/></l><r>massimo<s n="adj"/></r></p></e>
       <e><p><l>imbeniente<s n="adj"/></l><r>prossimo<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>ùrtimu<s n="adj"/></l><r>ultimo<s n="adj"/></r></p></e>
+      <e><p><l>penùrtimu<s n="adj"/></l><r>penultimo<s n="adj"/></r></p></e>
+      <e><p><l>ùrtimu<s n="n"/></l><r>ultimo<s n="n"/></r></p></e>
+      <e><p><l>penùrtimu<s n="n"/></l><r>penultimo<s n="n"/></r></p></e>
       <e><p><l>illegìtimu<s n="adj"/></l><r>illegittimo<s n="adj"/></r></p></e>
       <e><p><l>republicanu<s n="adj"/></l><r>repubblicano<s n="adj"/></r></p></e>
       <e><p><l>romanu<s n="adj"/></l><r>romano<s n="adj"/></r></p></e>
@@ -10695,8 +10694,9 @@
       <e><p><l>credibile<s n="adj"/></l><r>credìbile<s n="adj"/></r></p><par n="GD_mf|ND_sp"/></e>
       <e><p><l>unitàriu<s n="adj"/></l><r>unitario<s n="adj"/></r></p></e>
       <e><p><l>comunitàriu<s n="adj"/></l><r>comunitario<s n="adj"/></r></p></e>
-      <e><p><l>volontàriu<s n="adj"/></l><r>volontario<s n="adj"/></r></p></e>
       <e><p><l>voluntàriu<s n="adj"/></l><r>volontario<s n="adj"/></r></p></e>
+      <e><p><l>involuntàriu<s n="adj"/></l><r>involontario<s n="adj"/></r></p></e>
+      <e><p><l>voluntariosu<s n="adj"/></l><r>volentoroso<s n="adj"/></r></p></e>
       <e><p><l>forfetàriu<s n="adj"/></l><r>forfettario<s n="adj"/></r></p></e>
       <e><p><l>sèriu<s n="adj"/></l><r>serio<s n="adj"/></r></p></e>
       <e><p><l>interrogu<s n="adj"/></l><r>interrogatorio<s n="adj"/></r></p></e>
@@ -10711,7 +10711,6 @@
       <e><p><l>ispanniolu<s n="adj"/></l><r>spagnolo<s n="adj"/></r></p></e>
       <e><p><l>macu<s n="adj"/></l><r>scemo<s n="adj"/></r></p></e>
       <e><p><l>pseudònimu<s n="adj"/></l><r>pseudonimo<s n="adj"/></r></p></e>
-      <e><p><l>penùrtimu<s n="adj"/></l><r>penultimo<s n="adj"/></r></p></e>
       <e><p><l>legìtimu<s n="adj"/></l><r>legittimo<s n="adj"/></r></p></e>
       <e><p><l>autònomu<s n="adj"/></l><r>autonomo<s n="adj"/></r></p></e>
       <e><p><l>firmu<s n="adj"/></l><r>fermo<s n="adj"/></r></p></e>
