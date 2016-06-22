@@ -91,11 +91,15 @@
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="adjec">
-       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.ord, adj.ind etc. -->
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
        <cat-item tags="adj.pos.*"/>
+       <cat-item tags="adj.ord.*"/>
        <cat-item tags="vblex.pp.*"/>
+    </def-cat>
+    <def-cat n="adjsup">
+       <cat-item tags="adj.sup.*"/>
     </def-cat>
     <def-cat n="adv">
        <cat-item tags="adv"/>
@@ -123,6 +127,9 @@
      <attr-item tags="p1"/>
      <attr-item tags="p2"/>
      <attr-item tags="p3"/>
+  </def-attr>
+  <def-attr n="a_adj_sup">
+     <attr-item tags="adj.sup"/>
   </def-attr>
   <def-attr n="a_prn">
      <attr-item tags="prn.pro"/>
@@ -2267,9 +2274,9 @@
     </rule>
 
 
-    <rule comment="regla: adj nom">
+    <rule comment="regla: adjec nom">
        <pattern>
-         <pattern-item n="adj"/>
+         <pattern-item n="adjec"/>
          <pattern-item n="nom"/>
        </pattern>
        <action>
@@ -2286,6 +2293,42 @@
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjsup nom">
+       <pattern>
+         <pattern-item n="adjsup"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>     
+         <out>
+           <chunk name="adjsup_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b/>
+           <lu>
+               <lit v="a beru"/><lit-tag v="adv"/>
            </lu>
            <b pos="1"/>
            <lu>
@@ -2786,16 +2829,16 @@
 
 <!-- tractament multiparaules -->
 
-    <rule comment="regla: adj">
+    <rule comment="regla: adjec">
        <pattern>
-         <pattern-item n="adj"/>
+         <pattern-item n="adjec"/>
        </pattern>
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
          </call-macro>     
          <out>
-           <chunk name="j">
+           <chunk name="adj">
              <tags>
                <tag><lit-tag v="SA"/></tag>
              </tags>
@@ -2808,6 +2851,38 @@
          </out>
        </action>
     </rule>
+
+    <rule comment="regla: adjsup">
+       <pattern>
+         <pattern-item n="adjsup"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+	  <let>
+	    <clip pos="1" side="tl" part="a_adj_sup"/>
+	    <lit-tag v="adj"/>
+	  </let>
+         <out>
+           <chunk name="adjsup">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b/>
+           <lu>
+               <lit v="a beru"/><lit-tag v="adv"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
 
     <rule comment="regla: tn">
        <pattern>
