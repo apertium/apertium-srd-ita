@@ -2315,7 +2315,11 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
+	  <let>
+	    <clip pos="1" side="tl" part="a_adj_sup"/>
+	    <lit-tag v="adj"/>
+	  </let>
          <out>
            <chunk name="adjsup_n">
              <tags>
