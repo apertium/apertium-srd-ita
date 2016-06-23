@@ -23,6 +23,7 @@
     <sdef n="def"     c=""/>
     <sdef n="pos"     c=""/>
     <sdef n="ind"     c=""/>
+    <sdef n="sup"     c=""/>
     <sdef n="np"      c=""/>
     <sdef n="ant"     c=""/>
     <sdef n="num"     c=""/>
@@ -111,6 +112,11 @@
       <e r="LR"><p><l><s n="mf"/><s n="sp"/></l><r><s n="mf"/><s n="ND"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="mf"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l><s n="mf"/><s n="sp"/></l><r><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="m-m_f-f" c="para competir con otras posibilidades de traducción en que se especifíca el género (porque es distinto)">
+      <e><p><l><s n="m"/></l><r><s n="m"/></r></p></e>
+      <e><p><l><s n="f"/></l><r><s n="f"/></r></p></e>
     </pardef>
 
 
@@ -1897,7 +1903,19 @@
       <e><p><l>gadduresu<s n="n"/></l><r>gallurese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>costeri<s n="adj"/></l><r>costiero<s n="adj"/></r></p></e>
       <e><p><l>riforma<s n="n"/><s n="f"/></l><r>riforma<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>grande<s n="adj"/><s n="mf"/></l><r>grande<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>grande<s n="adj"/><s n="mf"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>grandu<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>mannu<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e r="RL"><p><l>grande<s n="adj"/></l><r>grande<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>grandu<s n="adj"/></l><r>grande<s n="adj"/><s n="sup"/></r></p><par n="m-m_f-f"/></e>
+      <e r="RL"><p><l>mannu<s n="adj"/></l><r>grande<s n="adj"/><s n="sup"/></r></p><par n="m-m_f-f"/></e>
+<!--
+      <e><p><l>grandu<s n="adj"/><s n="GD"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>mannu<s n="adj"/><s n="GD"/></l><r>grande<s n="adj"/><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="f"/></l><r><s n="mf"/></r></p></e>
+      <e r="LR"><p><l><s n="m"/></l><r><s n="mf"/></r></p></e>
+      <e r="RL"><p><l><s n="GD"/></l><r><s n="mf"/></r></p></e>
+-->
       <e><p><l>ghia<s n="n"/><s n="f"/></l><r>guida<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tabarchinu<s n="adj"/></l><r>tabarchino<s n="adj"/></r></p></e>
       <e><p><l>sanna<s n="n"/><s n="f"/></l><r>zanna<s n="n"/><s n="f"/></r></p></e>
@@ -9744,7 +9762,6 @@
       <e><p><l>felitze<s n="adj"/></l><r>felice<s n="adj"/></r></p></e>
       <e><p><l>pellegrinu<s n="adj"/></l><r>pellegrino<s n="adj"/></r></p></e>
       <e><p><l>fritu<s n="adj"/></l><r>freddo<s n="adj"/></r></p></e>
-      <e><p><l>mannu<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ispetzialista<s n="adj"/></l><r>specialista<s  n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>escursionista<s n="adj"/></l><r>escursionista<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>ciclista<s n="adj"/></l><r>ciclista<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -9865,7 +9882,6 @@
       <e><p><l>sinistru<s n="adj"/></l><r>sinistro<s n="adj"/></r></p></e>
       <e><p><l>distintu<s n="adj"/></l><r>distinto<s n="adj"/></r></p></e>
       <e><p><l>artisticu<s n="adj"/></l><r>artistico<s n="adj"/></r></p></e>
-      <e><p><l>grandu<s n="adj"/></l><r>grande<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ebreu<s n="adj"/></l><r>ebreo<s n="adj"/></r></p></e>
       <e><p><l>ebreu<s n="n"/></l><r>ebreo<s n="n"/></r></p></e>
       <e><p><l>graficu<s n="adj"/></l><r>grafico<s n="adj"/></r></p></e>
@@ -10313,7 +10329,6 @@
       <e><p><l>galitzianu<s n="adj"/></l><r>galiziano<s n="adj"/></r></p></e>
       <e><p><l>galitzianu<s n="n"/></l><r>galiziano<s n="n"/></r></p></e>
 
-      <e><p><l>grande<s n="adj"/></l><r>grande<s n="adj"/></r></p></e>
       <e><p><l>musicale<s n="adj"/></l><r>musicale<s n="adj"/></r></p></e>
       <e><p><l>formale<s n="adj"/></l><r>formale<s n="adj"/></r></p></e>
       <e><p><l>finale<s n="adj"/></l><r>finale<s n="adj"/></r></p></e>
