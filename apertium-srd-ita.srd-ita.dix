@@ -2097,7 +2097,7 @@
       <e><p><l>condaghe<s n="n"/><s n="m"/></l><r>registro<g><b/>d’amministrazione</g><s n="n"/><s n="m"/></r></p></e>
       <e><p><l>barigare<s n="vblex"/></l><r>varcare<s n="vblex"/></r></p></e>
       <e><p><l>barigare<s n="vblex"/></l><r>trascorrere<s n="vblex"/></r></p></e>
-      <e><p><l>anteriore<s n="adj"/></l><r>anteriore<s n="adj"/></r></p></e>
+      <e><p><l>anteriore<s n="adj"/></l><r>anteriore<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>timoria<s n="n"/><s n="f"/></l><r>paura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>promotore<s n="n"/></l><r>promotore<s n="n"/></r></p></e>
       <e><p><l>primàriu<s n="n"/></l><r>primario<s n="n"/></r></p></e>
@@ -4931,7 +4931,8 @@
       <e><p><l>rechedidore<s n="n"/></l><r>richiedente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>richiedente<s n="n"/><s n="mf"/></l><r>richiedente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>subraintendente<s n="n"/><s n="mf"/></l><r>sovrintendente<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>intelligente<s n="n"/><s n="mf"/></l><r>intelligente<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>intelligente<s n="n"/></l><r>intelligente<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>intelligente<s n="adj"/></l><r>intelligente<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ghiadore<s n="n"/></l><r>dirigente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ischitetu<s n="n"/></l><r>esigente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>incumbeniente<s n="n"/><s n="mf"/></l><r>inconveniente<s n="n"/><s n="mf"/></r></p></e>
@@ -5396,7 +5397,6 @@
       <e><p><l>ingraviamentu<s n="n"/><s n="m"/></l><r>aggravante<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>innotzente<s n="n"/><s n="f"/></l><r>innocente<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>subraintendente<s n="n"/><s n="f"/></l><r>sovrintendente<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>intelligente<s n="n"/><s n="f"/></l><r>intelligente<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ghiadore<s n="n"/><s n="f"/></l><r>dirigente<s n="n"/><s n="f"/></r></p><par n="mf_GD"/></e>
       <e><p><l>aderente<s n="n"/><s n="f"/></l><r>aderente<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cuncurrente<s n="n"/><s n="f"/></l><r>concorrente<s n="n"/><s n="f"/></r></p></e>
@@ -10179,8 +10179,8 @@
       <e><p><l>elementare<s n="adj"/></l><r>elementare<s n="adj"/></r></p></e>
       <e><p><l>famadu<s n="adj"/></l><r>celebre<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>majore<s n="adj"/></l><r>maggiore<s n="adj"/></r></p></e>
-      <e><p><l>inferiore<s n="adj"/></l><r>inferiore<s n="adj"/></r></p></e>
-      <e><p><l>superiore<s n="adj"/></l><r>superiore<s n="adj"/></r></p></e>
+      <e><p><l>inferiore<s n="adj"/></l><r>inferiore<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>superiore<s n="adj"/></l><r>superiore<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ulteriore<s n="adj"/></l><r>ulteriore<s n="adj"/></r></p></e>
       <e><p><l>abundante<s n="adj"/></l><r>abbondante<s n="adj"/></r></p></e>
       <e><p><l>rilevante<s n="adj"/></l><r>rilevante<s n="adj"/></r></p></e>
@@ -11055,7 +11055,6 @@
       <e><p><l>lughente<s n="adj"/></l><r>lucente<s n="adj"/></r></p></e>
       <e><p><l>richiedente<s n="adj"/></l><r>richiedente<s n="adj"/></r></p></e>
       <e><p><l>ladinu<s n="adj"/></l><r>evidente<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>intelligente<s n="adj"/></l><r>intelligente<s n="adj"/></r></p></e>
       <e><p><l>ischitetu<s n="adj"/></l><r>esigente<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>vigente<s n="adj"/></l><r>vigente<s n="adj"/></r></p></e>
       <e><p><l>urgente<s n="adj"/></l><r>urgente<s n="adj"/></r></p></e>
@@ -11696,7 +11695,6 @@
       <e><p><l>normalizare<s n="vblex"/></l><r>normalizzare<s n="vblex"/></r></p></e>
       <e><p><l>cuntierrare<s n="vblex"/></l><r>litigare<s n="vblex"/></r></p></e>
       <e><p><l>tànghere<s n="vblex"/></l><r>tangere<s n="vblex"/></r></p></e>
-      <e><p><l>timere<s n="vblex"/></l><r>temere<s n="vblex"/></r></p></e>
       <e><p><l>cantzonare<s n="vblex"/></l><r>canzonare<s n="vblex"/></r></p></e>
       <e><p><l>casare<s n="vblex"/></l><r>fare<g><b/>il<b/>formaggio</g><s n="vblex"/></r></p></e>
       <e><p><l>isulare<s n="vblex"/></l><r>isolare<s n="vblex"/></r></p></e>
@@ -16484,7 +16482,7 @@
       <e r="RL"><p><l>annuale<s n="adj"/></l><r>annuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>annuale<s n="adj"/></l><r>annuo<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>antale<s n="adj"/></l><r>antistante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <e r="RL"><p><l>anteriore<s n="adj"/></l><r>anteriore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>anteriore<s n="adj"/></l><r>anteriore<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>antetzedente<s n="adj"/></l><r>antecedente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>apaltàbile<s n="adj"/></l><r>appaltabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>aplicàbile<s n="adj"/></l><r>applicabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -16692,7 +16690,8 @@
       <e r="RL"><p><l>industriale<s n="adj"/></l><r>industriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>ineficatze<s n="adj"/></l><r>inefficace<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>infantile<s n="adj"/></l><r>infantile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <e r="RL"><p><l>inferiore<s n="adj"/></l><r>inferiore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>inferiore<s n="adj"/></l><r>inferiore<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>superiore<s n="adj"/></l><r>superiore<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>informale<s n="adj"/></l><r>informale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>inguinale<s n="adj"/></l><r>inguinale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>initziale<s n="adj"/></l><r>iniziale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -16703,7 +16702,7 @@
       <e r="RL"><p><l>integrale<s n="adj"/></l><r>integrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>integrante<s n="adj"/></l><r>integrante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>intelletuale<s n="adj"/></l><r>intellettuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <e r="RL"><p><l>intelligente<s n="adj"/></l><r>intelligente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>intelligente<s n="adj"/></l><r>intelligente<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>interessante<s n="adj"/></l><r>interessante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>internatzionale<s n="adj"/></l><r>internazionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>intrante<s n="adj"/></l><r>entrante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
