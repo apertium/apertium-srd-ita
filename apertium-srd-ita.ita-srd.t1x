@@ -2346,6 +2346,78 @@
     </rule>
 
 
+    <rule comment="regla: nom adjec">
+       <pattern>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>     
+         <out>
+           <chunk name="n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: nom adjsup">
+       <pattern>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjsup"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+	  <let>
+	    <clip pos="1" side="tl" part="a_adj_sup"/>
+	    <lit-tag v="adj"/>
+	  </let>
+         <out>
+           <chunk name="adjsup_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b/>
+           <lu>
+               <lit v="a beru"/><lit-tag v="adv"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <rule comment="regla: predet det nom">
        <pattern>
          <pattern-item n="predet"/>

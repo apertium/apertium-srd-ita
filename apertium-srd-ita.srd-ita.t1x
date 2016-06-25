@@ -101,6 +101,11 @@
     <def-cat n="adv">
        <cat-item tags="adv"/>
     </def-cat>
+    <def-cat n="a_beru">
+       <cat-item lemma="a beru" tags="adv"/>
+       <cat-item lemma="meda" tags="adv"/>
+       <cat-item lemma="meda" tags="adj.*"/> <!-- per recuperar errors en el tagger -->
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -136,9 +141,11 @@
      <attr-item tags="vbser"/>
      <attr-item tags="vbhaver"/>
   </def-attr>
-
-
+  <def-attr n="a_adj">
+     <attr-item tags="adj"/>
+  </def-attr>
 </section-def-attrs>
+
 <section-def-vars>
 <def-var n="genero"/>
 <def-var n="numero"/>
@@ -2121,6 +2128,82 @@
       </choose>      
     </def-macro>      
 
+    <def-macro n="f_evitar_mf1" npar="1"> <!-- evitar generar mf pqè sabem que la paraula és m o f -->
+      <choose> <!-- cal evitar el gènere mf: 1r copiem el gènere de sl -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="mf"/>
+	    </equal>
+	  </test>
+	  <let>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="sl" part="gen"/>
+	  </let>
+	</when>
+      </choose>
+      <choose> <!-- cal evitar el gènere mf: si no funciona, posem "m" -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="mf"/>
+	    </equal>
+	  </test>
+	  <let>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>      
+
+    <def-macro n="f_evitar_mf2" npar="2"> <!-- evitar generar mf pqè sabem que la paraula és m o f -->
+      <choose> <!-- cal evitar el gènere mf: 1r copiem el gènere de pos=2 -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="mf"/>
+	    </equal>
+	  </test>
+	  <let>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="2" side="tl" part="gen"/>
+	  </let>
+	</when>
+      </choose>
+      <choose> <!-- cal evitar el gènere mf: 2n copiem el gènere de sl -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="mf"/>
+	    </equal>
+	  </test>
+	  <let>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <clip pos="1" side="sl" part="gen"/>
+	  </let>
+	</when>
+      </choose>
+      <choose> <!-- cal evitar el gènere mf: si no funciona, posem "m" -->
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="mf"/>
+	    </equal>
+	  </test>
+	  <let>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>      
+
   </section-def-macros>
 
 <section-rules>
@@ -2377,6 +2460,111 @@
          </call-macro>     
          <out>
            <chunk name="adj_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: nom adjec">
+       <pattern>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>     
+         <out>
+           <chunk name="n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjec a_beru">
+       <pattern>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_evitar_mf1">
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+         <out>
+           <chunk name="adj">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: nom adjec a_beru">
+       <pattern>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+         <out>
+           <chunk name="n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
              </tags>
