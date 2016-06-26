@@ -106,6 +106,9 @@
        <cat-item lemma="meda" tags="adv"/>
        <cat-item lemma="meda" tags="adj.*"/> <!-- per recuperar errors en el tagger -->
     </def-cat>
+    <def-cat n="rel">
+       <cat-item tags="rel.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -2885,6 +2888,30 @@
                </lu>
              </mlu>
            </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: relatiu (tractament multiparaules)">
+       <pattern>
+         <pattern-item n="rel"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="rel">
+             <tags>
+               <tag><lit-tag v="rel"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
          </out>
        </action>
     </rule>

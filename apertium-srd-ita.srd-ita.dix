@@ -265,6 +265,7 @@
       <e r="RL"><p><l>bi<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 -->
       <e r="LR"><p><l>bi<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mfSG"/><s n="ND"/></r></p></e>
+
 <!--
       <e r="RL"><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
@@ -288,6 +289,7 @@
       <e><p><l>cale<s n="rel"/><s n="an"/></l><r>cui<s n="rel"/><s n="an"/></r></p></e>
       <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/></r></p></e>
       <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
+      <e r="LR" c="!LSC"><p><l>su<b/>cale<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/><s n="GD"/><s n="pl"/></r></p></e>
       <e r="LR" c="!LSC"><p><l>su<b/>cale<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>il<b/>quale<s n="rel"/><s n="an"/><s n="GD"/><s n="pl"/></r></p></e>
       <e><p><l>su<b/>chi<s n="rel"/><s n="an"/></l><r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
       <e r="LR" c="!LSC"><p><l>su<b/>chi<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>il<b/>quale<s n="rel"/><s n="an"/><s n="GD"/><s n="pl"/></r></p></e>
