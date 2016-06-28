@@ -91,15 +91,24 @@
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="adjec">
-       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.sup, adj.ind etc. -->
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
-       <cat-item tags="adj.pos.*"/>
        <cat-item tags="adj.ord.*"/>
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="adjsup">
        <cat-item tags="adj.sup.*"/>
+    </def-cat>
+    <def-cat n="adjpos">
+       <cat-item tags="adj.pos.*"/>
+    </def-cat>
+    <def-cat n="adj_prnpos">
+       <cat-item tags="adj.pos.*"/>
+       <cat-item tags="prn.tn.pos.*"/>	<!-- per agafar anàlisis equivocades -->
+    </def-cat>
+    <def-cat n="loro_pos">
+       <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="adv">
        <cat-item tags="adv"/>
@@ -2302,6 +2311,68 @@
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjpos nom">
+       <pattern>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>     
+         <out>
+           <chunk name="adjpos_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjpos nom">
+       <pattern>
+         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>     
+         <out>
+           <chunk name="adjpos_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+               <lit v="issoro"/><lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
            </lu>
          </chunk>
          </out>

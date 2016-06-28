@@ -1,2 +1,2 @@
 # Example configuration, just list what pairs/directions you want to test:
-PAIRS=( ita-srd srd-ita )
+PAIRS=( srd-ita ita-srd )
