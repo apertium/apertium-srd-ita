@@ -838,7 +838,6 @@
       <e><p><l>repartu<s n="n"/><s n="m"/></l><r>reparto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>proportzione<s n="n"/><s n="f"/></l><r>proporzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>otzeanu<s n="n"/><s n="m"/></l><r>oceano<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>neta<s n="n"/><s n="f"/></l><r>nipote<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>misteriu<s n="n"/><s n="m"/></l><r>mistero<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>metallu<s n="n"/><s n="m"/></l><r>metallo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>megioru<s n="n"/><s n="m"/></l><r>miglioramento<s n="n"/><s n="m"/></r></p></e>
@@ -3286,6 +3285,7 @@
       <e><p><l>poeta<s n="n"/><s n="f"/></l><r>poeta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>pluralismu<s n="n"/><s n="m"/></l><r>pluralismo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nebode<s n="n"/><s n="mf"/></l><r>nipote<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>neta<s n="n"/><s n="f"/></l><r>nipote<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>morfologia<s n="n"/><s n="f"/></l><r>morfologia<s n="n"/><s n="f"/></r></p></e>    
       <e><p><l>meridianu<s n="n"/><s n="m"/></l><r>meridiano<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>machinàriu<s n="n"/><s n="m"/></l><r>macchinario<s n="n"/><s n="m"/></r></p></e>
@@ -3449,8 +3449,8 @@
       <e><p><l>setore<s n="n"/><s n="m"/></l><r>settore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tradutore<s n="n"/></l><r>traduttore<s n="n"/></r></p></e>
       <e><p><l>interessu<s n="n"/><s n="m"/></l><r>interesse<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>cumponente<s n="n"/><s n="f"/></l><r>componente<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>cumponente<s n="n"/><s n="m"/></l><r>componente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cumponente<s n="n"/><s n="f"/></l><r>componente<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>cumponente<s n="n"/><s n="m"/></l><r>componente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>emitente<s n="n"/><s n="f"/></l><r>emittente<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ambu<s n="n"/><s n="m"/></l><r>ambo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>duda<s n="n"/><s n="f"/></l><r>dubbio<s n="n"/><s n="m"/></r></p></e>
@@ -4870,7 +4870,6 @@
       <e><p><l>delincuente<s n="n"/><s n="mf"/></l><r>delinquente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>retzidore<s n="n"/></l><r>ricevente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>cunvividore<s n="n"/></l><r>convivente<s n="n"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>cumbivisore<s n="n"/></l><r>convivente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>cunvivente<s n="n"/><s n="mf"/></l><r>convivente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>fronte<s n="n"/><s n="mf"/></l><r>fronte<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>architrave<s n="n"/><s n="f"/></l><r>architrave<s n="n"/><s n="f"/></r></p></e>
@@ -10223,7 +10222,7 @@
       <e><p><l>vènetu<s n="adj"/></l><r>veneto<s n="adj"/></r></p></e>
       <e><p><l>russu<s n="n"/></l><r>russo<s n="n"/></r></p></e>
       <e><p><l>friulanu<s n="n"/></l><r>friulano<s n="n"/></r></p></e>
-      <e><p><l>lìgure<s n="n"/></l><r>ligure<s n="n"/></r></p></e>
+      <e><p><l>lìgure<s n="n"/></l><r>ligure<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>emilianu<s n="n"/></l><r>emiliano<s n="n"/></r></p></e>
       <e><p><l>lombardu<s n="n"/></l><r>lombardo<s n="n"/></r></p></e>
       <e><p><l>vènetu<s n="n"/></l><r>veneto<s n="n"/></r></p></e>
