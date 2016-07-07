@@ -279,11 +279,11 @@
 -->
       <e r="LR"><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mfSG"/><s n="ND"/></r></p></e>
 
-      <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>nulla<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>nudda<s n="prn"/><s n="tn"/><s n="nt"/></l><r>niente<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
       <e><p><l>totu<s n="prn"/><s n="tn"/></l><r>tutto<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
       <e><p><l>ambos<s n="prn"/><s n="tn"/></l><r>entrambi<s n="prn"/><s n="tn"/></r></p></e>
-      <e><p><l>ambos<s n="prn"/><s n="tn"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
+      <e r="RL"><p><l>ambos<s n="prn"/><s n="tn"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ambos<b/>duos<s n="prn"/><s n="tn"/></l><r>tutt'e<b/>due<s n="prn"/><s n="tn"/></r></p><par n="GD_mf"/></e>
 
       <e><p><l>bi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>vi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
@@ -301,9 +301,10 @@
       <e><p><l>su<b/>chi<s n="rel"/><s n="an"/></l><r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
       <e r="LR" c="!LSC"><p><l>su<b/>chi<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>il<b/>quale<s n="rel"/><s n="an"/><s n="GD"/><s n="pl"/></r></p></e>
 
-      <e r="LR"><p><l>perunu<s n="prn"/><s n="tn"/><s n="m"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-      <e r="LR"><p><l>perunu<s n="prn"/><s n="tn"/><s n="f"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+      <!-- <e r="LR"><p><l>perunu<s n="prn"/><s n="tn"/><s n="m"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e> -->
+      <!-- <e r="LR"><p><l>perunu<s n="prn"/><s n="tn"/><s n="f"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e> -->
       <e r="RL"><p><l>perunu<s n="prn"/><s n="tn"/><s n="GD"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
+      <e><p><l>perunu<s n="prn"/><s n="tn"/></l><r>nessuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>custu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>ciò<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 
       <e><p><l>cantu<s n="prn"/><s n="itg"/></l><r>quanto<s n="prn"/><s n="itg"/></r></p></e>
@@ -321,8 +322,6 @@
       <e r="RL"><p><l>nche<s n="prn"/><s n="pro"/><s n="adv"/></l><r>fintzas<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e r="RL"><p><l>nche<s n="prn"/><s n="pro"/><s n="adv"/></l><r>puru<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
      
-      <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualche<s n="prn"/><s n="tn"/></r></p></e>
-      <e><p><l>perunu<s n="prn"/><s n="tn"/></l><r>nessuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>nemos<s n="prn"/><s n="tn"/></l><r>nessuno<s n="prn"/><s n="tn"/></r></p><par n="mf_GD"/></e>
       <e r="LR"><p><l>cadaunu<s n="prn"/><s n="tn"/></l><r>ciascuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>carchi<b/>cosa<s n="prn"/><s n="tn"/><s n="nt"/></l><r>qualcosa<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
@@ -335,8 +334,8 @@
       <e><p><l>calesi<b/>cherzat<s n="adj"/></l><r>qualsivoglia<s n="adj"/></r></p></e>
       <e><p><l>calesi<b/>siat<s n="adj"/></l><r>qualunque<s n="adj"/></r></p></e>
 
-      <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualcuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>ognunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>onniunu<s n="prn"/><s n="tn"/></l><r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>cadaunu<s n="prn"/><s n="tn"/></l><r>ciascuno<s n="prn"/><s n="tn"/></r></p></e>
       
       <e><p><l>su<b/>chi<s n="prn"/><s n="itg"/></l><r>quello<b/>che<s n="prn"/><s n="itg"/></r></p></e> 
@@ -346,10 +345,12 @@
       <e r="RL"><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
       <e r="RL"><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></l><r>colui<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
       <e r="LR"><p><l>cusse<s n="prn"/><s n="tn"/></l><r>colui<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualche<s n="prn"/><s n="tn"/></r></p></e>
+      <e><p><l>calicunu<s n="prn"/><s n="tn"/></l><r>qualcuno<s n="prn"/><s n="tn"/></r></p></e>
       <e><p><l>calicunu<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>calicunu<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>unos<b/>cuantos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>unos<b/>cuantos<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>unos<b/>cantos<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>unos<b/>cantos<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>unu<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>unu<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>unu<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>uno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
