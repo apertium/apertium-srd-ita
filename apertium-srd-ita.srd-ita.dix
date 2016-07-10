@@ -11723,8 +11723,9 @@
  
       <!-- SECCIÓN: Verbos -->
 
-      <e><p><l>èssere<s n="vblex"/></l><r>essere<s n="vbser"/></r></p></e>
-      <e><p><l>àere<s n="vblex"/></l><r>avere<s n="vbhaver"/></r></p></e>
+      <e><p><l>èssere<s n="vbser"/></l><r>essere<s n="vbser"/></r></p></e>
+      <e><p><l>àere<s n="vbhaver"/></l><r>avere<s n="vbhaver"/></r></p></e>
+      <e><p><l>àere<g><b/>de</g><s n="vbmod"/></l><r>avere<s n="vbmod"/><g><b/>da</g></r></p></e>
       <e><p><l>dèpere<s n="vbmod"/></l><r>dovere<s n="vbmod"/></r></p></e>
       <e><p><l>bòlere<s n="vblex"/></l><r>volere<s n="vbmod"/></r></p></e>
       <e><p><l>chèrrere<s n="vblex"/></l><r>volere<s n="vbmod"/></r></p></e>
@@ -11774,7 +11775,7 @@
       <e><p><l>intèndere<s n="vblex"/></l><r>sentire<s n="vblex"/></r></p></e>
       <e><p><l>sonare<s n="vblex"/></l><r>sonare<s n="vblex"/></r></p></e>
       <e><p><l>istare<s n="vblex"/></l><r>stare<s n="vblex"/></r></p></e>
-      <e><p><l>èssere<s n="vblex"/></l><r>stare<s n="vblex"/></r></p></e>
+      <e><p><l>èssere<s n="vbser"/></l><r>stare<s n="vblex"/></r></p></e>
       <e><p><l>sonare<s n="vblex"/></l><r>suonare<s n="vblex"/></r></p></e>
       <e><p><l>tènnere<s n="vblex"/></l><r>tenere<s n="vblex"/></r></p></e>
       <e><p><l>testare<s n="vblex"/></l><r>testare<s n="vblex"/></r></p></e>

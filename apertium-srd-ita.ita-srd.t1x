@@ -66,6 +66,18 @@
        <cat-item tags="vbhaver.ger"/>
        <cat-item tags="vbhaver.pp"/>
     </def-cat>
+    <def-cat n="pp">
+       <cat-item tags="vbmod.pp.*"/>
+       <cat-item tags="vbser.pp.*"/>
+       <cat-item tags="vbhaver.pp.*"/>
+       <cat-item tags="vblex.pp.*"/>
+    </def-cat>
+    <def-cat n="pprs">
+       <cat-item tags="vbmod.pprs.*"/>
+       <cat-item tags="vbser.pprs.*"/>
+       <cat-item tags="vbhaver.pprs.*"/>
+       <cat-item tags="vblex.pprs.*"/>
+    </def-cat>
     <def-cat n="imper">
        <cat-item tags="vbmod.imp.*"/>
        <cat-item tags="vbser.imp.*"/>
@@ -85,6 +97,9 @@
     </def-cat>
     <def-cat n="enc-p3">
        <cat-item tags="prn.enc.p3.*"/>
+    </def-cat>
+    <def-cat n="si-enc">
+       <cat-item lemma="si" tags="prn.enc.ref.p3.mf.sp"/>
     </def-cat>
     <def-cat n="adj">
        <cat-item tags="adj.*"/>
@@ -2199,29 +2214,6 @@
 
 <section-rules>
     
-    <rule comment="regla: nom">
-       <pattern>
-         <pattern-item n="nom"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>     
-         <out>
-           <chunk name="n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
     <rule comment="regla: det nom">
        <pattern>
          <pattern-item n="det"/>
@@ -2622,6 +2614,81 @@
 
     <!-- ================================================================== -->
 
+    <rule comment="regla: pprs">
+       <pattern>
+         <pattern-item n="pprs"/>
+       </pattern>
+       <action>
+         
+         <out>
+           <chunk name="chi_pri">
+             <tags>
+               <tag><lit-tag v="SRel"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="chi"/>
+                 </get-case-from>
+                 <lit-tag v="rel.an.mf.sp"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pri.p3"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: pp si">
+       <pattern>
+         <pattern-item n="pp"/>
+         <pattern-item n="si-enc"/>
+       </pattern>
+       <action>
+         
+         <out>
+           <chunk name="chi_pri">
+             <tags>
+               <tag><lit-tag v="SRel"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="chi"/>
+                 </get-case-from>
+                 <lit-tag v="rel.an.mf.sp"/>
+               </lu>
+               <b/>
+               <lu>
+                 <lit v="si"/>
+                 <lit-tag v="prn.pro.ref.p3.mf.sp"/>
+               </lu>
+               <b/>
+               <lu>
+                 <lit v="èssere"/>
+                 <lit-tag v="vbser.pri.p3"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pp"/>
+                 <clip pos="1" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <rule comment="regla: ifi">
        <pattern>
          <pattern-item n="ifi"/>
@@ -2637,7 +2704,7 @@
                  <get-case-from pos="1">
                    <lit v="èssere"/>
                  </get-case-from>
-                 <lit-tag v="vblex.pri"/>
+                 <lit-tag v="vbser.pri"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
                </lu>
@@ -2672,7 +2739,7 @@
                <get-case-from pos="1">
                  <lit v="àere"/>
                </get-case-from>
-               <lit-tag v="vblex.pri"/>
+               <lit-tag v="vbhaver.pri"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
@@ -2978,6 +3045,29 @@
 
 
 <!-- tractament multiparaules -->
+
+    <rule comment="regla: nom">
+       <pattern>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>     
+         <out>
+           <chunk name="n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
 
     <rule comment="regla: adjec">
        <pattern>
