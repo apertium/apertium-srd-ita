@@ -314,7 +314,10 @@
       <!-- <e><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/></l><r>ci<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/></r></p></e> -->
       <e><p><l>chie<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></l><r>chi<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
       <e><p><l>nos<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/></l><r>ci<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/></r></p></e>
-      <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="GD"/><s n="sg"/></r></p></e>
+      <e><p><l>li<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
       
       <e><p><l>nde<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ne<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
       <e><p><l>nche<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
@@ -3722,8 +3725,6 @@
       <e><p><l>amministradore<s n="n"/></l><r>amministratore<s n="n"/></r></p></e>
       <e><p><l>abitadore<s n="n"/></l><r>abitatore<s n="n"/></r></p></e>
       <e><p><l>ditadore<s n="n"/></l><r>dittatore<s n="n"/></r></p></e>
-      <e><p><l>sarbadore<s n="n"/></l><r>salvatore<s n="n"/></r></p></e>
-      <e><p><l>sarbadore<s n="adj"/></l><r>salvatore<s n="adj"/></r></p></e>
       <e><p><l>chistidore<s n="n"/></l><r>conservatore<s n="n"/></r></p></e>
       <e><p><l>colonizadore<s n="n"/></l><r>colonizzatore<s n="n"/></r></p></e>
       <e><p><l>pretore<s n="n"/></l><r>pretore<s n="n"/></r></p></e>
@@ -17136,7 +17137,6 @@
       <e r="RL"><p><l>richiedente<s n="adj"/></l><r>richiedente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>rilevante<s n="adj"/></l><r>rilevante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>rurale<s n="adj"/></l><r>rurale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <e r="RL"><p><l>sarbadore<s n="adj"/></l><r>salvatore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>sarvadore<s n="adj"/></l><r>salvatore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>sèmplitze<s n="adj"/></l><r>semplice<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>sennorile<s n="adj"/></l><r>signorile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
