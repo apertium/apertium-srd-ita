@@ -39,6 +39,7 @@
     <sdef n="top"     c=""/>
     <sdef n="hyd"     c=""/>
     <sdef n="org"     c=""/>
+    <sdef n="ij"      c=""/>
     <sdef n="tn"      c=""/>
     <sdef n="an"      c=""/>
     <sdef n="aa"      c=""/>
@@ -563,6 +564,7 @@
       <!-- SECCIÓN: Sustantivos -->
       <e><p><l>domo<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
       <e r="LR"><p><l>domu<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>casa<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>calore<s n="n"/><s n="m"/></l><r>calore<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>persona<s n="n"/><s n="f"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>
@@ -2031,7 +2033,6 @@
       <e><p><l>grae<s n="n"/><s n="m"/></l><r>grave<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>espressadu<s n="adj"/></l><r>espresso<s n="adj"/></r></p></e>
       <e><p><l>cussigeri<s n="n"/></l><r>consigliere<s n="n"/></r></p></e>
-      <e><p><l>casa<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>biografia<s n="n"/><s n="f"/></l><r>biografia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sacru<s n="adj"/></l><r>sacro<s n="adj"/></r></p></e>
       <e><p><l>pertzentuale<s n="n"/><s n="f"/></l><r>percentuale<s n="n"/><s n="f"/></r></p></e>
@@ -2478,7 +2479,7 @@
       <e><p><l>berberare<s n="vblex"/></l><r>bastonare<s n="vblex"/></r></p></e>
       <e><p><l>barone<s n="n"/><s n="m"/></l><r>barone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>aristanesu<s n="adj"/></l><r>oristanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>aba<s n="adv"/></l><r>aspetta<s n="adv"/></r></p></e>
+      <e><p><l>aba<s n="ij"/></l><r>aspetta<s n="ij"/></r></p></e>
       <e><p><l>volume<s n="n"/><s n="m"/></l><r>volume<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>virtude<s n="n"/><s n="f"/></l><r>virtù<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>venerare<s n="vblex"/></l><r>venerare<s n="vblex"/></r></p></e>
@@ -11726,7 +11727,8 @@
 
       <e><p><l>èssere<s n="vbser"/></l><r>essere<s n="vbser"/></r></p></e>
       <e><p><l>àere<s n="vbhaver"/></l><r>avere<s n="vbhaver"/></r></p></e>
-      <e><p><l>àere<g><b/>de</g><s n="vbmod"/></l><r>avere<s n="vbmod"/><g><b/>da</g></r></p></e>
+      <e r="RL"><p><l>àere<g><b/>de</g><s n="vbmod"/></l><r>avere<s n="vbmod"/><g><b/>da</g></r></p></e>
+      <e r="LR"><p><l>àere<g><b/>de</g><s n="vbmod"/></l><r>dovere<s n="vbmod"/></r></p></e>
       <e><p><l>dèpere<s n="vbmod"/></l><r>dovere<s n="vbmod"/></r></p></e>
       <e><p><l>bòlere<s n="vblex"/></l><r>volere<s n="vbmod"/></r></p></e>
       <e><p><l>chèrrere<s n="vblex"/></l><r>volere<s n="vbmod"/></r></p></e>
@@ -11743,6 +11745,7 @@
       <e><p><l>ascurtare<s n="vblex"/></l><r>ascoltare<s n="vblex"/></r></p></e>
       <e><p><l>colare<s n="vblex"/></l><r>attraversare<s n="vblex"/></r></p></e>
       <e><p><l>tènnere<s n="vblex"/></l><r>avere<s n="vblex"/></r></p></e>
+      <e r="LR"><p><l>àere<s n="vblex"/></l><r>avere<s n="vblex"/></r></p></e>
       <e><p><l>bìere<s n="vblex"/></l><r>bere<s n="vblex"/></r></p></e>
       <e><p><l>bufare<s n="vblex"/></l><r>bere<s n="vblex"/></r></p></e>
       <e><p><l>chircare<s n="vblex"/></l><r>cercare<s n="vblex"/></r></p></e>
@@ -17388,6 +17391,8 @@
       <e><p><l>totu<b/>in<b/>unu<s n="adv"/></l><r>all'improvviso<s n="adv"/></r></p></e>
       <e><p><l>una<b/>bia<s n="adv"/></l><r>una<b/>volta<s n="adv"/></r></p></e>
 
+      <e><p><l>Mediterràneu<s n="np"/><s n="top"/><s n="f"/></l><r>Mediterraneo<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>salude<s n="ij"/></l><r>ciao<s n="ij"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>

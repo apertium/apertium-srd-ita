@@ -78,6 +78,9 @@
        <cat-item tags="prn.pro.p2.*"/>
        <cat-item tags="prn.pro.p3.*"/>
     </def-cat>
+    <def-cat n="lis-pro">
+       <cat-item lemma="li" tags="prn.pro.p3.mf.pl"/>
+    </def-cat>
     <def-cat n="nche-pro">
        <cat-item lemma="nche" tags="prn.enc.adv"/>
     </def-cat>
@@ -2715,6 +2718,41 @@
        </action>
     </rule>
 
+<rule comment="regla: lis verb (lis faeddo > parlo loro)">
+   <pattern>
+     <pattern-item n="lis-pro"/>
+     <pattern-item n="verb"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+	 <tags>
+	   <tag><lit-tag v="SV"/></tag>
+	 </tags>
+       <lu>
+	 <clip pos="2" side="tl" part="lemh"/>
+	 <clip pos="2" side="tl" part="tags"/>
+	 <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       </chunk>
+       <b pos="1"/>
+       <chunk name="tn">
+	 <tags>
+	   <tag><lit-tag v="SPron"/></tag>
+	 </tags>
+       <lu>
+	 <clip pos="1" side="tl" part="lemh"/>
+	 <clip pos="1" side="tl" part="tags"/>
+	 <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+
+    <!-- multiparaules -->
 
     <rule comment="regla: num">
        <pattern>

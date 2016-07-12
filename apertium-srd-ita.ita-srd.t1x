@@ -90,7 +90,10 @@
        <cat-item tags="prn.pro.p3.*"/>
     </def-cat>
     <def-cat n="gli">
-       <cat-item tags="prn.pro.p3.m.sg"/>
+       <cat-item lemma= "gli" tags="prn.pro.p3.m.sg"/>
+    </def-cat>
+    <def-cat n="loro_pro">
+       <cat-item lemma= "gli" tags="prn.pro.p3.mf.pl"/>
     </def-cat>
     <def-cat n="enc">
        <cat-item tags="prn.enc.*"/>
@@ -3186,6 +3189,38 @@
                <clip pos="2" side="tl" part="lemq"/>
              </lu>
            </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verb loro (parlo loro > lis faeddo)">
+       <pattern>
+         <pattern-item n="verb"/>
+         <pattern-item n="loro_pro"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
          </out>
        </action>
     </rule>
