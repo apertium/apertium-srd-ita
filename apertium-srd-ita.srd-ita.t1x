@@ -8,6 +8,11 @@
        <cat-item tags="prn.tn.*"/>
        <cat-item tags="prn.pos.*"/> <!-- en el cas ^issoro<prn><pos><mf><sp>/il loro<prn><tn><pos><GD><ND>$ agafa prn.pos (com en sard) i no prn.tn (com en italià) -->
     </def-cat>
+    <def-cat n="tn-pers">
+       <cat-item tags="prn.tn.p1.*"/>
+       <cat-item tags="prn.tn.p2.*"/>
+       <cat-item tags="prn.tn.p3.*"/>
+    </def-cat>
     <def-cat n="predet">
        <cat-item tags="predet.*"/>
     </def-cat>
@@ -16,6 +21,9 @@
     </def-cat>
     <def-cat n="num">
        <cat-item tags="num.*"/>
+    </def-cat>
+    <def-cat n="pr">
+       <cat-item tags="pr"/>
     </def-cat>
     <def-cat n="verb">
        <cat-item tags="vbmod.*"/>
@@ -72,6 +80,15 @@
        <cat-item tags="vbhaver.imp.*"/>
        <cat-item tags="vbhaver.ger"/>
        <cat-item tags="vbhaver.pp"/>
+    </def-cat>
+    <def-cat n="ger">
+       <cat-item tags="vblex.ger"/>
+       <cat-item tags="vbmod.ger"/>
+       <cat-item tags="vbser.ger"/>
+       <cat-item tags="vbhaver.ger"/>
+    </def-cat>
+    <def-cat n="èssere">
+       <cat-item lemma="èssere" tags="vbser.*"/>
     </def-cat>
     <def-cat n="pro">
        <cat-item tags="prn.pro.p1.*"/>
@@ -2273,7 +2290,7 @@
          <out>
            <chunk name="pro">
              <tags>
-               <tag><lit-tag v="SPron"/></tag>
+               <tag><lit-tag v="SN"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -2297,7 +2314,7 @@
          <out>
            <chunk name="tn">
              <tags>
-               <tag><lit-tag v="SPron"/></tag>
+               <tag><lit-tag v="SN"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -2738,7 +2755,7 @@
        <b pos="1"/>
        <chunk name="tn">
 	 <tags>
-	   <tag><lit-tag v="SPron"/></tag>
+	   <tag><lit-tag v="SN"/></tag>
 	 </tags>
        <lu>
 	 <clip pos="1" side="tl" part="lemh"/>
@@ -2750,6 +2767,36 @@
    </action>
 </rule>
 
+
+
+    <rule comment="regla: èssere ger (fiat cumbatende > stava combattendo)">
+       <pattern>
+         <pattern-item n="èssere"/>
+         <pattern-item n="ger"/>
+       </pattern>
+       <action>
+	  <let><clip pos="1" side="tl" part="lemh"/><lit v="stare"/></let>
+	  <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex"/></let>
+         <out>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
 
 
     <!-- multiparaules -->

@@ -4,9 +4,6 @@
     <def-cat n="nom">
        <cat-item tags="n.*"/>
     </def-cat>
-    <def-cat n="tn">
-       <cat-item tags="prn.tn.*"/>
-    </def-cat>
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
@@ -52,6 +49,12 @@
        <cat-item tags="vbhaver.ifi.*"/>
        <cat-item tags="vblex.ifi.*"/>
     </def-cat>
+    <def-cat n="ger">
+       <cat-item tags="vblex.ger"/>
+       <cat-item tags="vbmod.ger"/>
+       <cat-item tags="vbser.ger"/>
+       <cat-item tags="vbhaver.ger"/>
+    </def-cat>
     <def-cat n="imper-ger-pp">
        <cat-item tags="vblex.imp.*"/>
        <cat-item tags="vblex.ger"/>
@@ -83,6 +86,18 @@
        <cat-item tags="vbser.imp.*"/>
        <cat-item tags="vbhaver.imp.*"/>
        <cat-item tags="vblex.imp.*"/>
+    </def-cat>
+    <def-cat n="stare">
+       <cat-item lemma="stare" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="tn">
+       <cat-item tags="prn.tn.*"/>
+    </def-cat>
+    <def-cat n="tn-pers">
+       <cat-item tags="prn.tn.p1.*"/>
+       <cat-item tags="prn.tn.p2.*"/>
+       <cat-item tags="prn.tn.p3.*"/>
+       <cat-item tags="prn.pro.p3.mf.pl"/> <!-- acceptem aquest error del parser (però per alguna raó no ho està agafant)-->
     </def-cat>
     <def-cat n="pro">
        <cat-item tags="prn.pro.p1.*"/>
@@ -3219,6 +3234,151 @@
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: stare ger (stava combattendo > fiat cumbatende)">
+       <pattern>
+         <pattern-item n="stare"/>
+         <pattern-item n="ger"/>
+       </pattern>
+       <action>
+	  <let><clip pos="1" side="tl" part="lemh"/><lit v="èssere"/></let>
+	  <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+         <out>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: pr prn (Norme p. 28)">
+       <pattern>
+         <pattern-item n="pr"/>
+         <pattern-item n="tn-pers"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>     
+      <choose>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
+	  </test>
+          <choose>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mie"/></let>
+	    </when>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="megus"/></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mene"/></let>
+	    </otherwise>
+          </choose>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
+	  </test>
+          <choose>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tie"/></let>
+	    </when>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tegus"/></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tene"/></let>
+	    </otherwise>
+          </choose>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="lui"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="noi"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="nois"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="voi"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="bois"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="loro"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="gli"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	  <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.tn"/></let>
+	  <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+	</when>
+      </choose>
+
+         <out>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
