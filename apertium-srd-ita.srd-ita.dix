@@ -373,9 +373,13 @@
       <e><p><l>unu<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>uno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
 
       <e r="LR"><p><l>issu<s n="prn"/><s n="tn"/></l><r>egli<s n="prn"/><s n="tn"/></r></p></e>
+
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="m"/></r></p><par n="sp_ND"/></e>
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="f"/></r></p><par n="sp_ND"/></e>
       <e><p><l>cussu<s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>cuddu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="m"/></r></p><par n="sp_ND"/></e>
+      <e r="LR"><p><l>cuddu<s n="prn"/><s n="tn"/><s n="nt"/></l><r>quello<s n="prn"/><s n="tn"/><s n="f"/></r></p><par n="sp_ND"/></e>
+      <e r="LR"><p><l>cuddu<s n="prn"/><s n="tn"/><s n="nt"/><s n="sp"/></l><r>quello<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
 
  
       <e><p><l>matessi<s n="prn"/><s n="tn"/></l><r>stesso<s n="prn"/><s n="tn"/></r></p><par n="mf_GD|sp_ND"/></e>
@@ -395,6 +399,7 @@
       <e><p><l>carchi<s n="det"/><s n="ind"/><s n="mf"/><s n="sp"/></l><r>qualche<s n="det"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
 
       <e><p><l>cussu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
+      <e><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
 <!--
       <e><p><l>issoro<s n="det"/><s n="pos"/></l><r>il<b/>loro<s n="det"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e><p><l>issoro<s n="prn"/><s n="pos"/></l><r>il<b/>loro<s n="prn"/><s n="tn"/><s n="pos"/></r></p><par n="mf_GD|sp_ND"/></e>
@@ -409,7 +414,6 @@
       <e><p><l>ambos<s n="det"/><s n="ind"/></l><r>entrambi<b/>i<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>ambos<b/>duos<s n="det"/><s n="ind"/></l><r>tutt'e<b/>due<b/>i<s n="det"/><s n="ind"/></r></p></e>
       <e><p><l>tzertu<s n="det"/><s n="ind"/></l><r>certo<s n="det"/><s n="ind"/></r></p></e>
-      <e><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p></e>
       <e r="RL"><p><l>cuddu<s n="det"/><s n="dem"/></l><r>quello<s n="det"/><s n="dem"/></r></p><par n="GD_mf"/></e>
 
       <e><p><l>unu<b/>àteru<s n="det"/><s n="ind"/></l><r>un<b/>altro<s n="det"/><s n="ind"/></r></p></e>
@@ -1877,7 +1881,6 @@
      <e><p><l>totale<s n="n"/><s n="m"/></l><r>totale<s n="n"/><s n="m"/></r></p></e>
      <e><p><l>operadore<s n="adj"/></l><r>operatore<s n="adj"/></r></p></e>
      <e><p><l>idioma<s n="n"/><s n="m"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>cuddu<s n="adj"/></l><r>quello<s n="adj"/></r></p></e>
      <e><p><l>note<s n="n"/><s n="f"/></l><r>note<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>otentu<s n="adj"/></l><r>ottenuto<s n="adj"/></r></p></e>
       <e><p><l>tretu<s n="n"/><s n="m"/></l><r>tratto<s n="n"/><s n="m"/></r></p></e>
@@ -3430,6 +3433,7 @@
       <e><p><l>cabudanni<s n="n"/><s n="m"/></l><r>settembre<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ladàmine<s n="n"/><s n="m"/></l><r>ottobre<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>santandria<s n="n"/><s n="f"/></l><r>novembre<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>onniasantu<s n="n"/><s n="m"/></l><r>novembre<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>nadale<s n="n"/><s n="m"/></l><r>dicembre<s n="n"/><s n="m"/></r></p></e>
 
 
@@ -11587,7 +11591,8 @@
       <e><p><l>mi'<s n="adv"/></l><r>ecco<s n="adv"/></r></p></e>
       <e><p><l>peus<s n="adv"/></l><r>peggio<s n="adv"/></r></p></e>
       <e><p><l>nemmancu<s n="adv"/></l><r>nemmeno<s n="adv"/></r></p></e>
-      <e><p><l>mancu<s n="adv"/></l><r>meno<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>mancu<s n="adv"/></l><r>meno<s n="adv"/></r></p></e>
+      <e><p><l>prus<b/>pagu<s n="adv"/></l><r>meno<s n="adv"/></r></p></e>
       <e><p><l>tropu<s n="adv"/></l><r>troppo<s n="adv"/></r></p></e>
       <e><p><l>allegru<s n="adv"/></l><r>allegro<s n="adv"/></r></p></e>
       <e><p><l>seguru<s n="adv"/></l><r>sicuro<s n="adv"/></r></p></e>
@@ -15697,7 +15702,6 @@
       <e r="RL"><p><l>cuadradu<s n="adj"/></l><r>quadrato<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>cuadru<s n="adj"/></l><r>quadro<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>cubanu<s n="adj"/></l><r>cubano<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>cuddu<s n="adj"/></l><r>quello<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>cultu<s n="adj"/></l><r>colto<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>cumbeniosu<s n="adj"/></l><r>conveniente<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>cumbènnidu<s n="adj"/></l><r>convenuto<s n="adj"/><s n="sup"/></r></p></e>
