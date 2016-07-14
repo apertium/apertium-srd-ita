@@ -10162,7 +10162,7 @@
       <e><p><l>coloniale<s n="adj"/></l><r>coloniale<s n="adj"/></r></p></e>
       <e><p><l>penale<s n="adj"/></l><r>penale<s n="adj"/></r></p></e>
       <e><p><l>cumertziale<s n="adj"/></l><r>commerciale<s n="adj"/></r></p></e>
-      <e><p><l>isperimentale<s n="adj"/></l><r>sperimentare<s n="adj"/></r></p></e>
+      <e><p><l>isperimentale<s n="adj"/></l><r>sperimentale<s n="adj"/></r></p></e>
       <e><p><l>teatrale<s n="adj"/></l><r>teatrale<s n="adj"/></r></p></e>
       <e><p><l>liberale<s n="adj"/></l><r>liberale<s n="adj"/></r></p></e>
       <e><p><l>liberale<s n="n"/></l><r>liberale<s n="n"/></r></p></e>
@@ -11491,7 +11491,7 @@
       <e><p><l>ue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>pro<b/>ite<s n="adv"/><s n="itg"/></l><r>perché<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>cando<s n="adv"/><s n="itg"/></l><r>quando<s n="adv"/><s n="itg"/></r></p></e>
-      <e><p><l>comente<s n="adv"/><s n="itg"/></l><r>come<s n="adv"/></r></p></e>
+      <e><p><l>comente<s n="adv"/><s n="itg"/></l><r>come<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>in<b/>ue<s n="adv"/><s n="itg"/></l><r>dove<s n="adv"/><s n="itg"/></r></p></e>
       <e><p><l>intro<b/>de<b/>pagu<b/>tempus<s n="adv"/></l><r>in<b/>poco<b/>tempo<s n="adv"/></r></p></e>
       <e><p><l>gosi<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
@@ -17025,7 +17025,7 @@
       <e r="RL"><p><l>intrante<s n="adj"/></l><r>entrante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>inviolàbile<s n="adj"/></l><r>inviolabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>ispentumante<s n="adj"/></l><r>strapiombante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <e r="RL"><p><l>isperimentale<s n="adj"/></l><r>sperimentare<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>isperimentale<s n="adj"/></l><r>sperimentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>ispetadore<s n="adj"/></l><r>spettatore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>ispetziale<s n="adj"/></l><r>speciale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>ispirituale<s n="adj"/></l><r>spirituale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -17274,7 +17274,7 @@
       <e><p><l>cando<s n="adv"/></l><r>quando<s n="adv"/></r></p></e>
       <e><p><l>cara<s n="adv"/></l><r>verso<s n="adv"/></r></p></e>
       <e><p><l>che<s n="cnjsub"/></l><r>come<s n="cnjsub"/></r></p></e>
-      <e><p><l>comente<s n="adv"/></l><r>come<s n="adv"/></r></p></e>
+      <!--<e><p><l>comente<s n="adv"/></l><r>come<s n="adv"/></r></p></e>-->
       <e><p><l>comente<s n="cnjsub"/></l><r>come<s n="cnjsub"/></r></p></e>
       <e><p><l>comente<s n="preadv"/></l><r>come<s n="preadv"/></r></p></e>
       <e><p><l>cua·cua<s n="adv"/></l><r>di<b/>nascosto<s n="adv"/></r></p></e>
@@ -17355,7 +17355,7 @@
       <e><p><l>in<b/>ue<s n="adv"/></l><r>dove<s n="adv"/></r></p></e>
       <e><p><l>infines<s n="adv"/></l><r>infine<s n="adv"/></r></p></e>
       <e><p><l>isceti<s n="preadv"/></l><r>solo<s n="preadv"/></r></p></e>
-      <e><p><l>ite<s n="adv"/></l><r>cosa<s n="adv"/></r></p></e>
+      <!--<e><p><l>ite<s n="adv"/></l><r>cosa<s n="adv"/></r></p></e>-->
       <e><p><l>laris·laris<s n="adv"/></l><r>fradicio<s n="adv"/></r></p></e>
       <e><p><l>male<s n="preadv"/></l><r>male<s n="preadv"/></r></p></e>
       <e><p><l>mancari<s n="cnjsub"/></l><r>magari<s n="cnjsub"/></r></p></e>
@@ -17393,7 +17393,7 @@
       <e><p><l>sende<b/>chi<s n="cnjsub"/></l><r>solo<b/>che<s n="cnjsub"/></r></p></e>
       <e><p><l>sende<b/>gasi<s n="cnjcoo"/></l><r>meno<b/>male<b/>che<s n="cnjcoo"/></r></p></e>
       <e><p><l>siat<s n="cnjcoo"/></l><r>sia<s n="cnjcoo"/></r></p></e>
-      <e><p><l>si<b/>no<b/>est<b/>chi<s n="cnjsub"/></l><r>senonchè<s n="cnjsub"/></r></p></e>
+      <e><p><l>si<b/>no<b/>est<b/>chi<s n="cnjsub"/></l><r>senonché<s n="cnjsub"/></r></p></e>
       <e><p><l>s’in<b/>casu<s n="adv"/></l><r>nel<b/>caso<s n="adv"/></r></p></e>
       <e><p><l><s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
       <e><p><l><s n="cnjcoo"/></l><r>ne<s n="cnjcoo"/></r></p></e>
