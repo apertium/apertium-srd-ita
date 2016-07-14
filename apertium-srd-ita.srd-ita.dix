@@ -3412,7 +3412,7 @@
       <e><p><l>lunis<s n="n"/><s n="m"/></l><r>lunedì<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>martis<s n="n"/><s n="m"/></l><r>martedì<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>mèrcuris<s n="n"/><s n="m"/></l><r>mercoledì<s n="n"/><s n="m"/></r></p></e>
-      <e l="LR"><p><l>gioja<s n="n"/><s n="m"/></l><r>giovedì<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l>gioja<s n="n"/><s n="m"/></l><r>giovedì<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>giòvia<s n="n"/><s n="m"/></l><r>giovedì<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>chenàbura<s n="n"/><s n="f"/></l><r>venerdì<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>sàbadu<s n="n"/><s n="m"/></l><r>sabato<s n="n"/><s n="m"/></r></p></e>
@@ -4016,7 +4016,9 @@
       <e><p><l>benefitzèntzia<s n="n"/><s n="f"/></l><r>beneficenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>acuiescèntzia<s n="n"/><s n="f"/></l><r>acquiescenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>reconnoschèntzia<s n="n"/><s n="f"/></l><r>riconoscenza<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>sobràntzias<s n="n"/><s n="f"/></l><r>eccedenza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sobràntzia<s n="n"/><s n="f"/></l><r>eccedenza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sobràntzia<s n="n"/><s n="f"/></l><r>avanzo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sobràntzia<s n="n"/><s n="f"/></l><r>rimanenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>providèntzia<s n="n"/><s n="f"/></l><r>provvidenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>soprintendèntzia<s n="n"/><s n="f"/></l><r>soprintendenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>inacumprimentu<s n="n"/><s n="m"/></l><r>inadempienza<s n="n"/><s n="f"/></r></p></e>
@@ -11735,7 +11737,7 @@
 
       <e><p><l>èssere<s n="vbser"/></l><r>essere<s n="vbser"/></r></p></e>
       <e><p><l>àere<s n="vbhaver"/></l><r>avere<s n="vbhaver"/></r></p></e>
-      <e r="RL"><p><l>àere<g><b/>de</g><s n="vbmod"/></l><r>avere<s n="vbmod"/><g><b/>da</g></r></p></e>
+      <e r="RL"><p><l>àere<g><b/>de</g><s n="vbmod"/></l><r>avere<g><b/>da</g><s n="vbmod"/></r></p></e>
       <e r="LR"><p><l>àere<g><b/>de</g><s n="vbmod"/></l><r>dovere<s n="vbmod"/></r></p></e>
       <e><p><l>dèpere<s n="vbmod"/></l><r>dovere<s n="vbmod"/></r></p></e>
       <e><p><l>bòlere<s n="vblex"/></l><r>volere<s n="vbmod"/></r></p></e>
@@ -13463,7 +13465,7 @@
       <e><p><l>acollire<s n="vblex"/></l><r>accogliere<s n="vblex"/></r></p></e>
       <e><p><l>acuistare<s n="vblex"/></l><r>acquistare<s n="vblex"/></r></p></e>
       <e><p><l>acunortare<s n="vblex"/></l><r>consolare<s n="vblex"/></r></p></e>
-      <e><p><l>acuntèssere<s n="vblex"/></l><r>accadere<s n="vblex"/></r></p></e>
+      <e><p><l>acontèssere<s n="vblex"/></l><r>accadere<s n="vblex"/></r></p></e>
       <e><p><l>adduire<s n="vblex"/></l><r>acconsentire<s n="vblex"/></r></p></e>
       <e><p><l>adduire<s n="vblex"/></l><r>consentire<s n="vblex"/></r></p></e>
       <e><p><l>adeguare<s n="vblex"/></l><r>adeguare<s n="vblex"/></r></p></e>
@@ -13727,7 +13729,7 @@
       <e><p><l>rennoare<s n="vblex"/></l><r>rinnovare<s n="vblex"/></r></p></e>
       <e><p><l>reperire<s n="vblex"/></l><r>reperire<s n="vblex"/></r></p></e>
       <e><p><l>repertoriare<s n="vblex"/></l><r>repertoriare<s n="vblex"/></r></p></e>
-      <e><p><l>resessire<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
+      <e><p><l>resessere<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
       <e><p><l>resparmiare<s n="vblex"/></l><r>risparmiare<s n="vblex"/></r></p></e>
       <e><p><l>revengare<s n="vblex"/></l><r>rivendicare<s n="vblex"/></r></p></e>
       <e><p><l>revèntere<s n="vblex"/></l><r>realizzare<s n="vblex"/></r></p></e>
@@ -17402,6 +17404,14 @@
 
       <e><p><l>Mediterràneu<s n="np"/><s n="top"/><s n="f"/></l><r>Mediterraneo<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>salude<s n="ij"/></l><r>ciao<s n="ij"/></r></p></e>
+
+      <e><p><l>Santu<b/>Marinu<s n="np"/><s n="top"/><s n="m"/></l><r>San<b/>Marino<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Misanu<s n="np"/><s n="top"/><s n="m"/></l><r>Misano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>tzicuitu<s n="n"/><s n="m"/></l><r>circuito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Merkel<s n="np"/><s n="cog"/><s n="mf"/></l><r>Merkel<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+      <e><p><l>Renzi<s n="np"/><s n="cog"/><s n="mf"/></l><r>Renzi<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+      <e><p><l>Draghi<s n="np"/><s n="cog"/><s n="mf"/></l><r>Draghi<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
+      <e><p><l>brexit<s n="n"/><s n="f"/></l><r>brexit<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
