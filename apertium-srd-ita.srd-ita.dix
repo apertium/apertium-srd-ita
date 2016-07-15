@@ -3907,7 +3907,8 @@
       <e><p><l>ammenda<s n="n"/><s n="f"/></l><r>ammenda<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>roba<s n="n"/><s n="f"/></l><r>stoffa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>majàrgia<s n="n"/><s n="f"/></l><r>maga<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>psicòloga<s n="n"/><s n="f"/></l><r>psicologa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>psicòlogu<s n="n"/></l><r>psicologo<s n="n"/></r></p></e>
+      <e><p><l>psicològicu<s n="adj"/></l><r>psicologico<s n="adj"/></r></p></e>
       <e><p><l>testùine<s n="n"/><s n="f"/></l><r>tartaruga<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>gàbbia<s n="n"/><s n="f"/></l><r>gabbia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>atrevimentu<s n="n"/><s n="m"/></l><r>audacia<s n="n"/><s n="f"/></r></p></e>
@@ -4778,7 +4779,6 @@
       <e><p><l>fatu<s n="n"/><s n="m"/></l><r>vicenda<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>ismenda<s n="n"/><s n="f"/></l><r>ammenda<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>logu<s n="n"/><s n="m"/></l><r>area<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>testòine<s n="n"/><s n="f"/></l><r>tartaruga<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nèula<s n="n"/><s n="f"/></l><r>nebbia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>atza<s n="n"/><s n="f"/></l><r>audacia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>camisa<s n="n"/><s n="f"/></l><r>camicia<s n="n"/><s n="f"/></r></p></e>
@@ -5549,7 +5549,6 @@
       <e><p><l>antepassadu<s n="n"/></l><r>antenato<s n="n"/></r></p></e>
       <e><p><l>disordinadu<s n="n"/></l><r>disordinato<s n="n"/></r></p></e>
       <e><p><l>iscunsertadu<s n="n"/></l><r>disordinato<s n="n"/></r></p></e>
-      <e><p><l>fine<s n="n"/></l><r>raffinato<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>màstrinu<s n="n"/></l><r>raffinato<s n="n"/></r></p></e>
       <e><p><l>abbonadu<s n="n"/></l><r>abbonato<s n="n"/></r></p></e>
       <e><p><l>pensionadu<s n="n"/></l><r>pensionato<s n="n"/></r></p></e>
@@ -11072,7 +11071,6 @@
       <e><p><l>voluntariosu<s n="adj"/></l><r>volentoroso<s n="adj"/></r></p></e>
       <e><p><l>forfetàriu<s n="adj"/></l><r>forfettario<s n="adj"/></r></p></e>
       <e><p><l>sèriu<s n="adj"/></l><r>serio<s n="adj"/></r></p></e>
-      <e><p><l>interrogu<s n="adj"/></l><r>interrogatorio<s n="adj"/></r></p></e>
       <e><p><l>porrogu<s n="adj"/></l><r>interrogatorio<s n="adj"/></r></p></e>
       <e><p><l>interrogatòriu<s n="adj"/></l><r>interrogatorio<s n="adj"/></r></p></e>
       <e><p><l>iscuru<s n="adj"/></l><r>buio<s n="adj"/></r></p></e>
@@ -11536,6 +11534,8 @@
       <e><p><l>como<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
       <e><p><l>in<b/>totue<s n="adv"/></l><r>ovunque<s n="adv"/></r></p></e>
       <e><p><l>craru<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>òvia<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>lògica<s n="adv"/></l><r>logicamente<s n="adv"/></r></p></e>
       <e><p><l>probabilmente<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
       <e><p><l>duncas<s n="adv"/></l><r>quindi<s n="adv"/></r></p></e>
       <e><p><l>tando<s n="adv"/></l><r>quindi<s n="adv"/></r></p></e>
@@ -16029,7 +16029,6 @@
       <e r="RL"><p><l>internadu<s n="adj"/></l><r>internato<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>internu<s n="adj"/></l><r>interno<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>interrogatòriu<s n="adj"/></l><r>interrogatorio<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>interrogu<s n="adj"/></l><r>interrogatorio<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>intervistadu<s n="adj"/></l><r>intervistato<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>intestadu<s n="adj"/></l><r>intestato<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>intesu<s n="adj"/></l><r>sentito<s n="adj"/><s n="sup"/></r></p></e>
