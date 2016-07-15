@@ -11786,7 +11786,6 @@
       <e><p><l>pensare<s n="vblex"/></l><r>pensare<s n="vblex"/></r></p></e>
       <e><p><l>pràghere<s n="vblex"/></l><r>piacere<s n="vblex"/></r></p></e>
       <e><p><l>respòndere<s n="vblex"/></l><r>rispondere<s n="vblex"/></r></p></e>
-      <e><p><l>resèssere<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
       <e><p><l>ischire<s n="vblex"/></l><r>sapere<s n="vblex"/></r></p></e>
       <e r="LR"><p><l>sètzere<s n="vblex"/></l><r>sedere<s n="vblex"/></r></p></e>
       <e><p><l>sèere<s n="vblex"/></l><r>sedere<s n="vblex"/></r></p></e>
@@ -12283,7 +12282,6 @@
       <e><p><l>mediare<s n="vblex"/></l><r>mediare<s n="vblex"/></r></p></e>
       <e><p><l>tapare<s n="vblex"/></l><r>tappare<s n="vblex"/></r></p></e>
       <e><p><l>recuperare<s n="vblex"/></l><r>recuperare<s n="vblex"/></r></p></e>
-      <e><p><l>incruire<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
       <e><p><l>genare<s n="vblex"/></l><r>infastidire<s n="vblex"/></r></p></e>
       <e><p><l>musicare<s n="vblex"/></l><r>musicare<s n="vblex"/></r></p></e>
       <e><p><l>fidare<s n="vblex"/></l><r>fidare<s n="vblex"/></r></p></e>
@@ -12336,6 +12334,8 @@
       <e><p><l>delimitare<s n="vblex"/></l><r>delimitare<s n="vblex"/></r></p></e>
       <e><p><l>concruire<s n="vblex"/></l><r>concludere<s n="vblex"/></r></p></e>
       <e><p><l>chessire<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
+      <e><p><l>resèssere<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
+      <e><p><l>arrenèschere<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
       <e><p><l>bantare<s n="vblex"/></l><r>vantare<s n="vblex"/></r></p></e>
       <e><p><l>arressare<s n="vblex"/></l><r>fermare<s n="vblex"/></r></p></e>
       <e><p><l>regòllere<s n="vblex"/></l><r>raccogliere<s n="vblex"/></r></p></e>
@@ -12343,7 +12343,6 @@
       <e><p><l>orizontare<s n="vblex"/></l><r>orientare<s n="vblex"/></r></p></e>
       <e><p><l>modellare<s n="vblex"/></l><r>modellare<s n="vblex"/></r></p></e>
       <e><p><l>ispartzinare<s n="vblex"/></l><r>sparpagliare<s n="vblex"/></r></p></e>
-      <e><p><l>insegnare<s n="vblex"/></l><r>insegnare<s n="vblex"/></r></p></e>
       <e><p><l>articulare<s n="vblex"/></l><r>articolare<s n="vblex"/></r></p></e>
       <e><p><l>secuestrare<s n="vblex"/></l><r>sequestrare<s n="vblex"/></r></p></e>
       <e><p><l>ritirare<s n="vblex"/></l><r>ritirare<s n="vblex"/></r></p></e>
@@ -12615,7 +12614,7 @@
       <e><p><l>evacuare<s n="vblex"/></l><r>evacuare<s n="vblex"/></r></p></e>
       <e><p><l>esplòdere<s n="vblex"/></l><r>esplodere<s n="vblex"/></r></p></e>
       <e><p><l>esperimentare<s n="vblex"/></l><r>sperimentare<s n="vblex"/></r></p></e>
-      <e><p><l>emergere<s n="vblex"/></l><r>emergere<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>emergere<s n="vblex"/></l><r>emergere<s n="vblex"/></r></p></e> -->
       <e><p><l>dòlere<s n="vblex"/></l><r>fare<b/>male<s n="vblex"/></r></p></e>
       <e><p><l>dispatzare<s n="vblex"/></l><r>mandare<g><b/>via</g><s n="vblex"/></r></p></e>
       <e><p><l>diluire<s n="vblex"/></l><r>diluire<s n="vblex"/></r></p></e>
@@ -12641,7 +12640,7 @@
       <e><p><l>iscrobare<s n="vblex"/></l><r>distaccare<s n="vblex"/></r></p></e>
       <e><p><l>istoriare<s n="vblex"/></l><r>raccontare<g><b/>storie</g><s n="vblex"/></r></p></e>
       <e><p><l>istagiare<s n="vblex"/></l><r>distaccare<s n="vblex"/></r></p></e>
-      <e><p><l>arreere<s n="vblex"/></l><r>bloccare<s n="vblex"/></r></p></e>
+      <e><p><l>arrèere<s n="vblex"/></l><r>bloccare<s n="vblex"/></r></p></e>
       <e><p><l>preigare<s n="vblex"/></l><r>predicare<s n="vblex"/></r></p></e>
       <e><p><l>revendicare<s n="vblex"/></l><r>rivendicare<s n="vblex"/></r></p></e>
       <e><p><l>giuigare<s n="vblex"/></l><r>giudicare<s n="vblex"/></r></p></e>
@@ -12706,7 +12705,6 @@
       <e><p><l>consumare<s n="vblex"/></l><r>consumare<s n="vblex"/></r></p></e>
       <e><p><l>emìtere<s n="vblex"/></l><r>emanare<s n="vblex"/></r></p></e>
       <e><p><l>disignare<s n="vblex"/></l><r>disegnare<s n="vblex"/></r></p></e>
-      <e><p><l>insignare<s n="vblex"/></l><r>insegnare<s n="vblex"/></r></p></e>
       <e><p><l>cunsignare<s n="vblex"/></l><r>consegnare<s n="vblex"/></r></p></e>
       <e><p><l>designare<s n="vblex"/></l><r>designare<s n="vblex"/></r></p></e>
       <e><p><l>disciplinare<s n="vblex"/></l><r>disciplinare<s n="vblex"/></r></p></e>
@@ -12725,7 +12723,7 @@
       <e><p><l>pàrrere<s n="vblex"/></l><r>sembrare<s n="vblex"/></r></p></e>
       <e><p><l>liberare<s n="vblex"/></l><r>liberare<s n="vblex"/></r></p></e>
       <e><p><l>apretziare<s n="vblex"/></l><r>considerare<s n="vblex"/></r></p></e>
-      <e><p><l>creschere<s n="vblex"/></l><r>esagerare<s n="vblex"/></r></p></e>
+      <e><p><l>crèschere<s n="vblex"/></l><r>esagerare<s n="vblex"/></r></p></e>
       <e><p><l>atzelerare<s n="vblex"/></l><r>accelerare<s n="vblex"/></r></p></e>
       <e><p><l>alterare<s n="vblex"/></l><r>alterare<s n="vblex"/></r></p></e>
       <e><p><l>disterrare<s n="vblex"/></l><r>emigrare<s n="vblex"/></r></p></e>
@@ -12787,7 +12785,6 @@
       <e><p><l>currispòndere<s n="vblex"/></l><r>corrispondere<s n="vblex"/></r></p></e>
       <e><p><l>mossigare<s n="vblex"/></l><r>mordere<s n="vblex"/></r></p></e>
       <e><p><l>cungiare<s n="vblex"/></l><r>chiudere<s n="vblex"/></r></p></e>
-      <e><p><l>inclùdere<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
       <e><p><l>concluire<s n="vblex"/></l><r>concludere<s n="vblex"/></r></p></e>
       <e><p><l>elègere<s n="vblex"/></l><r>eleggere<s n="vblex"/></r></p></e>
       <e><p><l>currègere<s n="vblex"/></l><r>correggere<s n="vblex"/></r></p></e>
@@ -12802,7 +12799,6 @@
       <e><p><l>bìnchere<s n="vblex"/></l><r>prevalere<s n="vblex"/></r></p></e>
       <e><p><l>costumare<s n="vblex"/></l><r>solere<s n="vblex"/></r></p></e>
       <e><p><l>espressare<s n="vblex"/></l><r>esprimere<s n="vblex"/></r></p></e>
-      <e><p><l>detenere<s n="vblex"/></l><r>detenere<s n="vblex"/></r></p></e>
       <e><p><l>mantènnere<s n="vblex"/></l><r>mantenere<s n="vblex"/></r></p></e>
       <e><p><l>càbere<s n="vblex"/></l><r>contenere<s n="vblex"/></r></p></e>
       <e><p><l>apartènnere<s n="vblex"/></l><r>appartenere<s n="vblex"/></r></p></e>
@@ -12896,7 +12892,7 @@
 
       <e><p><l>chidare<s n="vblex"/></l><r>passare<g><b/>la<b/>settimana</g><s n="vblex"/></r></p></e>
       <e><p><l>poetare<s n="vblex"/></l><r>fare<g><b/>poesie</g><s n="vblex"/></r></p></e>
-      <e><p><l>imparere<s n="vblex"/></l><r>mettere<g><b/>insieme</g><s n="vblex"/></r></p></e>
+      <!-- <e><p><l>imparere<s n="vblex"/></l><r>mettere<g><b/>insieme</g><s n="vblex"/></r></p></e> -->
       <e><p><l>raighinare<s n="vblex"/></l><r>radicare<s n="vblex"/></r></p></e>
       <e><p><l>dedicare<s n="vblex"/></l><r>dedicare<s n="vblex"/></r></p></e>
       <e><p><l>inditare<s n="vblex"/></l><r>indicare<s n="vblex"/></r></p></e>
@@ -13013,7 +13009,6 @@
       <e><p><l>godire<s n="vblex"/></l><r>godere<s n="vblex"/></r></p></e>
       <e><p><l>ròere<s n="vblex"/></l><r>rodere<s n="vblex"/></r></p></e>
       <e><p><l>pèrdere<s n="vblex"/></l><r>perdere<s n="vblex"/></r></p></e>
-      <e><p><l>includere<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
       <e><p><l>isseberare<s n="vblex"/></l><r>scegliere<s n="vblex"/></r></p></e>
       <e><p><l>collire<s n="vblex"/></l><r>raccogliere<s n="vblex"/></r></p></e>
       <e><p><l>permanentare<s n="vblex"/></l><r>permanere<s n="vblex"/></r></p></e>
@@ -13106,13 +13101,12 @@
       <e><p><l>apasigare<s n="vblex"/></l><r>pacificare<s n="vblex"/></r></p></e>
       <e><p><l>apeddare<s n="vblex"/></l><r>abbaiare<s n="vblex"/></r></p></e>
       <e><p><l>apeigare<s n="vblex"/></l><r>calpestare<s n="vblex"/></r></p></e>
-      <e><p><l>apessamentare<s n="vblex"/></l><r>preoccupare<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>apessamentare<s n="vblex"/></l><r>preoccupare<s n="vblex"/></r></p></e> -->
       <e><p><l>apicare<s n="vblex"/></l><r>appendere<s n="vblex"/></r></p></e>
       <e><p><l>apòrrere<s n="vblex"/></l><r>porgere<s n="vblex"/></r></p></e>
       <e><p><l>aprofetare<s n="vblex"/></l><r>approfittare<s n="vblex"/></r></p></e>
       <e><p><l>aprofundire<s n="vblex"/></l><r>approfondire<s n="vblex"/></r></p></e>
       <e><p><l>archiviare<s n="vblex"/></l><r>archiviare<s n="vblex"/></r></p></e>
-      <e><p><l>arrenèschere<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
       <e><p><l>arrennegare<s n="vblex"/></l><r>arrabbiare<s n="vblex"/></r></p></e>
       <e><p><l>arrichire<s n="vblex"/></l><r>arricchire<s n="vblex"/></r></p></e>
       <e><p><l>arrustire<s n="vblex"/></l><r>arrostire<s n="vblex"/></r></p></e>
@@ -13352,7 +13346,6 @@
       <e><p><l>lucrare<s n="vblex"/></l><r>ottenere<s n="vblex"/></r></p></e>
       <e><p><l>maleìghere<s n="vblex"/></l><r>maledire<s n="vblex"/></r></p></e>
       <e><p><l>manciare<s n="vblex"/></l><r>macchiare<s n="vblex"/></r></p></e>
-      <e><p><l>marciare<s n="vblex"/></l><r>marciare<s n="vblex"/></r></p></e>
       <e><p><l>marrare<s n="vblex"/></l><r>zappare<s n="vblex"/></r></p></e>
       <e><p><l>megiorare<s n="vblex"/></l><r>progredire<s n="vblex"/></r></p></e>
       <e><p><l>meledare<s n="vblex"/></l><r>riflettere<s n="vblex"/></r></p></e>
@@ -13365,7 +13358,7 @@
       <e><p><l>ochìere<s n="vblex"/></l><r>ammazzare<s n="vblex"/></r></p></e>
       <e><p><l>ograre<s n="vblex"/></l><r>adocchiare<s n="vblex"/></r></p></e>
       <e><p><l>ogrire<s n="vblex"/></l><r>gemmare<s n="vblex"/></r></p></e>
-      <e><p><l>òmine<s n="vblex"/></l><r>occhieggiare<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>òmine<s n="vblex"/></l><r>occhieggiare<s n="vblex"/></r></p></e> -->
       <e><p><l>omìtere<s n="vblex"/></l><r>omettere<s n="vblex"/></r></p></e>
       <e><p><l>ommìtere<s n="vblex"/></l><r>omettere<s n="vblex"/></r></p></e>
       <e><p><l>opònnere<s n="vblex"/></l><r>opporre<s n="vblex"/></r></p></e>
@@ -13550,10 +13543,8 @@
       <e><p><l>defèndere<s n="vblex"/></l><r>difendere<s n="vblex"/></r></p></e>
       <e><p><l>delegificare<s n="vblex"/></l><r>delegificare<s n="vblex"/></r></p></e>
       <e><p><l>dessignare<s n="vblex"/></l><r>designare<s n="vblex"/></r></p></e>
-      <e><p><l>dessinnare<s n="vblex"/></l><r>designare<s n="vblex"/></r></p></e>
       <e><p><l>detènnere<s n="vblex"/></l><r>detenere<s n="vblex"/></r></p></e>
       <e><p><l>dignificare<s n="vblex"/></l><r>dignificare<s n="vblex"/></r></p></e>
-      <e><p><l>dinnificare<s n="vblex"/></l><r>dignificare<s n="vblex"/></r></p></e>
       <e><p><l>dipositare<s n="vblex"/></l><r>depositare<s n="vblex"/></r></p></e>
       <e><p><l>dirìgere<s n="vblex"/></l><r>dirigere<s n="vblex"/></r></p></e>
       <e><p><l>disinnare<s n="vblex"/></l><r>disegnare<s n="vblex"/></r></p></e>
@@ -13571,7 +13562,7 @@
       <e><p><l>emìtere<s n="vblex"/></l><r>rilasciare<s n="vblex"/></r></p></e>
       <e><p><l>esagerare<s n="vblex"/></l><r>esagerare<s n="vblex"/></r></p></e>
       <e><p><l>esplicare<s n="vblex"/></l><r>esplicare<s n="vblex"/></r></p></e>
-      <e><p><l>etzedire<s n="vblex"/></l><r>eccedere<s n="vblex"/></r></p></e>
+      <e><p><l>etzedere<s n="vblex"/></l><r>eccedere<s n="vblex"/></r></p></e>
       <e><p><l>extrafamiliare<s n="vblex"/></l><r>extrafamiliare<s n="vblex"/></r></p></e>
       <e><p><l>fàghere<s n="vblex"/></l><r>eseguire<s n="vblex"/></r></p></e>
       <e><p><l>fàghere<s n="vblex"/></l><r>realizzare<s n="vblex"/></r></p></e>
@@ -13600,6 +13591,8 @@
       <e><p><l>incaminare<s n="vblex"/></l><r>avviare<s n="vblex"/></r></p></e>
       <e><p><l>inclùere<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
       <e><p><l>incluire<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
+      <e><p><l>incruire<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
+      <e><p><l>inclùdere<s n="vblex"/></l><r>includere<s n="vblex"/></r></p></e>
       <e><p><l>incuerelare<s n="vblex"/></l><r>querelare<s n="vblex"/></r></p></e>
       <e><p><l>incumentzare<s n="vblex"/></l><r>incominciare<s n="vblex"/></r></p></e>
       <e><p><l>incurare<s n="vblex"/></l><r>curare<s n="vblex"/></r></p></e>
@@ -13613,6 +13606,7 @@
       <e><p><l>inserire<s n="vblex"/></l><r>ricomprendere<s n="vblex"/></r></p></e>
       <e><p><l>insertare<s n="vblex"/></l><r>inserire<s n="vblex"/></r></p></e>
       <e><p><l>insinzare<s n="vblex"/></l><r>insegnare<s n="vblex"/></r></p></e>
+      <e><p><l>insegnare<s n="vblex"/></l><r>insegnare<s n="vblex"/></r></p></e>
       <e><p><l>interagire<s n="vblex"/></l><r>interagire<s n="vblex"/></r></p></e>
       <e><p><l>intimare<s n="vblex"/></l><r>diffidare<s n="vblex"/></r></p></e>
       <e><p><l>intregare<s n="vblex"/></l><r>affidare<s n="vblex"/></r></p></e>
@@ -13733,7 +13727,6 @@
       <e><p><l>rennoare<s n="vblex"/></l><r>rinnovare<s n="vblex"/></r></p></e>
       <e><p><l>reperire<s n="vblex"/></l><r>reperire<s n="vblex"/></r></p></e>
       <e><p><l>repertoriare<s n="vblex"/></l><r>repertoriare<s n="vblex"/></r></p></e>
-      <e><p><l>resessere<s n="vblex"/></l><r>riuscire<s n="vblex"/></r></p></e>
       <e><p><l>resparmiare<s n="vblex"/></l><r>risparmiare<s n="vblex"/></r></p></e>
       <e><p><l>revengare<s n="vblex"/></l><r>rivendicare<s n="vblex"/></r></p></e>
       <e><p><l>revèntere<s n="vblex"/></l><r>realizzare<s n="vblex"/></r></p></e>
