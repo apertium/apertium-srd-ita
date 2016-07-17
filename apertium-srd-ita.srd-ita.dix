@@ -161,7 +161,7 @@
 
       <e><p><l>pro<b/>custu<s n="cnjadv"/></l><r>perció<s n="cnjadv"/></r></p></e>
       
-      <e><p><l>comente<s n="cnjsub"/></l><r>come<s n="cnjadv"/></r></p></e>
+      <e><p><l>comente<s n="rel"/><s n="adv"/></l><r>come<s n="rel"/><s n="adv"/></r></p></e>
       <e><p><l>de<b/>manera<b/>chi<s n="cnjadv"/></l><r>in<b/>modo<b/>che<s n="cnjadv"/></r></p></e>
       <e><p><l>in<b/>manera<s n="cnjadv"/></l><r>in<b/>maniera<s n="cnjadv"/></r></p></e>
       <e><p><l>sigomente<s n="cnjadv"/></l><r>siccome<s n="cnjadv"/></r></p></e>
@@ -1917,7 +1917,6 @@
       <e><p><l>estu<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vigore<s n="n"/><s n="m"/></l><r>vigore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>sièntzia<s n="n"/><s n="f"/></l><r>scienza<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>eja<s n="adv"/></l><r>si<s n="adv"/></r></p></e>
       <e><p><l>contea<s n="n"/><s n="f"/></l><r>contea<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>marinu<s n="adj"/></l><r>marino<s n="adj"/></r></p></e>
       <e><p><l>asturianu<s n="adj"/></l><r>asturiano<s n="adj"/></r></p></e>
@@ -2005,7 +2004,6 @@
       <e><p><l>paba<s n="n"/><s n="m"/></l><r>papa<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>legislativu<s n="adj"/></l><r>legislativo<s n="adj"/></r></p></e>
       <e><p><l>funtana<s n="n"/><s n="f"/></l><r>fontana<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>ei<s n="adv"/></l><r>si<s n="adv"/></r></p></e>
       <e><p><l>ricu<s n="n"/></l><r>ricco<s n="n"/></r></p></e>
       <e><p><l>bellu<s n="adv"/></l><r>piano<s n="adv"/></r></p></e>
 
@@ -3765,9 +3763,11 @@
       <e><p><l>dotore<s n="n"/></l><r>dottore<s n="n"/></r></p></e>
       <e><p><l>reduidore<s n="n"/></l><r>riduttore<s n="n"/></r></p></e>
       <e><p><l>bidore<s n="n"/></l><r>tutore<s n="n"/></r></p></e>
-      <e><p><l>burocratesu<s n="n"/></l><r>burocratese<s n="n"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>burocratesu<s n="adj"/></l><r>burocratese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <!-- <e><p><l>burocratesu<s n="n"/></l><r>burocratese<s n="n"/></r></p><par n="GD_mf"/></e> -->
+      <!-- <e><p><l>burocratesu<s n="adj"/></l><r>burocratese<s n="adj"/></r></p><par n="GD_mf"/></e> -->
       <e><p><l>burocrate<s n="n"/><s n="mf"/></l><r>burocrate<s n="n"/><s n="mf"/></r></p></e>
+      <e r="LR"><p><l>burocratu<s n="n"/><s n="m"/></l><r>burocrate<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>burocràticu<s n="adj"/></l><r>burocratico<s n="adj"/></r></p></e>
       <e><p><l>istudiante<s n="n"/><s n="mf"/></l><r>studente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>imbiadore<s n="n"/></l><r>mittente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>babbu<s n="n"/><s n="m"/></l><r>babbo<s n="n"/><s n="m"/></r></p></e>
@@ -5066,7 +5066,6 @@
       <e><p><l>crecu<s n="n"/><s n="m"/></l><r>interesse<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>riellu<s n="n"/><s n="m"/></l><r>interesse<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>inchirinu<s n="n"/><s n="m"/></l><r>interesse<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>burocratu<s n="n"/></l><r>burocrate<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>lìmide<s n="n"/><s n="m"/></l><r>limite<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>lìmite<s n="n"/><s n="m"/></l><r>limite<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>lista<s n="n"/><s n="f"/></l><r>albo<s n="n"/><s n="m"/></r></p></e>
@@ -5267,7 +5266,7 @@
       <e><p><l>iter<s n="n"/><s n="m"/></l><r>iter<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 
       <e><p><l>realista<s n="n"/></l><r>realista<s n="n"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>natzionalitàriu<s n="n"/></l><r>nazionalista<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>natzionalitàriu<s n="n"/></l><r>nazionalista<s n="n"/></r></p></e>
       <e><p><l>autonomista<s n="n"/></l><r>autonomista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>egoista<s n="n"/></l><r>egoista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>barista<s n="n"/></l><r>barista<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -10951,6 +10950,7 @@
       <e><p><l>mègius<s n="adj"/><s n="mf"/></l><r>migliore<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
       <e><p><l>grecu<s n="adj"/></l><r>greco<s n="adj"/></r></p></e>
       <e><p><l>bonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>buonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
       <e><p><l>dòpiu<s n="adj"/></l><r>doppio<s n="adj"/></r></p></e>
       <e><p><l>mèigu<s n="adj"/></l><r>medico<s n="adj"/></r></p></e>
       <e><p><l>autu<s n="adj"/></l><r>atto<s n="adj"/></r></p></e>
@@ -12621,7 +12621,6 @@
       <e><p><l>esplòdere<s n="vblex"/></l><r>esplodere<s n="vblex"/></r></p></e>
       <e><p><l>esperimentare<s n="vblex"/></l><r>sperimentare<s n="vblex"/></r></p></e>
       <e><p><l>istupare<s n="vblex"/></l><r>emergere<s n="vblex"/></r></p></e>
-      <e><p><l>dòlere<s n="vblex"/></l><r>fare<b/>male<s n="vblex"/></r></p></e>
       <e><p><l>dispatzare<s n="vblex"/></l><r>mandare<g><b/>via</g><s n="vblex"/></r></p></e>
       <e><p><l>diluire<s n="vblex"/></l><r>diluire<s n="vblex"/></r></p></e>
       <e><p><l>dialogare<s n="vblex"/></l><r>dialogare<s n="vblex"/></r></p></e>
@@ -13036,7 +13035,7 @@
       <e><p><l>impònnere<s n="vblex"/></l><r>imporre<s n="vblex"/></r></p></e>
       <e><p><l>cumpònnere<s n="vblex"/></l><r>comporre<s n="vblex"/></r></p></e>
       <e><p><l>traduire<s n="vblex"/></l><r>tradurre<s n="vblex"/></r></p></e>
-      <e><p><l>umanare<s n="vblex"/></l><r>umanare<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>umanare<s n="vblex"/></l><r>umanare<s n="vblex"/></r></p></e> -->
 
       <e><p><l>appetitare<s n="vblex"/></l><r>stuzzicare<s n="vblex"/></r></p></e>
       <e><p><l>tastare<s n="vblex"/></l><r>gustare<s n="vblex"/></r></p></e>
@@ -13219,7 +13218,7 @@
       <e><p><l>diferentziare<s n="vblex"/></l><r>differenziare<s n="vblex"/></r></p></e>
       <e><p><l>diferire<s n="vblex"/></l><r>differire<s n="vblex"/></r></p></e>
       <e><p><l>difidare<s n="vblex"/></l><r>diffidare<s n="vblex"/></r></p></e>
-      <e><p><l>dimitire<s n="vblex"/></l><r>dimettersi<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>dimitire<s n="vblex"/></l><r>dimettersi<s n="vblex"/></r></p></e> -->
       <e><p><l>discunfiare<s n="vblex"/></l><r>sfiduciare<s n="vblex"/></r></p></e>
       <e><p><l>disdire<s n="vblex"/></l><r>disdire<s n="vblex"/></r></p></e>
       <e><p><l>dismajare<s n="vblex"/></l><r>svenire<s n="vblex"/></r></p></e>
@@ -15597,7 +15596,6 @@
       <e r="RL"><p><l>brutu<s n="adj"/></l><r>sporco<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>bundatziosu<s n="adj"/></l><r>abbondante<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>burghesu<s n="adj"/></l><r>borghese<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>burocratesu<s n="adj"/></l><r>burocratese<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>cada<s n="adj"/></l><r>ogni<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>caddotzu<s n="adj"/></l><r>sporco<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>calesi<b/>cherzat<s n="adj"/></l><r>qualsivoglia<s n="adj"/><s n="sup"/></r></p></e>
@@ -17272,10 +17270,7 @@
       <e><p><l>cando<b/>non<b/>cando<s n="adv"/></l><r>casomai<s n="adv"/></r></p></e>
       <e><p><l>cando<s n="adv"/></l><r>quando<s n="adv"/></r></p></e>
       <e><p><l>cara<s n="adv"/></l><r>verso<s n="adv"/></r></p></e>
-      <e><p><l>che<s n="cnjsub"/></l><r>come<s n="cnjsub"/></r></p></e>
       <!--<e><p><l>comente<s n="adv"/></l><r>come<s n="adv"/></r></p></e>-->
-      <e><p><l>comente<s n="cnjsub"/></l><r>come<s n="cnjsub"/></r></p></e>
-      <e><p><l>comente<s n="preadv"/></l><r>come<s n="preadv"/></r></p></e>
       <e><p><l>cua·cua<s n="adv"/></l><r>di<b/>nascosto<s n="adv"/></r></p></e>
       <e><p><l>curre·curre<s n="adv"/></l><r>di<b/>corsa<s n="adv"/></r></p></e>
       <e><p><l>dae<b/>cuddae<s n="adv"/></l><r>da<b/>laggiù<s n="adv"/></r></p></e>
