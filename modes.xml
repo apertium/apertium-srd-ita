@@ -442,7 +442,7 @@
       <program name="lt-proc -b">
         <file name="ita-srd.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m"> <!-- afegir -t per a ensenyar el pes total -->
         <file name="ita-srd.autolex.bin"/>
       </program>
     </pipeline>
@@ -464,6 +464,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ita-srd.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="ita-srd.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-srd-ita.ita-srd.t1x"/>
@@ -488,6 +491,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ita-srd.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="ita-srd.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-srd-ita.ita-srd.t1x"/>
@@ -516,6 +522,9 @@
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="ita-srd.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="ita-srd.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-srd-ita.ita-srd.t1x"/>

@@ -62,6 +62,49 @@
   </rule>
 
 
+<rule weight="1.0">  <!-- regola senza contesto per scegliere una forma -->
+    <match lemma="vita" tags="n.*"><select lemma="vida" tags="n.*"/></match>
+</rule> 
+
+
+<!-- POSTO -->
+
+  <rule weight="1.0">
+  <!-- "posto di lavoro → postu de traballu -->
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+    <match lemma="di" tags="pr"/>
+    <match lemma="lavoro" tags="n.*"/>
+  </rule>
+
+<rule weight="0.5"> 
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+</rule> 
+
+<rule weight="1.0">  
+    <match lemma="posto" tags="n.*"><select lemma="locu" tags="n.*"/></match>
+</rule> 
+
+
+
+<!-- ECONOMICO -->
+
+  <rule weight="1.0">
+  <!-- "molto economico →  meda baratu -->
+    <or>
+       <match lemma="molto" tags="adv"/>   <!-- just in case the tagger didn't get it right -->
+       <match lemma="molto" tags="preadv"/>
+    </or>
+    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
+  </rule>
+
+<rule weight="0.5"> 
+    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
+</rule> 
+
+<rule weight="1.0"> 
+    <match lemma="economico" tags="adj.*"><select lemma="econòmicu" tags="adj.*"/></match>
+</rule> 
+
 
 
 </rules>

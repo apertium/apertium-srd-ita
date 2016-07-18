@@ -2,6 +2,10 @@
 <dictionary>
   <alphabet></alphabet>
 
+
+<!-- LR restrictions are used to remove non-preferred
+Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
+
   <sdefs>
     <sdef n="n"       c="Noun"/>
     <sdef n="cnjcoo"  c=""/>
@@ -12354,7 +12358,7 @@
       <e><p><l>secuestrare<s n="vblex"/></l><r>sequestrare<s n="vblex"/></r></p></e>
       <e><p><l>ritirare<s n="vblex"/></l><r>ritirare<s n="vblex"/></r></p></e>
       <e><p><l>retzare<s n="vblex"/></l><r>recitare<s n="vblex"/></r></p></e>
-      <e><p><l>mudire<s n="vblex"/></l><r>chiamare<s n="vblex"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>mudire<s n="vblex"/></l><r>chiamare<s n="vblex"/></r></p></e>
       <e><p><l>incuinare<s n="vblex"/></l><r>inquinare<s n="vblex"/></r></p></e>
       <e><p><l>derrotare<s n="vblex"/></l><r>sconfiggere<s n="vblex"/></r></p></e>
       <e><p><l>bisionare<s n="vblex"/></l><r>visionare<s n="vblex"/></r></p></e>
@@ -12704,7 +12708,7 @@
       <e><p><l>consolare<s n="vblex"/></l><r>consolare<s n="vblex"/></r></p></e>
       <e><p><l>dispintare<s n="vblex"/></l><r>simulare<s n="vblex"/></r></p></e>
       <e><p><l>dispintare<s n="vblex"/></l><r>dissimulare<s n="vblex"/></r></p></e>
-      <e><p><l>cramare<s n="vblex"/></l><r>chiamare<s n="vblex"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>cramare<s n="vblex"/></l><r>chiamare<s n="vblex"/></r></p></e>
       <e><p><l>reclamare<s n="vblex"/></l><r>reclamare<s n="vblex"/></r></p></e>
       <e><p><l>atamanare<s n="vblex"/></l><r>uniformare<s n="vblex"/></r></p></e>
       <e><p><l>fumare<s n="vblex"/></l><r>fumare<s n="vblex"/></r></p></e>
@@ -13778,7 +13782,7 @@
       <e><p><l>trasportare<s n="vblex"/></l><r>trasportare<s n="vblex"/></r></p></e>
       <e><p><l>trastocare<s n="vblex"/></l><r>contraffare<s n="vblex"/></r></p></e>
       <e><p><l>truncare<s n="vblex"/></l><r>rompere<s n="vblex"/></r></p></e>
-      <e><p><l>tzerriare<s n="vblex"/></l><r>chiamare<s n="vblex"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>tzerriare<s n="vblex"/></l><r>chiamare<s n="vblex"/></r></p></e>
       <e><p><l>tzessare<s n="vblex"/></l><r>cessare<s n="vblex"/></r></p></e>
       <e><p><l>tzucare<s n="vblex"/></l><r>partire<s n="vblex"/></r></p></e>
       <e><p><l>ufitzializare<s n="vblex"/></l><r>emanare<s n="vblex"/></r></p></e>
