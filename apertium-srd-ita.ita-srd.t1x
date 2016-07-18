@@ -158,6 +158,9 @@
     <def-cat n="a">
        <cat-item lemma="a" tags="pr"/>
     </def-cat>
+    <def-cat n="da">
+       <cat-item lemma="da" tags="pr"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -2151,6 +2154,57 @@
       </choose>      
     </def-macro>      
 
+    <def-macro n="f_concord_esp" npar="2"> <!-- if the noun has changed the gender articles and adjectives should too -->
+	<!-- the first paramenter is the name, the second the article or adjective -->
+      
+      <choose>
+	<when> 
+	  <test>
+	    <and>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	    <equal>
+	      <clip pos="1" side="sl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	  </let>
+	</when>
+	<when> 
+	  <test>
+	    <and>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="m"/>
+	    </equal>
+	    <equal>
+	      <clip pos="1" side="sl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	    <equal>
+	      <clip pos="2" side="tl" part="gen"/>
+	      <lit-tag v="f"/>
+	    </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="gen"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	  </let>
+	</when>
+      </choose>
+    </def-macro>      
+
     <def-macro n="f_det_to_adj_pos1" npar="1">
       <let>
         <clip pos="1" side="tl" part="a_pos"/>
@@ -2221,7 +2275,6 @@
     </def-macro>
 
     <def-macro n="f_li2bi" npar="1">
-      
       <choose>	<!--To change "li" to "bi" when there is a second enclitic -->
 	<when> 
 	  <test>
@@ -2237,6 +2290,87 @@
 	     </choose>
     </def-macro>
 
+    <def-macro n="f_pr_tn-pers" npar="2">
+      <choose>	<!-- To change to personal pronoun depending on the preposition -->
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
+	  </test>
+          <choose>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mie"/></let>
+	    </when>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="megus"/></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mene"/></let>
+	    </otherwise>
+          </choose>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
+	  </test>
+          <choose>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tie"/></let>
+	    </when>
+	    <when> 
+	      <test>
+	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	      </test>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tegus"/></let>
+	    </when>
+	    <otherwise>
+	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tene"/></let>
+	    </otherwise>
+          </choose>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="lui"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="noi"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="nois"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="voi"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="bois"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="loro"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	</when>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="gli"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	  <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.tn"/></let>
+	  <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
+	</when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
 <section-rules>
@@ -2250,7 +2384,11 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="det_n">
              <tags>
@@ -2282,7 +2420,11 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="num_n">
              <tags>
@@ -2314,7 +2456,11 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="adj_n">
              <tags>
@@ -2346,7 +2492,11 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="adjpos_n">
              <tags>
@@ -2378,7 +2528,7 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="adjpos_n">
              <tags>
@@ -2408,6 +2558,10 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
 	  <let>
 	    <clip pos="1" side="tl" part="a_adj_sup"/>
@@ -2448,7 +2602,11 @@
          <call-macro n="f_concord2">
            <with-param pos="1"/>
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="n_adj">
              <tags>
@@ -2478,6 +2636,10 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
            <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
@@ -2522,7 +2684,15 @@
            <with-param pos="1"/>
            <with-param pos="2"/>
            <with-param pos="3"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="predet-det-nom">
              <tags>
@@ -2562,7 +2732,15 @@
            <with-param pos="1"/>
            <with-param pos="2"/>
            <with-param pos="3"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="det-num-nom">
              <tags>
@@ -2604,7 +2782,19 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
            <with-param pos="4"/>
-         </call-macro>     
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="predet-det-num-nom">
              <tags>
@@ -2680,7 +2870,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="pp+si">
              <tags>
@@ -2754,7 +2944,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="pp+lo">
              <tags>
@@ -2818,7 +3008,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
            <chunk name="pp_a_inf">
@@ -2963,7 +3153,7 @@
        <action>
          <call-macro n="f_li2bi">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
            <chunk name="prn">
@@ -3028,7 +3218,7 @@
        <action>
          <call-macro n="f_li2bi">
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="verb_enc">
              <tags>
@@ -3093,7 +3283,7 @@
        <action>
          <call-macro n="f_li2bi">
            <with-param pos="2"/>
-         </call-macro>     
+         </call-macro>
          <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
@@ -3172,7 +3362,7 @@
        <action>
          <call-macro n="f_li2bi">
            <with-param pos="3"/>
-         </call-macro>     
+         </call-macro>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
@@ -3279,85 +3469,11 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="2"/>
-         </call-macro>     
-      <choose>
-	<when> 
-	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
-	  </test>
-          <choose>
-	    <when> 
-	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
-	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mie"/></let>
-	    </when>
-	    <when> 
-	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
-	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="megus"/></let>
-	    </when>
-	    <otherwise>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mene"/></let>
-	    </otherwise>
-          </choose>
-	</when>
-	<when> 
-	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
-	  </test>
-          <choose>
-	    <when> 
-	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
-	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tie"/></let>
-	    </when>
-	    <when> 
-	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
-	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tegus"/></let>
-	    </when>
-	    <otherwise>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tene"/></let>
-	    </otherwise>
-          </choose>
-	</when>
-	<when> 
-	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="lui"/></equal>
-	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
-	</when>
-	<when> 
-	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="noi"/></equal>
-	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="nois"/></let>
-	</when>
-	<when> 
-	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="voi"/></equal>
-	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="bois"/></let>
-	</when>
-	<when> 
-	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="loro"/></equal>
-	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
-	</when>
-	<when> 
-	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="gli"/></equal>
-	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
-	  <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.tn"/></let>
-	  <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
-	</when>
-      </choose>
+         </call-macro>
+         <call-macro n="f_pr_tn-pers">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
 
          <out>
            <chunk name="pr">
@@ -3386,6 +3502,57 @@
     </rule>
 
 
+    <rule comment="regla: pp da prn (complement agent)">
+       <pattern>
+         <pattern-item n="pp"/>
+         <pattern-item n="da"/>
+         <pattern-item n="tn-pers"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_pr_tn-pers">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SAdj"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+           <lu>
+               <lit v="dae"/><lit-tag v="pr"/>
+           </lu>
+           </chunk>
+           <b pos="2"/>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
 <!-- tractament multiparaules -->
 
     <rule comment="regla: nom">
@@ -3395,7 +3562,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="n">
              <tags>
@@ -3418,7 +3585,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="adj">
              <tags>
@@ -3441,7 +3608,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
 	  <let>
 	    <clip pos="1" side="tl" part="a_adj_sup"/>
 	    <lit-tag v="adj"/>
@@ -3473,7 +3640,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="tn">
              <tags>
@@ -3497,7 +3664,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="predet">
              <tags>
@@ -3520,7 +3687,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="d">
              <tags>
@@ -3544,7 +3711,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="num">
              <tags>
@@ -3610,7 +3777,7 @@
        <action>
          <call-macro n="f_concord1">
            <with-param pos="1"/>
-         </call-macro>     
+         </call-macro>
          <out>
            <chunk name="rel">
              <tags>
