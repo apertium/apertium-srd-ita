@@ -3735,6 +3735,41 @@
     </rule>
 
 
+    <rule comment="regla: pp da (complement agent)">
+       <pattern>
+         <pattern-item n="pp"/>
+         <pattern-item n="da"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SAdj"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+           <lu>
+               <lit v="dae"/><lit-tag v="pr"/>
+           </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <rule comment="regla: pp da prn (complement agent)">
        <pattern>
          <pattern-item n="pp"/>
@@ -3742,6 +3777,9 @@
          <pattern-item n="tn-pers"/>
        </pattern>
        <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
          <call-macro n="f_concord1">
            <with-param pos="3"/>
          </call-macro>
