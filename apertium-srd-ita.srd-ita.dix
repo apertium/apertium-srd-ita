@@ -589,9 +589,10 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
 
       <!-- SECCIÓN: Sustantivos -->
+
       <e><p><l>domo<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
-      <e r="LR"><p><l>domu<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
-      <e r="LR"><p><l>casa<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>domu<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>casa<s n="n"/><s n="f"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>calore<s n="n"/><s n="m"/></l><r>calore<s n="n"/><s n="m"/></r></p></e>
 
       <e><p><l>persona<s n="n"/><s n="f"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>

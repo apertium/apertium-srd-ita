@@ -3904,7 +3904,8 @@
                <tag><lit-tag v="rel"/></tag>
              </tags>
            <lu>
-             <lit v="su chi"/><lit-tag v="rel.an"/>
+             <get-case-from pos="1"><lit v="su chi"/></get-case-from>
+             <lit-tag v="rel.an"/>
              <clip pos="1" side="tl" part="gen"/>
              <clip pos="1" side="sl" part="nbr"/>
            </lu>
