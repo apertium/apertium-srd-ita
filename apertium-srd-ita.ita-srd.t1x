@@ -2154,7 +2154,7 @@
       </choose>      
     </def-macro>      
 
-    <def-macro n="f_concord_esp" npar="2"> <!-- if the noun has changed the gender articles and adjectives should too -->
+    <def-macro n="f_concord_esp" npar="2"> <!-- if the noun has changed the gender and/or number articles and adjectives should too -->
 	<!-- the first paramenter is the name, the second the article or adjective -->
       
       <choose>
@@ -2203,6 +2203,54 @@
 	  </let>
 	</when>
       </choose>
+      
+      <choose>
+	<when> 
+	  <test>
+	    <and>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	    <equal>
+	      <clip pos="1" side="sl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	  </let>
+	</when>
+	<when> 
+	  <test>
+	    <and>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	    <equal>
+	      <clip pos="1" side="sl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	    <equal>
+	      <clip pos="2" side="tl" part="nbr"/>
+	      <lit-tag v="pl"/>
+	    </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <clip pos="1" side="tl" part="nbr"/>
+	  </let>
+	</when>
+      </choose>
+
     </def-macro>      
 
     <def-macro n="f_det_to_adj_pos1" npar="1">

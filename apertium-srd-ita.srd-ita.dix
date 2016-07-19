@@ -667,7 +667,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>amigu<s n="n"/></l><r>amico<s n="n"/></r></p></e>
       <e><p><l>amministratzione<s n="n"/><s n="f"/></l><r>amministrazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>apparenza<s n="n"/><s n="f"/></l><r>aparentzia<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>architetu<s n="n"/><s n="m"/></l><r>architetto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>architetu<s n="n"/></l><r>architetto<s n="n"/></r></p></e>
+      <e><p><l>architetònicu<s n="adj"/></l><r>architettonico<s n="adj"/></r></p></e>
       <e><p><l>argumentu<s n="n"/><s n="m"/></l><r>argomento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arma<s n="n"/><s n="f"/></l><r>arma<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>arrestu<s n="n"/><s n="m"/></l><r>arresto<s n="n"/><s n="m"/></r></p></e>
@@ -838,6 +839,11 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>generatzione<s n="n"/><s n="f"/></l><r>generazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>gente<s n="n"/><s n="f"/></l><r>gente<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>geografia<s n="n"/><s n="f"/></l><r>geografia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>geògrafu<s n="n"/></l><r>geografo<s n="n"/></r></p></e>
+      <e><p><l>geologia<s n="n"/><s n="f"/></l><r>geologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>geòlogu<s n="n"/></l><r>geologo<s n="n"/></r></p></e>
+      <e><p><l>geometria<s n="n"/><s n="f"/></l><r>geometria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>geometra<s n="n"/><s n="m"/></l><r>geometra<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>gestione<s n="n"/><s n="f"/></l><r>gestione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>die<s n="n"/><s n="f"/></l><r>giorno<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>giòvanu<s n="n"/></l><r>giovane<s n="n"/></r></p><par n="GD_mf"/></e>
@@ -853,6 +859,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>punta<s n="n"/><s n="f"/></l><r>guglia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>classificatzione<s n="n"/><s n="f"/></l><r>classificazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>archeologia<s n="n"/><s n="f"/></l><r>archeologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>archeòlogo<s n="n"/></l><r>archeologo<s n="n"/></r></p></e>
       <e><p><l>produtore<s n="n"/><s n="m"/></l><r>produttore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>negatzione<s n="n"/><s n="f"/></l><r>negatzione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>iscontru<s n="n"/><s n="m"/></l><r>scontro<s n="n"/><s n="m"/></r></p></e>
@@ -5318,6 +5325,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>acreadore<s n="n"/></l><r>creditore<s n="n"/></r></p></e>
       <e><p><l>creditore<s n="n"/></l><r>creditore<s n="n"/></r></p></e>
       <e><p><l>bendidore<s n="n"/></l><r>venditore<s n="n"/></r></p></e>
+      <e><p><l>bendidore<s n="adj"/></l><r>venditore<s n="adj"/></r></p></e>
       <e><p><l>frunidore<s n="n"/></l><r>fornitore<s n="n"/></r></p></e>
       <e><p><l>sucurridore<s n="n"/></l><r>soccorritore<s n="n"/></r></p></e>
       <e><p><l>allogaderi<s n="n"/></l><r>conduttore<s n="n"/></r></p></e>
@@ -5337,6 +5345,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>votante<s n="n"/><s n="mf"/></l><r>votante<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>innotzente<s n="n"/><s n="mf"/></l><r>innocente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>bendidore<s n="n"/></l><r>esercente<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>bendidore<s n="adj"/></l><r>esercente<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>cummertziante<s n="n"/></l><r>esercente<s n="n"/></r></p></e>
       <!--<e><p><l>mercaderi<s n="n"/></l><r>esercente<s n="n"/></r></p><par n="GD_mf"/></e>-->
       <e><p><l>rechedidore<s n="n"/></l><r>richiedente<s n="n"/></r></p><par n="GD_mf"/></e>
@@ -10337,6 +10346,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>ricu<s n="adj"/></l><r>ricco<s n="adj"/></r></p></e>
       <e><p><l>giurìdicu<s n="adj"/></l><r>giuridico<s n="adj"/></r></p></e>
       <e><p><l>geogràficu<s n="adj"/></l><r>geografico<s n="adj"/></r></p></e>
+      <e><p><l>geològicu<s n="adj"/></l><r>geologico<s n="adj"/></r></p></e>
+      <e><p><l>geomètricu<s n="adj"/></l><r>geometrico<s n="adj"/></r></p></e>
       <e><p><l>dislindadu<s n="adj"/></l><r>specifico<s n="adj"/></r></p></e>
       <e><p><l>archeològicu<s n="adj"/></l><r>archeologico<s n="adj"/></r></p></e>
       <e><p><l>lògicu<s n="adj"/></l><r>logico<s n="adj"/></r></p></e>
@@ -11455,8 +11466,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <!--<e><p><l>acreadore<s n="adj"/></l><r>creditore<s n="adj"/></r></p></e>-->
       <!--<e><p><l>amparadore<s n="adj"/></l><r>difensore<s n="adj"/></r></p></e>-->
       <!--<e><p><l>asseguradore<s n="adj"/></l><r>assicuratore<s n="adj"/></r></p></e>-->
-      <!--<e><p><l>bendidore<s n="adj"/></l><r>esercente<s n="adj"/></r></p></e>-->
-      <!--<e><p><l>bendidore<s n="adj"/></l><r>venditore<s n="adj"/></r></p></e>-->
       <!--<e><p><l>benidore<s n="adj"/></l><r>avvenire<s n="adj"/></r></p></e>-->
       <!--<e><p><l>biagiadore<s n="adj"/></l><r>viaggiatore<s n="adj"/></r></p></e>-->
       <!--<e><p><l>binchidore<s n="adj"/></l><r>vincitore<s n="adj"/></r></p></e>-->
@@ -15947,6 +15956,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>genoanu<s n="adj"/></l><r>genoano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>genovesu<s n="adj"/></l><r>genovese<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>geogràficu<s n="adj"/></l><r>geografico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>geològicu<s n="adj"/></l><r>geologico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>georgianu<s n="adj"/></l><r>georgiano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>germànicu<s n="adj"/></l><r>germanico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>germanu<s n="adj"/></l><r>germano<s n="adj"/><s n="sup"/></r></p></e>
@@ -16815,8 +16825,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>aziendale<s n="adj"/></l><r>aziendale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>balneare<s n="adj"/></l><r>balneare<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>bastante<s n="adj"/></l><r>sufficiente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <!--<e r="RL"><p><l>bendidore<s n="adj"/></l><r>esercente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
-      <!--<e r="RL"><p><l>bendidore<s n="adj"/></l><r>venditore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
+      <e r="RL"><p><l>bendidore<s n="adj"/></l><r>esercente<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>bendidore<s n="adj"/></l><r>venditore<s n="adj"/><s n="sup"/></r></p></e>
       <!--<e r="RL"><p><l>benidore<s n="adj"/></l><r>avvenire<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
       <e r="RL"><p><l>benidore<s n="adj"/></l><r>venturo<s n="adj"/><s n="sup"/></r></p></e>
       <!--<e r="RL"><p><l>biagiadore<s n="adj"/></l><r>viaggiatore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
@@ -17531,6 +17541,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>a<b/>manera<b/>generale<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>generosa<s n="adv"/></l><r>generosamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>geogràfica<s n="adv"/></l><r>geograficamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>geològica<s n="adv"/></l><r>geologicamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>geomètrica<s n="adv"/></l><r>geometricamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>architetònica<s n="adv"/></l><r>architettonicamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>giurìdica<s n="adv"/></l><r>giuridicamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>giusta<s n="adv"/></l><r>giustamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>gloriosa<s n="adv"/></l><r>gloriosamente<s n="adv"/></r></p></e>
