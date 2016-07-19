@@ -161,6 +161,14 @@
     <def-cat n="da">
        <cat-item lemma="da" tags="pr"/>
     </def-cat>
+    <def-cat n="quello">
+       <cat-item lemma="quello" tags="det.*"/>
+       <cat-item lemma="quello" tags="prn.tn.*"/>
+    </def-cat>
+    <def-cat n="che">
+       <cat-item lemma="che" tags="cnjsub"/>
+       <cat-item lemma="che" tags="rel.an.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -3871,6 +3879,41 @@
        </action>
     </rule>
 
+
+    <rule comment="regla: quello che">
+       <pattern>
+         <pattern-item n="quello"/>
+         <pattern-item n="che"/>
+       </pattern>
+       <action>
+       <let><clip pos="1" side="tl" part="gen"/><clip pos="1" side="sl" part="gen"/></let>
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="1" side="tl" part="gen"/>
+	      <lit-tag v="nt"/>
+	    </equal>
+	  </test>
+	  <let><clip pos="1" side="tl" part="gen"/><var n="genero"/></let>
+	</when>
+      </choose>
+         <out>
+           <chunk name="su_chi">
+             <tags>
+               <tag><lit-tag v="rel"/></tag>
+             </tags>
+           <lu>
+             <lit v="su chi"/><lit-tag v="rel.an"/>
+             <clip pos="1" side="tl" part="gen"/>
+             <clip pos="1" side="sl" part="nbr"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+<!-- xxxxxx -->
 
 <!-- tractament multiparaules -->
 
