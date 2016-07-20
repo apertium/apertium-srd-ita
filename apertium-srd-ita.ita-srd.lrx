@@ -62,9 +62,6 @@
   </rule>
 
 
-<rule weight="1.0">  <!-- regola senza contesto per scegliere una forma -->
-    <match lemma="vita" tags="n.*"><select lemma="vida" tags="n.*"/></match>
-</rule> 
 
 
 <!-- POSTO -->
@@ -106,14 +103,27 @@
 </rule> 
 
 <!-- VITA/VIDA -->
-<rule weight="0.5"> 
+
+<rule weight="1.0">  <!-- regola senza contesto per scegliere una forma -->
     <match lemma="vita" tags="n.*"><select lemma="vida" tags="n.*"/></match>
+</rule> 
+
+<rule weight="0.1"> 
+    <match lemma="vita" tags="n.*"><select lemma="chintu" tags="n.*"/></match>
 </rule> 
 
   <rule weight="1.0">
   <!-- "vita alta/bassa → chintu artu/bassu -->
     <match lemma="vita" tags="n.*"><select lemma="chintu" tags="n.*"/></match>
        <match lemma="alto" tags="adj.*"/>
+  </rule>
+
+<!--VITE/TORONÌLLIU-->
+
+  <rule weight="1.0">
+       <match tags="num.*"/>
+    <match lemma="vite" tags="n.*"><select lemma="toronìlliu" tags="n.*"/></match>
+
   </rule>
 
 </rules>
