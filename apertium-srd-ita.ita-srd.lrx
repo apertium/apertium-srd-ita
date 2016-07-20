@@ -105,7 +105,16 @@
     <match lemma="economico" tags="adj.*"><select lemma="econòmicu" tags="adj.*"/></match>
 </rule> 
 
+<!-- VITA/VIDA -->
+<rule weight="0.5"> 
+    <match lemma="vita" tags="n.*"><select lemma="vida" tags="n.*"/></match>
+</rule> 
 
+  <rule weight="1.0">
+  <!-- "vita alta/bassa → chintu artu/bassu -->
+    <match lemma="vita" tags="n.*"><select lemma="chintu" tags="n.*"/></match>
+       <match lemma="alto" tags="adj.*"/>
+  </rule>
 
 </rules>
 
