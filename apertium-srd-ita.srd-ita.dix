@@ -1982,7 +1982,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>persone<s n="n"/><s n="f"/></l><r>persona<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>curdu<s n="adj"/></l><r>curdo<s n="adj"/></r></p></e>
       <e><p><l>bizantinu<s n="adj"/></l><r>bizantino<s n="adj"/></r></p></e>
-      <!-- <e><p><l>costa<s n="adv"/></l><r>affianco<s n="adv"/></r></p></e> -->
+      <e><p><l>costa<s n="adv"/></l><r>a<b/>fianco<s n="adv"/></r></p></e>
       <e><p><l>proclamadu<s n="adj"/></l><r>proclamado<s n="adj"/></r></p></e>
       <e><p><l>era<s n="n"/><s n="f"/></l><r>era<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>birde<s n="adj"/></l><r>verde<s n="adj"/></r></p></e>
@@ -2511,7 +2511,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>cardinale<s n="n"/><s n="m"/></l><r>cardinale<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>bibbia<s n="n"/><s n="f"/></l><r>bibbia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>berberare<s n="vblex"/></l><r>bastonare<s n="vblex"/></r></p></e>
-      <e><p><l>barone<s n="n"/><s n="m"/></l><r>barone<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>barone<s n="n"/></l><r>barone<s n="n"/></r></p></e>
       <e><p><l>aristanesu<s n="adj"/></l><r>oristanese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>aba<s n="ij"/></l><r>aspetta<s n="ij"/></r></p></e>
       <e><p><l>volume<s n="n"/><s n="m"/></l><r>volume<s n="n"/><s n="m"/></r></p></e>
@@ -2543,7 +2543,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>designadu<s n="adj"/></l><r>designato<s n="adj"/></r></p></e>
       <e><p><l>cunsortziadu<s n="adj"/></l><r>consorziato<s n="adj"/></r></p></e>
       <e><p><l>cunfinare<s n="vblex"/></l><r>confinare<s n="vblex"/></r></p></e>
-      <e><p><l>conte<s n="n"/><s n="m"/></l><r>conte<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>conte<s n="n"/></l><r>conte<s n="n"/></r></p></e>
+      <e><p><l>visconte<s n="n"/></l><r>visconte<s n="n"/></r></p></e>
       <e><p><l>clone<s n="n"/><s n="m"/></l><r>clone<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>chirra<s n="n"/><s n="f"/></l><r>recinto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>chessa<s n="n"/><s n="f"/></l><r>lentisco<s n="n"/><s n="m"/></r></p></e>
@@ -4459,7 +4460,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>tzirare<s n="vblex"/></l><r>girare<s n="vblex"/></r></p></e>
 	<e><p><l>totalidade<s n="n"/><s n="f"/></l><r>totalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 	<e><p><l>tolleràntzia<s n="n"/><s n="f"/></l><r>tolleranza<s n="n"/><s n="f"/></r></p></e>
-	<!-- <e><p><l>sumire<s n="vblex"/></l><r>stillare<s n="vblex"/></r></p></e> -->
+	<e><p><l>sumire<s n="vblex"/></l><r>distillare<s n="vblex"/></r></p></e>
+	<e c="non-preferred"><p><l>sumire<s n="vblex"/></l><r>stillare<s n="vblex"/></r></p></e>
 	<e><p><l>sotziolinguìsticu<s n="adj"/></l><r>sociolinguistico<s n="adj"/></r></p></e>
 	<e><p><l>simbòlicu<s n="adj"/></l><r>simbolico<s n="adj"/></r></p></e>
 	<e><p><l>signore<s n="n"/></l><r>signore<s n="n"/></r></p></e>
@@ -4557,7 +4559,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>canònicu<s n="adj"/></l><r>canonico<s n="adj"/></r></p></e>
 	<e><p><l>brigata<s n="n"/><s n="f"/></l><r>brigata<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>breve<s n="n"/><s n="m"/></l><r>breve<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>bide<s n="n"/><s n="m"/></l><r>vite<s n="n"/><s n="m"/></r></p></e>
+        <e><p><l>chintu<s n="n"/><s n="m"/></l><r>vita<s n="n"/><s n="f"/></r></p></e>
+  	<e><p><l>vite<s n="n"/><s n="f"/></l><r>vite<s n="n"/><s n="f"/></r></p></e>
+  	<e><p><l>toronìlliu<s n="n"/><s n="m"/></l><r>vite<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>beniente<s n="adj"/><s n="mf"/></l><r>veniente<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>assuntzione<s n="n"/><s n="f"/></l><r>assunzione<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>assu<s n="adj"/></l><r>asso<s n="adj"/></r></p></e>
@@ -4633,7 +4637,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>leve<s n="adj"/><s n="mf"/></l><r>lieve<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>lanire<s n="vblex"/></l><r>muffire<s n="vblex"/></r></p></e>
 	<e><p><l>lana<s n="n"/><s n="f"/></l><r>lana<s n="n"/><s n="f"/></r></p></e>
-	<!-- <e><p><l>lamare<s n="vblex"/></l><r>lamare<s n="vblex"/></r></p></e> -->
+	<e c="non-preferred"><p><l>lamare<s n="vblex"/></l><r>lamare<s n="vblex"/></r></p></e>
+	<e><p><l>lamare<s n="vblex"/></l><r>limare<s n="vblex"/></r></p></e>
+	<e><p><l>lamare<s n="vblex"/></l><r>levigare<s n="vblex"/></r></p></e>
 	<e><p><l>istremenare<s n="vblex"/></l><r>franare<s n="vblex"/></r></p></e>
 	<e><p><l>istremenadu<s n="adj"/></l><r>franato<s n="adj"/></r></p></e>
 	<!-- <e><p><l>istamentu<s n="n"/><s n="m"/></l><r>stamento<s n="n"/><s n="m"/></r></p></e> -->
@@ -4702,7 +4708,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>arrangiamentu<s n="n"/><s n="m"/></l><r>arrangiamento<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>annualidade<s n="n"/><s n="f"/></l><r>annualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 	<e><p><l>amministradu<s n="adj"/></l><r>amministrato<s n="adj"/></r></p></e>
-	<!-- <e><p><l>ammanire<s n="vblex"/></l><r>ammanire<s n="vblex"/></r></p></e> -->
+	<e><p><l>ammanire<s n="vblex"/></l><r>ammannire<s n="vblex"/></r></p></e>
 	<e><p><l>ambitzione<s n="n"/><s n="f"/></l><r>ambizione<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>allutu<s n="adj"/></l><r>acceso<s n="adj"/></r></p></e>
 	<e><p><l>afine<s n="n"/><s n="m"/></l><r>affine<s n="n"/><s n="m"/></r></p></e>
@@ -5227,7 +5233,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>rede<s n="n"/><s n="m"/></l><r>rete<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>rebusare<s n="vblex"/></l><r>rivestire<s n="vblex"/></r></p></e>
 	<e><p><l>racumandatzione<s n="n"/><s n="f"/></l><r>raccomandazione<s n="n"/><s n="f"/></r></p></e>
-	<!-- <e><p><l>puntorgiare<s n="vblex"/></l><r>puntorgiare<s n="vblex"/></r></p></e> -->
+	<e><p><l>puntorgiare<s n="vblex"/></l><r>pungolare<s n="vblex"/></r></p></e>
 	<e><p><l>pugionare<s n="vblex"/></l><r>germogliare<s n="vblex"/></r></p></e>
 	<e><p><l>prudente<s n="adj"/><s n="mf"/></l><r>prudente<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>prostitutzione<s n="n"/><s n="f"/></l><r>prostituzione<s n="n"/><s n="f"/></r></p></e>
@@ -13600,7 +13606,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>apasigare<s n="vblex"/></l><r>pacificare<s n="vblex"/></r></p></e>
       <e><p><l>apeddare<s n="vblex"/></l><r>abbaiare<s n="vblex"/></r></p></e>
       <e><p><l>apeigare<s n="vblex"/></l><r>calpestare<s n="vblex"/></r></p></e>
-      <!-- <e><p><l>apessamentare<s n="vblex"/></l><r>preoccupare<s n="vblex"/></r></p></e> -->
+      <e><p><l>apensamentare<s n="vblex"/></l><r>preoccupare<s n="vblex"/></r></p></e>
       <e><p><l>apicare<s n="vblex"/></l><r>appendere<s n="vblex"/></r></p></e>
       <e><p><l>apòrrere<s n="vblex"/></l><r>porgere<s n="vblex"/></r></p></e>
       <e><p><l>aprofetare<s n="vblex"/></l><r>approfittare<s n="vblex"/></r></p></e>
