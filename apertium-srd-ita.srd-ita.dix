@@ -1808,7 +1808,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
     <e><p><l>finu<s n="adj"/></l><r>fino<s n="adj"/></r></p></e>
     <e><p><l>parte<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fatu<s n="n"/><s n="m"/></l><r>fato<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>b'at<s n="vblex"/></l><r>c'è<s n="vblex"/></r></p></e>
     <e><p><l>locu<s n="n"/><s n="m"/></l><r>luogo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>locu<s n="n"/><s n="m"/></l><r>posto<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sarvadore<s n="n"/></l><r>salvatore<s n="n"/></r></p></e>
@@ -2123,7 +2122,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>legu<s n="adj"/></l><r>laico<s n="adj"/></r></p></e>
       <e><p><l>legu<s n="adj"/></l><r>analfabeta<s n="adj"/></r></p></e>
       <e><p><l>Papa<s n="n"/><s n="m"/></l><r>Papa<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>pacu<s n="n"/><s n="m"/></l><r>poco<s n="n"/><s n="m"/></r></p></e>
+      <!-- <e><p><l>pacu<s n="n"/><s n="m"/></l><r>poco<s n="n"/><s n="m"/></r></p></e> -->
       <e><p><l>fieru<s n="adj"/></l><r>fiero<s n="adj"/></r></p></e>
       <e><p><l>atlante<s n="n"/><s n="m"/></l><r>atlante<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tzecu<s n="adj"/></l><r>ceco<s n="adj"/></r></p></e>
@@ -10696,7 +10695,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>cardinale<s n="adj"/></l><r>cardinale<s n="adj"/></r></p></e>
       <e><p><l>sitzilianu<s n="adj"/></l><r>siciliano<s n="adj"/></r></p></e>
       <e><p><l>sitzilianu<s n="n"/></l><r>siciliano<s n="n"/></r></p></e>
-      <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/><s n="ind"/></r></p><par n="mf_GD"/></e>
       <e><p><l>betzu<s n="adj"/></l><r>vecchio<s n="adj"/></r></p></e>
       <e><p><l>paritàriu<s n="adj"/></l><r>paritario<s n="adj"/></r></p></e>
       <e><p><l>lestru<s n="adj"/></l><r>veloce<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -16700,7 +16699,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>matessi<s n="adj"/></l><r>medesimo<s n="adj"/><s n="sup"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e r="RL"><p><l>matessi<s n="adj"/></l><r>stesso<s n="adj"/><s n="sup"/></r></p><par n="mf_GD|sp_ND"/></e>
       <e r="RL"><p><l>mecànicu<s n="adj"/></l><r>meccanico<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>meda<s n="adj"/></l><r>molto<s n="adj"/><s n="ind"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>mèdicu<s n="adj"/></l><r>medico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>mediterràneu<s n="adj"/></l><r>mediterraneo<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>mèdiu<s n="adj"/></l><r>medio<s n="adj"/><s n="sup"/></r></p></e>
@@ -18211,6 +18210,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>a<b/>manera<b/>voluntària<s n="adv"/></l><r>volontariamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>bòlida<s n="adv"/></l><r>volutamente<s n="adv"/></r></p></e>
 
+      <e><p><l>nàschere<s n="vblex"/></l><r>sorgere<s n="vblex"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
