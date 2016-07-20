@@ -10713,7 +10713,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>famadu<s n="adj"/></l><r>famoso<s n="adj"/></r></p></e>
       <e><p><l>ogetivu<s n="adj"/></l><r>oggettivo<s n="adj"/></r></p></e>
       <e><p><l>federadu<s n="adj"/></l><r>federativo<s n="adj"/></r></p></e>
-      <e><p><l>pagu<s n="adj"/></l><r>poco<s n="adj"/></r></p></e>
+      <e><p><l>pagu<s n="adj"/></l><r>poco<s n="adj"/><s n="ind"/></r></p></e>
       <e><p><l>italianu<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
       <e><p><l>italianu<s n="n"/></l><r>italiano<s n="n"/></r></p></e>
       <e><p><l>capitale<s n="adj"/></l><r>capitale<s n="adj"/></r></p></e>
@@ -16820,7 +16820,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>paesagìsticu<s n="adj"/></l><r>paesaggistico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>paganu<s n="adj"/></l><r>pagano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>paghiosu<s n="adj"/></l><r>pacifico<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>pagu<s n="adj"/></l><r>poco<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>pagu<s n="adj"/></l><r>poco<s n="adj"/><s n="ind"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>pakistanu<s n="adj"/></l><r>pakistano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>palermitanu<s n="adj"/></l><r>palermitano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>palestinesu<s n="adj"/></l><r>palestinese<s n="adj"/><s n="sup"/></r></p></e>

@@ -144,6 +144,7 @@
     </def-cat>
     <def-cat n="adjsup">
        <cat-item tags="adj.sup.*"/>
+       <cat-item tags="adj.ind.sup.*"/>
     </def-cat>
     <def-cat n="adjpos">
        <cat-item tags="adj.pos.*"/>
