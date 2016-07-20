@@ -1443,7 +1443,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>pèrdere<s n="n"/><s n="f"/></l><r>perdita<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bìsita<s n="n"/><s n="f"/></l><r>visita<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bida<s n="n"/><s n="f"/></l><r>vita<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>chintu<s n="n"/><s n="m"/></l><r>vita<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>regorta<s n="n"/><s n="f"/></l><r>raccolta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>bia<s n="n"/><s n="f"/></l><r>volta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>contraventzione<s n="n"/><s n="f"/></l><r>multa<s n="n"/><s n="f"/></r></p></e>
@@ -4558,8 +4557,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>canònicu<s n="adj"/></l><r>canonico<s n="adj"/></r></p></e>
 	<e><p><l>brigata<s n="n"/><s n="f"/></l><r>brigata<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>breve<s n="n"/><s n="m"/></l><r>breve<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>vite<s n="n"/><s n="f"/></l><r>vite<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>toronìlliu<s n="n"/><s n="m"/></l><r>vite<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>bide<s n="n"/><s n="m"/></l><r>vite<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>beniente<s n="adj"/><s n="mf"/></l><r>veniente<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>assuntzione<s n="n"/><s n="f"/></l><r>assunzione<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>assu<s n="adj"/></l><r>asso<s n="adj"/></r></p></e>
@@ -4775,8 +4773,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
         <e><p><l>istadiale<s n="adj"/></l><r>estivo<s n="n"/></r></p><par n="mf_GD"/></e>
         <e><p><l>istàbile<s n="n"/><s n="m"/></l><r>stabile<s n="n"/><s n="m"/></r></p></e>
         <e><p><l>isolanu<s n="adj"/></l><r>isolano<s n="adj"/></r></p></e>
-        <e><p><l>islamista<s n="n"/><s n="mf"/></l><r>islamista<s n="n"/><s n="mf"/></r></p></e>
-        <e><p><l>islamista<s n="adj"/><s n="mf"/></l><r>islamista<s n="adj"/><s n="mf"/></r></p></e>
+        <e><p><l>islamista<s n="n"/></l><r>islamista<s n="n"/></r></p><par n="mf_GD"/></e>
+        <e><p><l>islamista<s n="adj"/></l><r>islamista<s n="adj"/></r></p><par n="mf_GD"/></e>
         <e><p><l>iscultura<s n="n"/><s n="f"/></l><r>scultura<s n="n"/><s n="f"/></r></p></e>
         <e><p><l>iscrau<s n="adj"/></l><r>schiavo<s n="adj"/></r></p></e>
         <e><p><l>iscavare<s n="vblex"/></l><r>scavare<s n="vblex"/></r></p></e>
@@ -4786,6 +4784,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
         <e><p><l>interiore<s n="adj"/><s n="mf"/></l><r>interiore<s n="adj"/><s n="mf"/></r></p></e>
         <e><p><l>intentare<s n="vblex"/></l><r>tentare<s n="vblex"/></r></p></e>
         <e><p><l>intelligente<s n="n"/><s n="mf"/></l><r>intelligente<s n="n"/><s n="mf"/></r></p></e>
+        <e><p><l>intelligente<s n="adj"/><s n="mf"/></l><r>intelligente<s n="adj"/><s n="mf"/></r></p></e>
         <e><p><l>integrativu<s n="adj"/></l><r>integrativo<s n="adj"/></r></p></e>
         <e><p><l>instabilità<s n="n"/><s n="f"/></l><r>instabilità<s n="n"/><s n="f"/></r></p></e>
         <e><p><l>insegna<s n="n"/><s n="f"/></l><r>insegna<s n="n"/><s n="f"/></r></p></e>
@@ -4793,8 +4792,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
         <e><p><l>individuadu<s n="adj"/></l><r>individuato<s n="adj"/></r></p></e>
         <e><p><l>indebilitadu<s n="adj"/></l><r>debilitato<s n="adj"/></r></p></e>
         <e><p><l>incurtzare<s n="vblex"/></l><r>accorciare<s n="vblex"/></r></p></e>
-        <e><p><l>imperialista<s n="n"/><s n="mf"/></l><r>imperialista<s n="n"/><s n="mf"/></r></p></e>
-        <e><p><l>imperialista<s n="adj"/><s n="mf"/></l><r>imperialista<s n="adj"/><s n="mf"/></r></p></e>
+        <e><p><l>imperialista<s n="n"/></l><r>imperialista<s n="n"/></r></p><par n="mf_GD"/></e>
+        <e><p><l>imperialista<s n="adj"/></l><r>imperialista<s n="adj"/></r></p><par n="mf_GD"/></e>
         <e><p><l>imboligare<s n="vblex"/></l><r>avvolgere<s n="vblex"/></r></p></e>
         <e><p><l>imbarare<s n="vblex"/></l><r>poggiare<s n="vblex"/></r></p></e>
         <e><p><l>identificadu<s n="adj"/></l><r>identificato<s n="adj"/></r></p></e>
@@ -4821,8 +4820,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
 	<e><p><l>figiare<s n="vblex"/></l><r>figliare<s n="vblex"/></r></p></e>	
 	<e><p><l>ferruviàriu<s n="adj"/></l><r>ferroviario<s n="adj"/></r></p></e>
-	<e><p><l>feminista<s n="n"/><s n="mf"/></l><r>femminista<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>feminista<s n="adj"/><s n="mf"/></l><r>femminista<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>feminista<s n="n"/></l><r>femminista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>feminista<s n="adj"/></l><r>femminista<s n="adj"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>fallire<s n="vblex"/></l><r>fallire<s n="vblex"/></r></p></e>
 	<e><p><l>fadare<s n="vblex"/></l><r>incantare<s n="vblex"/></r></p></e>
 	<e><p><l>etzellèntzia<s n="n"/><s n="f"/></l><r>eccellenza<s n="n"/><s n="f"/></r></p></e>
@@ -4836,7 +4835,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>dispedidu<s n="adj"/></l><r>salutato<s n="adj"/></r></p></e>
 	<e><p><l>dispedida<s n="n"/><s n="f"/></l><r>addio<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>dinàmica<s n="n"/><s n="f"/></l><r>dinamica<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>diferentzialista<s n="adj"/><s n="mf"/></l><r>diferenzialista<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>diferentzialista<s n="adj"/></l><r>diferenzialista<s n="adj"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>determinativu<s n="adj"/></l><r>determinativo<s n="adj"/></r></p></e>
 	<e><p><l>depositadu<s n="adj"/></l><r>depositato<s n="adj"/></r></p></e>
 	<e><p><l>decorare<s n="vblex"/></l><r>decorare<s n="vblex"/></r></p></e>
@@ -4872,10 +4871,10 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>californianu<s n="adj"/></l><r>californiano<s n="adj"/></r></p></e>
 	<e><p><l>butone<s n="n"/><s n="m"/></l><r>bottone<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>burgu<s n="n"/><s n="m"/></l><r>borgo<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>buddista<s n="n"/><s n="mf"/></l><r>buddista<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>buddista<s n="adj"/><s n="mf"/></l><r>buddista<s n="adj"/><s n="mf"/></r></p></e>
-	<e><p><l>buddhista<s n="n"/><s n="mf"/></l><r>buddhista<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>buddhista<s n="adj"/><s n="mf"/></l><r>buddhista<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>buddista<s n="n"/></l><r>buddista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>buddista<s n="adj"/></l><r>buddista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>buddhista<s n="n"/></l><r>buddhista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>buddhista<s n="adj"/></l><r>buddhista<s n="adj"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>bastimentu<s n="n"/><s n="m"/></l><r>bastimento<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>bardanare<s n="vblex"/></l><r>razziare<s n="vblex"/></r></p></e>
 	<e><p><l>bardana<s n="n"/><s n="f"/></l><r>razzia<s n="n"/><s n="f"/></r></p></e>
@@ -5006,7 +5005,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>pecadu<s n="adj"/></l><r>pecato<s n="adj"/></r></p></e>
 	<e><p><l>patriota<s n="n"/><s n="mf"/></l><r>patriota<s n="n"/><s n="mf"/></r></p></e>
 
-<e><p><l>patente<s n="n"/><s n="f"/></l><r><s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>patente<s n="n"/><s n="f"/></l><r><s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>partidura<s n="n"/><s n="f"/></l><r>divisione<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>parentalla<s n="n"/><s n="f"/></l><r>parentela<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>pardu<s n="adj"/></l><r>modesto<s n="adj"/></r></p></e>
@@ -5045,13 +5044,13 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>mendare<s n="vblex"/></l><r>aggiungere<s n="vblex"/></r></p></e>
 	<e><p><l>medianu<s n="adj"/></l><r>mediano<s n="adj"/></r></p></e>
 	<e><p><l>maternidade<s n="n"/><s n="f"/></l><r>maternità<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>marxista<s n="n"/><s n="mf"/></l><r>marxista<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>marxista<s n="adj"/><s n="mf"/></l><r>marxista<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>marxista<s n="n"/></l><r>marxista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>marxista<s n="adj"/></l><r>marxista<s n="adj"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>marxismu<s n="n"/><s n="m"/></l><r>marxismu<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>màniga<s n="n"/><s n="f"/></l><r>manica<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>magrare<s n="vblex"/></l><r>imboscare<s n="vblex"/></r></p></e>
 	<e><p><l>madrigale<s n="n"/><s n="m"/></l><r>madrigale<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>machinista<s n="n"/><s n="mf"/></l><r>macchinista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>machinista<s n="n"/></l><r>macchinista<s n="n"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>macarrone<s n="n"/><s n="m"/></l><r>maccherone<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>luteranu<s n="adj"/></l><r>luterano<s n="adj"/></r></p></e>
 	<e><p><l>lunadu<s n="adj"/></l><r>arcuato<s n="adj"/></r></p></e>
@@ -5086,8 +5085,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>feridu<s n="adj"/></l><r>ferito<s n="adj"/></r></p></e>
 	<e><p><l>fenìtziu<s n="adj"/></l><r>fenicio<s n="adj"/></r></p></e>
 	<e><p><l>fàtzile<s n="n"/><s n="m"/></l><r>facile<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>evangelista<s n="n"/><s n="mf"/></l><r>evangelista<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>evangelista<s n="adj"/><s n="mf"/></l><r>evangelista<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>evangelista<s n="n"/></l><r>evangelista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>evangelista<s n="adj"/></l><r>evangelista<s n="adj"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>èticu<s n="adj"/></l><r>etico<s n="adj"/></r></p></e>
 	<e><p><l>ètaru<s n="n"/><s n="m"/></l><r>@ettaro<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>esplosivu<s n="adj"/></l><r>esplosivo<s n="adj"/></r></p></e>
@@ -5098,8 +5097,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>eresia<s n="n"/><s n="f"/></l><r>eresia<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>epocale<s n="adj"/><s n="mf"/></l><r>epocale<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>educadore<s n="n"/><s n="m"/></l><r>educatore<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>economista<s n="n"/><s n="mf"/></l><r>economista<s n="n"/><s n="mf"/></r></p></e>
-	<e><p><l>ecologista<s n="n"/><s n="mf"/></l><r>ecologista<s n="n"/><s n="mf"/></r></p></e>
+	<e><p><l>economista<s n="n"/></l><r>economista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>ecologista<s n="n"/></l><r>ecologista<s n="n"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>ducadu<s n="n"/><s n="m"/></l><r>ducato<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>dragu<s n="n"/><s n="m"/></l><r>drago<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>documentàriu<s n="adj"/></l><r>documentario<s n="adj"/></r></p></e>
@@ -5832,8 +5831,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>rechedidore<s n="n"/></l><r>richiedente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>richiedente<s n="n"/><s n="mf"/></l><r>richiedente<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>subraintendente<s n="n"/><s n="mf"/></l><r>sovrintendente<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>intelligente<s n="n"/></l><r>intelligente<s n="n"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>intelligente<s n="adj"/></l><r>intelligente<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ghiadore<s n="n"/></l><r>dirigente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ischitetu<s n="n"/></l><r>esigente<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>incumbeniente<s n="n"/><s n="mf"/></l><r>inconveniente<s n="n"/><s n="mf"/></r></p></e>
