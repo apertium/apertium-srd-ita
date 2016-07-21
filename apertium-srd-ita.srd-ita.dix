@@ -2486,6 +2486,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>pilota<s n="n"/><s n="m"/></l><r>pilota<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>patriarca<s n="n"/><s n="m"/></l><r>patriarca<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pàrrere<s n="n"/><s n="m"/></l><r>parere<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>parre<s n="n"/><s n="m"/></l><r>parere<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>munitzipale<s n="adj"/></l><r>municipale<s n="adj"/></r></p></e>
       <e><p><l>monasteriu<s n="n"/><s n="m"/></l><r>monastero<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>minorizadu<s n="adj"/></l><r>minorizzato<s n="adj"/></r></p></e>
@@ -2498,6 +2499,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>giosso<s n="adv"/></l><r>giù<s n="adv"/></r></p></e>
       <e><p><l>flòridu<s n="adj"/></l><r>florido<s n="adj"/></r></p></e>
       <e><p><l>filipinu<s n="adj"/></l><r>filippino<s n="adj"/></r></p></e>
+      <e><p><l>filipinu<s n="n"/></l><r>filippino<s n="n"/></r></p></e>
       <e><p><l>fermentu<s n="n"/><s n="m"/></l><r>fermento<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fasca<s n="n"/><s n="f"/></l><r>fascia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>emisferu<s n="n"/><s n="m"/></l><r>emisfero<s n="n"/><s n="m"/></r></p></e>
@@ -4608,7 +4610,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>perfetzionamentu<s n="n"/><s n="m"/></l><r>perfezionamento<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>perchentu<s n="n"/><s n="m"/></l><r>percento<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>passivu<s n="adj"/></l><r>passivo<s n="adj"/></r></p></e>
-	<e><p><l>parre<s n="n"/><s n="m"/></l><r>parere<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>papore<s n="n"/><s n="m"/></l><r>vapore<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>padru<s n="n"/><s n="m"/></l><r>prato<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>orientadu<s n="adj"/></l><r>orientato<s n="adj"/></r></p></e>
@@ -5235,6 +5236,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>puntorgiare<s n="vblex"/></l><r>pungolare<s n="vblex"/></r></p></e>
 	<e><p><l>pugionare<s n="vblex"/></l><r>germogliare<s n="vblex"/></r></p></e>
 	<e><p><l>prudente<s n="adj"/><s n="mf"/></l><r>prudente<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>imprudente<s n="adj"/><s n="mf"/></l><r>imprudente<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>prostitutzione<s n="n"/><s n="f"/></l><r>prostituzione<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>pronominale<s n="adj"/><s n="mf"/></l><r>pronominale<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>promontòriu<s n="n"/><s n="m"/></l><r>promontorio<s n="n"/><s n="m"/></r></p></e>
@@ -10822,9 +10824,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>coreanu<s n="adj"/></l><r>coreano<s n="adj"/></r></p></e>
       <e><p><l>coreanu<s n="n"/></l><r>coreano<s n="n"/></r></p></e>
 
-
-
-
       <e><p><l>gregu<s n="adj"/></l><r>greco<s n="adj"/></r></p></e>
       <e><p><l>gregu<s n="n"/></l><r>greco<s n="n"/></r></p></e>
       <e><p><l>ricu<s n="adj"/></l><r>ricco<s n="adj"/></r></p></e>
@@ -12041,8 +12040,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>como<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
       <e><p><l>in<b/>totue<s n="adv"/></l><r>ovunque<s n="adv"/></r></p></e>
       <e><p><l>craru<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
-      <e><p><l>a<b/>manera<b/>òvia<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
-      <e><p><l>a<b/>manera<b/>lògica<s n="adv"/></l><r>logicamente<s n="adv"/></r></p></e>
       <e><p><l>probabilmente<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
       <e><p><l>duncas<s n="adv"/></l><r>quindi<s n="adv"/></r></p></e>
       <e><p><l>tando<s n="adv"/></l><r>quindi<s n="adv"/></r></p></e>
@@ -18135,6 +18132,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>a<b/>manera<b/>imbeniente<s n="adv"/></l><r>prossimamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>provisòria<s n="adv"/></l><r>provvisoriamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>prudente<s n="adv"/></l><r>prudentemente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>imprudente<s n="adv"/></l><r>imprudentemente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>psicològica<s n="adv"/></l><r>psicologicamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>pùblica<s n="adv"/></l><r>pubblicamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>pura<s n="adv"/></l><r>puramente<s n="adv"/></r></p></e>
@@ -18213,6 +18211,10 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>a<b/>manera<b/>bia<s n="adv"/></l><r>vivamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>voluntària<s n="adv"/></l><r>volontariamente<s n="adv"/></r></p></e>
       <e><p><l>a<b/>manera<b/>bòlida<s n="adv"/></l><r>volutamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>manifesta<s n="adv"/></l><r>manifestamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>òvia<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>lògica<s n="adv"/></l><r>logicamente<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>manera<b/>istrumentale<s n="adv"/></l><r>strumentalmente<s n="adv"/></r></p></e>
 
       <e><p><l>nàschere<s n="vblex"/></l><r>sorgere<s n="vblex"/></r></p></e>
       <e><p><l>comunicadu<s n="n"/><s n="m"/></l><r>comunicato<s n="n"/><s n="m"/></r></p></e>
@@ -18220,7 +18222,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>ammissìbile<s n="adj"/><s n="mf"/></l><r>ammissibile<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>status<s n="n"/><s n="m"/></l><r>status<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ufitzializare<s n="vblex"/></l><r>ufficilizzare<s n="vblex"/></r></p></e>
-      <e><p><l>a<b/>manera<b/>manifesta<s n="adv"/></l><r>manifestamente<s n="adv"/></r></p></e>
       <e><p><l>parificare<s n="vblex"/></l><r>parificare<s n="vblex"/></r></p></e>
       <e><p><l>tirolesu<s n="n"/></l><r>tirolese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>tirolesu<s n="adj"/></l><r>tirolese<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -18239,6 +18240,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>chi<b/>non<b/>b’at<b/>remèdiu<s n="adj"/></l><r>irremidiabile<s n="adj"/></r></p></e>
       <e><p><l>folclorismu<s n="n"/><s n="m"/></l><r>folclorismo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>folclorismu<s n="n"/><s n="m"/></l><r>folklorismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>folclorìsticu<s n="adj"/></l><r>folcloristico<s n="adj"/></r></p></e>
+      <e><p><l>folclorìsticu<s n="adj"/></l><r>folkloristico<s n="adj"/></r></p></e>
       <e><p><l>discriminatòriu<s n="adj"/></l><r>discriminatorio<s n="adj"/></r></p></e>
       <e><p><l>argumentare<s n="adj"/></l><r>argomentare<s n="adj"/></r></p></e>
       <e><p><l>cunsistèntzia<s n="n"/><s n="f"/></l><r>consistenza<s n="n"/><s n="f"/></r></p></e>
@@ -18249,6 +18252,18 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>disomogèneu<s n="adj"/></l><r>disomogeneo<s n="adj"/></r></p></e>
       <e><p><l>omogèneu<s n="adj"/></l><r>omogeneo<s n="adj"/></r></p></e>
       <e><p><l>ischitzofrènicu<s n="adj"/></l><r>schizofrenico<s n="adj"/></r></p></e>
+      <e><p><l>metabolizare<s n="vblex"/></l><r>metabolizzare<s n="vblex"/></r></p></e>
+      <e><p><l>antropològicu<s n="adj"/></l><r>antropologico<s n="adj"/></r></p></e>
+      <e><p><l>antropòlogu<s n="n"/></l><r>antropologo<s n="n"/></r></p></e>
+      <e><p><l>cuntzetu<s n="n"/><s n="m"/></l><r>concezione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>boomerang<s n="n"/><s n="m"/></l><r>boomerang<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>isponda<s n="n"/><s n="f"/></l><r>sponda<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>possibilidade<s n="n"/><s n="f"/></l><r>chance<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>grustu<s n="n"/><s n="m"/></l><r>coacervo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mancari<s n="adv"/></l><r>pur<s n="adj"/></r></p></e>
+      <e><p><l>pàrrere<s n="vblex"/></l><r>parere<s n="vblex"/></r></p></e>
+
+
 
 
       <!-- SECCIÓN: Punctuación -->
