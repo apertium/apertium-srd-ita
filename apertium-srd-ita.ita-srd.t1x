@@ -305,6 +305,28 @@
 	    </equal>
 	  </test>
 	  <choose> 
+
+	    <when>	<!-- Specific for ITA-SRD: for numerals, a better guess is "m", e.g. "fine (de) (s') Ottocento" -->
+	      <test>
+		<and>
+		  <equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="num"/></equal>
+		  <or>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="dughentos"/></equal>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="treghentos"/></equal>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="batorghentos"/></equal>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="chimbighentos"/></equal>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="sesghentos"/></equal>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="setighentos"/></equal>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="otighentos"/></equal>
+		    <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="noighentos"/></equal>
+		  </or>
+		</and>
+	      </test>
+	      <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+	      <let><var n="genero"/><lit-tag v="m"/></let>
+	      <let><var n="numero"/><lit-tag v="pl"/></let>
+	    </when>
+
 	    <when>
 	      <test>
 		<equal>
@@ -2357,12 +2379,12 @@
       <choose>	<!--To change "li" to "bi" when there is a second enclitic -->
 	<when> 
 	  <test>
-	    <equal>
+	    <equal caseless="yes">
 	      <clip pos="1" side="tl" part="lemh"/>
 	      <lit v="li"/>
 	    </equal>
 	  </test>
-	  <let><clip pos="1" side="tl" part="lemh"/><lit v="bi"/></let>
+	  <let><clip pos="1" side="tl" part="lemh"/><get-case-from pos="1"><lit v="bi"/></get-case-from></let>
 	  <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
 	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></let>
  	</when> 
@@ -2373,77 +2395,77 @@
       <choose>	<!-- To change to personal pronoun depending on the preposition -->
 	<when> 
 	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
 	  </test>
           <choose>
 	    <when> 
 	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
 	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mie"/></let>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="mie"/></get-case-from></let>
 	    </when>
 	    <when> 
 	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
 	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="megus"/></let>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="megus"/></get-case-from></let>
 	    </when>
 	    <otherwise>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="mene"/></let>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="mene"/></get-case-from></let>
 	    </otherwise>
           </choose>
 	</when>
 	<when> 
 	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
 	  </test>
           <choose>
 	    <when> 
 	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
 	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tie"/></let>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tie"/></get-case-from></let>
 	    </when>
 	    <when> 
 	      <test>
-	        <equal><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
+	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun"/></equal>
 	      </test>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tegus"/></let>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tegus"/></get-case-from></let>
 	    </when>
 	    <otherwise>
-	      <let><clip pos="2" side="tl" part="lemh"/><lit v="tene"/></let>
+	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tene"/></get-case-from></let>
 	    </otherwise>
           </choose>
 	</when>
 	<when> 
 	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="lui"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="lui"/></equal>
 	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="noi"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="noi"/></equal>
 	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="nois"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="nois"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="voi"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="voi"/></equal>
 	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="bois"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="bois"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="loro"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="loro"/></equal>
 	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
 	</when>
 	<when> 
 	  <test>
-	    <equal><clip pos="2" side="sl" part="lemh"/><lit v="gli"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="gli"/></equal>
 	  </test>
-	  <let><clip pos="2" side="tl" part="lemh"/><lit v="issu"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="issu"/></get-case-from></let>
 	  <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.tn"/></let>
 	  <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
 	</when>
