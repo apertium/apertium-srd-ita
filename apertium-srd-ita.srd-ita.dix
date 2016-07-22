@@ -206,9 +206,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
       <e><p><l>che<b/>a<s n="pr"/></l><r>come<b/>a<s n="pr"/></r></p></e>
       <e><p><l>finas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
+      <e><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
       <e><p><l>in<b/>foras<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
       <e><p><l>a<b/>foras<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
-      <e><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
       <e><p><l>finas<s n="pr"/></l><r>persino<s n="pr"/></r></p></e>
       <e><p><l>in<b/>mesu<b/>de<s n="pr"/></l><r>in<b/>mezzo<b/>a<s n="pr"/></r></p></e>
       <e><p><l>dae<b/>como<b/>in<b/>susu<s n="pr"/></l><r>d'ora<b/>in<b/>poi<s n="pr"/></r></p></e>
@@ -12906,7 +12906,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>cumbàtere<s n="vblex"/></l><r>combattere<s n="vblex"/></r></p></e>
       <e><p><l>corfare<s n="vblex"/></l><r>colpire<s n="vblex"/></r></p></e>
       <e><p><l>cannire<s n="vblex"/></l><r>fendere<s n="vblex"/></r></p></e>
-      <!-- <e><p><l>bisogniare<s n="vblex"/></l><r>avere<g><b/>bisogno</g><s n="vblex"/></r></p></e> -->
+      <e><p><l>bisongiare<s n="vblex"/></l><r>avere<g><b/>bisogno</g><s n="vblex"/></r></p></e>
       <e><p><l>ammodernare<s n="vblex"/></l><r>ammodernare<s n="vblex"/></r></p></e>
       <e><p><l>addobiare<s n="vblex"/></l><r>incontrare<s n="vblex"/></r></p></e>
       <e><p><l>abbassare<s n="vblex"/></l><r>abbassare<s n="vblex"/></r></p></e>
@@ -13395,7 +13395,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
       <e><p><l>chidare<s n="vblex"/></l><r>passare<g><b/>la<b/>settimana</g><s n="vblex"/></r></p></e>
       <e><p><l>poetare<s n="vblex"/></l><r>fare<g><b/>poesie</g><s n="vblex"/></r></p></e>
-      <!-- <e><p><l>impàrere<s n="vblex"/></l><r>mettere<g><b/>insieme</g><s n="vblex"/></r></p></e> -->
+      <e><p><l>impàrere<s n="vblex"/></l><r>mettere<g><b/>insieme</g><s n="vblex"/></r></p></e>
       <e><p><l>raighinare<s n="vblex"/></l><r>radicare<s n="vblex"/></r></p></e>
       <e><p><l>dedicare<s n="vblex"/></l><r>dedicare<s n="vblex"/></r></p></e>
       <e><p><l>inditare<s n="vblex"/></l><r>indicare<s n="vblex"/></r></p></e>
@@ -18272,6 +18272,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([., ][0-9]+)?%</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
       <e><re>[0-9]+([., ][0-9]+)?</re><p><l>°<s n="num"/></l><r>°<s n="num"/></r></p></e>
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l>º<s n="num"/></l><r>º<s n="num"/></r></p></e>
+      <e><re>[0-9]+([., ][0-9]+)?</re><p><l>ª<s n="num"/></l><r>ª<s n="num"/></r></p></e>
       <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
       <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
   
