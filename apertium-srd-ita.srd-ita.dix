@@ -1805,6 +1805,10 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>nie<s n="n"/><s n="f"/></l><r>neve<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>non<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+    <e><p><l>a<b/>dolu<b/>mannu<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
+    <e><p><l>masaprestu<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+    <e><p><l>in<b/>summa<s n="adv"/></l><r>insomma<s n="adv"/></r></p></e>
+
     <e><p><l>finu<s n="adj"/></l><r>fino<s n="adj"/></r></p></e>
     <e><p><l>parte<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fatu<s n="n"/><s n="m"/></l><r>fato<s n="n"/><s n="m"/></r></p></e>
@@ -12133,6 +12137,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>ocannu<s n="adv"/></l><r>quest'anno<s n="adv"/></r></p></e>
       <e><p><l>craru<s n="adv"/></l><r>chiaro<s n="adv"/></r></p></e>
       <e><p><l>tantu<s n="adv"/></l><r>tanto<s n="adv"/></r></p></e>
+      <e><p><l>meda<s n="adv"/></l><r>tanto<s n="adv"/></r></p></e>
 
 
       <e><p><l>traditzionalmente<s n="adv"/></l><r>tradizionalmente<s n="adv"/></r></p></e>
