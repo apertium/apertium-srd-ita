@@ -7,6 +7,10 @@
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="det_laprn">
+       <cat-item tags="det.*"/>
+       <cat-item lemma="lo" tags="prn.pro.p3.f.*"/> <!-- to avoid problems in disambiguation -->
+    </def-cat>
     <def-cat n="predet">
        <cat-item tags="predet.*"/>
     </def-cat>
@@ -155,6 +159,9 @@
     </def-cat>
     <def-cat n="loro_pos">
        <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>	<!-- per agafar anàlisis equivocades -->
+    </def-cat>
+    <def-cat n="adjord">
+       <cat-item tags="adj.ord.*"/>
     </def-cat>
     <def-cat n="adv">
        <cat-item tags="adv"/>
@@ -2616,6 +2623,186 @@
            </lu>
          </chunk>
          </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det adjord nom"> <!-- eliminamos el det para evitar duplicaciones -->
+       <pattern>
+         <pattern-item n="det_laprn"/>
+         <pattern-item n="adjord"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+      <choose>
+           <!-- no se debe eliminar el det para primu, segundu -->
+	<when> 
+	  <test>
+	    <or>
+	    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="primu"/></equal>
+	    <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="segundu"/></equal>
+	    </or>
+	  </test>
+         <out>
+           <chunk name="det_adjord_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+	</when> 
+	<otherwise> 
+         <out>
+           <chunk name="det_adjord_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+	</otherwise> 
+      </choose>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det adjord adj nom"> <!-- eliminamos el det para evitar duplicaciones -->
+       <pattern>
+         <pattern-item n="det_laprn"/>
+         <pattern-item n="adjord"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+      <choose>
+           <!-- no se debe eliminar el det para primu, segundu -->
+	<when> 
+	  <test>
+	    <or>
+	    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="primu"/></equal>
+	    <equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="segundu"/></equal>
+	    </or>
+	  </test>
+         <out>
+           <chunk name="det_adjord_adj_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+	</when> 
+	<otherwise>
+         <out>
+           <chunk name="det_adjord_adj_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+	</otherwise> 
+      </choose>
        </action>
     </rule>
 

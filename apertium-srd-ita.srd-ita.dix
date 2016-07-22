@@ -1884,6 +1884,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
      <e><p><l>corte<s n="n"/><s n="f"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>reconnotu<s n="adj"/></l><r>riconosciuto<s n="adj"/></r></p></e>
      <e><p><l>tzertu<s n="adj"/></l><r>certo<s n="adj"/></r></p></e>
+     <e><p><l>intzertu<s n="adj"/></l><r>incerto<s n="adj"/></r></p></e>
      <e><p><l>oras<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
      <e><p><l>versione<s n="n"/><s n="f"/></l><r>versione<s n="n"/><s n="f"/></r></p></e>
      <e><p><l>more<s n="n"/><s n="f"/></l><r>causa<s n="n"/><s n="f"/></r></p></e>
@@ -4079,6 +4080,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>finesa<s n="n"/><s n="f"/></l><r>raffinatezza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cunfidu<s n="n"/><s n="m"/></l><r>riservatezza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tzertesa<s n="n"/><s n="f"/></l><r>certezza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>intzertesa<s n="n"/><s n="f"/></l><r>incertezza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>abbistesa<s n="n"/><s n="f"/></l><r>accortezza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tristura<s n="n"/><s n="f"/></l><r>tristezza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>inesatesa<s n="n"/><s n="f"/></l><r>inesattezza<s n="n"/><s n="f"/></r></p></e>
@@ -10525,10 +10527,10 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
       <e><p><l>primu<s n="adj"/><s n="ord"/></l><r>primo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>segundu<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
-      <e r="LR"><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
-      <e r="LR"><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
+      <e r="LR" c="!LSC"><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
+      <e r="LR" c="!LSC"><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
 
-      <e><p><l>su<g><b/>de<b/>duos</g><s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>su<g><b/>de<b/>duos</g><s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>su<g><b/>de<b/>tres</g><s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>su<g><b/>de<b/>bator</g><s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
       <e><p><l>su<g><b/>de<b/>chimbe</g><s n="adj"/><s n="ord"/></l><r>quinto<s n="adj"/><s n="ord"/></r></p></e>
@@ -17227,6 +17229,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>tzentralista<s n="adj"/></l><r>centralista<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tzertificadu<s n="adj"/></l><r>certificato<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tzertu<s n="adj"/></l><r>certo<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>intzertu<s n="adj"/></l><r>incerto<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tzilenu<s n="adj"/></l><r>cileno<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tzinematogràficu<s n="adj"/></l><r>cimatografico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tzinesu<s n="adj"/></l><r>cinese<s n="adj"/><s n="sup"/></r></p></e>
