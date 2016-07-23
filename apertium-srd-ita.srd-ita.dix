@@ -4477,7 +4477,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>romànicu<s n="adj"/></l><r>romanico<s n="adj"/></r></p></e>
 	<e><p><l>roba<s n="n"/><s n="m"/></l><r>roba<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>Pula<s n="np"/><s n="top"/><s n="f"/></l><r>Pula<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-	<e><p><l>puddare<s n="vblex"/></l><r>deporre<g><b/>il<b/>cacchione</g><s n="vblex"/></r></p></e>
+	<!-- <e><p><l>puddare<s n="vblex"/></l><r>deporre<g><b/>il<b/>cacchione</g><s n="vblex"/></r></p></e> no funciona, no sé perquè-->
 	<e><p><l>pudda<s n="n"/><s n="f"/></l><r>gallina<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>proteta<s n="n"/><s n="f"/></l><r>protetta<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>procuradore<s n="n"/></l><r>procuratore<s n="n"/></r></p></e>
@@ -5100,7 +5100,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>esordire<s n="vblex"/></l><r>esordire<s n="vblex"/></r></p></e>
 	<e><p><l>esecutore<s n="adj"/></l><r>esecutore<s n="adj"/></r></p></e>
 	<e><p><l>esàmene<s n="n"/><s n="m"/></l><r>esame<s n="n"/><s n="m"/></r></p></e>
-	<e><p><l>eroina<s n="n"/><s n="f"/></l><r>eroina<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>eroina<s n="n"/><s n="f"/></l><r>eroina<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 	<e><p><l>eresia<s n="n"/><s n="f"/></l><r>eresia<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>epocale<s n="adj"/><s n="mf"/></l><r>epocale<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>educadore<s n="n"/><s n="m"/></l><r>educatore<s n="n"/><s n="m"/></r></p></e>
@@ -11440,6 +11440,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>grecu<s n="adj"/></l><r>greco<s n="adj"/></r></p></e>
       <e><p><l>bonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
       <e r="LR"><p><l>buonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>bonu<s n="adj"/><s n="GD"/></l><r>buono<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>dòpiu<s n="adj"/></l><r>doppio<s n="adj"/></r></p></e>
       <e><p><l>mèigu<s n="adj"/></l><r>medico<s n="adj"/></r></p></e>
       <e><p><l>autu<s n="adj"/></l><r>atto<s n="adj"/></r></p></e>
