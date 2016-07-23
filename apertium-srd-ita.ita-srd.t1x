@@ -2591,7 +2591,7 @@
     </rule>
 
 
-    <rule comment="regla: adjpos nom">
+    <rule comment="regla: adjpos nom > nom adjpos">
        <pattern>
          <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
          <pattern-item n="nom"/>
@@ -2606,7 +2606,7 @@
            <with-param pos="1"/>
          </call-macro>
          <out>
-           <chunk name="adjpos_n">
+           <chunk name="n_adjpos">
              <tags>
                <tag><lit-tag v="SN"/></tag>
              </tags>
@@ -2620,6 +2620,240 @@
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: loro.pos nom > nom adjpos">
+       <pattern>
+         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="n_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+               <lit v="issoro"/><lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjpos nom adj > nom adj adjpos">
+       <pattern>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <chunk name="n_adj_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: loro.pos nom adj > nom adj adjpos">
+       <pattern>
+         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <chunk name="n_adj_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+               <lit v="issoro"/><lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjpos nom adj adj > nom adj adj adjpos">
+       <pattern>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <out>
+           <chunk name="n_adj_adj_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: loro.pos nom adj adj > nom adj adj adjpos">
+       <pattern>
+         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <out>
+           <chunk name="n_adj_adj_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+               <lit v="issoro"/><lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
            </lu>
          </chunk>
          </out>
@@ -2803,36 +3037,6 @@
          </out>
 	</otherwise> 
       </choose>
-       </action>
-    </rule>
-
-
-    <rule comment="regla: adjpos nom">
-       <pattern>
-         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
-         <pattern-item n="nom"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord2">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
-         </call-macro>
-         <out>
-           <chunk name="adjpos_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-               <lit v="issoro"/><lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
-           </lu>
-         </chunk>
-         </out>
        </action>
     </rule>
 
