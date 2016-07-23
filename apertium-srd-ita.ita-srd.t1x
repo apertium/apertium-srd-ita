@@ -2861,19 +2861,23 @@
                <tag><lit-tag v="SN"/></tag>
              </tags>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b/>
-           <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
            </lu>
            <b pos="1"/>
            <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
+               <lit v="a beru"/><lit-tag v="adv"/>
+           </lu>
+           <b/>
+           <lu>
+             <get-case-from pos="2">
+             <clip pos="1" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
@@ -2947,13 +2951,13 @@
            </lu>
            <b pos="1"/>
            <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
+               <lit v="a beru"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
@@ -3051,13 +3055,13 @@
            </lu>
            <b pos="2"/>
            <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
+               <lit v="a beru"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
@@ -3179,13 +3183,13 @@
            </lu>
            <b pos="3"/>
            <lu>
-             <clip pos="4" side="tl" part="lemh"/>
-             <clip pos="4" side="tl" part="tags"/>
-             <clip pos="4" side="tl" part="lemq"/>
+               <lit v="a beru"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
@@ -4374,13 +4378,13 @@
                <tag><lit-tag v="SA"/></tag>
              </tags>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
+               <lit v="a beru"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
