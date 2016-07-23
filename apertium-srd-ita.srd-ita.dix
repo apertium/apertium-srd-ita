@@ -885,7 +885,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>sustenidore<s n="n"/><s n="m"/></l><r>sostenitore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>repartu<s n="n"/><s n="m"/></l><r>reparto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>proportzione<s n="n"/><s n="f"/></l><r>proporzione<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>otzeanu<s n="n"/><s n="m"/></l><r>oceano<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>misteriu<s n="n"/><s n="m"/></l><r>mistero<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>metallu<s n="n"/><s n="m"/></l><r>metallo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>megioru<s n="n"/><s n="m"/></l><r>miglioramento<s n="n"/><s n="m"/></r></p></e>
@@ -11433,6 +11432,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>obispale<s n="adj"/></l><r>vescovile<s n="adj"/></r></p></e>
 
 
+      <e><p><l>tirrènicu<s n="adj"/></l><r>tirrenico<s n="adj"/></r></p></e>
       <e><p><l>tècnicu<s n="adj"/></l><r>tecnico<s n="adj"/></r></p></e>
       <e><p><l>tècnicu<s n="n"/></l><r>tecnico<s n="n"/></r></p></e>
       <e><p><l>atmosfèricu<s n="adj"/></l><r>atmosferico<s n="adj"/></r></p></e>
@@ -17174,6 +17174,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>tardu<s n="adj"/></l><r>tardo<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tasidu<s n="adj"/></l><r>sospeso<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tataresu<s n="adj"/></l><r>sassarese<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>tirrènicu<s n="adj"/></l><r>tirrenico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tècnicu<s n="adj"/></l><r>tecnico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tecnològicu<s n="adj"/></l><r>tecnologico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tedescu<s n="adj"/></l><r>tedesco<s n="adj"/><s n="sup"/></r></p></e>
