@@ -3224,7 +3224,7 @@
          <pattern-item n="adjsup"/>
        </pattern>
        <action>
-         <call-macro n="f_concord2">
+         <call-macro n="f_concord3">
            <with-param pos="1"/>
            <with-param pos="2"/>
            <with-param pos="3"/>
@@ -3341,7 +3341,7 @@
          <pattern-item n="adjsup"/>
        </pattern>
        <action>
-         <call-macro n="f_concord3">
+         <call-macro n="f_concord4">
            <with-param pos="1"/>
            <with-param pos="2"/>
            <with-param pos="3"/>

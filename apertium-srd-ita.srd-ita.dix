@@ -1177,7 +1177,11 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>frutu<s n="n"/><s n="m"/></l><r>frutto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>frutora<s n="n"/><s n="f"/></l><r>frutta<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>oriente<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>nord-oriente<s n="n"/><s n="m"/></l><r>nord-est<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>sud-oriente<s n="n"/><s n="m"/></l><r>sud-est<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>est<s n="n"/><s n="m"/></l><r>est<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nord-est<s n="n"/><s n="m"/></l><r>nord-est<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sud-est<s n="n"/><s n="m"/></l><r>sud-est<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>isport<s n="n"/><s n="m"/></l><r>sport<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>arrimu<s n="n"/><s n="m"/></l><r>supporto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>suportu<s n="n"/><s n="m"/></l><r>supporto<s n="n"/><s n="m"/></r></p></e>
@@ -1831,7 +1835,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
     <e><p><l>propònnere<s n="vblex"/></l><r>proporre<s n="vblex"/></r></p></e>
     <e><p><l>bene<s n="n"/><s n="m"/></l><r>bene<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bene<s n="adv"/></l><r>bene<s n="adv"/></r></p></e>
-    <e><p><l>paìsu<s n="n"/><s n="m"/></l><r>paese<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>puntu<s n="n"/></l><r>punto<s n="n"/></r></p></e>
     <e><p><l>amu<s n="n"/><s n="m"/></l><r>amo<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pare<s n="adv"/></l><r>a<b/>vicenda<s n="adv"/></r></p></e>
@@ -2076,7 +2079,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>faeddadore<s n="n"/></l><r>parlante<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>casi<s n="adv"/></l><r>quasi<s n="adv"/></r></p></e>
       <e><p><l>cabulogu<s n="n"/><s n="m"/></l><r>capoluogo<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>basciu<s n="adj"/></l><r>basso<s n="adj"/></r></p></e>
+      <e><p><l>bàsciu<s n="adj"/></l><r>basso<s n="adj"/></r></p></e>
       <e><p><l>bandidu<s n="adj"/></l><r>bandito<s n="adj"/></r></p></e>
       <e><p><l>atlànticu<s n="adj"/></l><r>atlantico<s n="adj"/></r></p></e>
       <e><p><l>profundu<s n="adj"/></l><r>profondo<s n="adj"/></r></p></e>
@@ -3847,7 +3850,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>prontuàriu<s n="n"/><s n="m"/></l><r>prontuario<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pesonante<s n="n"/></l><r>affittuario<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>critèriu<s n="n"/><s n="m"/></l><r>criterio<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>ambulàtoriu<s n="n"/><s n="m"/></l><r>ambulatorio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ambulatòriu<s n="n"/><s n="m"/></l><r>ambulatorio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>osservatòriu<s n="n"/><s n="m"/></l><r>osservatorio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>consultòriu<s n="n"/><s n="m"/></l><r>consultorio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>repertòriu<s n="n"/><s n="m"/></l><r>repertorio<s n="n"/><s n="m"/></r></p></e>
@@ -4753,7 +4756,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
         <e><p><l>osservadore<s n="adj"/></l><r>osservatore<s n="adj"/></r></p></e>
         <e><p><l>ormina<s n="n"/><s n="f"/></l><r>orma<s n="n"/><s n="f"/></r></p></e>
         <e><p><l>originàriu<s n="adj"/></l><r>originario<s n="adj"/></r></p></e>
-        <e><p><l>obrigatoriu<s n="adj"/></l><r>obbligatorio<s n="adj"/></r></p></e>
+        <e><p><l>obrigatòriu<s n="adj"/></l><r>obbligatorio<s n="adj"/></r></p></e>
         <e><p><l>neulire<s n="vblex"/></l><r>annebbiare<s n="vblex"/></r></p></e>
         <e><p><l>mutilatzione<s n="n"/><s n="f"/></l><r>mutilazione<s n="n"/><s n="f"/></r></p></e>
         <e><p><l>mutetu<s n="n"/><s n="m"/></l><r>mottetto<s n="n"/><s n="m"/></r></p></e>
@@ -4944,6 +4947,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>suorare<s n="vblex"/></l><r><g>farsi</g><b/>suora<s n="vblex"/></r></p></e>
 	<e><p><l>summu<s n="adj"/></l><r>summo<s n="adj"/></r></p></e>
 	<e><p><l>sud-otzidentale<s n="adj"/><s n="mf"/></l><r>sud-occidentale<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>sud-otzidentale<s n="adj"/><s n="mf"/></l><r>sudoccidentale<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>nord-otzidentale<s n="adj"/><s n="mf"/></l><r>nord-occidentale<s n="adj"/><s n="mf"/></r></p></e>
+	<e><p><l>nord-otzidentale<s n="adj"/><s n="mf"/></l><r>nordoccidentale<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>subralocale<s n="adj"/><s n="mf"/></l><r>sovralocale<s n="adj"/><s n="mf"/></r></p></e>
 	<e><p><l>sotare<s n="vblex"/></l><r>costringere<s n="vblex"/></r></p></e>
 	<e><p><l>sonadore<s n="n"/><s n="f"/></l><r>suonatore<s n="n"/><s n="f"/></r></p></e>
@@ -4954,7 +4960,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>sessada<s n="n"/><s n="f"/></l><r>fermata<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>seriedade<s n="n"/><s n="f"/></l><r>serietà<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>sarvu<s n="adj"/></l><r>salvo<s n="adj"/></r></p></e>
-	<e><p><l>sapire<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>
+	<!-- <e><p><l>sapire<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e> -->
 	<e><p><l>sapièntzia<s n="n"/><s n="f"/></l><r>sapienza<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>sànscritu<s n="adj"/></l><r>sanscrito<s n="adj"/></r></p></e>
 	<e><p><l>sànscritu<s n="n"/><s n="m"/></l><r>sanscrito<s n="n"/><s n="m"/></r></p></e>
@@ -4962,8 +4968,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>salinu<s n="adj"/></l><r>salino<s n="adj"/></r></p></e>
 	<e><p><l>salina<s n="n"/><s n="f"/></l><r>salina<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>salariare<s n="vblex"/></l><r>salariare<s n="vblex"/></r></p></e>
-	<e><p><l>salariadu<s n="adj"/></l><r>salariatp<s n="adj"/></r></p></e>
-	<e><p><l>saba<s n="n"/><s n="f"/></l><r>vino<b/>cotto<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>salariadu<s n="adj"/></l><r>salariato<s n="adj"/></r></p></e>
+	<e><p><l>saba<s n="n"/><s n="f"/></l><r>vino<b/>cotto<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>rotonda<s n="n"/><s n="f"/></l><r>rotonda<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>rodiare<s n="vblex"/></l><r>roteare<s n="vblex"/></r></p></e>
 	<e><p><l>ròdia<s n="n"/><s n="f"/></l><r>ruota<s n="n"/><s n="f"/></r></p></e>
@@ -5074,6 +5080,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>marxista<s n="n"/></l><r>marxista<s n="n"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>marxista<s n="adj"/></l><r>marxista<s n="adj"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>marxismu<s n="n"/><s n="m"/></l><r>marxismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>anarchista<s n="n"/></l><r>anarchista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>anarchista<s n="adj"/></l><r>anarchista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>anarchismu<s n="n"/><s n="m"/></l><r>anarchismo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>màniga<s n="n"/><s n="f"/></l><r>manica<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>magrare<s n="vblex"/></l><r>imboscare<s n="vblex"/></r></p></e>
 	<e><p><l>madrigale<s n="n"/><s n="m"/></l><r>madrigale<s n="n"/><s n="m"/></r></p></e>
@@ -5144,7 +5153,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>cuntènnidu<s n="adj"/></l><r>contenuto<s n="adj"/></r></p></e>
 	<e><p><l>cuntemporàneu<s n="adj"/></l><r>contemporaneo<s n="adj"/></r></p></e>
 	<e><p><l>cunsighente<s n="adj"/><s n="mf"/></l><r>conseguente<s n="adj"/><s n="mf"/></r></p></e>
-	<e><p><l>cunservatoriu<s n="n"/><s n="m"/></l><r>conservatorio<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>cunservatòriu<s n="n"/><s n="m"/></l><r>conservatorio<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>cungregatzione<s n="n"/><s n="f"/></l><r>congregazione<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>cungelare<s n="vblex"/></l><r>congelare<s n="vblex"/></r></p></e>
 	<e><p><l>cumpetitivu<s n="adj"/></l><r>competitivo<s n="adj"/></r></p></e>
@@ -6430,7 +6439,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Bologna<s n="np"/><s n="top"/><s n="f"/></l><r>Bologna<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Brasile<s n="np"/><s n="top"/><s n="m"/></l><r>Brasile<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bratislava<s n="np"/><s n="top"/><s n="f"/></l><r>Bratislava<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Bucarest<s n="np"/><s n="top"/><s n="m"/></l><r>Bucarest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Bucarèst<s n="np"/><s n="top"/><s n="m"/></l><r>Bucarest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bulgària<s n="np"/><s n="top"/><s n="f"/></l><r>Bulgaria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Califòrnia<s n="np"/><s n="top"/><s n="f"/></l><r>California<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Chicago<s n="np"/><s n="top"/><s n="m"/></l><r>Chicago<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -6476,7 +6485,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Parigi<s n="np"/><s n="top"/><s n="m"/></l><r>Parigi<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Pau<s n="np"/><s n="ant"/><s n="m"/></l><r>Pau<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Polònia<s n="np"/><s n="top"/><s n="f"/></l><r>Polonia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Praga<s n="np"/><s n="top"/><s n="f"/></l><r>Praga<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Praga<s n="np"/><s n="top"/><s n="f"/></l><r>Praga<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Romania<s n="np"/><s n="top"/><s n="f"/></l><r>Romania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Roma<s n="np"/><s n="top"/><s n="f"/></l><r>Roma<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Thiniscole<s n="np"/><s n="top"/><s n="f"/></l><r>Siniscola<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -6490,7 +6499,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Sofia<s n="np"/><s n="top"/><s n="f"/></l><r>Sofia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Sofia<s n="np"/><s n="ant"/><s n="f"/></l><r>Sofia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>Sudan<s n="np"/><s n="top"/><s n="m"/></l><r>Sudan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Teheran<s n="np"/><s n="top"/><s n="m"/></l><r>Teheran<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Teheràn<s n="np"/><s n="top"/><s n="m"/></l><r>Teheran<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Torinu<s n="np"/><s n="top"/><s n="m"/></l><r>Torino<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Tunisia<s n="np"/><s n="top"/><s n="f"/></l><r>Tunisia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Turchia<s n="np"/><s n="top"/><s n="f"/></l><r>Turchia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -6671,7 +6680,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Scott<s n="np"/><s n="ant"/><s n="m"/></l><r>Scott<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Federicu<s n="np"/><s n="ant"/><s n="m"/></l><r>Federicu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Diegu<s n="np"/><s n="ant"/><s n="m"/></l><r>Diegu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e><p><l>Gregoriu<s n="np"/><s n="ant"/><s n="m"/></l><r>Gregoriu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Gregòriu<s n="np"/><s n="ant"/><s n="m"/></l><r>Gregòriu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Paulu<s n="np"/><s n="ant"/><s n="m"/></l><r>Paulu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Pedru<s n="np"/><s n="ant"/><s n="m"/></l><r>Pedru<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Max<s n="np"/><s n="ant"/><s n="m"/></l><r>Max<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6696,7 +6705,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Avignone<s n="np"/><s n="top"/><s n="f"/></l><r>Avignone<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Barcellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Birmania<s n="np"/><s n="top"/><s n="f"/></l><r>Birmania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Budapest<s n="np"/><s n="top"/><s n="m"/></l><r>Budapest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Budapèst<s n="np"/><s n="top"/><s n="m"/></l><r>Budapest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Calabria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Califòrnia<s n="np"/><s n="top"/><s n="f"/></l><r>California<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Canada<s n="np"/><s n="top"/><s n="m"/></l><r>Canada<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -6717,7 +6726,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Euskadi<s n="np"/><s n="top"/><s n="f"/></l><r>Euskadi<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Filadèlfia<s n="np"/><s n="top"/><s n="f"/></l><r>Filadelfia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Firenze<s n="np"/><s n="top"/><s n="f"/></l><r>Firenze<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Giappone<s n="np"/><s n="top"/><s n="m"/></l><r>Giappone<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Giapone<s n="np"/><s n="top"/><s n="m"/></l><r>Giappone<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Girona<s n="np"/><s n="top"/><s n="f"/></l><r>Girona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Guyana<s n="np"/><s n="top"/><s n="f"/></l><r>Guyana<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Hanoi<s n="np"/><s n="top"/><s n="m"/></l><r>Hanoi<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -10789,8 +10798,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>tzinematogràficu<s n="adj"/></l><r>cimatografico<s n="adj"/></r></p></e>
       <e><p><l>polacu<s n="adj"/></l><r>polacco<s n="adj"/></r></p></e>
       <e><p><l>polacu<s n="n"/></l><r>polacco<s n="n"/></r></p></e>
-      <e><p><l>giapponesu<s n="adj"/></l><r>giapponese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>giapponesu<s n="n"/></l><r>giapponese<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>giaponesu<s n="adj"/></l><r>giapponese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>giaponesu<s n="n"/></l><r>giaponese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>telefònicu<s n="adj"/></l><r>telefonico<s n="adj"/></r></p></e>
       <e><p><l>ungheresu<s n="adj"/></l><r>ungherese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ungheresu<s n="n"/></l><r>ungherese<s n="n"/></r></p><par n="GD_mf"/></e>
@@ -11021,6 +11030,10 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>atzidentale<s n="adj"/></l><r>accidentale<s n="adj"/></r></p></e>
       <e><p><l>otzidentale<s n="adj"/></l><r>occidentale<s n="adj"/></r></p></e>
       <e><p><l>orientale<s n="adj"/></l><r>orientale<s n="adj"/></r></p></e>
+      <e><p><l>nord-orientale<s n="adj"/></l><r>nord-orientale<s n="adj"/></r></p></e>
+      <e><p><l>nord-orientale<s n="adj"/></l><r>nordorientale<s n="adj"/></r></p></e>
+      <e><p><l>sud-orientale<s n="adj"/></l><r>sud-orientale<s n="adj"/></r></p></e>
+      <e><p><l>sud-orientale<s n="adj"/></l><r>sudorientale<s n="adj"/></r></p></e>
       <e><p><l>continentale<s n="adj"/></l><r>continentale<s n="adj"/></r></p></e>
       <e><p><l>forestale<s n="adj"/></l><r>forestale<s n="adj"/></r></p></e>
       <e><p><l>graduale<s n="adj"/></l><r>graduale<s n="adj"/></r></p></e>
@@ -11167,7 +11180,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>islovenu<s n="adj"/></l><r>sloveno<s n="adj"/></r></p></e>
       <e><p><l>islovenu<s n="n"/></l><r>sloveno<s n="n"/></r></p></e>
       <e><p><l>islovacu<s n="adj"/></l><r>slovacco<s n="adj"/></r></p></e>
-      <e><p><l>islovacu<s n="n"/></l><r>sloveno<s n="n"/></r></p></e>
       <e><p><l>islovacu<s n="n"/></l><r>slovacco<s n="n"/></r></p></e>
       <e><p><l>latinu<s n="adj"/></l><r>latino<s n="adj"/></r></p></e>
       <e><p><l>latinu<s n="n"/></l><r>latino<s n="n"/></r></p></e>
@@ -11456,6 +11468,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>atmosfèricu<s n="adj"/></l><r>atmosferico<s n="adj"/></r></p></e>
       <e><p><l>mègius<s n="adj"/><s n="mf"/></l><r>migliore<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
       <e><p><l>grecu<s n="adj"/></l><r>greco<s n="adj"/></r></p></e>
+      <e><p><l>grecu<s n="n"/></l><r>greco<s n="n"/></r></p></e>
       <e><p><l>bonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
       <e r="LR"><p><l>buonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
       <e r="RL"><p><l>bonu<s n="adj"/><s n="GD"/></l><r>buono<s n="adj"/><s n="mf"/></r></p></e>
@@ -14827,7 +14840,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Boèmia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Boemia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Bolìvia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bolivia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Bompiani<s n="np"/><s n="cog"/></l><r>Bompiani<s n="np"/><s n="cog"/></r></p></e>
-      <e><p><l>Bosnia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bosnia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Boston<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Boston<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Britània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Britannia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Bugatti<s n="np"/><s n="org"/><s n="f"/></l><r>Bugatti<s n="np"/><s n="org"/><s n="f"/></r></p></e>
@@ -14840,7 +14852,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Carìntzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Carinzia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Castìglia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Castiglia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>CBS<s n="np"/><s n="org"/><s n="f"/></l><r>CBS<s n="np"/><s n="org"/><s n="f"/></r></p></e>
-      <e><p><l>Cecoslovàcchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cecoslovacchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Cecoslovàchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cecoslovacchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Champions<b/>League<s n="np"/><s n="org"/><s n="f"/></l><r>Champions<b/>League<s n="np"/><s n="org"/><s n="f"/></r></p></e>
       <e><p><l>Chevrolet<s n="np"/><s n="org"/><s n="f"/></l><r>Chevrolet<s n="np"/><s n="org"/><s n="f"/></r></p></e>
       <e><p><l>Chile<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Chile<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
@@ -14938,7 +14950,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Lotus<s n="np"/><s n="org"/><s n="f"/></l><r>Lotus<s n="np"/><s n="org"/><s n="f"/></r></p></e>
       <e><p><l>Louisiana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Louisiana<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Luftwaffe<s n="np"/><s n="org"/><s n="f"/></l><r>Luftwaffe<s n="np"/><s n="org"/><s n="f"/></r></p></e>
-      <e><p><l>Macedònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Macedonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Matzedònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Macedonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Manchester<b/>City<s n="np"/><s n="org"/><s n="m"/></l><r>Manchester<b/>City<s n="np"/><s n="org"/><s n="m"/></r></p></e>
       <e><p><l>Manchester<b/>United<s n="np"/><s n="org"/><s n="m"/></l><r>Manchester<b/>United<s n="np"/><s n="org"/><s n="m"/></r></p></e>
       <e><p><l>Manchester<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Manchester<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
@@ -14968,7 +14980,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Normandia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Normandia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Norvègia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Norvegia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Nova<b/>Scotia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nova<b/>Scotia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>np.ant.f.sg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rosario<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Rosario<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rosario<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Nueva<b/>Granada<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nueva<b/>Granada<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Nueva<b/>Pamplona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nueva<b/>Pamplona<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Nueva<b/>Segovia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nueva<b/>Segovia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
@@ -14998,8 +15010,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Rio<b/>de<b/>Janeiro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rio<b/>de<b/>Janeiro<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Rio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Rio<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>RKO<s n="np"/><s n="org"/><s n="f"/></l><r>RKO<s n="np"/><s n="org"/><s n="f"/></r></p></e>
-      <e><p><l>Romania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Romania<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Rùssia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Russia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>sa<b/><b/>Serenìssima<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>la<b/>Serenissima<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>sa<b/>Mecca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>la<b/>Mecca<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Saint<b/>Amand<s n="np"/><s n="cog"/></l><r>Saint<b/>Amand<s n="np"/><s n="cog"/></r></p></e>
@@ -16056,7 +16066,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>baratu<s n="adj"/></l><r>economico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>barbaritzinu<s n="adj"/></l><r>barbaricino<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>baroniesu<s n="adj"/></l><r>baroniese<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>basciu<s n="adj"/></l><r>basso<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>bàsciu<s n="adj"/></l><r>basso<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>bascu<s n="adj"/></l><r>basco<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>bàsicu<s n="adj"/></l><r>basico<s n="adj"/><s n="sup"/></r></p></e>
@@ -16451,7 +16460,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>gherrianu<s n="adj"/></l><r>guerriero<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>giamaicanu<s n="adj"/></l><r>giamaicano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>giaponesu<s n="adj"/></l><r>giapponese<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>giapponesu<s n="adj"/></l><r>giapponese<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>giovaneddu<s n="adj"/></l><r>giovanotto<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>giòvanu<s n="adj"/></l><r>giovane<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>gitanu<s n="adj"/></l><r>gitano<s n="adj"/><s n="sup"/></r></p></e>
@@ -17592,9 +17600,17 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>operadore<s n="adj"/></l><r>operatore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>orale<s n="adj"/></l><r>orale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>orientale<s n="adj"/></l><r>orientale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>nord-orientale<s n="adj"/></l><r>nord-orientale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>nord-orientale<s n="adj"/></l><r>nordorientale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>sud-orientale<s n="adj"/></l><r>sud-orientale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>sud-orientale<s n="adj"/></l><r>sudorientale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>originale<s n="adj"/></l><r>originale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>orizontale<s n="adj"/></l><r>orizzontale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>otzidentale<s n="adj"/></l><r>occidentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>nord-otzidentale<s n="adj"/></l><r>nord-occidentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>nord-otzidentale<s n="adj"/></l><r>nordoccidentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>sud-otzidentale<s n="adj"/></l><r>sud-occidentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>sud-otzidentale<s n="adj"/></l><r>sudoccidentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>parebare<s n="adj"/></l><r>reciproco<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>parente<s n="adj"/></l><r>congiunto<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>parìvile<s n="adj"/></l><r>equipollente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -18231,7 +18247,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>inammissìbile<s n="adj"/><s n="mf"/></l><r>inammissibile<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>ammissìbile<s n="adj"/><s n="mf"/></l><r>ammissibile<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>status<s n="n"/><s n="m"/></l><r>status<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>ufitzializare<s n="vblex"/></l><r>ufficilizzare<s n="vblex"/></r></p></e>
+      <e><p><l>ufitzializare<s n="vblex"/></l><r>ufficializzare<s n="vblex"/></r></p></e>
       <e><p><l>parificare<s n="vblex"/></l><r>parificare<s n="vblex"/></r></p></e>
       <e><p><l>tirolesu<s n="n"/></l><r>tirolese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>tirolesu<s n="adj"/></l><r>tirolese<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -18286,7 +18302,29 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Tirrenu<s n="np"/><s n="top"/><s n="m"/></l><r>Tirreno<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Jonicu<s n="np"/><s n="top"/><s n="m"/></l><r>Jonico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Atlànticu<s n="np"/><s n="top"/><s n="f"/></l><r>Atlantico<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-
+      <e><p><l>Istrasburgu<s n="np"/><s n="top"/><s n="m"/></l><r>Strasburgo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Olanda<s n="np"/><s n="top"/><s n="f"/></l><r>Olanda<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Ungheria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ungheria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Bòsnia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bosnia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Erzegòvina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Erzegovina<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Bèlgiu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Belgio<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mònaco<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Monaco<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Montenegru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Montenegro<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Paisos<b/>Bàscios<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Paesi<b/>Bassi<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Tzipru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cipro<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Liechtenstein<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Liechtenstein<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Estònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Estonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Letònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Letonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Islovàchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Slovacchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Grèghia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Majorca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Maiorca<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Palma<b/>de<b/>Majorca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Palma<b/>di<b/>Maiorca<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Minorca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Minorca<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Ibiza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ibiza<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Formentera<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Formentera<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Iràq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Iraq<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bagdàd<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bagdad<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Iràn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Iran<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 
 
       <!-- SECCIÓN: Punctuación -->
