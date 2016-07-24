@@ -862,7 +862,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>archeologia<s n="n"/><s n="f"/></l><r>archeologia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>archeòlogu<s n="n"/></l><r>archeologo<s n="n"/></r></p></e>
       <e><p><l>produtore<s n="n"/><s n="m"/></l><r>produttore<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>negatzione<s n="n"/><s n="f"/></l><r>negatzione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>negatzione<s n="n"/><s n="f"/></l><r>negazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>iscontru<s n="n"/><s n="m"/></l><r>scontro<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>impulsu<s n="n"/><s n="m"/></l><r>impulso<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>dipendèntzia<s n="n"/><s n="f"/></l><r>dipendenza<s n="n"/><s n="f"/></r></p></e>
@@ -4396,7 +4396,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>pulire<s n="vblex"/></l><r>pulire<s n="vblex"/></r></p></e>
 	<e><p><l>preigadore<s n="n"/></l><r>predicatore<s n="n"/></r></p></e>
 	<e><p><l>preigadore<s n="adj"/></l><r>predicatore<s n="adj"/></r></p></e>
-	<e><p><l>potentzialidade<s n="n"/><s n="f"/></l><r>potentzialità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+	<e><p><l>potentzialidade<s n="n"/><s n="f"/></l><r>potenzialità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 	<e><p><l>ponente<s n="n"/><s n="m"/></l><r>ponente<s n="n"/><s n="m"/></r></p></e>
 	<!-- <e><p><l>nde<s n="prn"/><s n="enc"/><s n="adv"/></l><r>ne<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e> -->
 	<e><p><l>navale<s n="adj"/><s n="mf"/></l><r>navale<s n="adj"/><s n="mf"/></r></p></e>
@@ -4956,7 +4956,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>sarvu<s n="adj"/></l><r>salvo<s n="adj"/></r></p></e>
 	<e><p><l>sapire<s n="vblex"/></l><r>accorgersi<s n="vblex"/></r></p></e>
 	<e><p><l>sapièntzia<s n="n"/><s n="f"/></l><r>sapienza<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>sanscritu<s n="adj"/></l><r>sanscrito<s n="adj"/></r></p></e>
+	<e><p><l>sànscritu<s n="adj"/></l><r>sanscrito<s n="adj"/></r></p></e>
+	<e><p><l>sànscritu<s n="n"/><s n="m"/></l><r>sanscrito<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>samba<s n="n"/><s n="f"/></l><r>samba<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>salinu<s n="adj"/></l><r>salino<s n="adj"/></r></p></e>
 	<e><p><l>salina<s n="n"/><s n="f"/></l><r>salina<s n="n"/><s n="f"/></r></p></e>
@@ -5052,9 +5053,27 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>mendare<s n="vblex"/></l><r>aggiungere<s n="vblex"/></r></p></e>
 	<e><p><l>medianu<s n="adj"/></l><r>mediano<s n="adj"/></r></p></e>
 	<e><p><l>maternidade<s n="n"/><s n="f"/></l><r>maternità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+	<e r="RL" c="non-preferred"><p><l>trotzkista<s n="n"/></l><r>trotskista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e r="RL" c="non-preferred"><p><l>trotzkista<s n="adj"/></l><r>trotskista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e r="RL" c="non-preferred"><p><l>trotzkismu<s n="n"/><s n="m"/></l><r>trotskismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>trotzkista<s n="n"/></l><r>trotzkista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>trotzkista<s n="adj"/></l><r>trotzkista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>trotzkismu<s n="n"/><s n="m"/></l><r>trotzkismo<s n="n"/><s n="m"/></r></p></e>
+	<e r="RL" c="non-preferred"><p><l>trotzkista<s n="n"/></l><r>trozkista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e r="RL" c="non-preferred"><p><l>trotzkista<s n="adj"/></l><r>trozkista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e r="RL" c="non-preferred"><p><l>trotzkismu<s n="n"/><s n="m"/></l><r>trozkismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>leninista<s n="n"/></l><r>leninista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>leninista<s n="adj"/></l><r>leninista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>leninismu<s n="n"/><s n="m"/></l><r>leninismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>maoista<s n="n"/></l><r>maoista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>maoista<s n="adj"/></l><r>maoista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>maoismu<s n="n"/><s n="m"/></l><r>maoismo<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>istalinista<s n="n"/></l><r>stalinista<s n="n"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>istalinista<s n="adj"/></l><r>stalinista<s n="adj"/></r></p><par n="mf_GD"/></e>
+	<e><p><l>istalinismu<s n="n"/><s n="m"/></l><r>stalinismo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>marxista<s n="n"/></l><r>marxista<s n="n"/></r></p><par n="mf_GD"/></e>
 	<e><p><l>marxista<s n="adj"/></l><r>marxista<s n="adj"/></r></p><par n="mf_GD"/></e>
-	<e><p><l>marxismu<s n="n"/><s n="m"/></l><r>marxismu<s n="n"/><s n="m"/></r></p></e>
+	<e><p><l>marxismu<s n="n"/><s n="m"/></l><r>marxismo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>màniga<s n="n"/><s n="f"/></l><r>manica<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>magrare<s n="vblex"/></l><r>imboscare<s n="vblex"/></r></p></e>
 	<e><p><l>madrigale<s n="n"/><s n="m"/></l><r>madrigale<s n="n"/><s n="m"/></r></p></e>
@@ -5086,7 +5105,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>fitianare<s n="vblex"/></l><r>bazzicare<s n="vblex"/></r></p></e>
 	<e><p><l>fissatzione<s n="n"/><s n="f"/></l><r>fissazione<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>fìsica<s n="n"/><s n="f"/></l><r>fìsica<s n="n"/><s n="f"/></r></p></e>
-	<e><p><l>firma,<s n="n"/><s n="f"/></l><r>firma,<s n="n"/><s n="f"/></r></p></e>
+	<e><p><l>firma<s n="n"/><s n="f"/></l><r>firma<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>filòsofu<s n="n"/><s n="m"/></l><r>filosofo<s n="n"/><s n="m"/></r></p></e>
 	<e><p><l>fertilidade<s n="n"/><s n="f"/></l><r>fertilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 	<e><p><l>feridu<s n="adj"/></l><r>ferito<s n="adj"/></r></p></e>
@@ -5326,7 +5345,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>cabarra<s n="n"/><s n="f"/></l><r>caparra<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>caparra<s n="n"/><s n="f"/></l><r>caparra<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>legislatura<s n="n"/><s n="f"/></l><r>legislatura<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>magistratura<s n="n"/><s n="f"/></l><r>magistratura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>arga<s n="n"/><s n="f"/></l><r>spazzatura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>frunimentu<s n="n"/><s n="m"/></l><r>fornitura<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>massaria<s n="n"/><s n="f"/></l><r>agricoltura<s n="n"/><s n="f"/></r></p></e>
@@ -11103,8 +11121,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>logudoresu<s n="n"/></l><r>logudorese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>piemontesu<s n="adj"/></l><r>piemontese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>piemontesu<s n="n"/></l><r>piemontese<s n="n"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>iscotzesu<s n="adj"/></l><r>iscotzese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>iscotzesu<s n="n"/></l><r>iscotzese<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>iscotzesu<s n="adj"/></l><r>scozzese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>iscotzesu<s n="n"/></l><r>scozzese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>àrabu<s n="adj"/></l><r>arabo<s n="adj"/></r></p></e>
       <e><p><l>àrabu<s n="n"/></l><r>arabo<s n="n"/></r></p></e>
       <e><p><l>crìticu<s n="adj"/></l><r>critico<s n="adj"/></r></p></e>
@@ -16539,7 +16557,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>iscientìficu<s n="adj"/></l><r>scientifico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>iscunsertadu<s n="adj"/></l><r>disordinato<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>iscolàsticu<s n="adj"/></l><r>scolastico<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>iscotzesu<s n="adj"/></l><r>iscotzese<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>iscotzesu<s n="adj"/></l><r>scozzese<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>iscritu<s n="adj"/></l><r>iscritto<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>iscrobadu<s n="adj"/></l><r>separato<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>iscurtzu<s n="adj"/></l><r>scalzo<s n="adj"/><s n="sup"/></r></p></e>
