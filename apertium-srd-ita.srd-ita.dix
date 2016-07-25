@@ -142,10 +142,10 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>ma<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
       <e><p><l>però<s n="cnjcoo"/></l><r>però<s n="cnjcoo"/></r></p></e>
       <e><p><l>opuru<s n="cnjcoo"/></l><r>oppure<s n="cnjcoo"/></r></p></e>
-      <e><p><l>puru<s n="cnjcoo"/></l><r>nonché<s n="cnjcoo"/></r></p></e>
+      <e><p><l>puru<s n="cnjadv"/></l><r>nonché<s n="cnjadv"/></r></p></e>
       <e><p><l>in<b/>fatis<s n="cnjcoo"/></l><r>difatti<s n="cnjcoo"/></r></p></e>
       <e><p><l>overas<s n="cnjcoo"/></l><r>ovvero<s n="cnjcoo"/></r></p></e>
-      <e><p><l>mentras<s n="cnjadv"/></l><r>mentre<s n="cnjcoo"/></r></p></e>
+      <e><p><l>mentras<s n="cnjadv"/></l><r>mentre<s n="cnjadv"/></r></p></e>
       <e><p><l>ne<s n="cnjcoo"/></l><r>né<s n="cnjcoo"/></r></p></e>
            
       <e><p><l>mancari<s n="cnjsub"/></l><r>anche<b/>se<s n="cnjsub"/></r></p></e>
@@ -2394,6 +2394,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>multimediale<s n="adj"/></l><r>multimediale<s n="adj"/></r></p></e>
       <e><p><l>moderadu<s n="adj"/></l><r>moderato<s n="adj"/></r></p></e>
       <e><p><l>mentras<s n="adv"/></l><r>mentre<s n="adv"/></r></p></e>
+      <e><p><l>mentres<s n="adv"/></l><r>mentre<s n="adv"/></r></p></e>
       <e><p><l>meidade<s n="n"/><s n="f"/></l><r>metà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>isvìtzeru<s n="adj"/></l><r>isvizzero<s n="adj"/></r></p></e>
       <e><p><l>istudiante<s n="n"/></l><r>studente<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -2626,7 +2627,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>protzessuale<s n="adj"/><s n="mf"/></l><r>processuale<s n="adj"/><s n="mf"/></r></p></e>
       <e><p><l>partu<s n="n"/><s n="m"/></l><r>parto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>musitzista<s n="n"/></l><r>musicista<s n="n"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>mentres<s n="adv"/></l><r>mentre<s n="adv"/></r></p></e>
       <e><p><l>marochinu<s n="adj"/></l><r>marocchino<s n="adj"/></r></p></e>
 
       <e><p><l>Màrghine<s n="np"/><s n="top"/><s n="m"/></l><r>Marghine<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -11597,7 +11597,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>oràriu<s n="adj"/></l><r>orario<s n="adj"/></r></p></e>
       <e><p><l>publitzitàriu<s n="adj"/></l><r>pubblicitario<s n="adj"/></r></p></e>
       <e><p><l>sanitàriu<s n="adj"/></l><r>sanitario<s n="adj"/></r></p></e>
-      <e><p><l>credibile<s n="adj"/></l><r>credìbile<s n="adj"/></r></p></e>
+      <e><p><l>credìbile<s n="adj"/></l><r>credibile<s n="adj"/></r></p></e>
       <e><p><l>unitàriu<s n="adj"/></l><r>unitario<s n="adj"/></r></p></e>
       <e><p><l>comunitàriu<s n="adj"/></l><r>comunitario<s n="adj"/></r></p></e>
       <e><p><l>voluntàriu<s n="adj"/></l><r>volontario<s n="adj"/></r></p></e>
@@ -17365,7 +17365,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>costitutzionale<s n="adj"/></l><r>costituzionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <!--<e r="RL"><p><l>costruidore<s n="adj"/></l><r>costruttore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
       <e r="RL"><p><l>coufitziale<s n="adj"/></l><r>coufficiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <e r="RL"><p><l>credibile<s n="adj"/></l><r>credìbile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>credìbile<s n="adj"/></l><r>credibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <!--<e r="RL"><p><l>creditore<s n="adj"/></l><r>creditore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
       <e r="RL"><p><l>criminale<s n="adj"/></l><r>criminale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>crudele<s n="adj"/></l><r>crudele<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -17788,13 +17788,13 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>agigu<s n="adv"/></l><r>un<b/>poco<s n="adv"/></r></p></e>
       <e><p><l>aici<s n="preadv"/></l><r>così<s n="preadv"/></r></p></e>
       <e><p><l>annoas<s n="adv"/></l><r>l'anno<b/>prossimo<s n="adv"/></r></p></e>
-      <e><p><l>antis<s n="cnjcoo"/></l><r>anzi<s n="cnjcoo"/></r></p></e>
+      <e><p><l>antis<s n="cnjadv"/></l><r>anzi<s n="cnjadv"/></r></p></e>
       <e><p><l>baddu<s n="adv"/></l><r>forse<s n="adv"/></r></p></e>
       <e><p><l>bastat<b/>chi<s n="cnjsub"/></l><r>basta<b/>che<s n="cnjsub"/></r></p></e>
       <e><p><l>bastis<b/>chi<s n="cnjsub"/></l><r>basta<b/>che<s n="cnjsub"/></r></p></e>
       <e><p><l>bene<s n="preadv"/></l><r>bene<s n="preadv"/></r></p></e>
       <e><p><l>bene<s n="preadv"/></l><r>ben<s n="preadv"/></r></p></e>
-      <e><p><l>cando<b/>chi<s n="cnjcoo"/></l><r>sebbene<s n="cnjcoo"/></r></p></e>
+      <e><p><l>cando<b/>chi<s n="cnjadv"/></l><r>sebbene<s n="cnjadv"/></r></p></e>
       <e><p><l>cando<b/>non<b/>cando<s n="adv"/></l><r>casomai<s n="adv"/></r></p></e>
       <e><p><l>cando<s n="adv"/></l><r>quando<s n="adv"/></r></p></e>
       <e><p><l>cara<s n="adv"/></l><r>verso<s n="adv"/></r></p></e>
@@ -17824,12 +17824,12 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>de<b/>nudda<s n="adv"/></l><r>di<b/>niente<s n="adv"/></r></p></e>
       <e><p><l>de<b/>repente<s n="adv"/></l><r>all'improvviso<s n="adv"/></r></p></e>
       <e><p><l>de<b/>rugradis<s n="adv"/></l><r>di<b/>sbieco<s n="adv"/></r></p></e>
-      <e><p><l>de<b/>su<b/>restu<s n="cnjcoo"/></l><r>per<b/>il<b/>reso<s n="cnjcoo"/></r></p></e>
+      <e><p><l>de<b/>su<b/>restu<s n="cnjsub"/></l><r>per<b/>il<b/>resto<s n="cnjsub"/></r></p></e>
       <e><p><l>deprus<s n="adv"/></l><r>di<b/>più<s n="adv"/></r></p></e>
       <e><p><l>deretu<s n="adv"/></l><r>subito<s n="adv"/></r></p></e>
       <e><p><l>deseguru<s n="adv"/></l><r>di<b/>sicuro<s n="adv"/></r></p></e>
-      <e><p><l>difatis<s n="cnjcoo"/></l><r>difatti<s n="cnjcoo"/></r></p></e>
-      <e><p><l>duncas<s n="cnjcoo"/></l><r>dunque<s n="cnjcoo"/></r></p></e>
+      <e><p><l>difatis<s n="cnjadv"/></l><r>difatti<s n="cnjadv"/></r></p></e>
+      <e><p><l>duncas<s n="cnjadv"/></l><r>dunque<s n="cnjadv"/></r></p></e>
       <e><p><l>ei<s n="adv"/></l><r>sì<s n="adv"/></r></p></e>
       <e><p><l>eja<s n="adv"/></l><r>sì<s n="adv"/></r></p></e>
       <e><p><l>ello<s n="adv"/></l><r>ebbene<s n="adv"/></r></p></e>
@@ -17842,16 +17842,15 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL" c="non-preferred"><p><l>finas<b/>a<b/>cando<s n="cnjsub"/></l><r>fin<b/>quando<s n="cnjsub"/></r></p></e>
       <e r="LR" c="non-preferred"><p><l>fintzas<b/>a<b/>cando<s n="cnjsub"/></l><r>fin<b/>quando<s n="cnjsub"/></r></p></e>
       <e><p><l>finas<s n="adv"/></l><r>anche<s n="adv"/></r></p></e>
-      <!-- <e><p><l>finas<s n="cnjcoo"/></l><r>anche<s n="cnjcoo"/></r></p></e> se prefiere que anche sea sólo adv -->
-      <!-- <e><p><l>finas<s n="cnjcoo"/></l><r>perfino<s n="cnjcoo"/></r></p></e> para evitar el análisis de finas como cnjcoo -->
-      <!-- <e><p><l>fintzas<s n="cnjcoo"/></l><r>anche<s n="cnjcoo"/></r></p></e> se prefiere que anche sea sólo adv -->
+      <e><p><l>finas<s n="cnjsub"/></l><r>perfino<s n="cnjsub"/></r></p></e>
+      <e><p><l>fintzas<s n="cnjcoo"/></l><r>anche<s n="cnjcoo"/></r></p></e>
       <e><p><l>francu<s n="cnjsub"/></l><r>salvo<s n="cnjsub"/></r></p></e>
       <e><p><l>fui·fui<s n="adv"/></l><r>di<b/>sfuggita<s n="adv"/></r></p></e>
       <e><p><l>gianteris<s n="adv"/></l><r>avant'ieri<s n="adv"/></r></p></e>
       <e><p><l>imbetzes<s n="cnjcoo"/></l><r>invece<s n="cnjcoo"/></r></p></e>
       <e><p><l>in<b/>antis<s n="adv"/></l><r>prima<s n="adv"/></r></p></e>
       <e><p><l>in<b/>aterue<s n="adv"/></l><r>altrove<s n="adv"/></r></p></e>
-      <e><p><l>in<b/>càmbiu<s n="cnjcoo"/></l><r>al<b/>contraio<s n="cnjcoo"/></r></p></e>
+      <e><p><l>in<b/>càmbiu<s n="cnjadv"/></l><r>al<b/>contraio<s n="cnjadv"/></r></p></e>
       <e><p><l>in<b/>cara<s n="adv"/></l><r>in<b/>faccia<s n="adv"/></r></p></e>
       <e><p><l>in<b/>cuddae<s n="adv"/></l><r>laggiù<s n="adv"/></r></p></e>
       <e><p><l>in<b/>cue<s n="adv"/></l><r>lì<s n="adv"/></r></p></e>
@@ -17870,7 +17869,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>in<b/>pitzu<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
       <e><p><l>in<b/>presse<s n="adv"/></l><r>di<b/>fretta<s n="adv"/></r></p></e>
       <e><p><l>in<b/>prus<s n="adv"/></l><r>in<b/>più<s n="adv"/></r></p></e>
-      <e><p><l>in<b/>prus<s n="cnjcoo"/></l><r>per<b/>di<b/>più<s n="cnjcoo"/></r></p></e>
+      <e><p><l>in<b/>prus<s n="cnjadv"/></l><r>per<b/>di<b/>più<s n="cnjadv"/></r></p></e>
       <e><p><l>in<b/>segus<s n="adv"/></l><r>dietro<s n="adv"/></r></p></e>
       <e><p><l>in<b/>s’ìnteri<s n="cnjsub"/></l><r>frattanto<s n="cnjsub"/></r></p></e>
       <e><p><l>in<b/>subra<s n="adv"/></l><r>sopra<s n="adv"/></r></p></e>
@@ -17901,13 +17900,13 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>peri<s n="cnjcoo"/></l><r>pure<s n="cnjcoo"/></r></p></e>
       <e><p><l>petzi<s n="preadv"/></l><r>solo<s n="preadv"/></r></p></e>
       <e><p><l>peus<s n="preadv"/></l><r>peggio<s n="preadv"/></r></p></e>
-      <e><p><l>pro<b/>cussu<s n="cnjcoo"/></l><r>per<b/>quello<s n="cnjcoo"/></r></p></e>
-      <e><p><l>pro<b/>custu<s n="cnjcoo"/></l><r>perciò<s n="cnjcoo"/></r></p></e>
-      <e><p><l>pro<b/>esempru<s n="cnjcoo"/></l><r>per<b/>esempio<s n="cnjcoo"/></r></p></e>
-      <e><p><l>pro<b/>nàrrere<b/>unu<b/>paragone<s n="cnjcoo"/></l><r>per<b/>dire<s n="cnjcoo"/></r></p></e>
+      <e><p><l>pro<b/>cussu<s n="cnjadv"/></l><r>per<b/>quello<s n="cnjadv"/></r></p></e>
+      <e><p><l>pro<b/>custu<s n="cnjadv"/></l><r>perciò<s n="adv"/></r></p></e>
+      <e><p><l>pro<b/>esempru<s n="cnjadv"/></l><r>per<b/>esempio<s n="cnjadv"/></r></p></e>
+      <e><p><l>pro<b/>nàrrere<b/>unu<b/>paragone<s n="cnjadv"/></l><r>per<b/>dire<s n="cnjadv"/></r></p></e>
       <e><p><l>pro<b/>nudda<s n="adv"/></l><r>per<b/>niente<s n="adv"/></r></p></e>
       <e><p><l>pròpiu<s n="preadv"/></l><r>proprio<s n="preadv"/></r></p></e>
-      <e><p><l>prus<b/>a<b/>prestu<s n="cnjcoo"/></l><r>più<b/>che<b/>altro<s n="cnjcoo"/></r></p></e>
+      <e><p><l>prus<b/>a<b/>prestu<s n="cnjadv"/></l><r>più<b/>che<b/>altro<s n="cnjadv"/></r></p></e>
       <e><p><l>prus<b/>o<b/>mancu<s n="adv"/></l><r>di<b/>meno<s n="adv"/></r></p></e>
       <e><p><l>prus<b/>o<b/>mancu<s n="preadv"/></l><r>di<b/>meno<s n="preadv"/></r></p></e>
       <e><p><l>prus<b/>pagu<s n="adv"/></l><r>di<b/>meno<s n="adv"/></r></p></e>
@@ -17916,12 +17915,12 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>rue·rue<s n="adv"/></l><r>in<b/>caduta<s n="adv"/></r></p></e>
       <e><p><l>sena<b/>duda<s n="adv"/></l><r>senza<b/>dubbio<s n="adv"/></r></p></e>
       <e><p><l>sende<b/>chi<s n="cnjsub"/></l><r>solo<b/>che<s n="cnjsub"/></r></p></e>
-      <e><p><l>sende<b/>gasi<s n="cnjcoo"/></l><r>meno<b/>male<b/>che<s n="cnjcoo"/></r></p></e>
+      <!-- <e><p><l>sende<b/>gasi<s n="cnjcoo"/></l><r>meno<b/>male<b/>che<s n="cnjcoo"/></r></p></e> -->
       <e><p><l>siat<s n="cnjcoo"/></l><r>sia<s n="cnjcoo"/></r></p></e>
       <e><p><l>si<b/>no<b/>est<b/>chi<s n="cnjsub"/></l><r>senonché<s n="cnjsub"/></r></p></e>
       <e><p><l>s’in<b/>casu<s n="adv"/></l><r>nel<b/>caso<s n="adv"/></r></p></e>
       <e><p><l>tando<s n="adv"/></l><r>allora<s n="adv"/></r></p></e>
-      <e><p><l>tando<s n="cnjcoo"/></l><r>allora<s n="cnjcoo"/></r></p></e>
+      <e><p><l>tando<s n="cnjadv"/></l><r>allora<s n="cnjadv"/></r></p></e>
       <e><p><l>totu<b/>in<b/>unu<s n="adv"/></l><r>all'improvviso<s n="adv"/></r></p></e>
       <e><p><l>una<b/>bia<s n="adv"/></l><r>una<b/>volta<s n="adv"/></r></p></e>
 
