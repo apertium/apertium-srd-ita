@@ -206,7 +206,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
       <e><p><l>che<b/>a<s n="pr"/></l><r>come<b/>a<s n="pr"/></r></p></e>
       <e><p><l>finas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
-      <e><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
+      <e r="RL" c="non-preferred"><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
       <e><p><l>in<b/>foras<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
       <e><p><l>a<b/>foras<b/>de<s n="pr"/></l><r>fuori<b/>da<s n="pr"/></r></p></e>
       <e><p><l>finas<s n="pr"/></l><r>persino<s n="pr"/></r></p></e>
@@ -4729,6 +4729,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 	<e><p><l>vitòria<s n="n"/><s n="f"/></l><r>vittoria<s n="n"/><s n="f"/></r></p></e>
 	<e><p><l>virtuosu<s n="adj"/></l><r>virtuoso<s n="adj"/></r></p></e>
 	<e><p><l>virtuosu<s n="n"/></l><r>virtuoso<s n="n"/></r></p></e>
+	<e><p><l>iònicu<s n="adj"/></l><r>ionico<s n="adj"/></r></p></e>
 	<e><p><l>ùnigu<s n="adj"/></l><r>unico<s n="adj"/></r></p></e>
 	<e><p><l>umilidade<s n="n"/><s n="f"/></l><r>umiltà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 	<e><p><l>umbrosu<s n="adj"/></l><r>ombroso<s n="adj"/></r></p></e>
@@ -6696,7 +6697,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
       <e><p><l>Àfrica<s n="np"/><s n="top"/><s n="f"/></l><r>Africa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Alaska<s n="np"/><s n="top"/><s n="f"/></l><r>Alaska<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Albania<s n="np"/><s n="top"/><s n="f"/></l><r>Albania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Albània<s n="np"/><s n="top"/><s n="f"/></l><r>Albania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Amèrica<s n="np"/><s n="top"/><s n="f"/></l><r>America<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Amèrica<b/>Latina<s n="np"/><s n="top"/><s n="f"/></l><r>America<b/>Latina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Andorra<s n="np"/><s n="top"/><s n="f"/></l><r>Andorra<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -6707,7 +6708,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Barcellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Birmània<s n="np"/><s n="top"/><s n="f"/></l><r>Birmania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Budapèst<s n="np"/><s n="top"/><s n="m"/></l><r>Budapest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Calabria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Calàbria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Califòrnia<s n="np"/><s n="top"/><s n="f"/></l><r>California<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Canada<s n="np"/><s n="top"/><s n="m"/></l><r>Canada<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Azerbaigiàn<s n="np"/><s n="top"/><s n="m"/></l><r>Azerbaigian<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -6746,7 +6747,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Lìbanu<s n="np"/><s n="top"/><s n="m"/></l><r>Libano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>      
       <e><p><l>Malta<s n="np"/><s n="top"/><s n="f"/></l><r>Malta<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Mesopotàmia<s n="np"/><s n="top"/><s n="f"/></l><r>Mesopotamia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e><p><l>Napoli<s n="np"/><s n="top"/><s n="m"/></l><r>Napoli<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>New<b/>York<s n="np"/><s n="top"/><s n="m"/></l><r>New<b/>York<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Pamplona<s n="np"/><s n="top"/><s n="f"/></l><r>Pamplona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Portugallu<s n="np"/><s n="top"/><s n="m"/></l><r>Portogallo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -11465,6 +11465,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
 
       <e><p><l>tirrènicu<s n="adj"/></l><r>tirrenico<s n="adj"/></r></p></e>
+      <e><p><l>tirrenu<s n="adj"/></l><r>tirreno<s n="adj"/></r></p></e>
       <e><p><l>tècnicu<s n="adj"/></l><r>tecnico<s n="adj"/></r></p></e>
       <e><p><l>tècnicu<s n="n"/></l><r>tecnico<s n="n"/></r></p></e>
       <e><p><l>atmosfèricu<s n="adj"/></l><r>atmosferico<s n="adj"/></r></p></e>
@@ -12148,6 +12149,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>a<b/>pustis<s n="adv"/></l><r>poi<s n="adv"/></r></p></e>
       <e><p><l>antis<s n="adv"/></l><r>anzi<s n="adv"/></r></p></e>
       <e><p><l>gai<s n="cnjadv"/></l><r>così<s n="cnjadv"/></r></p></e>
+      <e><p><l>gai<b/>chi<s n="cnjadv"/></l><r>cosicché<s n="cnjadv"/></r></p></e>
       <e><p><l>a<b/>su<b/>nessi<s n="adv"/></l><r>almeno<s n="adv"/></r></p></e>
       <e><p><l>ocannu<s n="adv"/></l><r>quest'anno<s n="adv"/></r></p></e>
       <e><p><l>craru<s n="adv"/></l><r>chiaro<s n="adv"/></r></p></e>
@@ -14352,7 +14354,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Potenza<s n="np"/><s n="top"/><s n="f"/></l><r>Potenza<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Pùglia<s n="np"/><s n="top"/><s n="f"/></l><r>Puglia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Bari<s n="np"/><s n="top"/><s n="m"/></l><r>Bari<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Calàbria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Catanzaro<s n="np"/><s n="top"/><s n="m"/></l><r>Catanzaro<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Palermu<s n="np"/><s n="top"/><s n="m"/></l><r>Palermo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Casteddu<s n="np"/><s n="top"/><s n="m"/></l><r>Cagliari<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -17202,6 +17203,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>tasidu<s n="adj"/></l><r>sospeso<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tataresu<s n="adj"/></l><r>sassarese<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tirrènicu<s n="adj"/></l><r>tirrenico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>tirrenu<s n="adj"/></l><r>tirreno<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tècnicu<s n="adj"/></l><r>tecnico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tecnològicu<s n="adj"/></l><r>tecnologico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>tedescu<s n="adj"/></l><r>tedesco<s n="adj"/><s n="sup"/></r></p></e>
@@ -17252,6 +17254,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>ùmidu<s n="adj"/></l><r>umido<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>unfradu<s n="adj"/></l><r>gonfio<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>ungheresu<s n="adj"/></l><r>ungherese<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>iònicu<s n="adj"/></l><r>ionico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>ùnicu<s n="adj"/></l><r>unico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>unidu<s n="adj"/></l><r>unito<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>unitàriu<s n="adj"/></l><r>unitario<s n="adj"/><s n="sup"/></r></p></e>
@@ -18291,7 +18294,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Santìssima<b/>Trinidade<s n="np"/><s n="al"/><s n="f"/></l><r>Santissima<b/>Trinità<s n="np"/><s n="al"/><s n="f"/></r></p></e>
       <e><p><l>Carissimi<s n="np"/><s n="cog"/></l><r>Carissimi<s n="np"/><s n="cog"/></r></p></e>
       <e><p><l>dae<b/>deretu<s n="adv"/></l><r>da<b/>subito<s n="adv"/></r></p></e>
-      <e><p><l>giai<b/>dae<b/>deretu<s n="adv"/></l><r>fin<b/>da<b/>subito<s n="adv"/></r></p></e>
+      <e><p><l>finas<b/>dae<b/>deretu<s n="adv"/></l><r>fin<b/>da<b/>subito<s n="adv"/></r></p></e>
+      <e r="RL" c="non-preferred"><p><l>fintzas<b/>dae<b/>deretu<s n="adv"/></l><r>fin<b/>da<b/>subito<s n="adv"/></r></p></e>
+      <e r="RL" c="non-preferred"><p><l>giai<b/>dae<b/>deretu<s n="adv"/></l><r>fin<b/>da<b/>subito<s n="adv"/></r></p></e>
       <e><p><l>torrare<g><b/>a<b/>nàrrere</g><s n="vblex"/></l><r>ribadire<s n="vblex"/></r></p></e>
 
       <e><p><l>Danùbiu<s n="np"/><s n="hyd"/><s n="m"/></l><r>Danubio<s n="np"/><s n="hyd"/><s n="m"/></r></p></e>
@@ -18300,7 +18305,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Bòsforu<s n="np"/><s n="top"/><s n="m"/></l><r>Bosforo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Adriàticu<s n="np"/><s n="top"/><s n="m"/></l><r>Adriatico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Tirrenu<s n="np"/><s n="top"/><s n="m"/></l><r>Tirreno<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Jonicu<s n="np"/><s n="top"/><s n="m"/></l><r>Jonico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Iònicu<s n="np"/><s n="top"/><s n="m"/></l><r>Ionico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Atlànticu<s n="np"/><s n="top"/><s n="f"/></l><r>Atlantico<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Istrasburgu<s n="np"/><s n="top"/><s n="m"/></l><r>Strasburgo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Olanda<s n="np"/><s n="top"/><s n="f"/></l><r>Olanda<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -18326,6 +18331,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Iràq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Iraq<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Bagdàd<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bagdad<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 
+      <e><p><l>finas<b/>dae<s n="pr"/></l><r>fin<b/>da<s n="pr"/></r></p></e>
+      <e r="RL" c="non-preferred"><p><l>fintzas<b/>dae<s n="pr"/></l><r>fin<b/>da<s n="pr"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
