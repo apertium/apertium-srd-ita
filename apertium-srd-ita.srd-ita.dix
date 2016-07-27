@@ -12076,7 +12076,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>como<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
       <e><p><l>in<b/>totue<s n="adv"/></l><r>ovunque<s n="adv"/></r></p></e>
       <e><p><l>craru<s n="adv"/></l><r>ovviamente<s n="adv"/></r></p></e>
-      <e><p><l>probabilmente<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>probabilmente<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
+      <e><p><l>cun<b/>probabilidade<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
       <e><p><l>duncas<s n="adv"/></l><r>quindi<s n="adv"/></r></p></e>
       <e><p><l>tando<s n="adv"/></l><r>quindi<s n="adv"/></r></p></e>
       <e><p><l>semper<s n="adv"/></l><r>sempre<s n="adv"/></r></p></e>
@@ -12234,6 +12235,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>curre·curre<s n="adv"/></l><r>velocemente<s n="adv"/></r></p></e>
       <e><p><l>de<b/>repente<s n="adv"/></l><r>velocemente<s n="adv"/></r></p></e>
       <e><p><l>in<b/>presse<s n="adv"/></l><r>velocemente<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>manera<b/>lestra<s n="adv"/></l><r>velocemente<s n="adv"/></r></p></e>
       <e><p><l>de<b/>a<b/>veras<s n="adv"/></l><r>veramente<s n="adv"/></r></p></e>
 
 
