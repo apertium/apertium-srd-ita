@@ -683,6 +683,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>azienda<s n="n"/><s n="f"/></l><r>azienda<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>barba<s n="n"/><s n="f"/></l><r>barba<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>batalla<s n="n"/><s n="f"/></l><r>battaglia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>batallione<s n="n"/><s n="m"/></l><r>battaglione<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>batallone<s n="n"/><s n="m"/></l><r>battaglione<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>beneditzione<s n="n"/><s n="f"/></l><r>benedizione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>benefìtziu<s n="n"/><s n="m"/></l><r>beneficio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>biblioteca<s n="n"/><s n="f"/></l><r>biblioteca<s n="n"/><s n="f"/></r></p></e>
@@ -18351,6 +18353,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>satzerdote<s n="n"/><s n="m"/></l><r>sacerdote<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>magnèticu<s n="adj"/></l><r>magnetico<s n="adj"/></r></p></e>
       <e><p><l>eletromagnèticu<s n="adj"/></l><r>elettromagnetico<s n="adj"/></r></p></e>
+
+      <e><p><l>asma<s n="n"/><s n="mf"/></l><r>asma<s n="n"/><s n="mf"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
