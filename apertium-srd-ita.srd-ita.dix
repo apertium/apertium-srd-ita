@@ -18359,6 +18359,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>apartheid<s n="n"/><s n="m"/></l><r>apartheid<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>currìculum<s n="n"/><s n="m"/></l><r>curriculum<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>aspirapòlvere<s n="n"/><s n="f"/></l><r>aspirapolvere<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>camerata<s n="n"/><s n="f"/></l><r>camerata<s n="n"/><s n="f"/></r></p></e>
 
 
       <e><p><l>agonia<s n="n"/><s n="f"/></l><r>agonia<s n="n"/><s n="f"/></r></p></e>
@@ -19722,6 +19723,134 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>òvulu<s n="n"/><s n="m"/></l><r>ovulo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>ùtile<s n="n"/><s n="m"/></l><r>utile<s n="n"/><s n="m"/></r></p></e>
 
+      <e><p><l>amàtzone<s n="n"/><s n="f"/></l><r>amazzone<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anglitzismu<s n="n"/><s n="m"/></l><r>anglicismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>annùntziu<s n="n"/><s n="m"/></l><r>annuncio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>antetzedente<s n="n"/><s n="m"/></l><r>antecedente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>antzia<s n="n"/><s n="f"/></l><r>ancia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>aratzu<s n="n"/><s n="m"/></l><r>arazzo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>artèfitze<s n="n"/><s n="mf"/></l><r>artefice<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>atzotu<s n="n"/><s n="m"/></l><r>azoto<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>bartza<s n="n"/><s n="f"/></l><r>barca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>batzinu<s n="n"/><s n="m"/></l><r>bacino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>botza<s n="n"/><s n="f"/></l><r>bozza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>camiontzinu<s n="n"/><s n="m"/></l><r>camioncino<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cantzelleria<s n="n"/><s n="f"/></l><r>cancelleria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>carrotzeria<s n="n"/><s n="f"/></l><r>carrozzeria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>carrotzinu<s n="n"/><s n="m"/></l><r>carrozzino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cartontzinu<s n="n"/><s n="m"/></l><r>cartoncino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cavalleritzu<s n="n"/><s n="m"/></l><r>cavallerizzo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>classitzismu<s n="n"/><s n="m"/></l><r>classicismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>classitzista<s n="n"/></l><r>classicista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>contza<s n="n"/><s n="f"/></l><r>conca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>contzime<s n="n"/><s n="m"/></l><r>concime<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>contzisione<s n="n"/><s n="f"/></l><r>concisione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cornitze<s n="n"/><s n="f"/></l><r>cornice<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cortotzircùitu<s n="n"/><s n="m"/></l><r>cortocircuito<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cotza<s n="n"/><s n="f"/></l><r>coca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cotzu<s n="n"/><s n="m"/></l><r>cozzo<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>càltziu<s n="n"/><s n="m"/></l><r>calcio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>càmitze<s n="n"/><s n="m"/></l><r>camice<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>còditze<s n="n"/><s n="m"/></l><r>codice<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>còmplitze<s n="n"/><s n="mf"/></l><r>complice<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>detzimale<s n="n"/><s n="m"/></l><r>decimale<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>detzènniu<s n="n"/><s n="m"/></l><r>decennio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>domitzìliu<s n="n"/><s n="m"/></l><r>domicilio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>esortzismu<s n="n"/><s n="m"/></l><r>esorcismo<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>esortzista<s n="n"/></l><r>esorcista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>giatzimentu<s n="n"/><s n="m"/></l><r>giacimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>giatzintu<s n="n"/><s n="m"/></l><r>giacinto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>glìtzine<s n="n"/><s n="m"/></l><r>glicine<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>gretzista<s n="n"/></l><r>grecista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>intertzessione<s n="n"/><s n="f"/></l><r>intercessione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>intrallatzu<s n="n"/><s n="m"/></l><r>intrallazzo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>intzensu<s n="n"/><s n="m"/></l><r>incenso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>intzisione<s n="n"/><s n="f"/></l><r>incisione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>lavatritze<s n="n"/><s n="f"/></l><r>lavatrice<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>leontzinu<s n="n"/><s n="m"/></l><r>leoncino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>leutzemia<s n="n"/><s n="f"/></l><r>leucemia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>làntziu<s n="n"/><s n="m"/></l><r>lancio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>matzu<s n="n"/><s n="m"/></l><r>mazzo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>merlutzu<s n="n"/><s n="m"/></l><r>merluzzo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mertzenàriu<s n="n"/><s n="m"/></l><r>mercenario<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mototziclismu<s n="n"/><s n="m"/></l><r>motociclismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mototziclista<s n="n"/></l><r>motociclista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>màrtzia<s n="n"/><s n="f"/></l><r>marcia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>nartzisu<s n="n"/><s n="m"/></l><r>narciso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>orèfitze<s n="n"/><s n="m"/></l><r>orefice<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>partitzìpiu<s n="n"/><s n="m"/></l><r>participio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>patrotzìniu<s n="n"/><s n="m"/></l><r>patrocinio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>penitzillina<s n="n"/><s n="f"/></l><r>penicillina<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>petzu<s n="n"/><s n="m"/></l><r>pezzo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>piatzista<s n="n"/></l><r>piazzista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>portzu<s n="n"/><s n="m"/></l><r>porco<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>printzipiante<s n="n"/><s n="m"/></l><r>principiante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pronuntziamentu<s n="n"/><s n="m"/></l><r>pronunciamento<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>protzessione<s n="n"/><s n="f"/></l><r>processione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>pòlitza<s n="n"/><s n="f"/></l><r>polizza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ratzista<s n="n"/></l><r>razzista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>retzensione<s n="n"/><s n="f"/></l><r>recensione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>retzepimentu<s n="n"/><s n="m"/></l><r>recepimento<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>retzintu<s n="n"/><s n="m"/></l><r>recinto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>rinotzeronte<s n="n"/><s n="m"/></l><r>rinoceronte<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ritzevimentu<s n="n"/><s n="m"/></l><r>ricevimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>romantitzismu<s n="n"/><s n="m"/></l><r>romanticismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>saratzenu<s n="n"/><s n="m"/></l><r>saraceno<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>seltze<s n="n"/><s n="m"/></l><r>selce<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>setzessionista<s n="n"/></l><r>secessionista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>silìtziu<s n="n"/><s n="m"/></l><r>silicio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>suitzida<s n="n"/></l><r>suicida<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>suitzìdiu<s n="n"/><s n="m"/></l><r>suicidio<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tatza<s n="n"/><s n="f"/></l><r>tazza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tecnitzismu<s n="n"/><s n="m"/></l><r>tecnicismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>terratza<s n="n"/><s n="f"/></l><r>terrazza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>terratzu<s n="n"/><s n="m"/></l><r>terrazzo<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>trontzu<s n="n"/><s n="m"/></l><r>tronco<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzapu<s n="n"/><s n="m"/></l><r>capo<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzascu<s n="n"/><s n="m"/></l><r>casco<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzedimentu<s n="n"/><s n="m"/></l><r>cedimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzella<s n="n"/><s n="f"/></l><r>cella<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzellulare<s n="n"/><s n="m"/></l><r>cellulare<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzellulòide<s n="n"/><s n="f"/></l><r>celluloide<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzentralinu<s n="n"/><s n="m"/></l><r>centralino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzentralismu<s n="n"/><s n="m"/></l><r>centralismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzenturione<s n="n"/><s n="m"/></l><r>centurione<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzentèsimu<s n="n"/><s n="m"/></l><r>centesimo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzentìmetru<s n="n"/><s n="m"/></l><r>centimetro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzerchione<s n="n"/><s n="m"/></l><r>cerchione<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzerimoniale<s n="n"/><s n="m"/></l><r>cerimoniale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzerniera<s n="n"/><s n="f"/></l><r>cerniera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzeràmica<s n="n"/><s n="f"/></l><r>ceramica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzicatritze<s n="n"/><s n="f"/></l><r>cicatrice<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tziclista<s n="n"/></l><r>ciclista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>tziclone<s n="n"/><s n="m"/></l><r>ciclone<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzicogna<s n="n"/><s n="f"/></l><r>cicogna<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzignu<s n="n"/><s n="m"/></l><r>cigno<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzilindru<s n="n"/><s n="m"/></l><r>cilindro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzinematògrafu<s n="n"/></l><r>cinematografo<s n="n"/></r></p></e>
+      <e><p><l>tzinismu<s n="n"/><s n="m"/></l><r>cinismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzinta<s n="n"/><s n="f"/></l><r>cinta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzintura<s n="n"/><s n="f"/></l><r>cintura<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzinturone<s n="n"/><s n="m"/></l><r>cinturone<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzipolla<s n="n"/><s n="f"/></l><r>cipolla<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzipressu<s n="n"/><s n="m"/></l><r>cipresso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzircu<s n="n"/><s n="m"/></l><r>circo<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzircùitu<s n="n"/><s n="m"/></l><r>circuito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tziste<s n="n"/><s n="f"/></l><r>ciste<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzitzisbeu<s n="n"/><s n="m"/></l><r>cicisbeo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzitòfonu<s n="n"/><s n="m"/></l><r>citofono<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzonca<s n="n"/><s n="f"/></l><r>conca<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzontza<s n="n"/><s n="f"/></l><r>conca<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzopia<s n="n"/><s n="f"/></l><r>copia<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzotza<s n="n"/><s n="f"/></l><r>coca<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzutzina<s n="n"/><s n="f"/></l><r>cucina<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzèllula<s n="n"/><s n="f"/></l><r>cellula<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzèmbalu<s n="n"/><s n="m"/></l><r>cembalo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzèrberu<s n="n"/><s n="m"/></l><r>cerbero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>vernitze<s n="n"/><s n="f"/></l><r>vernice<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ìnditze<s n="n"/><s n="m"/></l><r>indice<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ìride<s n="n"/><s n="f"/></l><r>iride<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ùltzera<s n="n"/><s n="f"/></l><r>ulcera<s n="n"/><s n="f"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
