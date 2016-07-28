@@ -307,6 +307,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>issu<s n="prn"/><s n="tn"/><s n="p3"/></l><r>esso<s n="prn"/><s n="tn"/></r></p></e>
 
       <e><p><l>chi<s n="rel"/><s n="an"/></l><r>che<s n="rel"/><s n="an"/></r></p></e>
+      <e><p><l>chi<s n="rel"/><s n="an"/></l><r>chi<s n="rel"/><s n="nn"/></r></p></e>
       <e><p><l>cale<s n="rel"/><s n="an"/></l><r>cui<s n="rel"/><s n="an"/></r></p></e>
       <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>cui<s n="rel"/><s n="aa"/></r></p></e>
       <e><p><l>su<b/>cale<s n="rel"/><s n="an"/></l><r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
@@ -3440,6 +3441,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>oportunidade<s n="n"/><s n="f"/></l><r>opportunità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>particularidade<s n="n"/><s n="f"/></l><r>particolarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>regolaridade<s n="n"/><s n="f"/></l><r>regolarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>regularidade<s n="n"/><s n="f"/></l><r>regolarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>irregularidade<s n="n"/><s n="f"/></l><r>irregolarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>primatzia<s n="n"/><s n="f"/></l><r>superiorità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>contumàntzia<s n="n"/><s n="f"/></l><r>obesità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>curiosidade<s n="n"/><s n="f"/></l><r>curiosità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
@@ -3916,7 +3919,9 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>bulletinu<s n="n"/><s n="m"/></l><r>bollettino<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>pannu<s n="n"/><s n="m"/></l><r>panno<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cabu<s n="n"/><s n="m"/></l><r>senno<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>giaju<s n="n"/><s n="m"/></l><r>nonno<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>giaju<s n="n"/></l><r>nonno<s n="n"/></r></p></e>
+      <e><p><l>mannoi<s n="n"/><s n="m"/></l><r>nonno<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>mannai<s n="n"/><s n="f"/></l><r>nonno<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>alunnu<s n="n"/></l><r>alunno<s n="n"/></r></p></e>
       <e><p><l>cartulàriu<s n="n"/></l><r>quaderno<s n="n"/></r></p></e>
       <e><p><l>corru<s n="n"/><s n="m"/></l><r>corno<s n="n"/><s n="m"/></r></p></e>
@@ -4489,7 +4494,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>totalidade<s n="n"/><s n="f"/></l><r>totalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>tolleràntzia<s n="n"/><s n="f"/></l><r>tolleranza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>sumire<s n="vblex"/></l><r>distillare<s n="vblex"/></r></p></e>
-      <e c="non-preferred"><p><l>sumire<s n="vblex"/></l><r>stillare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred"><p><l>sumire<s n="vblex"/></l><r>stillare<s n="vblex"/></r></p></e>
       <e><p><l>sotziolinguìsticu<s n="adj"/></l><r>sociolinguistico<s n="adj"/></r></p></e>
       <e><p><l>simbòlicu<s n="adj"/></l><r>simbolico<s n="adj"/></r></p></e>
       <e><p><l>signore<s n="n"/></l><r>signore<s n="n"/></r></p></e>
@@ -12652,6 +12657,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>realizare<s n="vblex"/></l><r>realizzare<s n="vblex"/></r></p></e>
       <e><p><l>retzitare<s n="vblex"/></l><r>recitare<s n="vblex"/></r></p></e>
       <e><p><l>donare<s n="vblex"/></l><r>regalare<s n="vblex"/></r></p></e>
+      <e><p><l>donare<s n="vblex"/></l><r>donare<s n="vblex"/></r></p></e>
       <e><p><l>torrare<s n="vblex"/></l><r>rendere<s n="vblex"/></r></p></e>
       <e><p><l>alenare<s n="vblex"/></l><r>respirare<s n="vblex"/></r></p></e>
       <e><p><l>torrare<s n="vblex"/></l><r>restituire<s n="vblex"/></r></p></e>
@@ -22382,6 +22388,241 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Buddha<s n="np"/><s n="ant"/><s n="m"/></l><r>Buddha<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Microsoft<s n="np"/><s n="al"/><s n="m"/></l><r>Microsoft<s n="np"/><s n="al"/><s n="m"/></r></p></e>
       <e><p><l>Ravenna<s n="np"/><s n="top"/><s n="f"/></l><r>Ravenna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+
+      <e><p><l>finalista<s n="adj"/></l><r>finalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neogòticu<s n="adj"/></l><r>neogotico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>neogòticu<s n="adj"/></l><r>neogotico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>avu<s n="n"/></l><r>avo<s n="n"/></r></p></e>
+
+      <e><p><l>oriente<s n="n"/><s n="m"/></l><r>oriente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>retore<s n="n"/></l><r>retore<s n="n"/></r></p></e>
+      <e><p><l>benefatore<s n="n"/></l><r>benefattore<s n="n"/></r></p></e>
+
+
+      <e><p><l>aglutinante<s n="adj"/></l><r>agglutinante<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>aglutinante<s n="adj"/></l><r>agglutinante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>apocalìticu<s n="adj"/></l><r>apocalittico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>apocalìticu<s n="adj"/></l><r>apocalittico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>aspirante<s n="adj"/></l><r>aspirante<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>aspirante<s n="adj"/></l><r>aspirante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>atendìbile<s n="adj"/></l><r>attendibile<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>atendìbile<s n="adj"/></l><r>attendibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>atenuante<s n="adj"/></l><r>attenuante<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>atenuante<s n="adj"/></l><r>attenuante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>atuàbile<s n="adj"/></l><r>attuabile<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>atuàbile<s n="adj"/></l><r>attuabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>batesimale<s n="adj"/></l><r>battesimale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>batesimale<s n="adj"/></l><r>battesimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>benefatore<s n="adj"/></l><r>benefattore<s n="adj"/></r></p></e>
+      <e><p><l>conflituale<s n="adj"/></l><r>conflittuale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>conflituale<s n="adj"/></l><r>conflittuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>dialèticu<s n="adj"/></l><r>dialettico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>dialèticu<s n="adj"/></l><r>dialettico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>difidente<s n="adj"/></l><r>diffidente<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>difidente<s n="adj"/></l><r>diffidente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>diletante<s n="adj"/></l><r>dilettante<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>diletante<s n="adj"/></l><r>dilettante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>distretuale<s n="adj"/></l><r>distrettuale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>distretuale<s n="adj"/></l><r>distrettuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>distrutore<s n="adj"/></l><r>distruttore<s n="adj"/></r></p></e>
+      <e><p><l>dotorale<s n="adj"/></l><r>dottorale<s n="adj"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>eguale<s n="adj"/></l><r>eguale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>eguale<s n="adj"/></l><r>eguale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>eletrodomèsticu<s n="adj"/></l><r>elettrodomestico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>eletrodomèsticu<s n="adj"/></l><r>elettrodomestico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>eletrotècnicu<s n="adj"/></l><r>elettrotecnico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>eletrotècnicu<s n="adj"/></l><r>elettrotecnico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>ellìticu<s n="adj"/></l><r>ellittico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>ellìticu<s n="adj"/></l><r>ellittico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>epilèticu<s n="adj"/></l><r>epilettico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>epilèticu<s n="adj"/></l><r>epilettico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>esatoriale<s n="adj"/></l><r>esattoriale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>esatoriale<s n="adj"/></l><r>esattoriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>fine<s n="adj"/></l><r>fine<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>fine<s n="adj"/></l><r>fine<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>guturale<s n="adj"/></l><r>gutturale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>guturale<s n="adj"/></l><r>gutturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>indiferente<s n="adj"/></l><r>indifferente<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>indiferente<s n="adj"/></l><r>indifferente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>indistrutìbile<s n="adj"/></l><r>indistruttibile<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>indistrutìbile<s n="adj"/></l><r>indistruttibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>intermitente<s n="adj"/></l><r>intermittente<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>intermitente<s n="adj"/></l><r>intermittente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>legendàriu<s n="adj"/></l><r>leggendario<s n="adj"/></r></p></e>
+      <e><p><l>magiorenne<s n="adj"/></l><r>maggiorenne<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>magiorenne<s n="adj"/></l><r>maggiorenne<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>otagonale<s n="adj"/></l><r>ottagonale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>otagonale<s n="adj"/></l><r>ottagonale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>òticu<s n="adj"/></l><r>ottico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>òticu<s n="adj"/></l><r>ottico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>otuagenàriu<s n="adj"/></l><r>ottuagenario<s n="adj"/></r></p></e>
+      <e><p><l>pitòricu<s n="adj"/></l><r>pittorico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>pitòricu<s n="adj"/></l><r>pittorico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>polìticu<s n="adj"/></l><r>polittico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>polìticu<s n="adj"/></l><r>polittico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>profilàticu<s n="adj"/></l><r>profilattico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>profilàticu<s n="adj"/></l><r>profilattico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>progetuale<s n="adj"/></l><r>progettuale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>progetuale<s n="adj"/></l><r>progettuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>prospèticu<s n="adj"/></l><r>prospettico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>prospèticu<s n="adj"/></l><r>prospettico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>refratàriu<s n="adj"/></l><r>refrattario<s n="adj"/></r></p></e>
+      <e><p><l>rifletente<s n="adj"/></l><r>riflettente<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>rifletente<s n="adj"/></l><r>riflettente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>significante<s n="adj"/></l><r>significante<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>significante<s n="adj"/></l><r>significante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>sintàticu<s n="adj"/></l><r>sintattico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>sintàticu<s n="adj"/></l><r>sintattico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>suscetìbile<s n="adj"/></l><r>suscettibile<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>suscetìbile<s n="adj"/></l><r>suscettibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>temporale<s n="adj"/></l><r>temporale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>temporale<s n="adj"/></l><r>temporale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>trasmitente<s n="adj"/></l><r>trasmittente<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>trasmitente<s n="adj"/></l><r>trasmittente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>addiritura<s n="adv"/></l><r>addirittura<s n="adv"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>malamente<s n="adv"/></l><r>malamente<s n="adv"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>massimamente<s n="adv"/></l><r>massimamente<s n="adv"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>oramai<s n="adv"/></l><r>oramai<s n="adv"/></r></p></e>
+      <e><p><l>perfetamente<s n="adv"/></l><r>perfettamente<s n="adv"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>probabilmente<s n="adv"/></l><r>probabilmente<s n="adv"/></r></p></e>
+      <e><p><l>afarista<s n="n"/></l><r>affarista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>aflitzione<s n="n"/><s n="f"/></l><r>afflizione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>aglutinatzione<s n="n"/><s n="f"/></l><r>agglutinazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ammissione<s n="n"/><s n="f"/></l><r>ammissione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>anca<s n="n"/><s n="f"/></l><r>anca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>àticu<s n="n"/><s n="m"/></l><r>attico<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>atitudine<s n="n"/><s n="f"/></l><r>attitudine<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>atratzione<s n="n"/><s n="f"/></l><r>attrazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>batuta<s n="n"/><s n="f"/></l><r>battuta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>bireatore<s n="n"/><s n="m"/></l><r>bireattore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cafeteria<s n="n"/><s n="f"/></l><r>caffetteria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>calota<s n="n"/><s n="f"/></l><r>calotta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>carafa<s n="n"/><s n="f"/></l><r>caraffa<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cartella<s n="n"/><s n="f"/></l><r>cartella<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>casseta<s n="n"/><s n="f"/></l><r>cassetta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cassetone<s n="n"/><s n="m"/></l><r>cassettone<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>catura<s n="n"/><s n="f"/></l><r>cattura<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>consulta<s n="n"/><s n="f"/></l><r>consulta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>contraforte<s n="n"/><s n="m"/></l><r>contrafforte<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>coordinatzione<s n="n"/><s n="f"/></l><r>coordinazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>coro<s n="n"/><s n="m"/></l><r>coro<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cotoleta<s n="n"/><s n="f"/></l><r>cotoletta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>difratzione<s n="n"/><s n="f"/></l><r>diffrazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>disfatista<s n="n"/></l><r>disfattista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>disinfetante<s n="n"/><s n="m"/></l><r>disinfettante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>eletrocardiogramma<s n="n"/><s n="m"/></l><r>elettrocardiogramma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>eletrone<s n="n"/><s n="m"/></l><r>elettrone<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>fata<s n="n"/><s n="f"/></l><r>fata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fatoria<s n="n"/><s n="f"/></l><r>fattoria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>flutuatzione<s n="n"/><s n="f"/></l><r>fluttuazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fratura<s n="n"/><s n="f"/></l><r>frattura<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>gavetone<s n="n"/><s n="m"/></l><r>gavettone<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>giuntura<s n="n"/><s n="f"/></l><r>giuntura<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>gol<s n="n"/><s n="m"/><s n="sp"/></l><r>gol<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>interrutore<s n="n"/><s n="m"/></l><r>interruttore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ispetore<s n="n"/></l><r>ispettore<s n="n"/></r></p></e>
+      <e><p><l>istrutore<s n="n"/></l><r>istruttore<s n="n"/></r></p></e>
+      <e><p><l>lameta<s n="n"/><s n="f"/></l><r>lametta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>latante<s n="n"/><s n="m"/></l><r>lattante<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>legenda<s n="n"/><s n="f"/></l><r>legenda<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>logione<s n="n"/><s n="m"/></l><r>loggione<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>malafare<s n="n"/><s n="m"/></l><r>malaffare<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>marina<s n="n"/><s n="f"/></l><r>marina<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>marioneta<s n="n"/><s n="f"/></l><r>marionetta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>matonella<s n="n"/><s n="f"/></l><r>mattonella<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>mina<s n="n"/><s n="f"/></l><r>mina<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>minore<s n="n"/><s n="mf"/></l><r>minore<s n="n"/><s n="mf"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>mùsicu<s n="n"/><s n="m"/></l><r>musico<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>nova<s n="n"/><s n="f"/></l><r>nova<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>otimista<s n="n"/></l><r>ottimista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>otone<s n="n"/><s n="m"/></l><r>ottone<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>panetone<s n="n"/><s n="m"/></l><r>panettone<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>partitzione<s n="n"/><s n="f"/></l><r>partizione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>petorale<s n="n"/><s n="m"/></l><r>pettorale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pigiama<s n="n"/><s n="m"/></l><r>pigiama<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>pinna<s n="n"/><s n="f"/></l><r>pinna<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>podere<s n="n"/><s n="m"/></l><r>podere<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>polpetone<s n="n"/><s n="m"/></l><r>polpettone<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>portale<s n="n"/><s n="m"/></l><r>portale<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>preda<s n="n"/><s n="f"/></l><r>preda<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>progetista<s n="n"/></l><r>progettista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>protetore<s n="n"/></l><r>protettore<s n="n"/></r></p></e>
+      <e><p><l>rafiguratzione<s n="n"/><s n="f"/></l><r>raffigurazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>rafinatzione<s n="n"/><s n="f"/></l><r>raffinazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>rafineria<s n="n"/><s n="f"/></l><r>raffineria<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ratza<s n="n"/><s n="f"/></l><r>razza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>reatore<s n="n"/><s n="m"/></l><r>reattore<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>retificatzione<s n="n"/><s n="f"/></l><r>rettificazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>retore<s n="n"/></l><r>rettore<s n="n"/></r></p></e>
+      <e><p><l>rifletore<s n="n"/><s n="m"/></l><r>riflettore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ritratista<s n="n"/></l><r>ritrattista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>rota<s n="n"/><s n="f"/></l><r>rotta<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>seta<s n="n"/><s n="f"/></l><r>setta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>setentrione<s n="n"/><s n="m"/></l><r>settentrione<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>soleta<s n="n"/><s n="f"/></l><r>soletta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>traficante<s n="n"/><s n="m"/></l><r>trafficante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tràficu<s n="n"/><s n="m"/></l><r>traffico<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>trasliteratzione<s n="n"/><s n="f"/></l><r>traslitterazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>trata<s n="n"/><s n="f"/></l><r>tratta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tratatzione<s n="n"/><s n="f"/></l><r>trattazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tratore<s n="n"/><s n="m"/></l><r>trattore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>trufa<s n="n"/><s n="f"/></l><r>truffa<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>valèntzia<s n="n"/><s n="f"/></l><r>valenzia<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>vertice<s n="n"/><s n="m"/></l><r>vertice<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>vetura<s n="n"/><s n="f"/></l><r>vettura<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Baradili<s n="np"/><s n="top"/><s n="m"/></l><r>Baradili<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>afannare<s n="vblex"/></l><r>affannare<s n="vblex"/></r></p></e>
+      <e><p><l>aferrare<s n="vblex"/></l><r>afferrare<s n="vblex"/></r></p></e>
+      <e><p><l>agravare<s n="vblex"/></l><r>aggravare<s n="vblex"/></r></p></e>
+      <e><p><l>agonizare<s n="vblex"/></l><r>agonizzare<s n="vblex"/></r></p></e>
+      <e><p><l>allatare<s n="vblex"/></l><r>allattare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>allogare<s n="vblex"/></l><r>allogare<s n="vblex"/></r></p></e>
+      <e><p><l>allogiare<s n="vblex"/></l><r>alloggiare<s n="vblex"/></r></p></e>
+      <e><p><l>atenuare<s n="vblex"/></l><r>attenuare<s n="vblex"/></r></p></e>
+      <e><p><l>aterrare<s n="vblex"/></l><r>atterrare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>brigare<s n="vblex"/></l><r>brigare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>buscare<s n="vblex"/></l><r>buscare<s n="vblex"/></r></p></e>
+      <e><p><l>candegiare<s n="vblex"/></l><r>candeggiare<s n="vblex"/></r></p></e>
+      <e><p><l>capitalizare<s n="vblex"/></l><r>capitalizzare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cascare<s n="vblex"/></l><r>cascare<s n="vblex"/></r></p></e>
+      <e><p><l>caturare<s n="vblex"/></l><r>catturare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>colare<s n="vblex"/></l><r>colare<s n="vblex"/></r></p></e>
+      <e><p><l>computerizare<s n="vblex"/></l><r>computerizzare<s n="vblex"/></r></p></e>
+      <e><p><l>cristallizare<s n="vblex"/></l><r>cristallizzare<s n="vblex"/></r></p></e>
+      <e><p><l>debutare<s n="vblex"/></l><r>debuttare<s n="vblex"/></r></p></e>
+      <e><p><l>demoralizare<s n="vblex"/></l><r>demoralizzare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>denegare<s n="vblex"/></l><r>denegare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>dimensionare<s n="vblex"/></l><r>dimensionare<s n="vblex"/></r></p></e>
+      <e><p><l>disinfetare<s n="vblex"/></l><r>disinfettare<s n="vblex"/></r></p></e>
+      <e><p><l>divinizare<s n="vblex"/></l><r>divinizzare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>duplicare<s n="vblex"/></l><r>duplicare<s n="vblex"/></r></p></e>
+      <e><p><l>eletrificare<s n="vblex"/></l><r>elettrificare<s n="vblex"/></r></p></e>
+      <e><p><l>flutuare<s n="vblex"/></l><r>fluttuare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>francare<s n="vblex"/></l><r>francare<s n="vblex"/></r></p></e>
+      <e><p><l>gallegiare<s n="vblex"/></l><r>galleggiare<s n="vblex"/></r></p></e>
+      <e><p><l>gratare<s n="vblex"/></l><r>grattare<s n="vblex"/></r></p></e>
+      <e><p><l>idealizare<s n="vblex"/></l><r>idealizzare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>imperare<s n="vblex"/></l><r>imperare<s n="vblex"/></r></p></e>
+      <e><p><l>infetare<s n="vblex"/></l><r>infettare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>influire<s n="vblex"/></l><r>influire<s n="vblex"/></r></p></e>
+      <e><p><l>informatizare<s n="vblex"/></l><r>informatizzare<s n="vblex"/></r></p></e>
+      <e><p><l>interiorizare<s n="vblex"/></l><r>interiorizzare<s n="vblex"/></r></p></e>
+      <e><p><l>legalizare<s n="vblex"/></l><r>legalizzare<s n="vblex"/></r></p></e>
+      <e><p><l>legitimare<s n="vblex"/></l><r>legittimare<s n="vblex"/></r></p></e>
+      <e><p><l>maregiare<s n="vblex"/></l><r>mareggiare<s n="vblex"/></r></p></e>
+      <e><p><l>materializare<s n="vblex"/></l><r>materializzare<s n="vblex"/></r></p></e>
+      <e><p><l>monopolizare<s n="vblex"/></l><r>monopolizzare<s n="vblex"/></r></p></e>
+      <e><p><l>motorizare<s n="vblex"/></l><r>motorizzare<s n="vblex"/></r></p></e>
+      <e><p><l>parchegiare<s n="vblex"/></l><r>parcheggiare<s n="vblex"/></r></p></e>
+      <e><p><l>polarizare<s n="vblex"/></l><r>polarizzare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>rodare<s n="vblex"/></l><r>rodare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>sanare<s n="vblex"/></l><r>sanare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>serrare<s n="vblex"/></l><r>serrare<s n="vblex"/></r></p></e>
+      <e><p><l>sincronizare<s n="vblex"/></l><r>sincronizzare<s n="vblex"/></r></p></e>
+      <e><p><l>sufragare<s n="vblex"/></l><r>suffragare<s n="vblex"/></r></p></e>
+      <e><p><l>sugerire<s n="vblex"/></l><r>suggerire<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>temperare<s n="vblex"/></l><r>temperare<s n="vblex"/></r></p></e>
+
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
