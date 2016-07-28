@@ -137,7 +137,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <!-- SECCIÓN: Conjunciones -->
 
       <e><p><l>e<s n="cnjcoo"/></l><r>e<s n="cnjcoo"/></r></p></e>
-     <e><p><l>e<s n="cnjcoo"/></l><r>ed<s n="cnjcoo"/></r></p></e>
+      <e><p><l>e<s n="cnjcoo"/></l><r>ed<s n="cnjcoo"/></r></p></e>
       <e><p><l>o<s n="cnjcoo"/></l><r>o<s n="cnjcoo"/></r></p></e>
       <e><p><l>ma<s n="cnjcoo"/></l><r>ma<s n="cnjcoo"/></r></p></e>
       <e><p><l>però<s n="cnjcoo"/></l><r>però<s n="cnjcoo"/></r></p></e>
@@ -1811,110 +1811,110 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>trae<s n="n"/><s n="f"/></l><r>trave<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>nie<s n="n"/><s n="f"/></l><r>neve<s n="n"/><s n="f"/></r></p></e>
 
-    <e><p><l>non<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
-    <e><p><l>a<b/>dolu<b/>mannu<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
-    <e><p><l>masaprestu<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
-    <e><p><l>in<b/>summa<s n="adv"/></l><r>insomma<s n="adv"/></r></p></e>
+      <e><p><l>non<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
+      <e><p><l>a<b/>dolu<b/>mannu<s n="adv"/></l><r>purtroppo<s n="adv"/></r></p></e>
+      <e><p><l>masaprestu<s n="adv"/></l><r>piuttosto<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>summa<s n="adv"/></l><r>insomma<s n="adv"/></r></p></e>
 
-    <e><p><l>finu<s n="adj"/></l><r>fino<s n="adj"/></r></p></e>
-    <e><p><l>parte<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>fatu<s n="n"/><s n="m"/></l><r>fato<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>locu<s n="n"/><s n="m"/></l><r>luogo<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>locu<s n="n"/><s n="m"/></l><r>posto<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sarvadore<s n="n"/></l><r>salvatore<s n="n"/></r></p></e>
-    <e><p><l>sarvadore<s n="adj"/></l><r>salvatore<s n="adj"/></r></p></e>
-    <e><p><l>ufitziale<s n="n"/><s n="m"/></l><r>ufficiale<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>iscritu<s n="adj"/></l><r>iscritto<s n="adj"/></r></p></e>
-    <e><p><l>cada<s n="adj"/></l><r>ogni<s n="adj"/></r></p></e>
-    <e><p><l>mancu<s n="pr"/></l><r>meno<s n="pr"/></r></p></e>
-    <e><p><l>presente<s n="n"/><s n="m"/></l><r>presente<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>cale<s n="prn"/></l><r>quale<s n="prn"/></r></p></e>
-    <e><p><l>de<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
-    <e><p><l>pre<s n="pr"/></l><r>pre<s n="pr"/></r></p></e>
-    <e><p><l>anti<s n="pr"/></l><r>anti<s n="pr"/></r></p></e>
-    <e><p><l>pro<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
-    <e><p><l>finas<s n="pr"/></l><r>sino<s n="pr"/></r></p></e>
-    <e r="RL"><p><l>generale<s n="n"/><s n="m"/></l><r>generale<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>generale<s n="n"/><s n="m"/></l><r>generale<s n="n"/><s n="mf"/></r></p></e>
-    <e><p><l>propònnere<s n="vblex"/></l><r>proporre<s n="vblex"/></r></p></e>
-    <e><p><l>bene<s n="n"/><s n="m"/></l><r>bene<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bene<s n="adv"/></l><r>bene<s n="adv"/></r></p></e>
-    <e><p><l>puntu<s n="n"/></l><r>punto<s n="n"/></r></p></e>
-    <e><p><l>amu<s n="n"/><s n="m"/></l><r>amo<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>pare<s n="adv"/></l><r>a<b/>vicenda<s n="adv"/></r></p></e>
-    <e><p><l>bividore<s n="n"/></l><r>bevitore<s n="n"/></r></p></e>
-    <e><p><l>bividore<s n="n"/></l><r>vivente<s n="n"/></r></p><par n="GD_mf"/></e>
-    <e><p><l>ue<s n="adv"/></l><r>dove<s n="adv"/></r></p></e>
-    <e><p><l>carta<s n="n"/><s n="f"/></l><r>carta<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>unione<s n="n"/><s n="f"/></l><r>unione<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>belle<s n="adv"/></l><r>quasi<s n="adv"/></r></p></e>
-    <e><p><l>belle<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
-    <e><p><l>belle<s n="adv"/></l><r>incirca<s n="adv"/></r></p></e>
-    <e><p><l>incras<s n="adv"/></l><r>indomani<s n="adv"/></r></p></e>
-    <e><p><l>in<b/>cue<s n="adv"/></l><r>ivi<s n="adv"/></r></p></e>
-    <e><p><l>fàghere<g><b/>parte</g><s n="vblex"/></l><r>fare<g><b/>parte</g><s n="vblex"/></r></p></e>
-    <e><p><l>connotu<s n="adj"/></l><r>conosciuto<s n="adj"/></r></p></e>    
+      <e><p><l>finu<s n="adj"/></l><r>fino<s n="adj"/></r></p></e>
+      <e><p><l>parte<s n="n"/><s n="f"/></l><r>parte<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fatu<s n="n"/><s n="m"/></l><r>fato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>locu<s n="n"/><s n="m"/></l><r>luogo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>locu<s n="n"/><s n="m"/></l><r>posto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sarvadore<s n="n"/></l><r>salvatore<s n="n"/></r></p></e>
+      <e><p><l>sarvadore<s n="adj"/></l><r>salvatore<s n="adj"/></r></p></e>
+      <e><p><l>ufitziale<s n="n"/><s n="m"/></l><r>ufficiale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>iscritu<s n="adj"/></l><r>iscritto<s n="adj"/></r></p></e>
+      <e><p><l>cada<s n="adj"/></l><r>ogni<s n="adj"/></r></p></e>
+      <e><p><l>mancu<s n="pr"/></l><r>meno<s n="pr"/></r></p></e>
+      <e><p><l>presente<s n="n"/><s n="m"/></l><r>presente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cale<s n="prn"/></l><r>quale<s n="prn"/></r></p></e>
+      <e><p><l>de<s n="pr"/></l><r>da<s n="pr"/></r></p></e>
+      <e><p><l>pre<s n="pr"/></l><r>pre<s n="pr"/></r></p></e>
+      <e><p><l>anti<s n="pr"/></l><r>anti<s n="pr"/></r></p></e>
+      <e><p><l>pro<s n="pr"/></l><r>pro<s n="pr"/></r></p></e>
+      <e><p><l>finas<s n="pr"/></l><r>sino<s n="pr"/></r></p></e>
+      <e><p><l>generale<s n="n"/><s n="m"/></l><r>generale<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>propònnere<s n="vblex"/></l><r>proporre<s n="vblex"/></r></p></e>
+      <e><p><l>bene<s n="n"/><s n="m"/></l><r>bene<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>bene<s n="adv"/></l><r>bene<s n="adv"/></r></p></e>
+      <e><p><l>puntu<s n="n"/></l><r>punto<s n="n"/></r></p></e>
+      <e><p><l>amu<s n="n"/><s n="m"/></l><r>amo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pare<s n="adv"/></l><r>a<b/>vicenda<s n="adv"/></r></p></e>
+      <e><p><l>bividore<s n="n"/></l><r>bevitore<s n="n"/></r></p></e>
+      <e><p><l>bividore<s n="n"/></l><r>vivente<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>ue<s n="adv"/></l><r>dove<s n="adv"/></r></p></e>
+      <e r="RL" c="non-preferred"><p><l>ue<s n="adv"/></l><r>ove<s n="adv"/></r></p></e>
+      <e><p><l>carta<s n="n"/><s n="f"/></l><r>carta<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>unione<s n="n"/><s n="f"/></l><r>unione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>belle<s n="adv"/></l><r>quasi<s n="adv"/></r></p></e>
+      <e><p><l>belle<s n="adv"/></l><r>circa<s n="adv"/></r></p></e>
+      <e><p><l>belle<s n="adv"/></l><r>incirca<s n="adv"/></r></p></e>
+      <e><p><l>incras<s n="adv"/></l><r>indomani<s n="adv"/></r></p></e>
+      <e><p><l>in<b/>cue<s n="adv"/></l><r>ivi<s n="adv"/></r></p></e>
+      <e><p><l>fàghere<g><b/>parte</g><s n="vblex"/></l><r>fare<g><b/>parte</g><s n="vblex"/></r></p></e>
+      <e><p><l>connotu<s n="adj"/></l><r>conosciuto<s n="adj"/></r></p></e>    
 
 
-     <e><p><l>impreadu<s n="adj"/></l><r>impiegato<s n="adj"/></r></p></e>
-     <e><p><l>impreadu<s n="n"/></l><r>impiegato<s n="n"/></r></p></e>
-     <e><p><l>rete<s n="n"/><s n="f"/></l><r>rete<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>fine<s n="n"/><s n="m"/></l><r>fine<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>fine<s n="n"/><s n="f"/></l><r>fine<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>tema<s n="n"/><s n="m"/></l><r>tema<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>pari<s n="adj"/><s n="mf"/></l><r>pari<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
-     <e><p><l>militare<s n="n"/><s n="m"/></l><r>militare<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>forte<s n="adj"/><s n="mf"/></l><r>forte<s n="adj"/><s n="mf"/></r></p></e>
-     <e><p><l>alighera<s n="n"/><s n="f"/></l><r>alighera<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>comma<s n="n"/><s n="m"/></l><r>comma<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>lampadu<s n="adj"/></l><r>buttato<s n="adj"/></r></p></e>
-     <e><p><l>lampada<s n="n"/><s n="f"/></l><r>lampada<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>longu<s n="adj"/></l><r>lungo<s n="adj"/></r></p></e>
-     <e><p><l>tzentrale<s n="n"/><s n="f"/></l><r>centrale<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>tzentrale<s n="adj"/><s n="mf"/></l><r>centrale<s n="adj"/><s n="mf"/></r></p></e>
-     <e><p><l>espertu<s n="adj"/></l><r>esperto<s n="adj"/></r></p></e>
-     <e><p><l>aprovadu<s n="adj"/></l><r>promosso<s n="adj"/></r></p></e>
-     <e><p><l>cumintzadu<s n="adj"/></l><r>cominciato<s n="adj"/></r></p></e>
-     <e><p><l>curtzu<s n="adj"/></l><r>corto<s n="adj"/></r></p></e>
-     <e><p><l>sutu<s n="adj"/></l><r>asciutto<s n="adj"/></r></p></e>
-     <e><p><l>indipendentista<s n="n"/></l><r>indipendentista<s n="n"/></r></p><par n="mf_GD"/></e>
-     <e><p><l>indipendentista<s n="adj"/></l><r>indipendentista<s n="adj"/></r></p><par n="mf_GD"/></e>
-     <e><p><l>dinare<s n="n"/><s n="m"/><s n="sg"/></l><r>soldo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-     <e><p><l>decraratzione<s n="n"/><s n="f"/></l><r>dichiarazione<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>assessore<s n="n"/><s n="m"/></l><r>assessore<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>editore<s n="n"/><s n="m"/></l><r>editore<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>sede<s n="n"/><s n="f"/></l><r>sede<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>forte<s n="adv"/></l><r>forte<s n="adv"/></r></p></e>
-     <e><p><l>martzu<s n="adj"/></l><r>marcio<s n="adj"/></r></p></e>
-     <e><p><l>rapresentante<s n="n"/><s n="mf"/></l><r>rapresentante<s n="n"/><s n="mf"/></r></p></e>
-     <e><p><l>rapresentante<s n="adj"/><s n="mf"/></l><r>rapresentante<s n="adj"/><s n="mf"/></r></p></e>
-     <e><p><l>cummissione<s n="n"/><s n="f"/></l><r>commissione<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>pranu<s n="adj"/></l><r>piano<s n="adj"/></r></p></e>
-     <e><p><l>pranu<s n="n"/><s n="m"/></l><r>piano<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>corte<s n="n"/><s n="f"/></l><r>cortile<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>corte<s n="n"/><s n="f"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>reconnotu<s n="adj"/></l><r>riconosciuto<s n="adj"/></r></p></e>
-     <e><p><l>tzertu<s n="adj"/></l><r>certo<s n="adj"/></r></p></e>
-     <e><p><l>intzertu<s n="adj"/></l><r>incerto<s n="adj"/></r></p></e>
-     <e><p><l>oras<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
-     <e><p><l>versione<s n="n"/><s n="f"/></l><r>versione<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>more<s n="n"/><s n="f"/></l><r>causa<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>detzisione<s n="n"/><s n="f"/></l><r>decisione<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>tantu<s n="n"/><s n="m"/></l><r>tanto<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>campidanesu<s n="adj"/></l><r>campidanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-     <e><p><l>campidanesu<s n="n"/></l><r>campidanese<s n="n"/></r></p><par n="GD_mf"/></e>
-     <e><p><l>televisione<s n="n"/><s n="f"/></l><r>televisione<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>male<s n="n"/><s n="m"/></l><r>male<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>tzinu<s n="adj"/></l><r>misero<s n="adj"/></r></p></e>
-     <e><p><l>espressione<s n="n"/><s n="f"/></l><r>espressione<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>litera<s n="n"/><s n="f"/></l><r>lettera<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>rispostu<s n="adj"/></l><r>risposto<s n="adj"/></r></p></e>
-     <e><p><l>castu<s n="adj"/></l><r>casto<s n="adj"/></r></p></e>
-     <e><p><l>totale<s n="n"/><s n="m"/></l><r>totale<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>operadore<s n="adj"/></l><r>operatore<s n="adj"/></r></p></e>
-     <e><p><l>idioma<s n="n"/><s n="m"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e>
-     <e><p><l>note<s n="n"/><s n="f"/></l><r>note<s n="n"/><s n="f"/></r></p></e>
-     <e><p><l>otentu<s n="adj"/></l><r>ottenuto<s n="adj"/></r></p></e>
+      <e><p><l>impreadu<s n="adj"/></l><r>impiegato<s n="adj"/></r></p></e>
+      <e><p><l>impreadu<s n="n"/></l><r>impiegato<s n="n"/></r></p></e>
+      <e><p><l>rete<s n="n"/><s n="f"/></l><r>rete<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fine<s n="n"/><s n="m"/></l><r>fine<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>fine<s n="n"/><s n="f"/></l><r>fine<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tema<s n="n"/><s n="m"/></l><r>tema<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pari<s n="adj"/><s n="mf"/></l><r>pari<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>militare<s n="n"/><s n="m"/></l><r>militare<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>forte<s n="adj"/><s n="mf"/></l><r>forte<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>alighera<s n="n"/><s n="f"/></l><r>alighera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>comma<s n="n"/><s n="m"/></l><r>comma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>lampadu<s n="adj"/></l><r>buttato<s n="adj"/></r></p></e>
+      <e><p><l>lampada<s n="n"/><s n="f"/></l><r>lampada<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>longu<s n="adj"/></l><r>lungo<s n="adj"/></r></p></e>
+      <e><p><l>tzentrale<s n="n"/><s n="f"/></l><r>centrale<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzentrale<s n="adj"/><s n="mf"/></l><r>centrale<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>espertu<s n="adj"/></l><r>esperto<s n="adj"/></r></p></e>
+      <e><p><l>aprovadu<s n="adj"/></l><r>promosso<s n="adj"/></r></p></e>
+      <e><p><l>cumintzadu<s n="adj"/></l><r>cominciato<s n="adj"/></r></p></e>
+      <e><p><l>curtzu<s n="adj"/></l><r>corto<s n="adj"/></r></p></e>
+      <e><p><l>sutu<s n="adj"/></l><r>asciutto<s n="adj"/></r></p></e>
+      <e><p><l>indipendentista<s n="n"/></l><r>indipendentista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>indipendentista<s n="adj"/></l><r>indipendentista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>dinare<s n="n"/><s n="m"/><s n="sg"/></l><r>soldo<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>decraratzione<s n="n"/><s n="f"/></l><r>dichiarazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>assessore<s n="n"/><s n="m"/></l><r>assessore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>editore<s n="n"/><s n="m"/></l><r>editore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sede<s n="n"/><s n="f"/></l><r>sede<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>forte<s n="adv"/></l><r>forte<s n="adv"/></r></p></e>
+      <e><p><l>martzu<s n="adj"/></l><r>marcio<s n="adj"/></r></p></e>
+      <e><p><l>rapresentante<s n="n"/><s n="mf"/></l><r>rapresentante<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>rapresentante<s n="adj"/><s n="mf"/></l><r>rapresentante<s n="adj"/><s n="mf"/></r></p></e>
+      <e><p><l>cummissione<s n="n"/><s n="f"/></l><r>commissione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>pranu<s n="adj"/></l><r>piano<s n="adj"/></r></p></e>
+      <e><p><l>pranu<s n="n"/><s n="m"/></l><r>piano<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>corte<s n="n"/><s n="f"/></l><r>cortile<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>corte<s n="n"/><s n="f"/></l><r>corte<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>reconnotu<s n="adj"/></l><r>riconosciuto<s n="adj"/></r></p></e>
+      <e><p><l>tzertu<s n="adj"/></l><r>certo<s n="adj"/></r></p></e>
+      <e><p><l>intzertu<s n="adj"/></l><r>incerto<s n="adj"/></r></p></e>
+      <e><p><l>oras<s n="adv"/></l><r>ora<s n="adv"/></r></p></e>
+      <e><p><l>versione<s n="n"/><s n="f"/></l><r>versione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>more<s n="n"/><s n="f"/></l><r>causa<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>detzisione<s n="n"/><s n="f"/></l><r>decisione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tantu<s n="n"/><s n="m"/></l><r>tanto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>campidanesu<s n="adj"/></l><r>campidanese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>campidanesu<s n="n"/></l><r>campidanese<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>televisione<s n="n"/><s n="f"/></l><r>televisione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>male<s n="n"/><s n="m"/></l><r>male<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzinu<s n="adj"/></l><r>misero<s n="adj"/></r></p></e>
+      <e><p><l>espressione<s n="n"/><s n="f"/></l><r>espressione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>litera<s n="n"/><s n="f"/></l><r>lettera<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>rispostu<s n="adj"/></l><r>risposto<s n="adj"/></r></p></e>
+      <e><p><l>castu<s n="adj"/></l><r>casto<s n="adj"/></r></p></e>
+      <e><p><l>totale<s n="n"/><s n="m"/></l><r>totale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>operadore<s n="adj"/></l><r>operatore<s n="adj"/></r></p></e>
+      <e><p><l>idioma<s n="n"/><s n="m"/></l><r>idioma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>note<s n="n"/><s n="f"/></l><r>note<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>otentu<s n="adj"/></l><r>ottenuto<s n="adj"/></r></p></e>
       <e><p><l>tretu<s n="n"/><s n="m"/></l><r>tratto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>agiuntu<s n="adj"/></l><r>aggiunto<s n="adj"/></r></p></e>
       <e><p><l>trèghere<s n="vblex"/></l><r>asciugare<s n="vblex"/></r></p></e>
@@ -2183,7 +2183,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>permissu<s n="adj"/></l><r>permesso<s n="adj"/></r></p></e>
       <e><p><l>permissu<s n="n"/><s n="m"/></l><r>permesso<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>informàticu<s n="adj"/></l><r>informatico<s n="adj"/></r></p></e>
-      <e><p><l>finantziàriu<s n="adj"/></l><r>finanzirio<s n="adj"/></r></p></e>
+      <e><p><l>finantziàriu<s n="adj"/></l><r>finanziario<s n="adj"/></r></p></e>
       <e><p><l>fascista<s n="n"/></l><r>fascista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>fascista<s n="adj"/></l><r>fascista<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>espressu<s n="adj"/></l><r>espresso<s n="adj"/></r></p></e>
@@ -5133,7 +5133,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>fitianare<s n="vblex"/></l><r>bazzicare<s n="vblex"/></r></p></e>
       <e><p><l>fissatzione<s n="n"/><s n="f"/></l><r>fissazione<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>fìsica<s n="n"/><s n="f"/></l><r>fisica<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>firma<s n="n"/><s n="f"/></l><r>firma<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>filòsofu<s n="n"/><s n="m"/></l><r>filosofo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>fertilidade<s n="n"/><s n="f"/></l><r>fertilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>feridu<s n="adj"/></l><r>ferito<s n="adj"/></r></p></e>
@@ -10815,7 +10814,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>tzinematogràficu<s n="adj"/></l><r>cimatografico<s n="adj"/></r></p></e>
       <e><p><l>polacu<s n="adj"/></l><r>polacco<s n="adj"/></r></p></e>
       <e><p><l>polacu<s n="n"/></l><r>polacco<s n="n"/></r></p></e>
-      <e><p><l>giaponesu<s n="adj"/></l><r>giapponese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>giaponesu<s n="n"/></l><r>giaponese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>telefònicu<s n="adj"/></l><r>telefonico<s n="adj"/></r></p></e>
       <e><p><l>ungheresu<s n="adj"/></l><r>ungherese<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -10958,7 +10956,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>nerviosu<s n="adj"/></l><r>nervoso<s n="adj"/></r></p></e>
       <e><p><l>contierradu<s n="adj"/></l><r>controverso<s n="adj"/></r></p></e>
       <e><p><l>cuntràriu<s n="adj"/></l><r>avverso<s n="adj"/></r></p></e>
-      <e><p><l>bàsciu<s n="adj"/></l><r>basso<s n="adj"/></r></p></e>
       <e><p><l>fissu<s n="adj"/></l><r>fisso<s n="adj"/></r></p></e>
       <e><p><l>grussu<s n="adj"/></l><r>grosso<s n="adj"/></r></p></e>
       <e><p><l>amantiosu<s n="adj"/></l><r>appassionato<s n="adj"/></r></p></e>
@@ -16417,7 +16414,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>fieru<s n="adj"/></l><r>fiero<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>filipinu<s n="adj"/></l><r>filippino<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>filosòficu<s n="adj"/></l><r>filosofico<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>finantziàriu<s n="adj"/></l><r>finanzirio<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>finantziàriu<s n="adj"/></l><r>finanziario<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>finlandesu<s n="adj"/></l><r>finlandese<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>fintu<s n="adj"/></l><r>finto<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>finu<s n="adj"/></l><r>fino<s n="adj"/><s n="sup"/></r></p></e>
@@ -17813,6 +17810,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>bene<s n="preadv"/></l><r>bene<s n="preadv"/></r></p></e>
       <e><p><l>bene<s n="preadv"/></l><r>ben<s n="preadv"/></r></p></e>
       <e><p><l>cando<b/>chi<s n="cnjadv"/></l><r>sebbene<s n="cnjadv"/></r></p></e>
+      <e r="RL" c="non-preferred"><p><l>cando<b/>chi<s n="cnjadv"/></l><r>ove<s n="cnjadv"/></r></p></e>
       <e><p><l>cando<b/>non<b/>cando<s n="adv"/></l><r>casomai<s n="adv"/></r></p></e>
       <e><p><l>cando<s n="adv"/></l><r>quando<s n="adv"/></r></p></e>
       <e><p><l>cara<s n="adv"/></l><r>verso<s n="adv"/></r></p></e>
@@ -18319,7 +18317,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Egeu<s n="np"/><s n="top"/><s n="m"/></l><r>Egeo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bòsforu<s n="np"/><s n="top"/><s n="m"/></l><r>Bosforo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Adriàticu<s n="np"/><s n="top"/><s n="m"/></l><r>Adriatico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Tirrenu<s n="np"/><s n="top"/><s n="m"/></l><r>Tirreno<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Iònicu<s n="np"/><s n="top"/><s n="m"/></l><r>Ionico<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Atlànticu<s n="np"/><s n="top"/><s n="f"/></l><r>Atlantico<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Istrasburgu<s n="np"/><s n="top"/><s n="m"/></l><r>Strasburgo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -18335,7 +18332,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Tzipru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cipro<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Liechtenstein<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Liechtenstein<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>Estònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Estonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>Letònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lettonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Islovàchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Slovacchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Grèghia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>Majorca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Maiorca<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
@@ -21841,8 +21837,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>ùtile<s n="adj"/></l><r>utile<s n="adj"/></r></p></e>
       <e r="RL"><p><l>ùtile<s n="adj"/></l><r>utile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 
-      <e><p><l>a<b/>fortza<s n="adv"/></l><r>a<b/>forza<s n="adv"/></r></p></e>
-      <e><p><l>a<b/>largu<s n="adv"/></l><r>a<b/>largo<s n="adv"/></r></p></e>
       <e><p><l>altamente<s n="adv"/></l><r>altamente<s n="adv"/></r></p></e>
       <e><p><l>arbitrariamente<s n="adv"/></l><r>arbitrariamente<s n="adv"/></r></p></e>
       <e><p><l>chiaramente<s n="adv"/></l><r>chiaramente<s n="adv"/></r></p></e>
