@@ -6449,7 +6449,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Corrasi<s n="np"/><s n="top"/><s n="f"/></l><r>Corrasi<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Amsterdam<s n="np"/><s n="top"/><s n="m"/></l><r>Amsterdam<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Andorra<s n="np"/><s n="top"/><s n="f"/></l><r>Andorra<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e><p><l>Bartzellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bèlgiu<s n="np"/><s n="top"/><s n="m"/></l><r>Belgio<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Berlinu<s n="np"/><s n="top"/><s n="m"/></l><r>Berlino<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Bolìvia<s n="np"/><s n="top"/><s n="f"/></l><r>Bolivia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -6721,6 +6720,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>Àustria<s n="np"/><s n="top"/><s n="f"/></l><r>Austria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Avignone<s n="np"/><s n="top"/><s n="f"/></l><r>Avignone<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Barcellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Valèntzia<s n="np"/><s n="top"/><s n="f"/></l><r>Valenzia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Birmània<s n="np"/><s n="top"/><s n="f"/></l><r>Birmania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Budapèst<s n="np"/><s n="top"/><s n="m"/></l><r>Budapest<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Calàbria<s n="np"/><s n="top"/><s n="f"/></l><r>Calabria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -22302,7 +22302,92 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>vigilare<s n="vblex"/></l><r>vigilare<s n="vblex"/></r></p></e>
       <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>vomitare<s n="vblex"/></l><r>vomitare<s n="vblex"/></r></p></e>
 
+      <e><p><l>curretzione<s n="n"/><s n="f"/></l><r>correzione<s n="n"/><s n="f"/></r></p></e>
 
+      <e><p><l>tzilìndricu<s n="adj"/></l><r>cilindrico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>tzilìndricu<s n="adj"/></l><r>cilindrico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>istercu<s n="n"/><s n="m"/></l><r>sterco<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pontificadu<s n="n"/><s n="m"/></l><r>pontificato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Abel<s n="np"/><s n="ant"/><s n="m"/></l><r>Abel<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Algèria<s n="np"/><s n="top"/><s n="f"/></l><r>Algeria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Argentina<s n="np"/><s n="top"/><s n="f"/></l><r>Argentina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Asia<s n="np"/><s n="ant"/><s n="f"/></l><r>Asia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>Austràlia<s n="np"/><s n="top"/><s n="f"/></l><r>Australia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Barack<s n="np"/><s n="ant"/><s n="m"/></l><r>Barack<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Bartzellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Barì<s n="np"/><s n="top"/><s n="m"/></l><r>Bari<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Bill<s n="np"/><s n="ant"/><s n="m"/></l><r>Bill<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Bobadilla<s n="np"/><s n="cog"/></l><r>Bobadilla<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Bonaparte<s n="np"/><s n="cog"/></l><r>Bonaparte<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Camerun<s n="np"/><s n="top"/><s n="m"/></l><r>Camerun<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Campidanu<s n="np"/><s n="top"/><s n="m"/></l><r>Campidano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Carlos<s n="np"/><s n="ant"/><s n="m"/></l><r>Carlos<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Casanova<s n="np"/><s n="cog"/></l><r>Casanova<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Castro<s n="np"/><s n="cog"/></l><r>Castro<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Ciuvascia<s n="np"/><s n="top"/><s n="f"/></l><r>Ciuvascia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Clinton<s n="np"/><s n="cog"/></l><r>Clinton<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Ferreira<s n="np"/><s n="cog"/></l><r>Ferreira<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Figari<s n="np"/><s n="top"/><s n="m"/></l><r>Figari<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Florida<s n="np"/><s n="top"/><s n="f"/></l><r>Florida<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Gandhi<s n="np"/><s n="cog"/></l><r>Gandhi<s n="np"/><s n="cog"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Glòria<s n="np"/><s n="ant"/><s n="f"/></l><r>Gloria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Grecia<s n="np"/><s n="top"/><s n="f"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Guillermu<s n="np"/><s n="ant"/><s n="m"/></l><r>Guillermo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Hillary<s n="np"/><s n="ant"/><s n="f"/></l><r>Hillary<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>Indotzina<s n="np"/><s n="top"/><s n="f"/></l><r>Indocina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Inés<s n="np"/><s n="ant"/><s n="f"/></l><r>Inés<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/></l><r>James<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Joan<s n="np"/><s n="ant"/><s n="m"/></l><r>Joan<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>José<s n="np"/><s n="ant"/><s n="m"/></l><r>José<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Jugoslavia<s n="np"/><s n="top"/><s n="f"/></l><r>Jugoslavia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Kinshasa<s n="np"/><s n="top"/><s n="f"/></l><r>Kinshasa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Kustendil<s n="np"/><s n="top"/><s n="m"/></l><r>Kustendil<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Liguria<s n="np"/><s n="top"/><s n="f"/></l><r>Liguria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Lucca<s n="np"/><s n="top"/><s n="f"/></l><r>Lucca<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Massachusetts<s n="np"/><s n="top"/><s n="m"/></l><r>Massachusetts<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Miguel<s n="np"/><s n="ant"/><s n="m"/></l><r>Miguel<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Monza<s n="np"/><s n="top"/><s n="f"/></l><r>Monza<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Nazaret<s n="np"/><s n="top"/><s n="m"/></l><r>Nazaret<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Pakistan<s n="np"/><s n="top"/><s n="m"/></l><r>Pakistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Paul<s n="np"/><s n="ant"/><s n="m"/></l><r>Paul<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Pechinu<s n="np"/><s n="top"/><s n="m"/></l><r>Pechino<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Pedro<s n="np"/><s n="ant"/><s n="m"/></l><r>Pedro<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Pennsylvania<s n="np"/><s n="top"/><s n="f"/></l><r>Pennsylvania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Pisa<s n="np"/><s n="top"/><s n="f"/></l><r>Pisa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Qatar<s n="np"/><s n="top"/><s n="m"/></l><r>Qatar<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Sanders<s n="np"/><s n="cog"/></l><r>Sanders<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Santiago<s n="np"/><s n="top"/><s n="m"/></l><r>Santiago<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Stern<s n="np"/><s n="cog"/></l><r>Stern<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Sydney<s n="np"/><s n="top"/><s n="m"/></l><r>Sydney<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Taiwan<s n="np"/><s n="top"/><s n="m"/></l><r>Taiwan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Treviso<s n="np"/><s n="top"/><s n="m"/></l><r>Treviso<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Trump<s n="np"/><s n="cog"/></l><r>Trump<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Ucraìna<s n="np"/><s n="top"/><s n="f"/></l><r>Ucraina<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Velázquez<s n="np"/><s n="cog"/></l><r>Velázquez<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Venezuela<s n="np"/><s n="top"/><s n="f"/></l><r>Venezuela<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Windows<s n="np"/><s n="al"/><s n="m"/></l><r>Windows<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+      <e><p><l>York<s n="np"/><s n="top"/><s n="m"/></l><r>York<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+
+      <e><p><l>Al<b/>Pacino<s n="np"/><s n="cog"/></l><r>Al<b/>Pacino<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Ford<s n="np"/><s n="cog"/></l><r>Ford<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Jackson<s n="np"/><s n="cog"/></l><r>Jackson<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Montserrat<s n="np"/><s n="top"/><s n="f"/></l><r>Montserrat<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Montserrat<s n="np"/><s n="ant"/><s n="f"/></l><r>Montserrat<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>Salvador<s n="np"/><s n="top"/><s n="m"/></l><r>Salvador<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Salvador<s n="np"/><s n="ant"/><s n="m"/></l><r>Salvador<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Kenny<s n="np"/><s n="ant"/><s n="m"/></l><r>Kenny<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+
+      <e><p><l>denominadu<s n="adj"/></l><r>denominato<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>denominadu<s n="adj"/></l><r>denominato<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>autoblindu<s n="n"/><s n="m"/></l><r>autoblindo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>connotadu<s n="n"/><s n="m"/></l><r>connotato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>geladu<s n="n"/><s n="m"/></l><r>gelato<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>iscrivanu<s n="n"/></l><r>scrivano<s n="n"/></r></p></e>
+      <e><p><l>ispirale<s n="n"/><s n="f"/></l><r>spirale<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>istatìsticu<s n="n"/></l><r>statistico<s n="n"/></r></p></e>
+      <e><p><l>Buddha<s n="np"/><s n="ant"/><s n="m"/></l><r>Buddha<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e><p><l>Microsoft<s n="np"/><s n="al"/><s n="m"/></l><r>Microsoft<s n="np"/><s n="al"/><s n="m"/></r></p></e>
+      <e><p><l>Ravenna<s n="np"/><s n="top"/><s n="f"/></l><r>Ravenna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
