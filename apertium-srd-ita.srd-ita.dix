@@ -2474,8 +2474,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>germànicu<s n="adj"/></l><r>germanico<s n="adj"/></r></p></e>
       <e><p><l>eremire<s n="vblex"/></l><r>inselvatichire<s n="vblex"/></r></p></e>
       <e><p><l>eliminatzione<s n="n"/><s n="f"/></l><r>eliminazione<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>duca<s n="n"/><s n="m"/></l><r>duca<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>duca<s n="n"/><s n="f"/></l><r>duca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>duca<s n="n"/></l><r>duca<s n="n"/></r></p></e>
+      <e><p><l>granduca<s n="n"/></l><r>granduca<s n="n"/></r></p></e>
       <e><p><l>dialetologia<s n="n"/><s n="f"/></l><r>dialettologia<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>cunservadore<s n="n"/><s n="m"/></l><r>conservatore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>consulente<s n="n"/><s n="m"/></l><r>consulente<s n="n"/><s n="m"/></r></p></e>
@@ -2611,13 +2611,13 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
     <e><p><l>brandu<s n="adj"/></l><r>duttile<s n="adj"/></r></p></e>
     <e><p><l>bramare<s n="vblex"/></l><r>bramare<s n="vblex"/></r></p></e>
     <e><p><l>brama<s n="n"/><s n="f"/></l><r>brama<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>bragare<s n="vblex"/></l><r>pavoneggiarsi<s n="vblex"/></r></p></e>
+    <!-- <e><p><l>bragare<s n="vblex"/></l><r>pavoneggiarsi<s n="vblex"/></r></p></e> -->
     <e><p><l>braga<s n="n"/><s n="f"/></l><r>spocchia<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bonete<s n="n"/><s n="m"/></l><r>cappello<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bonesu<s n="adj"/></l><r>bonese<s n="adj"/></r></p><par n="GD_mf"/></e>
     <e><p><l>bizarru<s n="adj"/></l><r>bizzarruo<s n="adj"/></r></p></e>
     <e><p><l>bìviu<s n="n"/><s n="m"/></l><r>bivio<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>bisaju<s n="n"/></l><r>bisavolo<s n="n"/></r></p></e>
+    <e><p><l>bisaju<s n="n"/></l><r>bisavolo<s n="n"/></r></p></e>
     <e><p><l>bisadore<s n="n"/><s n="m"/></l><r>sognatore<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bisadore<s n="adj"/></l><r>sognatore<s n="adj"/></r></p></e>
     <e><p><l>birmanu<s n="adj"/></l><r>birmano<s n="adj"/></r></p></e>
@@ -2769,7 +2769,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
     <e><p><l>apranare<s n="vblex"/></l><r>spianare<s n="vblex"/></r></p></e>
     <e><p><l>apparizione<s n="n"/><s n="f"/></l><r>apparizione<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>apostare<s n="vblex"/></l><r>appostare<s n="vblex"/></r></p></e>
-    <e><p><l>aposentare<s n="vblex"/></l><r>accomodarsi<s n="vblex"/></r></p></e>
+    <!-- <e><p><l>aposentare<s n="vblex"/></l><r>accomodarsi<s n="vblex"/></r></p></e> -->
     <e><p><l>apògiu<s n="n"/><s n="m"/></l><r>appoggio<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>apoderamentu<s n="n"/><s n="m"/></l><r>appropriamento<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>apetigare<s n="vblex"/></l><r>calpestare<s n="vblex"/></r></p></e>
@@ -2811,7 +2811,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
     <e><p><l>ammudare<s n="vblex"/></l><r>tacere<s n="vblex"/></r></p></e>
     <e><p><l>ammontare<s n="vblex"/></l><r>ammontare<s n="vblex"/></r></p></e>
     <e><p><l>ammissu<s n="adj"/></l><r>ammesso<s n="adj"/></r></p></e>
-    <e><p><l>ammandronare<s n="vblex"/></l><r>impigrirsi<s n="vblex"/></r></p></e>
+    <!-- <e><p><l>ammandronare<s n="vblex"/></l><r>impigrirsi<s n="vblex"/></r></p></e> -->
     <e><p><l>ammancu<s n="n"/><s n="m"/></l><r>deficit<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>ammancare<s n="vblex"/></l><r>mancare<s n="vblex"/></r></p></e>
     <e><p><l>ammajadore<s n="n"/><s n="m"/></l><r>esorcista<s n="n"/><s n="m"/></r></p></e>
@@ -2847,8 +2847,8 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
     <e><p><l>agravare<s n="vblex"/></l><r>aggravare<s n="vblex"/></r></p></e>
     <e><p><l>agrària<s n="n"/><s n="f"/></l><r>agraria<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>agradèssidu<s n="adj"/></l><r>grato<s n="adj"/></r></p></e>
-    <e><p><l>agradèssere<s n="vblex"/></l><r><g>essere</g>grato<s n="vblex"/></r></p></e>
-    <e><p><l>agiudicadu<s n="adj"/></l><r>aggiudicare<s n="adj"/></r></p></e>
+    <e r="LR"><p><l>agradèssere<s n="vblex"/></l><r>essere<g><b/>grato</g><s n="vblex"/></r></p></e>
+    <e><p><l>agiudicadu<s n="adj"/></l><r>aggiudicato<s n="adj"/></r></p></e>
     <e><p><l>agiostradu<s n="adj"/></l><r>ammaestrato<s n="adj"/></r></p></e>
     <e><p><l>agenu<s n="adj"/></l><r>altrui<s n="adj"/></r></p></e>
     <e><p><l>afusadu<s n="adj"/></l><r>affossato<s n="adj"/></r></p></e>
@@ -2887,7 +2887,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
     <e><p><l>abbratzada<s n="n"/><s n="f"/></l><r>abbracciata<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>abbentu<s n="n"/><s n="m"/></l><r>avvento<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>abbatzu<s n="n"/><s n="m"/></l><r>melassa<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>abbacare<s n="vblex"/></l><r>calmarsi<s n="vblex"/></r></p></e>
+    <!-- <e><p><l>abbacare<s n="vblex"/></l><r>calmarsi<s n="vblex"/></r></p></e> -->
 
       <e><p><l>cunsortziadu<s n="adj"/></l><r>consorziato<s n="adj"/></r></p></e>
       <e><p><l>cunfinare<s n="vblex"/></l><r>confinare<s n="vblex"/></r></p></e>
@@ -2919,7 +2919,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>mercantile<s n="adj"/></l><r>mercantile<s n="adj"/></r></p></e>
       <e><p><l>matemàticu<s n="adj"/></l><r>matematico<s n="adj"/></r></p></e>
       <e><p><l>margherita<s n="n"/><s n="f"/></l><r>margherita<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>italianismu<s n="adj"/></l><r>italianismo<s n="adj"/></r></p></e>
+      <e><p><l>italianismu<s n="n"/><s n="m"/></l><r>italianismo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>iscultore<s n="n"/><s n="m"/></l><r>scultore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>interlingua<s n="n"/><s n="f"/></l><r>interlingua<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>furriadu<s n="adj"/></l><r>rivoltato<s n="adj"/></r></p></e>
@@ -5202,7 +5202,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>cunfederadu<s n="adj"/></l><r>confederato<s n="adj"/></r></p></e>
       <e><p><l>cumplessidade<s n="n"/><s n="f"/></l><r>complessità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>cristianidade<s n="n"/><s n="f"/></l><r>cristianità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>crisare<s n="vblex"/></l><r>eclissarsi<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>crisare<s n="vblex"/></l><r>eclissarsi<s n="vblex"/></r></p></e> -->
       <e><p><l>criminare<s n="vblex"/></l><r>incriminare<s n="vblex"/></r></p></e>
       <e><p><l>creatividade<s n="n"/><s n="f"/></l><r>creatività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>creadore<s n="adj"/></l><r>creatore<s n="adj"/></r></p></e>
@@ -5263,7 +5263,7 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e><p><l>variabilidade<s n="n"/><s n="f"/></l><r>variabilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>tzoroddu<s n="n"/><s n="m"/></l><r>miscuglio<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tzima<s n="n"/><s n="f"/></l><r>cima<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>tzicare<s n="vblex"/></l><r>spaventarsi<s n="vblex"/></r></p></e>
+      <!-- <e><p><l>tzicare<s n="vblex"/></l><r>spaventarsi<s n="vblex"/></r></p></e> -->
       <e><p><l>tzica<s n="n"/><s n="f"/></l><r>cicca<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tzerotu<s n="n"/><s n="m"/></l><r>cerotto<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>tzèdidu<s n="adj"/></l><r>ceduto<s n="adj"/></r></p></e>
@@ -16959,7 +16959,6 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
       <e r="RL"><p><l>isvantagiosu<s n="adj"/></l><r>svantaggioso<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>isvedesu<s n="adj"/></l><r>svedese<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>isvìtzeru<s n="adj"/></l><r>isvizzero<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>italianismu<s n="adj"/></l><r>italianismo<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>italianu<s n="adj"/></l><r>italiano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>italoamericanu<s n="adj"/></l><r>italoamericano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>iugoslavu<s n="adj"/></l><r>jugoslavo<s n="adj"/><s n="sup"/></r></p></e>
@@ -22730,6 +22729,167 @@ Sardinian forms (when generating Sardinian). Marked c="non-preferred" -->
 
       <e><p><l>matzedòniu<s n="adj"/></l><r>macedonio<s n="adj"/></r></p></e>
       <e><p><l>matzedòniu<s n="n"/></l><r>macedonio<s n="n"/></r></p></e>
+      <e><p><l>cafone<s n="adj"/></l><r>cafone<s n="adj"/></r></p></e>
+
+      <e><p><l>anglo-americanu<s n="adj"/></l><r>anglo-americano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-americanu<s n="adj"/></l><r>anglo-americano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-australianu<s n="adj"/></l><r>anglo-australiano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-australianu<s n="adj"/></l><r>anglo-australiano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-caraibicu<s n="adj"/></l><r>anglo-caraibico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-caraibicu<s n="adj"/></l><r>anglo-caraibico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-egitzianu<s n="adj"/></l><r>anglo-egiziano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-egitzianu<s n="adj"/></l><r>anglo-egiziano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-franco-americanu<s n="adj"/></l><r>anglo-franco-americano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-franco-americanu<s n="adj"/></l><r>anglo-franco-americano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-indianu<s n="adj"/></l><r>anglo-indiano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-indianu<s n="adj"/></l><r>anglo-indiano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-iranianu<s n="adj"/></l><r>anglo-iraniano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-iranianu<s n="adj"/></l><r>anglo-iraniano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-israelianu<s n="adj"/></l><r>anglo-israeliano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-israelianu<s n="adj"/></l><r>anglo-israeliano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-italianu<s n="adj"/></l><r>anglo-italiano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-italianu<s n="adj"/></l><r>anglo-italiano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-pakistanu<s n="adj"/></l><r>anglo-pakistano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-pakistanu<s n="adj"/></l><r>anglo-pakistano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-russu<s n="adj"/></l><r>anglo-russo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-russu<s n="adj"/></l><r>anglo-russo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglo-sovièticu<s n="adj"/></l><r>anglo-sovietico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglo-sovièticu<s n="adj"/></l><r>anglo-sovietico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglòfilu<s n="adj"/></l><r>anglofilo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglòfilu<s n="adj"/></l><r>anglofilo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglòfobu<s n="adj"/></l><r>anglofobo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglòfobu<s n="adj"/></l><r>anglofobo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anglòfonu<s n="adj"/></l><r>anglofono<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglòfonu<s n="adj"/></l><r>anglofono<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>antifascista<s n="adj"/></l><r>antifascista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>antinatzionalista<s n="adj"/></l><r>antinazionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cumbinatòriu<s n="adj"/></l><r>combinatorio<s n="adj"/></r></p></e>
+      <e><p><l>cumpartimentale<s n="adj"/></l><r>compartimentale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cumpartimentale<s n="adj"/></l><r>compartimentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cumpassadu<s n="adj"/></l><r>compassato<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cumpassadu<s n="adj"/></l><r>compassato<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>cumplementàriu<s n="adj"/></l><r>complementario<s n="adj"/></r></p></e>
+      <e><p><l>cumplimentosu<s n="adj"/></l><r>complimentoso<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cumplimentosu<s n="adj"/></l><r>complimentoso<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>cumportamentale<s n="adj"/></l><r>comportamentale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cumportamentale<s n="adj"/></l><r>comportamentale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cumprensivu<s n="adj"/></l><r>comprensivo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cumprensivu<s n="adj"/></l><r>comprensivo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>cunditzionale<s n="adj"/></l><r>condizionale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunditzionale<s n="adj"/></l><r>condizionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunfederale<s n="adj"/></l><r>confederale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunfederale<s n="adj"/></l><r>confederale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunfidentziale<s n="adj"/></l><r>confidenziale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunfidentziale<s n="adj"/></l><r>confidenziale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunformista<s n="adj"/></l><r>conformista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunnatzionale<s n="adj"/></l><r>connazionale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunnatzionale<s n="adj"/></l><r>connazionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunservativu<s n="adj"/></l><r>conservativo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunservativu<s n="adj"/></l><r>conservativo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>cuntemplativu<s n="adj"/></l><r>contemplativo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cuntemplativu<s n="adj"/></l><r>contemplativo<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cuntestàbile<s n="adj"/></l><r>contestabile<s n="adj"/></r></p></e>
+      <e><p><l>cunventuale<s n="adj"/></l><r>conventuale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunventuale<s n="adj"/></l><r>conventuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunventzionale<s n="adj"/></l><r>convenzionale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunventzionale<s n="adj"/></l><r>convenzionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunvergente<s n="adj"/></l><r>convergente<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cunvergente<s n="adj"/></l><r>convergente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunvèrtidu<s n="adj"/></l><r>convertito<s n="adj"/></r></p></e>
+      <e><p><l>franco-britànnicu<s n="adj"/></l><r>franco-britannico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>franco-britànnicu<s n="adj"/></l><r>franco-britannico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>franco-iranianu<s n="adj"/></l><r>franco-iraniano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>franco-iranianu<s n="adj"/></l><r>franco-iraniano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>franco-italianu<s n="adj"/></l><r>franco-italiano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>franco-italianu<s n="adj"/></l><r>franco-italiano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>franco-prussianu<s n="adj"/></l><r>franco-prussiano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>franco-prussianu<s n="adj"/></l><r>franco-prussiano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>francòfilu<s n="adj"/></l><r>francofilo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>francòfilu<s n="adj"/></l><r>francofilo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>francòfobu<s n="adj"/></l><r>francofobo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>francòfobu<s n="adj"/></l><r>francofobo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>germanòfilu<s n="adj"/></l><r>germanofilo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>germanòfilu<s n="adj"/></l><r>germanofilo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>germanòfobu<s n="adj"/></l><r>germanofobo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>germanòfobu<s n="adj"/></l><r>germanofobo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>germanòfonu<s n="adj"/></l><r>germanofono<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>germanòfonu<s n="adj"/></l><r>germanofono<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>italianista<s n="adj"/></l><r>italianista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>italo-americanu<s n="adj"/></l><r>italo-americano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>italo-americanu<s n="adj"/></l><r>italo-americano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>italo-austriacu<s n="adj"/></l><r>italo-austriaco<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>italo-austriacu<s n="adj"/></l><r>italo-austriaco<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>italòfonu<s n="adj"/></l><r>italofono<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>italòfonu<s n="adj"/></l><r>italofono<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>orchestrale<s n="adj"/></l><r>orchestrale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>orchestrale<s n="adj"/></l><r>orchestrale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>anglofìlia<s n="n"/><s n="f"/></l><r>anglofilia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anglofòbia<s n="n"/><s n="f"/></l><r>anglofobia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anglòfilu<s n="n"/></l><r>anglofilo<s n="n"/></r></p></e>
+      <e><p><l>anglòfobu<s n="n"/></l><r>anglofobo<s n="n"/></r></p></e>
+      <e><p><l>anglòfonu<s n="n"/></l><r>anglofono<s n="n"/></r></p></e>
+      <e><p><l>anticomunismu<s n="n"/><s n="m"/></l><r>anticomunismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>antifascismu<s n="n"/><s n="m"/></l><r>antifascismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>antifascista<s n="n"/></l><r>antifascista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cumandamentu<s n="n"/><s n="m"/></l><r>comandamento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cumarca<s n="n"/><s n="f"/></l><r>comarca<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cummediante<s n="n"/><s n="m"/></l><r>commediante<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cummediògrafu<s n="n"/></l><r>commediografo<s n="n"/></r></p></e>
+      <e><p><l>cummentu<s n="n"/><s n="m"/></l><r>commento<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cummissariadu<s n="n"/><s n="m"/></l><r>commissariato<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cummissàriu<s n="n"/><s n="m"/></l><r>commissario<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cummossu<s n="n"/><s n="m"/></l><r>commosso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cummotzione<s n="n"/><s n="f"/></l><r>commozione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumodinu<s n="n"/><s n="m"/></l><r>comodino<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumparatzione<s n="n"/><s n="f"/></l><r>comparazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumpassione<s n="n"/><s n="f"/></l><r>compassione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cumpassu<s n="n"/><s n="m"/></l><r>compasso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cumpetitividade<s n="n"/><s n="f"/></l><r>competitività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>cumpleannu<s n="n"/><s n="m"/></l><r>compleanno<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cumpressione<s n="n"/><s n="f"/></l><r>compressione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cumpèndiu<s n="n"/><s n="m"/></l><r>compendio<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cuncetzione<s n="n"/><s n="f"/></l><r>concezione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cuncòrdia<s n="n"/><s n="f"/></l><r>concordia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cundimentu<s n="n"/><s n="m"/></l><r>condimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cunditzionamentu<s n="n"/><s n="m"/></l><r>condizionamento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cunfessionale<s n="n"/><s n="m"/></l><r>confessionale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cunfessore<s n="n"/><s n="m"/></l><r>confessore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cunfetzione<s n="n"/><s n="f"/></l><r>confezione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cunfidente<s n="n"/><s n="m"/></l><r>confidente<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunfidèntzia<s n="n"/><s n="f"/></l><r>confidenza<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunfiguratzione<s n="n"/><s n="f"/></l><r>configurazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunformatzione<s n="n"/><s n="f"/></l><r>conformazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunformismu<s n="n"/><s n="m"/></l><r>conformismo<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunformista<s n="n"/></l><r>conformista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunfortu<s n="n"/><s n="m"/></l><r>conforto<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cungestione<s n="n"/><s n="f"/></l><r>congestione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cungressista<s n="n"/></l><r>congressista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cunservante<s n="n"/><s n="m"/></l><r>conservante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cunsolidamentu<s n="n"/><s n="m"/></l><r>consolidamento<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cuntante<s n="n"/><s n="m"/></l><r>contante<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cuntemplatzione<s n="n"/><s n="f"/></l><r>contemplazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cuntemporaneidade<s n="n"/><s n="f"/></l><r>contemporaneità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>cuntenimentu<s n="n"/><s n="m"/></l><r>contenimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cuntornu<s n="n"/><s n="m"/></l><r>contorno<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>francofìlia<s n="n"/><s n="f"/></l><r>francofilia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>francofòbia<s n="n"/><s n="f"/></l><r>francofobia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>francòfilu<s n="n"/></l><r>francofilo<s n="n"/></r></p></e>
+      <e><p><l>francòfobu<s n="n"/></l><r>francofobo<s n="n"/></r></p></e>
+      <e><p><l>germanofìlia<s n="n"/><s n="f"/></l><r>germanofilia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>germanofòbia<s n="n"/><s n="f"/></l><r>germanofobia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>germanòfilu<s n="n"/></l><r>germanofilo<s n="n"/></r></p></e>
+      <e><p><l>germanòfobu<s n="n"/></l><r>germanofobo<s n="n"/></r></p></e>
+      <e><p><l>germanòfonu<s n="n"/></l><r>germanofono<s n="n"/></r></p></e>
+      <e><p><l>insurretzione<s n="n"/><s n="f"/></l><r>insurrezione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>italianista<s n="n"/></l><r>italianista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>italòfonu<s n="n"/></l><r>italofono<s n="n"/></r></p></e>
+      <e><p><l>pigiama<s n="n"/><s n="m"/></l><r>pigiama<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>protzessore<s n="n"/><s n="m"/></l><r>processore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>Bretagna<s n="np"/><s n="top"/><s n="f"/></l><r>Bretagna<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>cumprovare<s n="vblex"/></l><r>comprovare<s n="vblex"/></r></p></e>
+      <e><p><l>cumpètere<s n="vblex"/></l><r>competere<s n="vblex"/></r></p></e>
+      <e><p><l>prefabbricare<s n="vblex"/></l><r>prefabbricare<s n="vblex"/></r></p></e>
+
 
       <!-- SECCIÓN: Punctuación -->
       <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
