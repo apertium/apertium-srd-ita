@@ -11390,6 +11390,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Kate<s n="np"/><s n="ant"/><s n="f"/></l><r>Kate<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Kawasaki<s n="np"/><s n="org"/><s n="f"/></l><r>Kawasaki<s n="np"/><s n="org"/><s n="f"/></r></p></e>
 <e>       <p><l>Kazakistàn<s n="np"/><s n="top"/><s n="m"/></l><r>Kazakistan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>kazacu<s n="adj"/></l>                 <r>kazako<s n="adj"/></r></p></e>
+<e>       <p><l>kazacu<s n="n"/></l>                   <r>kazako<s n="n"/></r></p></e>
+<e r="RL"><p><l>kazacu<s n="adj"/></l>                 <r>kazako<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>kazaku<s n="adj"/></l>                 <r>kazako<s n="adj"/></r></p></e>
 <e>       <p><l>kazaku<s n="n"/></l>                   <r>kazako<s n="n"/></r></p></e>
 <e r="RL"><p><l>kazaku<s n="adj"/></l>                 <r>kazako<s n="adj"/><s n="sup"/></r></p></e>
@@ -16375,7 +16378,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>amparadore<s n="n"/><s n="f"/></l>     <r>protettore<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>amparu<s n="n"/><s n="m"/></l>         <r>protezione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>protetzione<s n="n"/><s n="f"/></l>    <r>protezione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>protezionista<s n="n"/></l>            <r>protezionista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>protetzionista<s n="n"/></l>           <r>protezionista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>protocollare<s n="vblex"/></l>         <r>protocollare<s n="vblex"/></r></p></e>
 <e>       <p><l>protocollu<s n="n"/><s n="m"/></l>     <r>protocollo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>protone<s n="n"/><s n="m"/></l>        <r>protone<s n="n"/><s n="m"/></r></p></e>
@@ -22609,12 +22612,21 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>vendicadore<s n="n"/></l><r>vendicatore<s n="n"/></r></p></e>
       <e><p><l>ventiladore<s n="n"/><s n="m"/></l><r>ventilatore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>istratificare<s n="vblex"/></l><r>stratificare<s n="vblex"/></r></p></e>
-      <e><p><l>stratificare<s n="vblex"/></l><r>stratificare<s n="vblex"/></r></p></e>
       <e><p><l>riformista<s n="adj"/></l><r>riformista<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>preparadore<s n="n"/></l><r>preparatore<s n="n"/></r></p></e>
       <e><p><l>riformismu<s n="n"/><s n="m"/></l><r>riformismo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>riformista<s n="n"/></l><r>riformista<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>franco-tedescu<s n="adj"/></l><r>franco-tedesco<s n="adj"/></r></p></e>
+
+      <e><p><l>antiprotetzionista<s n="adj"/></l><r>antiprotezionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>antiterrorista<s n="adj"/></l><r>antiterrorista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>idealista<s n="adj"/></l><r>idealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>antiprotetzionismu<s n="n"/><s n="m"/></l><r>antiprotezionismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>antiprotetzionista<s n="n"/></l><r>antiprotezionista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>idealismu<s n="n"/><s n="m"/></l><r>idealismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>darwinianu<s n="adj"/></l><r>darwiniano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>darwinianu<s n="adj"/></l><r>darwiniano<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>darwinismu<s n="n"/><s n="m"/></l><r>darwinismo<s n="n"/><s n="m"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
