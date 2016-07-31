@@ -11,7 +11,7 @@
 <dictionary>
 <!-- formatejat amb les següents regles:
 apertium-dixtools format apertium-srd-ita.srd-ita.dix apertium-srd-ita.srd-ita.dix.new
-apertium-dixtools sort -ignorecase -alignBidix -stripEmptyLines -right -group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf-sp_ND,m-m_f-f,ND_pl apertium-srd-ita.srd-ita.dix.new apertium-srd-ita.srd-ita.dix.new2
+apertium-dixtools sort -ignorecase -alignBidix -stripEmptyLines -right -group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD-pl_ND,mf-sp_ND,m-m_f-f,ND_pl apertium-srd-ita.srd-ita.dix.new apertium-srd-ita.srd-ita.dix.new2
 apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita.dix.new3
 -->
   <alphabet></alphabet>
@@ -118,6 +118,14 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
   <e r="LR"><p><l><s n="mf"/></l><r><s n="GD"/></r></p><par n="sp_ND"/></e>
   <e r="RL"><p><l><s n="mf"/></l><r><s n="f"/></r></p><par n="sp_ND"/></e>
   <e r="RL"><p><l><s n="mf"/></l><r><s n="m"/></r></p><par n="sp_ND"/></e>
+</pardef>
+
+<pardef n="mf_GD-pl_ND">
+  <e r="LR"><p><l><s n="mf"/><s n="pl"/></l><r><s n="GD"/><s n="ND"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="pl"/></l><r><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="pl"/></l><r><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="pl"/></l><r><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><s n="mf"/><s n="pl"/></l><r><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="mf-sp_ND">
@@ -4090,7 +4098,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>tsensuràbile<s n="adj"/></l>           <r>censurabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>tzensurare<s n="vblex"/></l>           <r>censurare<s n="vblex"/></r></p></e>
 <e>       <p><l>tzentenàriu<s n="adj"/></l>            <r>centenario<s n="adj"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chentu</g><s n="adj"/><s n="ord"/></l><r>centesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chentu<s n="adj"/><s n="ord"/></l><r>centesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>tzentèsimu<s n="n"/><s n="m"/></l>     <r>centesimo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tzentìmetru<s n="n"/><s n="m"/></l>    <r>centimetro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>chentina<s n="n"/><s n="f"/></l>       <r>centinaio<s n="n"/><s n="m"/></r></p></e>
@@ -4323,28 +4331,28 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Cino<s n="np"/><s n="ant"/><s n="m"/></l><r>Cino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>chimbanta<s n="num"/></l>              <r>cinquanta<s n="num"/></r></p></e>
 <e>       <p><l>chimbantaghimbe<s n="num"/></l>        <r>cinquantacinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantaghimbe</g><s n="adj"/><s n="ord"/></l><r>cinquantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbantaghimbe<s n="adj"/><s n="ord"/></l><r>cinquantacinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantaduos<s n="num"/></l>          <r>cinquantadue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantaduos</g><s n="adj"/><s n="ord"/></l><r>cinquantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbantaduos<s n="adj"/><s n="ord"/></l><r>cinquantaduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantanoe<s n="num"/></l>           <r>cinquantanove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantanoe</g><s n="adj"/><s n="ord"/></l><r>cinquantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantabator</g><s n="adj"/><s n="ord"/></l><r>cinquantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbantanoe<s n="adj"/><s n="ord"/></l><r>cinquantanovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>chimbantabator<s n="adj"/><s n="ord"/></l><r>cinquantaquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantabator<s n="num"/></l>         <r>cinquantaquattro<s n="num"/></r></p></e>
 <e>       <p><l>chimbantasès<s n="num"/></l>           <r>cinquantasei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantasès</g><s n="adj"/><s n="ord"/></l><r>cinquantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbantasès<s n="adj"/><s n="ord"/></l><r>cinquantaseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantasete<s n="num"/></l>          <r>cinquantasette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantasete</g><s n="adj"/><s n="ord"/></l><r>cinquantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantatrès</g><s n="adj"/><s n="ord"/></l><r>cinquantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbantasete<s n="adj"/><s n="ord"/></l><r>cinquantasettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>chimbantatrès<s n="adj"/><s n="ord"/></l><r>cinquantatreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantatrès<s n="num"/></l>          <r>cinquantatré<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbanta</g><s n="adj"/><s n="ord"/></l><r>cinquantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbanta<s n="adj"/><s n="ord"/></l><r>cinquantesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantina<s n="n"/><s n="f"/></l>    <r>cinquantina<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantoto</g><s n="adj"/><s n="ord"/></l><r>cinquantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbantoto<s n="adj"/><s n="ord"/></l><r>cinquantottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantoto<s n="num"/></l>            <r>cinquantotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbantunu</g><s n="adj"/><s n="ord"/></l><r>cinquantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbantunu<s n="adj"/><s n="ord"/></l><r>cinquantunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbantunu<s n="num"/></l>            <r>cinquantuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>chimbantunu<s n="num"/><s n="m"/></l>  <r>cinquantuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>chimbe<s n="num"/></l>                 <r>cinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbighentos</g><s n="adj"/><s n="ord"/></l><r>cinquecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbighentos<s n="adj"/><s n="ord"/></l><r>cinquecentesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>chimbighentos<s n="num"/></l>          <r>cinquecento<s n="num"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>tzinta<s n="n"/><s n="f"/></l>         <r>cinta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tzintura<s n="n"/><s n="f"/></l>       <r>cintura<s n="n"/><s n="f"/></r></p></e>
@@ -6077,7 +6085,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>detzifrare<s n="vblex"/></l>           <r>decifrare<s n="vblex"/></r></p></e>
 <e>       <p><l>detzimale<s n="n"/><s n="m"/></l>      <r>decimale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>deghinare<s n="vblex"/></l>            <r>decimare<s n="vblex"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>deghe</g><s n="adj"/><s n="ord"/></l><r>decimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>deghe<s n="adj"/><s n="ord"/></l><r>decimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>Dèximu<b/>Mannu<s n="np"/><s n="top"/><s n="m"/></l><r>Decimomannu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Dèximu<b/>Putzu<s n="np"/><s n="top"/><s n="m"/></l><r>Decimoputzu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>deghina<s n="n"/><s n="f"/></l>        <r>decina<s n="n"/><s n="f"/></r></p></e>
@@ -6466,10 +6474,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>dichiaratzione<s n="n"/><s n="f"/></l> <r>dichiarazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>decraru<s n="n"/><s n="m"/></l>        <r>dichiarazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>deghennoe<s n="num"/></l>              <r>diciannove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>deghennoe</g><s n="adj"/><s n="ord"/></l><r>diciannovesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>deghennoe<s n="adj"/><s n="ord"/></l><r>diciannovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>deghessete<s n="num"/></l>             <r>diciassette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>deghessete</g><s n="adj"/><s n="ord"/></l><r>diciassettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>degheoto</g><s n="adj"/><s n="ord"/></l><r>diciottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>deghessete<s n="adj"/><s n="ord"/></l><r>diciassettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>degheoto<s n="adj"/><s n="ord"/></l><r>diciottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>degheoto<s n="num"/></l>               <r>diciotto<s n="num"/></r></p></e>
 <e>       <p><l>Dick<s n="np"/><s n="ant"/><s n="m"/></l><r>Dick<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Didaco<s n="np"/><s n="ant"/><s n="m"/></l><r>Didaco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6931,7 +6939,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>documentadu<s n="adj"/></l>            <r>documentato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>documentatzione<s n="n"/><s n="f"/></l><r>documentazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>documentu<s n="n"/><s n="m"/></l>      <r>documento<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>dòighi</g><s n="adj"/><s n="ord"/></l><r>dodicesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>dòighi<s n="adj"/><s n="ord"/></l><r>dodicesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>dòighi<s n="num"/></l>                 <r>dodici<s n="num"/></r></p></e>
 <e>       <p><l>dogana<s n="n"/><s n="f"/></l>         <r>dogana<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dogma<s n="n"/><s n="m"/></l>          <r>dogma<s n="n"/><s n="m"/></r></p></e>
@@ -7126,11 +7134,11 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Duccio<s n="np"/><s n="ant"/><s n="m"/></l><r>Duccio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Duchetta<s n="np"/><s n="cog"/></l>    <r>Duchetta<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>duos<s n="num"/></l>                   <r>due<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>dughentos</g><s n="adj"/><s n="ord"/></l><r>duecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>dughentos<s n="adj"/><s n="ord"/></l><r>duecentesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>dughentos<s n="num"/></l>              <r>duecento<s n="num"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>duellu<s n="n"/><s n="m"/></l>         <r>duello<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>duamìgia<s n="num"/></l>               <r>duemila<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>duamìgia</g><s n="adj"/><s n="ord"/></l><r>duemillesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>duamìgia<s n="adj"/><s n="ord"/></l><r>duemillesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>Duilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Duilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Duilio<s n="np"/><s n="ant"/><s n="m"/></l><r>Duilio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>duna<s n="n"/><s n="f"/></l>           <r>duna<s n="n"/><s n="f"/></r></p></e>
@@ -8130,7 +8138,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>fama<s n="n"/><s n="f"/></l>           <r>fama<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fàmene<s n="n"/><s n="f"/></l>         <r>fame<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>famìlia<s n="n"/><s n="f"/></l>        <r>famiglia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>famìllia<s n="n"/><s n="f"/></l>       <r>famiglia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>famìllia<s n="n"/><s n="f"/></l>       <r>famiglia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>familiare<s n="adj"/></l>              <r>familiare<s n="adj"/></r></p></e>
 <e r="RL"><p><l>familiare<s n="adj"/></l>              <r>familiare<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>familiaridade<s n="n"/><s n="f"/></l>  <r>familiarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
@@ -12999,9 +13007,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR"><p><l>milli<s n="num"/><s n="mf"/><s n="pl"/></l><r>mille<s n="num"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>millènniu<s n="n"/><s n="m"/></l>      <r>millennio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Miller<s n="np"/><s n="cog"/><s n="mf"/></l><r>Miller<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>milli</g><s n="adj"/><s n="ord"/></l><r>millesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>milli<s n="adj"/><s n="ord"/></l><r>millesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>millìmetru<s n="n"/><s n="m"/></l>     <r>millimetro<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>millione</g><s n="adj"/><s n="ord"/></l><r>millionesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>millione<s n="adj"/><s n="ord"/></l><r>millionesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>Milo<s n="np"/><s n="ant"/><s n="m"/></l><r>Milo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Milziade<s n="np"/><s n="ant"/><s n="m"/></l><r>Milziade<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>mimetismu<s n="n"/><s n="m"/></l>      <r>mimetismo<s n="n"/><s n="m"/></r></p></e>
@@ -13866,7 +13874,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred"><p><l>giaju<s n="n"/></l>  <r>nonno<s n="n"/></r></p></e>
 <e>       <p><l>mannoi<s n="n"/><s n="m"/></l>         <r>nonno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mannai<s n="n"/><s n="f"/></l>         <r>nonno<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>noe</g><s n="adj"/><s n="ord"/></l><r>nono<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>noe<s n="adj"/><s n="ord"/></l><r>nono<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>nointames<s n="pr"/></l>               <r>nonostante<s n="pr"/></r></p></e>
 <e>       <p><l>Nora<s n="np"/><s n="ant"/><s n="f"/></l><r>Nora<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Noragugume<s n="np"/><s n="top"/><s n="m"/></l><r>Noragugume<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -13954,28 +13962,28 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Nova<b/>Scotia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nova<b/>Scotia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>noranta<s n="num"/></l>                <r>novanta<s n="num"/></r></p></e>
 <e>       <p><l>norantaghimbe<s n="num"/></l>          <r>novantacinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantaghimbe</g><s n="adj"/><s n="ord"/></l><r>novantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>norantaghimbe<s n="adj"/><s n="ord"/></l><r>novantacinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantaduos<s n="num"/></l>            <r>novantadue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>norantaduos</g><s n="adj"/><s n="ord"/></l><r>novantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>norantaduos<s n="adj"/><s n="ord"/></l><r>novantaduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantanoe<s n="num"/></l>             <r>novantanove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantanoe</g><s n="adj"/><s n="ord"/></l><r>novantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantabator</g><s n="adj"/><s n="ord"/></l><r>novantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>norantanoe<s n="adj"/><s n="ord"/></l><r>novantanovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>norantabator<s n="adj"/><s n="ord"/></l><r>novantaquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantabator<s n="num"/></l>           <r>novantaquattro<s n="num"/></r></p></e>
 <e>       <p><l>norantasès<s n="num"/></l>             <r>novantasei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantasès</g><s n="adj"/><s n="ord"/></l><r>novantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>norantasès<s n="adj"/><s n="ord"/></l><r>novantaseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantasete<s n="num"/></l>            <r>novantasette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantasete</g><s n="adj"/><s n="ord"/></l><r>novantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantatrès</g><s n="adj"/><s n="ord"/></l><r>novantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>norantasete<s n="adj"/><s n="ord"/></l><r>novantasettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>norantatrès<s n="adj"/><s n="ord"/></l><r>novantatreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantatrès<s n="num"/></l>            <r>novantatré<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>noranta</g><s n="adj"/><s n="ord"/></l><r>novantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>noranta<s n="adj"/><s n="ord"/></l><r>novantesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantina<s n="n"/><s n="f"/></l>      <r>novantina<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantoto</g><s n="adj"/><s n="ord"/></l><r>novantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>norantoto<s n="adj"/><s n="ord"/></l><r>novantottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantoto<s n="num"/></l>              <r>novantotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>norantunu</g><s n="adj"/><s n="ord"/></l><r>novantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>norantunu<s n="adj"/><s n="ord"/></l><r>novantunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>norantunu<s n="num"/></l>              <r>novantuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>norantunu<s n="num"/><s n="m"/></l>    <r>novantuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>noe<s n="num"/></l>                    <r>nove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>noighentos</g><s n="adj"/><s n="ord"/></l><r>novecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>noighentos<s n="adj"/><s n="ord"/></l><r>novecentesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>noighentos<s n="num"/></l>             <r>novecento<s n="num"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>Novelia<s n="np"/><s n="ant"/><s n="f"/></l><r>Novelia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Novella<s n="np"/><s n="ant"/><s n="f"/></l><r>Novella<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -14586,24 +14594,24 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Otzana<s n="np"/><s n="top"/><s n="f"/></l><r>Ottana<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>otanta<s n="num"/></l>                 <r>ottanta<s n="num"/></r></p></e>
 <e>       <p><l>otantaghimbe<s n="num"/></l>           <r>ottantacinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantaghimbe</g><s n="adj"/><s n="ord"/></l><r>ottantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otantaghimbe<s n="adj"/><s n="ord"/></l><r>ottantacinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantaduos<s n="num"/></l>             <r>ottantadue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>otantaduos</g><s n="adj"/><s n="ord"/></l><r>ottantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otantaduos<s n="adj"/><s n="ord"/></l><r>ottantaduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantanoe<s n="num"/></l>              <r>ottantanove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantanoe</g><s n="adj"/><s n="ord"/></l><r>ottantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantabator</g><s n="adj"/><s n="ord"/></l><r>ottantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otantanoe<s n="adj"/><s n="ord"/></l><r>ottantanovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>otantabator<s n="adj"/><s n="ord"/></l><r>ottantaquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantabator<s n="num"/></l>            <r>ottantaquattro<s n="num"/></r></p></e>
 <e>       <p><l>otantasès<s n="num"/></l>              <r>ottantasei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantasès</g><s n="adj"/><s n="ord"/></l><r>ottantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otantasès<s n="adj"/><s n="ord"/></l><r>ottantaseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantasete<s n="num"/></l>             <r>ottantasette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantasete</g><s n="adj"/><s n="ord"/></l><r>ottantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantatrès</g><s n="adj"/><s n="ord"/></l><r>ottantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otantasete<s n="adj"/><s n="ord"/></l><r>ottantasettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>otantatrès<s n="adj"/><s n="ord"/></l><r>ottantatreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantatrès<s n="num"/></l>             <r>ottantatré<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otanta</g><s n="adj"/><s n="ord"/></l><r>ottantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otanta<s n="adj"/><s n="ord"/></l><r>ottantesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantina<s n="n"/><s n="f"/></l>       <r>ottantina<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantoto</g><s n="adj"/><s n="ord"/></l><r>ottantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otantoto<s n="adj"/><s n="ord"/></l><r>ottantottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantoto<s n="num"/></l>               <r>ottantotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>otantunu</g><s n="adj"/><s n="ord"/></l><r>ottantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>otantunu<s n="adj"/><s n="ord"/></l><r>ottantunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>otantunu<s n="num"/></l>               <r>ottantuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>otantunu<s n="num"/><s n="m"/></l>     <r>ottantuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>Ottato<s n="np"/><s n="ant"/><s n="m"/></l><r>Ottato<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -14613,7 +14621,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Ottaviano<s n="np"/><s n="ant"/><s n="m"/></l><r>Ottaviano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Ottavina<s n="np"/><s n="ant"/><s n="f"/></l><r>Ottavina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Ottavio<s n="np"/><s n="ant"/><s n="m"/></l><r>Ottavio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>oto</g><s n="adj"/><s n="ord"/></l><r>ottavo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>oto<s n="adj"/><s n="ord"/></l><r>ottavo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>alcansare<s n="vblex"/></l>            <r>ottenere<s n="vblex"/></r></p></e>
 <e>       <p><l>otènnere<s n="vblex"/></l>             <r>ottenere<s n="vblex"/></r></p></e>
 <e>       <p><l>lograre<s n="vblex"/></l>              <r>ottenere<s n="vblex"/></r></p></e>
@@ -16618,25 +16626,25 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cantidade<s n="n"/><s n="f"/></l>      <r>quantità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>baranta<s n="num"/></l>                <r>quaranta<s n="num"/></r></p></e>
 <e>       <p><l>barantaghimbe<s n="num"/></l>          <r>quarantacinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantaghimbe</g><s n="adj"/><s n="ord"/></l><r>quarantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>barantaghimbe<s n="adj"/><s n="ord"/></l><r>quarantacinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantaduos<s n="num"/></l>            <r>quarantadue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>barantaduos</g><s n="adj"/><s n="ord"/></l><r>quarantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>barantaduos<s n="adj"/><s n="ord"/></l><r>quarantaduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantanoe<s n="num"/></l>             <r>quarantanove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantanoe</g><s n="adj"/><s n="ord"/></l><r>quarantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantabator</g><s n="adj"/><s n="ord"/></l><r>quarantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>barantanoe<s n="adj"/><s n="ord"/></l><r>quarantanovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>barantabator<s n="adj"/><s n="ord"/></l><r>quarantaquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantabator<s n="num"/></l>           <r>quarantaquattro<s n="num"/></r></p></e>
 <e>       <p><l>barantasès<s n="num"/></l>             <r>quarantasei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantasès</g><s n="adj"/><s n="ord"/></l><r>quarantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>barantasès<s n="adj"/><s n="ord"/></l><r>quarantaseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantasete<s n="num"/></l>            <r>quarantasette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantasete</g><s n="adj"/><s n="ord"/></l><r>quarantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantatrès</g><s n="adj"/><s n="ord"/></l><r>quarantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>barantasete<s n="adj"/><s n="ord"/></l><r>quarantasettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>barantatrès<s n="adj"/><s n="ord"/></l><r>quarantatreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantatrès<s n="num"/></l>            <r>quarantatré<s n="num"/></r></p></e>
 <e>       <p><l>barantinu<s n="adj"/></l>              <r>quarantesimo<s n="adj"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>baranta</g><s n="adj"/><s n="ord"/></l><r>quarantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>baranta<s n="adj"/><s n="ord"/></l><r>quarantesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantina<s n="n"/><s n="f"/></l>      <r>quarantina<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantoto</g><s n="adj"/><s n="ord"/></l><r>quarantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>barantoto<s n="adj"/><s n="ord"/></l><r>quarantottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantoto<s n="num"/></l>              <r>quarantotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>barantunu</g><s n="adj"/><s n="ord"/></l><r>quarantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>barantunu<s n="adj"/><s n="ord"/></l><r>quarantunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>barantunu<s n="num"/></l>              <r>quarantuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>barantunu<s n="num"/><s n="m"/></l>    <r>quarantuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>Quarta<s n="np"/><s n="ant"/><s n="f"/></l><r>Quarta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -16645,18 +16653,18 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Quartiero<s n="np"/><s n="ant"/><s n="m"/></l><r>Quartiero<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quartilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Quartilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quarto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quarto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e r="LR" c="!LSC"><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bator</g><s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p></e>
+<e r="LR" c="!LSC"><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>bator<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>Cuartu<b/>Sant'Aleni<s n="np"/><s n="top"/><s n="m"/></l><r>Quartu<b/>Sant'Elena<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Cuartuciu<s n="np"/><s n="top"/><s n="m"/></l><r>Quartucciu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>belle<s n="adv"/></l>                  <r>quasi<s n="adv"/></r></p></e>
 <e>       <p><l>casi<s n="adv"/></l>                   <r>quasi<s n="adv"/></r></p></e>
 <e>       <p><l>belle<s n="preadv"/></l>               <r>quasi<s n="preadv"/></r></p></e>
 <e>       <p><l>agiomai<s n="adv"/></l>                <r>quasi<s n="adv"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>batòrdighi</g><s n="adj"/><s n="ord"/></l><r>quattordicesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>batòrdighi<s n="adj"/><s n="ord"/></l><r>quattordicesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>batòrdighi<s n="num"/></l>             <r>quattordici<s n="num"/></r></p></e>
 <e>       <p><l>bator<s n="num"/></l>                  <r>quattro<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>batorghentos</g><s n="adj"/><s n="ord"/></l><r>quattrocentesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>batorghentos<s n="adj"/><s n="ord"/></l><r>quattrocentesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>batorghentos<s n="num"/></l>           <r>quattrocento<s n="num"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>Quebec<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Quebec<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Queen<s n="np"/><s n="al"/><s n="m"/></l><r>Queen<s n="np"/><s n="al"/><s n="m"/></r></p></e>
@@ -16690,7 +16698,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>pasu<s n="n"/><s n="m"/></l>           <r>quiete<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>duncas<s n="adv"/></l>                 <r>quindi<s n="adv"/></r></p></e>
 <e>       <p><l>tando<s n="adv"/></l>                  <r>quindi<s n="adv"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bìndighi</g><s n="adj"/><s n="ord"/></l><r>quindicesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bìndighi<s n="adj"/><s n="ord"/></l><r>quindicesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>bìndighi<s n="num"/></l>               <r>quindici<s n="num"/></r></p></e>
 <e>       <p><l>Quinta<s n="np"/><s n="ant"/><s n="f"/></l><r>Quinta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quintalina<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintalina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -16700,7 +16708,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Quintilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintilla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quintina<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quinto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>chimbe</g><s n="adj"/><s n="ord"/></l><r>quinto<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>chimbe<s n="adj"/><s n="ord"/></l><r>quinto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>Quinziano<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinziano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quinzio<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinzio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quirica<s n="np"/><s n="ant"/><s n="f"/></l><r>Quirica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -18492,7 +18500,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>segundu<s n="cnjadv"/></l>             <r>secondo<s n="cnjadv"/></r></p></e>
 <e>       <p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>segundu<s n="adj"/><s n="ord"/></l>    <r>secondo<s n="adj"/><s n="ord"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>su<g><b/>de<b/>duos</g><s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>de<b/>duos<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>secretzione<s n="n"/><s n="f"/></l>    <r>secrezione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>àpiu<s n="n"/><s n="m"/></l>           <r>sedano<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sedare<s n="vblex"/></l>               <r>sedare<s n="vblex"/></r></p></e>
@@ -18507,7 +18515,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>sèere<s n="vblex"/></l>                <r>sedere<s n="vblex"/></r></p></e>
 <e>       <p><l>cadira<s n="n"/><s n="f"/></l>         <r>sedia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cadrea<s n="n"/><s n="f"/></l>         <r>sedia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sèighi</g><s n="adj"/><s n="ord"/></l><r>sedicesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sèighi<s n="adj"/><s n="ord"/></l><r>sedicesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sèighi<s n="num"/></l>                 <r>sedici<s n="num"/></r></p></e>
 <e>       <p><l>sedile<s n="n"/><s n="m"/></l>         <r>sedile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sedimentatzione<s n="n"/><s n="f"/></l><r>sedimentazione<s n="n"/><s n="f"/></r></p></e>
@@ -18737,24 +18745,24 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tzeracu<s n="n"/></l>                  <r>servo<s n="n"/></r></p></e>
 <e>       <p><l>sessanta<s n="num"/></l>               <r>sessanta<s n="num"/></r></p></e>
 <e>       <p><l>sessantaghimbe<s n="num"/></l>         <r>sessantacinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantaghimbe</g><s n="adj"/><s n="ord"/></l><r>sessantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessantaghimbe<s n="adj"/><s n="ord"/></l><r>sessantacinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantaduos<s n="num"/></l>           <r>sessantadue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>sessantaduos</g><s n="adj"/><s n="ord"/></l><r>sessantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessantaduos<s n="adj"/><s n="ord"/></l><r>sessantaduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantanoe<s n="num"/></l>            <r>sessantanove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantanoe</g><s n="adj"/><s n="ord"/></l><r>sessantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantabator</g><s n="adj"/><s n="ord"/></l><r>sessantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessantanoe<s n="adj"/><s n="ord"/></l><r>sessantanovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>sessantabator<s n="adj"/><s n="ord"/></l><r>sessantaquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantabator<s n="num"/></l>          <r>sessantaquattro<s n="num"/></r></p></e>
 <e>       <p><l>sessantasès<s n="num"/></l>            <r>sessantasei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantasès</g><s n="adj"/><s n="ord"/></l><r>sessantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessantasès<s n="adj"/><s n="ord"/></l><r>sessantaseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantasete<s n="num"/></l>           <r>sessantasette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantasete</g><s n="adj"/><s n="ord"/></l><r>sessantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantatrès</g><s n="adj"/><s n="ord"/></l><r>sessantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessantasete<s n="adj"/><s n="ord"/></l><r>sessantasettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>sessantatrès<s n="adj"/><s n="ord"/></l><r>sessantatreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantatrès<s n="num"/></l>           <r>sessantatré<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessanta</g><s n="adj"/><s n="ord"/></l><r>sessantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessanta<s n="adj"/><s n="ord"/></l><r>sessantesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantina<s n="n"/><s n="f"/></l>     <r>sessantina<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantoto</g><s n="adj"/><s n="ord"/></l><r>sessantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessantoto<s n="adj"/><s n="ord"/></l><r>sessantottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantoto<s n="num"/></l>             <r>sessantotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sessantunu</g><s n="adj"/><s n="ord"/></l><r>sessantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sessantunu<s n="adj"/><s n="ord"/></l><r>sessantunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sessantunu<s n="num"/></l>             <r>sessantuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>sessantunu<s n="num"/><s n="m"/></l>   <r>sessantuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>sessione<s n="n"/><s n="f"/></l>       <r>sessione<s n="n"/><s n="f"/></r></p></e>
@@ -18766,7 +18774,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Sestilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Sestilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Sestina<s n="np"/><s n="ant"/><s n="f"/></l><r>Sestina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Sesto<s n="np"/><s n="ant"/><s n="m"/></l><r>Sesto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>ses</g><s n="adj"/><s n="ord"/></l><r>sesto<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>ses<s n="adj"/><s n="ord"/></l><r>sesto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sestu<s n="n"/></l>                    <r>sesto<s n="n"/></r></p></e>
 <e>       <p><l>Sestu<s n="np"/><s n="top"/><s n="m"/></l><r>Sestu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>seda<s n="n"/><s n="f"/></l>           <r>seta<s n="n"/><s n="f"/></r></p></e>
@@ -18775,24 +18783,24 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>sidis<s n="n"/><s n="f"/></l>          <r>sete<s n="n"/><s n="f"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>setanta<s n="num"/></l>                <r>settanta<s n="num"/></r></p></e>
 <e>       <p><l>setantaghimbe<s n="num"/></l>          <r>settantacinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantaghimbe</g><s n="adj"/><s n="ord"/></l><r>settantacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setantaghimbe<s n="adj"/><s n="ord"/></l><r>settantacinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantaduos<s n="num"/></l>            <r>settantadue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>setantaduos</g><s n="adj"/><s n="ord"/></l><r>settantaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setantaduos<s n="adj"/><s n="ord"/></l><r>settantaduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantanoe<s n="num"/></l>             <r>settantanove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantanoe</g><s n="adj"/><s n="ord"/></l><r>settantanovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantabator</g><s n="adj"/><s n="ord"/></l><r>settantaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setantanoe<s n="adj"/><s n="ord"/></l><r>settantanovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>setantabator<s n="adj"/><s n="ord"/></l><r>settantaquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantabator<s n="num"/></l>           <r>settantaquattro<s n="num"/></r></p></e>
 <e>       <p><l>setantasès<s n="num"/></l>             <r>settantasei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantasès</g><s n="adj"/><s n="ord"/></l><r>settantaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setantasès<s n="adj"/><s n="ord"/></l><r>settantaseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantasete<s n="num"/></l>            <r>settantasette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantasete</g><s n="adj"/><s n="ord"/></l><r>settantasettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantatrès</g><s n="adj"/><s n="ord"/></l><r>settantatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setantasete<s n="adj"/><s n="ord"/></l><r>settantasettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>setantatrès<s n="adj"/><s n="ord"/></l><r>settantatreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantatrès<s n="num"/></l>            <r>settantatré<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setanta</g><s n="adj"/><s n="ord"/></l><r>settantesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setanta<s n="adj"/><s n="ord"/></l><r>settantesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantina<s n="n"/><s n="f"/></l>      <r>settantina<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantoto</g><s n="adj"/><s n="ord"/></l><r>settantottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setantoto<s n="adj"/><s n="ord"/></l><r>settantottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantoto<s n="num"/></l>              <r>settantotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>setantunu</g><s n="adj"/><s n="ord"/></l><r>settantunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>setantunu<s n="adj"/><s n="ord"/></l><r>settantunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setantunu<s n="num"/></l>              <r>settantuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>setantunu<s n="num"/><s n="m"/></l>    <r>settantuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>sete<s n="num"/></l>                   <r>sette<s n="num"/></r></p></e>
@@ -18809,7 +18817,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Settimio<s n="np"/><s n="ant"/><s n="m"/></l><r>Settimio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Sètimu<s n="np"/><s n="top"/><s n="m"/></l><r>Settimo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Settimo<s n="np"/><s n="ant"/><s n="m"/></l><r>Settimo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>sete</g><s n="adj"/><s n="ord"/></l><r>settimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>sete<s n="adj"/><s n="ord"/></l><r>settimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setore<s n="n"/><s n="m"/></l>         <r>settore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>setoriale<s n="adj"/><s n="mf"/></l>   <r>settoriale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>Setzu<s n="np"/><s n="top"/><s n="m"/></l><r>Setzu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -20478,8 +20486,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Terzina<s n="np"/><s n="ant"/><s n="f"/></l><r>Terzina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>tertzinu<s n="n"/><s n="m"/></l>       <r>terzino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Terzo<s n="np"/><s n="ant"/><s n="m"/></l><r>Terzo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e r="LR" c="!LSC"><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>tres</g><s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p></e>
+<e r="LR" c="!LSC"><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>tres<s n="adj"/><s n="ord"/></l> <r>terzo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>tesu<s n="adj"/></l>                   <r>teso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>tesu<s n="adj"/></l>                   <r>teso<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>tesoreria<s n="n"/><s n="f"/></l>      <r>tesoreria<s n="n"/><s n="f"/></r></p></e>
@@ -20834,9 +20842,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>argiolare<s n="vblex"/></l>            <r>trebbiare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>trebbiare<s n="vblex"/></l><r>trebbiare<s n="vblex"/></r></p></e>
 <e>       <p><l>argiola<s n="n"/><s n="f"/></l>        <r>trebbiatura<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>treghentos</g><s n="adj"/><s n="ord"/></l><r>trecentesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>treghentos<s n="adj"/><s n="ord"/></l><r>trecentesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>treghentos<s n="num"/></l>             <r>trecento<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>trèighi</g><s n="adj"/><s n="ord"/></l><r>tredicesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trèighi<s n="adj"/><s n="ord"/></l><r>tredicesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trèighi<s n="num"/></l>                <r>tredici<s n="num"/></r></p></e>
 <e>       <p><l>àchiu<s n="n"/><s n="m"/></l>          <r>tregua<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>trègua<s n="n"/><s n="f"/></l>         <r>tregua<s n="n"/><s n="f"/></r></p></e>
@@ -20849,29 +20857,29 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>trenu<s n="n"/><s n="m"/></l>          <r>treno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>trinta<s n="num"/></l>                 <r>trenta<s n="num"/></r></p></e>
 <e>       <p><l>trintaghimbe<s n="num"/></l>           <r>trentacinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintaghimbe</g><s n="adj"/><s n="ord"/></l><r>trentacinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trintaghimbe<s n="adj"/><s n="ord"/></l><r>trentacinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trintaduos<s n="num"/></l>             <r>trentadue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>trintaduos</g><s n="adj"/><s n="ord"/></l><r>trentaduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trintaduos<s n="adj"/><s n="ord"/></l><r>trentaduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trintanoe<s n="num"/></l>              <r>trentanove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintanoe</g><s n="adj"/><s n="ord"/></l><r>trentanovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintabator</g><s n="adj"/><s n="ord"/></l><r>trentaquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trintanoe<s n="adj"/><s n="ord"/></l><r>trentanovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>trintabator<s n="adj"/><s n="ord"/></l><r>trentaquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trintabator<s n="num"/></l>            <r>trentaquattro<s n="num"/></r></p></e>
 <e>       <p><l>trintasès<s n="num"/></l>              <r>trentasei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintasès</g><s n="adj"/><s n="ord"/></l><r>trentaseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trintasès<s n="adj"/><s n="ord"/></l><r>trentaseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trintasete<s n="num"/></l>             <r>trentasette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintasete</g><s n="adj"/><s n="ord"/></l><r>trentasettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintatrès</g><s n="adj"/><s n="ord"/></l><r>trentatreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trintasete<s n="adj"/><s n="ord"/></l><r>trentasettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>trintatrès<s n="adj"/><s n="ord"/></l><r>trentatreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trintatrès<s n="num"/></l>             <r>trentatré<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trinta</g><s n="adj"/><s n="ord"/></l><r>trentesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trinta<s n="adj"/><s n="ord"/></l><r>trentesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trentina<s n="n"/><s n="f"/></l>       <r>trentina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>trintina<s n="n"/><s n="f"/></l>       <r>trentina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>trentinu<s n="adj"/></l>               <r>trentino<s n="adj"/></r></p></e>
 <e r="RL"><p><l>trentinu<s n="adj"/></l>               <r>trentino<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Trentinu-Südtirol<s n="np"/><s n="top"/><s n="m"/></l><r>Trentino-Alto<b/>Adige<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Trentu<s n="np"/><s n="top"/><s n="m"/></l><r>Trento<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintoto</g><s n="adj"/><s n="ord"/></l><r>trentottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trintoto<s n="adj"/><s n="ord"/></l><r>trentottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trintoto<s n="num"/></l>               <r>trentotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>trintunu</g><s n="adj"/><s n="ord"/></l><r>trentunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>trintunu<s n="adj"/><s n="ord"/></l><r>trentunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>trintunu<s n="num"/></l>               <r>trentuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>trintunu<s n="num"/><s n="m"/></l>     <r>trentuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>Tresnuraghes<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Tresnuraghes<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
@@ -21148,7 +21156,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>unànime<s n="adj"/></l>                <r>unanime<s n="adj"/></r></p></e>
 <e r="RL"><p><l>unànime<s n="adj"/></l>                <r>unanime<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>unanimidade<s n="n"/><s n="f"/></l>    <r>unanimità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>su<g><b/>de<b/>ùndighi</g><s n="adj"/><s n="ord"/></l><r>undicesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>ùndighi<s n="adj"/><s n="ord"/></l><r>undicesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>ùndighi<s n="num"/></l>                <r>undici<s n="num"/></r></p></e>
 <e>       <p><l>Unesco<s n="n"/><s n="acr"/><s n="f"/></l><r>Unesco<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>       <p><l>ùnghere<s n="vblex"/></l>              <r>ungere<s n="vblex"/></r></p></e>
@@ -21521,29 +21529,29 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>imbeniente<s n="n"/><s n="mf"/></l>    <r>veniente<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>beniente<s n="adj"/><s n="mf"/></l>    <r>veniente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>bènnere<s n="vblex"/></l>              <r>venire<s n="vblex"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>binti</g><s n="adj"/><s n="ord"/></l><r>ventesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>binti<s n="adj"/><s n="ord"/></l><r>ventesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>binti<s n="num"/></l>                  <r>venti<s n="num"/></r></p></e>
 <e>       <p><l>bintighimbe<s n="num"/></l>            <r>venticinque<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintighimbe</g><s n="adj"/><s n="ord"/></l><r>venticinquesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bintighimbe<s n="adj"/><s n="ord"/></l><r>venticinquesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>bintiduos<s n="num"/></l>              <r>ventidue<s n="num"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>su<g><b/>de<b/>bintiduos</g><s n="adj"/><s n="ord"/></l><r>ventiduesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bintiduos<s n="adj"/><s n="ord"/></l><r>ventiduesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>ventilatzione<s n="n"/><s n="f"/></l>  <r>ventilazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bintina<s n="n"/><s n="f"/></l>        <r>ventina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bintinoe<s n="num"/></l>               <r>ventinove<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintinoe</g><s n="adj"/><s n="ord"/></l><r>ventinovesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintibator</g><s n="adj"/><s n="ord"/></l><r>ventiquattresimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bintinoe<s n="adj"/><s n="ord"/></l><r>ventinovesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>bintibator<s n="adj"/><s n="ord"/></l><r>ventiquattresimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>bintibator<s n="num"/></l>             <r>ventiquattro<s n="num"/></r></p></e>
 <e>       <p><l>bintisès<s n="num"/></l>               <r>ventisei<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintisès</g><s n="adj"/><s n="ord"/></l><r>ventiseiesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bintisès<s n="adj"/><s n="ord"/></l><r>ventiseiesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>bintisete<s n="num"/></l>              <r>ventisette<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintisete</g><s n="adj"/><s n="ord"/></l><r>ventisettesimo<s n="adj"/><s n="ord"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintitrès</g><s n="adj"/><s n="ord"/></l><r>ventitreesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bintisete<s n="adj"/><s n="ord"/></l><r>ventisettesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
+<e>       <p><l>de<b/>bintitrès<s n="adj"/><s n="ord"/></l><r>ventitreesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>bintitrès<s n="num"/></l>              <r>ventitré<s n="num"/></r></p></e>
 <e>       <p><l>bentu<s n="n"/><s n="m"/></l>          <r>vento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bentosu<s n="n"/><s n="m"/></l>        <r>ventoso<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintoto</g><s n="adj"/><s n="ord"/></l><r>ventottesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bintoto<s n="adj"/><s n="ord"/></l><r>ventottesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>bintoto<s n="num"/></l>                <r>ventotto<s n="num"/></r></p></e>
-<e>       <p><l>su<g><b/>de<b/>bintunu</g><s n="adj"/><s n="ord"/></l><r>ventunesimo<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>de<b/>bintunu<s n="adj"/><s n="ord"/></l><r>ventunesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>bintunu<s n="num"/></l>                <r>ventuno<s n="det"/><s n="def"/></r></p></e>
 <e r="RL"><p><l>bintunu<s n="num"/><s n="m"/></l>      <r>ventuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>Venturina<s n="np"/><s n="ant"/><s n="f"/></l><r>Venturina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
