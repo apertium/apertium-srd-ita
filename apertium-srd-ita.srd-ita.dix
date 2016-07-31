@@ -17351,6 +17351,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>inserire<s n="vblex"/></l>             <r>ricomprendere<s n="vblex"/></r></p></e>
 <e>       <p><l>reconnoschèntzia<s n="n"/><s n="f"/></l><r>riconoscenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>reconnòschere<s n="vblex"/></l>        <r>riconoscere<s n="vblex"/></r></p></e>
+<e>       <p><l>reconnoschìbile<s n="adj"/></l>        <r>riconoscible<s n="adj"/></r></p></e>
 <e>       <p><l>reconnoschimentu<s n="n"/><s n="m"/></l><r>riconoscimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>reconnotu<s n="adj"/></l>              <r>riconosciuto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>reconnotu<s n="adj"/></l>              <r>riconosciuto<s n="adj"/><s n="sup"/></r></p></e>
@@ -18491,7 +18492,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>segundu<s n="cnjadv"/></l>             <r>secondo<s n="cnjadv"/></r></p></e>
 <e>       <p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>segundu<s n="adj"/><s n="ord"/></l>    <r>secondo<s n="adj"/><s n="ord"/></r></p></e>
-<e c="non-preferred"><p><l>su<g><b/>de<b/>duos</g><s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>su<g><b/>de<b/>duos</g><s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p></e>
 <e>       <p><l>secretzione<s n="n"/><s n="f"/></l>    <r>secrezione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>àpiu<s n="n"/><s n="m"/></l>           <r>sedano<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sedare<s n="vblex"/></l>               <r>sedare<s n="vblex"/></r></p></e>
@@ -19345,7 +19346,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>surdu<s n="adj"/></l>                  <r>sordo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>surdu<s n="adj"/></l>                  <r>sordo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>sorre<s n="n"/><s n="f"/></l>          <r>sorella<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>nàschere<s n="vblex"/></l>             <r>sorgere<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>nàschere<s n="vblex"/></l><r>sorgere<s n="vblex"/></r></p></e>
+<e>       <p><l>bènnere<s n="vblex"/></l>              <r>sorgere<s n="vblex"/></r></p></e>
 <e>       <p><l>Sòrgunu<s n="np"/><s n="top"/><s n="m"/></l><r>Sorgono<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>sorpassu<s n="n"/><s n="m"/></l>       <r>sorpasso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ispantare<s n="vblex"/></l>            <r>sorprendere<s n="vblex"/></r></p></e>
@@ -23282,6 +23284,11 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>rock<s n="n"/><s n="m"/></l><r>rock<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>surrealìsticu<s n="adj"/></l><r>surrealistico<s n="adj"/></r></p></e>
       <e r="RL"><p><l>surrealìsticu<s n="adj"/></l><r>surrealistico<s n="adj"/><s n="sup"/></r></p></e>
+
+<e>       <p><l>mortale<s n="adj"/></l>             <r>micidiale<s n="adj"/></r></p></e>
+<e>       <p><l>tramudare<s n="vblex"/></l>             <r>dislocare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>comintzare</g><s n="vblex"/></l>             <r>riprendere<s n="vblex"/></r></p></e>
+<e>       <p><l>gai<b/>naradu<s n="adj"/></l>             <r>cosiddetto<s n="adj"/></r></p></e>
 
 
       <!-- SECCIÓN: Punctuación -->
