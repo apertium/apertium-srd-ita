@@ -2610,7 +2610,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>atzione<s n="n"/><s n="mf"/></l>       <r>azione<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>atzione<s n="n"/><s n="f"/></l>        <r>azione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fata<s n="n"/><s n="f"/></l>           <r>azione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>atzotu<s n="n"/><s n="m"/></l>         <r>azoto<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>atzotu<s n="n"/><s n="m"/></l>         <r>azoto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sannare<s n="vblex"/></l>              <r>azzannare<s n="vblex"/></r></p></e>
 <e>       <p><l>azardu<s n="n"/><s n="m"/></l>         <r>azzardu<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Azzo<s n="np"/><s n="ant"/><s n="m"/></l><r>Azzo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -3976,6 +3976,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>malintranniadu<s n="adj"/></l>         <r>cattivo<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>malu<s n="adj"/></l>                   <r>cattivo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>catòlica<s n="adv"/></l><r>cattolicamente<s n="adv"/></r></p></e>
+<e>       <p><l>catolitzèsimu<s n="n"/><s n="m"/></l>  <r>cattolicesimo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>catòlicu<s n="n"/></l>                 <r>cattolico<s n="n"/></r></p></e>
 <e>       <p><l>catòlicu<s n="adj"/></l>               <r>cattolico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>catòlicu<s n="adj"/></l>               <r>cattolico<s n="adj"/><s n="sup"/></r></p></e>
@@ -7822,7 +7823,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>esperantista<s n="adj"/></l>           <r>esperantista<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>esperantista<s n="n"/></l>             <r>esperantista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>esperantista<s n="adj"/></l>           <r>esperantista<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>esperanto<s n="n"/><s n="m"/></l>      <r>esperanto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>esperanto<s n="n"/><s n="m"/></l>      <r>esperanto<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>Esperia<s n="np"/><s n="ant"/><s n="f"/></l><r>Esperia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>esperièntzia<s n="n"/><s n="f"/></l>   <r>esperienza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>esperimentu<s n="n"/><s n="m"/></l>    <r>esperimento<s n="n"/><s n="m"/></r></p></e>
@@ -11804,7 +11805,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>lìgure<s n="adj"/></l>                 <r>ligure<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>lìgure<s n="n"/></l>                   <r>ligure<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>Ligùria<s n="np"/><s n="top"/><s n="f"/></l><r>Liguria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Liguria<s n="np"/><s n="top"/><s n="f"/></l><r>Liguria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>Liistro<s n="np"/><s n="cog"/></l>     <r>Liistro<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Liliana<s n="np"/><s n="ant"/><s n="f"/></l><r>Liliana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Liliano<s n="np"/><s n="ant"/><s n="m"/></l><r>Liliano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -12679,7 +12679,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>in<b/>manera<b/>mecànica<s n="adv"/></l><r>meccanicamente<s n="adv"/></r></p></e>
 <e>       <p><l>mecànicu<s n="adj"/></l>               <r>meccanico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>mecànicu<s n="adj"/></l>               <r>meccanico<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>mecànicu<s n="n"/></l>                 <r>meccanico<s n="n"/></r></p><par n="GD_m"/></e>
+<e>       <p><l>mecànicu<s n="n"/><s n="m"/></l>       <r>meccanico<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mecànica<s n="n"/><s n="f"/></l>       <r>meccanica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mecanismu<s n="n"/><s n="m"/></l>      <r>meccanismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>medàllia<s n="n"/><s n="f"/></l>       <r>medaglia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Medarda<s n="np"/><s n="ant"/><s n="f"/></l><r>Medarda<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -14246,7 +14247,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>omònimu<s n="adj"/></l>                <r>omonimo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>omònimu<s n="adj"/></l>                <r>omonimo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>omosessuale<s n="adj"/><s n="mf"/></l> <r>omosessuale<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>omosessuale<s n="n"/></l>              <r>omosessuale<s n="n"/></r></p></e>
+<e>       <p><l>omosessuale<s n="n"/><s n="mf"/></l>   <r>omosessuale<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>omosessualidade<s n="n"/></l>          <r>omosessualità<s n="n"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>Onanie<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Onanì<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>unda<s n="n"/><s n="f"/></l>           <r>onda<s n="n"/><s n="f"/></r></p></e>
@@ -21017,7 +21018,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>uditu<s n="n"/><s n="m"/></l>          <r>udito<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>UEFA<s n="np"/><s n="org"/><s n="f"/></l><r>UEFA<s n="np"/><s n="org"/><s n="f"/></r></p></e>
 <e>       <p><l>UFC<s n="n"/><s n="acr"/><s n="f"/></l><r>UFC<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
-<e>       <p><l>ufitziale<s n="n"/><s n="m"/></l>      <r>ufficiale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ufitziale<s n="n"/><s n="mf"/></l>     <r>ufficiale<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>ufitziale<s n="adj"/></l>              <r>ufficiale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ufitziale<s n="adj"/></l>              <r>ufficiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -23324,8 +23324,12 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>rèticu<s n="n"/><s n="m"/></l><r>retico<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>rèticu<s n="adj"/></l><r>retico<s n="adj"/><s n="sup"/></r></p></e>
       <e><p><l>pivellu<s n="n"/></l><r>pivello<s n="n"/></r></p></e>
+      <e><p><l>cumandante<s n="n"/></l><r>comandante<s n="n"/></r></p></e>
       <e><p><l>Paraguay<s n="np"/><s n="top"/><s n="m"/></l><r>Paraguay<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Uruguay<s n="np"/><s n="top"/><s n="m"/></l><r>Uruguay<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>ammiràlliu<s n="n"/></l><r>ammiraglio<s n="n"/></r></p></e>
+      <e><p><l>vitzeammiràlliu<s n="n"/></l><r>viceammiraglio<s n="n"/></r></p></e>
+      <e><p><l>contrammiràlliu<s n="n"/></l><r>contrammiraglio<s n="n"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
