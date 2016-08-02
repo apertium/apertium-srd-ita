@@ -12594,7 +12594,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>in<b/>manera<b/>massiva<s n="adv"/></l><r>massivamente<s n="adv"/></r></p></e>
 <e>       <p><l>massivu<s n="adj"/></l>                <r>massivo<s n="adj"/></r></p></e>
 <e>       <p><l>massu<s n="n"/><s n="m"/></l>          <r>masso<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>massone<s n="n"/><s n="m"/></l>        <r>massone<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>massone<s n="n"/><s n="mf"/></l>       <r>massone<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>mastinu<s n="n"/><s n="m"/></l>        <r>mastino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Masuddas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Masullas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>madassa<s n="n"/><s n="f"/></l>        <r>matassa<s n="n"/><s n="f"/></r></p></e>
@@ -23335,6 +23335,36 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tàtaru<s n="adj"/></l>                <r>tataro<s n="adj"/></r></p></e>
 <e>       <p><l>tàtaru<s n="n"/></l>                  <r>tataro<s n="n"/></r></p></e>
 <e r="RL"><p><l>tàtaru<s n="adj"/></l>                <r>tataro<s n="adj"/><s n="sup"/></r></p></e>
+
+      <e><p><l>autògrafu<s n="n"/><s n="m"/></l><r>autografo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>botànicu<s n="n"/></l><r>botanico<s n="n"/></r></p></e>
+      <e><p><l>cosmètica<s n="n"/><s n="f"/></l><r>cosmetica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cosmèticu<s n="adj"/></l><r>cosmetico<s n="adj"/></r></p></e>
+      <e><p><l>cosmèticu<s n="n"/><s n="m"/></l><r>cosmetico<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cosmologia<s n="n"/><s n="f"/></l><r>cosmologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cosmològicu<s n="adj"/></l><r>cosmologico<s n="adj"/></r></p></e>
+      <e><p><l>cosmòlogu<s n="n"/></l><r>cosmologo<s n="n"/></r></p></e>
+      <e><p><l>criminologia<s n="n"/><s n="f"/></l><r>criminologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>criminològicu<s n="adj"/></l><r>criminologico<s n="adj"/></r></p></e>
+      <e><p><l>criminòlogu<s n="n"/></l><r>criminologo<s n="n"/></r></p></e>
+      <e><p><l>entomòlogu<s n="n"/></l><r>entomologo<s n="n"/></r></p></e>
+      <e><p><l>eurozona<s n="n"/><s n="f"/></l><r>eurozona<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>fàsciu<s n="n"/><s n="m"/></l><r>fascio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>framassoneria<s n="n"/><s n="f"/></l><r>framassoneria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>framassone<s n="n"/><s n="mf"/></l><r>framassone<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>grammàtica<s n="n"/><s n="f"/></l><r>grammatica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>incògnita<s n="n"/><s n="f"/></l><r>incognita<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>iscàpitu<s n="n"/><s n="m"/></l><r>scapito<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>massoneria<s n="n"/><s n="f"/></l><r>massoneria<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>molla<s n="n"/><s n="f"/></l><r>molla<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>neurologia<s n="n"/><s n="f"/></l><r>neurologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>neuròlogu<s n="n"/></l><r>neurologo<s n="n"/></r></p></e>
+      <e><p><l>pentàgonu<s n="n"/><s n="m"/></l><r>pentagono<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>reta<s n="n"/><s n="f"/></l><r>retta<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>euro<s n="n"/><s n="m"/></l><r>euro<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e r="RL"><p><l>cosmèticu<s n="adj"/></l><r>cosmetico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>cosmològicu<s n="adj"/></l><r>cosmologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>criminològicu<s n="adj"/></l><r>criminologico<s n="adj"/><s n="sup"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
