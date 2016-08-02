@@ -16498,7 +16498,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>finas<s n="cnjadv"/></l>               <r>pur<s n="cnjadv"/></r></p></e>
 <e>       <p><l>mancari<s n="cnjadv"/></l>             <r>pur<s n="cnjadv"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>prus<b/>de<s n="cnjadv"/></l><r>pur<b/>di<s n="cnjadv"/></r></p></e>
-<e>       <p><l>bastante<b/>chi<s n="cnjsub"/></l>     <r>pur<b/>di<s n="cnjadv"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>bastante<b/>chi<s n="cnjsub"/></l>     <r>pur<b/>di<s n="cnjadv"/></r></p></e>
 <e>       <p><l>pro<s n="cnjsub"/></l>                 <r>pur<b/>di<s n="cnjadv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>pura<s n="adv"/></l>   <r>puramente<s n="adv"/></r></p></e>
 <e>       <p><l>puru<s n="adv"/></l>                   <r>pure<s n="adv"/></r></p></e>
@@ -16509,6 +16509,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>purga<s n="n"/><s n="f"/></l>          <r>purga<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>purificatzione<s n="n"/><s n="f"/></l> <r>purificazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>purista<s n="n"/></l>                  <r>purista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>purista<s n="adj"/></l>                <r>purista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>purista<s n="adj"/></l>                <r>purista<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>puritanèsimu<s n="n"/><s n="m"/></l>   <r>puritanesimo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>puritanu<s n="n"/></l>                 <r>puritano<s n="n"/></r></p></e>
 <e>       <p><l>puritanu<s n="adj"/></l>               <r>puritano<s n="adj"/></r></p></e>
@@ -16921,6 +16923,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ratzismu<s n="n"/><s n="m"/></l>       <r>razzismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ratzista<s n="n"/></l>                 <r>razzista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>ratzista<s n="adj"/></l>               <r>razzista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>ratzista<s n="adj"/></l>               <r>ratzista<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>re<s n="n"/><s n="f"/></l>             <r>re<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>re<s n="n"/><s n="m"/></l>             <r>re<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Rea<s n="np"/><s n="ant"/><s n="f"/></l><r>Rea<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -20034,6 +20037,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>superstitzione<s n="n"/><s n="f"/></l> <r>superstizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>superstitziosu<s n="adj"/></l>         <r>superstizioso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>superstitziosu<s n="adj"/></l>         <r>superstizioso<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>iscampadu<s n="adj"/></l>              <r>superstito<s n="adj"/></r></p></e>
+<e r="RL"><p><l>iscampadu<s n="adj"/></l>              <r>superstito<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Suppa<s n="np"/><s n="cog"/></l>       <r>Suppa<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>suplèntzia<s n="n"/><s n="f"/></l>     <r>supplenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>suplicare<s n="vblex"/></l>            <r>supplicare<s n="vblex"/></r></p></e>
@@ -23361,10 +23366,224 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>neuròlogu<s n="n"/></l><r>neurologo<s n="n"/></r></p></e>
       <e><p><l>pentàgonu<s n="n"/><s n="m"/></l><r>pentagono<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>reta<s n="n"/><s n="f"/></l><r>retta<s n="n"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>euro<s n="n"/><s n="m"/></l><r>euro<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e r="RL"><p><l>cosmèticu<s n="adj"/></l><r>cosmetico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>cosmològicu<s n="adj"/></l><r>cosmologico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>criminològicu<s n="adj"/></l><r>criminologico<s n="adj"/><s n="sup"/></r></p></e>
+
+      <e><p><l>anatomopatòlogu<s n="n"/></l><r>anatomopatologo<s n="n"/></r></p></e>
+      <e><p><l>andròlogu<s n="n"/></l><r>andrologo<s n="n"/></r></p></e>
+      <e><p><l>astrològicu<s n="adj"/></l><r>astrologico<s n="adj"/></r></p></e>
+      <e><p><l>astròlogu<s n="n"/></l><r>astrologo<s n="n"/></r></p></e>
+      <e><p><l>biòlogu<s n="n"/></l><r>biologo<s n="n"/></r></p></e>
+      <e><p><l>cardiòlogu<s n="n"/></l><r>cardiologo<s n="n"/></r></p></e>
+      <e><p><l>climatologia<s n="n"/><s n="f"/></l><r>climatologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>climatòlogu<s n="n"/></l><r>climatologo<s n="n"/></r></p></e>
+      <e><p><l>dermatològicu<s n="adj"/></l><r>dermatologico<s n="adj"/></r></p></e>
+      <e><p><l>dermatòlogu<s n="n"/></l><r>dermatologo<s n="n"/></r></p></e>
+      <e><p><l>diabetòlogu<s n="n"/></l><r>diabetologo<s n="n"/></r></p></e>
+      <e><p><l>dietòlogu<s n="n"/></l><r>dietologo<s n="n"/></r></p></e>
+      <e><p><l>dietrologia<s n="n"/><s n="f"/></l><r>dietrologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>dietrològicu<s n="adj"/></l><r>dietrologico<s n="adj"/></r></p></e>
+      <e><p><l>dietròlogu<s n="n"/></l><r>dietrologo<s n="n"/></r></p></e>
+      <e><p><l>ecològicu<s n="adj"/></l><r>ecologico<s n="adj"/></r></p></e>
+      <e><p><l>ecòlogu<s n="n"/></l><r>ecologo<s n="n"/></r></p></e>
+      <e><p><l>egitòlogu<s n="n"/></l><r>egittologo<s n="n"/></r></p></e>
+      <e><p><l>ematològicu<s n="adj"/></l><r>ematologico<s n="adj"/></r></p></e>
+      <e><p><l>ematòlogu<s n="n"/></l><r>ematologo<s n="n"/></r></p></e>
+      <e><p><l>enològicu<s n="adj"/></l><r>enologico<s n="adj"/></r></p></e>
+      <e><p><l>epidemiològicu<s n="adj"/></l><r>epidemiologico<s n="adj"/></r></p></e>
+      <e><p><l>epidemiòlogu<s n="n"/></l><r>epidemiologo<s n="n"/></r></p></e>
+      <e><p><l>epistemologia<s n="n"/><s n="f"/></l><r>epistemologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>epistemòlogu<s n="n"/></l><r>epistemologo<s n="n"/></r></p></e>
+      <e><p><l>etnòlogu<s n="n"/></l><r>etnologo<s n="n"/></r></p></e>
+      <e><p><l>etòlogu<s n="n"/></l><r>etologo<s n="n"/></r></p></e>
+      <e><p><l>farmacologia<s n="n"/><s n="f"/></l><r>farmacologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>farmacològicu<s n="adj"/></l><r>farmacologico<s n="adj"/></r></p></e>
+      <e><p><l>farmacòlogu<s n="n"/></l><r>farmacologo<s n="n"/></r></p></e>
+      <e><p><l>filològicu<s n="adj"/></l><r>filologico<s n="adj"/></r></p></e>
+      <e><p><l>fisiòlogu<s n="n"/></l><r>fisiologo<s n="n"/></r></p></e>
+      <e><p><l>futuròlogu<s n="n"/></l><r>futurologo<s n="n"/></r></p></e>
+      <e><p><l>gastroenteròlogu<s n="n"/></l><r>gastroenterologo<s n="n"/></r></p></e>
+      <e><p><l>gerontòlogu<s n="n"/></l><r>gerontologo<s n="n"/></r></p></e>
+      <e><p><l>ginecologia<s n="n"/><s n="f"/></l><r>ginecologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ginecològicu<s n="adj"/></l><r>ginecologico<s n="adj"/></r></p></e>
+      <e><p><l>ideòlogu<s n="n"/></l><r>ideologo<s n="n"/></r></p></e>
+      <e><p><l>immunologia<s n="n"/><s n="f"/></l><r>immunologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>immunològicu<s n="adj"/></l><r>immunologico<s n="adj"/></r></p></e>
+      <e><p><l>immunòlogu<s n="n"/></l><r>immunologo<s n="n"/></r></p></e>
+      <e><p><l>ispeleològicu<s n="adj"/></l><r>speleologico<s n="adj"/></r></p></e>
+      <e><p><l>mafiòlogu<s n="n"/></l><r>mafiologo<s n="n"/></r></p></e>
+      <e><p><l>massmediòlogu<s n="n"/></l><r>massmediologo<s n="n"/></r></p></e>
+      <e><p><l>meteoròlogu<s n="n"/></l><r>meteorologo<s n="n"/></r></p></e>
+      <e><p><l>metereòlogu<s n="n"/></l><r>metereologo<s n="n"/></r></p></e>
+      <e><p><l>microbiòlogu<s n="n"/></l><r>microbiologo<s n="n"/></r></p></e>
+      <e><p><l>musicòlogu<s n="n"/></l><r>musicologo<s n="n"/></r></p></e>
+      <e><p><l>neonatòlogu<s n="n"/></l><r>neonatologo<s n="n"/></r></p></e>
+      <e><p><l>neurobiòlogu<s n="n"/></l><r>neurobiologo<s n="n"/></r></p></e>
+      <e><p><l>neurofisiòlogu<s n="n"/></l><r>neurofisiologo<s n="n"/></r></p></e>
+      <e><p><l>omologia<s n="n"/><s n="f"/></l><r>omologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>omòlogu<s n="n"/></l><r>omologo<s n="n"/></r></p></e>
+      <e><p><l>oncologia<s n="n"/><s n="f"/></l><r>oncologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>oncològicu<s n="adj"/></l><r>oncologico<s n="adj"/></r></p></e>
+      <e><p><l>oncòlogu<s n="n"/></l><r>oncologo<s n="n"/></r></p></e>
+      <e><p><l>ornitòlogu<s n="n"/></l><r>ornitologo<s n="n"/></r></p></e>
+      <e><p><l>paleoantropòlogu<s n="n"/></l><r>paleoantropologo<s n="n"/></r></p></e>
+      <e><p><l>paleontòlogu<s n="n"/></l><r>paleontologo<s n="n"/></r></p></e>
+      <e><p><l>patòlogu<s n="n"/></l><r>patologo<s n="n"/></r></p></e>
+      <e><p><l>planetòlogu<s n="n"/></l><r>planetologo<s n="n"/></r></p></e>
+      <e><p><l>podòlogu<s n="n"/></l><r>podologo<s n="n"/></r></p></e>
+      <e><p><l>politologia<s n="n"/><s n="f"/></l><r>politologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>radiològicu<s n="adj"/></l><r>radiologico<s n="adj"/></r></p></e>
+      <e><p><l>radiòlogu<s n="n"/></l><r>radiologo<s n="n"/></r></p></e>
+      <e><p><l>semiologia<s n="n"/><s n="f"/></l><r>semiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>semiòlogu<s n="n"/></l><r>semiologo<s n="n"/></r></p></e>
+      <e><p><l>sessuòlogu<s n="n"/></l><r>sessuologo<s n="n"/></r></p></e>
+      <e><p><l>sinòlogu<s n="n"/></l><r>sinologo<s n="n"/></r></p></e>
+      <e><p><l>sismòlogu<s n="n"/></l><r>sismologo<s n="n"/></r></p></e>
+      <e><p><l>sotziobiòlogu<s n="n"/></l><r>sociobiologo<s n="n"/></r></p></e>
+      <e><p><l>sovietòlogu<s n="n"/></l><r>sovietologo<s n="n"/></r></p></e>
+      <e><p><l>tecnòlogu<s n="n"/></l><r>tecnologo<s n="n"/></r></p></e>
+      <e><p><l>teòlogu<s n="n"/></l><r>teologo<s n="n"/></r></p></e>
+      <e><p><l>tossicològicu<s n="adj"/></l><r>tossicologico<s n="adj"/></r></p></e>
+      <e><p><l>tossicòlogu<s n="n"/></l><r>tossicologo<s n="n"/></r></p></e>
+      <e><p><l>turcòlogu<s n="n"/></l><r>turcologo<s n="n"/></r></p></e>
+      <e><p><l>urològicu<s n="adj"/></l><r>urologico<s n="adj"/></r></p></e>
+      <e><p><l>uròlogu<s n="n"/></l><r>urologo<s n="n"/></r></p></e>
+      <e><p><l>viròlogu<s n="n"/></l><r>virologo<s n="n"/></r></p></e>
+      <e><p><l>vulcanòlogu<s n="n"/></l><r>vulcanologo<s n="n"/></r></p></e>
+      <e><p><l>zoologia<s n="n"/><s n="f"/></l><r>zoologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>zoòlogu<s n="n"/></l><r>zoologo<s n="n"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>iscampadu<s n="adj"/></l><r>scampato<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>astrològicu<s n="adj"/></l><r>astrologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>dermatològicu<s n="adj"/></l><r>dermatologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>dietrològicu<s n="adj"/></l><r>dietrologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>ecològicu<s n="adj"/></l><r>ecologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>ematològicu<s n="adj"/></l><r>ematologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>enològicu<s n="adj"/></l><r>enologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>epidemiològicu<s n="adj"/></l><r>epidemiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>farmacològicu<s n="adj"/></l><r>farmacologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>filològicu<s n="adj"/></l><r>filologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>ginecològicu<s n="adj"/></l><r>ginecologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>immunològicu<s n="adj"/></l><r>immunologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>iscampadu<s n="adj"/></l><r>scampato<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>ispeleològicu<s n="adj"/></l><r>speleologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>oncològicu<s n="adj"/></l><r>oncologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>radiològicu<s n="adj"/></l><r>radiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>tossicològicu<s n="adj"/></l><r>tossicologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>urològicu<s n="adj"/></l><r>urologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>anatomopatologia<s n="n"/><s n="f"/></l><r>anatomopatologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>anatomopatològicu<s n="adj"/></l><r>anatomopatologico<s n="adj"/></r></p></e>
+      <e><p><l>andrologia<s n="n"/><s n="f"/></l><r>andrologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>andrològicu<s n="adj"/></l><r>andrologico<s n="adj"/></r></p></e>
+      <e><p><l>cardiologia<s n="n"/><s n="f"/></l><r>cardiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cardiològicu<s n="adj"/></l><r>cardiologico<s n="adj"/></r></p></e>
+      <e><p><l>dermatologia<s n="n"/><s n="f"/></l><r>dermatologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>diabetologia<s n="n"/><s n="f"/></l><r>diabetologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>diabetològicu<s n="adj"/></l><r>diabetologico<s n="adj"/></r></p></e>
+      <e><p><l>dietologia<s n="n"/><s n="f"/></l><r>dietologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>dietològicu<s n="adj"/></l><r>dietologico<s n="adj"/></r></p></e>
+      <e><p><l>egitologia<s n="n"/><s n="f"/></l><r>egittologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>egitològicu<s n="adj"/></l><r>egittologico<s n="adj"/></r></p></e>
+      <e><p><l>ematologia<s n="n"/><s n="f"/></l><r>ematologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>enologia<s n="n"/><s n="f"/></l><r>enologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>entomologia<s n="n"/><s n="f"/></l><r>entomologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>entomològicu<s n="adj"/></l><r>entomologico<s n="adj"/></r></p></e>
+      <e><p><l>epidemiologia<s n="n"/><s n="f"/></l><r>epidemiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>epistemològicu<s n="adj"/></l><r>epistemologico<s n="adj"/></r></p></e>
+      <e><p><l>etnologia<s n="n"/><s n="f"/></l><r>etnologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>etologia<s n="n"/><s n="f"/></l><r>etologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>etològicu<s n="adj"/></l><r>etologico<s n="adj"/></r></p></e>
+      <e><p><l>futurologia<s n="n"/><s n="f"/></l><r>futurologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>futurològicu<s n="adj"/></l><r>futurologico<s n="adj"/></r></p></e>
+      <e><p><l>gastroenterologia<s n="n"/><s n="f"/></l><r>gastroenterologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>gastroenterològicu<s n="adj"/></l><r>gastroenterologico<s n="adj"/></r></p></e>
+      <e><p><l>gerontologia<s n="n"/><s n="f"/></l><r>gerontologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>gerontològicu<s n="adj"/></l><r>gerontologico<s n="adj"/></r></p></e>
+      <e><p><l>ispeleologia<s n="n"/><s n="f"/></l><r>speleologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mafiologia<s n="n"/><s n="f"/></l><r>mafiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>mafiològicu<s n="adj"/></l><r>mafiologico<s n="adj"/></r></p></e>
+      <e><p><l>massmediologia<s n="n"/><s n="f"/></l><r>massmediologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>massmediològicu<s n="adj"/></l><r>massmediologico<s n="adj"/></r></p></e>
+      <e><p><l>metereologia<s n="n"/><s n="f"/></l><r>metereologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>metereològicu<s n="adj"/></l><r>metereologico<s n="adj"/></r></p></e>
+      <e><p><l>microbiologia<s n="n"/><s n="f"/></l><r>microbiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>microbiològicu<s n="adj"/></l><r>microbiologico<s n="adj"/></r></p></e>
+      <e><p><l>musicologia<s n="n"/><s n="f"/></l><r>musicologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>musicològicu<s n="adj"/></l><r>musicologico<s n="adj"/></r></p></e>
+      <e><p><l>neonatologia<s n="n"/><s n="f"/></l><r>neonatologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>neonatològicu<s n="adj"/></l><r>neonatologico<s n="adj"/></r></p></e>
+      <e><p><l>neurobiologia<s n="n"/><s n="f"/></l><r>neurobiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>neurobiològicu<s n="adj"/></l><r>neurobiologico<s n="adj"/></r></p></e>
+      <e><p><l>neurofisiologia<s n="n"/><s n="f"/></l><r>neurofisiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>neurofisiològicu<s n="adj"/></l><r>neurofisiologico<s n="adj"/></r></p></e>
+      <e><p><l>omològicu<s n="adj"/></l><r>omologico<s n="adj"/></r></p></e>
+      <e><p><l>ornitologia<s n="n"/><s n="f"/></l><r>ornitologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ornitològicu<s n="adj"/></l><r>ornitologico<s n="adj"/></r></p></e>
+      <e><p><l>paleoantropologia<s n="n"/><s n="f"/></l><r>paleoantropologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>paleoantropològicu<s n="adj"/></l><r>paleoantropologico<s n="adj"/></r></p></e>
+      <e><p><l>paleontologia<s n="n"/><s n="f"/></l><r>paleontologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>paleontològicu<s n="adj"/></l><r>paleontologico<s n="adj"/></r></p></e>
+      <e><p><l>planetologia<s n="n"/><s n="f"/></l><r>planetologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>planetològicu<s n="adj"/></l><r>planetologico<s n="adj"/></r></p></e>
+      <e><p><l>podologia<s n="n"/><s n="f"/></l><r>podologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>podològicu<s n="adj"/></l><r>podologico<s n="adj"/></r></p></e>
+      <e><p><l>politològicu<s n="adj"/></l><r>politologico<s n="adj"/></r></p></e>
+      <e><p><l>radiologia<s n="n"/><s n="f"/></l><r>radiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>semiològicu<s n="adj"/></l><r>semiologico<s n="adj"/></r></p></e>
+      <e><p><l>sessuologia<s n="n"/><s n="f"/></l><r>sessuologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sessuològicu<s n="adj"/></l><r>sessuologico<s n="adj"/></r></p></e>
+      <e><p><l>sinologia<s n="n"/><s n="f"/></l><r>sinologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sinològicu<s n="adj"/></l><r>sinologico<s n="adj"/></r></p></e>
+      <e><p><l>sismologia<s n="n"/><s n="f"/></l><r>sismologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sismològicu<s n="adj"/></l><r>sismologico<s n="adj"/></r></p></e>
+      <e><p><l>sotziobiologia<s n="n"/><s n="f"/></l><r>sociobiologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sotziobiològicu<s n="adj"/></l><r>sociobiologico<s n="adj"/></r></p></e>
+      <e><p><l>sovietologia<s n="n"/><s n="f"/></l><r>sovietologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>sovietològicu<s n="adj"/></l><r>sovietologico<s n="adj"/></r></p></e>
+      <e><p><l>tossicologia<s n="n"/><s n="f"/></l><r>tossicologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>turcologia<s n="n"/><s n="f"/></l><r>turcologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>turcològicu<s n="adj"/></l><r>turcologico<s n="adj"/></r></p></e>
+      <e><p><l>urologia<s n="n"/><s n="f"/></l><r>urologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>virologia<s n="n"/><s n="f"/></l><r>virologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>virològicu<s n="adj"/></l><r>virologico<s n="adj"/></r></p></e>
+      <e><p><l>vulcanologia<s n="n"/><s n="f"/></l><r>vulcanologia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>vulcanològicu<s n="adj"/></l><r>vulcanologico<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anatomopatològicu<s n="adj"/></l><r>anatomopatologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>andrològicu<s n="adj"/></l><r>andrologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>cardiològicu<s n="adj"/></l><r>cardiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>diabetològicu<s n="adj"/></l><r>diabetologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>dietològicu<s n="adj"/></l><r>dietologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>egitològicu<s n="adj"/></l><r>egittologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>entomològicu<s n="adj"/></l><r>entomologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>epistemològicu<s n="adj"/></l><r>epistemologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>etològicu<s n="adj"/></l><r>etologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>futurològicu<s n="adj"/></l><r>futurologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>gastroenterològicu<s n="adj"/></l><r>gastroenterologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>gerontològicu<s n="adj"/></l><r>gerontologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>mafiològicu<s n="adj"/></l><r>mafiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>massmediològicu<s n="adj"/></l><r>massmediologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>metereològicu<s n="adj"/></l><r>metereologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>microbiològicu<s n="adj"/></l><r>microbiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>musicològicu<s n="adj"/></l><r>musicologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>neonatològicu<s n="adj"/></l><r>neonatologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>neurobiològicu<s n="adj"/></l><r>neurobiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>neurofisiològicu<s n="adj"/></l><r>neurofisiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>omològicu<s n="adj"/></l><r>omologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>ornitològicu<s n="adj"/></l><r>ornitologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>paleoantropològicu<s n="adj"/></l><r>paleoantropologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>paleontològicu<s n="adj"/></l><r>paleontologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>planetològicu<s n="adj"/></l><r>planetologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>podològicu<s n="adj"/></l><r>podologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>politològicu<s n="adj"/></l><r>politologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>semiològicu<s n="adj"/></l><r>semiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>sessuològicu<s n="adj"/></l><r>sessuologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>sinològicu<s n="adj"/></l><r>sinologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>sismològicu<s n="adj"/></l><r>sismologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>sotziobiològicu<s n="adj"/></l><r>sociobiologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>sovietològicu<s n="adj"/></l><r>sovietologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>turcològicu<s n="adj"/></l><r>turcologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>virològicu<s n="adj"/></l><r>virologico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>vulcanològicu<s n="adj"/></l><r>vulcanologico<s n="adj"/><s n="sup"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
