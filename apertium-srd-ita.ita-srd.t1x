@@ -2888,7 +2888,68 @@
     </rule>
 
 
-    <rule comment="regla: adjord nom: terza casa > de tres domos">
+    <rule comment="regla: adjord: terza > de tres, Terza > Su de tres">
+       <pattern>
+         <pattern-item n="adjord"/>
+       </pattern>
+       <action>
+     <choose>
+       <when>
+         <test>
+	    <and>
+	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
+	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
+           <equal>
+             <case-of pos="1" side="sl" part="lemh"/>
+             <lit v="Aa"/>
+           </equal>
+	    </and>
+           </test>
+           <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
+           <!-- afegim l'article -->
+           <modify-case>
+             <clip pos="1" side="tl" part="lemh"/>
+             <lit v="aa"/>
+           </modify-case>
+         <out>
+           <chunk name="det_adjord_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+               <lit v="Su"/><lit-tag v="det"/><lit-tag v="def"/>
+               <lit-tag v="m"/>
+               <lit-tag v="sg"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="adjord">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </otherwise>
+     </choose>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjord nom: terza casa > de tres domos, Terza casa > Sa de tres domos">
        <pattern>
          <pattern-item n="adjord"/>
          <pattern-item n="nom"/>
@@ -2905,10 +2966,14 @@
      <choose>
        <when>
          <test>
+	    <and>
+	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
+	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
            <equal>
              <case-of pos="1" side="sl" part="lemh"/>
              <lit v="Aa"/>
            </equal>
+	    </and>
            </test>
            <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
            <!-- afegim l'article -->
@@ -2957,6 +3022,106 @@
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </otherwise>
+     </choose>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjord nom adj: terza Guerra Mondiale > de tres Guerras Mondiales, Terza Guerra Mondiale > Sa de tres Guerras Mondiales">
+       <pattern>
+         <pattern-item n="adjord"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
+           <with-param pos="1"/>
+           <with-param pos="3"/>
+         </call-macro>
+     <choose>
+       <when>
+         <test>
+	    <and>
+	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
+	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
+           <equal>
+             <case-of pos="1" side="sl" part="lemh"/>
+             <lit v="Aa"/>
+           </equal>
+	    </and>
+           </test>
+           <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
+           <!-- afegim l'article -->
+           <modify-case>
+             <clip pos="1" side="tl" part="lemh"/>
+             <lit v="aa"/>
+           </modify-case>
+         <out>
+           <chunk name="det_adjord_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+               <lit v="Su"/><lit-tag v="det"/><lit-tag v="def"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <lit-tag v="sg"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="adjord_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>

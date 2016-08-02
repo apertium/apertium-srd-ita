@@ -3093,7 +3093,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>bèrtula<s n="n"/><s n="f"/></l>        <r>bisaccia<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Bisàntziu<s n="np"/><s n="top"/><s n="m"/></l><r>Bisanzio<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>bisaju<s n="n"/></l>                   <r>bisavolo<s n="n"/></r></p></e>
-<e>       <p><l>Biscaglia<s n="np"/><s n="top"/><s n="m"/></l><r>Biscaglia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Biscàglia<s n="np"/><s n="top"/><s n="f"/></l><r>Biscaglia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>Crimea<s n="np"/><s n="top"/><s n="f"/></l><r>Crimea<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>Bismarck<s n="np"/><s n="cog"/></l>    <r>Bismarck<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>bisongiare<s n="vblex"/></l>           <r>bisognare<s n="vbmod"/></r></p></e>
 <e>       <p><l>bisòngiu<s n="n"/><s n="m"/></l>       <r>bisogno<s n="n"/><s n="m"/></r></p></e>
@@ -16623,7 +16624,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>bighinadu<s n="n"/><s n="m"/></l>      <r>quartiere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Quartiero<s n="np"/><s n="ant"/><s n="m"/></l><r>Quartiero<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quartilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Quartilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Quarto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quarto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>Quarto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quarto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="LR" c="!LSC"><p><l>cuartu<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>de<b/>bator<s n="adj"/><s n="ord"/></l><r>quarto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>Cuartu<b/>Sant'Aleni<s n="np"/><s n="top"/><s n="m"/></l><r>Quartu<b/>Sant'Elena<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -16678,7 +16679,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Quintilina<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintilina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quintilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintilla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quintina<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Quinto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>Quinto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>de<b/>chimbe<s n="adj"/><s n="ord"/></l><r>quinto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>Quinziano<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinziano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quinzio<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinzio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -18469,7 +18470,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Secondiana<s n="np"/><s n="ant"/><s n="f"/></l><r>Secondiana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Secondina<s n="np"/><s n="ant"/><s n="f"/></l><r>Secondina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>segundu<s n="cnjadv"/></l>             <r>secondo<s n="cnjadv"/></r></p></e>
-<e>       <p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>segundu<s n="adj"/><s n="ord"/></l>    <r>secondo<s n="adj"/><s n="ord"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>de<b/>duos<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>secretzione<s n="n"/><s n="f"/></l>    <r>secrezione<s n="n"/><s n="f"/></r></p></e>
@@ -18744,7 +18745,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Sesta<s n="np"/><s n="ant"/><s n="f"/></l><r>Sesta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Sestilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Sestilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Sestina<s n="np"/><s n="ant"/><s n="f"/></l><r>Sestina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Sesto<s n="np"/><s n="ant"/><s n="m"/></l><r>Sesto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>Sesto<s n="np"/><s n="ant"/><s n="m"/></l><r>Sesto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>de<b/>ses<s n="adj"/><s n="ord"/></l><r>sesto<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>sestu<s n="n"/></l>                    <r>sesto<s n="n"/></r></p></e>
 <e>       <p><l>Sestu<s n="np"/><s n="top"/><s n="m"/></l><r>Sestu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
@@ -18786,8 +18787,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Settimia<s n="np"/><s n="ant"/><s n="f"/></l><r>Settimia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Settimina<s n="np"/><s n="ant"/><s n="f"/></l><r>Settimina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Settimio<s n="np"/><s n="ant"/><s n="m"/></l><r>Settimio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Sètimu<s n="np"/><s n="top"/><s n="m"/></l><r>Settimo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-<e>       <p><l>Settimo<s n="np"/><s n="ant"/><s n="m"/></l><r>Settimo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>Sètimu<s n="np"/><s n="top"/><s n="m"/></l><r>Settimo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>Settimo<s n="np"/><s n="ant"/><s n="m"/></l><r>Settimo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>de<b/>sete<s n="adj"/><s n="ord"/></l><r>settimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>setore<s n="n"/><s n="m"/></l>         <r>settore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>setoriale<s n="adj"/><s n="mf"/></l>   <r>settoriale<s n="adj"/><s n="mf"/></r></p></e>
@@ -20455,7 +20456,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Terzilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Terzilla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Terzina<s n="np"/><s n="ant"/><s n="f"/></l><r>Terzina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>tertzinu<s n="n"/><s n="m"/></l>       <r>terzino<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>Terzo<s n="np"/><s n="ant"/><s n="m"/></l><r>Terzo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>Terzo<s n="np"/><s n="ant"/><s n="m"/></l><r>Terzo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="LR" c="!LSC"><p><l>tertzu<s n="adj"/><s n="ord"/></l><r>terzo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>de<b/>tres<s n="adj"/><s n="ord"/></l> <r>terzo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>tesu<s n="adj"/></l>                   <r>teso<s n="adj"/></r></p></e>
@@ -23330,6 +23331,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>ammiràlliu<s n="n"/></l><r>ammiraglio<s n="n"/></r></p></e>
       <e><p><l>vitzeammiràlliu<s n="n"/></l><r>viceammiraglio<s n="n"/></r></p></e>
       <e><p><l>contrammiràlliu<s n="n"/></l><r>contrammiraglio<s n="n"/></r></p></e>
+
+<e>       <p><l>tàtaru<s n="adj"/></l>                <r>tataro<s n="adj"/></r></p></e>
+<e>       <p><l>tàtaru<s n="n"/></l>                  <r>tataro<s n="n"/></r></p></e>
+<e r="RL"><p><l>tàtaru<s n="adj"/></l>                <r>tataro<s n="adj"/><s n="sup"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
