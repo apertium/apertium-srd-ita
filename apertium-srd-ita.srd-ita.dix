@@ -16499,7 +16499,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>mancari<s n="cnjadv"/></l>             <r>pur<s n="cnjadv"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>prus<b/>de<s n="cnjadv"/></l><r>pur<b/>di<s n="cnjadv"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>bastante<b/>chi<s n="cnjsub"/></l>     <r>pur<b/>di<s n="cnjadv"/></r></p></e>
-<e>       <p><l>pro<s n="cnjsub"/></l>                 <r>pur<b/>di<s n="cnjadv"/></r></p></e>
+<e>       <p><l>pro<s n="cnjadv"/></l>                 <r>pur<b/>di<s n="cnjadv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>pura<s n="adv"/></l>   <r>puramente<s n="adv"/></r></p></e>
 <e>       <p><l>puru<s n="adv"/></l>                   <r>pure<s n="adv"/></r></p></e>
 <e>       <p><l>peri<s n="adv"/></l>                   <r>pure<s n="adv"/></r></p></e>
@@ -23584,6 +23584,15 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>turcològicu<s n="adj"/></l><r>turcologico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>virològicu<s n="adj"/></l><r>virologico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>vulcanològicu<s n="adj"/></l><r>vulcanologico<s n="adj"/><s n="sup"/></r></p></e>
+
+      <e><p><l>partinde<b/>dae<s n="pr"/></l><r>a<b/>partire<b/>da<s n="pr"/></r></p></e>
+      <e><p><l>cumintzande<b/>dae<s n="pr"/></l><r>a<b/>cominciare<b/>da<s n="pr"/></r></p></e>
+      <e><p><l>pro<s n="cnjadv"/></l><r>purché<s n="cnjadv"/></r></p></e>
+      <e><p><l>comente<b/>si<b/>siat<s n="cnjadv"/></l><r>comunque<s n="cnjadv"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>su<b/>pròpiu<s n="adv"/></l><r>comunque<s n="adv"/></r></p></e>
+      <e><p><l>su<b/>matessi<s n="adv"/></l><r>comunque<s n="adv"/></r></p></e>
+      <e r="LR" c="non-preferred"><p><l>pro<b/>nàrrere<s n="cnjcoo"/></l><r>cioè<s n="cnjcoo"/></r></p></e>
+      <e><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l><r>cioè<s n="cnjcoo"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
