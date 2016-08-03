@@ -8951,7 +8951,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>friulanu<s n="n"/></l>                 <r>friulano<s n="n"/></r></p></e>
 <e r="RL"><p><l>friulanu<s n="adj"/></l>               <r>friulano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Friuli<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Friuli<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
-<e>       <p><l>Friuli-Venetzia<b/>Giulia<s n="np"/><s n="top"/><s n="m"/></l><r>Friuli-Venezia<b/>Giulia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Friuli-Venètzia<b/>Giùlia<s n="np"/><s n="top"/><s n="m"/></l><r>Friuli-Venezia<b/>Giulia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>fritzione<s n="n"/><s n="f"/></l>      <r>frizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fritzante<s n="adj"/></l>              <r>frizzante<s n="adj"/></r></p></e>
 <e r="RL"><p><l>fritzante<s n="adj"/></l>              <r>frizzante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -23622,6 +23622,27 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cuntentu<s n="n"/><s n="m"/></l><r>contento<s n="n"/><s n="m"/></r></p></e>
       <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cuntestu<s n="n"/><s n="m"/></l><r>contesto<s n="n"/><s n="m"/></r></p></e>
       <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunvitu<s n="n"/><s n="m"/></l><r>convito<s n="n"/><s n="m"/></r></p></e>
+
+      <e><p><l>agregatzione<s n="n"/><s n="f"/></l><r>aggregazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>alteratzione<s n="n"/><s n="f"/></l><r>alterazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>ambientatzione<s n="n"/><s n="f"/></l><r>ambientazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>archiviatzione<s n="n"/><s n="f"/></l><r>archiviazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>atenuatzione<s n="n"/><s n="f"/></l><r>attenuazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>esortatzione<s n="n"/><s n="f"/></l><r>esortazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>evacuatzione<s n="n"/><s n="f"/></l><r>evacuazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>evaporatzione<s n="n"/><s n="f"/></l><r>evaporazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>implicatzione<s n="n"/><s n="f"/></l><r>implicazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>incriminatzione<s n="n"/><s n="f"/></l><r>incriminazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>insinuatzione<s n="n"/><s n="f"/></l><r>insinuazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>instauratzione<s n="n"/><s n="f"/></l><r>instaurazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>istruturatzione<s n="n"/><s n="f"/></l><r>strutturazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>utilitzatzione<s n="n"/><s n="f"/></l><r>utilizzazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>web<s n="n"/><s n="f"/></l><r>web<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>webcam<s n="n"/><s n="f"/></l><r>webcam<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>blog<s n="n"/><s n="f"/></l><r>blog<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>blogger<s n="n"/></l><r>blogger<s n="n"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>bloggare<s n="vblex"/></l><r>bloggare<s n="vblex"/></r></p></e>
+      <e><p><l>fan<s n="n"/></l><r>blogger<s n="n"/></r></p><par n="ND_sp"/></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
