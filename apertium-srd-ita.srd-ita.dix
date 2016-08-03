@@ -10288,7 +10288,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>imponìbile<s n="adj"/></l>             <r>imponibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>impònnere<s n="vblex"/></l>            <r>imporre<s n="vblex"/></r></p></e>
 <e>       <p><l>importante<s n="adj"/></l>             <r>importante<s n="adj"/></r></p></e>
-      <!--<e r="RL"><p><l>importadore<s n="adj"/></l><r>importatore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
 <e r="RL"><p><l>importante<s n="adj"/></l>             <r>importante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>importàntzia<s n="n"/><s n="f"/></l>   <r>importanza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>importu<s n="n"/><s n="m"/></l>        <r>importanza<s n="n"/><s n="f"/></r></p></e>
@@ -21539,6 +21538,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Vera<s n="np"/><s n="ant"/><s n="f"/></l><r>Vera<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>veramente<s n="adv"/></l>              <r>veramente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>beru<s n="adv"/></l>              <r>veramente<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>beru<s n="adv"/></l>              <r>realmente<s n="adv"/></r></p></e>
 <e>       <p><l>de<b/>a<b/>veras<s n="adv"/></l>       <r>veramente<s n="adv"/></r></p></e>
 <e>       <p><l>verbale<s n="n"/><s n="m"/></l>        <r>verbale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>verbale<s n="adj"/></l>                <r>verbale<s n="adj"/></r></p></e>
@@ -22502,6 +22502,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>cungeladore<s n="n"/><s n="m"/></l><r>congelatore<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>cuntestadore<s n="n"/></l><r>contestatore<s n="n"/></r></p></e>
       <e><p><l>cònsole<s n="n"/><s n="f"/></l><r>console<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cònsole<s n="n"/><s n="f"/></l><r>consolle<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>cònsole<s n="n"/><s n="m"/></l><r>console<s n="n"/><s n="m"/></r></p></e>
       <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>dadore<s n="n"/></l><r>datore<s n="n"/></r></p></e>
       <e><p><l>dantzadore<s n="n"/></l><r>danzatore<s n="n"/></r></p></e>
       <e><p><l>decoradore<s n="n"/></l><r>decoratore<s n="n"/></r></p></e>
@@ -23593,6 +23595,33 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>su<b/>matessi<s n="adv"/></l><r>comunque<s n="adv"/></r></p></e>
       <e r="LR" c="non-preferred"><p><l>pro<b/>nàrrere<s n="cnjcoo"/></l><r>cioè<s n="cnjcoo"/></r></p></e>
       <e><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l><r>cioè<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>lupu<s n="n"/><s n="m"/></l>        <r>lupo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>magu<s n="n"/></l>        <r>mago<s n="n"/></r></p></e>
+<e>       <p><l>cuntierrare<s n="n"/></l>        <r>disputare<s n="n"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>chertare<s n="n"/></l>        <r>disputare<s n="n"/></r></p></e>
+<e><p><l>giocare<s n="n"/></l>        <r>disputare<s n="n"/></r></p></e>
+
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumbinadu<s n="adj"/></l><r>combinato<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>cumbinadu<s n="adj"/></l><r>combinato<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>cuntatadu<s n="adj"/></l><r>contattato<s n="adj"/></r></p></e>
+      <e><p><l>tzaca<s n="n"/><s n="f"/></l><r>cacca<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzita<s n="n"/><s n="f"/></l><r>citta<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumissione<s n="n"/><s n="f"/></l><r>comissione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>cummitente<s n="n"/><s n="m"/></l><r>committente<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cundutura<s n="n"/><s n="f"/></l><r>conduttura<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzicare<s n="vblex"/></l><r>ciccare<s n="vblex"/></r></p></e>
+      <e><p><l>tzivilizare<s n="vblex"/></l><r>civilizzare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumpartire<s n="vblex"/></l><r>compartire<s n="vblex"/></r></p></e>
+      <e><p><l>cunvalidare<s n="vblex"/></l><r>convalidare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzensu<s n="n"/><s n="m"/></l><r>censo<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzimentu<s n="n"/><s n="m"/></l><r>cimento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzipu<s n="n"/><s n="m"/></l><r>cippo<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumpartimentu<s n="n"/><s n="m"/></l><r>compartimento<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumportamentu<s n="n"/><s n="m"/></l><r>comportamento<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>cunfetu<s n="n"/><s n="m"/></l><r>confetto<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cuntentu<s n="n"/><s n="m"/></l><r>contento<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cuntestu<s n="n"/><s n="m"/></l><r>contesto<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cunvitu<s n="n"/><s n="m"/></l><r>convito<s n="n"/><s n="m"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
