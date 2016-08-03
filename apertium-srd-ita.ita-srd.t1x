@@ -178,6 +178,18 @@
     <def-cat n="da">
        <cat-item lemma="da" tags="pr"/>
     </def-cat>
+    <def-cat n="per">
+       <cat-item lemma="per" tags="pr"/>
+    </def-cat>
+    <def-cat n="tutto_predet">
+       <cat-item lemma="tutto" tags="predet.*"/>
+    </def-cat>
+    <def-cat n="il_det_sg">
+       <cat-item lemma="il" tags="det.def.*.sg"/>
+    </def-cat>
+    <def-cat n="non">
+       <cat-item lemma="non" tags="adv"/>
+    </def-cat>
     <def-cat n="quello">
        <cat-item lemma="quello" tags="det.*"/>
        <cat-item lemma="quello" tags="prn.tn.*"/>
@@ -4958,6 +4970,163 @@
          </out>
        </action>
     </rule>
+
+    <rule comment="regla: per tutto il nom > totu su nom">
+       <pattern>
+         <pattern-item n="per"/>
+         <pattern-item n="tutto_predet"/>
+         <pattern-item n="il_det_sg"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <chunk name="totu_su_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: non imp > non pri">
+       <pattern>
+         <pattern-item n="non"/>
+         <pattern-item n="imper"/>
+       </pattern>
+       <action>
+	 <let><clip pos="2" side="tl" part="a_tmp"/><lit-tag v="prs"/></let>
+         <out>
+           <chunk name="non_imper">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: non imp enc > non pro pri">
+       <pattern>
+         <pattern-item n="non"/>
+         <pattern-item n="imper"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+	 <let><clip pos="2" side="tl" part="a_tmp"/><lit-tag v="prs"/></let>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="non_imper_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: non imp enc enc > non pro pro pri">
+       <pattern>
+         <pattern-item n="non"/>
+         <pattern-item n="imper"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+	 <let><clip pos="2" side="tl" part="a_tmp"/><lit-tag v="prs"/></let>
+         <call-macro n="f_li2bi">
+           <with-param pos="3"/>
+         </call-macro>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="non_imper_enc_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="tags"/>
+                 <clip pos="4" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
 
 <!-- xxxxxx -->
 

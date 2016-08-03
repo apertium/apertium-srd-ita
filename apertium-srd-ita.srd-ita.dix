@@ -925,7 +925,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Alberice<s n="np"/><s n="ant"/><s n="f"/></l><r>Alberice<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Alberico<s n="np"/><s n="ant"/><s n="m"/></l><r>Alberico<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>àrbore<s n="n"/><s n="mf"/></l>        <r>albero<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>mata<s n="n"/><s n="f"/></l>           <r>albero<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>mata<s n="n"/><s n="f"/></l>           <r>albero<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Albert<s n="np"/><s n="ant"/><s n="m"/></l><r>Albert<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Alberta<s n="np"/><s n="ant"/><s n="f"/></l><r>Alberta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Alberti<s n="np"/><s n="cog"/></l>     <r>Alberti<s n="np"/><s n="cog"/></r></p></e>
@@ -23643,6 +23643,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>blogger<s n="n"/></l><r>blogger<s n="n"/></r></p><par n="ND_sp"/></e>
       <e><p><l>bloggare<s n="vblex"/></l><r>bloggare<s n="vblex"/></r></p></e>
       <e><p><l>fan<s n="n"/></l><r>blogger<s n="n"/></r></p><par n="ND_sp"/></e>
+
+      <e><p><l>in<b/>domo<s n="adv"/></l><r>a<b/>casa<s n="adv"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
