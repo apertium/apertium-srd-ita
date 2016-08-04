@@ -23912,6 +23912,33 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>in<b/>manera<b/>visìbile<s n="adv"/></l> <r>visibilmente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>vulgare<s n="adv"/></l> <r>volgarmente<s n="adv"/></r></p></e>
 
+      <e><p><l>acrìticu<s n="adj"/></l><r>acritico<s n="adj"/></r></p></e>
+      <e><p><l>acùstica<s n="n"/><s n="f"/></l><r>acustica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>acùsticu<s n="adj"/></l><r>acustico<s n="adj"/></r></p></e>
+      <e><p><l>asessuale<s n="adj"/></l><r>asessuale<s n="adj"/></r></p></e>
+      <e><p><l>asessualidade<s n="n"/><s n="f"/></l><r>asessualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>bisessuale<s n="adj"/></l><r>bisessuale<s n="adj"/></r></p></e>
+      <e><p><l>bisessuale<s n="n"/><s n="mf"/></l><r>bisessuale<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>bisessualidade<s n="n"/><s n="f"/></l><r>bisessualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>bitzilìndricu<s n="adj"/></l><r>bicilindrico<s n="adj"/></r></p></e>
+      <e><p><l>emotzionale<s n="adj"/></l><r>emozionale<s n="adj"/></r></p></e>
+      <e><p><l>eterosessuale<s n="adj"/></l><r>eterosessuale<s n="adj"/></r></p></e>
+      <e><p><l>eterosessuale<s n="n"/><s n="mf"/></l><r>eterosessuale<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>transessuale<s n="adj"/></l><r>transessuale<s n="adj"/></r></p></e>
+      <e><p><l>transessuale<s n="n"/><s n="mf"/></l><r>transessuale<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>transessualidade<s n="n"/><s n="f"/></l><r>transessualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>tzibersessu<s n="n"/><s n="m"/></l><r>cybersesso<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Sesto<s n="np"/><s n="ant"/><s n="m"/></l><r>Sesto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Terzo<s n="np"/><s n="ant"/><s n="m"/></l><r>Terzo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>acrìticu<s n="adj"/></l><r>acritico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>acùsticu<s n="adj"/></l><r>acustico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>asessuale<s n="adj"/></l><r>asessuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>bisessuale<s n="adj"/></l><r>bisessuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>bitzilìndricu<s n="adj"/></l><r>bicilindrico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>emotzionale<s n="adj"/></l><r>emozionale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>eterosessuale<s n="adj"/></l><r>eterosessuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>transessuale<s n="adj"/></l><r>transessuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
