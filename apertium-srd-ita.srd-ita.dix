@@ -23642,9 +23642,15 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>blog<s n="n"/><s n="f"/></l><r>blog<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>blogger<s n="n"/></l><r>blogger<s n="n"/></r></p><par n="ND_sp"/></e>
       <e><p><l>bloggare<s n="vblex"/></l><r>bloggare<s n="vblex"/></r></p></e>
-      <e><p><l>fan<s n="n"/></l><r>blogger<s n="n"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>fan<s n="n"/></l><r>fan<s n="n"/></r></p><par n="ND_sp"/></e>
 
       <e><p><l>in<b/>domo<s n="adv"/></l><r>a<b/>casa<s n="adv"/></r></p></e>
+
+      <e><p><l>ratzionalista<s n="adj"/></l><r>razionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>riprodutivu<s n="adj"/></l><r>riproduttivo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>riprodutivu<s n="adj"/></l><r>riproduttivo<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>riprodutore<s n="adj"/></l><r>riproduttore<s n="adj"/></r></p></e>
+      <e><p><l>riprodutzìbile<s n="adj"/></l><r>riproducibile<s n="adj"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
