@@ -4394,17 +4394,21 @@
          <pattern-item n="ifi"/>
        </pattern>
        <action>
+         <modify-case>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit v="aa"/>
+         </modify-case>
          
          <out>
-           <chunk name="ser_pp">
+           <chunk name="àere_pp">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
                <lu>
                  <get-case-from pos="1">
-                   <lit v="èssere"/>
+                   <lit v="àere"/>
                  </get-case-from>
-                 <lit-tag v="vbser.pri"/>
+                 <lit-tag v="vbhaver.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
                </lu>
@@ -4466,6 +4470,10 @@
          <pattern-item n="cni"/>
        </pattern>
        <action>
+         <modify-case>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit v="aa"/>
+         </modify-case>
          <out>
            <chunk name="mod-inf">
              <tags>
@@ -4473,7 +4481,7 @@
              </tags>
              <lu>
                <get-case-from pos="1"><lit v="dare"/></get-case-from>
-               <lit-tag v="vblex.pri"/>
+               <lit-tag v="vblex.prs"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>

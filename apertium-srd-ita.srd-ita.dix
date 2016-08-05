@@ -4936,8 +4936,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ghia<s n="n"/><s n="f"/></l>           <r>comando<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumarca<s n="n"/><s n="f"/></l>        <r>comarca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cumbàtere<s n="vblex"/></l>            <r>combattere<s n="vblex"/></r></p></e>
-<e>       <p><l>cumbatare<s n="vblex"/></l>            <r>combattere<s n="vblex"/></r></p></e>
-<e>       <p><l>gherrare<s n="vblex"/></l>             <r>combattere<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>cumbatare<s n="vblex"/></l>            <r>combattere<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>gherrare<s n="vblex"/></l>             <r>combattere<s n="vblex"/></r></p></e>
 <e>       <p><l>cumbinare<s n="vblex"/></l>            <r>combinare<s n="vblex"/></r></p></e>
 <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumbinadu<s n="adj"/></l><r>combinato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>cumbinadu<s n="adj"/></l>              <r>combinato<s n="adj"/><s n="sup"/></r></p></e>
