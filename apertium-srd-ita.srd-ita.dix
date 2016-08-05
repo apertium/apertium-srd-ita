@@ -4618,6 +4618,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tzoncare<s n="vblex"/></l>             <r>cioncare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>pro<b/>nàrrere<s n="cnjcoo"/></l><r>cioè<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>cioè<s n="cnjcoo"/></r></p></e>
+<e r="RL" c="non-preferred"><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>cioé<s n="cnjcoo"/></r></p></e>
+<e        ><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>ossia<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>chibudda<s n="n"/><s n="f"/></l>       <r>cipolla<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzipolla<s n="n"/><s n="f"/></l><r>cipolla<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tzipu<s n="n"/><s n="m"/></l>          <r>cippo<s n="n"/><s n="m"/></r></p></e>
@@ -23945,7 +23947,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>multidisciplinaridade<s n="n"/><s n="f"/></l><r>multidisciplinarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e><p><l>proventzale<s n="n"/><s n="mf"/></l><r>provenzale<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>radicale<s n="n"/><s n="m"/></l><r>radicale<s n="n"/><s n="m"/></r></p></e>
-      <e r="RL"><p><l>arpitanu<s n="adj"/></l><r>arpitano<s n="adj"/><s n="sup"/></r></p></e>
+     <e r="RL"><p><l>arpitanu<s n="adj"/></l><r>arpitano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>interdipendente<s n="adj"/></l><r>interdipendente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 
       <!-- SECCIÓN: Punctuación -->
