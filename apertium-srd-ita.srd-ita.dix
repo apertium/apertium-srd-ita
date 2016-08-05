@@ -23895,9 +23895,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>bi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>vi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 <e>       <p><l>bois<s n="prn"/><s n="tn"/><s n="p2"/></l><r>voi<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
 <e>       <p><l>bostru<s n="prn"/><s n="pos"/></l>     <r>vostro<s n="prn"/><s n="tn"/><s n="pos"/></r></p></e>
-<!-- ******************************
-  group abbr_symbol
-****************************** -->
     <!-- ******************************
           group abbr_symbol
       ****************************** -->
@@ -23927,6 +23924,29 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>amparu<s n="n"/><s n="m"/></l>         <r>rifugio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>amparare<s n="vblex"/></l>             <r>rifugiare<s n="vblex"/></r></p></e>
 <e>       <p><l>amparadu<s n="n"/></l>                 <r>rifugiato<s n="n"/></r></p></e>
+
+<e>       <p><l>disciplinàriu<s n="adj"/></l>         <r>disciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>disciplinàriu<s n="adj"/></l>         <r>disciplinare<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/><s n="sup"/></r></p></e>
+
+      <e><p><l>arpitanu<s n="adj"/></l><r>arpitano<s n="adj"/></r></p></e>
+      <e><p><l>arpitanu<s n="n"/></l><r>arpitano<s n="n"/></r></p></e>
+      <e><p><l>entzìclica<s n="n"/><s n="f"/></l><r>enciclica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>franco-proventzale<s n="adj"/></l><r>franco-provenzale<s n="adj"/></r></p></e>
+      <e><p><l>francoproventzale<s n="adj"/></l><r>francoprovenzale<s n="adj"/></r></p></e>
+      <e><p><l>franco-proventzale<s n="n"/><s n="m"/></l><r>franco-provenzale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>francoproventzale<s n="n"/><s n="m"/></l><r>francoprovenzale<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>interdipendente<s n="adj"/></l><r>interdipendente<s n="adj"/></r></p></e>
+      <e><p><l>interdipendèntzia<s n="n"/><s n="f"/></l><r>interdipendenza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>interdisciplinaridade<s n="n"/><s n="f"/></l><r>interdisciplinarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>multidisciplinaridade<s n="n"/><s n="f"/></l><r>multidisciplinarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>proventzale<s n="n"/><s n="mf"/></l><r>provenzale<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>radicale<s n="n"/><s n="m"/></l><r>radicale<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>arpitanu<s n="adj"/></l><r>arpitano<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>interdipendente<s n="adj"/></l><r>interdipendente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
