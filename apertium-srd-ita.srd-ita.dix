@@ -11656,10 +11656,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>intelletuale<s n="adj"/></l>           <r>intellettuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>in<b/>manera<b/>intelletuale<s n="adv"/></l><r>intellettualmente<s n="adv"/></r></p></e>
 <e>       <p><l>intelligente<s n="n"/><s n="mf"/></l>  <r>intelligente<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>intelligente<s n="adj"/><s n="mf"/></l><r>intelligente<s n="adj"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>abistu<s n="adj"/></l>                 <r>intelligente<s n="adj"/><s n="sup"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>intelligente<s n="adj"/><s n="mf"/></l><r>intelligente<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL"><p><l>abbistu<s n="adj"/></l>                <r>intelligente<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>intelligente<s n="adj"/></l>           <r>intelligente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>abistu<s n="adj"/></l>                 <r>intelligente<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>abbistu<s n="adj"/></l>                <r>intelligente<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>in<b/>manera<b/>intelligente<s n="adv"/></l><r>intelligentemente<s n="adv"/></r></p></e>
 <e>       <p><l>abistesa<s n="n"/><s n="f"/></l>       <r>intelligenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>intellighèntzia<s n="n"/><s n="f"/></l><r>intelligenza<s n="n"/><s n="f"/></r></p></e>
@@ -12980,7 +12980,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Maddaleno<s n="np"/><s n="ant"/><s n="m"/></l><r>Maddaleno<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Madonna<s n="np"/><s n="ant"/><s n="f"/></l><r>Madonna<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>mama<s n="n"/><s n="f"/></l>           <r>madre<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>madre<s n="n"/><s n="f"/></l>          <r>madre<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>madre<s n="n"/><s n="f"/></l>          <r>madre<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Madrid<s n="np"/><s n="top"/><s n="m"/></l><r>Madrid<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>madrigale<s n="n"/><s n="m"/></l>      <r>madrigale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>madrilenu<s n="adj"/></l>              <r>madrileno<s n="adj"/></r></p></e>
@@ -13220,7 +13220,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Manrico<s n="np"/><s n="ant"/><s n="m"/></l><r>Manrico<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>mansione<s n="n"/><s n="f"/></l>       <r>mansione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Mansueto<s n="np"/><s n="ant"/><s n="m"/></l><r>Mansueto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>poderare<s n="vblex"/></l>             <r>mantenere<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>poderare<s n="vblex"/></l>             <r>mantenere<s n="vblex"/></r></p></e>
 <e>       <p><l>mantènnere<s n="vblex"/></l>           <r>mantenere<s n="vblex"/></r></p></e>
 <e>       <p><l>mantenimentu<s n="n"/><s n="m"/></l>   <r>mantenimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mantesu<s n="adj"/></l>                <r>mantenuto<s n="adj"/></r></p></e>

@@ -200,6 +200,7 @@
     </def-cat>
     <def-cat n="così">
        <cat-item lemma="così" tags="adv"/>
+       <cat-item lemma="così" tags="preadv"/>
     </def-cat>
     <def-cat n="come-cnjadv">
        <cat-item lemma="come" tags="cnjadv"/>
@@ -211,6 +212,10 @@
     </def-cat>
     <def-cat n="quanto-cnjadv">
        <cat-item lemma="quanto" tags="cnjadv"/>
+    </def-cat>
+    <def-cat n="più-meno">
+       <cat-item lemma="più" tags="adv"/>
+       <cat-item lemma="meno" tags="adv"/>
     </def-cat>
     <def-cat n="quello">
        <cat-item lemma="quello" tags="det.*"/>
@@ -5266,6 +5271,89 @@
              <lit v="a"/>
              </get-case-from>
              <lit-tag v="pr"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: più adj/adv che > prus adj/adv chi">
+       <pattern>
+         <pattern-item n="più-meno"/>
+         <pattern-item n="adjec-adv"/>
+         <pattern-item n="che"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="più-adj/adv-chi">
+             <tags>
+               <tag><lit-tag v="SAdj"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <get-case-from pos="3">
+             <lit v="chi"/>
+             </get-case-from>
+             <lit-tag v="cnjsub"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: più adj/adv inf che > prus adj/adv inf chi">
+       <pattern>
+         <pattern-item n="più-meno"/>
+         <pattern-item n="adjec-adv"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="che"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="più-adj/adv-inf-chi">
+             <tags>
+               <tag><lit-tag v="SAdj"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <get-case-from pos="3">
+             <lit v="chi"/>
+             </get-case-from>
+             <lit-tag v="cnjsub"/>
            </lu>
          </chunk>
          </out>
