@@ -146,6 +146,14 @@
 <!--       <cat-item tags="adj.ord.*"/> -->
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
+    <def-cat n="adjec-adv">
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.pos, adj.sup, adj.ind etc. -->
+       <cat-item tags="adj.f.*"/>
+       <cat-item tags="adj.mf.*"/>
+<!--       <cat-item tags="adj.ord.*"/> -->
+       <cat-item tags="vblex.pp.*"/>
+       <cat-item tags="adv"/>
+    </def-cat>
     <def-cat n="adjsup">
        <cat-item tags="adj.sup.*"/>
        <cat-item tags="adj.ind.sup.*"/>
@@ -189,6 +197,18 @@
     </def-cat>
     <def-cat n="non">
        <cat-item lemma="non" tags="adv"/>
+    </def-cat>
+    <def-cat n="così">
+       <cat-item lemma="così" tags="adv"/>
+    </def-cat>
+    <def-cat n="come-cnjadv">
+       <cat-item lemma="come" tags="cnjadv"/>
+    </def-cat>
+    <def-cat n="tanto">
+       <cat-item lemma="tanto" tags="adv"/>
+    </def-cat>
+    <def-cat n="quanto-cnjadv">
+       <cat-item lemma="quanto" tags="cnjadv"/>
     </def-cat>
     <def-cat n="quello">
        <cat-item lemma="quello" tags="det.*"/>
@@ -5135,6 +5155,38 @@
        </action>
     </rule>
 
+
+    <rule comment="regla: così adj/adv come > adj/adv comente a">
+       <pattern>
+         <pattern-item n="così"/>
+         <pattern-item n="adjec-adv"/>
+         <pattern-item n="come-cnjadv"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="così-adj/adv-come">
+             <tags>
+               <tag><lit-tag v="SAdj"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <get-case-from pos="3">
+             <lit v="comente a"/>
+             </get-case-from>
+             <lit-tag v="cnjadv"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
 
 <!-- xxxxxx -->
 

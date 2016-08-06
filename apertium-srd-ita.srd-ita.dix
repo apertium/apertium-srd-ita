@@ -6094,10 +6094,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cristianu<s n="n"/></l>                <r>cristiano<s n="n"/></r></p></e>
 <e r="RL"><p><l>cristianu<s n="adj"/></l>              <r>cristiano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Cristina<s n="np"/><s n="ant"/><s n="f"/></l><r>Cristina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Cristu<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Cristu<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Cristofora<s n="np"/><s n="ant"/><s n="f"/></l><r>Cristofora<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Cristoforo<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristoforo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Cristu<s n="np"/><s n="al"/><s n="m"/></l><r>Cristu<s n="np"/><s n="al"/><s n="m"/></r></p></e>
 <e>       <p><l>critèriu<s n="n"/><s n="m"/></l>       <r>criterio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>crìtica<s n="n"/><s n="f"/></l>        <r>critica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>crìtica<s n="adv"/></l><r>criticamente<s n="adv"/></r></p></e>
@@ -18731,6 +18730,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>reimpreu<s n="n"/><s n="m"/></l>       <r>ripristino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>riprìstinu<s n="n"/><s n="m"/></l>     <r>ripristino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>riprodutzìbile<s n="adj"/></l>         <r>riproducibile<s n="adj"/></r></p></e>
+<e r="RL"><p><l>riprodutzìbile<s n="adj"/></l>         <r>riproducibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>riproduire<s n="vblex"/></l>           <r>riprodurre<s n="vblex"/></r></p></e>
 <e>       <p><l>riprodutivu<s n="adj"/></l>            <r>riproduttivo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>riprodutivu<s n="adj"/></l>            <r>riproduttivo<s n="adj"/><s n="sup"/></r></p></e>
@@ -24094,6 +24094,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>difidèntzia<s n="n"/><s n="f"/></l><r>diffidenza<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>procònsole<s n="n"/><s n="m"/></l><r>proconsole<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vitzecònsole<s n="n"/><s n="m"/></l><r>viceconsole<s n="n"/><s n="m"/></r></p></e>
+
+<e>       <p><l>comente<b/>a<s n="cnjadv"/></l>        <r>come<s n="prn"/></r></p></e>
+<e>       <p><l>canto<b/>a<s n="cnjadv"/></l>          <r>quanto<s n="prn"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
