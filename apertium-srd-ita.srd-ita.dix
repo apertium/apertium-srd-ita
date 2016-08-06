@@ -19696,7 +19696,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Secondina<s n="np"/><s n="ant"/><s n="f"/></l><r>Secondina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>segundu<s n="cnjadv"/></l>             <r>secondo<s n="cnjadv"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>segundu<s n="adj"/><s n="ord"/></l>    <r>secondo<s n="adj"/><s n="ord"/></r></p></e>
+          <p><l>segundu<s n="adj"/><s n="ord"/></l>    <r>secondo<s n="adj"/><s n="ord"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>de<b/>duos<s n="adj"/><s n="ord"/></l><r>secondo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD-pl_ND"/></e>
 <e>       <p><l>secretzione<s n="n"/><s n="f"/></l>    <r>secrezione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>àpiu<s n="n"/><s n="m"/></l>           <r>sedano<s n="n"/><s n="m"/></r></p></e>
