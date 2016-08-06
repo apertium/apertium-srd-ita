@@ -203,6 +203,8 @@
     </def-cat>
     <def-cat n="come-cnjadv">
        <cat-item lemma="come" tags="cnjadv"/>
+       <cat-item lemma="come" tags="adv.itg"/>	<!-- per agafar anàlisis equivocades -->
+       <cat-item lemma="come" tags="rel.adv"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="tanto">
        <cat-item lemma="tanto" tags="adv"/>
