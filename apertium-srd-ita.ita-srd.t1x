@@ -23,6 +23,40 @@
        <cat-item tags="vbhaver.*"/>
        <cat-item tags="vblex.*"/>
     </def-cat>
+    <def-cat n="verb-tmp-srd">	<!-- verb amb els temps verbals del sard (sense cni, ifi, fti -->
+       <cat-item tags="vblex.pri.*"/>
+       <cat-item tags="vblex.prs.*"/>
+       <cat-item tags="vblex.pii.*"/>
+       <cat-item tags="vblex.pis.*"/>
+       <cat-item tags="vblex.imp.*"/>
+       <cat-item tags="vblex.inf"/>
+       <cat-item tags="vblex.ger"/>
+       <cat-item tags="vblex.pp.*"/>
+       <cat-item tags="vbmod.pri.*"/>
+       <cat-item tags="vblex.prs.*"/>
+       <cat-item tags="vbmod.pii.*"/>
+       <cat-item tags="vbmod.pis.*"/>
+       <cat-item tags="vbmod.imp.*"/>
+       <cat-item tags="vbmod.inf"/>
+       <cat-item tags="vbmod.ger"/>
+       <cat-item tags="vbmod.pp.*"/>
+       <cat-item tags="vbser.pri.*"/>
+       <cat-item tags="vbser.prs.*"/>
+       <cat-item tags="vbser.pii.*"/>
+       <cat-item tags="vbser.pis.*"/>
+       <cat-item tags="vbser.imp.*"/>
+       <cat-item tags="vbser.inf"/>
+       <cat-item tags="vbser.ger"/>
+       <cat-item tags="vbser.pp.*"/>
+       <cat-item tags="vbhaver.pri.*"/>
+       <cat-item tags="vbhaver.prs.*"/>
+       <cat-item tags="vbhaver.pii.*"/>
+       <cat-item tags="vbhaver.pis.*"/>
+       <cat-item tags="vbhaver.imp.*"/>
+       <cat-item tags="vbhaver.inf"/>
+       <cat-item tags="vbhaver.ger"/>
+       <cat-item tags="vbhaver.pp.*"/>
+    </def-cat>
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
     </def-cat>
@@ -5365,26 +5399,220 @@
 
     <rule comment="regla: verb + di-nuovo > torrare a + verb">
        <pattern>
-         <pattern-item n="nom"/>
+         <pattern-item n="verb-tmp-srd"/>
+         <pattern-item n="di_nuovo"/>
        </pattern>
        <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>
          <out>
-           <chunk name="n">
+           <chunk name="verb_dinuovo">
              <tags>
-               <tag><lit-tag v="SN"/></tag>
+               <tag><lit-tag v="SV"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
+             <lu>
+               <get-case-from pos="1"><lit v="torrare"/></get-case-from>
+               <lit-tag v="vblex"/>
+               <clip pos="1" side="tl" part="a_tmp"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+               <lit v="a"/>
+               </get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+               <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
          </chunk>
          </out>
        </action>
     </rule>
+
+    <rule comment="regla: verb + enc + di-nuovo > torrare a + verb">
+       <pattern>
+         <pattern-item n="verb-tmp-srd"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="di_nuovo"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="verb_dinuovo">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <get-case-from pos="1"><lit v="torrare"/></get-case-from>
+                 <lit-tag v="vblex"/>
+                 <clip pos="1" side="tl" part="a_tmp"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="gen"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+             <b/>
+             <lu>
+               <get-case-from pos="3">
+               <lit v="a"/>
+               </get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <get-case-from pos="3">
+               <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: ifi + di nuovo">
+       <pattern>
+         <pattern-item n="ifi"/>
+         <pattern-item n="di_nuovo"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="ifi_dinuovo">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1"><lit v="àere"/></get-case-from>
+                 <lit-tag v="vbhaver.pii"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <get-case-from pos="2"><lit v="torrare"/></get-case-from>
+                 <lit-tag v="vblex.pp.m.sg"/>
+               </lu>
+               <b/>
+               <lu>
+                 <get-case-from pos="2"><lit v="a"/></get-case-from>
+                 <lit-tag v="pr"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <get-case-from pos="2"><clip pos="1" side="tl" part="lemh"/></get-case-from>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="inf"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: fti + di nuovo">
+       <pattern>
+         <pattern-item n="fti"/>
+         <pattern-item n="di_nuovo"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="fti-dinuovo">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2"><lit v="a"/></get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2"><lit v="torrare"/></get-case-from>
+               <lit-tag v="vblex.inf"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2"><lit v="a"/></get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2"><clip pos="1" side="tl" part="lemh"/></get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+        
+
+    <rule comment="regla: cni + di nuovo">
+       <pattern>
+         <pattern-item n="cni"/>
+         <pattern-item n="di_nuovo"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cni-dinuovo">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2"><lit v="torrare"/></get-case-from>
+               <lit-tag v="vblex.inf"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2"><lit v="a"/></get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2"><clip pos="1" side="tl" part="lemh"/></get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+    
 
 <!-- xxxxxx -->
 
