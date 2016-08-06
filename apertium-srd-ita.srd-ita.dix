@@ -1161,14 +1161,12 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>alleàntzia<s n="n"/><s n="f"/></l>     <r>alleanza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>alleare<s n="vblex"/></l>              <r>alleare<s n="vblex"/></r></p></e>
 <e>       <p><l>alleadu<s n="adj"/></l>                <r>alleato<s n="adj"/></r></p></e>
-<e>       <p><l>allegare<s n="vblex"/></l>             <r>allegare<s n="vblex"/></r></p></e>
-<e>       <p><l>alliongiare<s n="vblex"/></l>          <r>allegare<s n="vblex"/></r></p></e>
+<e r="RL" c="non-preferred"><p><l>allegare<s n="vblex"/></l>             <r>allegare<s n="vblex"/></r></p></e>
+<e>       <p><l>alliongiare<s n="vblex"/></l>          <r>legare<s n="vblex"/></r></p></e>
 <e>       <p><l>allegadu<s n="adj"/></l>               <r>allegato<s n="adj"/></r></p></e>
 <e>       <p><l>allegadu<s n="n"/><s n="m"/></l>       <r>allegato<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>alliongiadu<s n="n"/></l>              <r>allegato<s n="n"/></r></p></e>
-<e>       <p><l>alliongiadu<s n="adj"/></l>            <r>allegato<s n="adj"/></r></p></e>
+<e>       <p><l>alliongiadu<s n="adj"/></l>            <r>legato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>allegadu<s n="adj"/></l>               <r>allegato<s n="adj"/><s n="sup"/></r></p></e>
-<e r="RL"><p><l>alliongiadu<s n="adj"/></l>            <r>allegato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>allegoria<s n="n"/><s n="f"/></l>      <r>allegoria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>allegòrica<s n="adv"/></l><r>allegoricamente<s n="adv"/></r></p></e>
 <e>       <p><l>allegòricu<s n="adj"/></l>             <r>allegorico<s n="adj"/></r></p></e>
@@ -15908,8 +15906,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>parlamentu<s n="n"/><s n="m"/></l>     <r>parlamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>faeddadore<s n="n"/></l>               <r>parlante<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>faeddare<s n="vblex"/></l>             <r>parlare<s n="vblex"/></r></p></e>
-<e>       <p><l>chistionare<s n="vblex"/></l>          <r>parlare<s n="vblex"/></r></p></e>
-<e>       <p><l>allegare<s n="vblex"/></l>             <r>parlare<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>chistionare<s n="vblex"/></l>          <r>parlare<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>allegare<s n="vblex"/></l>             <r>parlare<s n="vblex"/></r></p></e>
 <e>       <p><l>parlata<s n="n"/><s n="f"/></l>        <r>parlata<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>parlatòriu<s n="n"/><s n="m"/></l>     <r>parlatorio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Parma<s n="np"/><s n="top"/><s n="f"/></l><r>Parma<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
