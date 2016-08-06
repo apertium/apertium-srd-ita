@@ -33,7 +33,7 @@
        <cat-item tags="vblex.ger"/>
        <cat-item tags="vblex.pp.*"/>
        <cat-item tags="vbmod.pri.*"/>
-       <cat-item tags="vblex.prs.*"/>
+       <cat-item tags="vbmod.prs.*"/>
        <cat-item tags="vbmod.pii.*"/>
        <cat-item tags="vbmod.pis.*"/>
        <cat-item tags="vbmod.imp.*"/>
@@ -59,6 +59,13 @@
     </def-cat>
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="potere-vbmod-cnj-srd">
+       <cat-item lemma="potere" tags="vbmod.pri.*"/>
+       <cat-item lemma="potere" tags="vbmod.prs.*"/>
+       <cat-item lemma="potere" tags="vbmod.pii.*"/>
+       <cat-item lemma="potere" tags="vbmod.pis.*"/>
+       <cat-item lemma="potere" tags="vbmod.imp.*"/>
     </def-cat>
     <def-cat n="vblex_inf">
        <cat-item tags="vblex.inf"/>
@@ -165,6 +172,9 @@
     </def-cat>
     <def-cat n="si-enc">
        <cat-item lemma="si" tags="prn.enc.ref.p3.mf.sp"/>
+    </def-cat>
+    <def-cat n="si-pro">
+       <cat-item lemma="si" tags="prn.pro.ref.p3.mf.sp"/>
     </def-cat>
     <def-cat n="lo-enc">
        <cat-item lemma="lo" tags="prn.enc.p3.*"/>
@@ -5613,6 +5623,85 @@
        </action>
     </rule>
     
+
+    <rule comment="regla: si potere inf > fàghere a + inf">
+       <pattern>
+         <pattern-item n="si-pro"/>
+         <pattern-item n="potere-vbmod-cnj-srd"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="fàghere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="fàghere"/></get-case-from>
+               <lit-tag v="vblex"/>
+               <clip pos="2" side="tl" part="a_tmp"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2"><lit v="a"/></get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: pro si potere inf > fàghere a + pro inf">
+       <pattern>
+         <pattern-item n="pro"/>
+         <pattern-item n="si-pro"/>
+         <pattern-item n="potere-vbmod-cnj-srd"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="fàghere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="fàghere"/></get-case-from>
+               <lit-tag v="vblex"/>
+               <clip pos="3" side="tl" part="a_tmp"/>
+               <clip pos="3" side="tl" part="pers"/>
+               <clip pos="3" side="tl" part="gen"/>
+               <clip pos="3" side="tl" part="nbr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2"><lit v="a"/></get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
 
 <!-- xxxxxx -->
 
