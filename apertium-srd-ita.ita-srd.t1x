@@ -67,6 +67,15 @@
        <cat-item lemma="potere" tags="vbmod.pis.*"/>
        <cat-item lemma="potere" tags="vbmod.imp.*"/>
     </def-cat>
+    <def-cat n="potere-vbmod-cni">
+       <cat-item lemma="potere" tags="vbmod.cni.*"/>
+    </def-cat>
+    <def-cat n="potere-vbmod-ifi">
+       <cat-item lemma="potere" tags="vbmod.ifi.*"/>
+    </def-cat>
+    <def-cat n="potere-vbmod-fti">
+       <cat-item lemma="potere" tags="vbmod.fti.*"/>
+    </def-cat>
     <def-cat n="vblex_inf">
        <cat-item tags="vblex.inf"/>
     </def-cat>
@@ -5702,6 +5711,49 @@
          </out>
        </action>
     </rule>
+
+
+    <rule comment="regla: si potere.ifi inf > fàghere a + inf">
+       <pattern>
+         <pattern-item n="si-pro"/>
+         <pattern-item n="potere-vbmod-ifi"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="fàghere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1"><lit v="àere"/></get-case-from>
+                 <lit-tag v="vbhaver.pii"/>
+                 <clip pos="2" side="tl" part="pers"/>
+                 <clip pos="2" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <get-case-from pos="2"><lit v="fàghere"/></get-case-from>
+                 <lit-tag v="vblex"/>
+                 <lit-tag v="pp.m.sg"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <get-case-from pos="2"><lit v="a"/></get-case-from>
+                 <lit-tag v="pr"/>
+               </lu>
+               <b pos="2"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="a_verb"/>
+                 <lit-tag v="inf"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
 
 <!-- xxxxxx -->
 
