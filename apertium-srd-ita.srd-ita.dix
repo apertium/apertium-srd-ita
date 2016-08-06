@@ -24095,8 +24095,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>procònsole<s n="n"/><s n="m"/></l><r>proconsole<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vitzecònsole<s n="n"/><s n="m"/></l><r>viceconsole<s n="n"/><s n="m"/></r></p></e>
 
-<e>       <p><l>comente<b/>a<s n="cnjadv"/></l>        <r>come<s n="cnjadv"/></r></p></e>
-<e>       <p><l>canto<b/>a<s n="cnjadv"/></l>          <r>quanto<s n="cnjadv"/></r></p></e>
+<e>       <p><l>comente<s n="cnjadv"/></l>        <r>come<s n="cnjadv"/></r></p></e>
+<e>       <p><l>cantu<s n="cnjadv"/></l>          <r>quanto<s n="cnjadv"/></r></p></e>
+<e>       <p><l>intregu<s n="adj"/></l>           <r>integro<s n="adj"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>

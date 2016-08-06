@@ -2251,6 +2251,7 @@
     <def-macro n="f_concord_esp" npar="2"> <!-- if the noun has changed the gender and/or number articles and adjectives should too -->
 	<!-- the first paramenter is the name, the second the article or adjective -->
       
+      <!-- gender -->
       <choose>
 	<when> 
 	  <test>
@@ -2298,6 +2299,7 @@
 	</when>
       </choose>
       
+      <!-- number -->
       <choose>
 	<when> 
 	  <test>
@@ -2510,6 +2512,40 @@
 	  <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.tn"/></let>
 	  <let><clip pos="2" side="tl" part="gen"/><var n="genero"/></let>
 	</when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="modif_case" npar="1">
+      <choose>	<!-- To correct capital letters in such words as È (essere), I (article), etc -->
+<!-- malauradament Aa no funciona en aquestes dues paraules (algun bug) -->
+<!-- ^ESSERE<vbser><pri><p3><sg>$ ^IL<det><def><m><pl>$  -->
+	<when> 
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="ESSERE"/></equal>
+	      <equal><clip pos="1" side="sl" part="a_tmp"/><lit-tag v="pri"/></equal>
+	      <equal><clip pos="1" side="sl" part="pers"/><lit-tag v="p3"/></equal>
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	    </and>
+	  </test>
+           <modify-case>
+             <clip pos="1" side="tl" part="lemh"/>
+             <lit v="Aa"/>
+           </modify-case>
+	</when> 
+	<when> 
+	  <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="IL"/></equal>
+	      <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	    </and>
+	  </test>
+           <modify-case>
+             <clip pos="1" side="tl" part="lemh"/>
+             <lit v="Aa"/>
+           </modify-case>
+	</when> 
       </choose>
     </def-macro>
 
@@ -5181,9 +5217,55 @@
            <b pos="2"/>
            <lu>
              <get-case-from pos="3">
-             <lit v="comente a"/>
+             <lit v="comente"/>
              </get-case-from>
              <lit-tag v="cnjadv"/>
+           </lu>
+           <b/>
+           <lu>
+             <get-case-from pos="3">
+             <lit v="a"/>
+             </get-case-from>
+             <lit-tag v="pr"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: tanto adj/adv quanto > adj/adv cantu a">
+       <pattern>
+         <pattern-item n="tanto"/>
+         <pattern-item n="adjec-adv"/>
+         <pattern-item n="quanto-cnjadv"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="tanto-adj/adv-quanto">
+             <tags>
+               <tag><lit-tag v="SAdj"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <get-case-from pos="3">
+             <lit v="cantu"/>
+             </get-case-from>
+             <lit-tag v="cnjadv"/>
+           </lu>
+           <b/>
+           <lu>
+             <get-case-from pos="3">
+             <lit v="a"/>
+             </get-case-from>
+             <lit-tag v="pr"/>
            </lu>
          </chunk>
          </out>
@@ -5258,13 +5340,13 @@
                <tag><lit-tag v="SA"/></tag>
              </tags>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
-           </lu>
-           <b/>
-           <lu>
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b/>
+           <lu>
+               <lit v="a beru"/><lit-tag v="adv"/>
            </lu>
          </chunk>
          </out>
@@ -5327,6 +5409,9 @@
          <call-macro n="f_concord1">
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="d">
              <tags>
@@ -5372,6 +5457,9 @@
          <pattern-item n="verb"/>
        </pattern>
        <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="v">
              <tags>
