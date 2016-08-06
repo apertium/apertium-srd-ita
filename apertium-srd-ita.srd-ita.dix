@@ -2,7 +2,7 @@
 <!--
 	Dictionary:
 	Sections: 1
-	Entries: 23605
+	Entries: 23775
 	Sdefs: 60
 	Paradigms: 11
 	Last processed by: apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita.dix.new3
@@ -1413,7 +1413,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ammiratzione<s n="n"/><s n="f"/></l>   <r>ammirazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ammissìbile<s n="adj"/><s n="mf"/></l> <r>ammissibile<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>ammissibilidade<s n="n"/><s n="f"/></l><r>ammissibilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ammissione<s n="n"/><s n="f"/></l><r>ammissione<s n="n"/><s n="f"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>ammissione<s n="n"/><s n="f"/></l><r>ammissione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ammodernare<s n="vblex"/></l>          <r>ammodernare<s n="vblex"/></r></p></e>
 <e>       <p><l>ammoniacale<s n="adj"/></l>            <r>ammoniacale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ammoniacale<s n="adj"/></l>            <r>ammoniacale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -3182,7 +3182,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Bettino<s n="np"/><s n="ant"/><s n="m"/></l><r>Bettino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Betto<s n="np"/><s n="ant"/><s n="m"/></l><r>Betto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>bèvida<s n="n"/><s n="f"/></l>         <r>bevanda<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>bevanda<s n="n"/><s n="f"/></l><r>bevanda<s n="n"/><s n="f"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>bevanda<s n="n"/><s n="f"/></l><r>bevanda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Bevilacqua<s n="np"/><s n="cog"/></l>  <r>Bevilacqua<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>bividore<s n="n"/></l>                 <r>bevitore<s n="n"/></r></p></e>
 <e>       <p><l>Biagina<s n="np"/><s n="ant"/><s n="f"/></l><r>Biagina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -3681,7 +3681,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>calderone<s n="n"/><s n="m"/></l>      <r>calderone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>calore<s n="n"/><s n="m"/></l>         <r>caldo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>callente<s n="adj"/><s n="mf"/></l>    <r>caldo<s n="adj"/><s n="mf"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>caldu<s n="adj"/></l><r>caldo<s n="adj"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>caldu<s n="adj"/></l><r>caldo<s n="adj"/></r></p></e>
 <e>       <p><l>caente<s n="adj"/></l>                 <r>caldo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>caente<s n="adj"/></l>                 <r>caldo<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>calendàriu<s n="n"/><s n="m"/></l>     <r>calendario<s n="n"/><s n="m"/></r></p></e>
@@ -4618,8 +4618,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tzoncare<s n="vblex"/></l>             <r>cioncare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>pro<b/>nàrrere<s n="cnjcoo"/></l><r>cioè<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>cioè<s n="cnjcoo"/></r></p></e>
-<e r="RL" c="non-preferred"><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>cioé<s n="cnjcoo"/></r></p></e>
-<e        ><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>ossia<s n="cnjcoo"/></r></p></e>
+<e r="RL" c="non-preferred"><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l><r>cioé<s n="cnjcoo"/></r></p></e>
+<e>       <p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>ossia<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>chibudda<s n="n"/><s n="f"/></l>       <r>cipolla<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzipolla<s n="n"/><s n="f"/></l><r>cipolla<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tzipu<s n="n"/><s n="m"/></l>          <r>cippo<s n="n"/><s n="m"/></r></p></e>
@@ -4936,8 +4936,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ghia<s n="n"/><s n="f"/></l>           <r>comando<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumarca<s n="n"/><s n="f"/></l>        <r>comarca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cumbàtere<s n="vblex"/></l>            <r>combattere<s n="vblex"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>cumbatare<s n="vblex"/></l>            <r>combattere<s n="vblex"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>gherrare<s n="vblex"/></l>             <r>combattere<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>cumbatare<s n="vblex"/></l><r>combattere<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>gherrare<s n="vblex"/></l><r>combattere<s n="vblex"/></r></p></e>
 <e>       <p><l>cumbinare<s n="vblex"/></l>            <r>combinare<s n="vblex"/></r></p></e>
 <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumbinadu<s n="adj"/></l><r>combinato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>cumbinadu<s n="adj"/></l>              <r>combinato<s n="adj"/><s n="sup"/></r></p></e>
@@ -7259,7 +7259,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>disponimentu<s n="n"/><s n="m"/></l>   <r>disposizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dispositzione<s n="n"/><s n="f"/></l>  <r>disposizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dispostu<s n="adj"/></l>               <r>disposto<s n="adj"/></r></p></e>
-      <!--<e r="RL"><p><l>dispenseri<s n="adj"/></l><r>dispensatore<s n="adj"/><s n="sup"/></r></p></e>-->
 <e r="RL"><p><l>dispostu<s n="adj"/></l>               <r>disposto<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>dispòticu<s n="adj"/></l>              <r>dispotico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>dispòticu<s n="adj"/></l>              <r>dispotico<s n="adj"/><s n="sup"/></r></p></e>
@@ -16066,7 +16065,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Paulu<s n="np"/><s n="ant"/><s n="m"/></l><r>Paulu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>timòria<s n="n"/><s n="f"/></l>        <r>paura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>timoria<s n="n"/><s n="f"/></l>        <r>paura<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>paura<s n="n"/><s n="f"/></l><r>paura<s n="n"/><s n="f"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>paura<s n="n"/><s n="f"/></l><r>paura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>paurosa<s n="adv"/></l><r>paurosamente<s n="adv"/></r></p></e>
 <e>       <p><l>paurosu<s n="adj"/></l>                <r>pauroso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>paurosu<s n="adj"/></l>                <r>pauroso<s n="adj"/><s n="sup"/></r></p></e>
@@ -17048,7 +17047,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>prepotente<s n="adj"/></l>             <r>prepotente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>prepotèntzia<s n="n"/><s n="f"/></l>   <r>prepotenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mandu<s n="n"/><s n="m"/></l>          <r>prerogativa<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>prerogativa<s n="n"/><s n="f"/></l><r>prerogativa<s n="n"/><s n="f"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>prerogativa<s n="n"/><s n="f"/></l><r>prerogativa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>preromànicu<s n="adj"/></l>            <r>preromanico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>preromànicu<s n="adj"/></l>            <r>preromanico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>presa<s n="n"/><s n="f"/></l>          <r>presa<s n="n"/><s n="f"/></r></p></e>
@@ -17439,7 +17438,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>prospetiva<s n="n"/><s n="f"/></l>     <r>prospettiva<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>prospetu<s n="n"/><s n="m"/></l>       <r>prospetto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>imbeniente<s n="adv"/></l><r>prossimamente<s n="adv"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>pròssimu<s n="adj"/></l><r>prossimo<s n="adj"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>pròssimu<s n="adj"/></l><r>prossimo<s n="adj"/></r></p></e>
 <e>       <p><l>imbeniente<s n="adj"/></l>             <r>prossimo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>imbeniente<s n="adj"/></l>             <r>prossimo<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>pròstata<s n="n"/><s n="f"/></l>       <r>prostata<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
@@ -17701,7 +17700,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <!--<e><p><l>significadore<s n="adj"/></l><r>significante<s n="adj"/></r></p></e>-->
 <!--<e><p><l>sucurridore<s n="adj"/></l><r>soccorritore<s n="adj"/></r></p></e>-->
 <!--<e><p><l>tentadore<s n="adj"/></l><r>custode<s n="adj"/></r></p></e>-->
-<!--<e><p><l>traitore<s n="adj"/></l><r>traditore<s n="adj"/></r></p></e>-->
 <!--<e><p><l>meressidore<s n="adj"/></l><r>meritevole<s n="adj"/></r></p></e>-->
 
 <!--<e><p><l>de<b/>istèrrere<s n="adj"/></l><r>estensivo<s n="adj"/></r></p><par n="GD_mf"/></e>-->
@@ -17782,6 +17780,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>custu<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
 <e r="RL"><p><l>custu<s n="adj"/></l>                  <r>questo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>cuestore<s n="n"/><s n="m"/></l>       <r>questore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>vitzecuestore<s n="n"/><s n="m"/></l>  <r>vicequestore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cuestura<s n="n"/><s n="f"/></l>       <r>questura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>inoghe<s n="adv"/></l>                 <r>qui<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>inoghe<s n="adv"/></l>            <r>qui<s n="adv"/></r></p></e>
@@ -18154,7 +18153,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>redditìtziu<s n="adj"/></l>            <r>redditizio<s n="adj"/></r></p></e>
 <e>       <p><l>intrera<s n="n"/><s n="f"/></l>        <r>reddito<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rèditu<s n="n"/><s n="m"/></l>         <r>reddito<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>rèdditu<s n="n"/><s n="m"/></l><r>reddito<s n="n"/><s n="m"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>rèdditu<s n="n"/><s n="m"/></l><r>reddito<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Redenta<s n="np"/><s n="ant"/><s n="f"/></l><r>Redenta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Redentina<s n="np"/><s n="ant"/><s n="f"/></l><r>Redentina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Redento<s n="np"/><s n="ant"/><s n="m"/></l><r>Redento<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -18343,7 +18342,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>refudadu<s n="adj"/></l>               <r>respinto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>denegadu<s n="adj"/></l>               <r>respinto<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>refudadu<s n="adj"/></l>               <r>respinto<s n="adj"/><s n="sup"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>respintu<s n="adj"/></l><r>respinto<s n="adj"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>respintu<s n="adj"/></l><r>respinto<s n="adj"/></r></p></e>
 <e>       <p><l>alenare<s n="vblex"/></l>              <r>respirare<s n="vblex"/></r></p></e>
 <e>       <p><l>respirare<s n="vblex"/></l>            <r>respirare<s n="vblex"/></r></p></e>
 <e>       <p><l>respiratòriu<s n="adj"/></l>           <r>respiratorio<s n="adj"/></r></p></e>
@@ -18706,7 +18705,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>riòrdinu<s n="n"/><s n="m"/></l>       <r>riordino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>acontzare<s n="vblex"/></l>            <r>riparare<s n="vblex"/></r></p></e>
 <e>       <p><l>cungiminare<s n="vblex"/></l>          <r>riparare<s n="vblex"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>riparare<s n="vblex"/></l><r>riparare<s n="vblex"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>riparare<s n="vblex"/></l><r>riparare<s n="vblex"/></r></p></e>
 <e>       <p><l>riparatzione<s n="n"/><s n="f"/></l>   <r>riparazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>amparu<s n="n"/><s n="m"/></l>         <r>riparo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>partzire<s n="vblex"/></l>             <r>ripartire<s n="vblex"/></r></p></e>
@@ -19233,7 +19232,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>sarvu<s n="adj"/></l>                  <r>salvo<s n="adj"/></r></p></e>
 <e>       <p><l>Salvo<s n="np"/><s n="ant"/><s n="m"/></l><r>Salvo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>francu<s n="cnjsub"/></l>              <r>salvo<s n="cnjsub"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>salvu<s n="adj"/></l><r>salvo<s n="adj"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>salvu<s n="adj"/></l><r>salvo<s n="adj"/></r></p></e>
 <e>       <p><l>Sam<s n="np"/><s n="ant"/><s n="m"/></l><r>Sam<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Samanta<s n="np"/><s n="ant"/><s n="f"/></l><r>Samanta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>samaritanu<s n="n"/></l>               <r>samaritano<s n="n"/></r></p></e>
@@ -19363,7 +19362,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Tàtari<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sassari<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>Sassari<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sassari<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>pedra<s n="n"/><s n="f"/></l>          <r>sasso<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>sassu<s n="n"/><s n="m"/></l><r>sasso<s n="n"/><s n="m"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>sassu<s n="n"/><s n="m"/></l><r>sasso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Sassònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sassonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>sassosu<s n="adj"/></l>                <r>sassoso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>sassosu<s n="adj"/></l>                <r>sassoso<s n="adj"/><s n="sup"/></r></p></e>
@@ -21265,7 +21264,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>subrafàchere<s n="vblex"/></l>         <r>subrafachere<s n="vblex"/></r></p></e>
 <e>       <p><l>sutzessione<s n="n"/><s n="f"/></l>    <r>successione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>posca<s n="adv"/></l>                  <r>successivamente<s n="adv"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>successivamente<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>successivamente<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
 <e>       <p><l>imbeniente<s n="adj"/></l>             <r>successivo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>imbeniente<s n="adj"/></l>             <r>successivo<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>resessida<s n="n"/><s n="f"/></l>      <r>successo<s n="n"/><s n="m"/></r></p></e>
@@ -21896,7 +21895,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>timoradu<s n="adj"/></l>               <r>timorato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>timoradu<s n="adj"/></l>               <r>timorato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>timoria<s n="n"/><s n="f"/></l>        <r>timore<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>timore<s n="n"/><s n="m"/></l><r>timore<s n="n"/><s n="m"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>timore<s n="n"/><s n="m"/></l><r>timore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Timoteo<s n="np"/><s n="ant"/><s n="m"/></l><r>Timoteo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>tìmpanu<s n="n"/><s n="m"/></l>        <r>timpano<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Tindara<s n="np"/><s n="ant"/><s n="f"/></l><r>Tindara<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -22174,7 +22173,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>trasmitente<s n="adj"/></l>            <r>trasmittente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>transparente<s n="adj"/></l>           <r>trasparente<s n="adj"/></r></p></e>
 <e>       <p><l>trasparente<s n="adj"/></l>            <r>trasparente<s n="adj"/></r></p></e>
-<!--<e r="RL"><p><l>traitore<s n="adj"/></l><r>traditore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
 <e r="RL"><p><l>transparente<s n="adj"/></l>           <r>trasparente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>trasparente<s n="adj"/></l>            <r>trasparente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>trasparèntzia<s n="n"/><s n="f"/></l>  <r>trasparenza<s n="n"/><s n="f"/></r></p></e>
@@ -22635,7 +22633,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>US<s n="n"/><s n="acr"/><s n="f"/></l> <r>US<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>       <p><l>Usai<s n="np"/><s n="cog"/></l>        <r>Usai<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>costumàntzia<s n="n"/><s n="f"/></l>   <r>usanza<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>usàntzia<s n="n"/><s n="f"/></l><r>usanza<s n="n"/><s n="f"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>usàntzia<s n="n"/><s n="f"/></l><r>usanza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>impitare<s n="vblex"/></l>             <r>usare<s n="vblex"/></r></p></e>
 <e>       <p><l>tratare<s n="vblex"/></l>              <r>usare<s n="vblex"/></r></p></e>
 <e>       <p><l>usare<s n="vblex"/></l>                <r>usare<s n="vblex"/></r></p></e>
@@ -22889,7 +22887,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>vendicare<s n="vblex"/></l><r>vendicare<s n="vblex"/></r></p></e>
 <e>       <p><l>vendicadore<s n="n"/></l>              <r>vendicatore<s n="n"/></r></p></e>
 <e>       <p><l>bèndida<s n="n"/><s n="f"/></l>        <r>vendita<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>vendita<s n="n"/><s n="f"/></l><r>vendita<s n="n"/><s n="f"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>vendita<s n="n"/><s n="f"/></l><r>vendita<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bendidore<s n="n"/></l>                <r>venditore<s n="n"/></r></p></e>
 <e>       <p><l>bendidore<s n="adj"/></l>              <r>venditore<s n="adj"/></r></p></e>
 <e r="RL"><p><l>bendidore<s n="adj"/></l>              <r>venditore<s n="adj"/><s n="sup"/></r></p></e>
@@ -23329,7 +23327,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>vocàlicu<s n="adj"/></l>               <r>vocalico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>vocalista<s n="n"/></l>                <r>vocalista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>apentu<s n="n"/><s n="m"/></l>         <r>vocazione<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>vocatzione<s n="n"/><s n="f"/></l><r>vocazione<s n="n"/><s n="f"/></r></p></e>
+<e c="non-preferred (gen. from aut. dic. comparison)"><p><l>vocatzione<s n="n"/><s n="f"/></l><r>vocazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>boghe<s n="n"/><s n="f"/></l>          <r>voce<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bògia<s n="n"/><s n="f"/></l>          <r>voglia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>gana<s n="n"/><s n="f"/></l>           <r>voglia<s n="n"/><s n="f"/></r></p></e>
@@ -23927,253 +23925,177 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>amparare<s n="vblex"/></l>             <r>rifugiare<s n="vblex"/></r></p></e>
 <e>       <p><l>amparadu<s n="n"/></l>                 <r>rifugiato<s n="n"/></r></p></e>
 
-<e>       <p><l>disciplinàriu<s n="adj"/></l>         <r>disciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="RL"><p><l>disciplinàriu<s n="adj"/></l>         <r>disciplinare<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="RL"><p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e r="RL"><p><l>interdisciplinàriu<s n="adj"/></l>    <r>interdisciplinare<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>disciplinàriu<s n="adj"/></l>          <r>disciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>disciplinàriu<s n="adj"/></l>          <r>disciplinare<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>interdisciplinàriu<s n="adj"/></l>     <r>interdisciplinare<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>interdisciplinàriu<s n="adj"/></l>     <r>interdisciplinare<s n="adj"/><s n="sup"/></r></p></e>
 
-      <e><p><l>arpitanu<s n="adj"/></l><r>arpitano<s n="adj"/></r></p></e>
-      <e><p><l>arpitanu<s n="n"/></l><r>arpitano<s n="n"/></r></p></e>
-      <e><p><l>entzìclica<s n="n"/><s n="f"/></l><r>enciclica<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>franco-proventzale<s n="adj"/></l><r>franco-provenzale<s n="adj"/></r></p></e>
-      <e><p><l>francoproventzale<s n="adj"/></l><r>francoprovenzale<s n="adj"/></r></p></e>
-      <e><p><l>franco-proventzale<s n="n"/><s n="m"/></l><r>franco-provenzale<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>francoproventzale<s n="n"/><s n="m"/></l><r>francoprovenzale<s n="n"/><s n="m"/></r></p></e>
-      <e><p><l>interdipendente<s n="adj"/></l><r>interdipendente<s n="adj"/></r></p></e>
-      <e><p><l>interdipendèntzia<s n="n"/><s n="f"/></l><r>interdipendenza<s n="n"/><s n="f"/></r></p></e>
-      <e><p><l>interdisciplinaridade<s n="n"/><s n="f"/></l><r>interdisciplinarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>multidisciplinaridade<s n="n"/><s n="f"/></l><r>multidisciplinarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e><p><l>proventzale<s n="n"/><s n="mf"/></l><r>provenzale<s n="n"/><s n="mf"/></r></p></e>
-      <e><p><l>radicale<s n="n"/><s n="m"/></l><r>radicale<s n="n"/><s n="m"/></r></p></e>
-      <e r="RL"><p><l>arpitanu<s n="adj"/></l><r>arpitano<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>interdipendente<s n="adj"/></l><r>interdipendente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>arpitanu<s n="adj"/></l>               <r>arpitano<s n="adj"/></r></p></e>
+<e>       <p><l>arpitanu<s n="n"/></l>                 <r>arpitano<s n="n"/></r></p></e>
+<e>       <p><l>entzìclica<s n="n"/><s n="f"/></l>     <r>enciclica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>franco-proventzale<s n="adj"/></l>     <r>franco-provenzale<s n="adj"/></r></p></e>
+<e>       <p><l>francoproventzale<s n="adj"/></l>      <r>francoprovenzale<s n="adj"/></r></p></e>
+<e>       <p><l>franco-proventzale<s n="n"/><s n="m"/></l><r>franco-provenzale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>francoproventzale<s n="n"/><s n="m"/></l><r>francoprovenzale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>interdipendente<s n="adj"/></l>        <r>interdipendente<s n="adj"/></r></p></e>
+<e>       <p><l>interdipendèntzia<s n="n"/><s n="f"/></l><r>interdipendenza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>interdisciplinaridade<s n="n"/><s n="f"/></l><r>interdisciplinarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>multidisciplinaridade<s n="n"/><s n="f"/></l><r>multidisciplinarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>proventzale<s n="n"/><s n="mf"/></l>   <r>provenzale<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>radicale<s n="n"/><s n="m"/></l>       <r>radicale<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>arpitanu<s n="adj"/></l>               <r>arpitano<s n="adj"/><s n="sup"/></r></p></e>
+<e r="RL"><p><l>interdipendente<s n="adj"/></l>        <r>interdipendente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 
-        <e><p><l>chitu<s n="adj"/></l><r>rifatto<s n="adj"/></r></p></e>
-        <e><p><l>chitire<s n="vblex"/></l><r>rifare<s n="vblex"/></r></p></e>
-        <e><p><l>chitare<s n="vblex"/></l><r>rifare<s n="vblex"/></r></p></e>
-        <e><p><l>chistionu<s n="n"/><s n="m"/></l><r>discorso<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>china<s n="n"/><s n="f"/></l><r>china<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>chiaramente<s n="adv"/></l><r>chiaramente<s n="adv"/></r></p></e>
-        <e><p><l>cautelare<s n="vblex"/></l><r>cautelare<s n="vblex"/></r></p></e>
-        <e><p><l>catàlogu<s n="n"/><s n="m"/></l><r>catalogo<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>casualidade<s n="n"/><s n="f"/></l><r>casualità<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>castrare<s n="vblex"/></l><r>castrare<s n="vblex"/></r></p></e>
-        <e><p><l>castigu<s n="n"/><s n="m"/></l><r>castigo<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>cartellone<s n="n"/><s n="m"/></l><r>cartellone<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>carovana<s n="n"/><s n="f"/></l><r>carovana<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>carestia<s n="n"/><s n="f"/></l><r>carestia<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>càrculu<s n="n"/><s n="m"/></l><r>calculo<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>carbonare<s n="vblex"/></l><r>carbonare<s n="vblex"/></r></p></e>
-        <e><p><l>caratzare<s n="vblex"/></l><r>velare<s n="vblex"/></r></p></e>
-        <e><p><l>caraìbicu<s n="adj"/></l><r>caraibico<s n="adj"/></r></p></e>
-        <e><p><l>carafa<s n="n"/><s n="f"/></l><r>caraffa<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>cannonau<s n="n"/><s n="m"/></l><r>cannonau<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>cannonare<s n="vblex"/></l><r>cannonare<s n="vblex"/></r></p></e>
-        <e><p><l>candidu<s n="adj"/></l><r>candido<s n="adj"/></r></p></e>
-        <e><p><l>campanu<s n="adj"/></l><r>campano<s n="adj"/></r></p></e>
-        <e><p><l>campana<s n="n"/><s n="f"/></l><r>campana<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>camare<s n="vblex"/></l><r>mettere<g><b/>la<b/>musoliera</g><s n="vblex"/></r></p></e>
-        <e><p><l>caldu<s n="adj"/></l><r>caldo<s n="adj"/></r></p></e>
-        <e><p><l>cadenita<s n="n"/><s n="f"/></l><r>catenella<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>buonu<s n="adj"/></l><r>buono<s n="adj"/></r></p></e>
-        <e><p><l>branca<s n="n"/><s n="f"/></l><r>branca<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>bota<s n="n"/><s n="f"/></l><r>scarpone<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>boreale<s n="adj"/><s n="mf"/></l><r>boreale<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>biuda<s n="n"/><s n="f"/></l><r>vedova<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>bìblicu<s n="adj"/></l><r>biblico<s n="adj"/></r></p></e>
-        <e><p><l>bevanda<s n="n"/><s n="f"/></l><r>bevanda<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>beste<s n="n"/><s n="f"/></l><r>veste<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>bessare<s n="vblex"/></l><r>gettare<s n="vblex"/></r></p></e>
-        <e><p><l>barra<s n="n"/><s n="f"/></l><r>mascella<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>barraca<s n="n"/><s n="f"/></l><r>baracca<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>bàrbaru<s n="n"/></l><r>barbaro<s n="n"/></r></p></e>
-        <e><p><l>banana<s n="n"/><s n="f"/></l><r>banana<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>balla<s n="n"/><s n="f"/></l><r>pallettone<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>baliosu<s n="adj"/></l><r>@baliosu<s n="adj"/></r></p></e>
-        <e><p><l>autoritàriu<s n="adj"/></l><r>autoritario<s n="adj"/></r></p></e>
-        <e><p><l>autobiografia<s n="n"/><s n="f"/></l><r>autobiografia<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>atzetabilidade<s n="n"/><s n="f"/></l><r>accettabilità<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>astradu<s n="adj"/></l><r>astratto<s n="adj"/></r></p></e>
-        <e><p><l>asare<s n="vblex"/></l><r>munire<g><b/>d'anse</g><s n="vblex"/></r></p></e>
-        <e><p><l>arruolare<s n="vblex"/></l><r>arruolare<s n="vblex"/></r></p></e>
-        <e><p><l>arrubiare<s n="vblex"/></l><r>@arrubiare<s n="vblex"/></r></p></e>
-        <e><p><l>arresonamentu<s n="n"/><s n="m"/></l><r>ragionamentu<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>arratzare<s n="vblex"/></l><r>selezionare<s n="vblex"/></r></p></e>
-        <e><p><l>arracadare<s n="vblex"/></l><r>mettere<g><b/>gli<b/>orecchini</g><s n="vblex"/></r></p></e>
-        <e><p><l>arborare<s n="vblex"/></l><r>alberare<s n="vblex"/></r></p></e>
-        <e><p><l>arbitràriu<s n="adj"/></l><r>arbitrario<s n="adj"/></r></p></e>
-        <e><p><l>aparare<s n="vblex"/></l><r>parare<s n="vblex"/></r></p></e>
-        <e><p><l>antigòriu<s n="n"/><s n="m"/></l><r>antichissimo<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>animosu<s n="adj"/></l><r>animoso<s n="adj"/></r></p></e>
-        <e><p><l>angulare<s n="adj"/><s n="mf"/></l><r>angulare<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>ammissione<s n="n"/><s n="f"/></l><r>ammissione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>amentu<s n="n"/><s n="m"/></l><r>ricordo<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>amante<s n="n"/><s n="mf"/></l><r>amante<s n="n"/><s n="mf"/></r></p></e>
-        <e><p><l>altare<s n="n"/><s n="m"/></l><r>altare<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>allegrare<s n="vblex"/></l><r>rallegrare<s n="vblex"/></r></p></e>
-        <e><p><l>alfabetizatzione<s n="n"/><s n="f"/></l><r>alfabetizzazione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>agiuntivu<s n="adj"/></l><r>aggiuntivo<s n="adj"/></r></p></e>
-        <e><p><l>adeguamentu<s n="adj"/></l><r>adeguamento<s n="adj"/></r></p></e>
-        <e><p><l>abbistu<s n="adj"/></l><r>scaltro<s n="adj"/></r></p></e>
-        <e><p><l>abbenenare<s n="vblex"/></l><r>avvelenare<s n="vblex"/></r></p></e>
-        <e><p><l>vulcànicu<s n="adj"/></l><r>vulcanico<s n="adj"/></r></p></e>
-        <e><p><l>volantinu<s n="n"/><s n="m"/></l><r>volantino<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>vocatzione<s n="n"/><s n="f"/></l><r>vocazione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>vinculante<s n="adj"/><s n="mf"/></l><r>vinculante<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>ventura<s n="n"/><s n="f"/></l><r>avventura<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>vendita<s n="n"/><s n="f"/></l><r>vendita<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>variare<s n="vblex"/></l><r>variare<s n="vblex"/></r></p></e>
-        <e><p><l>ùtile<s n="n"/><s n="m"/></l><r>utile<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>ùtile<s n="adj"/><s n="mf"/></l><r>utile<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>usàntzia<s n="n"/><s n="f"/></l><r>usanza<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>undada<s n="n"/><s n="f"/></l><r>ondata<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>umidare<s n="vblex"/></l><r>inumidire<s n="vblex"/></r></p></e>
-        <e><p><l>ultimamente<s n="adv"/></l><r>ultimamente<s n="adv"/></r></p></e>
-        <e><p><l>tzinnu<s n="n"/><s n="m"/></l><r>cenno<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tzellulare<s n="n"/><s n="m"/></l><r>cellulare<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tzeleste<s n="n"/><s n="m"/></l><r>celeste<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tzarrada<s n="n"/><s n="f"/></l><r>chiacchierata<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>tzapare<s n="vblex"/></l><r>rubare<s n="vblex"/></r></p></e>
-        <e><p><l>tunnu<s n="n"/><s n="m"/></l><r>tonno<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tumbarinu<s n="n"/><s n="m"/></l><r>muretto<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tulu<s n="n"/><s n="m"/></l><r>tulle<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>trotare<s n="vblex"/></l><r>trottare<s n="vblex"/></r></p></e>
-        <e><p><l>trota<s n="n"/><s n="f"/></l><r>trota<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>tribulare<s n="vblex"/></l><r>tribolare<s n="vblex"/></r></p></e>
-        <e><p><l>trèmere<s n="vblex"/></l><r>tremare<s n="vblex"/></r></p></e>
-        <e><p><l>trau<s n="n"/><s n="m"/></l><r>toro<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>trasparèntzia<s n="n"/><s n="f"/></l><r>trasparenza<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>traitoriu<s n="adj"/></l><r>traditore<s n="adj"/></r></p></e>
-        <e><p><l>trainu<s n="n"/><s n="m"/></l><r>traino<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tragiare<s n="vblex"/></l><r>trainare<s n="vblex"/></r></p></e>
-        <e><p><l>tràfigu<s n="n"/><s n="m"/></l><r>trafico<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tràficu<s n="n"/><s n="m"/></l><r>trafico<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>tòrchere<s n="vblex"/></l><r>torcere<s n="vblex"/></r></p></e>
-        <e><p><l>tira<s n="n"/><s n="f"/></l><r>tira<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>timore<s n="n"/><s n="m"/></l><r>timore<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>teutònicu<s n="adj"/></l><r>teutonico<s n="adj"/></r></p></e>
-        <e><p><l>tèssere<s n="vblex"/></l><r>tessere<s n="vblex"/></r></p></e>
-        <e><p><l>terteniesu<s n="adj"/></l><r>terteniese<s n="adj"/></r></p><par n="GD_mf"/></e>
-        <e><p><l>terrore<s n="n"/><s n="m"/></l><r>terrore<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>terma<s n="n"/><s n="f"/></l><r>terma<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>terapia<s n="n"/><s n="f"/></l><r>terapia<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>tenente<s n="n"/><s n="m"/></l><r>tenente<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>templare<s n="n"/><s n="m"/></l><r>templare<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>taurinu<s n="adj"/></l><r>taurino<s n="adj"/></r></p></e>
-        <e><p><l>Tanu<s n="np"/><s n="ant"/><s n="m"/></l><r>Tanu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-        <e><p><l>tana<s n="n"/><s n="f"/></l><r>tana<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>tambare<s n="vblex"/></l><r>tentennare<s n="vblex"/></r></p></e>
-        <e><p><l>tabella<s n="n"/><s n="f"/></l><r>tabella<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>sutana<s n="n"/><s n="f"/></l><r>sottana<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>sutamissu<s n="adj"/></l><r>suttomesso<s n="adj"/></r></p></e>
-        <e><p><l>sustantziare<s n="vblex"/></l><r>sostanziare<s n="vblex"/></r></p></e>
-        <e><p><l>suspirare<s n="vblex"/></l><r>sospirare<s n="vblex"/></r></p></e>
-        <e><p><l>supressione<s n="n"/><s n="f"/></l><r>soppressione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>sugerire<s n="vblex"/></l><r>suggerire<s n="vblex"/></r></p></e>
-        <e><p><l>successivamente<s n="adv"/></l><r>successivamente<s n="adv"/></r></p></e>
-        <e><p><l>sub-regione<s n="n"/><s n="f"/></l><r>sub-regione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>sotziolinguìstica<s n="n"/><s n="f"/></l><r>sociolinguistica<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>solianu<s n="adj"/></l><r>soleggiato<s n="adj"/></r></p></e>
-        <e><p><l>sintzeridade<s n="n"/><s n="f"/></l><r>sincerità<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>sigunda<s n="n"/><s n="f"/></l><r>segunda<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>signalatzione<s n="n"/><s n="f"/></l><r>segnalazione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>sighidore<s n="n"/></l><r>seguace<s n="n"/></r></p></e>
-        <e><p><l>sighidore<s n="adj"/></l><r>seguitore<s n="adj"/></r></p></e>
-        <e><p><l>siddare<s n="vblex"/></l><r>combaciare<s n="vblex"/></r></p></e>
-        <e><p><l>seru<s n="n"/><s n="m"/></l><r>sero<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>serbatoju<s n="n"/><s n="m"/></l><r>serbatoio<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>semìticu<s n="adj"/></l><r>semitico<s n="adj"/></r></p></e>
-        <e><p><l>semestre<s n="n"/><s n="m"/></l><r>semestre<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>secuèntzia<s n="n"/><s n="f"/></l><r>sequentza<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>satzerdote<s n="n"/><s n="m"/></l><r>sacerdote<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>sassu<s n="n"/><s n="m"/></l><r>sasso<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>santamaria<s n="n"/><s n="f"/></l><r>santamaria<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>salvu<s n="adj"/></l><r>salvo<s n="adj"/></r></p></e>
-        <e><p><l>salsu<s n="adj"/></l><r>salso<s n="adj"/></r></p></e>
-        <e><p><l>saligheresu<s n="adj"/></l><r>algherese<s n="adj"/></r></p><par n="GD_mf"/></e>
-        <e><p><l>salia<s n="n"/><s n="f"/></l><r>saliva<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>sacrificadu<s n="adj"/></l><r>sacrificato<s n="adj"/></r></p></e>
-        <e><p><l>sabiduria<s n="n"/><s n="f"/></l><r>saggezza<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>ruspare<s n="vblex"/></l><r>ruspare<s n="vblex"/></r></p></e>
-        <e><p><l>rùpere<s n="vblex"/></l><r>penetrare<s n="vblex"/></r></p></e>
-        <e><p><l>rosone<s n="n"/><s n="m"/></l><r>rosone<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>riunida<s n="n"/><s n="f"/></l><r>riunione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>riparare<s n="vblex"/></l><r>riparare<s n="vblex"/></r></p></e>
-        <e><p><l>ricamare<s n="vblex"/></l><r>ricamare<s n="vblex"/></r></p></e>
-        <e><p><l>retàngulu<s n="n"/><s n="m"/></l><r>rettangulu<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>resurretzione<s n="n"/><s n="f"/></l><r>resurrezione<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>respintu<s n="adj"/></l><r>respinto<s n="adj"/></r></p></e>
-        <e><p><l>resistente<s n="adj"/><s n="mf"/></l><r>resistente<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>remare<s n="vblex"/></l><r>remare<s n="vblex"/></r></p></e>
-        <e><p><l>reguladore<s n="adj"/></l><r>regolatore<s n="adj"/></r></p></e>
-        <e><p><l>rèdditu<s n="n"/><s n="m"/></l><r>reddito<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>reconnoschente<s n="adj"/><s n="mf"/></l><r>riconoscente<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>reberde<s n="adj"/><s n="mf"/></l><r>ribelle<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>ratu<s n="adj"/></l><r>retificato<s n="adj"/></r></p></e>
-        <e><p><l>rallentare<s n="vblex"/></l><r>rallentare<s n="vblex"/></r></p></e>
-        <e><p><l>rajare<s n="vblex"/></l><r>raggiare<s n="vblex"/></r></p></e>
-        <e><p><l>raja<s n="n"/><s n="f"/></l><r>raggio<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>rafineria<s n="n"/><s n="f"/></l><r>raffineria<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>rafinare<s n="vblex"/></l><r>raffinare<s n="vblex"/></r></p></e>
-        <e><p><l>rafinadu<s n="adj"/></l><r>raffinadu<s n="adj"/></r></p></e>
-        <e><p><l>ràere<s n="vblex"/></l><r>radere<s n="vblex"/></r></p></e>
-        <e><p><l>racumandadu<s n="adj"/></l><r>raccomandato<s n="adj"/></r></p></e>
-        <e><p><l>racumandada<s n="n"/><s n="f"/></l><r>raccomandata<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>puntuale<s n="adj"/><s n="mf"/></l><r>puntuale<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>puma<s n="n"/><s n="f"/></l><r>puma<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>pubusa<s n="n"/><s n="f"/></l><r>carciofo<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>prudèntzia<s n="n"/><s n="f"/></l><r>prudenza<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>pròssimu<s n="adj"/></l><r>prossimo<s n="adj"/></r></p></e>
-        <e><p><l>propriamente<s n="adv"/></l><r>propriamente<s n="adv"/></r></p></e>
-        <e><p><l>proinosu<s n="adj"/></l><r>piovoso<s n="adj"/></r></p></e>
-        <e><p><l>profanare<s n="vblex"/></l><r>profanare<s n="vblex"/></r></p></e>
-        <e><p><l>primordiale<s n="adj"/><s n="mf"/></l><r>primordiale<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>prevalente<s n="adj"/><s n="mf"/></l><r>prevalente<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>presse<s n="n"/><s n="f"/></l><r>fretta<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>prerogativa<s n="n"/><s n="f"/></l><r>prerogativa<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>portadura<s n="n"/><s n="f"/></l><r>portatura<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>populosu<s n="adj"/></l><r>popoloso<s n="adj"/></r></p></e>
-        <e><p><l>polu<s n="n"/><s n="m"/></l><r>polo<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>polarizare<s n="vblex"/></l><r>polarizzare<s n="vblex"/></r></p></e>
-        <e><p><l>polare<s n="adj"/><s n="mf"/></l><r>polare<s n="adj"/><s n="mf"/></r></p></e>
-        <e><p><l>poddigare<s n="vblex"/></l><r>toccare<s n="vblex"/></r></p></e>
-        <e><p><l>poberesa<s n="n"/><s n="f"/></l><r>povertà<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>planisferu<s n="n"/><s n="m"/></l><r>planisfero<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>piscina<s n="n"/><s n="f"/></l><r>piscina<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>pisciare<s n="vblex"/></l><r>pisciare<s n="vblex"/></r></p></e>
-        <e><p><l>pintirinare<s n="vblex"/></l><r>chiazzare<s n="vblex"/></r></p></e>
-        <e><p><l>pintirinadu<s n="adj"/></l><r>chiazzato<s n="adj"/></r></p></e>
-        <e><p><l>pinneta<s n="n"/><s n="f"/></l><r>pineta<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>pilastru<s n="n"/><s n="m"/></l><r>pilastro<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>piedade<s n="n"/><s n="f"/></l><r>pietà<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>picadu<s n="adj"/></l><r>preso<s n="adj"/></r></p></e>
-        <e><p><l>pianista<s n="n"/><s n="mf"/></l><r>pianista<s n="n"/><s n="mf"/></r></p></e>
-        <e><p><l>petroliera<s n="n"/><s n="f"/></l><r>petroliera<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>pestilèntzia<s n="n"/><s n="f"/></l><r>pestilenza<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>persighidu<s n="adj"/></l><r>perseguito<s n="adj"/></r></p></e>
-        <e><p><l>perifèricu<s n="adj"/></l><r>periferico<s n="adj"/></r></p></e>
-        <e><p><l>pergamena<s n="n"/><s n="f"/></l><r>pergamena<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>perfetamente<s n="adv"/></l><r>perfettamente<s n="adv"/></r></p></e>
-        <e><p><l>pensadore<s n="n"/><s n="m"/></l><r>pensatore<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>pensadore<s n="adj"/></l><r>pensadore<s n="adj"/></r></p></e>
-        <e><p><l>penitèntzia<s n="n"/><s n="f"/></l><r>penitenza<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>pavimentu<s n="n"/><s n="m"/></l><r>pavimento<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>paurare<s n="vblex"/></l><r>temere<s n="vblex"/></r></p></e>
-        <e><p><l>paura<s n="n"/><s n="f"/></l><r>paura<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>patologia<s n="n"/><s n="f"/></l><r>patologia<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>passigiare<s n="vblex"/></l><r>passeggiare<s n="vblex"/></r></p></e>
-        <e><p><l>paristoriare<s n="vblex"/></l><r>raccontare<s n="vblex"/></r></p></e>
-        <e><p><l>paristòria<s n="n"/><s n="f"/></l><r>novella<s n="n"/><s n="f"/></r></p></e>
-        <e><p><l>pariginu<s n="adj"/></l><r>parigino<s n="adj"/></r></p></e>
-        <e><p><l>pariginu<s n="n"/></l><r>parigino<s n="n"/></r></p></e>
-        <e><p><l>panu<s n="adj"/></l><r>panno<s n="adj"/></r></p></e>
-        <e><p><l>padronu<s n="n"/><s n="m"/></l><r>padrone<s n="n"/></r></p></e>
-        <e><p><l>oscuru<s n="adj"/></l><r>@oscuru<s n="adj"/></r></p></e>
-        <e><p><l>ortigu<s n="n"/><s n="m"/></l><r>sughero<s n="n"/><s n="m"/></r></p></e>
-        <e><p><l>oroteddesu<s n="adj"/></l><r>orotellese<s n="adj"/></r></p><par n="GD_mf"/></e>
-        <e><p><l>originalidade<s n="n"/><s n="f"/></l><r>originalità<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>chitu<s n="adj"/></l>                  <r>rifatto<s n="adj"/></r></p></e>
+<e>       <p><l>chitire<s n="vblex"/></l>              <r>rifare<s n="vblex"/></r></p></e>
+<e>       <p><l>chitare<s n="vblex"/></l>              <r>rifare<s n="vblex"/></r></p></e>
+<e>       <p><l>chistionu<s n="n"/><s n="m"/></l>      <r>discorso<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>china<s n="n"/><s n="f"/></l>          <r>china<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>carovana<s n="n"/><s n="f"/></l>       <r>carovana<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>càrculu<s n="n"/><s n="m"/></l>        <r>calculo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>carbonare<s n="vblex"/></l>            <r>carbonare<s n="vblex"/></r></p></e>
+<e>       <p><l>caratzare<s n="vblex"/></l>            <r>velare<s n="vblex"/></r></p></e>
+<e>       <p><l>caraìbicu<s n="adj"/></l>              <r>caraibico<s n="adj"/></r></p></e>
+<e>       <p><l>cannonau<s n="n"/><s n="m"/></l>       <r>cannonau<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cannonare<s n="vblex"/></l>            <r>cannonare<s n="vblex"/></r></p></e>
+<e>       <p><l>camare<s n="vblex"/></l>               <r>mettere<g><b/>la<b/>musoliera</g><s n="vblex"/></r></p></e>
+<e>       <p><l>cadenita<s n="n"/><s n="f"/></l>       <r>catenella<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>branca<s n="n"/><s n="f"/></l>         <r>branca<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>bota<s n="n"/><s n="f"/></l>           <r>scarpone<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>biuda<s n="n"/><s n="f"/></l>          <r>vedova<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>beste<s n="n"/><s n="f"/></l>          <r>veste<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>bessare<s n="vblex"/></l>              <r>gettare<s n="vblex"/></r></p></e>
+<e>       <p><l>barra<s n="n"/><s n="f"/></l>          <r>mascella<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>barraca<s n="n"/><s n="f"/></l>        <r>baracca<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>bàrbaru<s n="n"/></l>                  <r>barbaro<s n="n"/></r></p></e>
+<e>       <p><l>balla<s n="n"/><s n="f"/></l>          <r>pallettone<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>baliosu<s n="adj"/></l>                <r>@baliosu<s n="adj"/></r></p></e>
+<e>       <p><l>atzetabilidade<s n="n"/><s n="f"/></l> <r>accettabilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>astradu<s n="adj"/></l>                <r>astratto<s n="adj"/></r></p></e>
+<e>       <p><l>asare<s n="vblex"/></l>                <r>munire<g><b/>d'anse</g><s n="vblex"/></r></p></e>
+<e>       <p><l>arruolare<s n="vblex"/></l>            <r>arruolare<s n="vblex"/></r></p></e>
+<e>       <p><l>arrubiare<s n="vblex"/></l>            <r>@arrubiare<s n="vblex"/></r></p></e>
+<e>       <p><l>arresonamentu<s n="n"/><s n="m"/></l>  <r>ragionamentu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>arratzare<s n="vblex"/></l>            <r>selezionare<s n="vblex"/></r></p></e>
+<e>       <p><l>arracadare<s n="vblex"/></l>           <r>mettere<g><b/>gli<b/>orecchini</g><s n="vblex"/></r></p></e>
+<e>       <p><l>arborare<s n="vblex"/></l>             <r>alberare<s n="vblex"/></r></p></e>
+<e>       <p><l>aparare<s n="vblex"/></l>              <r>parare<s n="vblex"/></r></p></e>
+<e>       <p><l>antigòriu<s n="n"/><s n="m"/></l>      <r>antichissimo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>angulare<s n="adj"/><s n="mf"/></l>    <r>angulare<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>amentu<s n="n"/><s n="m"/></l>         <r>ricordo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>allegrare<s n="vblex"/></l>            <r>rallegrare<s n="vblex"/></r></p></e>
+<e>       <p><l>alfabetizatzione<s n="n"/><s n="f"/></l><r>alfabetizzazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>adeguamentu<s n="adj"/></l>            <r>adeguamento<s n="adj"/></r></p></e>
+<e>       <p><l>abbistu<s n="adj"/></l>                <r>scaltro<s n="adj"/></r></p></e>
+<e>       <p><l>abbenenare<s n="vblex"/></l>           <r>avvelenare<s n="vblex"/></r></p></e>
+<e>       <p><l>vinculante<s n="adj"/><s n="mf"/></l>  <r>vinculante<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>ventura<s n="n"/><s n="f"/></l>        <r>avventura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>undada<s n="n"/><s n="f"/></l>         <r>ondata<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>umidare<s n="vblex"/></l>              <r>inumidire<s n="vblex"/></r></p></e>
+<e>       <p><l>tzinnu<s n="n"/><s n="m"/></l>         <r>cenno<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tzeleste<s n="n"/><s n="m"/></l>       <r>celeste<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tzarrada<s n="n"/><s n="f"/></l>       <r>chiacchierata<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tzapare<s n="vblex"/></l>              <r>rubare<s n="vblex"/></r></p></e>
+<e>       <p><l>tunnu<s n="n"/><s n="m"/></l>          <r>tonno<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tumbarinu<s n="n"/><s n="m"/></l>      <r>muretto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tulu<s n="n"/><s n="m"/></l>           <r>tulle<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>trotare<s n="vblex"/></l>              <r>trottare<s n="vblex"/></r></p></e>
+<e>       <p><l>trota<s n="n"/><s n="f"/></l>          <r>trota<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tribulare<s n="vblex"/></l>            <r>tribolare<s n="vblex"/></r></p></e>
+<e>       <p><l>trèmere<s n="vblex"/></l>              <r>tremare<s n="vblex"/></r></p></e>
+<e>       <p><l>trau<s n="n"/><s n="m"/></l>           <r>toro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>traitoriu<s n="adj"/></l>              <r>traditore<s n="adj"/></r></p></e>
+<e>       <p><l>tragiare<s n="vblex"/></l>             <r>trainare<s n="vblex"/></r></p></e>
+<e>       <p><l>tràfigu<s n="n"/><s n="m"/></l>        <r>trafico<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tràficu<s n="n"/><s n="m"/></l>        <r>trafico<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tòrchere<s n="vblex"/></l>             <r>torcere<s n="vblex"/></r></p></e>
+<e>       <p><l>tira<s n="n"/><s n="f"/></l>           <r>tira<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tèssere<s n="vblex"/></l>              <r>tessere<s n="vblex"/></r></p></e>
+<e>       <p><l>terteniesu<s n="adj"/></l>             <r>terteniese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>terma<s n="n"/><s n="f"/></l>          <r>terma<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>templare<s n="n"/><s n="m"/></l>       <r>templare<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>Tanu<s n="np"/><s n="ant"/><s n="m"/></l><r>Tanu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>tana<s n="n"/><s n="f"/></l>           <r>tana<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tambare<s n="vblex"/></l>              <r>tentennare<s n="vblex"/></r></p></e>
+<e>       <p><l>sutana<s n="n"/><s n="f"/></l>         <r>sottana<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sutamissu<s n="adj"/></l>              <r>suttomesso<s n="adj"/></r></p></e>
+<e>       <p><l>sustantziare<s n="vblex"/></l>         <r>sostanziare<s n="vblex"/></r></p></e>
+<e>       <p><l>suspirare<s n="vblex"/></l>            <r>sospirare<s n="vblex"/></r></p></e>
+<e>       <p><l>supressione<s n="n"/><s n="f"/></l>    <r>soppressione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sub-regione<s n="n"/><s n="f"/></l>    <r>sub-regione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sotziolinguìstica<s n="n"/><s n="f"/></l><r>sociolinguistica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>solianu<s n="adj"/></l>                <r>soleggiato<s n="adj"/></r></p></e>
+<e>       <p><l>sintzeridade<s n="n"/><s n="f"/></l>   <r>sincerità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>sigunda<s n="n"/><s n="f"/></l>        <r>segunda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>signalatzione<s n="n"/><s n="f"/></l>  <r>segnalazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sighidore<s n="n"/></l>                <r>seguace<s n="n"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>sighidore<s n="adj"/></l>              <r>seguitore<s n="adj"/></r></p></e>
+<e>       <p><l>siddare<s n="vblex"/></l>              <r>combaciare<s n="vblex"/></r></p></e>
+<e>       <p><l>seru<s n="n"/><s n="m"/></l>           <r>sero<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>serbatoju<s n="n"/><s n="m"/></l>      <r>serbatoio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>secuèntzia<s n="n"/><s n="f"/></l>     <r>sequentza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>santamaria<s n="n"/><s n="f"/></l>     <r>santamaria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>saligheresu<s n="adj"/></l>            <r>algherese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>salia<s n="n"/><s n="f"/></l>          <r>saliva<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sabiduria<s n="n"/><s n="f"/></l>      <r>saggezza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ruspare<s n="vblex"/></l>              <r>ruspare<s n="vblex"/></r></p></e>
+<e>       <p><l>rùpere<s n="vblex"/></l>               <r>penetrare<s n="vblex"/></r></p></e>
+<e>       <p><l>riunida<s n="n"/><s n="f"/></l>        <r>riunione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ricamare<s n="vblex"/></l>             <r>ricamare<s n="vblex"/></r></p></e>
+<e>       <p><l>retàngulu<s n="n"/><s n="m"/></l>      <r>rettangulu<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>resistente<s n="adj"/><s n="mf"/></l>  <r>resistente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>remare<s n="vblex"/></l>               <r>remare<s n="vblex"/></r></p></e>
+<e>       <p><l>reguladore<s n="adj"/></l>             <r>regolatore<s n="adj"/></r></p></e>
+<e>       <p><l>reconnoschente<s n="adj"/><s n="mf"/></l><r>riconoscente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>reberde<s n="adj"/><s n="mf"/></l>     <r>ribelle<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>ratu<s n="adj"/></l>                   <r>retificato<s n="adj"/></r></p></e>
+<e>       <p><l>rajare<s n="vblex"/></l>               <r>raggiare<s n="vblex"/></r></p></e>
+<e>       <p><l>raja<s n="n"/><s n="f"/></l>           <r>raggio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>rafinare<s n="vblex"/></l>             <r>raffinare<s n="vblex"/></r></p></e>
+<e>       <p><l>rafinadu<s n="adj"/></l>               <r>raffinadu<s n="adj"/></r></p></e>
+<e>       <p><l>ràere<s n="vblex"/></l>                <r>radere<s n="vblex"/></r></p></e>
+<e>       <p><l>racumandadu<s n="adj"/></l>            <r>raccomandato<s n="adj"/></r></p></e>
+<e>       <p><l>racumandada<s n="n"/><s n="f"/></l>    <r>raccomandata<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>puntuale<s n="adj"/><s n="mf"/></l>    <r>puntuale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>puma<s n="n"/><s n="f"/></l>           <r>puma<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pubusa<s n="n"/><s n="f"/></l>         <r>carciofo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>proinosu<s n="adj"/></l>               <r>piovoso<s n="adj"/></r></p></e>
+<e>       <p><l>profanare<s n="vblex"/></l>            <r>profanare<s n="vblex"/></r></p></e>
+<e>       <p><l>primordiale<s n="adj"/><s n="mf"/></l> <r>primordiale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>prevalente<s n="adj"/><s n="mf"/></l>  <r>prevalente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>presse<s n="n"/><s n="f"/></l>         <r>fretta<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>portadura<s n="n"/><s n="f"/></l>      <r>portatura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>populosu<s n="adj"/></l>               <r>popoloso<s n="adj"/></r></p></e>
+<e>       <p><l>polare<s n="adj"/><s n="mf"/></l>      <r>polare<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>poddigare<s n="vblex"/></l>            <r>toccare<s n="vblex"/></r></p></e>
+<e>       <p><l>poberesa<s n="n"/><s n="f"/></l>       <r>povertà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>planisferu<s n="n"/><s n="m"/></l>     <r>planisfero<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pintirinare<s n="vblex"/></l>          <r>chiazzare<s n="vblex"/></r></p></e>
+<e>       <p><l>pintirinadu<s n="adj"/></l>            <r>chiazzato<s n="adj"/></r></p></e>
+<e>       <p><l>pinneta<s n="n"/><s n="f"/></l>        <r>pineta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>picadu<s n="adj"/></l>                 <r>preso<s n="adj"/></r></p></e>
+<e>       <p><l>petroliera<s n="n"/><s n="f"/></l>     <r>petroliera<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pestilèntzia<s n="n"/><s n="f"/></l>   <r>pestilenza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>persighidu<s n="adj"/></l>             <r>perseguito<s n="adj"/></r></p></e>
+<e>       <p><l>pergamena<s n="n"/><s n="f"/></l>      <r>pergamena<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>perfetamente<s n="adv"/></l>           <r>perfettamente<s n="adv"/></r></p></e>
+<e>       <p><l>pensadore<s n="adj"/></l>              <r>pensatore<s n="adj"/></r></p></e>
+<e>       <p><l>penitèntzia<s n="n"/><s n="f"/></l>    <r>penitenza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>paurare<s n="vblex"/></l>              <r>temere<s n="vblex"/></r></p></e>
+<e>       <p><l>passigiare<s n="vblex"/></l>           <r>passeggiare<s n="vblex"/></r></p></e>
+<e>       <p><l>paristoriare<s n="vblex"/></l>         <r>raccontare<s n="vblex"/></r></p></e>
+<e>       <p><l>paristòria<s n="n"/><s n="f"/></l>     <r>novella<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pariginu<s n="n"/></l>                 <r>parigino<s n="n"/></r></p></e>
+<e>       <p><l>panu<s n="adj"/></l>                   <r>panno<s n="adj"/></r></p></e>
+<e>       <p><l>padronu<s n="n"/><s n="m"/></l>        <r>padrone<s n="n"/></r></p></e>
+<e>       <p><l>oscuru<s n="adj"/></l>                 <r>@oscuru<s n="adj"/></r></p></e>
+<e>       <p><l>ortigu<s n="n"/><s n="m"/></l>         <r>sughero<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>oroteddesu<s n="adj"/></l>             <r>orotellese<s n="adj"/></r></p><par n="GD_mf"/></e>
+
+      <e><p><l>aparèntzia<s n="n"/><s n="f"/></l><r>apparenza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>difidèntzia<s n="n"/><s n="f"/></l><r>diffidenza<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>procònsole<s n="n"/><s n="m"/></l><r>proconsole<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>vitzecònsole<s n="n"/><s n="m"/></l><r>viceconsole<s n="n"/><s n="m"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
