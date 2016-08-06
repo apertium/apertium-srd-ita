@@ -225,6 +225,9 @@
        <cat-item lemma="che" tags="cnjsub"/>
        <cat-item lemma="che" tags="rel.an.*"/>
     </def-cat>
+    <def-cat n="di_nuovo">
+       <cat-item lemma="di nuovo" tags="adv"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -5354,6 +5357,29 @@
              <lit v="chi"/>
              </get-case-from>
              <lit-tag v="cnjsub"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verb + di-nuovo > torrare a + verb">
+       <pattern>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>

@@ -24099,6 +24099,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cantu<s n="cnjadv"/></l>          <r>quanto<s n="cnjadv"/></r></p></e>
 <e>       <p><l>intregu<s n="adj"/></l>           <r>integro<s n="adj"/></r></p></e>
 
+<e r="RL" c="pro forma (regule de traduzione)"><p><l>ancora<s n="adv"/></l><r>di<b/>nuovo<s n="adv"/></r></p></e>
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
