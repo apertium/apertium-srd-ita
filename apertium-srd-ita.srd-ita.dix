@@ -24106,6 +24106,24 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 
 <e>       <p><l>afortigare<s n="vblex"/></l>                 <r>munire<s n="vblex"/></r></p></e>
 
+      <e><p><l>discontinuidade<s n="n"/><s n="f"/></l><r>discontinuità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>plasma<s n="n"/><s n="m"/></l><r>plasma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>protoplasma<s n="n"/><s n="m"/></l><r>protoplasma<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>revisionismu<s n="n"/><s n="m"/></l><r>revisionismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>revisionista<s n="adj"/></l><r>revisionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>revisionìsticu<s n="adj"/></l><r>revisionistico<s n="adj"/></r></p></e>
+      <e><p><l>subrannaturale<s n="adj"/></l><r>sovrannaturale<s n="adj"/></r></p></e>
+      <e><p><l>subrastante<s n="adj"/></l><r>sovrastante<s n="adj"/></r></p></e>
+      <e><p><l>tzitoplasma<s n="n"/><s n="m"/></l><r>citoplasma<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>banda<s n="n"/><s n="f"/></l><r>banda<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>interferèntzia<s n="n"/><s n="f"/></l><r>interferenza<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>subraintendente<s n="n"/><s n="m"/></l><r>sovraintendente<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>via<s n="adv"/></l><r>via<s n="adv"/></r></p></e>
+      <e r="RL"><p><l>revisionìsticu<s n="adj"/></l><r>revisionistico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>subrannaturale<s n="adj"/></l><r>sovrannaturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e r="RL"><p><l>subrastante<s n="adj"/></l><r>sovrastante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>videocònsole<s n="n"/><s n="f"/></l><r>videoconsole<s n="n"/><s n="f"/></r></p></e>
+
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
