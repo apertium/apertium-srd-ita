@@ -2319,7 +2319,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>assèntzia<s n="n"/><s n="f"/></l>      <r>assenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>assertzione<s n="n"/><s n="f"/></l>    <r>asserzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>assessoradu<s n="n"/><s n="m"/></l>    <r>assessorato<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>assessore<s n="n"/><s n="mf"/></l>     <r>assessore<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>assessore<s n="n"/></l>                <r>assessore<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>assessore<s n="n"/><s n="m"/></l>      <r>assessore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>assestadu<s n="adj"/></l>              <r>assestato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>assestadu<s n="adj"/></l>              <r>assestato<s n="adj"/><s n="sup"/></r></p></e>
@@ -11658,9 +11658,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>in<b/>manera<b/>intelletuale<s n="adv"/></l><r>intellettualmente<s n="adv"/></r></p></e>
 <e>       <p><l>intelligente<s n="n"/><s n="mf"/></l>  <r>intelligente<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>intelligente<s n="adj"/><s n="mf"/></l><r>intelligente<s n="adj"/><s n="mf"/></r></p></e>
-<e r="RL"><p><l>abistu<s n="adj"/></l>                 <r>intelligente<s n="adj"/><s n="sup"/></r></p></e>
+<e r="RL"><p><l>abbistu<s n="adj"/></l>                <r>intelligente<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>intelligente<s n="adj"/></l>           <r>intelligente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>abistu<s n="adj"/></l>                 <r>intelligente<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>abbistu<s n="adj"/></l>                <r>intelligente<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>in<b/>manera<b/>intelligente<s n="adv"/></l><r>intelligentemente<s n="adv"/></r></p></e>
 <e>       <p><l>abistesa<s n="n"/><s n="f"/></l>       <r>intelligenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>intellighèntzia<s n="n"/><s n="f"/></l><r>intelligenza<s n="n"/><s n="f"/></r></p></e>
@@ -24123,7 +24123,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>revisionìsticu<s n="adj"/></l><r>revisionistico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>subrannaturale<s n="adj"/></l><r>sovrannaturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>subrastante<s n="adj"/></l><r>sovrastante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>videocònsole<s n="n"/><s n="f"/></l><r>videoconsole<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>videocònsole<s n="n"/><s n="f"/></l><r>videoconsole<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
