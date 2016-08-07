@@ -6191,7 +6191,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>culturale<s n="adj"/></l>              <r>culturale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>culturale<s n="adj"/></l>              <r>culturale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>in<b/>manera<b/>culturale<s n="adv"/></l><r>culturalmente<s n="adv"/></r></p></e>
-<e>       <p><l>cumandante<s n="n"/><s n="m"/></l>     <r>cumandante<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumbinadu<s n="adj"/></l>              <r>cumbinato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>cumbinadu<s n="adj"/></l>              <r>cumbinato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>cumplessivu<s n="adj"/></l>            <r>cumplessivo<s n="adj"/></r></p></e>
@@ -13828,6 +13827,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Michelangelo<s n="np"/><s n="cog"/></l><r>Michelangelo<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Michele<s n="np"/><s n="ant"/><s n="m"/></l><r>Michele<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>mortale<s n="adj"/></l>                <r>micidiale<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mortale<s n="adj"/></l>                <r>micidiale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>microbiologia<s n="n"/><s n="f"/></l>  <r>microbiologia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>microbiològicu<s n="adj"/></l>         <r>microbiologico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>microbiològicu<s n="adj"/></l>         <r>microbiologico<s n="adj"/><s n="sup"/></r></p></e>
@@ -24095,8 +24095,13 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>procònsole<s n="n"/><s n="m"/></l><r>proconsole<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>vitzecònsole<s n="n"/><s n="m"/></l><r>viceconsole<s n="n"/><s n="m"/></r></p></e>
 
-<e>       <p><l>comente<b/>a<s n="cnjadv"/></l>        <r>come<s n="cnjadv"/></r></p></e>
-<e>       <p><l>canto<b/>a<s n="cnjadv"/></l>          <r>quanto<s n="cnjadv"/></r></p></e>
+<e>       <p><l>comente<s n="cnjadv"/></l>        <r>come<s n="cnjadv"/></r></p></e>
+<e>       <p><l>cantu<s n="cnjadv"/></l>          <r>quanto<s n="cnjadv"/></r></p></e>
+<e>       <p><l>intregu<s n="adj"/></l>           <r>integro<s n="adj"/></r></p></e>
+
+<e>       <p><l>de<b/>nou<s n="adv"/></l><r>di<b/>nuovo<s n="adv"/></r></p></e>
+
+<e>       <p><l>afortigare<s n="vblex"/></l>                 <r>munire<s n="vblex"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
