@@ -5067,6 +5067,7 @@
     </rule>
 
 
+<!--
     <rule comment="regla: su det > in det">
        <pattern>
          <pattern-item n="su"/>
@@ -5259,6 +5260,7 @@
          </out>
        </action>
     </rule>
+-->
 
 
     <rule comment="regla: quello che">

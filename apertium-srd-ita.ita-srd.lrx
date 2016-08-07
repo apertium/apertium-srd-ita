@@ -123,8 +123,20 @@
   <rule weight="1.0">
        <match tags="num.*"/>
     <match lemma="vite" tags="n.*"><select lemma="toronìlliu" tags="n.*"/></match>
-
   </rule>
+
+
+<!-- SU -->
+
+  <rule weight="1.0">
+       <match lemma="su" tags="pr"><select lemma="subra" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+       <match lemma="su" tags="pr"><select lemma="in" tags="pr"/></match>
+       <match tags="det.*"/>
+  </rule>
+
 
 </rules>
 

@@ -21237,8 +21237,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <!-- <e><p><l>umanare<s n="vblex"/></l><r>umanare<s n="vblex"/></r></p></e> -->
 <e>       <p><l>appetitare<s n="vblex"/></l>           <r>stuzzicare<s n="vblex"/></r></p></e>
 <e>       <p><l>petitu<s n="n"/><s n="m"/></l>         <r>stuzzichino<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>susu<s n="pr"/></l>                    <r>su<s n="pr"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>susu<s n="pr"/></l>  <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>subra<s n="pr"/></l>                   <r>su<s n="pr"/></r></p></e>
+<e>       <p><l>in<s n="pr"/></l>                      <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>susu<s n="adv"/></l>                   <r>su<s n="adv"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>in<b/>susu<s n="adv"/></l>             <r>su<s n="adv"/></r></p></e>
 <e>       <p><l>sub-saharianu<s n="n"/></l>            <r>sub-sahariano<s n="n"/></r></p></e>
