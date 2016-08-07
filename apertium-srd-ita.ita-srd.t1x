@@ -242,6 +242,9 @@
     <def-cat n="per">
        <cat-item lemma="per" tags="pr"/>
     </def-cat>
+    <def-cat n="su">
+       <cat-item lemma="su" tags="pr"/>
+    </def-cat>
     <def-cat n="tutto_predet">
        <cat-item lemma="tutto" tags="predet.*"/>
     </def-cat>
@@ -5057,6 +5060,200 @@
              <clip pos="3" side="tl" part="lemh"/>
              <clip pos="3" side="tl" part="tags"/>
              <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: su det > in det">
+       <pattern>
+         <pattern-item n="su"/>
+         <pattern-item n="det"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+
+         <out>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <lit v="in"/>
+             </get-case-from>
+             <lit-tag v="pr"/>
+           </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="d">
+             <tags>
+               <tag><lit-tag v="Sdet"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: su det nom > in det nom">
+       <pattern>
+         <pattern-item n="su"/>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="in_det_nom">
+             <tags>
+               <tag><lit-tag v="SPrep"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <lit v="in"/>
+             </get-case-from>
+             <lit-tag v="pr"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: su det nom adj > in det nom adj">
+       <pattern>
+         <pattern-item n="su"/>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <out>
+           <chunk name="in_det_nom_adj">
+             <tags>
+               <tag><lit-tag v="SPrep"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <lit v="in"/>
+             </get-case-from>
+             <lit-tag v="pr"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: su det adj nom > in det adj nom">
+       <pattern>
+         <pattern-item n="su"/>
+         <pattern-item n="det"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <chunk name="in_det_adj_nom">
+             <tags>
+               <tag><lit-tag v="SPrep"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <lit v="in"/>
+             </get-case-from>
+             <lit-tag v="pr"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>

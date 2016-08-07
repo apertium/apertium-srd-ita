@@ -212,11 +212,13 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>abbonadu<s n="n"/></l>                 <r>abbonato<s n="n"/></r></p></e>
 <e>       <p><l>abbonadu<s n="adj"/></l>               <r>abbonato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>abbonadu<s n="adj"/></l>               <r>abbonato<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>subrabundante<s n="adj"/></l>          <r>sovrabbondante<s n="adj"/></r></p></e>
 <e>       <p><l>abundante<s n="adj"/></l>              <r>abbondante<s n="adj"/></r></p></e>
 <e>       <p><l>bundante<s n="adj"/></l>               <r>abbondante<s n="adj"/></r></p></e>
 <e r="RL"><p><l>abundosu<s n="adj"/></l>               <r>abbondante<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>bundatziosu<s n="adj"/></l>            <r>abbondante<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>abundante<s n="adj"/></l>              <r>abbondante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>subrabundante<s n="adj"/></l>          <r>sovrabbondante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>bundante<s n="adj"/></l>               <r>abbondante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>abundosu<s n="adj"/></l>               <r>abbondante<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>bundatziosu<s n="adj"/></l>            <r>abbondante<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -20582,6 +20584,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>suprimidu<s n="adj"/></l>              <r>soppresso<s n="adj"/></r></p></e>
 <e>       <p><l>suprimire<s n="vblex"/></l>            <r>sopprimere<s n="vblex"/></r></p></e>
 <e>       <p><l>subra<s n="pr"/></l>                   <r>sopra<s n="pr"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>subra<b/>de<s n="pr"/></l>                   <r>sopra<s n="pr"/></r></p></e>
 <e>       <p><l>subra<s n="adv"/></l>                  <r>sopra<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>pitzu<s n="adv"/></l>             <r>sopra<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>subra<s n="adv"/></l>             <r>sopra<s n="adv"/></r></p></e>
@@ -21234,10 +21237,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <!-- <e><p><l>umanare<s n="vblex"/></l><r>umanare<s n="vblex"/></r></p></e> -->
 <e>       <p><l>appetitare<s n="vblex"/></l>           <r>stuzzicare<s n="vblex"/></r></p></e>
 <e>       <p><l>petitu<s n="n"/><s n="m"/></l>         <r>stuzzichino<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>susu<s n="pr"/></l>                    <r>su<s n="pr"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>susu<s n="pr"/></l>                    <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>subra<s n="pr"/></l>                   <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>susu<s n="adv"/></l>                   <r>su<s n="adv"/></r></p></e>
-<e>       <p><l>in<b/>susu<s n="adv"/></l>             <r>su<s n="adv"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>in<b/>susu<s n="adv"/></l>             <r>su<s n="adv"/></r></p></e>
 <e>       <p><l>sub-saharianu<s n="n"/></l>            <r>sub-sahariano<s n="n"/></r></p></e>
 <e>       <p><l>sub-saharianu<s n="adj"/></l>          <r>sub-sahariano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>sub-saharianu<s n="adj"/></l>          <r>sub-sahariano<s n="adj"/><s n="sup"/></r></p></e>
