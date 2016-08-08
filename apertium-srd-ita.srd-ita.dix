@@ -24129,6 +24129,20 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>subrastante<s n="adj"/></l><r>sovrastante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e><p><l>videocònsole<s n="n"/><s n="f"/></l><r>videoconsole<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 
+      <e><p><l>semiautomàticu<s n="adj"/></l><r>semiautomatico<s n="adj"/></r></p></e>
+      <e><p><l>semidesertu<s n="adj"/></l><r>semideserto<s n="adj"/></r></p></e>
+      <e><p><l>semifinale<s n="adj"/></l><r>semifinale<s n="adj"/></r></p></e>
+      <e><p><l>semilìberu<s n="n"/><s n="m"/></l><r>semilibero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>seminudu<s n="adj"/></l><r>seminudo<s n="adj"/></r></p></e>
+      <e><p><l>semioscuridade<s n="n"/><s n="f"/></l><r>semioscurità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>semisèriu<s n="adj"/></l><r>semiserio<s n="adj"/></r></p></e>
+      <e><p><l>semispontàneu<s n="adj"/></l><r>semispontaneo<s n="adj"/></r></p></e>
+      <e><p><l>semitonu<s n="n"/><s n="m"/></l><r>semitono<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>semiautomàticu<s n="adj"/></l><r>semiautomatico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>semidesertu<s n="adj"/></l><r>semideserto<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>seminudu<s n="adj"/></l><r>seminudo<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>semispontàneu<s n="adj"/></l><r>semispontaneo<s n="adj"/><s n="sup"/></r></p></e>
+
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
