@@ -7165,16 +7165,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>discùtere<s n="vblex"/></l>            <r>discutere<s n="vblex"/></r></p></e>
 <e>       <p><l>chistionare<s n="vblex"/></l>          <r>discutere<s n="vblex"/></r></p></e>
 <e>       <p><l>discutìbile<s n="adj"/></l>            <r>discutibile<s n="adj"/></r></p></e>
-
-<e>       <p><l>contizada<s n="n"/><s n="f"/></l>     <r>conteggio<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>rugrare<b/>cùccuros<s n="n"/><s n="f"/></l>     <r>scollinare<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>foradura<s n="n"/><s n="f"/></l>     <r>foratura<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>sanadore<s n="n"/><s n="f"/></l>     <r>guaritore<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>subrannaturale <s n="adj"/><s n="mf"/></l>     <r>soprannaturale<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>inèditu<s n="adj"/></l>     <r>inèditu<s n="adj"/></r></p></e>
-<e>       <p><l>pischecane<s n="n"/><s n="m"/></l>     <r>squalo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>affogare<s n="n"/><s n="f"/></l>     <r>annegare<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>pònnere<b/>a<b/>pare<s n="n"/><s n="f"/></l>     <r>assemblare<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>discutìbile<s n="adj"/></l>            <r>discutibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>disdeta<s n="n"/><s n="f"/></l>        <r>disdetta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>disdire<s n="vblex"/></l>              <r>disdire<s n="vblex"/></r></p></e>
@@ -24151,6 +24141,17 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>semidesertu<s n="adj"/></l><r>semideserto<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>seminudu<s n="adj"/></l><r>seminudo<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>semispontàneu<s n="adj"/></l><r>semispontaneo<s n="adj"/><s n="sup"/></r></p></e>
+
+<e>       <p><l>contizada<s n="n"/><s n="f"/></l>     <r>conteggio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>rugrare<g><b/>cùccuros</g><s n="vblex"/></l>     <r>scollinare<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>foradura<s n="n"/><s n="f"/></l>     <r>foratura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sanadore<s n="n"/></l>     <r>guaritore<s n="n"/></r></p></e>
+<e>       <p><l>subrannaturale<s n="adj"/><s n="mf"/></l>     <r>soprannaturale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>inèditu<s n="adj"/></l>     <r>inedito<s n="adj"/></r></p></e>
+<e>       <p><l>pischecane<s n="n"/><s n="m"/></l>     <r>squalo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>affogare<s n="vblex"/></l>     <r>annegare<s n="vblex"/></r></p></e>
+<e>       <p><l>pònnere<g><b/>a<b/>pare</g><s n="vblex"/></l>     <r>assemblare<s n="vblex"/></r></p></e>
+
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
