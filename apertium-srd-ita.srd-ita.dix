@@ -2297,6 +2297,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>assassinadu<s n="adj"/></l>            <r>assassinato<s n="adj"/></r></p></e>
 <e>       <p><l>mortore<s n="n"/><s n="m"/></l>        <r>assassino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>asse<s n="n"/><s n="m"/></l>           <r>asse<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>semiasse<s n="n"/><s n="m"/></l>       <r>semiasse<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>segundare<s n="vblex"/></l>            <r>assecondare<s n="vblex"/></r></p></e>
 <e>       <p><l>acometare<s n="vblex"/></l>            <r>assediare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>assediare<s n="vblex"/></l><r>assediare<s n="vblex"/></r></p></e>
@@ -18061,6 +18062,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ratzista<s n="adj"/></l>               <r>razzista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>re<s n="n"/><s n="f"/></l>             <r>re<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>re<s n="n"/><s n="m"/></l>             <r>re<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>vitzeré<s n="n"/><s n="f"/></l>        <r>viceré<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>vitzeré<s n="n"/><s n="m"/></l>        <r>viceré<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Rea<s n="np"/><s n="ant"/><s n="f"/></l><r>Rea<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>reagire<s n="vblex"/></l>              <r>reagire<s n="vblex"/></r></p></e>
 <e>       <p><l>reale<s n="adj"/></l>                  <r>reale<s n="adj"/></r></p></e>
@@ -20070,6 +20073,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>isfatu<s n="adj"/></l>                 <r>sfatto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>isfatu<s n="adj"/></l>                 <r>sfatto<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>isfera<s n="n"/><s n="f"/></l>         <r>sfera<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>semisfera<s n="n"/><s n="f"/></l>      <r>semisfera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>disafiu<s n="n"/><s n="m"/></l>        <r>sfida<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>isfida<s n="n"/><s n="f"/></l><r>sfida<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>disafiare<s n="vblex"/></l>            <r>sfidare<s n="vblex"/></r></p></e>

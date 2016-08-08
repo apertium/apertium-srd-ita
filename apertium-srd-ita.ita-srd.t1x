@@ -4978,6 +4978,7 @@
     </rule>
 
 
+<!-- regla lèxica
     <rule comment="regla: pp da (complement agent)">
        <pattern>
          <pattern-item n="pp"/>
@@ -5065,9 +5066,10 @@
          </out>
        </action>
     </rule>
+-->
 
 
-<!--
+<!-- regla lèxica
     <rule comment="regla: su det > in det">
        <pattern>
          <pattern-item n="su"/>

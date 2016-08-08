@@ -129,12 +129,28 @@
 <!-- SU -->
 
   <rule weight="1.0">
-       <match lemma="su" tags="pr"><select lemma="subra" tags="pr"/></match>
+     <match lemma="su" tags="pr"><select lemma="subra" tags="pr"/></match>
   </rule>
 
   <rule weight="1.0">
-       <match lemma="su" tags="pr"><select lemma="in" tags="pr"/></match>
-       <match tags="det.*"/>
+    <match lemma="su" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+  </rule>
+
+
+<!-- ESSERE DA -->
+
+  <rule weight="1.0">
+    <match lemma="essere" tags="vbser.*"/>
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
+
+<!-- PP DA -->
+
+  <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
 
 
