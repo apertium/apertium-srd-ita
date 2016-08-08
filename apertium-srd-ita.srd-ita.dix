@@ -11429,7 +11429,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>infinitesimale<s n="adj"/></l>         <r>infinitesimale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>infinitesimale<s n="adj"/></l>         <r>infinitesimale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>infinidu<s n="adj"/></l>               <r>infinito<s n="adj"/></r></p></e>
-<e>       <p><l>inèditu<s n="adj"/></l>                <r>infinito<s n="adj"/></r></p></e>
 <e>       <p><l>infinitu<s n="n"/></l>                 <r>infinito<s n="n"/></r></p></e>
 <e>       <p><l>infinitu<s n="adj"/></l>               <r>infinito<s n="adj"/></r></p></e>
 <e r="RL"><p><l>infinitu<s n="adj"/></l>               <r>infinito<s n="adj"/><s n="sup"/></r></p></e>
@@ -20598,7 +20597,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>abbutinare<s n="vblex"/></l>           <r>sopraffare<s n="vblex"/></r></p></e>
 <e>       <p><l>subrafàghere<s n="vblex"/></l>         <r>sopraffare<s n="vblex"/></r></p></e>
 <e>       <p><l>nomìngiu<s n="n"/><s n="m"/></l>       <r>soprannome<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>sopranu<s n="n"/><s n="m"/></l>        <r>soprano<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sopranu<s n="n"/><s n="f"/></l>        <r>soprano<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>massimamente<s n="adv"/></l>           <r>soprattutto<s n="adv"/></r></p></e>
 <e>       <p><l>mescamente<s n="adv"/></l>             <r>soprattutto<s n="adv"/></r></p></e>
 <e>       <p><l>sobrare<s n="vblex"/></l>              <r>sopravanzare<s n="vblex"/></r></p></e>
@@ -24142,16 +24141,60 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>seminudu<s n="adj"/></l><r>seminudo<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>semispontàneu<s n="adj"/></l><r>semispontaneo<s n="adj"/><s n="sup"/></r></p></e>
 
-<e>       <p><l>contizada<s n="n"/><s n="f"/></l>     <r>conteggio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>contitzada<s n="n"/><s n="f"/></l>     <r>conteggio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rugrare<g><b/>cùccuros</g><s n="vblex"/></l>     <r>scollinare<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>foradura<s n="n"/><s n="f"/></l>     <r>foratura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sanadore<s n="n"/></l>     <r>guaritore<s n="n"/></r></p></e>
 <e>       <p><l>subrannaturale<s n="adj"/><s n="mf"/></l>     <r>soprannaturale<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>inèditu<s n="adj"/></l>     <r>inedito<s n="adj"/></r></p></e>
 <e>       <p><l>pischecane<s n="n"/><s n="m"/></l>     <r>squalo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>affogare<s n="vblex"/></l>     <r>annegare<s n="vblex"/></r></p></e>
+<e>       <p><l>afogare<s n="vblex"/></l>     <r>annegare<s n="vblex"/></r></p></e>
 <e>       <p><l>pònnere<g><b/>a<b/>pare</g><s n="vblex"/></l>     <r>assemblare<s n="vblex"/></r></p></e>
+<e>       <p><l>inèditu<s n="adj"/></l>     <r>inedito<s n="adj"/></r></p></e>
 
+      <e><p><l>acùmulu<s n="n"/><s n="m"/></l><r>accumulo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>allògiu<s n="n"/><s n="m"/></l><r>alloggio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>aplàusu<s n="n"/><s n="m"/></l><r>applauso<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>avèrbiu<s n="n"/><s n="m"/></l><r>avverbio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>batèriu<s n="n"/><s n="m"/></l><r>batterio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>càtedra<s n="n"/><s n="f"/></l><r>cattedra<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>contradditòriu<s n="adj"/></l><r>contraddittorio<s n="adj"/></r></p></e>
+      <e><p><l>cùfia<s n="n"/><s n="f"/></l><r>cuffia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>datilògrafu<s n="n"/></l><r>dattilografo<s n="n"/></r></p></e>
+      <e><p><l>efìmeru<s n="adj"/></l><r>effimero<s n="adj"/></r></p></e>
+      <e><p><l>elicòteru<s n="n"/><s n="m"/></l><r>elicottero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>imballàgiu<s n="n"/><s n="m"/></l><r>imballaggio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ipopòtamu<s n="n"/><s n="m"/></l><r>ippopotamo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>lètone<s n="adj"/></l><r>lettone<s n="adj"/></r></p></e>
+      <e><p><l>lètone<s n="n"/><s n="mf"/></l><r>lettone<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>marìtimu<s n="adj"/></l><r>marittimo<s n="adj"/></r></p></e>
+      <e><p><l>òtimu<s n="adj"/></l><r>ottimo<s n="adj"/></r></p></e>
+      <e><p><l>parchègiu<s n="n"/><s n="m"/></l><r>parcheggio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>parègiu<s n="n"/><s n="m"/></l><r>pareggio<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>parròchia<s n="n"/><s n="f"/></l><r>parrocchia<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>pàtinu<s n="n"/><s n="m"/></l><r>pattino<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pìferu<s n="n"/><s n="m"/></l><r>piffero<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>pròvidu<s n="adj"/></l><r>provvido<s n="adj"/></r></p></e>
+      <e><p><l>rètile<s n="n"/><s n="m"/></l><r>rettile<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sègiu<s n="n"/><s n="m"/></l><r>seggio<s n="n"/><s n="m"/></r></p></e>
+      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>annegare<s n="vblex"/></l><r>annegare<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>classìfica<s n="n"/><s n="f"/></l><r>classifica<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>dovere<s n="n"/><s n="m"/></l><r>dovere<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>pèndere<s n="vblex"/></l><r>pendere<s n="vblex"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>plùrimu<s n="adj"/></l><r>plurimo<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>efìmeru<s n="adj"/></l><r>effimero<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>marìtimu<s n="adj"/></l><r>marittimo<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>òtimu<s n="adj"/></l><r>ottimo<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>plùrimu<s n="adj"/></l><r>plurimo<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>pròvidu<s n="adj"/></l><r>provvido<s n="adj"/><s n="sup"/></r></p></e>
+
+      <e><p><l>biochìmica<s n="n"/><s n="f"/></l><r>biochimica<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>biochìmicu<s n="adj"/></l><r>biochimico<s n="adj"/></r></p></e>
+      <e><p><l>biochìmicu<s n="n"/></l><r>biochimico<s n="n"/></r></p></e>
+      <e><p><l>petrolchìmica<s n="n"/><s n="f"/></l><r>petrolchimica<s n="n"/><s n="f"/></r></p></e>
+      <e r="RL"><p><l>biochìmicu<s n="adj"/></l><r>biochimico<s n="adj"/><s n="sup"/></r></p></e>
+      <e><p><l>animale<s n="adj"/></l><r>animale<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>animale<s n="adj"/></l><r>animale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>cuntzìliu<s n="n"/><s n="m"/></l><r>concilio<s n="n"/><s n="m"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
