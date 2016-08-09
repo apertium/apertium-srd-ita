@@ -737,6 +737,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>afarista<s n="n"/></l>                 <r>affarista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>atzisare<s n="vblex"/></l>             <r>affascinare<s n="vblex"/></r></p></e>
 <e>       <p><l>afirmare<s n="vblex"/></l>             <r>affermare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>afirmare</g><s n="vblex"/></l><r>riaffermare<s n="vblex"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>afermativa<s n="adv"/></l><r>affermativamente<s n="adv"/></r></p></e>
 <e>       <p><l>afermativu<s n="adj"/></l>             <r>affermativo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>afermativu<s n="adj"/></l>             <r>affermativo<s n="adj"/><s n="sup"/></r></p></e>
@@ -1400,6 +1401,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ismenda<s n="n"/><s n="f"/></l>        <r>ammenda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ammissu<s n="adj"/></l>                <r>ammesso<s n="adj"/></r></p></e>
 <e>       <p><l>ammìtere<s n="vblex"/></l>             <r>ammettere<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>ammìtere</g><s n="vblex"/></l><r>riammettere<s n="vblex"/></r></p></e>
 <e>       <p><l>Ammiano<s n="np"/><s n="ant"/><s n="m"/></l><r>Ammiano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>amministrare<s n="vblex"/></l>         <r>amministrare<s n="vblex"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>amministrativa<s n="adv"/></l><r>amministrativamente<s n="adv"/></r></p></e>
@@ -1837,6 +1839,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>aparente<s n="adj"/><s n="mf"/></l>    <r>apparente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>aparente<s n="adv"/></l><r>apparentemente<s n="adv"/></r></p></e>
 <e>       <p><l>apàrrere<s n="vblex"/></l>             <r>apparire<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>apàrrere</g><s n="vblex"/></l><r>riapparire<s n="vblex"/></r></p></e>
 <e>       <p><l>aparitzione<s n="n"/><s n="f"/></l>    <r>apparizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>apartamentu<s n="n"/><s n="m"/></l>    <r>appartamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>apartenèntzia<s n="n"/><s n="f"/></l>  <r>appartenenza<s n="n"/><s n="f"/></r></p></e>
@@ -1926,6 +1929,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>abrile<s n="n"/><s n="m"/></l>         <r>aprile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Aprile<s n="np"/><s n="cog"/></l>      <r>Aprile<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>abèrrere<s n="vblex"/></l>             <r>aprire<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>abèrrere</g><s n="vblex"/></l><r>riaprire<s n="vblex"/></r></p></e>
 <e>       <p><l>aprossimativu<s n="adj"/></l>          <r>aprossimativo<s n="adj"/></r></p></e>
 <e>       <p><l>àbbila<s n="n"/><s n="f"/></l>         <r>aquila<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Aquila<s n="np"/><s n="ant"/><s n="m"/></l><r>Aquila<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -2499,6 +2503,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>atitudine<s n="n"/><s n="f"/></l><r>attitudine<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>ativa<s n="adv"/></l>  <r>attivamente<s n="adv"/></r></p></e>
 <e>       <p><l>ativare<s n="vblex"/></l>              <r>attivare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>ativare</g><s n="vblex"/></l><r>riattivare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>ativizare<s n="vblex"/></l>            <r>attivare<s n="vblex"/></r></p></e>
 <e>       <p><l>ativadu<s n="adj"/></l>                <r>attivato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ativadu<s n="adj"/></l>                <r>attivato<s n="adj"/><s n="sup"/></r></p></e>
@@ -4699,8 +4704,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>classitzismu<s n="n"/><s n="m"/></l>   <r>classicismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>classitzista<s n="n"/></l>             <r>classicista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>clàssicu<s n="adj"/></l>               <r>classico<s n="adj"/></r></p></e>
-<e>       <p><l>classificatzione<s n="n"/><s n="f"/></l><r>classificare<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>classificare<s n="vblex"/></l>         <r>classificare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>classificare</g><s n="vblex"/></l><r>riclassificare<s n="vblex"/></r></p></e>
 <e>       <p><l>classificatzione<s n="n"/><s n="f"/></l><r>classificazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Claude<s n="np"/><s n="ant"/><s n="m"/></l><r>Claude<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Claude<s n="np"/><s n="ant"/><s n="f"/></l><r>Claude<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -4846,6 +4851,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>collocamentu<s n="n"/><s n="m"/></l>   <r>collocamento<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>assentare<s n="vblex"/></l>            <r>collocare<s n="vblex"/></r></p></e>
 <e>       <p><l>collocare<s n="vblex"/></l>            <r>collocare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>collocare</g><s n="vblex"/></l><r>ricollocare<s n="vblex"/></r></p></e>
 <e>       <p><l>collocadu<s n="adj"/></l>              <r>collocato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>collocadu<s n="adj"/></l>              <r>collocato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>collocadore<s n="n"/></l>              <r>collocatore<s n="n"/></r></p></e>
@@ -15664,8 +15670,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>patzifista<s n="adj"/></l>             <r>pacifista<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>patzifista<s n="n"/></l>               <r>pacifista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>patzifista<s n="adj"/></l>             <r>pacifista<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>pacifista<s n="n"/></l><r>pacifista<s n="n"/></r></p><par n="mf_GD"/></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>pacifista<s n="adj"/></l><r>pacifista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>patzifismu<s n="n"/><s n="m"/></l>     <r>pacifismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Pacina<s n="np"/><s n="ant"/><s n="f"/></l><r>Pacina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Pacino<s n="np"/><s n="ant"/><s n="m"/></l><r>Pacino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>padanu<s n="adj"/></l>                 <r>padano<s n="adj"/></r></p></e>
@@ -22569,6 +22574,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>unilateralmente<s n="adv"/></l>        <r>unilateralmente<s n="adv"/></r></p></e>
 <e>       <p><l>unione<s n="n"/><s n="f"/></l>         <r>unione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Unione<b/>Soviètica<s n="np"/><s n="top"/><s n="f"/></l><r>Unione<b/>Sovietica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>Unione<b/>Europea<s n="np"/><s n="top"/><s n="f"/></l><r>Unione<b/>Europea<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>aunire<s n="vblex"/></l>               <r>unire<s n="vblex"/></r></p></e>
 <e>       <p><l>unire<s n="vblex"/></l>                <r>unire<s n="vblex"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>unida<s n="adv"/></l>  <r>unitamente<s n="adv"/></r></p></e>
