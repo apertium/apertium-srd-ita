@@ -261,10 +261,10 @@
        <cat-item lemma="così" tags="adv"/>
        <cat-item lemma="così" tags="preadv"/>
     </def-cat>
-    <def-cat n="come-cnjadv">
-       <cat-item lemma="come" tags="cnjadv"/>
+    <def-cat n="come-reladv">
+       <cat-item lemma="come" tags="rel.adv"/>
        <cat-item lemma="come" tags="adv.itg"/>	<!-- per agafar anàlisis equivocades -->
-       <cat-item lemma="come" tags="rel.adv"/>	<!-- per agafar anàlisis equivocades -->
+       <cat-item lemma="come" tags="cnjadv"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="tanto">
        <cat-item lemma="tanto" tags="adv"/>
@@ -5463,7 +5463,7 @@
        <pattern>
          <pattern-item n="così"/>
          <pattern-item n="adjec-adv"/>
-         <pattern-item n="come-cnjadv"/>
+         <pattern-item n="come-reladv"/>
        </pattern>
        <action>
          <call-macro n="f_concord1">
@@ -5482,13 +5482,54 @@
            <b pos="2"/>
            <lu>
              <get-case-from pos="3">
+             <lit v="comente a"/>
+             </get-case-from>
+             <lit-tag v="rel.adv"/>
+           </lu>
+<!--
+           <b/>
+           <lu>
+             <get-case-from pos="3">
+             <lit v="a"/>
+             </get-case-from>
+             <lit-tag v="pr"/>
+           </lu>
+-->
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+<!--
+    <rule comment="regla: adj/adv come > adj/adv comente a">
+       <pattern>
+         <pattern-item n="adjec-adv"/>
+         <pattern-item n="come-reladv"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="adj/adv-come">
+             <tags>
+               <tag><lit-tag v="SAdj"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <get-case-from pos="2">
              <lit v="comente"/>
              </get-case-from>
              <lit-tag v="cnjadv"/>
            </lu>
            <b/>
            <lu>
-             <get-case-from pos="3">
+             <get-case-from pos="2">
              <lit v="a"/>
              </get-case-from>
              <lit-tag v="pr"/>
@@ -5497,6 +5538,7 @@
          </out>
        </action>
     </rule>
+-->
 
     <rule comment="regla: tanto adj/adv quanto > adj/adv cantu a">
        <pattern>

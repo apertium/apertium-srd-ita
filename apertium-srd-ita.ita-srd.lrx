@@ -160,21 +160,17 @@
     <match lemma="di" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
 
-<!--
+<!-- no funciona la regla
   <rule weight="1.0">
      <or>
-       <match tags="vblex.pri.*"/>
-       <match tags="vblex.prs.*"/>
-       <match tags="vblex.pii.*"/>
-       <match tags="vblex.pis.*"/>
-       <match tags="vblex.imp.*"/>
-       <match tags="vblex.inf"/>
-       <match tags="vblex.ger"/>
+       <match lemma="dare" tags="vblex.*"/>
+       <match lemma="volere" tags="vblex.*"/>
+       <match lemma="mangiare" tags="vblex.*"/>
+       <match lemma="bere" tags="vblex.*"/>
      </or>
     <match lemma="di" tags="pr"><select lemma="_de" tags="pr"/></match>
   </rule>
 -->
-
 
 </rules>
 
