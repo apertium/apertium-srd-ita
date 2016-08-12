@@ -5878,6 +5878,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>currispostu<s n="adj"/></l>            <r>corrisposto<s n="adj"/></r></p></e>
 <e>       <p><l>abalorare<s n="vblex"/></l>            <r>corroborare<s n="vblex"/></r></p></e>
 <e>       <p><l>corròmpere<s n="vblex"/></l>           <r>corrompere<s n="vblex"/></r></p></e>
+<e>       <p><l>corrùmpere<s n="vblex"/></l>           <r>corrompere<s n="vblex"/></r></p></e>
 <e>       <p><l>corrosione<s n="n"/><s n="f"/></l>     <r>corrosione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>corrosivu<s n="adj"/></l>              <r>corrosivo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>corrosivu<s n="adj"/></l>              <r>corrosivo<s n="adj"/><s n="sup"/></r></p></e>
@@ -24290,7 +24291,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>sa<b/>prima<b/>borta<s n="adv"/></l> <r>per<b/>la<b/>prima<b/>volta<s n="adv"/></r></p></e>
 <e>       <p><l>sitiadu<s n="adj"/></l> <r>sito<s n="adj"/></r></p></e>
 <e>       <p><l>ogetu<s n="adj"/></l> <r>oggetto<s n="adj"/></r></p></e>
-<e>       <p><l>parinale<s n="adj"/></l> <r>pario<s n="adj"/></r></p></e>
+<e>       <p><l>parinale<s n="adj"/></l> <r>pario<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>aporrire<s n="vblex"/></l> <r>riportare<s n="vblex"/></r></p></e>
 <e>       <p><l>prìntzipe<s n="adj"/><s n="mf"/></l> <r>principe<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>materiale<s n="adj"/><s n="mf"/></l> <r>materiale<s n="adj"/><s n="mf"/></r></p></e>
@@ -24338,7 +24339,6 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>gasi<b/>comente<s n="adv"/></l> <r>così<b/>come<s n="adv"/></r></p></e>
 <e>       <p><l>editore<s n="adj"/></l> <r>editore<s n="adj"/></r></p></e>
 <!-- <e>       <p><l>de<b/>giòvanu<s n="adj"/><s n="mf"/><b/>xxx</l> <r>giovanile<s n="adj"/><s n="mf"/></r></p></e> -->
-<e>       <p><l>giòvanu<s n="adj"/></l> <r>giovane<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>ispetàculu<s n="n"/><s n="m"/></l> <r>show<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e r="RL" c="non-preferred"><p><l>tzitade<s n="n"/><s n="m"/></l> <r>city<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>dae<b/>bivu<s n="n"/><s n="m"/><s n="sp"/></l> <r>live<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
@@ -24387,7 +24387,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>college<s n="n"/><s n="m"/></l> <r>college<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>universu<s n="adj"/></l> <r>universo<s n="adj"/></r></p></e>
 <e>       <p><l>de<b/>sa<b/>pàtria<s n="adj"/></l> <r>patrio<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
-<e>       <p><l>istrambesa<s n="n"/><s n="f"/></l> <r>eccentricità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e>       <p><l>istrambesa<s n="n"/><s n="f"/></l> <r>eccentricità<s n="n"/><s n="f"/><s n="sp"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>metal<s n="n"/><s n="m"/></l> <r>metal<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>TV<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l> <r>TV<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>giornaleddu<s n="n"/><s n="m"/></l> <r>fumetto<s n="n"/><s n="m"/></r></p></e>
@@ -24537,7 +24537,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>sende<b/>chi<s n="adv"/></l> <r>benchè<s n="adv"/></r></p></e>
 <e>       <p><l>dae<b/>tando<s n="adv"/></l> <r>da<b/>allora<s n="adv"/></r></p></e>
 <e>       <p><l>de<b/>sighida<s n="adv"/></l> <r>di<b/>seguito<s n="adv"/></r></p></e>
-<e>       <p><l>pranura<s n="n"/></l> <r>pianura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pranura<s n="n"/><s n="f"/></l> <r>pianura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>junior<s n="adj"/></l> <r>junior<s n="adj"/></r></p></e>
 <e>       <p><l>junior<s n="n"/></l> <r>junior<s n="n"/></r></p></e>
 <e>       <p><l>senior<s n="adj"/></l> <r>senior<s n="adj"/></r></p></e>
@@ -24548,7 +24548,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>manga<s n="n"/><s n="m"/></l> <r>manga<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>vitze<s n="adj"/><s n="mf"/><s n="sp"/></l> <r>vice<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>big<s n="n"/><s n="f"/><s n="sp"/></l> <r>big<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e>       <p><l>de<b/>degh'annos<s n="adj"/><s n="mf"/></l> <r>decenne<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>de<b/>deghe<b/>annos<s n="adj"/><s n="mf"/></l> <r>decenne<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>disconnòschere<s n="vblex"/></l> <r>sconoscere<s n="vblex"/></r></p></e>
 <e>       <p><l>gama<s n="n"/></l> <r>gamma<s n="n"/></r></p></e>
 <e>       <p><l>artària<s n="n"/><s n="f"/></l> <r>altitudine<s n="n"/><s n="f"/></r></p></e>
@@ -24567,7 +24567,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>foto<s n="n"/><s n="f"/></l> <r>foto<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>cada<b/>annu<s n="adv"/></l> <r>ogni<b/>anno<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>càmbiu<s n="adv"/></l> <r>in<b/>cambio<s n="adv"/></r></p></e>
-<e>       <p><l>importante<s n="adj"/><s n="mf"/></l> <r>prestigioso<s n="adj"/></r></p></e>
+<e>       <p><l>importante<s n="adj"/><s n="mf"/></l> <r>prestigioso<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>carchidare<s n="vblex"/></l> <r>calciare<s n="vblex"/></r></p></e>
 <e>       <p><l>pallavolo<s n="n"/><s n="m"/></l> <r>pallavolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>uguale<s n="adv"/></l> <r>uguale<s n="adv"/></r></p></e>
@@ -24645,14 +24645,14 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>emittente<s n="adj"/><s n="mf"/></l> <r>emittente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>pèrdidu<s n="adj"/></l> <r>perduto<s n="adj"/></r></p></e>
 <e>       <p><l>audio<s n="n"/><s n="m"/></l> <r>audio<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>sarvesa<s n="n"/></l> <r>salvezza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sarvesa<s n="n"/><s n="f"/></l> <r>salvezza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>chi<b/>bessat<s n="adj"/><s n="mf"/></l> <r>versante<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>malàidu<s n="n"/><s n="m"/></l> <r>paziente<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>bubbulica<s n="n"/><s n="f"/></l> <r>bolla<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>dae<b/>segus<s n="adv"/></l> <r>indietro<s n="adv"/></r></p></e>
 <e>       <p><l>biagiadore<s n="adj"/></l> <r>viaggiatore<s n="adj"/></r></p></e>
 <e>       <p><l>home<s n="n"/><s n="f"/></l> <r>home<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>larganu<s n="adj"/></l> <r>distante<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>larganu<s n="adj"/></l> <r>distante<s n="adj"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>tzeràmico<s n="adj"/></l> <r>ceramico<s n="adj"/></r></p></e>
 <e>       <p><l>duettu<s n="n"/><s n="m"/></l> <r>duo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mortu<s n="n"/><s n="m"/></l> <r>cadavere<s n="n"/><s n="m"/></r></p></e>
@@ -24669,7 +24669,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>mustradu<s n="adj"/></l> <r>prospettivo<s n="adj"/></r></p></e>
 <e>       <p><l>oratòriu<s n="adj"/></l> <r>oratorio<s n="adj"/></r></p></e>
 <e>       <p><l>corporation<s n="n"/><s n="f"/></l> <r>corporation<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>baterista<s n="n"/></l> <r>batterista<s n="n"/></r></p></e>
+<e>       <p><l>baterista<s n="n"/></l> <r>batterista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>a<b/>s'annu<s n="adv"/></l> <r>all'anno<s n="adv"/></r></p></e>
 <e>       <p><l>istajonale<s n="adj"/><s n="mf"/></l> <r>stagionale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>videoclip<s n="n"/><s n="m"/></l> <r>videoclip<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
@@ -24702,6 +24702,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
       <e><p><l>Pokemon<s n="n"/><s n="m"/></l><r>Pokemon<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
       <e><p><l>Unesco<s n="np"/><s n="org"/><s n="f"/></l><r>Unesco<s n="np"/><s n="org"/><s n="f"/></r></p></e>
 
+<e>       <p><l>interrùmpere<s n="vblex"/></l>         <r>interrompere<s n="vblex"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>

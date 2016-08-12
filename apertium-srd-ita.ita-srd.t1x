@@ -227,6 +227,10 @@
     <def-cat n="adv">
        <cat-item tags="adv"/>
     </def-cat>
+    <def-cat n="adv-preadv">
+       <cat-item tags="adv"/>
+       <cat-item tags="preadv"/>
+    </def-cat>
     <def-cat n="rel">
        <cat-item tags="rel.*"/>
     </def-cat>
@@ -2416,6 +2420,46 @@
 
     </def-macro>      
 
+    <def-macro n="f_concord_carchi2" npar="2"> <!-- if the first member is "charchi" the second one must be in singular (if it is pl) -->
+      <choose>
+	<when> 
+	  <test>
+	    <and>
+	    <equal><clip pos="1" side="tl" part="lem"/><lit v="carchi"/></equal>
+	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	    </and>
+	  </test>
+	  <let><clip pos="2" side="tl" part="nbr"/> <lit-tag v="sg"/></let>
+	</when>
+      </choose>
+    </def-macro>      
+
+    <def-macro n="f_concord_carchi3" npar="3"> <!-- if the first member is "charchi" the others must be in singular (if they are pl) -->
+      <call-macro n="f_concord_carchi2">
+        <with-param pos="1"/>
+        <with-param pos="2"/>
+      </call-macro>
+      <call-macro n="f_concord_carchi2">
+        <with-param pos="1"/>
+        <with-param pos="3"/>
+      </call-macro>
+    </def-macro>      
+
+    <def-macro n="f_concord_carchi4" npar="4"> <!-- if the first member is "charchi" the others must be in singular (if they are pl) -->
+      <call-macro n="f_concord_carchi2">
+        <with-param pos="1"/>
+        <with-param pos="2"/>
+      </call-macro>
+      <call-macro n="f_concord_carchi2">
+        <with-param pos="1"/>
+        <with-param pos="3"/>
+      </call-macro>
+      <call-macro n="f_concord_carchi2">
+        <with-param pos="1"/>
+        <with-param pos="4"/>
+      </call-macro>
+    </def-macro>      
+
     <def-macro n="f_det_to_adj_pos1" npar="1">
       <let>
         <clip pos="1" side="tl" part="a_pos"/>
@@ -2633,6 +2677,10 @@
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
            <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
          </call-macro>
          <out>
            <chunk name="det_n">
@@ -3382,6 +3430,11 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
          </call-macro>
+         <call-macro n="f_concord_carchi3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
          <out>
            <chunk name="adjord_n">
              <tags>
@@ -3429,6 +3482,12 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
          <out>
@@ -3486,6 +3545,12 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_concord_carchi4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
          <out>
            <chunk name="det_adjord_n_adjpos">
              <tags>
@@ -3539,6 +3604,12 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
          <out>
@@ -3771,6 +3842,11 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
          </call-macro>
+         <call-macro n="f_concord_carchi3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
          <out>
            <chunk name="det_n_adj">
              <tags>
@@ -3819,6 +3895,11 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
          </call-macro>
+         <call-macro n="f_concord_carchi3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
 	  <let>
 	    <clip pos="3" side="tl" part="a_adj_sup"/>
 	    <lit-tag v="adj"/>
@@ -3855,6 +3936,128 @@
     </rule>
 
 
+    <rule comment="regla: det nom adv adjec">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <out>
+           <chunk name="det_n_adv_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+<!-- per alguna raó crea problemes en "una delle più grandi collezioni di pesci", però el corpus mostra que no soluciona problemes reals - ho deixo córrer
+    <rule comment="regla: det adv adjec nom">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi3">
+           <with-param pos="1"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <out>
+           <chunk name="det_adv_adj_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+-->
+
+
     <rule comment="regla: det nom adjec adjec">
        <pattern>
          <pattern-item n="det"/>
@@ -3879,6 +4082,12 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
          <out>
@@ -3939,6 +4148,12 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
 	  <let>
