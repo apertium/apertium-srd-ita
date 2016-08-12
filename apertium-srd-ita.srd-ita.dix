@@ -9,6 +9,7 @@
 apertium-dixtools format apertium-srd-ita.srd-ita.dix apertium-srd-ita.srd-ita.dix.new
 apertium-dixtools sort -ignorecase -alignBidix -stripEmptyLines -right -group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,prn_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD-pl_ND,mf-sp_ND,m-m_f-f,ND_pl apertium-srd-ita.srd-ita.dix.new apertium-srd-ita.srd-ita.dix.new2
 apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita.dix.new3
+apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 
 -->
 <dictionary>
@@ -1216,6 +1217,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>su<b/>nessi<s n="adv"/></l>       <r>almeno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>su<b/>mancu<s n="adv"/></l>       <r>almeno<s n="adv"/></r></p></e>
 <e>       <p><l>Almeria<s n="np"/><s n="ant"/><s n="f"/></l><r>Almeria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Auvèrnia<s n="np"/><s n="ant"/><s n="f"/></l><r>Alvernia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Costa<b/>Asula<s n="np"/><s n="ant"/><s n="f"/></l><r>Costa<b/>Azzurra<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Almerina<s n="np"/><s n="ant"/><s n="f"/></l><r>Almerina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Almerinda<s n="np"/><s n="ant"/><s n="f"/></l><r>Almerinda<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Almerino<s n="np"/><s n="ant"/><s n="m"/></l><r>Almerino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -1225,6 +1228,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Aloisio<s n="np"/><s n="ant"/><s n="m"/></l><r>Aloisio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Alperto<s n="np"/><s n="ant"/><s n="m"/></l><r>Alperto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Alpi<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Pirenei<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>alpinu<s n="adj"/></l>                 <r>alpino<s n="adj"/></r></p></e>
 <e r="RL"><p><l>alpinu<s n="adj"/></l>                 <r>alpino<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Alpinolo<s n="np"/><s n="ant"/><s n="m"/></l><r>Alpinolo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -1938,7 +1942,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Aquilina<s n="np"/><s n="ant"/><s n="f"/></l><r>Aquilina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Aquilino<s n="np"/><s n="ant"/><s n="m"/></l><r>Aquilino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>acuilone<s n="n"/><s n="m"/></l>       <r>aquilone<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>Aquitania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Aquitania<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Acuitania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Aquitania<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Aràbia<b/>Saudita<s n="np"/><s n="top"/><s n="f"/></l><r>Arabia<b/>Saudita<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>àrabu<s n="adj"/></l>                  <r>arabo<s n="adj"/></r></p></e>
 <e>       <p><l>àrabu<s n="n"/></l>                    <r>arabo<s n="n"/></r></p></e>
@@ -10814,6 +10818,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="!LSC"><p><l>su<b/>cale<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>il<b/>quale<s n="rel"/><s n="an"/><s n="GD"/><s n="pl"/></r></p></e>
 <e>       <p><l>su<b/>chi<s n="rel"/><s n="an"/></l>   <r>il<b/>quale<s n="rel"/><s n="an"/></r></p></e>
 <e r="LR" c="!LSC"><p><l>su<b/>chi<s n="rel"/><s n="an"/><s n="mf"/><s n="pl"/></l><r>il<b/>quale<s n="rel"/><s n="an"/><s n="GD"/><s n="pl"/></r></p></e>
+<e>       <p><l>in<b/>su<b/>cale<s n="rel"/><s n="an"/></l>  <r>nel<b/>quale<s n="rel"/><s n="an"/></r></p></e>
+<e>       <p><l>cun<b/>su<b/>cale<s n="rel"/><s n="an"/></l>  <r>col<b/>quale<s n="rel"/><s n="an"/></r></p></e>
 <e>       <p><l>Ilaria<s n="np"/><s n="ant"/><s n="f"/></l><r>Ilaria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Ilarina<s n="np"/><s n="ant"/><s n="f"/></l><r>Ilarina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Ilario<s n="np"/><s n="ant"/><s n="m"/></l><r>Ilario<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -11696,6 +11702,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>intellighèntzia<s n="n"/><s n="f"/></l><r>intelligenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>intendente<s n="n"/><s n="m"/></l>     <r>intendente<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumprèndere<s n="vblex"/></l>          <r>intendere<s n="vblex"/></r></p></e>
+<e>       <p><l>chèrrere<s n="vblex"/></l>             <r>intendere<s n="vblex"/></r></p></e>
 <e>       <p><l>intendimentu<s n="n"/><s n="m"/></l>   <r>intendimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>crispa<s n="adv"/></l> <r>intensamente<s n="adv"/></r></p></e>
 <e>       <p><l>intensidade<s n="n"/><s n="f"/></l>    <r>intensità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
@@ -13691,7 +13698,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Meloni<s n="np"/><s n="cog"/></l>      <r>Meloni<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Mema<s n="np"/><s n="ant"/><s n="f"/></l><r>Mema<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>membrana<s n="n"/><s n="f"/></l>       <r>membrana<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>membru<s n="n"/><s n="m"/></l>         <r>membro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>membru<s n="n"/><s n="m"/></l>         <r>membro<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>Memma<s n="np"/><s n="ant"/><s n="f"/></l><r>Memma<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Memmio<s n="np"/><s n="ant"/><s n="m"/></l><r>Memmio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>memoràbile<s n="adj"/></l>             <r>memorabile<s n="adj"/></r></p></e>
@@ -17529,7 +17536,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>acudire<s n="vblex"/></l>              <r>provenire<s n="vblex"/></r></p></e>
 <e>       <p><l>aprovetu<s n="n"/><s n="m"/></l>       <r>provento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>proventu<s n="n"/><s n="m"/></l>       <r>provento<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>Provenza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Provenza<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Proventza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Provenza<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>proventzale<s n="adj"/></l>            <r>provenzale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>proventzale<s n="adj"/></l>            <r>provenzale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -20406,6 +20412,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>islogare<s n="vblex"/></l>             <r>slogare<s n="vblex"/></r></p></e>
 <e>       <p><l>islogiare<s n="vblex"/></l>            <r>sloggiare<s n="vblex"/></r></p></e>
 <e>       <p><l>Islovàchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Slovacchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>cecoslovacu<s n="adj"/></l>               <r>cecoslovacco<s n="adj"/></r></p></e>
+<e>       <p><l>cecoslovacu<s n="n"/></l>                 <r>cecoslovacco<s n="n"/></r></p></e>
+<e r="RL"><p><l>cecoslovacu<s n="adj"/></l>               <r>cecoslovacco<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>islovacu<s n="adj"/></l>               <r>slovacco<s n="adj"/></r></p></e>
 <e>       <p><l>islovacu<s n="n"/></l>                 <r>slovacco<s n="n"/></r></p></e>
 <e r="RL"><p><l>islovacu<s n="adj"/></l>               <r>slovacco<s n="adj"/><s n="sup"/></r></p></e>
@@ -20601,7 +20610,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>summa<s n="n"/><s n="f"/></l>          <r>somma<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>massimamente<s n="adv"/></l>           <r>sommamente<s n="adv"/></r></p></e>
 <e>       <p><l>summamente<s n="adv"/></l>             <r>sommamente<s n="adv"/></r></p></e>
-<e>       <p><l>assumare<s n="vblex"/></l>             <r>sommare<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>assumare<s n="vblex"/></l>             <r>sommare<s n="vblex"/></r></p></e>
 <e>       <p><l>summare<s n="vblex"/></l>              <r>sommare<s n="vblex"/></r></p></e>
 <e>       <p><l>summatòria<s n="n"/><s n="f"/></l>     <r>sommatoria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sommergìbile<s n="n"/><s n="m"/></l>   <r>sommergibile<s n="n"/><s n="m"/></r></p></e>
@@ -24254,7 +24263,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>divenire<s n="vblex"/></l> <r>diventare<s n="vblex"/></r></p></e>
 <e>       <p><l>de<b/>sighida<s n="adv"/></l> <r>in<b/>seguito<s n="adv"/></r></p></e>
 <e>       <p><l>sutzèdere<s n="vblex"/></l> <r>succedere<s n="vblex"/></r></p></e>
-<e>       <p><l>don<s n="adj"/></l> <r>don<s n="adj"/></r></p></e>
+<e>       <p><l>don<s n="adj"/></l> <r>don<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e>       <p><l>cantu<s n="adj"/><s n="itg"/></l> <r>quanto<s n="adj"/><s n="itg"/></r></p></e>
 <e>       <p><l>resèssere<b/>a<s n="vblex"/></l> <r>riuscire<b/>a<s n="vblex"/></r></p></e>
 <e>       <p><l>tipu<s n="adj"/><s n="mf"/><s n="sp"/></l> <r>tipu<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -24332,9 +24341,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>giòvanu<s n="adj"/></l> <r>giovane<s n="adj"/><s n="mf"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>ispetàculu<s n="n"/><s n="m"/></l> <r>show<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e r="RL" c="non-preferred"><p><l>tzitade<s n="n"/><s n="m"/></l> <r>city<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>dae<b/>bivu><s n="m"/></l> <r>live<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dae<b/>bivu<s n="n"/><s n="m"/><s n="sp"/></l> <r>live<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>dae<b/>bivu<s n="adj"/><s n="mf"/><s n="sp"/></l> <r>live<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>fùndere<s n="vblex"/></l> <r>fondere<s n="vblex"/></r></p></e>
-<!-- <e>       <p><l>in<b/>sa<b/>cale<s n="rel"/><s n="adv"/><b/>xxx</l> <r>nel<b/>quale<s n="rel"/><s n="adv"/></r></p></e> -->
 <e>       <p><l>discogràficu<s n="adj"/></l> <r>discografico<s n="adj"/></r></p></e>
 <e>       <p><l>in<b/>direta<s n="adv"/></l> <r>in<b/>onda<s n="adv"/></r></p></e>
 <e>       <p><l>imbucada<s n="n"/><s n="f"/></l> <r>debutto<s n="n"/><s n="m"/></r></p></e>
@@ -24373,14 +24382,14 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>chi<b/>cuntenit<s n="adj"/><s n="mf"/></l> <r>contenente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>habitat<s n="n"/><s n="m"/></l> <r>habitat<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>fràbica<s n="n"/><s n="f"/></l> <r>basilico<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>UA<s n="n"/><s n="acr"/><s n="sg"/></l> <r>UA<s n="n"/><s n="acr"/><s n="sg"/></r></p></e>
+<e>       <p><l>UA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l> <r>UA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>proa<s n="n"/><s n="f"/></l> <r>test<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>college<s n="n"/><s n="m"/></l> <r>college<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>universu<s n="adj"/></l> <r>universo<s n="adj"/></r></p></e>
 <e>       <p><l>de<b/>sa<b/>pàtria<s n="adj"/></l> <r>patrio<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e>       <p><l>istrambesa<s n="n"/><s n="f"/></l> <r>eccentricità<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e>       <p><l>metal<s n="n"/><s n="m"/></l> <r>metal<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>TV<s n="n"/><s n="acr"/><s n="sg"/></l> <r>TV<s n="n"/><s n="acr"/><s n="sg"/></r></p></e>
+<e>       <p><l>TV<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l> <r>TV<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>giornaleddu<s n="n"/><s n="m"/></l> <r>fumetto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>chi<b/>currispondet<s n="adj"/><s n="mf"/></l> <r>corrispondente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>chi<b/>torrat<b/>a<b/>artziare<s n="adj"/><s n="mf"/></l> <r>risalente<s n="adj"/><s n="mf"/></r></p></e>
@@ -24530,19 +24539,22 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>de<b/>sighida<s n="adv"/></l> <r>di<b/>seguito<s n="adv"/></r></p></e>
 <e>       <p><l>pranura<s n="n"/></l> <r>pianura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>junior<s n="adj"/></l> <r>junior<s n="adj"/></r></p></e>
+<e>       <p><l>junior<s n="n"/></l> <r>junior<s n="n"/></r></p></e>
+<e>       <p><l>senior<s n="adj"/></l> <r>senior<s n="adj"/></r></p></e>
+<e>       <p><l>senior<s n="n"/></l> <r>senior<s n="n"/></r></p></e>
 <e>       <p><l>animale<s n="adj"/><s n="mf"/></l> <r>animale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>iscenegiadura<s n="n"/><s n="f"/></l> <r>sceneggiatura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>web<s n="n"/><s n="m"/></l> <r>web<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>manga<s n="n"/><s n="m"/></l> <r>manga<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>vitze<s n="adj"/><s n="mf"/><s n="sp"/></l> <r>vice<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>big<s n="n"/><s n="f"/><s n="sp"/></l> <r>big<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-<e>       <p><l>de<b/>degh'annos<s n="adj"/><s n="mf"/></l> <r>decenne<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>de<b/>degh'annos<s n="adj"/><s n="mf"/></l> <r>decenne<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>disconnòschere<s n="vblex"/></l> <r>sconoscere<s n="vblex"/></r></p></e>
 <e>       <p><l>gama<s n="n"/></l> <r>gamma<s n="n"/></r></p></e>
 <e>       <p><l>artària<s n="n"/><s n="f"/></l> <r>altitudine<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fòssile<s n="adj"/><s n="mf"/></l> <r>fossile<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>lìcuidu<s n="adj"/></l> <r>liquido<s n="adj"/></r></p></e>
-<e>       <p><l>de<b/>professionista<s n="adj"/><s n="mf"/></l> <r>professionistico<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
+<e>       <p><l>de<b/>professionista<s n="adj"/></l> <r>professionistico<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e>       <p><l>continente<s n="adj"/><s n="mf"/></l> <r>contenente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>bobina<s n="n"/></l> <r>bobina<s n="n"/></r></p></e>
 <e>       <p><l>fèrta<s n="n"/><s n="f"/></l> <r>infortunio<s n="n"/><s n="m"/></r></p></e>
@@ -24574,7 +24586,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tzìrculu<s n="n"/><s n="m"/></l> <r>circolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>marìtimu<s n="adj"/></l> <r>marittimo<s n="adj"/></r></p></e>
 <e>       <p><l>mìssile<s n="n"/><s n="m"/></l> <r>missile<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>satèllite<s n="adj"/><s n="m"/></l> <r>satellite<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>satèllite<s n="n"/><s n="m"/></l> <r>satellite<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>design<s n="n"/><s n="m"/></l> <r>design<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>molècula<s n="n"/></l> <r>molecola<s n="n"/></r></p></e>
 <e>       <p><l>irrugadore<s n="n"/><s n="m"/></l> <r>incrociatore<s n="n"/><s n="m"/></r></p></e>
@@ -24629,7 +24641,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>acarare<s n="vblex"/></l> <r>affacciare<s n="vblex"/></r></p></e>
 <e>       <p><l>musical<s n="n"/><s n="m"/></l> <r>musical<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>surbire<s n="vblex"/></l> <r>assorbire<s n="vblex"/></r></p></e>
-<e>       <p><l>sumare<s n="vblex"/></l> <r>assommare<s n="vblex"/></r></p></e>
+<e>       <p><l>assummare<s n="vblex"/></l> <r>assommare<s n="vblex"/></r></p></e>
 <e>       <p><l>emittente<s n="adj"/><s n="mf"/></l> <r>emittente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>pèrdidu<s n="adj"/></l> <r>perduto<s n="adj"/></r></p></e>
 <e>       <p><l>audio<s n="n"/><s n="m"/></l> <r>audio<s n="n"/><s n="m"/></r></p></e>
@@ -24641,7 +24653,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>biagiadore<s n="adj"/></l> <r>viaggiatore<s n="adj"/></r></p></e>
 <e>       <p><l>home<s n="n"/><s n="f"/></l> <r>home<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>larganu<s n="adj"/></l> <r>distante<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>tzeràmica<s n="adj"/></l> <r>ceramico<s n="adj"/></r></p></e>
+<e>       <p><l>tzeràmico<s n="adj"/></l> <r>ceramico<s n="adj"/></r></p></e>
 <e>       <p><l>duettu<s n="n"/><s n="m"/></l> <r>duo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mortu<s n="n"/><s n="m"/></l> <r>cadavere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>resumu<s n="n"/><s n="m"/></l> <r>sintesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
