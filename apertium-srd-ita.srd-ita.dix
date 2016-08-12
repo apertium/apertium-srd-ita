@@ -1844,6 +1844,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>in<b/>manera<b/>aparente<s n="adv"/></l><r>apparentemente<s n="adv"/></r></p></e>
 <e>       <p><l>apàrrere<s n="vblex"/></l>             <r>apparire<s n="vblex"/></r></p></e>
 <e>       <p><l>torrare<g><b/>a<b/>apàrrere</g><s n="vblex"/></l><r>riapparire<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>pònnere</g><s n="vblex"/></l><r>rimettere<s n="vblex"/></r></p></e>
 <e>       <p><l>aparitzione<s n="n"/><s n="f"/></l>    <r>apparizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>apartamentu<s n="n"/><s n="m"/></l>    <r>appartamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>apartenèntzia<s n="n"/><s n="f"/></l>  <r>appartenenza<s n="n"/><s n="f"/></r></p></e>
@@ -2989,6 +2990,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Basilisco<s n="np"/><s n="ant"/><s n="m"/></l><r>Basilisco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Basilissa<s n="np"/><s n="ant"/><s n="f"/></l><r>Basilissa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Basilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Basilla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>basket<s n="n"/><s n="m"/></l>     <r>basket<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>basketball<s n="n"/><s n="m"/></l>     <r>basketball<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Basolo<s n="np"/><s n="ant"/><s n="m"/></l><r>Basolo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Bassa<s n="np"/><s n="ant"/><s n="f"/></l><r>Bassa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -7201,6 +7203,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>torrare<g><b/>a<b/>disegnare</g><s n="vblex"/></l><r>ridisegnare<s n="vblex"/></r></p></e>
 <e>       <p><l>torrare<g><b/>a<b/>disignare</g><s n="vblex"/></l><r>ridisegnare<s n="vblex"/></r></p></e>
 <e>       <p><l>torrare<g><b/>a<b/>disinnare</g><s n="vblex"/></l><r>ridisegnare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>sètzere</g><s n="vblex"/></l><r>risedere<s n="vblex"/></r></p></e>
 <e>       <p><l>disegnadore<s n="n"/></l>              <r>disegnatore<s n="n"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>disignu<s n="n"/><s n="m"/></l>        <r>disegno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>disinnu<s n="n"/><s n="m"/></l>        <r>disegno<s n="n"/><s n="m"/></r></p></e>
@@ -8784,6 +8787,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>dòlere<s n="vblex"/></l>               <r>fare<g><b/>male</g><s n="vblex"/></r></p></e>
 <e>       <p><l>umbrare<s n="vblex"/></l>              <r>fare<g><b/>ombra</g><s n="vblex"/></r></p></e>
 <e>       <p><l>fàghere<g><b/>parte</g><s n="vblex"/></l><r>fare<g><b/>parte</g><s n="vblex"/></r></p></e>
+<e>       <p><l>fàghere<g><b/>a<b/>gara</g><s n="vblex"/></l><r>gareggiare<s n="vblex"/></r></p></e>
 <e>       <p><l>poetare<s n="vblex"/></l>              <r>fare<g><b/>poesie</g><s n="vblex"/></r></p></e>
 <e>       <p><l>pitzinnare<s n="vblex"/></l>           <r>fare<g><b/>una<b/>ragazzata</g><s n="vblex"/></r></p></e>
 <e>       <p><l>mariposa<s n="n"/><s n="f"/></l>       <r>farfalla<s n="n"/><s n="f"/></r></p></e>
@@ -16077,7 +16081,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e r="RL"><p><l>patològicu<s n="adj"/></l>             <r>patologico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>patòlogu<s n="n"/></l>                 <r>patologo<s n="n"/></r></p></e>
 <e>       <p><l>pàtria<s n="n"/><s n="f"/></l>         <r>patria<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>patriarca<s n="n"/><s n="m"/></l>      <r>patriarca<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>patriarca<s n="n"/><s n="mf"/></l>     <r>patriarca<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>patriarcale<s n="adj"/></l>            <r>patriarcale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>patriarcale<s n="adj"/></l>            <r>patriarcale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>patrimoniale<s n="adj"/></l>           <r>patrimoniale<s n="adj"/></r></p></e>
@@ -24209,6 +24213,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>pischecane<s n="n"/><s n="m"/></l>     <r>squalo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>afogare<s n="vblex"/></l>     <r>annegare<s n="vblex"/></r></p></e>
 <e>       <p><l>pònnere<g><b/>a<b/>pare</g><s n="vblex"/></l>     <r>assemblare<s n="vblex"/></r></p></e>
+<e>       <p><l>pònnere<g><b/>a<b/>pare</g><s n="vblex"/></l>     <r>confluire<s n="vblex"/></r></p></e>
 <e>       <p><l>inèditu<s n="adj"/></l>     <r>inedito<s n="adj"/></r></p></e>
 
       <e><p><l>acùmulu<s n="n"/><s n="m"/></l><r>accumulo<s n="n"/><s n="m"/></r></p></e>
