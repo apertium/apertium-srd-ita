@@ -7,7 +7,7 @@
 	Paradigms: 11
 	Last processed by: apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita.dix.new3
 apertium-dixtools format apertium-srd-ita.srd-ita.dix apertium-srd-ita.srd-ita.dix.new
-apertium-dixtools sort -ignorecase -alignBidix -stripEmptyLines -right -group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,prn_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD-pl_ND,mf-sp_ND,m-m_f-f,ND_pl apertium-srd-ita.srd-ita.dix.new apertium-srd-ita.srd-ita.dix.new2
+apertium-dixtools sort -ignorecase -alignBidix -stripEmptyLines -right -group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,prn_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,pl_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD-pl_ND,mf-sp_ND,m-m_f-f,ND_pl apertium-srd-ita.srd-ita.dix.new apertium-srd-ita.srd-ita.dix.new2
 apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita.dix.new3
 apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 
@@ -76,11 +76,19 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
     <sdef n="rpar" 	c="Right parenthesis"/> 
     <sdef n="lquest" 	c="Left question mark"/> 
   </sdefs>
+
   <pardefs>
+
 <pardef n="sp_ND">
   <e r="LR"><p><l><s n="sp"/></l><r><s n="ND"/></r></p></e>
   <e r="RL"><p><l><s n="sp"/></l><r><s n="sg"/></r></p></e>
   <e r="RL"><p><l><s n="sp"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="pl_ND">
+  <e r="LR"><p><l><s n="pl"/></l><r><s n="ND"/></r></p></e>
+  <e r="RL"><p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="mf_GD">
@@ -4412,6 +4420,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e r="RL"><p><l>seguru<s n="adj"/></l>                 <r>certo<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>tzertu<s n="adj"/></l>                 <r>certo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>cherbeddu<s n="n"/><s n="m"/></l>      <r>cervello<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>cherbeddu<s n="n"/><s n="m"/><s n="pl"/></l>           <r>cervello<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>cherbu<s n="n"/><s n="m"/></l>         <r>cervo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Cesara<s n="np"/><s n="ant"/><s n="f"/></l><r>Cesara<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Cesare<s n="np"/><s n="ant"/><s n="m"/></l><r>Cesare<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -6635,7 +6644,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Delma<s n="np"/><s n="ant"/><s n="f"/></l><r>Delma<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Delmina<s n="np"/><s n="ant"/><s n="f"/></l><r>Delmina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Delmira<s n="np"/><s n="ant"/><s n="f"/></l><r>Delmira<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>delta<s n="n"/><s n="f"/></l>          <r>delta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>delta<s n="n"/><s n="m"/></l>          <r>delta<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>delùdere<s n="vblex"/></l>             <r>deludere<s n="vblex"/></r></p></e>
 <e>       <p><l>delusione<s n="n"/><s n="f"/></l>      <r>delusione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>delusu<s n="adj"/></l>                 <r>deluso<s n="adj"/></r></p></e>
@@ -15591,6 +15600,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>ossigenare<s n="vblex"/></l>           <r>ossigenare<s n="vblex"/></r></p></e>
 <e>       <p><l>ossìgenu<s n="n"/><s n="m"/></l>       <r>ossigeno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ossu<s n="n"/><s n="m"/></l>           <r>osso<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ossu<s n="n"/><s n="m"/><s n="pl"/></l>           <r>osso<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>ossutu<s n="adj"/></l>                 <r>ossuto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ossutu<s n="adj"/></l>                 <r>ossuto<s n="adj"/><s n="sup"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ossudu<s n="adj"/></l><r>ossuto<s n="adj"/></r></p></e>
@@ -24708,8 +24718,226 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
       <e><p><l>Unesco<s n="np"/><s n="org"/><s n="f"/></l><r>Unesco<s n="np"/><s n="org"/><s n="f"/></r></p></e>
 
 <e>       <p><l>interrùmpere<s n="vblex"/></l>         <r>interrompere<s n="vblex"/></r></p></e>
+<e>       <p><l>rinaschimentu<s n="n"/><s n="m"/></l>    <r>rinascimento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>rinfortzamentu<s n="n"/><s n="m"/></l>    <r>rinforzamento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>rinfortzu<s n="n"/><s n="m"/></l>    <r>rinforzo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>rinfortzare<s n="vblex"/></l>    <r>rinforzare<s n="vblex"/></r></p></e>
+
+<e>       <p><l>chi<b/>abarrat<s n="adj"/><s n="mf"/></l> <r>restante<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>torrare<b/>a<b/>rùghere<s n="vblex"/></l> <r>ricadere<s n="vblex"/></r></p></e>
+<e>       <p><l>de<b/>Napoleone<s n="adj"/></l> <r>napoleonico<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
+<e>       <p><l>de<b/>sutzessu<s n="adj"/><s n="mf"/><s n="sp"/></l> <r>di<b/>successo<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>màster<s n="n"/><s n="m"/></l> <r>master<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>a<b/>banda<s n="adv"/></l> <r>a<b/>parte<s n="adv"/></r></p></e>
+<e>       <p><l>sachizare<s n="vblex"/></l> <r>saccheggiare<s n="vblex"/></r></p></e>
+<e>       <p><l>pseudònimu<s n="adj"/></l> <r>pseudonimo<s n="adj"/></r></p></e>
+<e>       <p><l>ispetzializade<s n="n"/><s n="f"/></l> <r>specialità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>retangulare<s n="adj"/><s n="mf"/></l> <r>rettangolare<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>istampu<s n="n"/><s n="m"/></l> <r>foro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cumpàngiu<s n="n"/></l> <r>compagno<s n="n"/></r></p></e>
+<e>       <p><l>bit<s n="n"/><s n="m"/></l> <r>bit<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>byte<s n="n"/><s n="m"/></l> <r>byte<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>mecànicu<s n="n"/><s n="m"/></l> <r>meccanico<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>de<b/>linna<s n="adj"/></l> <r>ligneo<s n="adj"/></r></p></e>
+<e>       <p><l>bighinu<s n="adj"/><s n="mf"/></l> <r>adiacente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>chi<b/>cumprendet<s n="adj"/><s n="mf"/></l> <r>comprendente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>crèschere<s n="vblex"/></l> <r>incrementare<s n="vblex"/></r></p></e>
+<e>       <p><l>propulsore<s n="n"/><s n="m"/></l> <r>propulsore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pantasma<s n="n"/><s n="m"/></l> <r>fantasma<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>èssere<g><b/>a<b/>largu</g><s n="vbser"/></l> <r>distare<s n="vblex"/></r></p></e>
+<e>       <p><l>a<b/>beru<s n="adv"/></l> <r>in<b/>effetti<s n="adv"/></r></p></e>
+<e>       <p><l>hit<s n="n"/><s n="m"/></l> <r>hit<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>binchidore<s n="adj"/><s n="mf"/></l> <r>vincente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>iscì<s n="n"/><s n="m"/></l> <r>sci<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>cun<b/>sutzessu<s n="adv"/></l> <r>con<b/>successo<s n="adv"/></r></p></e>
+<e>       <p><l>achirire<s n="vblex"/></l> <r>incorporare<s n="vblex"/></r></p></e>
+<e>       <p><l>esageradu<s n="adj"/></l> <r>eccessivo<s n="adj"/></r></p></e>
+<e>       <p><l>arruinare<s n="vblex"/></l> <r>compromettere<s n="vblex"/></r></p></e>
+<e>       <p><l>atzentrare<s n="vblex"/></l> <r>incentrare<s n="vblex"/></r></p></e>
+<e>       <p><l>cunfirma<s n="n"/><s n="f"/></l> <r>conferma<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>larghesa<s n="n"/><s n="f"/></l> <r>larghezza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>de<b/>su<b/>Rinaschimentu<s n="adj"/><s n="mf"/></l> <r>rinascimentale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>network<s n="n"/><s n="m"/></l> <r>network<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="RL"><p><l>retze<b/>sotziale<s n="n"/><s n="f"/></l> <r>social<b/>network<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>aorare<s n="vblex"/></l> <r>dorare<s n="vblex"/></r></p></e>
+<e>       <p><l>tèrmicu<s n="adj"/></l> <r>termico<s n="adj"/></r></p></e>
+<e>       <p><l>onorare<s n="vblex"/></l> <r>insignire<s n="vblex"/></r></p></e>
+<e>       <p><l>isparègiu<s n="n"/><s n="m"/></l> <r>spareggio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>a<b/>sa<b/>die<s n="adv"/></l> <r>al<b/>giorno<s n="adv"/></r></p></e>
+<e>       <p><l>giustu<s n="adv"/></l> <r>giusto<s n="adv"/></r></p></e>
+<e>       <p><l>montagninu<s n="adj"/></l> <r>montuoso<s n="adj"/></r></p></e>
+<e>       <p><l>partner<s n="n"/><s n="mf"/></l> <r>partner<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>mudare<s n="vblex"/></l> <r>mutare<s n="vblex"/></r></p></e>
+<e>       <p><l>atràere<s n="vblex"/></l> <r>attrarre<s n="vblex"/></r></p></e>
+<e>       <p><l>isorvimentu<s n="n"/><s n="m"/></l> <r>scioglimento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>candidadura<s n="n"/><s n="f"/></l> <r>candidatura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sinònimu<s n="adj"/></l> <r>sinonimo<s n="adj"/></r></p></e>
+<e>       <p><l>online<s n="adj"/><s n="mf"/><s n="sp"/></l> <r>online<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>intertzetare<s n="vblex"/></l> <r>intercettare<s n="vblex"/></r></p></e>
+<e>       <p><l>bersàlliu<s n="n"/><s n="m"/></l> <r>bersaglio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>nominatzione<s n="n"/><s n="f"/></l> <r>nomination<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>assassinu<s n="adj"/></l> <r>assassino<s n="adj"/></r></p></e>
+<e>       <p><l>assassinu<s n="n"/></l> <r>assassino<s n="n"/></r></p></e>
+<e>       <p><l>surbile<s n="n"/><s n="m"/></l> <r>vampiro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>agiumai<s n="adv"/></l> <r>pressochè<s n="adv"/></r></p></e>
+<e>       <p><l>tzilindrara<s n="n"/><s n="f"/></l> <r>cilindrata<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>atacante<s n="adj"/><s n="mf"/></l> <r>attaccante<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>elicòteru<s n="n"/><s n="m"/></l> <r>elicottero<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>iscuderia<s n="n"/><s n="f"/></l> <r>scuderia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>làmina<s n="n"/><s n="f"/></l> <r>latta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>girl<s n="n"/><s n="f"/></l> <r>girl<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>mòrrere<s n="vblex"/></l> <r>decedere<s n="vblex"/></r></p></e>
+<e>       <p><l>tretu<s n="n"/><s n="m"/></l> <r>segmento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>afluente<s n="adj"/><s n="mf"/></l> <r>affluente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>dipendente<s n="n"/><s n="mf"/></l> <r>dipendente<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>pontìfitze<s n="n"/><s n="m"/></l> <r>pontefice<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>girare<s n="vblex"/></l> <r>ruotare<s n="vblex"/></r></p></e>
+<e>       <p><l>cadetu<s n="adj"/></l> <r>cadetto<s n="adj"/></r></p></e>
+<e>       <p><l>tabella<s n="n"/><s n="f"/></l> <r>tabellone<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pedrosu<s n="adj"/></l> <r>roccioso<s n="adj"/></r></p></e>
+<e>       <p><l>butega<s n="n"/><s n="f"/></l> <r>bottega<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>fantasy<s n="n"/><s n="m"/></l> <r>fantasy<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>origra<s n="n"/><s n="f"/></l> <r>orecchio<s n="n"/></r></p></e>
+<e>       <p><l>initziale<s n="n"/><s n="mf"/></l> <r>iniziale<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>frore<s n="n"/><s n="m"/></l> <r>fiore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>parèntesi<s n="n"/></l> <r>parentesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>raper<s n="n"/><s n="m"/></l> <r>rapper<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>bassista<s n="n"/><s n="mf"/></l> <r>bassista<s n="n"/><s n="GD"/></r></p></e>
+<e>       <p><l>vetore<s n="n"/><s n="m"/></l> <r>vettore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ufitziare<s n="vblex"/></l> <r>ufficiare<s n="vblex"/></r></p></e>
+<e>       <p><l>de<b/>duos<b/>annos<s n="adj"/><s n="mf"/></l> <r>biennale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>acasàgiu<s n="n"/><s n="m"/></l> <r>accoglienza<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>energèticu<s n="adj"/></l> <r>energetico<s n="adj"/></r></p></e>
+<e>       <p><l>armadura<s n="n"/><s n="f"/></l> <r>armatura<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>vangelu<s n="n"/><s n="m"/></l> <r>vangelo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>annànghere<s n="vblex"/></l> <r>apportare<s n="vblex"/></r></p></e>
+<e>       <p><l>termas<s n="n"/><s n="f"/><s n="sp"/></l> <r>terme<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e>       <p><l>staff<s n="n"/><s n="m"/></l> <r>staff<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>versare<s n="vblex"/></l> <r>sfociare<s n="vblex"/></r></p></e>
+<e>       <p><l>gay<s n="n"/><s n="mf"/><s n="sp"/></l> <r>gay<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>gay<s n="adj"/><s n="mf"/><s n="sp"/></l> <r>gay<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+<e>       <p><l>geek<s n="n"/><s n="mf"/></l> <r>geek<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>altura<s n="n"/><s n="f"/></l> <r>altopiano<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>de<b/>Pasca<s n="adj"/><s n="mf"/></l> <r>pasquale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>killer<s n="n"/><s n="mf"/></l> <r>killer<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>tzantziamentu<s n="n"/><s n="m"/></l> <r>piazzamento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ring<s n="n"/><s n="m"/></l> <r>ring<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>istafeta<s n="n"/><s n="f"/></l> <r>staffetta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>disamistade<s n="n"/><s n="f"/></l> <r>ostilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>Institute<s n="n"/><s n="m"/></l> <r>Institute<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>comente<b/>chi<s n="adv"/></l> <r>come<b/>se<s n="adv"/></r></p></e>
+<e>       <p><l>balla<s n="n"/><s n="f"/></l> <r>proiettile<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>grupu<b/>de<b/>tres<s n="n"/><s n="m"/></l> <r>trio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dimustratzione<s n="n"/><s n="f"/></l> <r>dimostrazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sommergìbile<s n="adj"/><s n="mf"/></l> <r>sommergibile<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>infetzione<s n="n"/><s n="f"/></l> <r>infezione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sutastante<s n="adj"/><s n="mf"/></l> <r>sottostante<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>cùcuru<s n="n"/><s n="m"/></l> <r>apice<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>patriarca<s n="n"/><s n="mf"/></l> <r>patriarca<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>matriarca<s n="n"/><s n="f"/></l> <r>matriarca<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>matriarcadu<s n="n"/><s n="m"/></l> <r>matriarcato<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>patriarcadu<s n="n"/><s n="m"/></l> <r>patriarcato<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mutire<s n="vblex"/></l> <r>contattare<s n="vblex"/></r></p></e>
+<e>       <p><l>istile<s n="n"/><s n="m"/></l> <r>stilo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cuntierrare<s n="vblex"/></l> <r>contendere<s n="vblex"/></r></p></e>
+<e>       <p><l>in<b/>su<b/>matessi<b/>tempus<s n="adv"/></l> <r>allo<b/>stesso<b/>tempo<s n="adv"/></r></p></e>
+<e>       <p><l>decretare<s n="vblex"/></l> <r>sancire<s n="vblex"/></r></p></e>
+<e>       <p><l>premier<s n="n"/><s n="mf"/></l> <r>premier<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>bratzu<s n="n"/><s n="m"/></l> <r>braccio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ossu<s n="n"/><s n="m"/></l> <r>reliquia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
+<e>       <p><l>primu<b/>fìgiu<s n="n"/><s n="m"/></l> <r>primogenito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bombardei<s n="n"/><s n="m"/></l> <r>bombardiere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>bonus<s n="n"/><s n="m"/></l> <r>bonus<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>iscumpassare<s n="vblex"/></l> <r>sormontare<s n="vblex"/></r></p></e>
+<e>       <p><l>in<b/>su<b/>matessi<b/>perìodu<s n="adv"/></l> <r>nello<b/>stesso<b/>periodo<s n="adv"/></r></p></e>
+<e>       <p><l>mine-sèrie<s n="n"/><s n="f"/></l> <r>miniserie<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>micro-regione<s n="n"/><s n="f"/></l> <r>microregione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>possessore<s n="n"/></l> <r>detentore<s n="n"/></r></p></e>
+<e>       <p><l>uniforme<s n="adj"/><s n="mf"/></l> <r>uniforme<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>currelare<s n="vblex"/></l> <r>correlare<s n="vblex"/></r></p></e>
+<e>       <p><l>vicàriu<s n="adj"/></l> <r>vicario<s n="adj"/></r></p></e>
+<e>       <p><l>in<b/>gherra<s n="adv"/></l> <r>in<b/>guerra<s n="adv"/></r></p></e>
+<e>       <p><l>finas<b/>a<b/>tando<s n="adv"/></l> <r>fino<b/>ad<b/>allora<s n="adv"/></r></p></e>
+<e>       <p><l>derrota<s n="n"/><s n="f"/></l> <r>crollo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>majàrgiu<s n="n"/></l> <r>stregone<s n="n"/></r></p></e>
+<e>       <p><l>server<s n="n"/><s n="m"/></l> <r>server<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>istrage<s n="n"/></l> <r>strage<s n="n"/></r></p></e>
+<e>       <p><l>chi<b/>esistit<s n="n"/><s n="mf"/></l> <r>esistente<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>a<b/>fortza<s n="adv"/></l> <r>di<b/>forza<s n="adv"/></r></p></e>
+<e>       <p><l>benedetinu<s n="adj"/></l> <r>benedettino<s n="adj"/></r></p></e>
+<e>       <p><l>super-copa<s n="n"/><s n="f"/></l> <r>supercoppa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>crusiera<s n="n"/><s n="f"/></l> <r>crociera<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>aterràgiu<s n="n"/><s n="m"/></l> <r>atterraggio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>rituale<s n="adj"/><s n="mf"/></l> <r>rituale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>fissu<s n="adv"/></l> <r>fisso<s n="adv"/></r></p></e>
+<e>       <p><l>dae<b/>tempus<s n="adv"/></l> <r>da<b/>tempo<s n="adv"/></r></p></e>
+<e>       <p><l>iscàrrigu<s n="adj"/></l> <r>scarico<s n="adj"/></r></p></e>
+<e>       <p><l>mitralliadora<s n="n"/><s n="f"/></l> <r>mitragliatore<s n="n"/></r></p></e>
+<e>       <p><l>cummertziare<s n="vblex"/></l> <r>commercializzare<s n="vblex"/></r></p></e>
+<e>       <p><l>de<b/>s’àera<s n="adj"/><s n="mf"/></l> <r>areale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>fidele<s n="n"/><s n="mf"/></l> <r>fedele<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>etzetzionale<s n="adj"/><s n="mf"/></l> <r>eccezionale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>triplu<s n="adj"/></l> <r>triplo<s n="adj"/></r></p></e>
+<e>       <p><l>impedire<s n="vblex"/></l> <r>ostacolare<s n="vblex"/></r></p></e>
+<e>       <p><l>bocchidura<s n="n"/><s n="f"/></l> <r>assassinio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>malu<s n="adj"/></l> <r>malvagio<s n="adj"/></r></p></e>
+<e>       <p><l>furadu<s n="adj"/></l> <r>rapito<s n="adj"/></r></p></e>
+<e>       <p><l>onomàsticu<s n="adj"/></l> <r>onomastico<s n="adj"/></r></p></e>
+<e>       <p><l>crèschida<s n="n"/><s n="f"/></l> <r>incremento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sultanu<s n="n"/><s n="m"/></l> <r>sultano<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>segnoria<s n="n"/><s n="f"/></l> <r>signoria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>razu<s n="n"/><s n="m"/></l> <r>razzo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>horror<s n="n"/><s n="m"/></l> <r>horror<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>disconnòschere<s n="vblex"/></l> <r>ignorare<s n="vblex"/></r></p></e>
+<e>       <p><l>sa<b/>die<b/>pustis<s n="adv"/></l> <r>il<b/>giorno<b/>dopo<s n="adv"/></r></p></e>
+<e>       <p><l>detective<s n="n"/><s n="mf"/></l> <r>detective<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>fatzilitare<s n="vblex"/></l> <r>facilitare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrada<s n="n"/><s n="f"/><s n="m"/></l> <r>rientro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ateretantu<s n="adv"/></l> <r>altrettanto<s n="adv"/></r></p></e>
+<e>       <p><l>mesu-regione<s n="n"/></l> <r>mesoregione<s n="n"/></r></p></e>
+<e>       <p><l>a<b/>inghìriu<s n="adv"/></l> <r>dintorno<s n="adv"/></r></p></e>
+<e>       <p><l>dèbile<s n="n"/><s n="mf"/><s n="sg"/></l> <r>debole<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+<e>       <p><l>su<b/>momentu<b/>chi<s n="adv"/></l> <r>momento<b/>in<b/>cui<s n="adv"/></r></p></e>
+<e>       <p><l>chi<b/>tenet<s n="adj"/><s n="mf"/></l> <r>avente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>glorificatzione<s n="n"/></l> <r>onorificenza<s n="n"/></r></p></e>
+<e>       <p><l>gigante<s n="n"/><s n="mf"/></l> <r>gigante<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>coddu<s n="n"/><s n="m"/></l> <r>dorso<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>demo<s n="n"/><s n="f"/></l> <r>demo<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>sonidu<s n="n"/><s n="m"/></l> <r>sonorità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>musculare<s n="adj"/><s n="mf"/></l> <r>muscolare<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>molecolare<s n="adj"/><s n="mf"/></l> <r>molecolare<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>radiale<s n="adj"/><s n="mf"/></l> <r>radiale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>chighirista<s n="n"/></l> <r>cresta<s n="n"/></r></p></e>
+<e>       <p><l>batèriu<s n="n"/><s n="m"/></l> <r>batterio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tzima<s n="n"/><s n="f"/></l> <r>sommità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>lissentziare<s n="vblex"/></l> <r>licenziare<s n="vblex"/></r></p></e>
+<e>       <p><l>uccisione<s n="n"/></l> <r>uccisione<s n="n"/></r></p></e>
+<e>       <p><l>medievale<s n="adj"/><s n="mf"/></l> <r>medioevale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>agonìsticu<s n="adj"/></l> <r>agonistico<s n="adj"/></r></p></e>
+<e>       <p><l>tele<s n="n"/><s n="f"/><s n="sp"/></l> <r>tele<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e>       <p><l>pretziare<s n="vblex"/></l> <r>pregiare<s n="vblex"/></r></p></e>
+<e>       <p><l>tumba<s n="n"/><s n="f"/></l> <r>lapide<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>truncu<s n="n"/><s n="m"/></l> <r>fusto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>biddatzolu<s n="n"/><s n="m"/></l> <r>casale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mite<s n="adj"/><s n="mf"/></l> <r>mite<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>corriera<s n="n"/><s n="f"/></l> <r>corriere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>palmarès<s n="n"/><s n="m"/><s n="sp"/></l> <r>palmarès<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>mùltiplu<s n="adj"/></l> <r>multiplo<s n="adj"/></r></p></e>
+<e>       <p><l>mùltiplu<s n="n"/><s n="m"/></l> <r>multiplo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>grussesa<s n="n"/><s n="f"/></l> <r>spessore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fulliera<s n="n"/><s n="f"/></l> <r>fusoliera<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>musicale<s n="n"/><s n="mf"/><s n="pl"/></l> <r>musicale<s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+<e>       <p><l>iscurtu<s n="n"/><s n="m"/></l> <r>ascolto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>a<b/>distàntzia<s n="adv"/></l> <r>a<b/>distanza<s n="adv"/></r></p></e>
+<e>       <p><l>pantasma<s n="n"/><s n="m"/></l> <r>spettro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>podet<b/>dare<s n="adv"/></l> <r>presumibilmente<s n="adv"/></r></p></e>
+<e>       <p><l>disconnòschidu<s n="adj"/></l> <r>ignoto<s n="adj"/></r></p></e>
+<e>       <p><l>galu<b/>oe<s n="adv"/></l> <r>tutt'oggi<s n="adv"/></r></p></e>
+<e>       <p><l>appustis<b/>mortu<s n="adj"/></l> <r>postumo<s n="adj"/></r></p></e>
+
 
       <!-- SECCIÓN: Punctuación -->
+
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
 <e>       <re>[\(\[]</re><p><l><s n="lpar"/></l>       <r><s n="lpar"/></r></p></e>
