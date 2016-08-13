@@ -147,6 +147,10 @@
     <def-cat n="essere-p3">
        <cat-item lemma="essere" tags="vbser.*.p3.*"/>
     </def-cat>
+    <def-cat n="essere-pp">
+       <cat-item lemma="essere" tags="vbser.pp.*"/>
+       <cat-item lemma="stare" tags="vblex.pp.*"/> <!-- possible error del parser --> 
+    </def-cat>
     <def-cat n="stare">
        <cat-item lemma="stare" tags="vblex.*"/>
     </def-cat>
@@ -4734,6 +4738,188 @@
                  </get-case-from>
                  <clip pos="2" side="tl" part="tags"/>
                  <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+	</otherwise>
+      </choose>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: c'è stato"> <!-- c'è > b'est istado (tots els temps simples de l'italià))-->
+       <pattern>
+         <pattern-item n="ci"/>
+         <pattern-item n="essere-p3"/>
+         <pattern-item n="essere-pp"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="3"/>
+         </call-macro>
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <lit-tag v="ifi"/>
+	    </equal>
+	  </test>
+         <out>
+           <chunk name="b'at-ifi">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                 <lit v="bi"/>
+                 </get-case-from>
+                 <clip pos="1" side="tl" part="tags"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pri"/>
+                 <clip pos="2" side="tl" part="pers"/>
+                 <clip pos="2" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pp.m.sg"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <b pos="2"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+	</when>
+
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <lit-tag v="fti"/>
+	    </equal>
+	  </test>
+         <out>
+           <chunk name="b'at-fti">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+               <lit v="bi"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+               <b pos="2"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+	</when>
+
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <lit-tag v="cni"/>
+	    </equal>
+	  </test>
+         <out>
+           <chunk name="b'at-cni">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+               <lit v="bi"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.pri"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.inf"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+               <b pos="2"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+	</when>
+
+	<otherwise>
+         <out>
+           <chunk name="b'at">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                 <lit v="bi"/>
+                 </get-case-from>
+                 <clip pos="1" side="tl" part="tags"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+               <b pos="2"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
                </lu>
            </chunk>
          </out>

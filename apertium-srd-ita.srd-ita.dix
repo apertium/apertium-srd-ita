@@ -19565,7 +19565,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>àstula<s n="n"/><s n="f"/></l>         <r>scheggia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>carena<s n="n"/><s n="f"/></l>         <r>scheletro<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ischèletru<s n="n"/><s n="m"/></l><r>scheletro<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>ischema<s n="n"/><s n="f"/></l>        <r>schema<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ischema<s n="n"/><s n="m"/></l>        <r>schema<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ischemàticu<s n="adj"/></l>            <r>schematico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ischemàticu<s n="adj"/></l>            <r>schematico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Schembari<s n="np"/><s n="cog"/></l>   <r>Schembari<s n="np"/><s n="cog"/></r></p></e>
@@ -24534,7 +24534,6 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>atacare<s n="vblex"/></l> <r>annettere<s n="vblex"/></r></p></e>
 <e>       <p><l>miss<s n="n"/><s n="sp"/></l> <r>miss<s n="n"/><s n="sp"/></r></p></e>
 <e>       <p><l>meighina<s n="n"/><s n="f"/></l> <r>farmaco<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>schema<s n="n"/><s n="m"/></l> <r>schema<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>a<b/>su<b/>sòlitu<s n="adv"/></l> <r>di<b/>solito<s n="adv"/></r></p></e>
 <e>       <p><l>cover<s n="n"/><s n="f"/></l> <r>cover<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>serada<s n="n"/><s n="f"/></l> <r>serata<s n="n"/><s n="f"/></r></p></e>
@@ -24661,7 +24660,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>home<s n="n"/><s n="f"/></l> <r>home<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>larganu<s n="adj"/></l> <r>distante<s n="adj"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>tzeràmicu<s n="adj"/></l> <r>ceramico<s n="adj"/></r></p></e>
-<e>       <p><l>duettu<s n="n"/><s n="m"/></l> <r>duo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>duetu<s n="n"/><s n="m"/></l> <r>duo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mortu<s n="n"/><s n="m"/></l> <r>cadavere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>resumu<s n="n"/><s n="m"/></l> <r>sintesi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>banchita<s n="n"/><s n="f"/></l> <r>panchina<s n="n"/><s n="f"/></r></p></e>
@@ -24797,7 +24796,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>bassista<s n="n"/></l> <r>bassista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>vetore<s n="n"/><s n="m"/></l> <r>vettore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ufitziare<s n="vblex"/></l> <r>ufficiare<s n="vblex"/></r></p></e>
-<e>       <p><l>de<b/>duos<b/>annos<s n="adj"/><s n="mf"/></l> <r>biennale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>biannuale<s n="adj"/><s n="mf"/></l> <r>biennale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>biannuale<s n="n"/><s n="mf"/></l> <r>biennale<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>acasàgiu<s n="n"/><s n="m"/></l> <r>accoglienza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>energèticu<s n="adj"/></l> <r>energetico<s n="adj"/></r></p></e>
 <e>       <p><l>armadura<s n="n"/><s n="f"/></l> <r>armatura<s n="n"/><s n="f"/></r></p></e>
@@ -24819,7 +24819,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Institute<s n="n"/><s n="m"/></l> <r>Institute<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>comente<b/>chi<s n="adv"/></l> <r>come<b/>se<s n="adv"/></r></p></e>
 <e>       <p><l>balla<s n="n"/><s n="f"/></l> <r>proiettile<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>grupu<b/>de<b/>tres<s n="n"/><s n="m"/></l> <r>trio<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>trio<s n="n"/><s n="m"/></l> <r>trio<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>dimustratzione<s n="n"/><s n="f"/></l> <r>dimostrazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sommergìbile<s n="adj"/><s n="mf"/></l> <r>sommergibile<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>infetzione<s n="n"/><s n="f"/></l> <r>infezione<s n="n"/><s n="f"/></r></p></e>
@@ -24838,6 +24838,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>bratzu<s n="n"/><s n="m"/></l> <r>braccio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ossu<s n="n"/><s n="m"/></l> <r>reliquia<s n="n"/><s n="f"/></r></p><par n="pl_ND"/></e>
 <e>       <p><l>primu<b/>fìgiu<s n="n"/><s n="m"/></l> <r>primogenito<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" c="non-preferred"><p><l>mannu<s n="adj"/></l> <r>primogenito<s n="adj"/></r></p></e>
 <e>       <p><l>bombardei<s n="n"/><s n="m"/></l> <r>bombardiere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bonus<s n="n"/><s n="m"/></l> <r>bonus<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>iscumpassare<s n="vblex"/></l> <r>sormontare<s n="vblex"/></r></p></e>
@@ -24865,6 +24866,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>dae<b/>tempus<s n="adv"/></l> <r>da<b/>tempo<s n="adv"/></r></p></e>
 <e>       <p><l>iscàrrigu<s n="adj"/></l> <r>scarico<s n="adj"/></r></p></e>
 <e>       <p><l>mitralliadora<s n="n"/><s n="f"/></l> <r>mitragliatore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>mitralliadora<s n="n"/><s n="f"/></l> <r>mitragliatore<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cummertziare<s n="vblex"/></l> <r>commercializzare<s n="vblex"/></r></p></e>
 <e>       <p><l>de<b/>s'àera<s n="adj"/><s n="mf"/></l> <r>areale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>fidele<s n="n"/><s n="mf"/></l> <r>fedele<s n="n"/><s n="mf"/></r></p></e>
@@ -24975,6 +24977,9 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>semiabertu<s n="adj"/></l>               <r>semiaperto<s n="adj"/></r></p></e>
 <e>       <p><l>semicungiadu<s n="adj"/></l>               <r>semichiuso<s n="adj"/></r></p></e>
 <e>       <p><l>semibòidu<s n="adj"/></l>               <r>semivuoto<s n="adj"/></r></p></e>
+
+<e>       <p><l>coefitziente<s n="n"/><s n="m"/></l>        <r>coefficiente<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>in<b/>subra<s n="adv"/></l>               <r>di<b/>sopra<s n="adv"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 
