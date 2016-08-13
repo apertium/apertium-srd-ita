@@ -2345,6 +2345,13 @@
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="1" side="tl" part="gen"/>
 	  </let>
+	  <!-- we propagate the gender for f_concord2, f_concord3, etc. -->
+<!-- doesn't give positive results
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	  </let>
+-->
 	</when>
 	<when> 
 	  <test>
@@ -2367,6 +2374,13 @@
 	    <clip pos="2" side="tl" part="gen"/>
 	    <clip pos="1" side="tl" part="gen"/>
 	  </let>
+	  <!-- we propagate the gender for f_concord2, f_concord3, etc. -->
+<!-- doesn't give positive results
+	  <let>
+	    <var n="genero"/>
+	    <clip pos="1" side="tl" part="gen"/>
+	  </let>
+-->
 	</when>
       </choose>
       
