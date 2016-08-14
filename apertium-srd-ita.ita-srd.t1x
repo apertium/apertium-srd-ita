@@ -223,6 +223,8 @@
        <cat-item tags="prn.tn.pos.*"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="loro_pos">
+       <cat-item lemma= "loro" tags="adj.pos.*"/>
+       <cat-item lemma= "loro" tags="prn.tn.pos.*"/>
        <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="adjord">
@@ -2968,6 +2970,53 @@
     </rule>
 
 
+    <rule comment="regla: loro.pos adj nom > adj nom adjpos (il loro ultimo lavoro > s'ùrtimu traballu issoro)">
+       <pattern>
+         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="n_adj_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <get-case-from pos="2">
+             <lit v="issoro"/>
+             </get-case-from>
+             <lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <rule comment="regla: adjpos nom adj adj > nom adj adj adjpos">
        <pattern>
          <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
@@ -3056,6 +3105,65 @@
          </call-macro>
          <out>
            <chunk name="n_adj_adj_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <get-case-from pos="2">
+             <lit v="issoro"/>
+             </get-case-from>
+             <lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: loro.pos adj nom adj > adj nom adj adjpos (loro proclamate volontà rivoluzionarie > sas proclamadas voluntades rivolutzionàrias issoro">
+       <pattern>
+         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <out>
+           <chunk name="adj_n_adj_adjpos">
              <tags>
                <tag><lit-tag v="SN"/></tag>
              </tags>
