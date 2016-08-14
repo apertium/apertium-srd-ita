@@ -18753,6 +18753,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Rinuccia<s n="np"/><s n="ant"/><s n="f"/></l><r>Rinuccia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>rinuntziare<s n="vblex"/></l>          <r>rinunciare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>renuntziare<s n="vblex"/></l>          <r>rinunciare<s n="vblex"/></r></p></e>
+<e>       <p><l>rinuntziare<s n="vblex"/></l>          <r>rinunziare<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>renuntziare<s n="vblex"/></l>          <r>rinunziare<s n="vblex"/></r></p></e>
 <e>       <p><l>rinvenimentu<s n="n"/><s n="m"/></l>   <r>rinvenimento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>crastinare<s n="vblex"/></l>           <r>rinviare<s n="vblex"/></r></p></e>
 <e>       <p><l>reimbiare<s n="vblex"/></l>            <r>rinviare<s n="vblex"/></r></p></e>
@@ -24869,7 +24871,9 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>iscàrrigu<s n="adj"/></l> <r>scarico<s n="adj"/></r></p></e>
 <e>       <p><l>mitralliadora<s n="n"/><s n="f"/></l> <r>mitragliatore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mitralliadora<s n="n"/><s n="f"/></l> <r>mitragliatore<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>cummertziare<s n="vblex"/></l> <r>commercializzare<s n="vblex"/></r></p></e>
+<e>       <p><l>cummertziare<s n="vblex"/></l> <r>commerciare<s n="vblex"/></r></p></e>
+<e>       <p><l>cummertzializare<s n="vblex"/></l> <r>commercializzare<s n="vblex"/></r></p></e>
+<e>       <p><l>cummertzializatzione<s n="n"/><s n="f"/></l> <r>commercializzazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>de<b/>s'àera<s n="adj"/><s n="mf"/></l> <r>areale<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>fidele<s n="n"/><s n="mf"/></l> <r>fedele<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>etzetzionale<s n="adj"/><s n="mf"/></l> <r>eccezionale<s n="adj"/><s n="mf"/></r></p></e>
@@ -24983,6 +24987,9 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>coefitziente<s n="n"/><s n="m"/></l>        <r>coefficiente<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>in<b/>subra<s n="adv"/></l>               <r>di<b/>sopra<s n="adv"/></r></p></e>
 <e>       <p><l>brinchitare<s n="vblex"/></l>               <r>saltellare<s n="vblex"/></r></p></e>
+      <e><p><l>informativu<s n="adj"/></l><r>informativo<s n="adj"/></r></p></e>
+      <e><p><l>polinòmiu<s n="n"/><s n="m"/></l><r>polinomio<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>informativu<s n="adj"/></l><r>informativo<s n="adj"/><s n="sup"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 
