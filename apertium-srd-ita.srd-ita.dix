@@ -21310,7 +21310,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>subra<s n="pr"/></l>                   <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>in<s n="pr"/></l>                      <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>susu<s n="adv"/></l>                   <r>su<s n="adv"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>in<b/>susu<s n="adv"/></l>             <r>su<s n="adv"/></r></p></e>
+<e>       <p><l>in<b/>susu<s n="adv"/></l>             <r>su<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>susu<s n="adv"/></l>              <r>su<s n="adv"/></r></p></e>
 <e>       <p><l>sub-saharianu<s n="n"/></l>            <r>sub-sahariano<s n="n"/></r></p></e>
 <e>       <p><l>sub-saharianu<s n="adj"/></l>          <r>sub-sahariano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>sub-saharianu<s n="adj"/></l>          <r>sub-sahariano<s n="adj"/><s n="sup"/></r></p></e>
@@ -24980,6 +24981,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 
 <e>       <p><l>coefitziente<s n="n"/><s n="m"/></l>        <r>coefficiente<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>in<b/>subra<s n="adv"/></l>               <r>di<b/>sopra<s n="adv"/></r></p></e>
+<e>       <p><l>brinchitare<s n="vblex"/></l>               <r>saltellare<s n="vblex"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 

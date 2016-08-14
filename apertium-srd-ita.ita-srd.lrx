@@ -174,13 +174,61 @@
 
 <!-- INTENDERE -->
 
-  <rule weight="0.8">
+  <rule weight="1.0">
     <match lemma="intendere" tags="vblex.*"><select lemma="cumprèndere" tags="vblex.*"/></match>
   </rule>
 
-  <rule weight="0.8">
+  <rule weight="1.0">
     <match lemma="intendere" tags="vblex.*"><select lemma="chèrrere" tags="vblex.*"/></match>
     <match tags="vblex.inf"/>
+  </rule>
+
+<!-- SU (ADV) > SUSU, IN SUSU, A SUSU -->
+
+  <rule weight="0.8">
+    <match lemma="su" tags="adv"><select lemma="susu" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="su" tags="adv"><select lemma="in susu" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="su" tags="adv"><select lemma="in susu" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <match lemma="su" tags="adv"><select lemma="a susu" tags="adv"/></match>
   </rule>
 
 </rules>
