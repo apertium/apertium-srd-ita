@@ -980,8 +980,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>arbèschida<s n="n"/><s n="f"/></l>     <r>alba<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Alba<s n="np"/><s n="ant"/><s n="f"/></l><r>Alba<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Alba<s n="np"/><s n="cog"/></l>        <r>Alba<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>albanese<s n="n"/><s n="mf"/></l>      <r>albanese<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>albanese<s n="adj"/><s n="mf"/></l>    <r>albanese<s n="adj"/><s n="mf"/></r></p></e>
+<e r="LR" c="!LSC"><p><l>albanese<s n="n"/><s n="mf"/></l>      <r>albanese<s n="n"/><s n="mf"/></r></p></e>
+<e r="LR" c="!LSC"><p><l>albanese<s n="adj"/><s n="mf"/></l>    <r>albanese<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>Albanese<s n="np"/><s n="cog"/></l>    <r>Albanese<s n="np"/><s n="cog"/></r></p></e>
 <e r="RL"><p><l>albanesu<s n="adj"/></l>               <r>albanese<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>albanesu<s n="adj"/></l>               <r>albanese<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -4881,8 +4881,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>collòchiu<s n="n"/><s n="m"/></l>      <r>colloquio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Colomba<s n="np"/><s n="ant"/><s n="f"/></l><r>Colomba<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Colombano<s n="np"/><s n="ant"/><s n="m"/></l><r>Colombano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Colòmbia<s n="np"/><s n="top"/><s n="f"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Colòmbia<s n="np"/><s n="top"/><s n="f"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>Colùmbia<s n="np"/><s n="top"/><s n="f"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>Colòmbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>colombianu<s n="adj"/></l>             <r>colombiano<s n="adj"/></r></p></e>
 <e>       <p><l>colombianu<s n="n"/></l>               <r>colombiano<s n="n"/></r></p></e>
@@ -5489,9 +5489,9 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>remonire<s n="vblex"/></l>             <r>conservare<s n="vblex"/></r></p></e>
 <e>       <p><l>cunservativu<s n="adj"/></l>           <r>conservativo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>cunservativu<s n="adj"/></l>           <r>conservativo<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>cunservadore<s n="n"/><s n="m"/></l>   <r>conservatore<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>chistidore<s n="n"/></l>               <r>conservatore<s n="n"/></r></p></e>
-<e>       <p><l>cunservadore<s n="n"/><s n="f"/></l>   <r>conservatore<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>cunservadore<s n="n"/></l>             <r>conservatore<s n="n"/></r></p></e>
+<e>       <p><l>ultracunservadore<s n="n"/></l>        <r>ultraconservatore<s n="n"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>chistidore<s n="n"/></l>               <r>conservatore<s n="n"/></r></p></e>
 <e>       <p><l>cunservatoria<s n="n"/><s n="f"/></l>  <r>conservatoria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cunservatòriu<s n="n"/><s n="m"/></l>  <r>conservatorio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cunservatzione<s n="n"/><s n="f"/></l> <r>conservazione<s n="n"/><s n="f"/></r></p></e>
@@ -11497,6 +11497,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>inflatzione<s n="n"/><s n="f"/></l>    <r>inflazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>inflessione<s n="n"/><s n="f"/></l>    <r>inflessione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>influente<s n="adj"/><s n="mf"/></l>   <r>influente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>influente<s n="adj"/><s n="mf"/></l>   <r>influenzale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>influèntzia<s n="n"/><s n="f"/></l>    <r>influenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>influentzare<s n="vblex"/></l>         <r>influenzare<s n="vblex"/></r></p></e>
 <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>influire<s n="vblex"/></l><r>influire<s n="vblex"/></r></p></e>
@@ -12293,6 +12294,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>traballosu<s n="adj"/></l>             <r>laborioso<s n="adj"/></r></p></e>
 <e>       <p><l>fracòngiu<s n="adj"/></l>              <r>laborioso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>fracòngiu<s n="adj"/></l>              <r>laborioso<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>laburismu<s n="n"/><s n="m"/></l>      <r>laborismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>laburista<s n="n"/></l>                <r>laburista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>laburista<s n="adj"/></l>              <r>laburista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>laburista<s n="adj"/></l>              <r>laburista<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -12417,7 +12419,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>launedda<s n="n"/><s n="f"/></l>       <r>launedda<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Laura<s n="np"/><s n="ant"/><s n="f"/></l><r>Laura<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>làurea<s n="n"/><s n="f"/></l>         <r>laurea<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>laurea<s n="n"/><s n="f"/></l>         <r>laurea<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>post-làurea<s n="n"/><s n="f"/></l>         <r>post-laurea<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>laureare<s n="vblex"/></l>             <r>laureare<s n="vblex"/></r></p></e>
 <e>       <p><l>Laurentina<s n="np"/><s n="ant"/><s n="f"/></l><r>Laurentina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Laurenza<s n="np"/><s n="ant"/><s n="f"/></l><r>Laurenza<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -13071,8 +13073,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Mafaldo<s n="np"/><s n="ant"/><s n="m"/></l><r>Mafaldo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Maffei<s n="np"/><s n="cog"/></l>      <r>Maffei<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Maffeo<s n="np"/><s n="ant"/><s n="m"/></l><r>Maffeo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>mafia<s n="n"/><s n="f"/></l>          <r>mafia<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>màfia<s n="n"/><s n="f"/></l><r>mafia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>màfia<s n="n"/><s n="f"/></l>          <r>mafia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mafiologia<s n="n"/><s n="f"/></l>     <r>mafiologia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mafiològicu<s n="adj"/></l>            <r>mafiologico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>mafiològicu<s n="adj"/></l>            <r>mafiologico<s n="adj"/><s n="sup"/></r></p></e>
@@ -16948,7 +16949,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>potentzialidade<s n="n"/><s n="f"/></l><r>potenzialità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>in<b/>manera<b/>potentziale<s n="adv"/></l><r>potenzialmente<s n="adv"/></r></p></e>
 <e>       <p><l>afortigare<s n="vblex"/></l>           <r>potenziare<s n="vblex"/></r></p></e>
-<e>       <p><l>potere<s n="n"/><s n="m"/></l>         <r>potere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superpodere<s n="n"/><s n="m"/></l>         <r>superpotere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>podere<s n="n"/><s n="m"/></l>         <r>potere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>balia<s n="n"/><s n="f"/></l>          <r>potere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pòdere<s n="vbmod"/></l>               <r>potere<s n="vbmod"/></r></p></e>
@@ -17065,6 +17066,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>pregressu<s n="adj"/></l>              <r>pregresso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>pregressu<s n="adj"/></l>              <r>pregresso<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>preistòria<s n="n"/><s n="f"/></l>     <r>preistoria<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>istòria<s n="n"/><s n="f"/></l>        <r>istoria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>preistòricu<s n="adj"/></l>            <r>preistorico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>preistòricu<s n="adj"/></l>            <r>preistorico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>preladu<s n="n"/><s n="m"/></l>        <r>prelato<s n="n"/><s n="m"/></r></p></e>
@@ -19569,6 +19571,30 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>iscènicu<s n="adj"/></l>               <r>scenico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>iscènicu<s n="adj"/></l>               <r>scenico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>iscenografia<s n="n"/><s n="f"/></l>   <r>scenografia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>isceticismu<s n="n"/><s n="m"/></l>   <r>scetticismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>euroisceticismu<s n="n"/><s n="m"/></l>   <r>scetticismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>euroiscèticu<s n="adj"/></l>               <r>euroscettico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>euroiscèticu<s n="adj"/></l>               <r>euroscettico<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>iscetru<s n="n"/><s n="m"/></l>        <r>scettro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ischeda<s n="n"/><s n="f"/></l>        <r>scheda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>àstula<s n="n"/><s n="f"/></l>         <r>scheggia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>carena<s n="n"/><s n="f"/></l>         <r>scheletro<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ischèletru<s n="n"/><s n="m"/></l><r>scheletro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ischema<s n="n"/><s n="m"/></l>        <r>schema<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ischemàticu<s n="adj"/></l>            <r>schematico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>ischemàticu<s n="adj"/></l>            <r>schematico<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>Schembari<s n="np"/><s n="cog"/></l>   <r>Schembari<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>ischerma<s n="n"/><s n="f"/></l>       <r>scherma<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ischermu<s n="n"/><s n="m"/></l>       <r>schermo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>brullare<s n="vblex"/></l>             <r>scherzare<s n="vblex"/></r></p></e>
+<e>       <p><l>bulliare<s n="vblex"/></l>             <r>scherzare<s n="vblex"/></r></p></e>
+<e>       <p><l>brulla<s n="n"/><s n="f"/></l>         <r>scherzo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>in<b/>manera<b/>brullana<s n="adv"/></l><r>scherzosamente<s n="adv"/></r></p></e>
+<e>       <p><l>brullanu<s n="adj"/></l>               <r>scherzoso<s n="adj"/></r></p></e>
+<e>       <p><l>incarcare<s n="vblex"/></l>            <r>schiacciare<s n="vblex"/></r></p></e>
+<e>       <p><l>ischitzare<s n="vblex"/></l>           <r>schiacciare<s n="vblex"/></r></p></e>
+<e>       <p><l>iscrefiare<s n="vblex"/></l>           <r>schiacciare<s n="vblex"/></r></p></e>
+<e>       <p><l>catzotu<s n="n"/><s n="m"/></l>        <r>schiaffo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>iscèticu<s n="adj"/></l>               <r>scettico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>iscèticu<s n="adj"/></l>               <r>scettico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>iscetru<s n="n"/><s n="m"/></l>        <r>scettro<s n="n"/><s n="m"/></r></p></e>
@@ -20675,6 +20701,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>subrafàghere<s n="vblex"/></l>         <r>sopraffare<s n="vblex"/></r></p></e>
 <e>       <p><l>nomìngiu<s n="n"/><s n="m"/></l>       <r>soprannome<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sopranu<s n="n"/><s n="f"/></l>        <r>soprano<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mesusopranu<s n="n"/><s n="f"/></l>    <r>mezzosoprano<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>massimamente<s n="adv"/></l>           <r>soprattutto<s n="adv"/></r></p></e>
 <e>       <p><l>mescamente<s n="adv"/></l>             <r>soprattutto<s n="adv"/></r></p></e>
 <e>       <p><l>sobrare<s n="vblex"/></l>              <r>sopravanzare<s n="vblex"/></r></p></e>
@@ -21222,6 +21249,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Stone<s n="np"/><s n="cog"/></l>       <r>Stone<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>istòria<s n="n"/><s n="f"/></l>        <r>storia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>istòrica<s n="adv"/></l><r>storicamente<s n="adv"/></r></p></e>
+<e>       <p><l>istòricu<s n="n"/></l>               <r>storico<s n="n"/></r></p></e>
 <e>       <p><l>istòricu<s n="adj"/></l>               <r>storico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>istòricu<s n="adj"/></l>               <r>storico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>istoriografia<s n="n"/><s n="f"/></l>  <r>storiografia<s n="n"/><s n="f"/></r></p></e>
@@ -21422,6 +21450,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>sonadore<s n="n"/><s n="f"/></l>       <r>suonatore<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sonadora<s n="n"/><s n="f"/></l>       <r>suonatrice<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sonu<s n="n"/><s n="m"/></l>           <r>suono<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ultrasonu<s n="n"/><s n="m"/></l>      <r>ultrasuono<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mòngia<s n="n"/><s n="f"/></l>         <r>suora<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>propassada<s n="n"/><s n="f"/></l>     <r>superamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>superare<s n="vblex"/></l>             <r>superare<s n="vblex"/></r></p></e>
@@ -21933,6 +21962,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>testada<s n="n"/><s n="f"/></l>        <r>testata<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>testificare<s n="vblex"/></l>          <r>testificare<s n="vblex"/></r></p></e>
 <e>       <p><l>testimòngiu<s n="n"/></l>              <r>testimone<s n="n"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>supertestimòngiu<s n="n"/></l>         <r>supertestimone<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>testimonia<s n="n"/><s n="f"/></l>     <r>testimonianza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>testimoniare<s n="vblex"/></l>         <r>testimoniare<s n="vblex"/></r></p></e>
 <e>       <p><l>testu<s n="n"/><s n="m"/></l>          <r>testo<s n="n"/><s n="m"/></r></p></e>
@@ -24696,6 +24726,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>videoclip<s n="n"/><s n="m"/></l> <r>videoclip<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>doppiadu<s n="adj"/></l> <r>doppiato<s n="adj"/></r></p></e>
 <e>       <p><l>cunservadore<s n="adj"/></l> <r>conservatore<s n="adj"/></r></p></e>
+<e>       <p><l>ultracunservadore<s n="adj"/></l> <r>ultraconservatore<s n="adj"/></r></p></e>
 <e>       <p><l>acumpangiamentu<s n="n"/><s n="m"/></l> <r>convoglio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>gene<s n="n"/><s n="m"/></l> <r>gene<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>istellare<s n="adj"/><s n="mf"/></l> <r>stellare<s n="adj"/><s n="mf"/></r></p></e>
@@ -25008,6 +25039,94 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>fecundatzione<s n="n"/><s n="f"/></l>      <r>fecondazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>rivolta<s n="n"/><s n="f"/></l>      <r>rivolta<s n="n"/><s n="f"/></r></p></e> <!-- VERIFY -->
 <e>       <p><l>mesudie<s n="n"/><s n="m"/></l>            <r>mezzogiorno<s n="n"/><s n="m"/></r></p></e> <!-- VERIFY -->
+
+<e>       <p><l>Noa<b/>Zelanda<s n="np"/><s n="top"/><s n="f"/></l><r>Nuova<b/>Zelanda<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>Zelanda<s n="np"/><s n="top"/><s n="f"/></l><r>Zelanda<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+
+      <e><p><l>abelianu<s n="adj"/></l><r>abeliano<s n="adj"/></r></p></e>
+      <e><p><l>antidogmàticu<s n="adj"/></l><r>antidogmatico<s n="adj"/></r></p></e>
+      <e><p><l>antidogmatismu<s n="n"/><s n="m"/></l><r>antidogmatismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>anti<s n="adv"/></l><r>anti<s n="adv"/></r></p></e>
+      <e><p><l>autocràticu<s n="adj"/></l><r>autocratico<s n="adj"/></r></p></e>
+      <e><p><l>automobilismu<s n="n"/><s n="m"/></l><r>automobilismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>autonomismu<s n="n"/><s n="m"/></l><r>autonomismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>castrismu<s n="n"/><s n="m"/></l><r>castrismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>castrista<s n="adj"/></l><r>castrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>castrista<s n="n"/></l><r>castrista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>commutativu<s n="adj"/></l><r>commutativo<s n="adj"/></r></p></e>
+      <e><p><l>cooperativu<s n="adj"/></l><r>cooperativo<s n="adj"/></r></p></e>
+      <e><p><l>craxismu<s n="n"/><s n="m"/></l><r>craxismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>craxista<s n="adj"/></l><r>craxista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>craxista<s n="n"/></l><r>craxista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>dogmatismu<s n="n"/><s n="m"/></l><r>dogmatismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ecosistema<s n="n"/><s n="m"/></l><r>ecosistema<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>europeismu<s n="n"/><s n="m"/></l><r>europeismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>europeista<s n="n"/></l><r>europeista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>femminismu<s n="n"/><s n="m"/></l><r>femminismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>gabbione<s n="n"/><s n="m"/></l><r>gabbione<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>internatzionalismu<s n="n"/><s n="m"/></l><r>internazionalismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>internatzionalista<s n="adj"/></l><r>internazionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>internatzionalista<s n="n"/></l><r>internazionalista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>islalomista<s n="n"/></l><r>slalomista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>isponsoritzadu<s n="adj"/></l><r>sponsorizzato<s n="adj"/></r></p></e>
+      <e><p><l>isponsoritzatzione<s n="n"/><s n="f"/></l><r>sponsorizzazione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>militarismu<s n="n"/><s n="m"/></l><r>militarismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>militarista<s n="adj"/></l><r>militarista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>militarista<s n="n"/></l><r>militarista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>multiculturalismu<s n="n"/><s n="m"/></l><r>multiculturalismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>multimedialidade<s n="n"/><s n="f"/></l><r>multimedialità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>multinatzionale<s n="n"/><s n="f"/></l><r>multinazionale<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>naturalista<s n="adj"/></l><r>naturalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>naturismu<s n="n"/><s n="m"/></l><r>naturismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>naturista<s n="adj"/></l><r>naturista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>naturista<s n="n"/></l><r>naturista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neofascismu<s n="n"/><s n="m"/></l><r>neofascismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>neofascista<s n="adj"/></l><r>neofascista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neofascista<s n="n"/></l><r>neofascista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neo-gollista<s n="adj"/></l><r>neo-gollista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neo-gollista<s n="n"/></l><r>neo-gollista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neo-laburismu<s n="n"/><s n="m"/></l><r>neo-laburismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>neolaburismu<s n="n"/><s n="m"/></l><r>neolaburismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>neo-laburista<s n="adj"/></l><r>neo-laburista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neolaburista<s n="adj"/></l><r>neolaburista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neo-laburista<s n="n"/></l><r>neo-laburista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neolaburista<s n="n"/></l><r>neolaburista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>neozelandesu<s n="adj"/></l><r>neozelandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>neozelandesu<s n="n"/></l><r>neozelandese<s n="n"/></r></p><par n="GD_mf"/></e>
+      <e><p><l>operatividade<s n="n"/><s n="f"/></l><r>operatività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>ortodossu<s n="n"/></l><r>ortodosso<s n="n"/></r></p></e>
+      <e><p><l>pentapartidu<s n="n"/><s n="m"/></l><r>pentapartito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>peronismu<s n="n"/><s n="m"/></l><r>peronismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>peronista<s n="adj"/></l><r>peronista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>peronista<s n="n"/></l><r>peronista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>proletàriu<s n="n"/></l><r>proletario<s n="n"/></r></p></e>
+      <e><p><l>regionalista<s n="n"/></l><r>regionalista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>sandinismu<s n="n"/><s n="m"/></l><r>sandinismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>sandinista<s n="adj"/></l><r>sandinista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>sandinista<s n="n"/></l><r>sandinista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>thatcherismu<s n="n"/><s n="m"/></l><r>thatcherismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tripartidu<s n="adj"/></l><r>tripartito<s n="adj"/></r></p></e>
+      <e><p><l>tripartidu<s n="n"/><s n="m"/></l><r>tripartito<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tripartitzione<s n="n"/><s n="f"/></l><r>tripartizione<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzentrismu<s n="n"/><s n="m"/></l><r>centrismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>tzentrista<s n="adj"/></l><r>centrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>tzentrista<s n="n"/></l><r>centrista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>ultranatzionalismu<s n="n"/><s n="m"/></l><r>ultranazionalismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>ultranatzionalista<s n="adj"/></l><r>ultranazionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>ultranatzionalista<s n="n"/></l><r>ultranazionalista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>ultraortodossu<s n="n"/></l><r>ultraortodosso<s n="n"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>duetu<s n="n"/><s n="m"/></l><r>duetto<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>laburismu<s n="n"/><s n="m"/></l><r>laburismo<s n="n"/><s n="m"/></r></p></e>
+      <e r="RL"><p><l>antidogmàticu<s n="adj"/></l><r>antidogmatico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>autocràticu<s n="adj"/></l><r>autocratico<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>cooperativu<s n="adj"/></l><r>cooperativo<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>isponsoritzadu<s n="adj"/></l><r>sponsorizzato<s n="adj"/><s n="sup"/></r></p></e>
+      <e r="RL"><p><l>tripartidu<s n="adj"/></l><r>tripartito<s n="adj"/><s n="sup"/></r></p></e>
+
+<e>       <p><l>holding<s n="n"/><s n="f"/></l>           <r>holding<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>atzelleradore<s n="n"/><s n="m"/></l><r>acceleratore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>superatzelleradore<s n="n"/><s n="m"/></l><r>superacceleratore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>atzelleradore<s n="adj"/></l><r>acceleratore<s n="adj"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 
