@@ -6788,6 +6788,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>preneta<s n="n"/><s n="f"/></l>        <r>destino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>destituire<s n="vblex"/></l>           <r>destituire<s n="vblex"/></r></p></e>
 <e>       <p><l>destitutzione<s n="n"/><s n="f"/></l>  <r>destituzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tzentrudereta<s n="n"/><s n="f"/></l>         <r>centrodestra<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tzentrudestra<s n="n"/><s n="f"/></l>         <r>centrodestra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>dereta<s n="n"/><s n="f"/></l>         <r>destra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>destra<s n="n"/><s n="f"/></l>         <r>destra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>destra<s n="adv"/></l> <r>destramente<s n="adv"/></r></p></e>
@@ -9120,8 +9122,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Filippo<s n="np"/><s n="ant"/><s n="m"/></l><r>Filippo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>filisteu<s n="adj"/></l>               <r>filisteo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>filisteu<s n="adj"/></l>               <r>filisteo<s n="adj"/><s n="sup"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>pellìcula<s n="n"/><s n="f"/></l>      <r>film<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>film<s n="n"/><s n="m"/></l>           <r>film<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>pellìcula<s n="n"/><s n="f"/></l>      <r>film<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>film<s n="n"/><s n="m"/></l>           <r>film<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>filmare<s n="vblex"/></l>              <r>filmare<s n="vblex"/></r></p></e>
 <e>       <p><l>filmadu<s n="adj"/></l>                <r>filmato<s n="adj"/></r></p></e>
 <e>       <p><l>filu<s n="n"/><s n="m"/></l>           <r>filo<s n="n"/><s n="m"/></r></p></e>
@@ -11554,6 +11556,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>initziativa<s n="n"/><s n="f"/></l>    <r>iniziativa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>initziatzione<s n="n"/><s n="f"/></l>  <r>iniziazione<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>incumintzu<s n="n"/><s n="m"/></l>     <r>inizio<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>incomintzu<s n="n"/><s n="m"/></l>     <r>inizio<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>cumentzu<s n="n"/><s n="m"/></l>       <r>inizio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumintzu<s n="n"/><s n="m"/></l>       <r>inizio<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>comintzu<s n="n"/><s n="m"/></l>       <r>inizio<s n="n"/><s n="m"/></r></p></e>
@@ -11567,7 +11570,6 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>innu<s n="n"/><s n="m"/></l>           <r>inno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Innocenta<s n="np"/><s n="ant"/><s n="f"/></l><r>Innocenta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>innotzente<s n="n"/><s n="mf"/></l>    <r>innocente<s n="n"/><s n="mf"/></r></p></e>
-<e>       <p><l>innotzente<s n="n"/><s n="f"/></l>     <r>innocente<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Innocente<s n="np"/><s n="ant"/><s n="m"/></l><r>Innocente<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>innotzente<s n="adj"/></l>             <r>innocente<s n="adj"/></r></p></e>
 <e r="RL"><p><l>innotzente<s n="adj"/></l>             <r>innocente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -11949,7 +11951,6 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>involuntàriu<s n="adj"/></l>           <r>involontario<s n="adj"/></r></p></e>
 <e r="RL"><p><l>involuntàriu<s n="adj"/></l>           <r>involontario<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>invàdere<s n="vblex"/></l>             <r>invàdere<s n="vblex"/></r></p></e>
-<e>       <p><l>incomintzu<s n="n"/><s n="m"/></l>     <r>inzio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Inés<s n="np"/><s n="ant"/><s n="f"/></l><r>Inés<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Io<s n="np"/><s n="ant"/><s n="f"/></l><r>Io<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Ioana<s n="np"/><s n="ant"/><s n="f"/></l><r>Ioana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -20356,6 +20357,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>thiniscolesu<s n="adj"/></l>           <r>siniscolese<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>thiniscolesu<s n="n"/></l>             <r>siniscolese<s n="n"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>manca<s n="n"/><s n="f"/></l>          <r>sinistra<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tzentrumanca<s n="n"/><s n="f"/></l>          <r>centrosinistra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sinistru<s n="adj"/></l>               <r>sinistro<s n="adj"/></r></p></e>
 <e r="RL"><p><l>sinistru<s n="adj"/></l>               <r>sinistro<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Sìnnia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sinnai<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
@@ -24300,6 +24302,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>passu<s n="n"/><s n="m"/></l> <r>passo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tzitadinu<s n="adj"/></l> <r>cittadino<s n="adj"/></r></p></e>
 <e>       <p><l>podet<b/>dare<s n="adv"/></l> <r>può<b/>essere<s n="adv"/></r></p></e>
+<e>       <p><l>podet<b/>èssere<s n="vbser"/></l> <r>può<b/>essere<s n="vbser"/></r></p></e>
 <e>       <p><l>clasìfica<s n="n"/></l> <r>classifica<s n="n"/></r></p></e>
 <e>       <p><l>sa<b/>prima<b/>borta<s n="adv"/></l> <r>per<b/>la<b/>prima<b/>volta<s n="adv"/></r></p></e>
 <e>       <p><l>sitiadu<s n="adj"/></l> <r>sito<s n="adj"/></r></p></e>
@@ -24990,6 +24993,12 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
       <e><p><l>informativu<s n="adj"/></l><r>informativo<s n="adj"/></r></p></e>
       <e><p><l>polinòmiu<s n="n"/><s n="m"/></l><r>polinomio<s n="n"/><s n="m"/></r></p></e>
       <e r="RL"><p><l>informativu<s n="adj"/></l><r>informativo<s n="adj"/><s n="sup"/></r></p></e>
+
+<e>       <p><l>torrare<g><b/>a<b/>organizare</g><s n="vblex"/></l><r>riorganizzare<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>impreare</g><s n="vblex"/></l><r>riutilizzare<s n="vblex"/></r></p></e>
+<e>       <p><l>fecundatzione<s n="n"/><s n="f"/></l>      <r>fecondazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>rivolta<s n="n"/><s n="f"/></l>      <r>rivolta<s n="n"/><s n="f"/></r></p></e> <!-- VERIFY -->
+<e>       <p><l>mesudie<s n="n"/><s n="m"/></l>            <r>mezzogiorno<s n="n"/><s n="m"/></r></p></e> <!-- VERIFY -->
 
       <!-- SECCIÓN: Punctuación -->
 

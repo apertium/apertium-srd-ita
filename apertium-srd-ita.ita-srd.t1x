@@ -286,6 +286,9 @@
        <cat-item lemma="più" tags="adv"/>
        <cat-item lemma="meno" tags="adv"/>
     </def-cat>
+    <def-cat n="può_essere">
+       <cat-item lemma="può essere" tags="adv"/>
+    </def-cat>
     <def-cat n="quello">
        <cat-item lemma="quello" tags="det.*"/>
        <cat-item lemma="quello" tags="prn.tn.*"/>
@@ -2963,6 +2966,58 @@
              <lit v="issoro"/>
              </get-case-from>
              <lit-tag v="adj"/><lit-tag v="pos"/><lit-tag v="mf"/><lit-tag v="sp"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjpos adj nom > adj nom adjpos: la sua apparente indifferenza > sa aparente indiferèntzia sua">
+       <pattern>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="adj_n_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <get-case-from pos="2">
+             <clip pos="1" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
