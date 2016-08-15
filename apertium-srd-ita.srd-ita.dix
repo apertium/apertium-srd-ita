@@ -2497,6 +2497,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>atentu<s n="n"/><s n="m"/></l>         <r>attenzione<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>atentzione<s n="n"/><s n="f"/></l>     <r>attenzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>aterrare<s n="vblex"/></l>             <r>atterrare<s n="vblex"/></r></p></e>
+<e>       <p><l>allunare<s n="vblex"/></l>             <r>allunare<s n="vblex"/></r></p></e>
 <e>       <p><l>isetu<s n="n"/><s n="m"/></l>          <r>attesa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>atestare<s n="vblex"/></l>             <r>attestare<s n="vblex"/></r></p></e>
 <e>       <p><l>atestadu<s n="adj"/></l>               <r>attestato<s n="adj"/></r></p></e>
@@ -24868,6 +24869,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>super-copa<s n="n"/><s n="f"/></l> <r>supercoppa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>crusiera<s n="n"/><s n="f"/></l> <r>crociera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>aterràgiu<s n="n"/><s n="m"/></l> <r>atterraggio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>allunàgiu<s n="n"/><s n="m"/></l> <r>allunaggio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rituale<s n="adj"/><s n="mf"/></l> <r>rituale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>fissu<s n="adv"/></l> <r>fisso<s n="adv"/></r></p></e>
 <e>       <p><l>dae<b/>tempus<s n="adv"/></l> <r>da<b/>tempo<s n="adv"/></r></p></e>
