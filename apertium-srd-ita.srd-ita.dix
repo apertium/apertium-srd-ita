@@ -4245,6 +4245,10 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>catedrale<s n="n"/><s n="f"/></l>      <r>cattedrale<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>seu<s n="n"/><s n="m"/></l>            <r>cattedrale<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Catterino<s n="np"/><s n="ant"/><s n="m"/></l><r>Catterino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>supermalintranniadu<s n="n"/></l>         <r>supercattivo<s n="n"/></r></p></e>
+<e>       <p><l>supermalu<s n="n"/></l>                   <r>supercattivo<s n="n"/></r></p></e>
+<e>       <p><l>malintranniadu<s n="n"/></l>         <r>cattivo<s n="n"/></r></p></e>
+<e>       <p><l>malu<s n="n"/></l>                   <r>cattivo<s n="n"/></r></p></e>
 <e>       <p><l>malintranniadu<s n="adj"/></l>         <r>cattivo<s n="adj"/></r></p></e>
 <e>       <p><l>malu<s n="adj"/></l>                   <r>cattivo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>malintranniadu<s n="adj"/></l>         <r>cattivo<s n="adj"/><s n="sup"/></r></p></e>
@@ -4952,6 +4956,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>coltura<s n="n"/><s n="f"/></l>        <r>coltura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>columba<s n="n"/><s n="f"/></l>        <r>columba<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Columbia<s n="np"/><s n="org"/><s n="f"/></l><r>Columbia<s n="np"/><s n="org"/><s n="f"/></r></p></e>
+<e>       <p><l>Colùmbia<b/>Britànnica<s n="np"/><s n="top"/><s n="f"/></l><r>Columbia<b/>Britannica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>coma<s n="n"/><s n="m"/></l>           <r>coma<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumandamentu<s n="n"/><s n="m"/></l>   <r>comandamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumandante<s n="n"/></l>               <r>comandante<s n="n"/></r></p></e>
@@ -6099,6 +6104,8 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Crespi<s n="np"/><s n="cog"/></l>      <r>Crespi<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Creusa<s n="np"/><s n="ant"/><s n="f"/></l><r>Creusa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Crimea<s n="np"/><s n="top"/><s n="f"/></l><r>Crimea<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>supercriminale<s n="n"/></l>           <r>supercriminale<s n="n"/></r></p></e>
+<e>       <p><l>criminale<s n="n"/></l>                <r>criminale<s n="n"/></r></p></e>
 <e>       <p><l>criminale<s n="adj"/></l>              <r>criminale<s n="adj"/></r></p></e>
       <!--<e r="RL"><p><l>creditore<s n="adj"/></l><r>creditore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
 <e r="RL"><p><l>criminale<s n="adj"/></l>              <r>criminale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
