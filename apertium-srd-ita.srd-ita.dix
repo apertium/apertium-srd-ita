@@ -8643,6 +8643,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>eurocratu<s n="n"/></l>                <r>eurocrato<s n="n"/></r></p></e>
 <e>       <p><l>eurodeputadu<s n="n"/></l>             <r>eurodeputato<s n="n"/></r></p></e>
 <e>       <p><l>Europa<s n="np"/><s n="top"/><s n="f"/></l><r>Europa<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>Otzeania<s n="np"/><s n="top"/><s n="f"/></l><r>Oceania<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>europeista<s n="adj"/></l>             <r>europeista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>europeu<s n="adj"/></l>                <r>europeo<s n="adj"/></r></p></e>
 <e>       <p><l>europeu<s n="n"/></l>                  <r>europeo<s n="n"/></r></p></e>
@@ -13475,6 +13476,9 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>Martorana<s n="np"/><s n="cog"/></l>   <r>Martorana<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Maruta<s n="np"/><s n="ant"/><s n="m"/></l><r>Maruta<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Marvel<s n="np"/><s n="org"/><s n="f"/></l><r>Marvel<s n="np"/><s n="org"/><s n="f"/></r></p></e>
+<e>       <p><l>fundamentalismu<s n="n"/><s n="m"/></l>       <r>fondamentalismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>fundamentalista<s n="n"/></l>                 <r>fondamentalista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>fundamentalista<s n="adj"/></l>               <r>fondamentalista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>marxismu<s n="n"/><s n="m"/></l>       <r>marxismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>marxista<s n="n"/></l>                 <r>marxista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>marxista<s n="adj"/></l>               <r>marxista<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -21911,6 +21915,7 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
 <e>       <p><l>arenàrgiu<s n="n"/><s n="m"/></l>      <r>terreno<b/>sabbioso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tanca<s n="n"/><s n="f"/></l>          <r>terreno<g><b/>di<b/>proprietà</g><s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>terrestre<s n="adj"/></l>              <r>terrestre<s n="adj"/></r></p></e>
+<e>       <p><l>terrestre<s n="n"/></l>                <r>terrestre<s n="n"/></r></p></e>
 <!--<e r="RL"><p><l>tentadore<s n="adj"/></l><r>custode<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
 <e r="RL"><p><l>terrestre<s n="adj"/></l>              <r>terrestre<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>terrorosu<s n="adj"/></l>              <r>terribile<s n="adj"/></r></p></e>
@@ -25206,9 +25211,457 @@ apertium-dixtools fix apertium-srd.srd.dix.new apertium-srd.srd.dix.new3
       <e><p><l>multimilliardàriu<s n="adj"/></l><r>multimiliardario<s n="adj"/></r></p></e>
       <e><p><l>multimilliardàriu<s n="n"/></l><r>multimiliardario<s n="n"/></r></p></e>
       <e><p><l>auto-<s n="adj"/></l><r>auto-<s n="adj"/></r></p></e>
+      <e><p><l>neo-<s n="adj"/></l><r>neo-<s n="adj"/></r></p></e>
 <e>       <p><l>orbitale<s n="adj"/></l>              <r>orbitale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>orbitale<s n="adj"/></l>              <r>orbitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 
+<e>       <p><l>mega-fusione<s n="n"/><s n="f"/></l>                  <r>mega-fusione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>megabanca<s n="n"/><s n="f"/></l>                  <r>megabanca<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>megatzentru<s n="n"/><s n="m"/></l>                  <r>megacentro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>megacuntzerto<s n="n"/><s n="m"/></l>                  <r>megaconcerto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>megadirigente<s n="n"/></l>                  <r>megadirigente<s n="n"/></r></p></e>
+<e>       <p><l>megafusione<s n="n"/><s n="f"/></l>                  <r>megafusione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>megaimpiantu<s n="n"/><s n="m"/></l>                  <r>megaimpianto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>megaprodutzione<s n="n"/><s n="f"/></l>                  <r>megaproduzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>megaprogetu<s n="n"/><s n="m"/></l>                  <r>megaprogetto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>megaischermu<s n="n"/><s n="m"/></l>                  <r>megaschermo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>microcrèditu<s n="n"/><s n="m"/></l>                  <r>microcredito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>microcrentia<s n="n"/><s n="f"/></l>                  <r>microcredito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>microtzicuitu<s n="n"/><s n="m"/></l>                  <r>microcircuito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>microcriminalidade<s n="n"/><s n="f"/></l>                  <r>microcriminalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>microunda<s n="n"/><s n="f"/></l>                  <r>microonda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>microorganismu<s n="n"/><s n="m"/></l>                  <r>microorganismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>microprotzessore<s n="n"/><s n="m"/></l>                  <r>microprocessore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>micro-regione<s n="n"/><s n="f"/></l>                  <r>micro-regione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>micropagamenta<s n="n"/><s n="f"/></l>                  <r>micropagamento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>anticonformismu<s n="n"/><s n="m"/></l>                  <r>anticonformismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>anticonformista<s n="n"/></l>                  <r>anticonformista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anticorpus<s n="n"/><s n="m"/></l>                  <r>anticorpo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>antieroe<s n="n"/></l>                  <r>antieroe<s n="n"/></r></p></e>
+<e>       <p><l>antisandinista<s n="n"/></l>                  <r>antisandinista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>iperatividade<s n="n"/><s n="f"/></l>                  <r>iperattività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>ipermercadu<s n="n"/><s n="m"/></l>                  <r>ipermercato<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ipersensibilidade<s n="n"/><s n="f"/></l>                  <r>ipersensibilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>ipertensione<s n="n"/><s n="f"/></l>                  <r>ipertensione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>ipotensione<s n="n"/><s n="f"/></l>                  <r>ipotensione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>super-holding<s n="n"/><s n="f"/></l>                  <r>super-holding<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>superbombardei<s n="n"/><s n="m"/></l>                  <r>superbombardiere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superburocrate<s n="n"/></l>                  <r>superburocrate<s n="n"/></r></p></e>
+<e>       <p><l>supercarculadore<s n="n"/></l>                  <r>supercalcolatore<s n="n"/></r></p></e>
+<e>       <p><l>supercannone<s n="n"/><s n="m"/></l>                  <r>supercannone<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>supercàrtzere<s n="n"/><s n="f"/></l>                  <r>supercarcere<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>superconsulente<s n="n"/></l>                  <r>superconsulente<s n="n"/></r></p></e>
+<e>       <p><l>supercontrollore<s n="n"/></l>                  <r>supercontrollore<s n="n"/></r></p></e>
+<e>       <p><l>super-copa<s n="n"/><s n="f"/></l>                  <r>super-coppa<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>superdollaru<s n="n"/><s n="m"/></l>                  <r>superdollaro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>supereroe<s n="n"/></l>                  <r>supereroe<s n="n"/></r></p></e>
+<e>       <p><l>superespertu<s n="n"/></l>                  <r>superesperto<s n="n"/></r></p></e>
+<e>       <p><l>supergigante<s n="n"/></l>                  <r>supergigante<s n="n"/></r></p></e>
+<e>       <p><l>supergrupu<s n="n"/><s n="m"/></l>                  <r>supergruppo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superholding<s n="n"/><s n="f"/></l>                  <r>superholding<s n="n"/><s n="f"/>n="n"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>superinditze<s n="n"/><s n="m"/></l>                  <r>superindice<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superispetore<s n="n"/></l>                  <r>superispettore<s n="n"/></r></p></e>
+<e>       <p><l>supertraballu<s n="n"/><s n="m"/></l>                  <r>superlavoro<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>supermìnimu<s n="n"/><s n="m"/></l>                  <r>superminimo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superministeru<s n="n"/><s n="m"/></l>                  <r>superministero<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superministru<s n="n"/></l>                  <r>superministro<s n="n"/></r></p></e>
+<e>       <p><l>superpartidu<s n="n"/><s n="m"/></l>                  <r>superpartito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superpentidu<s n="n"/></l>                  <r>superpentito<s n="n"/></r></p></e>
+<e>       <p><l>superpolitziotu<s n="n"/></l>                  <r>superpoliziotto<s n="n"/></r></p></e>
+<e>       <p><l>superpòdere<s n="n"/><s n="m"/></l>                  <r>superpotere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superprefetu<s n="n"/></l>                  <r>superprefetto<s n="n"/></r></p></e>
+<e>       <p><l>superprocuradore<s n="n"/></l>                  <r>superprocuratore<s n="n"/></r></p></e>
+<e>       <p><l>superprodutzione<s n="n"/><s n="f"/></l>                  <r>superproduzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>superstar<s n="n"/><s n="f"/></l>                  <r>superstar<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>supertrenu<s n="n"/><s n="m"/></l>                  <r>supertreno<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superòmine<s n="n"/><s n="m"/></l>                  <r>superuomo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>supervalutatzione<s n="n"/><s n="f"/></l>                  <r>supervalutazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>supervertice<s n="n"/><s n="m"/></l>                  <r>supervertice<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>superbinchidore<s n="n"/></l>                  <r>supervincitore<s n="n"/></r></p></e>
+<e>       <p><l>neo-nazista<s n="n"/></l>                  <r>neo-nazista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neoacuistu<s n="n"/></l>                  <r>neoacquisto<s n="n"/></r></p></e>
+<e>       <p><l>neoassuntu<s n="n"/><s n="m"/></l>                  <r>neoassunto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>neocampione<s n="n"/></l>                  <r>neocampione<s n="n"/></r></p></e>
+<e>       <p><l>neocapitalismu<s n="n"/><s n="m"/></l>                  <r>neocapitalismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>neoclassitzismu<s n="n"/><s n="m"/></l>                  <r>neoclassicismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>neocomunista<s n="n"/></l>                  <r>neocomunista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neodeputadu<s n="n"/></l>                  <r>neodeputato<s n="n"/></r></p></e>
+<e>       <p><l>neodiretore<s n="n"/></l>                  <r>neodirettore<s n="n"/></r></p></e>
+<e>       <p><l>neoelègidu<s n="n"/></l>                  <r>neoeletto<s n="n"/></r></p></e>
+<e>       <p><l>neoformatzione<s n="n"/><s n="f"/></l>                  <r>neoformazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>neoimprendidore<s n="n"/></l>                  <r>neoimprenditore<s n="n"/></r></p></e>
+<e>       <p><l>neolaureadu<s n="n"/></l>                  <r>neolaureato<s n="n"/></r></p></e>
+<e>       <p><l>neoliberismu<s n="n"/><s n="m"/></l>                  <r>neoliberismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>neoministru<s n="n"/></l>                  <r>neoministro<s n="n"/></r></p></e>
+<e>       <p><l>neonazismu<s n="n"/><s n="m"/></l>                  <r>neonazismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>neopatentadu<s n="n"/></l>                  <r>neopatentato<s n="n"/></r></p></e>
+<e>       <p><l>neopromòvidu<s n="n"/></l>                  <r>neopromosso<s n="n"/></r></p></e>
+<e>       <p><l>neosenadore<s n="n"/></l>                  <r>neosenatore<s n="n"/></r></p></e>
+<e>       <p><l>neosìndigu<s n="n"/></l>                  <r>neosindaco<s n="n"/></r></p></e>
+<e>       <p><l>multipropiedade<s n="n"/><s n="f"/></l>                  <r>multiproprietà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>interconnessione<s n="n"/><s n="f"/></l>                  <r>interconnessione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>interregno<s n="n"/><s n="m"/></l>                  <r>interregno<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>interrelatzione<s n="n"/><s n="f"/></l>                  <r>interrelazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>intersetzione<s n="n"/><s n="f"/></l>                  <r>intersezione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>anti-castrista<s n="n"/></l>                  <r>anti-castrista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-castrismu<s n="n"/><s n="m"/></l>                  <r>anti-castrismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>sub-holding<s n="n"/><s n="f"/></l>                  <r>sub-holding<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>sub-saharianu<s n="n"/></l>                  <r>sub-sahariano<s n="n"/></r></p></e>
+<e>       <p><l>subàcueu<s n="n"/></l>                  <r>subacqueo<s n="n"/></r></p></e>
+<e>       <p><l>subapaltadore<s n="n"/></l>                  <r>subappaltatore<s n="n"/></r></p></e>
+<e>       <p><l>subcontinente<s n="n"/><s n="m"/></l>                  <r>subcontinente<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>subentrante<s n="n"/><s n="m"/></l>                  <r>subentrante<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>subholding<s n="n"/><s n="f"/></l>                  <r>subholding<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>autoadesivu<s n="n"/><s n="m"/></l>                  <r>autoadesivo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>autoanalizu<s n="n"/><s n="m"/></l>                  <r>autoanalisi<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>autoarticuladu<s n="n"/><s n="m"/></l>                  <r>autoarticolato<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>autotzelebratzione<s n="n"/><s n="f"/></l>                  <r>autocelebrazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>autotzita<s n="n"/><s n="f"/></l>                  <r>autocitazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>autocontrollu<s n="n"/><s n="m"/></l>                  <r>autocontrollo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>autocunvocadu<s n="n"/></l>                  <r>autoconvocato<s n="n"/></r></p></e>
+<e>       <p><l>autodestruidura<s n="n"/><s n="f"/></l>                  <r>autodistruzione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>autofinantziamentu<s n="n"/><s n="m"/></l>                  <r>autofinanziamento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>autogestione<s n="n"/><s n="f"/></l>                  <r>autogestione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>autoguvernu<s n="n"/><s n="m"/></l>                  <r>autogoverno<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>autolimitatzione<s n="n"/><s n="f"/></l>                  <r>autolimitazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>autoprodutore<s n="n"/></l>                  <r>autoproduttore<s n="n"/></r></p></e>
+<e>       <p><l>autoregulamentatzione<s n="n"/><s n="f"/></l>                  <r>autoregolamentazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>autoistima<s n="n"/><s n="f"/></l>                  <r>autostima<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>autoveìculo<s n="n"/><s n="m"/></l>                  <r>autoveicolo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>ultranatzionalismu<s n="n"/><s n="m"/></l>                  <r>ultranazionalismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>pre-conditzione<s n="n"/><s n="f"/></l>                  <r>pre-condizione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pre-pensionamentu<s n="n"/><s n="m"/></l>                  <r>pre-pensionamento<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>preallarme<s n="n"/><s n="f"/></l>                  <r>preallarme<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>precampionadu<s n="n"/><s n="m"/></l>                  <r>precampionato<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>preconditzione<s n="n"/><s n="f"/></l>                  <r>precondizione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>precungressu<s n="n"/><s n="m"/></l>                  <r>precongresso<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>precotu<s n="n"/><s n="m"/></l>                  <r>precotto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>precualificatzione<s n="n"/><s n="f"/></l>                  <r>prequalificazione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>prerecuisidu<s n="n"/><s n="m"/></l>                  <r>prerequisito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>preiscolare<s n="n"/></l>                  <r>prescolare<s n="n"/></r></p></e>
+<e>       <p><l>preseletzione<s n="n"/><s n="f"/></l>                  <r>preselezione<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>post-comunista<s n="n"/></l>                  <r>post-comunista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>post-fascista<s n="n"/></l>                  <r>post-fascista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>postcomunismu<s n="n"/><s n="m"/></l>                  <r>postcomunismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>postcomunista<s n="n"/></l>                  <r>postcomunista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>autotrapiantu<s n="n"/><s n="m"/></l>                  <r>autotrapianto<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>extraparlamentare<s n="n"/></l>                  <r>extraparlamentare<s n="n"/></r></p></e>
+<e>       <p><l>extraterrestre<s n="n"/></l>                  <r>extraterrestre<s n="n"/></r></p></e>
+<e>       <p><l>eurogrupu<s n="n"/><s n="m"/></l>                  <r>eurogruppo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>europarlamentare<s n="n"/></l>                  <r>europarlamentare<s n="n"/></r></p></e>
+<e>       <p><l>europrèstidu<s n="n"/><s n="m"/></l>                  <r>europrestito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>euroisceticismu<s n="n"/><s n="m"/></l>                  <r>euroscetticismo<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>eurozona<s n="n"/><s n="f"/></l>                  <r>eurozona<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>europarlamentu<s n="n"/><s n="m"/></l>                  <r>europarlamento<s n="n"/><s n="m"/></r></p></e>
+
+      <e><p><l>ablativu<s n="n"/><s n="m"/></l><r>ablativo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>classismu<s n="n"/><s n="m"/></l><r>classismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>classista<s n="adj"/></l><r>classista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>classista<s n="n"/></l><r>classista<s n="n"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>dativu<s n="n"/><s n="m"/></l><r>dativo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>genitivu<s n="n"/><s n="m"/></l><r>genitivo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>nominativu<s n="n"/><s n="m"/></l><r>nominativo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>parlamentare<s n="n"/><s n="mf"/></l><r>parlamentare<s n="n"/><s n="mf"/></r></p></e>
+      <e><p><l>parlamentarismu<s n="n"/><s n="m"/></l><r>parlamentarismo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>parlamentarista<s n="adj"/></l><r>parlamentarista<s n="adj"/></r></p><par n="mf_GD"/></e>
+      <e><p><l>parlamentarista<s n="n"/></l><r>parlamentarista<s n="n"/></r></p><par n="mf_GD"/></e>
+
+
+
+<e>       <p><l>extra-giuditziale<s n="adj"/></l>                  <r>extra-giudiziale<s n="adj"/></r></p></e>
+<e>       <p><l>extra-parlamentare<s n="adj"/></l>                  <r>extra-parlamentare<s n="adj"/></r></p></e>
+<e>       <p><l>extracomunitàriu<s n="adj"/></l>                  <r>extracomunitario<s n="adj"/></r></p></e>
+<e>       <p><l>extraconiugale<s n="adj"/></l>                  <r>extraconiugale<s n="adj"/></r></p></e>
+<e>       <p><l>extracuntratuale<s n="adj"/></l>                  <r>extracontrattuale<s n="adj"/></r></p></e>
+<e>       <p><l>extraeuropeu<s n="adj"/></l>                  <r>extraeuropeo<s n="adj"/></r></p></e>
+<e>       <p><l>extragiuditziale<s n="adj"/></l>                  <r>extragiudiziale<s n="adj"/></r></p></e>
+<e>       <p><l>extralegale<s n="adj"/></l>                  <r>extralegale<s n="adj"/></r></p></e>
+<e>       <p><l>extramatrimoniale<s n="adj"/></l>                  <r>extramatrimoniale<s n="adj"/></r></p></e>
+<e>       <p><l>extraparlamentare<s n="adj"/></l>                  <r>extraparlamentare<s n="adj"/></r></p></e>
+<e>       <p><l>extraiscolare<s n="adj"/></l>                  <r>extrascolare<s n="adj"/></r></p></e>
+<e>       <p><l>extraterrestre<s n="adj"/></l>                  <r>extraterrestre<s n="adj"/></r></p></e>
+<e>       <p><l>extraterritoriale<s n="adj"/></l>                  <r>extraterritoriale<s n="adj"/></r></p></e>
+<e>       <p><l>urbanu<s n="adj"/></l>                  <r>extraurbano<s n="adj"/></r></p></e>
+<e>       <p><l>euroiscèticu<s n="adj"/></l>                  <r>euroiscèticu<s n="adj"/></r></p></e>
+<e>       <p><l>anti-americanu<s n="adj"/></l>                  <r>anti-americano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-àrabu<s n="adj"/></l>                  <r>anti-arabo<s n="adj"/></r></p></e>
+<e>       <p><l>anti-austrìacu<s n="adj"/></l>                  <r>anti-austriaco<s n="adj"/></r></p></e>
+<e>       <p><l>anti-berlusconianu<s n="adj"/></l>                  <r>anti-berlusconiano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-castrista<s n="adj"/></l>                  <r>anti-castrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-catòlicu<s n="adj"/></l>                  <r>anti-cattolico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-colonialista<s n="adj"/></l>                  <r>anti-colonialista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-comunista<s n="adj"/></l>                  <r>anti-comunista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-conformista<s n="adj"/></l>                  <r>anti-conformista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-cunventzionale<s n="adj"/></l>                  <r>anti-convenzionale<s n="adj"/></r></p></e>
+<e>       <p><l>anti-cossighianu<s n="adj"/></l>                  <r>anti-cossighiano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-democràticu<s n="adj"/></l>                  <r>anti-democratico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-ebràicu<s n="adj"/></l>                  <r>anti-ebraico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-econòmicu<s n="adj"/></l>                  <r>anti-economico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-europeu<s n="adj"/></l>                  <r>anti-europeo<s n="adj"/></r></p></e>
+<e>       <p><l>anti-fascista<s n="adj"/></l>                  <r>anti-fascista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-federalista<s n="adj"/></l>                  <r>anti-federalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-giaponesu<s n="adj"/></l>                  <r>anti-convenzionale<s n="adj"/></r></p></e>
+<e>       <p><l>anti-giùighe<s n="adj"/></l>                  <r>anti-giudice<s n="adj"/></r></p></e>
+<e>       <p><l>anti-guvernativu<s n="adj"/></l>                  <r>anti-guvernativo<s n="adj"/></r></p></e>
+<e>       <p><l>anti-imperialista<s n="adj"/></l>                  <r>anti-imperialista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-individualista<s n="adj"/></l>                  <r>anti-individualista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-indonesianu<s n="adj"/></l>                  <r>anti-indonesiano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-inglesu<s n="adj"/></l>                  <r>anti-inglese<s n="adj"/></r></p></e>
+<e>       <p><l>anti-integralista<s n="adj"/></l>                  <r>anti-integralista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-irachenu<s n="adj"/></l>                  <r>anti-iracheno<s n="adj"/></r></p></e>
+<e>       <p><l>anti-iranianu<s n="adj"/></l>                  <r>anti-iraniano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-islàmicu<s n="adj"/></l>                  <r>anti-islamico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-israelianu<s n="adj"/></l>                  <r>anti-israeliano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-italianu<s n="adj"/></l>                  <r>anti-italiano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-leninista<s n="adj"/></l>                  <r>anti-leninista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-lìbicu<s n="adj"/></l>                  <r>anti-libico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-missilìsticu<s n="adj"/></l>                  <r>anti-missilistico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-monàrchicu<s n="adj"/></l>                  <r>anti-monarchico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-nazista<s n="adj"/></l>                  <r>anti-nazista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-nucleare<s n="adj"/></l>                  <r>anti-nucleare<s n="adj"/></r></p></e>
+<e>       <p><l>anti-otzidentale<s n="adj"/></l>                  <r>anti-occidentale<s n="adj"/></r></p></e>
+<e>       <p><l>anti-padanu<s n="adj"/></l>                  <r>anti-padano<s n="adj"/></r></p></e>
+<e>       <p><l>anti-peronista<s n="adj"/></l>                  <r>anti-peronista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-ratzista<s n="adj"/></l>                  <r>anti-razzista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-realìsticu<s n="adj"/></l>                  <r>anti-realistico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-repressivu<s n="adj"/></l>                  <r>anti-repressivo<s n="adj"/></r></p></e>
+<e>       <p><l>anti-russu<s n="adj"/></l>                  <r>anti-russo<s n="adj"/></r></p></e>
+<e>       <p><l>anti-sientìficu<s n="adj"/></l>                  <r>anti-scientifico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-separatista<s n="adj"/></l>                  <r>anti-separatista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-serbu<s n="adj"/></l>                  <r>anti-serbo<s n="adj"/></r></p></e>
+<e>       <p><l>anti-sindacale<s n="adj"/></l>                  <r>anti-sindacale<s n="adj"/></r></p></e>
+<e>       <p><l>anti-sionista<s n="adj"/></l>                  <r>anti-sionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anti-sovièticu<s n="adj"/></l>                  <r>anti-sovietico<s n="adj"/></r></p></e>
+<e>       <p><l>anti-ispagnolu<s n="adj"/></l>                  <r>anti-spagnolo<s n="adj"/></r></p></e>
+<e>       <p><l>anti-unitàriu<s n="adj"/></l>                  <r>anti-unitario<s n="adj"/></r></p></e>
+<e>       <p><l>antiaèreu<s n="adj"/></l>                  <r>antiaereo<s n="adj"/></r></p></e>
+<e>       <p><l>antiamericanu<s n="adj"/></l>                  <r>antiamericano<s n="adj"/></r></p></e>
+<e>       <p><l>antiàrabu<s n="adj"/></l>                  <r>antiarabo<s n="adj"/></r></p></e>
+<e>       <p><l>antiasmàticu<s n="adj"/></l>                  <r>antiasmatico<s n="adj"/></r></p></e>
+<e>       <p><l>antiatòmicu<s n="adj"/></l>                  <r>antiatomico<s n="adj"/></r></p></e>
+<e>       <p><l>antiaustrìacu<s n="adj"/></l>                  <r>antiaustriaco<s n="adj"/></r></p></e>
+<e>       <p><l>antiberninianu<s n="adj"/></l>                  <r>antiberniniano<s n="adj"/></r></p></e>
+<e>       <p><l>antiburocràticu<s n="adj"/></l>                  <r>antiburocratico<s n="adj"/></r></p></e>
+<e>       <p><l>anticanònicu<s n="adj"/></l>                  <r>anticanonico<s n="adj"/></r></p></e>
+<e>       <p><l>antitzinematogràficu<s n="adj"/></l>                  <r>anticinematografico<s n="adj"/></r></p></e>
+<e>       <p><l>antitzinesu<s n="adj"/></l>                  <r>anticinese<s n="adj"/></r></p></e>
+<e>       <p><l>anticlàssicu<s n="adj"/></l>                  <r>anticlassico<s n="adj"/></r></p></e>
+<e>       <p><l>anticlericale<s n="adj"/></l>                  <r>anticlericale<s n="adj"/></r></p></e>
+<e>       <p><l>anticuntziliare<s n="adj"/></l>                  <r>anticonciliare<s n="adj"/></r></p></e>
+<e>       <p><l>precuntziliare<s n="adj"/></l>                  <r>preconciliare<s n="adj"/></r></p></e>
+<e>       <p><l>anticunfederale<s n="adj"/></l>                  <r>anticonfederale<s n="adj"/></r></p></e>
+<e>       <p><l>anticonformista<s n="adj"/></l>                  <r>anticonformista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anticonsumista<s n="adj"/></l>                  <r>anticonsumista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>anticraxianu<s n="adj"/></l>                  <r>anticraxiano<s n="adj"/></r></p></e>
+<e>       <p><l>anticrisi<s n="adj"/></l>                  <r>anticrisi<s n="adj"/></r></p></e>
+<e>       <p><l>antidemocristianu<s n="adj"/></l>                  <r>antidemocristiano<s n="adj"/></r></p></e>
+<e>       <p><l>antiebràicu<s n="adj"/></l>                  <r>antiebraico<s n="adj"/></r></p></e>
+<e>       <p><l>antiecològicu<s n="adj"/></l>                  <r>antiecologico<s n="adj"/></r></p></e>
+<e>       <p><l>antieconòmicu<s n="adj"/></l>                  <r>antieconomico<s n="adj"/></r></p></e>
+<e>       <p><l>antieròicu<s n="adj"/></l>                  <r>antieroico<s n="adj"/></r></p></e>
+<e>       <p><l>antiestèticu<s n="adj"/></l>                  <r>antiestetico<s n="adj"/></r></p></e>
+<e>       <p><l>antieuropeu<s n="adj"/></l>                  <r>antieuropeo<s n="adj"/></r></p></e>
+<e>       <p><l>antifascista<s n="adj"/></l>                  <r>antifascista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antifeminista<s n="adj"/></l>                  <r>antifemminista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antigiaponesu<s n="adj"/></l>                  <r>antigiapponese<s n="adj"/></r></p></e>
+<e>       <p><l>antiigiènicu<s n="adj"/></l>                  <r>antigienico<s n="adj"/></r></p></e>
+<e>       <p><l>antigiudàicu<s n="adj"/></l>                  <r>antigiudaico<s n="adj"/></r></p></e>
+<e>       <p><l>antilìbicu<s n="adj"/></l>                  <r>antilibico<s n="adj"/></r></p></e>
+<e>       <p><l>antimaoista<s n="adj"/></l>                  <r>antimaoista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antimarxista<s n="adj"/></l>                  <r>antimarxista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antimeridianu<s n="adj"/></l>                  <r>antimeridiano<s n="adj"/></r></p></e>
+<e>       <p><l>antimeridionale<s n="adj"/></l>                  <r>antimeridionale<s n="adj"/></r></p></e>
+<e>       <p><l>antimetafìsicu<s n="adj"/></l>                  <r>antimetafisico<s n="adj"/></r></p></e>
+<e>       <p><l>antimilitarista<s n="adj"/></l>                  <r>antimilitarista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antiimperialista<s n="adj"/></l>                  <r>antimperialista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antinaturale<s n="adj"/></l>                  <r>antinaturale<s n="adj"/></r></p></e>
+<e>       <p><l>antinaturalìsticu<s n="adj"/></l>                  <r>antinaturalistico<s n="adj"/></r></p></e>
+<e>       <p><l>antinatzionale<s n="adj"/></l>                  <r>antinazionale<s n="adj"/></r></p></e>
+<e>       <p><l>antiindustriale<s n="adj"/></l>                  <r>antindustriale<s n="adj"/></r></p></e>
+<e>       <p><l>antioràriu<s n="adj"/></l>                  <r>antiorario<s n="adj"/></r></p></e>
+<e>       <p><l>antipobulare<s n="adj"/></l>                  <r>antipopolare<s n="adj"/></r></p></e>
+<e>       <p><l>antiratzista<s n="adj"/></l>                  <r>antirazzista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antirealìsticu<s n="adj"/></l>                  <r>antirealistico<s n="adj"/></r></p></e>
+<e>       <p><l>antireatzionàriu<s n="adj"/></l>                  <r>antireazionario<s n="adj"/></r></p></e>
+<e>       <p><l>antireligiosu<s n="adj"/></l>                  <r>antireligioso<s n="adj"/></r></p></e>
+<e>       <p><l>antiretòricu<s n="adj"/></l>                  <r>antiretorico<s n="adj"/></r></p></e>
+<e>       <p><l>antirivolutzionàriu<s n="adj"/></l>                  <r>antirivoluzionario<s n="adj"/></r></p></e>
+<e>       <p><l>antiromanu<s n="adj"/></l>                  <r>antiromano<s n="adj"/></r></p></e>
+<e>       <p><l>antirussu<s n="adj"/></l>                  <r>antirusso<s n="adj"/></r></p></e>
+<e>       <p><l>antisandinista<s n="adj"/></l>                  <r>antisandinista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antiserbu<s n="adj"/></l>                  <r>antiserbo<s n="adj"/></r></p></e>
+<e>       <p><l>antisindacale<s n="adj"/></l>                  <r>antisindacale<s n="adj"/></r></p></e>
+<e>       <p><l>antisionista<s n="adj"/></l>                  <r>antisionista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antisìsmicu<s n="adj"/></l>                  <r>antisismico<s n="adj"/></r></p></e>
+<e>       <p><l>antisotziale<s n="adj"/></l>                  <r>antisociale<s n="adj"/></r></p></e>
+<e>       <p><l>antisotzialista<s n="adj"/></l>                  <r>antisocialista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>antispagnolu<s n="adj"/></l>                  <r>antispagnolo<s n="adj"/></r></p></e>
+<e>       <p><l>antisportivu<s n="adj"/></l>                  <r>antisportivo<s n="adj"/></r></p></e>
+<e>       <p><l>antitalianu<s n="adj"/></l>                  <r>antitaliano<s n="adj"/></r></p></e>
+<e>       <p><l>antitècnicu<s n="adj"/></l>                  <r>antitecnico<s n="adj"/></r></p></e>
+<e>       <p><l>antitelevisivu<s n="adj"/></l>                  <r>antitelevisivo<s n="adj"/></r></p></e>
+<e>       <p><l>antiunitàriu<s n="adj"/></l>                  <r>antiunitario<s n="adj"/></r></p></e>
+<e>       <p><l>contraaèreu<s n="adj"/></l>                  <r>contraereo<s n="adj"/></r></p></e>
+<e>       <p><l>iper-teatrale<s n="adj"/></l>                  <r>iper-teatrale<s n="adj"/></r></p></e>
+<e>       <p><l>iperrealista<s n="adj"/></l>                  <r>iperrealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>ipersensìbile<s n="adj"/></l>                  <r>ipersensibile<s n="adj"/></r></p></e>
+<e>       <p><l>ipertecnològicu<s n="adj"/></l>                  <r>ipertecnologico<s n="adj"/></r></p></e>
+<e>       <p><l>super-livelladu<s n="adj"/></l>                  <r>super-livellato<s n="adj"/></r></p></e>
+<e>       <p><l>super-làngiu<s n="adj"/></l>                  <r>super-magro<s n="adj"/></r></p></e>
+<e>       <p><l>super-moderadu<s n="adj"/></l>                  <r>super-moderato<s n="adj"/></r></p></e>
+<e>       <p><l>super-modernu<s n="adj"/></l>                  <r>super-moderno<s n="adj"/></r></p></e>
+<e>       <p><l>super-otimista<s n="adj"/></l>                  <r>super-ottimista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>super-balente<s n="adj"/></l>                  <r>super-potente<s n="adj"/></r></p></e>
+<e>       <p><l>super-privilegiadu<s n="adj"/></l>                  <r>super-privilegiato<s n="adj"/></r></p></e>
+<e>       <p><l>super-produtivu<s n="adj"/></l>                  <r>super-produttivo<s n="adj"/></r></p></e>
+<e>       <p><l>super-professionale<s n="adj"/></l>                  <r>super-professionale<s n="adj"/></r></p></e>
+<e>       <p><l>super-amparadu<s n="adj"/></l>                  <r>super-protetto<s n="adj"/></r></p></e>
+<e>       <p><l>super-racumandadu<s n="adj"/></l>                  <r>super-raccomandato<s n="adj"/></r></p></e>
+<e>       <p><l>super-lestru<s n="adj"/></l>                  <r>super-rapido<s n="adj"/></r></p></e>
+<e>       <p><l>superalcòlicu<s n="adj"/></l>                  <r>superalcolico<s n="adj"/></r></p></e>
+<e>       <p><l>superlìcuidu<s n="adj"/></l>                  <r>superliquido<s n="adj"/></r></p></e>
+<e>       <p><l>superlàngiu<s n="adj"/></l>                  <r>supermagro<s n="adj"/></r></p></e>
+<e>       <p><l>supermoderadu<s n="adj"/></l>                  <r>supermoderato<s n="adj"/></r></p></e>
+<e>       <p><l>supernatzionale<s n="adj"/></l>                  <r>supernazionale<s n="adj"/></r></p></e>
+<e>       <p><l>superotimista<s n="adj"/></l>                  <r>superottimista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>superpatriòticu<s n="adj"/></l>                  <r>superpatriottico<s n="adj"/></r></p></e>
+<e>       <p><l>supergrae<s n="adj"/></l>                  <r>superpesante<s n="adj"/></r></p></e>
+<e>       <p><l>superbalente<s n="adj"/></l>                  <r>superpotente<s n="adj"/></r></p></e>
+<e>       <p><l>superpretzisu<s n="adj"/></l>                  <r>superpreciso<s n="adj"/></r></p></e>
+<e>       <p><l>superpreferentziale<s n="adj"/></l>                  <r>superpreferenziale<s n="adj"/></r></p></e>
+<e>       <p><l>superprivilegiadu<s n="adj"/></l>                  <r>superprivilegiato<s n="adj"/></r></p></e>
+<e>       <p><l>superprodutivu<s n="adj"/></l>                  <r>superproduttivo<s n="adj"/></r></p></e>
+<e>       <p><l>superprofessionale<s n="adj"/></l>                  <r>superprofessionale<s n="adj"/></r></p></e>
+<e>       <p><l>superamparadu<s n="adj"/></l>                  <r>superprotetto<s n="adj"/></r></p></e>
+<e>       <p><l>superlestru<s n="adj"/></l>                  <r>superrapido<s n="adj"/></r></p></e>
+<e>       <p><l>supertècnicu<s n="adj"/></l>                  <r>supertecnico<s n="adj"/></r></p></e>
+<e>       <p><l>superlestru<s n="adj"/></l>                  <r>superveloce<s n="adj"/></r></p></e>
+<e>       <p><l>filo-castrista<s n="adj"/></l>                  <r>filo-castrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>fino-tzinesu<s n="adj"/></l>                  <r>filo-cinese<s n="adj"/></r></p></e>
+<e>       <p><l>filo-curdu<s n="adj"/></l>                  <r>filo-curdo<s n="adj"/></r></p></e>
+<e>       <p><l>filo-egitzianu<s n="adj"/></l>                  <r>filo-egiziano<s n="adj"/></r></p></e>
+<e>       <p><l>filo-guvernativu<s n="adj"/></l>                  <r>filo-guvernativo<s n="adj"/></r></p></e>
+<e>       <p><l>filo-irachenu<s n="adj"/></l>                  <r>filo-iracheno<s n="adj"/></r></p></e>
+<e>       <p><l>filo-iranianu<s n="adj"/></l>                  <r>filo-iraniano<s n="adj"/></r></p></e>
+<e>       <p><l>filo-otzidentale<s n="adj"/></l>                  <r>filo-occidentale<s n="adj"/></r></p></e>
+<e>       <p><l>filodrammàticu<s n="adj"/></l>                  <r>filodrammatico<s n="adj"/></r></p></e>
+<e>       <p><l>filoiranianu<s n="adj"/></l>                  <r>filoiraniano<s n="adj"/></r></p></e>
+<e>       <p><l>filonazista<s n="adj"/></l>                  <r>filonazista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>filosirianu<s n="adj"/></l>                  <r>filosiriano<s n="adj"/></r></p></e>
+<e>       <p><l>filosovièticu<s n="adj"/></l>                  <r>filosovietico<s n="adj"/></r></p></e>
+<e>       <p><l>neo-tzentrista<s n="adj"/></l>                  <r>neo-centrista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neo-clàssicu<s n="adj"/></l>                  <r>neo-classico<s n="adj"/></r></p></e>
+<e>       <p><l>neo-gollista<s n="adj"/></l>                  <r>neo-gollista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neocapitalista<s n="adj"/></l>                  <r>neocapitalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neoclàssicu<s n="adj"/></l>                  <r>neoclassico<s n="adj"/></r></p></e>
+<e>       <p><l>neocomunista<s n="adj"/></l>                  <r>neocomunista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neofascista<s n="adj"/></l>                  <r>neofascista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neogollista<s n="adj"/></l>                  <r>neogollista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neogòticu<s n="adj"/></l>                  <r>neogotico<s n="adj"/></r></p></e>
+<e>       <p><l>neolatinu<s n="adj"/></l>                  <r>neolatino<s n="adj"/></r></p></e>
+<e>       <p><l>neolaureadu<s n="adj"/></l>                  <r>neolaureato<s n="adj"/></r></p></e>
+<e>       <p><l>neoliberale<s n="adj"/></l>                  <r>neoliberale<s n="adj"/></r></p></e>
+<e>       <p><l>neonazista<s n="adj"/></l>                  <r>neonazista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neorealista<s n="adj"/></l>                  <r>neorealista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>neorealìsticu<s n="adj"/></l>                  <r>neorealistico<s n="adj"/></r></p></e>
+<e>       <p><l>multiètnicu<s n="adj"/></l>                  <r>multietnico<s n="adj"/></r></p></e>
+<e>       <p><l>tzentru-europeu<s n="adj"/></l>                  <r>centro-europeo<s n="adj"/></r></p></e>
+<e>       <p><l>tzentru-meridionale<s n="adj"/></l>                  <r>centro-meridionale<s n="adj"/></r></p></e>
+<e>       <p><l>tzentru-otzidentale<s n="adj"/></l>                  <r>centro-occidentale<s n="adj"/></r></p></e>
+<e>       <p><l>tzentru-orientale<s n="adj"/></l>                  <r>centro-orientale<s n="adj"/></r></p></e>
+<e>       <p><l>tzentru-setentrionale<s n="adj"/></l>                  <r>centro-settentrionale<s n="adj"/></r></p></e>
+<e>       <p><l>tzentruamericanu<s n="adj"/></l>                  <r>centroamericano<s n="adj"/></r></p></e>
+<e>       <p><l>tzentrueuropeu<s n="adj"/></l>                  <r>centroeuropeo<s n="adj"/></r></p></e>
+<e>       <p><l>tzentruorientale<s n="adj"/></l>                  <r>centrorientale<s n="adj"/></r></p></e>
+<e>       <p><l>tzentruotzidentale<s n="adj"/></l>                  <r>centroccidentale<s n="adj"/></r></p></e>
+<e>       <p><l>inter-comunitàriu<s n="adj"/></l>                  <r>inter-comunitario<s n="adj"/></r></p></e>
+<e>       <p><l>inter-generatzionale<s n="adj"/></l>                  <r>inter-generazionale<s n="adj"/></r></p></e>
+<e>       <p><l>interannuale<s n="adj"/></l>                  <r>interannuale<s n="adj"/></r></p></e>
+<e>       <p><l>interaziendale<s n="adj"/></l>                  <r>interaziendale<s n="adj"/></r></p></e>
+<e>       <p><l>interbancàriu<s n="adj"/></l>                  <r>interbancario<s n="adj"/></r></p></e>
+<e>       <p><l>interclassista<s n="adj"/></l>                  <r>interclassista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>intercumarcale<s n="adj"/></l>                  <r>intercomarcale<s n="adj"/></r></p></e>
+<e>       <p><l>intercumonale<s n="adj"/></l>                  <r>intercomunale<s n="adj"/></r></p></e>
+<e>       <p><l>intercunfederale<s n="adj"/></l>                  <r>interconfederale<s n="adj"/></r></p></e>
+<e>       <p><l>intercontinentale<s n="adj"/></l>                  <r>intercontinentale<s n="adj"/></r></p></e>
+<e>       <p><l>interètnicu<s n="adj"/></l>                  <r>interetnico<s n="adj"/></r></p></e>
+<e>       <p><l>interguvernativu<s n="adj"/></l>                  <r>intergovernativo<s n="adj"/></r></p></e>
+<e>       <p><l>interministeriale<s n="adj"/></l>                  <r>interministeriale<s n="adj"/></r></p></e>
+<e>       <p><l>intermodale<s n="adj"/></l>                  <r>intermodale<s n="adj"/></r></p></e>
+<e>       <p><l>interparlamentare<s n="adj"/></l>                  <r>interparlamentare<s n="adj"/></r></p></e>
+<e>       <p><l>interpersonale<s n="adj"/></l>                  <r>interpersonale<s n="adj"/></r></p></e>
+<e>       <p><l>interplanetàriu<s n="adj"/></l>                  <r>interplanetario<s n="adj"/></r></p></e>
+<e>       <p><l>interprofessionale<s n="adj"/></l>                  <r>interprofessionale<s n="adj"/></r></p></e>
+<e>       <p><l>interprovintziale<s n="adj"/></l>                  <r>interprovinciale<s n="adj"/></r></p></e>
+<e>       <p><l>interreligiosu<s n="adj"/></l>                  <r>interreligioso<s n="adj"/></r></p></e>
+<e>       <p><l>interistellare<s n="adj"/></l>                  <r>interstellare<s n="adj"/></r></p></e>
+<e>       <p><l>interurbanu<s n="adj"/></l>                  <r>interurbano<s n="adj"/></r></p></e>
+<e>       <p><l>filoguvernativu<s n="adj"/></l>                  <r>filogovernativo<s n="adj"/></r></p></e>
+<e>       <p><l>filo-guvernativu<s n="adj"/></l>                  <r>filo-governativo<s n="adj"/></r></p></e>
+<e>       <p><l>auto-acusatòriu<s n="adj"/></l>                  <r>auto-accusatorio<s n="adj"/></r></p></e>
+<e>       <p><l>auto-assolutòriu<s n="adj"/></l>                  <r>auto-assolutorio<s n="adj"/></r></p></e>
+<e>       <p><l>finantziadu<s n="adj"/></l>                  <r>auto-finanziato<s n="adj"/></r></p></e>
+<e>       <p><l>auto-gestidu<s n="adj"/></l>                  <r>auto-gestito<s n="adj"/></r></p></e>
+<e>       <p><l>auto-persecutòriu<s n="adj"/></l>                  <r>auto-persecutorio<s n="adj"/></r></p></e>
+<e>       <p><l>auto-punitivu<s n="adj"/></l>                  <r>auto-punitivo<s n="adj"/></r></p></e>
+<e>       <p><l>autoadesivu<s n="adj"/></l>                  <r>autoadesivo<s n="adj"/></r></p></e>
+<e>       <p><l>autoatribuidu<s n="adj"/></l>                  <r>autoattribuito<s n="adj"/></r></p></e>
+<e>       <p><l>autotzelebradu<s n="adj"/></l>                  <r>autocelebrato<s n="adj"/></r></p></e>
+<e>       <p><l>autotzelebrativu<s n="adj"/></l>                  <r>autocelebrativo<s n="adj"/></r></p></e>
+<e>       <p><l>autoconcruidu<s n="adj"/></l>                  <r>autoconcluso<s n="adj"/></r></p></e>
+<e>       <p><l>autocundennare<s n="adj"/></l>                  <r>autocondannare<s n="adj"/></r></p></e>
+<e>       <p><l>autocunferire<s n="adj"/></l>                  <r>autoconferire<s n="adj"/></r></p></e>
+<e>       <p><l>autoconfinare<s n="adj"/></l>                  <r>autoconfinare<s n="adj"/></r></p></e>
+<e>       <p><l>autocrìticu<s n="adj"/></l>                  <r>autocritico<s n="adj"/></r></p></e>
+<e>       <p><l>autoeròticu<s n="adj"/></l>                  <r>autoerotico<s n="adj"/></r></p></e>
+<e>       <p><l>autoirònicu<s n="adj"/></l>                  <r>autoironico<s n="adj"/></r></p></e>
+<e>       <p><l>autopromotzionale<s n="adj"/></l>                  <r>autopromozionale<s n="adj"/></r></p></e>
+<e>       <p><l>autosponsoritzadu<s n="adj"/></l>                  <r>autosponsorizzato<s n="adj"/></r></p></e>
+<e>       <p><l>autosufitziente<s n="adj"/></l>                  <r>autosufficiente<s n="adj"/></r></p></e>
+<e>       <p><l>ultra-natzionalista<s n="adj"/></l>                  <r>ultra-nazionalista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>ultracortu<s n="adj"/></l>                  <r>ultracorto<s n="adj"/></r></p></e>
+<e>       <p><l>ultracortzu<s n="adj"/></l>                  <r>ultracorto<s n="adj"/></r></p></e>
+<e>       <p><l>ultralestru<s n="adj"/></l>                  <r>ultrarapido<s n="adj"/></r></p></e>
+<e>       <p><l>ultrasensìbile<s n="adj"/></l>                  <r>ultrasensibile<s n="adj"/></r></p></e>
+<e>       <p><l>pre-eletorale<s n="adj"/></l>                  <r>pre-elettorale<s n="adj"/></r></p></e>
+<e>       <p><l>pre-malignu<s n="adj"/></l>                  <r>pre-maligno<s n="adj"/></r></p></e>
+<e>       <p><l>pre-polìticu<s n="adj"/></l>                  <r>pre-politico<s n="adj"/></r></p></e>
+<e>       <p><l>pre-rivolutzionàriu<s n="adj"/></l>                  <r>pre-rivolutzionario<s n="adj"/></r></p></e>
+<e>       <p><l>prealpinu<s n="adj"/></l>                  <r>prealpino<s n="adj"/></r></p></e>
+<e>       <p><l>preatlèticu<s n="adj"/></l>                  <r>preatletico<s n="adj"/></r></p></e>
+<e>       <p><l>precampionadu<s n="adj"/></l>                  <r>precampionato<s n="adj"/></r></p></e>
+<e>       <p><l>precolombianu<s n="adj"/></l>                  <r>precolombiano<s n="adj"/></r></p></e>
+<e>       <p><l>precotu<s n="adj"/></l>                  <r>precotto<s n="adj"/></r></p></e>
+<e>       <p><l>predesèrticu<s n="adj"/></l>                  <r>predesertico<s n="adj"/></r></p></e>
+<e>       <p><l>preeletorale<s n="adj"/></l>                  <r>preelettorale<s n="adj"/></r></p></e>
+<e>       <p><l>prefestivu<s n="adj"/></l>                  <r>prefestivo<s n="adj"/></r></p></e>
+<e>       <p><l>prefrontale<s n="adj"/></l>                  <r>prefrontale<s n="adj"/></r></p></e>
+<e>       <p><l>pregiuditziale<s n="adj"/></l>                  <r>pregiudiziale<s n="adj"/></r></p></e>
+<e>       <p><l>prematrimoniale<s n="adj"/></l>                  <r>prematrimoniale<s n="adj"/></r></p></e>
+<e>       <p><l>prenadale<s n="adj"/></l>                  <r>prenatale<s n="adj"/></r></p></e>
+<e>       <p><l>post-apocalìticu<s n="adj"/></l>                  <r>post-apocalittico<s n="adj"/></r></p></e>
+<e>       <p><l>post-bèllicu<s n="adj"/></l>                  <r>post-bellico<s n="adj"/></r></p></e>
+<e>       <p><l>post-comunista<s n="adj"/></l>                  <r>post-comunista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>post-eletorale<s n="adj"/></l>                  <r>post-elettorale<s n="adj"/></r></p></e>
+<e>       <p><l>post-industriale<s n="adj"/></l>                  <r>post-industriale<s n="adj"/></r></p></e>
+<e>       <p><l>post-modernu<s n="adj"/></l>                  <r>post-moderno<s n="adj"/></r></p></e>
+<e>       <p><l>post-ratzista<s n="adj"/></l>                  <r>post-razzista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>post-rivolutzionàriu<s n="adj"/></l>                  <r>post-rivoluzionario<s n="adj"/></r></p></e>
+<e>       <p><l>bèllicu<s n="adj"/></l>                  <r>postbellico<s n="adj"/></r></p></e>
+<e>       <p><l>postcomunista<s n="adj"/></l>                  <r>postcomunista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>postcuntziliare<s n="adj"/></l>                  <r>postconciliare<s n="adj"/></r></p></e>
+<e>       <p><l>sub-saharianu<s n="adj"/></l>                  <r>sub-sahariano<s n="adj"/></r></p></e>
+<e>       <p><l>sub-tropicale<s n="adj"/></l>                  <r>sub-tropicale<s n="adj"/></r></p></e>
+<e>       <p><l>sub-umanu<s n="adj"/></l>                  <r>sub-umano<s n="adj"/></r></p></e>
+<e>       <p><l>subàcueu<s n="adj"/></l>                  <r>subacqueo<s n="adj"/></r></p></e>
+<e>       <p><l>subalpinu<s n="adj"/></l>                  <r>subalpino<s n="adj"/></r></p></e>
+<e>       <p><l>subalternu<s n="adj"/></l>                  <r>subalterno<s n="adj"/></r></p></e>
+<e>       <p><l>subnormale<s n="adj"/></l>                  <r>subnormale<s n="adj"/></r></p></e>
+<e>       <p><l>suborbitale<s n="adj"/></l>                  <r>suborbitale<s n="adj"/></r></p></e>
+<e>       <p><l>subsaharianu<s n="adj"/></l>                  <r>subsahariano<s n="adj"/></r></p></e>
+<e>       <p><l>subtropicale<s n="adj"/></l>                  <r>subtropicale<s n="adj"/></r></p></e>
+<e>       <p><l>subumanu<s n="adj"/></l>                  <r>subumano<s n="adj"/></r></p></e>
+<e>       <p><l>suburbanu<s n="adj"/></l>                  <r>suburbano<s n="adj"/></r></p></e>
 
       <!-- SECCIÓN: Punctuación -->
 
