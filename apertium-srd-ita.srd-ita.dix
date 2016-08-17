@@ -153,16 +153,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
   </pardefs>
 
   <section id="main" type="standard">
-    <!-- ******************************
-          group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,prn_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,pl_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD-pl_ND,mf-sp_ND,m-m_f-f,ND_pl
-      ****************************** -->
-<e>       <p><l>oscuru<s n="adj"/></l>                 <r>@oscuru<s n="adj"/></r></p></e>
-    <!-- ******************************
-          group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf-sp_ND,m-m_f-f,ND_pl
-      ****************************** -->
-    <!-- ******************************
-          group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,cnjadv,cnjadv_symbol,pr,pr_symbol,vblex,vblex_symbol,preadv,preadv_symbol,ij,ij_symbol,vbmod,vbmod_symbol,cnjcoo,cnjcoo_symbol,predet,predet_symbol,cnjsub,cnjsub_symbol,vbser,vbser_symbol,vbhaver,vbhaver_symbol,num,num_symbol,det,det_symbol,rel,rel_symbol,sp_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD-pl_ND,mf-sp_ND,m-m_f-f,ND_pl
-      ****************************** -->
 <e>       <p><l>a<s n="pr"/></l>                       <r>a<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>bonu<s n="ij"/></l>                <r>magari<s n="ij"/></r></p></e>
 <e>       <p><l>in<b/>domo<s n="adv"/></l>             <r>a<b/>casa<s n="adv"/></r></p></e>
@@ -5360,7 +5350,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR"><p><l>cusse<s n="prn"/><s n="tn"/></l>       <r>colui<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>columba<s n="n"/><s n="f"/></l>        <r>columba<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Columbia<s n="np"/><s n="org"/><s n="f"/></l><r>Columbia<s n="np"/><s n="org"/><s n="f"/></r></p></e>
-<e>       <p><l>Colùmbia<b/>Britànnica<s n="np"/><s n="top"/><s n="f"/></l><r>Columbia<b/>Britannica<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>       <p><l>Colùmbia<b/>Britànnica<s n="np"/><s n="top"/><s n="f"/></l><r>Columbia<b/>Britannica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>coma<s n="n"/><s n="m"/></l>           <r>coma<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumandamentu<s n="n"/><s n="m"/></l>   <r>comandamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cumandante<s n="n"/></l>               <r>comandante<s n="n"/></r></p></e>
@@ -14230,7 +14220,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Maro<s n="np"/><s n="ant"/><s n="m"/></l><r>Maro<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>marochinu<s n="adj"/></l>              <r>marocchino<s n="adj"/></r></p></e>
 <e r="RL"><p><l>marochinu<s n="adj"/></l>              <r>marocchino<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>Marrocu<s n="np"/><s n="top"/><s n="m"/></l><r>Marocco<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>       <p><l>Marrocu<s n="np"/><s n="top"/><s n="m"/></l><r>Marocco<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Marolo<s n="np"/><s n="ant"/><s n="m"/></l><r>Marolo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Marone<s n="np"/><s n="ant"/><s n="m"/></l><r>Marone<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Marota<s n="np"/><s n="ant"/><s n="m"/></l><r>Marota<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -14239,7 +14229,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>castàngiu<s n="adj"/></l>              <r>marrone<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>marrone<s n="n"/><s n="m"/></l>        <r>marrone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>castàngiu<s n="adj"/></l>              <r>marrone<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>Marrùbiu<s n="np"/><s n="top"/><s n="m"/></l><r>Marrubiu<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>       <p><l>Marrùbiu<s n="np"/><s n="top"/><s n="m"/></l><r>Marrubiu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Marrùbiu<s n="np"/><s n="top"/><s n="m"/></l><r>Marrùbiu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Marshall<s n="np"/><s n="cog"/></l>    <r>Marshall<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Marsina<s n="np"/><s n="ant"/><s n="f"/></l><r>Marsina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
