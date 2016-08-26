@@ -121,8 +121,42 @@
 <!--VITE/TORONÌLLIU-->
 
   <rule weight="1.0">
-       <match tags="num.*"/>
+    <match tags="num.*"/>
     <match lemma="vite" tags="n.*"><select lemma="toronìlliu" tags="n.*"/></match>
+  </rule>
+
+
+<!--CORSO n.m > CORSICANU/CURSU -->
+
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.sg"><select lemma="cursu" tags="n.m.sg"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.pl"><select lemma="corsicanu" tags="n.m.pl"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="corsicanu" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="1.2">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.sg"><select lemma="cursu" tags="n.m.sg"/></match>
+    <match lemma="de" tags="pr"/>
+  </rule>
+
+
+<!-- MIGLIO n.m.sg > MÌLLIU/ERBA FERRU -->
+
+  <rule weight="0.8">
+    <match lemma="miglio" tags="n.m.sg"><select lemma="erba ferru" tags="n.f.sg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="miglio" tags="n.m.sg"><select lemma="mìlliu" tags="n.m.sg"/></match>
+    <match lemma="quadrato"/>
   </rule>
 
 
@@ -182,6 +216,7 @@
     <match lemma="intendere" tags="vblex.*"><select lemma="chèrrere" tags="vblex.*"/></match>
     <match tags="vblex.inf"/>
   </rule>
+
 
 <!-- SU (ADV) > SUSU, IN SUSU, A SUSU -->
 
@@ -278,6 +313,222 @@
       <match lemma="venire" tags="vblex.*"/>
     </or>
     <match lemma="giù" tags="adv"><select lemma="a giosso" tags="adv"/></match>
+  </rule>
+
+
+<!-- DOVE (ADV) > UE, IN UE, A UE -->
+
+  <rule weight="0.8">
+    <match lemma="dove" tags="adv"><select lemma="ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+    <match tags="prn.*"/>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+  </rule>
+
+
+<!-- DOVE (ADV.ITG) > UE, IN UE, A UE -->
+
+  <rule weight="0.8">
+    <match lemma="dove" tags="adv.itg"><select lemma="ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv.itg"><select lemma="in ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv.itg"><select lemma="in ue" tags="adv.itg"/></match>
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="dove" tags="adv.itg"><select lemma="in ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv.itg"><select lemma="a ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv.itg"><select lemma="a ue" tags="adv.itg"/></match>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv.itg"><select lemma="a ue" tags="adv.itg"/></match>
+    <match tags="prn.*"/>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
   </rule>
 
 </rules>

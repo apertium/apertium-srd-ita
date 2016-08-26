@@ -4264,7 +4264,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cabèntzia<s n="n"/><s n="f"/></l>      <r>capienza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>càbida<s n="n"/><s n="f"/></l>         <r>capienza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cumprèndere<s n="vblex"/></l>          <r>capire<s n="vblex"/></r></p></e>
-<e>       <p><l>capitale<s n="n"/><s n="f"/></l>       <r>capitale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>capitale<s n="n"/><s n="m"/></l>       <r>capitale<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>capitale<s n="n"/><s n="f"/></l>       <r>capitale<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>capitale<s n="adj"/></l>               <r>capitale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>capitale<s n="adj"/></l>               <r>capitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -5081,6 +5081,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tzitadinu<s n="n"/><s n="m"/></l>      <r>cittadino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tzitadinu<s n="adj"/></l>              <r>cittadino<s n="adj"/></r></p></e>
 <e>       <p><l>tzitade<s n="n"/><s n="f"/></l>        <r>città<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>tzitade-istadu<s n="n"/><s n="f"/></l> <r>città-stato<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>tzitade<s n="n"/><s n="m"/></l><r>city<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>tzufu<s n="n"/><s n="m"/></l>          <r>ciuffo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Ciuvascia<s n="np"/><s n="top"/><s n="f"/></l><r>Ciuvascia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -6358,16 +6359,13 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>corsia<s n="n"/><s n="f"/></l>         <r>corsia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Còrsica<s n="np"/><s n="top"/><s n="f"/></l><r>Corsica<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>cursu<s n="n"/><s n="m"/></l>          <r>corso<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>cùrridu<s n="n"/><s n="m"/></l>          <r>corso<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>corsu<s n="n"/><s n="m"/></l><r>corso<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>cossu<s n="n"/><s n="m"/></l><r>corso<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>cossu<s n="n"/></l>  <r>corso<s n="n"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>cossu<s n="adj"/></l><r>corso<s n="adj"/></r></p></e>
 <e>       <p><l>corsicanu<s n="adj"/></l>              <r>corso<s n="adj"/></r></p></e>
 <e>       <p><l>corsicanu<s n="n"/></l>                <r>corso<s n="n"/></r></p></e>
-<e>       <p><l>corsu<s n="adj"/></l>                  <r>corso<s n="adj"/></r></p></e>
-<e r="LR"><p><l>corsu<s n="n"/></l>                    <r>corso<s n="n"/></r></p></e>
-<e>       <p><l>cossu<s n="adj"/></l>                  <r>corso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>corsicanu<s n="adj"/></l>              <r>corso<s n="adj"/><s n="sup"/></r></p></e>
-<e r="RL"><p><l>corsu<s n="adj"/></l>                  <r>corso<s n="adj"/><s n="sup"/></r></p></e>
-<e r="RL"><p><l>cossu<s n="adj"/></l>                  <r>corso<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>corte<s n="n"/><s n="f"/></l>          <r>corte<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cortegiamentu<s n="n"/><s n="m"/></l>  <r>corteggiamento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>corteu<s n="n"/><s n="m"/></l>         <r>corteo<s n="n"/><s n="m"/></r></p></e>
@@ -8108,10 +8106,11 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Douglas<s n="np"/><s n="ant"/><s n="m"/></l><r>Douglas<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Douglas<s n="np"/><s n="cog"/></l>     <r>Douglas<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>ue<s n="cnjadv"/></l>                  <r>dove<s n="cnjadv"/></r></p></e>
-<e>       <p><l>ue<s n="adv"/></l>                     <r>dove<s n="adv"/></r></p></e>
 <e>       <p><l>ue<s n="rel"/><s n="adv"/></l>         <r>dove<s n="rel"/><s n="adv"/></r></p></e>
 <e>       <p><l>ue<s n="adv"/><s n="itg"/></l>         <r>dove<s n="adv"/><s n="itg"/></r></p></e>
 <e>       <p><l>in<b/>ue<s n="adv"/><s n="itg"/></l>   <r>dove<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>a<b/>ue<s n="adv"/><s n="itg"/></l>    <r>dove<s n="adv"/><s n="itg"/></r></p></e>
+<e>       <p><l>ue<s n="adv"/></l>                     <r>dove<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>ue<s n="adv"/></l>                <r>dove<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>ue<s n="adv"/></l>               <r>dove<s n="adv"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>dovere<s n="n"/><s n="m"/></l><r>dovere<s n="n"/><s n="m"/></r></p></e>
@@ -9825,7 +9824,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Fioranna<s n="np"/><s n="ant"/><s n="f"/></l><r>Fioranna<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Fiordalisa<s n="np"/><s n="ant"/><s n="f"/></l><r>Fiordalisa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Fiordaliso<s n="np"/><s n="ant"/><s n="m"/></l><r>Fiordaliso<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>frore<s n="n"/><s n="f"/></l>          <r>fiore<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>frore<s n="n"/><s n="m"/></l>          <r>fiore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Fiore<s n="np"/><s n="ant"/><s n="f"/></l><r>Fiore<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Fiore<s n="np"/><s n="ant"/><s n="m"/></l><r>Fiore<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Fiore<s n="np"/><s n="cog"/></l>       <r>Fiore<s n="np"/><s n="cog"/></r></p></e>
@@ -14767,6 +14766,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>mele<s n="n"/><s n="m"/></l>           <r>miele<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>messare<s n="vblex"/></l>              <r>mietere<s n="vblex"/></r></p></e>
 <e>       <p><l>Migdonio<s n="np"/><s n="ant"/><s n="m"/></l><r>Migdonio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>erba<b/>ferru<s n="n"/><s n="f"/><s n="sg"/></l>         <r>miglio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>mìlliu<s n="n"/><s n="m"/><s n="sg"/></l>         <r>miglio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>mìlliu<s n="n"/><s n="m"/></l>         <r>miglio<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>mìlliu<s n="n"/><s n="m"/><s n="pl"/></l>         <r>miglio<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e>       <p><l>mìgia<s n="n"/><s n="f"/></l>          <r>migliaio<s n="n"/><s n="m"/></r></p></e>
@@ -18882,7 +18883,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cartulàriu<s n="n"/></l>               <r>quaderno<s n="n"/></r></p></e>
 <e>       <p><l>cuadernu<s n="n"/><s n="m"/></l>       <r>quaderno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cuadrante<s n="n"/><s n="m"/></l>      <r>quadrante<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>cuadradu<s n="n"/><s n="m"/></l>       <r>quadrare<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>cuadradu<s n="n"/><s n="m"/></l>       <r>quadrato<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>cuadrare<s n="vblex"/></l>             <r>quadrare<s n="vblex"/></r></p></e>
 <e>       <p><l>Quadrato<s n="np"/><s n="ant"/><s n="m"/></l><r>Quadrato<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>cuadradu<s n="adj"/></l>               <r>quadrato<s n="adj"/></r></p></e>
@@ -24639,7 +24640,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Venero<s n="np"/><s n="ant"/><s n="m"/></l><r>Venero<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>vènetu<s n="adj"/></l>                 <r>veneto<s n="adj"/></r></p></e>
 <e>       <p><l>vènetu<s n="n"/></l>                   <r>veneto<s n="n"/></r></p></e>
-<e>       <p><l>Venetu<s n="np"/><s n="top"/><s n="m"/></l><r>Veneto<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Vènetu<s n="np"/><s n="top"/><s n="m"/></l><r>Veneto<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>vènetu<s n="adj"/></l>                 <r>veneto<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Venètzia<s n="np"/><s n="top"/><s n="f"/></l><r>Venezia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>venetzianu<s n="adj"/></l>             <r>veneziano<s n="adj"/></r></p></e>
@@ -25653,6 +25654,22 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 
 <e r="RL"><p><l>issu<b/>matessi<s n="adv"/></l><r>a<b/>sua<b/>volta<s n="adv"/></r></p></e>
 
+      <e><p><l>Arbil<s n="np"/><s n="top"/><s n="m"/></l><r>Arbil<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Churchill<s n="np"/><s n="cog"/></l><r>Churchill<s n="np"/><s n="cog"/></r></p></e>
+      <e><p><l>Diyarbakir<s n="np"/><s n="top"/><s n="m"/></l><r>Diyarbakir<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Eufrate<s n="np"/><s n="hyd"/><s n="m"/></l><r>Eufrate<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>filo-kurdu<s n="adj"/></l><r>filo-kurdo<s n="adj"/></r></p></e>
+      <e><p><l>isvelare<s n="vblex"/></l><r>svelare<s n="vblex"/></r></p></e>
+      <e><p><l>Kermanshah<s n="np"/><s n="top"/><s n="m"/></l><r>Kermanshah<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Kirkuk<s n="np"/><s n="top"/><s n="m"/></l><r>Kirkuk<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Mahabad<s n="np"/><s n="top"/><s n="m"/></l><r>Mahabad<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Mossul<s n="np"/><s n="top"/><s n="m"/></l><r>Mossul<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Sanandaj<s n="np"/><s n="top"/><s n="m"/></l><r>Sanandaj<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>status<b/>quo<s n="n"/><s n="m"/><s n="sg"/></l><r>status<b/>quo<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>Sulaymaniyya<s n="np"/><s n="top"/><s n="f"/></l><r>Sulaymaniyya<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e><p><l>Tigri<s n="np"/><s n="hyd"/><s n="m"/></l><r>Tigri<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Van<s n="np"/><s n="top"/><s n="m"/></l><r>Van<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e><p><l>Winston<s n="np"/><s n="ant"/><s n="m"/></l><r>Winston<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 
 
     <!-- ******************************
