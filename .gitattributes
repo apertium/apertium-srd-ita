@@ -16,6 +16,7 @@
 /apertium-srd-ita.srd-ita.t3x -text
 /autogen.sh -text
 /configure.ac -text
+/corpus_ita_4000.txt -text
 dev/glossariu.ita-srd.nospaces.txt -text
 dev/glossariu.ita-srd.spaces.txt -text
 dev/testvoc/bidix-unknowns.sh -text

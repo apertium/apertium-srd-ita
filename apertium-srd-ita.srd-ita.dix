@@ -5081,7 +5081,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tzitadinu<s n="n"/><s n="m"/></l>      <r>cittadino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>tzitadinu<s n="adj"/></l>              <r>cittadino<s n="adj"/></r></p></e>
 <e>       <p><l>tzitade<s n="n"/><s n="f"/></l>        <r>città<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>tzitade-istadu<s n="n"/><s n="f"/></l> <r>città-stato<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>tzitade-istadu<s n="n"/><s n="f"/></l> <r>città-stato<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>tzitade-sìmbulu<s n="n"/><s n="f"/></l> <r>città-simbolo<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e r="RL" c="non-preferred"><p><l>tzitade<s n="n"/><s n="m"/></l><r>city<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>tzufu<s n="n"/><s n="m"/></l>          <r>ciuffo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Ciuvascia<s n="np"/><s n="top"/><s n="f"/></l><r>Ciuvascia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
@@ -6773,7 +6774,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>custòdia<s n="n"/><s n="f"/></l><r>custodia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>custoire<s n="vblex"/></l>             <r>custodire<s n="vblex"/></r></p></e>
 <e>       <p><l>costoire<s n="vblex"/></l>             <r>custodire<s n="vblex"/></r></p></e>
-<e>       <p><l>CV<s n="n"/><s n="acr"/><s n="m"/></l> <r>CV<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
+<e>       <p><l>CV<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></l> <r>CV<s n="n"/><s n="acr"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>tzibernèticu<s n="adj"/></l><r>cybernetico<s n="adj"/></r></p></e>
 <e>       <p><l>tzibersessu<s n="n"/><s n="m"/></l>    <r>cybersesso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>D'Agristina<s n="np"/><s n="cog"/></l> <r>D'Agristina<s n="np"/><s n="cog"/></r></p></e>
@@ -9666,7 +9667,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>fiera<s n="n"/><s n="f"/></l>          <r>fiera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>fera<s n="n"/><s n="f"/></l>           <r>fiera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>fiera<s n="adv"/></l>  <r>fieramente<s n="adv"/></r></p></e>
-      <!-- <e><p><l>pacu<s n="n"/><s n="m"/></l><r>poco<s n="n"/><s n="m"/></r></p></e> -->
 <e>       <p><l>fieru<s n="adj"/></l>                  <r>fiero<s n="adj"/></r></p></e>
 <e>       <p><l>Fiero<s n="np"/><s n="ant"/><s n="m"/></l><r>Fiero<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>fieru<s n="adj"/></l>                  <r>fiero<s n="adj"/><s n="sup"/></r></p></e>
@@ -17770,11 +17770,13 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>pneumàticu<s n="n"/><s n="m"/></l>     <r>pneumatico<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>PNB<s n="n"/><s n="acr"/><s n="m"/></l><r>PNV<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 <e>       <p><l>Po<s n="np"/><s n="hyd"/><s n="m"/></l><r>Po<s n="np"/><s n="hyd"/><s n="m"/></r></p></e>
+      <!-- <e><p><l>pacu<s n="n"/><s n="m"/></l><r>poco<s n="n"/><s n="m"/></r></p></e> -->
 <e>       <p><l>pagu<s n="adj"/></l>                   <r>poco<s n="adj"/><s n="ind"/></r></p></e>
 <e>       <p><l>pagu<s n="adv"/></l>                   <r>poco<s n="adv"/></r></p></e>
 <e r="RL"><p><l>pagu<s n="adj"/></l>                   <r>poco<s n="adj"/><s n="ind"/><s n="sup"/></r></p></e>
 <e>       <p><l>pagu<s n="preadv"/></l>                <r>poco<s n="preadv"/></r></p></e>
 <e>       <p><l>pagu<s n="prn"/><s n="tn"/></l>        <r>poco<s n="prn"/><s n="tn"/></r></p></e>
+<e r="RL"><p><l>pagu<s n="prn"/><s n="tn"/><s n="m"/></l>        <r>poco<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
 <e>       <p><l>pagu<b/>mancu<s n="adv"/></l>          <r>poco<b/>meno<s n="adv"/></r></p></e>
 <e>       <p><l>pagu<b/>prus<s n="adv"/></l>           <r>poco<b/>più<s n="adv"/></r></p></e>
 <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>podere<s n="n"/><s n="m"/></l><r>podere<s n="n"/><s n="m"/></r></p></e>
@@ -24091,11 +24093,11 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Tuttolomondo<s n="np"/><s n="cog"/></l><r>Tuttolomondo<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>totora<s n="adv"/></l>                 <r>tuttora<s n="adv"/></r></p></e>
 <e>       <p><l>Tuveri<s n="np"/><s n="cog"/></l>      <r>Tuveri<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>TV<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>TV<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>TV<s n="n"/><s n="acr"/><s n="f"/></l><r>TV<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>       <p><l>tv<s n="n"/><s n="f"/><s n="sp"/></l>  <r>tv<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 <e>       <p><l>Tyler<s n="np"/><s n="cog"/></l>       <r>Tyler<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Tìana<s n="np"/><s n="top"/><s n="f"/></l><r>Tìana<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-<e>       <p><l>UA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></l><r>UA<s n="n"/><s n="acr"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>UA<s n="n"/><s n="acr"/><s n="f"/></l><r>UA<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>       <p><l>Ubalda<s n="np"/><s n="ant"/><s n="f"/></l><r>Ubalda<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Ubaldina<s n="np"/><s n="ant"/><s n="f"/></l><r>Ubaldina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Ubaldo<s n="np"/><s n="ant"/><s n="m"/></l><r>Ubaldo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
