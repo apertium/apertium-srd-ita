@@ -3,7 +3,7 @@
 
   <!-- srd → ita -->
 
-  <mode name="srd-ita" install="yes">
+  <mode name="srd-ita" install="no">
     <pipeline>
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
