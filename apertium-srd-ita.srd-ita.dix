@@ -967,7 +967,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred"><p><l>agiuare<s n="vblex"/></l><r>aiutare<s n="vblex"/></r></p></e>
 <e>       <p><l>agiudu<s n="n"/><s n="m"/></l>         <r>aiuto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>atzudu<s n="adj"/></l>                 <r>aiuto<s n="adj"/></r></p></e>
-<e>       <p><l>aizu<s n="adv"/></l>                   <r>aizu<s n="adv"/>poco</r></p></e>
 <e>       <p><l>Ajax<s n="np"/><s n="org"/><s n="f"/></l><r>Ajax<s n="np"/><s n="org"/><s n="f"/></r></p></e>
 <e>       <p><l>Al-Qaida<s n="np"/><s n="al"/><s n="m"/></l><r>Al-Qaida<s n="np"/><s n="al"/><s n="m"/></r></p></e>
 <e>       <p><l>in<b/>càmbiu<s n="cnjadv"/></l>        <r>al<b/>contraio<s n="cnjadv"/></r></p></e>
@@ -17771,6 +17770,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>PNB<s n="n"/><s n="acr"/><s n="m"/></l><r>PNV<s n="n"/><s n="acr"/><s n="m"/></r></p></e>
 <e>       <p><l>Po<s n="np"/><s n="hyd"/><s n="m"/></l><r>Po<s n="np"/><s n="hyd"/><s n="m"/></r></p></e>
       <!-- <e><p><l>pacu<s n="n"/><s n="m"/></l><r>poco<s n="n"/><s n="m"/></r></p></e> -->
+<e r="LR" c="non-preferred"><p><l>aizu<s n="adv"/></l> <r>poco<s n="adv"/></r></p></e>
 <e>       <p><l>pagu<s n="adj"/></l>                   <r>poco<s n="adj"/><s n="ind"/></r></p></e>
 <e>       <p><l>pagu<s n="adv"/></l>                   <r>poco<s n="adv"/></r></p></e>
 <e r="RL"><p><l>pagu<s n="adj"/></l>                   <r>poco<s n="adj"/><s n="ind"/><s n="sup"/></r></p></e>
