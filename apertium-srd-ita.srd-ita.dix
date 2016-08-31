@@ -17669,7 +17669,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>piràmide<s n="n"/><s n="f"/></l>       <r>piramide<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Piramo<s n="np"/><s n="ant"/><s n="m"/></l><r>Piramo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Piras<s n="np"/><s n="cog"/></l>       <r>Piras<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>pirata<s n="n"/><s n="f"/></l>         <r>pirata<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>pirata<s n="adj"/><s n="mf"/></l>      <r>pirata<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>pirata<s n="n"/></l>                   <r>pirata<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>Pireneos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Pirenei<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>Pirina<s n="np"/><s n="cog"/></l>      <r>Pirina<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Piroddi<s n="np"/><s n="cog"/></l>     <r>Piroddi<s n="np"/><s n="cog"/></r></p></e>
