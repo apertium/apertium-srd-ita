@@ -25547,7 +25547,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Zulina<s n="np"/><s n="ant"/><s n="f"/></l><r>Zulina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Àllai<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Àllai<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-<e>       <re>[0-9]+([., ][0-9]+)?%</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+<e>       <re>[0-9]+([., ][0-9]+)? *%</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>ª<s n="num"/></l><r>ª<s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>°<s n="num"/></l><r>°<s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>º<s n="num"/></l><r>º<s n="num"/></r></p></e>
@@ -25679,7 +25679,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
           group(s) with only one element
       ****************************** -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
-<e>       <re>[.\?;:!]</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
+<e>       <re>([.\?;:!]|[\?!]+|...)</re><p><l><s n="sent"/></l>     <r><s n="sent"/></r></p></e>
+
 <e>       <re>[\(\[]</re><p><l><s n="lpar"/></l>       <r><s n="lpar"/></r></p></e>
 <e>       <re>[\)\]]</re><p><l><s n="rpar"/></l>       <r><s n="rpar"/></r></p></e>
   
