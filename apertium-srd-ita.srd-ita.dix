@@ -1526,7 +1526,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>analfabeta<s n="adj"/></l><r>analfabeta<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>analfabetismu<s n="n"/><s n="m"/></l>  <r>analfabetismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>anàlisi<s n="n"/><s n="f"/></l>        <r>analisi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e r="RL" c="non-preferred"><p><l>analizu<s n="n"/><s n="m"/></l><r>analisi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>analizu<s n="n"/><s n="m"/></l><r>analisi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>analista<s n="n"/></l>                 <r>analista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>in<b/>manera<b/>analìtica<s n="adv"/></l><r>analiticamente<s n="adv"/></r></p></e>
 <e>       <p><l>analìticu<s n="adj"/></l>              <r>analitico<s n="adj"/></r></p></e>
