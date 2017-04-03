@@ -1,3 +1,4 @@
+
 gianfranco@gianfranco-HP-Notebook:~/Scrivania/Codi/apertium-srd-ita$ ./apertium-eval-translator.pl -test kyuss170401.ita.ini.txt -ref kyuss170401.ita.fin.txt
 Test file: 'kyuss170401.ita.ini.txt'
 Reference file 'kyuss170401.ita.fin.txt'
