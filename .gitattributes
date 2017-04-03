@@ -2,6 +2,7 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
+/Kyuss170401.srd.txt -text
 /Makefile.am -text
 /NEWS -text
 /README -text
@@ -39,7 +40,11 @@ evaluacion/notas_evaluacion_final.txt -text
 evaluacion/wikipedia160816.ita-srd.ref.txt -text
 evaluacion/wikipedia160816.ita-srd.txt -text
 evaluacion/wikipedia160816.ita.txt -text
+/evaluation.gsoc17 -text
 /evaluation.gsoc2017 -text
+/kyuss170401.ita.fin.txt -text
+/kyuss17401.ita.ini.txt -text
+/kyuss17401.srd.txt -text
 /modes.xml -text
 /partidu.comunista.rev.srd.txt -text
 /partito.comunista.ita.txt -text

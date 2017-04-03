@@ -1,0 +1,29 @@
+gianfranco@gianfranco-HP-Notebook:~/Scrivania/Codi/apertium-srd-ita$ ./apertium-eval-translator.pl -test kyuss170401.ita.ini.txt -ref kyuss170401.ita.fin.txt
+Test file: 'kyuss170401.ita.ini.txt'
+Reference file 'kyuss170401.ita.fin.txt'
+
+Statistics about input files
+-------------------------------------------------------
+Number of words in reference: 288
+Number of words in test: 280
+Number of unknown words (marked with a star) in test: 91
+Percentage of unknown words: 32.50 %
+
+Results when removing unknown-word marks (stars)
+-------------------------------------------------------
+Edit distance: 92
+Word error rate (WER): 31.94 %
+Number of position-independent correct words: 206
+Position-independent word error rate (PER): 28.47 %
+
+Results when unknown-word marks (stars) are not removed
+-------------------------------------------------------
+Edit distance: 160
+Word Error Rate (WER): 55.56 %
+Number of position-independent correct words: 138
+Position-independent word error rate (PER): 52.08 %
+
+Statistics about the translation of unknown words
+-------------------------------------------------------
+Number of unknown words which were free rides: 68
+Percentage of unknown words that were free rides: 74.73 %
