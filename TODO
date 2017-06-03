@@ -1,0 +1,1 @@
+echo "tutto lo giorno, tutta la giornata, tutti li giorni" | apertium -d . ita-srd
