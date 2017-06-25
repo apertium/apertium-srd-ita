@@ -15513,7 +15513,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>anneosu<s n="adj"/></l>                <r>nebbioso<s n="adj"/></r></p></e>
 <e>       <p><l>nebbiosu<s n="adj"/></l>               <r>nebbioso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>nebbiosu<s n="adj"/></l>               <r>nebbioso<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>nebode<s n="n"/><s n="m"/></l>         <r>nebode<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>nebulosa<s n="n"/><s n="f"/></l>       <r>nebulosa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>nebulosidade<s n="n"/><s n="f"/></l>   <r>nebulosità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>nebulosu<s n="adj"/></l>               <r>nebuloso<s n="adj"/></r></p></e>
@@ -15769,7 +15768,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Nintendo<s n="np"/><s n="org"/><s n="f"/></l><r>Nintendo<s n="np"/><s n="org"/><s n="f"/></r></p></e>
 <e>       <p><l>Ninuccia<s n="np"/><s n="ant"/><s n="f"/></l><r>Ninuccia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Ninì<s n="np"/><s n="ant"/><s n="f"/></l><r>Ninì<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>nebode<s n="n"/><s n="mf"/></l>        <r>nipote<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>nebode<s n="n"/><s n="m"/></l>         <r>nipote<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>neta<s n="n"/><s n="f"/></l>           <r>nipote<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>neta<s n="n"/><s n="f"/></l>           <r>nipote<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>nidu<s n="adj"/></l>                   <r>nitido<s n="adj"/></r></p></e>
 <e>       <p><l>nidore<s n="n"/><s n="m"/></l>         <r>nitore<s n="n"/><s n="m"/></r></p></e>
