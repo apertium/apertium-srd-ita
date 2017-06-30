@@ -1193,7 +1193,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>de<b/>repente<s n="adv"/></l>          <r>all'improvviso<s n="adv"/></r></p></e>
 <e>       <p><l>totu<b/>in<b/>unu<s n="adv"/></l>      <r>all'improvviso<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>dae<b/>segus<s n="adv"/></l>      <r>all'indietro<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>s’ora<s n="adv"/></l>             <r>all'ora<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>s'ora<s n="adv"/></l>             <r>all'ora<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sa<b/>grusera<s n="adv"/></l>     <r>alla<b/>buona<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sa<b/>fine<s n="adv"/></l>        <r>alla<b/>fine<s n="adv"/></r></p></e>
 <e>       <p><l>allagamentu<s n="n"/><s n="m"/></l>    <r>allagamento<s n="n"/><s n="m"/></r></p></e>
@@ -5725,7 +5725,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>giùghere<s n="vblex"/></l>             <r>condurre<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>cunduire<s n="vblex"/></l><r>condurre<s n="vblex"/></r></p></e>
 <e>       <p><l>conduire<s n="vblex"/></l>             <r>condurre<s n="vblex"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>aproilare<s n="vblex"/></l><r>condurre<g><b/>all’<b/>ovile</g><s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>aproilare<s n="vblex"/></l><r>condurre<g><b/>all'<b/>ovile</g><s n="vblex"/></r></p></e>
 <e>       <p><l>allogaderi<s n="n"/></l>               <r>conduttore<s n="n"/></r></p></e>
 <e>       <p><l>allogaderi<s n="adj"/></l>             <r>conduttore<s n="adj"/></r></p></e>
 <e r="RL"><p><l>allogaderi<s n="adj"/></l>             <r>conduttore<s n="adj"/><s n="sup"/></r></p></e>
@@ -10196,7 +10196,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>fratu<s n="n"/><s n="m"/></l>          <r>frate<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>frade<s n="n"/><s n="m"/></l>          <r>fratello<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>fraternidade<s n="n"/><s n="f"/></l>   <r>fraternità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>in<b/>s’ìnteri<s n="cnjsub"/></l>      <r>frattanto<s n="cnjsub"/></r></p></e>
+<e>       <p><l>in<b/>s'ìnteri<s n="cnjsub"/></l>      <r>frattanto<s n="cnjsub"/></r></p></e>
 <e>       <p><l>fratura<s n="n"/><s n="f"/></l>        <r>frattura<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Frau<s n="np"/><s n="cog"/></l>        <r>Frau<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>fraudolentu<s n="adj"/></l>            <r>fraudolente<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -12795,7 +12795,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>irregulare<s n="adj"/><s n="mf"/></l>  <r>irregolare<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>irregularidade<s n="n"/><s n="f"/></l> <r>irregolarità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>in<b/>manera<b/>irregulare<s n="adv"/></l><r>irregolarmente<s n="adv"/></r></p></e>
-<e>       <p><l>chi<b/>non<b/>b’at<b/>remèdiu<s n="adj"/></l><r>irremidiabile<s n="adj"/></r></p></e>
+<e>       <p><l>chi<b/>non<b/>b'at<b/>remèdiu<s n="adj"/></l><r>irremidiabile<s n="adj"/></r></p></e>
 <e>       <p><l>irreparàbile<s n="adj"/></l>           <r>irreparabile<s n="adj"/></r></p></e>
 <e r="RL"><p><l>irreparàbile<s n="adj"/></l>           <r>irreparabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>irresistìbile<s n="adj"/></l>          <r>irresistibile<s n="adj"/></r></p></e>
@@ -15554,7 +15554,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Negri<s n="np"/><s n="cog"/></l>       <r>Negri<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>negru<s n="adj"/></l>                  <r>negro<s n="adj"/></r></p></e>
 <e r="RL"><p><l>negru<s n="adj"/></l>                  <r>negro<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>s’in<b/>casu<s n="adv"/></l>           <r>nel<b/>caso<s n="adv"/></r></p></e>
+<e>       <p><l>s'in<b/>casu<s n="adv"/></l>           <r>nel<b/>caso<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>su<b/>matessi<b/>tempus<s n="adv"/></l><r>nel<b/>contempo<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>tantu<s n="adv"/></l>            <r>nel<b/>frattempo<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>logu<s n="adv"/></l>             <r>nel<b/>posto<s n="adv"/></r></p></e>
@@ -15829,7 +15829,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>nominadu<s n="adj"/></l>               <r>nominato<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>no<s n="adv"/></l>   <r>non<s n="adv"/></r></p></e>
 <e>       <p><l>no<s n="preadv"/></l>                  <r>non<s n="preadv"/></r></p></e>
-<e>       <p><l>non<b/>b’at<b/>ite<s n="ij"/></l>      <r>prego<s n="ij"/></r></p></e>
+<e>       <p><l>non<b/>b'at<b/>ite<s n="ij"/></l>      <r>prego<s n="ij"/></r></p></e>
 <e>       <p><l>puru<s n="cnjadv"/></l>                <r>nonché<s n="cnjadv"/></r></p></e>
 <e>       <p><l>giaja<s n="n"/><s n="f"/></l>          <r>nonna<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>giaju<s n="n"/></l>  <r>nonno<s n="n"/></r></p></e>
@@ -22357,7 +22357,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ispesu<s n="adj"/></l>                 <r>speso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ispesu<s n="adj"/></l>                 <r>speso<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>s'ispissu<s n="adv"/></l>              <r>spesso<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>s’ispissu<s n="adv"/></l>         <r>spesso<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>s'ispissu<s n="adv"/></l>         <r>spesso<s n="adv"/></r></p></e>
 <e>       <p><l>grussesa<s n="n"/><s n="f"/></l>       <r>spessore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ispetàculu<s n="n"/><s n="m"/></l>     <r>spettacolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ispetàntzia<s n="n"/><s n="f"/></l>    <r>spettanza<s n="n"/><s n="f"/></r></p></e>
