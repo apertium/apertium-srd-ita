@@ -10563,7 +10563,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>generalizare<s n="vblex"/></l>         <r>generalizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>generalizadu<s n="adj"/></l>           <r>generalizzato<s n="adj"/></r></p></e>
 <e>       <p><l>generalizatzione<s n="n"/><s n="f"/></l><r>generalizzazione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>generalmente<s n="adv"/></l>           <r>generalmente<s n="adv"/></r></p></e>
+<e c="LR"><p><l>generalmente<s n="adv"/></l>           <r>generalmente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>generale<s n="adv"/></l><r>generalmente<s n="adv"/></r></p></e>
 <e>       <p><l>generare<s n="vblex"/></l>             <r>generare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>ingendrare<s n="vblex"/></l><r>generare<s n="vblex"/></r></p></e>
@@ -11600,7 +11600,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>immatriculare<s n="vblex"/></l>        <r>immatricolare<s n="vblex"/></r></p></e>
 <e>       <p><l>immatriculatzione<s n="n"/><s n="f"/></l><r>immatricolazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>deretu<s n="adv"/></l>                 <r>immediatamente<s n="adv"/></r></p></e>
-<e>       <p><l>immediatamente<s n="adv"/></l>         <r>immediatamente<s n="adv"/></r></p></e>
+<e r="LR"><p><l>immediatamente<s n="adv"/></l>  <r>immediatamente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>deretura<s n="adv"/></l>         <r>immediatamente<s n="adv"/></r></p></e>
 <e>       <p><l>immediatu<s n="adj"/></l>              <r>immediato<s n="adj"/></r></p></e>
 <e>       <p><l>prontu<s n="adj"/></l>                 <r>immediato<s n="adj"/></r></p></e>
@@ -15459,7 +15459,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>naturalidade<s n="n"/><s n="f"/></l>   <r>naturalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>naturare<s n="vblex"/></l>             <r>naturalizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>naturalmente<s n="adv"/></l>           <r>naturalmente<s n="adv"/></r></p></e>
-<e>       <p><l>sempermai<s n="adv"/></l>              <r>naturalmente<s n="adv"/></r></p></e>
+<e r="LR"><p><l>sempermai<s n="adv"/></l>       <r>naturalmente<s n="adv"/></r></p></e>
 <e>       <p><l>naturismu<s n="n"/><s n="m"/></l>      <r>naturismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>naturista<s n="adj"/></l>              <r>naturista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>naturista<s n="n"/></l>                <r>naturista<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -20067,7 +20067,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>pasu<s n="n"/><s n="m"/></l>           <r>riposo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>pàusu<s n="n"/><s n="m"/></l>          <r>riposo<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>riposu<s n="n"/><s n="m"/></l><r>riposo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>torrare<g><b/>a<b/>comintzare</g><s n="vblex"/></l><r>riprendere<s n="vblex"/></r></p></e>
+<e r="LR"><p><l>torrare<g><b/>a<b/>comintzare</g><s n="vblex"/></l><r>riprendere<s n="vblex"/></r></p></e>
+<e>       <p><l>torrare<g><b/>a<b/>cumintzare</g><s n="vblex"/></l><r>riprendere<s n="vblex"/></r></p></e>
 <e>       <p><l>ripresa<s n="n"/><s n="f"/></l>        <r>ripresa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>ripristinare<s n="vblex"/></l>         <r>ripristinare<s n="vblex"/></r></p></e>
 <e>       <p><l>recùperu<s n="n"/><s n="m"/></l>       <r>ripristino<s n="n"/><s n="m"/></r></p></e>
