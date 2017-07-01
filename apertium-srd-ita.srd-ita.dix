@@ -3208,8 +3208,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>barbudu<s n="adj"/></l>                <r>barbuto<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>barca<s n="n"/><s n="f"/></l>          <r>barca<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>bartza<s n="n"/><s n="f"/></l><r>barca<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>Barcellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Bartzellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>Bartzellona<s n="np"/><s n="top"/><s n="f"/></l><r>Barcellona<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>bartzellonesu<s n="adj"/></l>          <r>barcellonese<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>barcone<s n="n"/><s n="m"/></l>        <r>barcone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Bardo<s n="np"/><s n="ant"/><s n="m"/></l><r>Bardo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
