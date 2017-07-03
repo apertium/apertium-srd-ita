@@ -7893,7 +7893,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>divanu<s n="n"/><s n="m"/></l>         <r>divano<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>divàriu<s n="n"/><s n="m"/></l>        <r>divario<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>devènnere<s n="vblex"/></l>            <r>divenire<s n="vblex"/></r></p></e>
-<e r="LR"><p><l>devènnere<s n="vblex"/></l>            <r>devenire<s n="vblex"/></r></p></e>
+<e r="RL"><p><l>devènnere<s n="vblex"/></l>            <r>devenire<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>divenire<s n="vblex"/></l><r>divenire<s n="vblex"/></r></p></e>
 <e>       <p><l>divenire<s n="vblex"/></l>             <r>diventare<s n="vblex"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>diversa<s n="adv"/></l><r>diversamente<s n="adv"/></r></p></e>
