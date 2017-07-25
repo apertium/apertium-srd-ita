@@ -2784,7 +2784,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>atualidade<s n="n"/><s n="f"/></l>     <r>attualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>atualizadu<s n="adj"/></l>             <r>attualizado<s n="adj"/></r></p></e>
 <e r="RL"><p><l>atualizadu<s n="adj"/></l>             <r>attualizado<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>attualmente<s n="adv"/></l>            <r>attualmente<s n="adv"/></r></p></e>
+<e>       <p><l>atualmente<s n="adv"/></l>             <r>attualmente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>su<b/>presente<s n="adv"/></l>    <r>attualmente<s n="adv"/></r></p></e>
 <e>       <p><l>oe<b/>in<b/>die<s n="adv"/></l>        <r>attualmente<s n="adv"/></r></p></e>
 <e>       <p><l>atuare<s n="vblex"/></l>               <r>attuare<s n="vblex"/></r></p></e>
@@ -11594,7 +11594,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>immaginare<s n="vblex"/></l>           <r>immaginare<s n="vblex"/></r></p></e>
 <e>       <p><l>immaginàriu<s n="adj"/></l>            <r>immaginario<s n="adj"/></r></p></e>
 <e>       <p><l>immaginatzione<s n="n"/><s n="f"/></l> <r>immaginazione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>figura<s n="n"/><s n="f"/></l>         <r>immagine<s n="n"/><s n="mf"/></r></p></e>
+<e>       <p><l>immàgine<s n="n"/><s n="f"/></l>       <r>immagine<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>immateriale<s n="adj"/></l>            <r>immateriale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>immateriale<s n="adj"/></l>            <r>immateriale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>immatriculare<s n="vblex"/></l>        <r>immatricolare<s n="vblex"/></r></p></e>
@@ -15326,9 +15326,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Musetta<s n="np"/><s n="ant"/><s n="f"/></l><r>Musetta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>mùsica<s n="n"/><s n="f"/></l>         <r>musica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>musical<s n="n"/><s n="m"/></l>        <r>musical<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>musicale<s n="adj"/></l>               <r>musicale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>musicale<s n="adj"/></l>               <r>musicale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-<e>       <p><l>musicale<s n="n"/><s n="mf"/></l>      <r>musicale<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>musicale<s n="adj"/><s n="mf"/></l>    <r>musicale<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>musicale<s n="n"/><s n="mf"/></l>      <r>musicale<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>musicale<s n="adv"/></l><r>musicalmente<s n="adv"/></r></p></e>
 <e>       <p><l>musicante<s n="n"/><s n="mf"/></l>     <r>musicante<s n="n"/><s n="m"/></r></p></e>
@@ -19593,9 +19592,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>repressu<s n="adj"/></l>               <r>represso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>repressu<s n="adj"/></l>               <r>represso<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>repressore<s n="adj"/></l>             <r>repressore<s n="adj"/></r></p></e>
-<e>       <p><l>repùblica<s n="n"/><s n="f"/></l>      <r>repubblica<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>republicanu<s n="adj"/></l>            <r>repubblicano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>republicanu<s n="adj"/></l>            <r>repubblicano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>repùbblica<s n="n"/><s n="f"/></l>     <r>repubblica<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>repubblicanu<s n="adj"/></l>           <r>repubblicano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>repubblicanu<s n="adj"/></l>           <r>repubblicano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>reputatzione<s n="n"/><s n="f"/></l>   <r>reputazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>escecutare<s n="vblex"/></l>           <r>requisire<s n="vblex"/></r></p></e>
 <e>       <p><l>iscicutare<s n="vblex"/></l>           <r>requisire<s n="vblex"/></r></p></e>
