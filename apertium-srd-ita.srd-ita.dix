@@ -157,9 +157,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
           group pr_symbol
       ****************************** -->
 <e r="RL" c="for selection when partitive"><p><l>_de<s n="pr"/></l><r>di<s n="pr"/></r></p></e>
-    <!-- ******************************
-          group pr_symbol
-      ****************************** -->
 <e>       <p><l>a<s n="pr"/></l>                       <r>a<s n="pr"/></r></p></e>
 <e>       <p><l>a<b/>foras<b/>de<s n="pr"/></l>        <r>fuori<b/>da<s n="pr"/></r></p></e>
 <e>       <p><l>acanta<s n="pr"/></l>                  <r>presso<s n="pr"/></r></p></e>
@@ -301,9 +298,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>sa<b/>ritza<s n="adv"/></l>       <r>in<b/>piedi<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>segus<s n="adv"/></l>             <r>dietro<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sero<s n="adv"/></l>              <r>di<b/>sera<s n="adv"/></r></p></e>
-    <!-- ******************************
-          group ij_symbol
-      ****************************** -->
 <e>       <p><l>a<b/>si<b/>bìere<b/>luego<s n="ij"/></l><r>a<b/>presto<s n="ij"/></r></p></e>
 <e>       <p><l>a<b/>su<b/>mancu<s n="adv"/></l>       <r>almeno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>su<b/>matessi<b/>tempus<s n="adv"/></l><r>nel<b/>contempo<s n="adv"/></r></p></e>
@@ -11826,9 +11820,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>in<b/>dae<b/>segus<s n="adv"/></l>     <r>indietro<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>deretura<s n="adv"/></l>         <r>immediatamente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>direta<s n="adv"/></l>           <r>in<b/>onda<s n="adv"/></r></p></e>
-    <!-- ******************************
-          group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,vblex,vblex_symbol,sp_ND,pl_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD-pl_ND,mf-sp_ND,m-m_f-f,ND_pl
-      ****************************** -->
 <e>       <p><l>in<b/>domo<s n="adv"/></l>             <r>a<b/>casa<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>domo<s n="adv"/></l>             <r>in<b/>casa<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>fatu<s n="adv"/></l>             <r>appresso<s n="adv"/></r></p></e>
@@ -25208,10 +25199,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ùtile<s n="n"/><s n="m"/></l>          <r>utile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ùtile<s n="adj"/></l>                  <r>utile<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ùtile<s n="adj"/></l>                  <r>utile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-    <!-- ******************************
-          group preadv_symbol
-      ****************************** -->
-<e>       <p><l>aici<s n="preadv"/></l>                <r>così<s n="preadv"/></r></p></e>
 
 <!-- FIXME: mf o m/f? -->
 <!--<e><p><l>acreadore<s n="adj"/></l><r>creditore<s n="adj"/></r></p></e>-->
@@ -25250,6 +25237,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
     <!-- ******************************
           group preadv_symbol
       ****************************** -->
+<e>       <p><l>aici<s n="preadv"/></l>                <r>così<s n="preadv"/></r></p></e>
 <e>       <p><l>bastante<s n="preadv"/></l>            <r>abbastanza<s n="preadv"/></r></p></e>
 <e>       <p><l>belle<s n="preadv"/></l>               <r>quasi<s n="preadv"/></r></p></e>
 <e>       <p><l>bene<s n="preadv"/></l>                <r>ben<s n="preadv"/></r></p></e>
@@ -25295,9 +25283,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>mancari<s n="cnjsub"/></l>             <r>magari<s n="cnjsub"/></r></p></e>
 <e>       <p><l>ogni<b/>bia<b/>chi<s n="cnjsub"/></l>  <r>ogni<b/>volta<b/>che<s n="cnjsub"/></r></p></e>
 <e>       <p><l>onni<b/>bia<b/>chi<s n="cnjsub"/></l>  <r>ogni<b/>volta<b/>che<s n="cnjsub"/></r></p></e>
-    <!-- ******************************
-          group cnjsub_symbol
-      ****************************** -->
 <e>       <p><l>pro<b/>chi<s n="cnjsub"/></l>          <r>affinché<s n="cnjsub"/></r></p></e>
 <e>       <p><l>pro<b/>chi<s n="cnjsub"/></l>          <r>per<b/>chi<s n="cnjsub"/></r></p></e>
 <e>       <p><l>pro<b/>ite<s n="cnjsub"/></l>          <r>per<b/>cosa<s n="cnjsub"/></r></p></e>
@@ -25324,9 +25309,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>finas<s n="cnjadv"/></l>               <r>pur<s n="cnjadv"/></r></p></e>
 <e>       <p><l>gai<s n="cnjadv"/></l>                 <r>così<s n="cnjadv"/></r></p></e>
 <e>       <p><l>gai<b/>chi<s n="cnjadv"/></l>          <r>cosicché<s n="cnjadv"/></r></p></e>
-    <!-- ******************************
-          group cnjadv_symbol
-      ****************************** -->
 <e>       <p><l>in<b/>càmbiu<s n="cnjadv"/></l>        <r>al<b/>contraio<s n="cnjadv"/></r></p></e>
 <e>       <p><l>in<b/>manera<s n="cnjadv"/></l>        <r>in<b/>maniera<s n="cnjadv"/></r></p></e>
 <e>       <p><l>in<b/>prus<s n="cnjadv"/></l>          <r>per<b/>di<b/>più<s n="cnjadv"/></r></p></e>
@@ -25444,10 +25426,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>onniunu<s n="prn"/><s n="tn"/></l>     <r>ognuno<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>pagu<s n="prn"/><s n="tn"/></l>        <r>poco<s n="prn"/><s n="tn"/></r></p></e>
 <e r="RL"><p><l>pagu<s n="prn"/><s n="tn"/><s n="m"/></l><r>poco<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-
-    <!-- ******************************
-          group prn_symbol
-      ****************************** -->
 <!-- <e r="LR"><p><l>perunu<s n="prn"/><s n="tn"/><s n="m"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e> -->
 <!-- <e r="LR"><p><l>perunu<s n="prn"/><s n="tn"/><s n="f"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e> -->
 <e r="RL"><p><l>perunu<s n="prn"/><s n="tn"/><s n="GD"/></l><r>alcunché<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
@@ -25483,9 +25461,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>cioè<s n="cnjcoo"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l><r>cioé<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>est<b/>a<b/>nàrrere<s n="cnjcoo"/></l> <r>ossia<s n="cnjcoo"/></r></p></e>
-    <!-- ******************************
-          group cnjcoo_symbol
-      ****************************** -->
 <e>       <p><l>fintzas<s n="cnjcoo"/></l>             <r>anche<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>imbetzes<s n="cnjcoo"/></l>            <r>invece<s n="cnjcoo"/></r></p></e>
 <e>       <p><l>in<b/>fatis<s n="cnjcoo"/></l>         <r>difatti<s n="cnjcoo"/></r></p></e>
@@ -25511,9 +25486,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>dèpere<s n="vbmod"/></l>               <r>dovere<s n="vbmod"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>dèvere<s n="vblex"/></l><r>dovere<s n="vbmod"/></r></p></e>
 <e>       <p><l>pòdere<s n="vbmod"/></l>               <r>potere<s n="vbmod"/></r></p></e>
-    <!-- ******************************
-          group vbmod_symbol
-      ****************************** -->
 <e r="RL"><p><l>àere<g><b/>de</g><s n="vbmod"/></l>    <r>avere<g><b/>da</g><s n="vbmod"/></r></p></e>
 <e r="LR"><p><l>àere<g><b/>de</g><s n="vbmod"/></l>    <r>dovere<s n="vbmod"/></r></p></e>
     <!-- ******************************
@@ -25540,9 +25512,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>bintoto<s n="num"/></l>                <r>ventotto<s n="num"/></r></p></e>
 <e r="RL"><p><l>bintunu<s n="num"/><s n="m"/></l>      <r>ventuno<s n="num"/><s n="m"/></r></p></e>
 <e>       <p><l>bìndighi<s n="num"/></l>               <r>quindici<s n="num"/></r></p></e>
-    <!-- ******************************
-          group num_symbol
-      ****************************** -->
 <e>       <p><l>chentu<s n="num"/></l>                 <r>cento<s n="num"/></r></p></e>
 <e>       <p><l>chimbanta<s n="num"/></l>              <r>cinquanta<s n="num"/></r></p></e>
 <e>       <p><l>chimbantabator<s n="num"/></l>         <r>cinquantaquattro<s n="num"/></r></p></e>
@@ -25670,9 +25639,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>su<s n="det"/><s n="def"/><s n="GD"/></l><r>il<s n="det"/><s n="def"/><s n="mf"/></r></p></e>
 <e>       <p><l>tale<s n="det"/><s n="dem"/></l>       <r>tale<s n="det"/><s n="dem"/></r></p></e>
 <e>       <p><l>trintunu<s n="num"/></l>               <r>trentuno<s n="det"/><s n="def"/></r></p></e>
-    <!-- ******************************
-          group det_symbol
-      ****************************** -->
 <e>       <p><l>tzertu<s n="det"/><s n="ind"/></l>     <r>certo<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>unu<s n="det"/><s n="ind"/></l>        <r>un<s n="det"/><s n="ind"/></r></p></e>
 <e r="LR"><p><l>unu<s n="det"/><s n="ind"/><s n="mf"/></l><r>un<s n="det"/><s n="ind"/><s n="GD"/></r></p></e>
@@ -25683,9 +25649,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       ****************************** -->
 <e>       <p><l>cale<s n="rel"/><s n="an"/></l>        <r>cui<s n="rel"/><s n="an"/></r></p></e>
 <e>       <p><l>cando<s n="rel"/><s n="adv"/></l>      <r>quando<s n="rel"/><s n="adv"/></r></p></e>
-    <!-- ******************************
-          group rel_symbol
-      ****************************** -->
 <e>       <p><l>chi<s n="rel"/><s n="an"/></l>         <r>che<s n="rel"/><s n="an"/></r></p></e>
 <e>       <p><l>chi<s n="rel"/><s n="an"/></l>         <r>chi<s n="rel"/><s n="nn"/></r></p></e>
 <!--<e>       <p><l>comente<s n="rel"/><s n="adv"/></l>    <r>come<s n="rel"/><s n="adv"/></r></p></e> -->
@@ -25703,13 +25666,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
           group vbser_symbol
       ****************************** -->
 <e>       <p><l>podet<b/>èssere<s n="vbser"/></l>      <r>può<b/>essere<s n="vbser"/></r></p></e>
-    <!-- ******************************
-          group vbser_symbol
-      ****************************** -->
 <e>       <p><l>èssere<s n="vbser"/></l>               <r>essere<s n="vbser"/></r></p></e>
-    <!-- ******************************
-          group abbr_symbol
-      ****************************** -->
     <!-- ******************************
           group abbr_symbol
       ****************************** -->
@@ -25734,15 +25691,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
     <!-- ******************************
           group(s) with only one element
       ****************************** -->
-    <!-- ******************************
-          group(s) with only one element
-      ****************************** -->
 <e>       <p><l>àere<s n="vbhaver"/></l>               <r>avere<s n="vbhaver"/></r></p></e>
-
-
-    <!-- ******************************
-          group(s) with only one element
-      ****************************** -->
 <e>       <p><l>,<s n="cm"/></l>                       <r>,<s n="cm"/></r></p></e>
 <e>       <re>([.\?;:!]|[\?!]+|...)</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
 <e>       <re>[\(\[]</re><p><l><s n="lpar"/></l>       <r><s n="lpar"/></r></p></e>
