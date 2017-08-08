@@ -116,9 +116,11 @@
     </def-cat>
     <def-cat n="ifi">
        <cat-item tags="vbmod.ifi.*"/>
-       <cat-item tags="vbser.ifi.*"/>
        <cat-item tags="vbhaver.ifi.*"/>
        <cat-item tags="vblex.ifi.*"/>
+    </def-cat>
+    <def-cat n="vbser_ifi">
+       <cat-item tags="vbser.ifi.*"/>
     </def-cat>
     <def-cat n="ger">
        <cat-item tags="vblex.ger"/>
@@ -343,6 +345,9 @@
   </def-attr>
   <def-attr n="a_adj_sup">
      <attr-item tags="adj.sup"/>
+  </def-attr>
+  <def-attr n="a_adj_ord">
+     <attr-item tags="adj.ord"/>
   </def-attr>
   <def-attr n="a_prn">
      <attr-item tags="prn.pro"/>
@@ -2412,6 +2417,28 @@
       
       <!-- number -->
       <choose>
+	<when> 
+	  <test>
+	    <and>
+	    <equal>
+	      <clip pos="1" side="tl" part="a_adj_ord"/>
+	      <lit-tag v="adj.ord"/>
+	    </equal>
+	    <equal>
+	      <clip pos="1" side="tl" part="nbr"/>
+	      <lit-tag v="sp"/>
+	    </equal>
+	    <equal>
+	      <clip pos="2" side="sl" part="nbr"/>
+	      <lit-tag v="sg"/>
+	    </equal>
+	    </and>
+	  </test>
+	  <let>
+	    <clip pos="2" side="tl" part="nbr"/>
+	    <lit-tag v="pl"/>
+	  </let>
+	</when>
 	<when> 
 	  <test>
 	    <and>
@@ -5548,6 +5575,41 @@
                    <lit v="àere"/>
                  </get-case-from>
                  <lit-tag v="vbhaver.pii"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pp.m.sg"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: vbser_ifi">
+       <pattern>
+         <pattern-item n="vbser_ifi"/>
+       </pattern>
+       <action>
+         <modify-case>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit v="aa"/>
+         </modify-case>
+         <out>
+           <chunk name="èssere_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
                </lu>
