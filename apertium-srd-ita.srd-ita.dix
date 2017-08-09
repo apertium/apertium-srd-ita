@@ -19556,7 +19556,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>progetu<s n="n"/><s n="m"/></l>        <r>progetto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>progetuale<s n="adj"/></l>             <r>progettuale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>progetuale<s n="adj"/></l>             <r>progettuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
-<e r="LR"><p><l>programàriu<s n="n"/><s n="m"/></l>    <r>programma<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>programatzione<s n="n"/><s n="f"/></l> <r>programmazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>programma<s n="n"/><s n="m"/></l>      <r>programma<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>programma<s n="n"/><s n="m"/></l>      <r>software<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
