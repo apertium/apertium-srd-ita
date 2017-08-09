@@ -118,6 +118,12 @@
        <cat-item tags="vbmod.ifi.*"/>
        <cat-item tags="vbhaver.ifi.*"/>
        <cat-item tags="vblex.ifi.*"/>
+       <cat-item tags="vbser.ifi.*"/>
+    </def-cat>
+    <def-cat n="ifi_novbser">
+       <cat-item tags="vbmod.ifi.*"/>
+       <cat-item tags="vbhaver.ifi.*"/>
+       <cat-item tags="vblex.ifi.*"/>
     </def-cat>
     <def-cat n="vbser_ifi">
        <cat-item tags="vbser.ifi.*"/>
@@ -5558,7 +5564,7 @@
 
     <rule comment="regla: ifi">
        <pattern>
-         <pattern-item n="ifi"/>
+         <pattern-item n="ifi_novbser"/>
        </pattern>
        <action>
          <modify-case>
