@@ -24934,7 +24934,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Watson<s n="np"/><s n="cog"/></l>      <r>Watson<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>watt<s n="n"/><s n="m"/></l>           <r>watt<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Wayne<s n="np"/><s n="ant"/><s n="m"/></l><r>Wayne<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>web<s n="n"/><s n="m"/></l>     <r>web<s n="n"/><s n="f"/></r></p></e>
+<e r="RL"><p><l>web<s n="n"/><s n="m"/></l>            <r>web<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>web<s n="n"/><s n="m"/></l>            <r>web<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>webcam<s n="n"/><s n="f"/></l>         <r>webcam<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Wehrmacht<s n="np"/><s n="org"/><s n="m"/></l><r>Wehrmacht<s n="np"/><s n="org"/><s n="m"/></r></p></e>
@@ -25192,6 +25192,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ùtile<s n="n"/><s n="m"/></l>          <r>utile<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ùtile<s n="adj"/></l>                  <r>utile<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ùtile<s n="adj"/></l>                  <r>utile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+
+<e r="RL"><p><l>koala<s n="n"/><s n="m"/></l>          <r>coala<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>koala<s n="n"/><s n="m"/></l>          <r>koala<s n="n"/><s n="m"/></r></p></e>
 
 <!-- FIXME: mf o m/f? -->
 <!--<e><p><l>acreadore<s n="adj"/></l><r>creditore<s n="adj"/></r></p></e>-->
