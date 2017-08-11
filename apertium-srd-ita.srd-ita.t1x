@@ -25,6 +25,9 @@
     <def-cat n="pr">
        <cat-item tags="pr"/>
     </def-cat>
+    <def-cat n="a_pr">
+       <cat-item lemma="a" tags="pr"/>
+    </def-cat>
     <def-cat n="verb">
        <cat-item tags="vbmod.*"/>
        <cat-item tags="vbser.*"/>
@@ -33,6 +36,15 @@
     </def-cat>
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
+    </def-cat>
+    <def-cat n="vbhaver">
+       <cat-item tags="vbhaver.*"/>
+    </def-cat>
+    <def-cat n="vbhaver_pri">
+       <cat-item tags="vbhaver.pri.*"/>
+    </def-cat>
+    <def-cat n="vbdare_prs">
+       <cat-item lemma="dare" tags="vblex.prs.*"/>
     </def-cat>
     <def-cat n="vblex_inf">
        <cat-item tags="vblex.inf"/>
@@ -2899,6 +2911,61 @@
    </action>
 </rule>
 
+
+
+<rule comment="regla: vbhaver_pri a inf > fti (Apo a fàghere > Farò)">
+   <pattern>
+     <pattern-item n="vbhaver_pri"/>
+     <pattern-item n="a_pr"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+	 <tags>
+	   <tag><lit-tag v="SV"/></tag>
+	 </tags>
+       <lu>
+         <get-case-from pos="1">
+	   <clip pos="3" side="tl" part="lemh"/>
+         </get-case-from>
+	 <clip pos="3" side="tl" part="a_verb"/>
+         <lit-tag v="fti"/>
+	 <clip pos="1" side="tl" part="pers"/>
+	 <clip pos="1" side="tl" part="nbr"/>
+	 <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: vbdare_prs inf > fti (Dia fàghere > Farei)">
+   <pattern>
+     <pattern-item n="vbdare_prs"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+	 <tags>
+	   <tag><lit-tag v="SV"/></tag>
+	 </tags>
+       <lu>
+         <get-case-from pos="1">
+	   <clip pos="2" side="tl" part="lemh"/>
+         </get-case-from>
+	 <clip pos="2" side="tl" part="a_verb"/>
+         <lit-tag v="cni"/>
+	 <clip pos="1" side="tl" part="pers"/>
+	 <clip pos="1" side="tl" part="nbr"/>
+	 <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
 
 
 <rule comment="regla: lis verb (lis faeddo > parlo loro)">
