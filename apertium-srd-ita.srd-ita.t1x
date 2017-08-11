@@ -101,6 +101,12 @@
        <cat-item tags="vbhaver.ger"/>
        <cat-item tags="vbhaver.pp.*"/>
     </def-cat>
+    <def-cat n="pp">
+       <cat-item tags="vblex.pp.*"/>
+       <cat-item tags="vbmod.pp.*"/>
+       <cat-item tags="vbser.pp.*"/>
+       <cat-item tags="vbhaver.pp.*"/>
+    </def-cat>
     <def-cat n="ger">
        <cat-item tags="vblex.ger"/>
        <cat-item tags="vbmod.ger"/>
@@ -117,6 +123,9 @@
     </def-cat>
     <def-cat n="lis-pro">
        <cat-item lemma="li" tags="prn.pro.p3.mf.pl"/>
+    </def-cat>
+    <def-cat n="bi-adv">
+       <cat-item lemma="bi" tags="prn.pro.adv"/>
     </def-cat>
     <def-cat n="nche-pro">
        <cat-item lemma="nche" tags="prn.enc.adv"/>
@@ -3124,6 +3133,70 @@
        </action>
     </rule>
 
+
+<rule comment="regla: bi + àere > ci + essere (B'at > C'è)">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="vbhaver"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+	 <tags>
+	   <tag><lit-tag v="SV"/></tag>
+	 </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <lit v="essere"/>
+         <lit-tag v="vbser"/>
+	 <clip pos="2" side="tl" part="a_tmp"/>
+	 <clip pos="2" side="tl" part="pers"/>
+	 <clip pos="2" side="tl" part="gen"/>
+	 <clip pos="2" side="tl" part="nbr"/>
+       </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: bi + àere + pp > ci + avere + pp">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="vbhaver"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+	 <tags>
+	   <tag><lit-tag v="SV"/></tag>
+	 </tags>
+       <lu>
+         <clip pos="1" side="tl" part="lemh"/>
+         <clip pos="1" side="tl" part="tags"/>
+         <clip pos="1" side="tl" part="lemq"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <clip pos="2" side="tl" part="lemh"/>
+         <clip pos="2" side="tl" part="tags"/>
+         <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+       <b pos="2"/>
+       <lu>
+         <clip pos="3" side="tl" part="lemh"/>
+         <clip pos="3" side="tl" part="tags"/>
+         <clip pos="3" side="tl" part="lemq"/>
+       </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
 
     <!-- multiparaules -->
 
