@@ -8417,7 +8417,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>econòmicu<s n="adj"/></l>              <r>economico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>ecosistema<s n="n"/><s n="m"/></l>     <r>ecosistema<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ecu<s n="n"/><s n="m"/></l>            <r>eco<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>Ecuador<s n="np"/><s n="top"/><s n="f"/></l><r>Ecuador<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>Ecuadòr<s n="np"/><s n="top"/><s n="f"/></l><r>Ecuador<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>ecuadorianu<s n="n"/></l>              <r>ecuadoriano<s n="n"/></r></p></e>
 <e>       <p><l>ecuadorianu<s n="adj"/></l>            <r>ecuadoriano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>ecuadorianu<s n="adj"/></l>            <r>ecuadoriano<s n="adj"/><s n="sup"/></r></p></e>
@@ -11202,7 +11202,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Grazio<s n="np"/><s n="ant"/><s n="m"/></l><r>Grazio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Graziolo<s n="np"/><s n="ant"/><s n="m"/></l><r>Graziolo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Graziuccio<s n="np"/><s n="ant"/><s n="m"/></l><r>Graziuccio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Grecia<s n="np"/><s n="top"/><s n="f"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>Greco<s n="np"/><s n="cog"/></l>       <r>Greco<s n="np"/><s n="cog"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>grecu<s n="adj"/></l><r>greco<s n="adj"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>grecu<s n="n"/></l>  <r>greco<s n="n"/></r></p></e>
@@ -11246,7 +11245,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>gràficu<s n="adj"/></l>                <r>grafico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>gràndine<s n="n"/><s n="f"/></l>       <r>grandine<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>gràtzia<s n="n"/><s n="f"/></l>        <r>grazia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>Grèghia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Grèghia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Grètzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Gualberta<s n="np"/><s n="ant"/><s n="f"/></l><r>Gualberta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Gualberto<s n="np"/><s n="ant"/><s n="m"/></l><r>Gualberto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -17979,7 +17978,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>panca<s n="n"/><s n="f"/></l><r>panca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Pancrazia<s n="np"/><s n="ant"/><s n="f"/></l><r>Pancrazia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Pancrazio<s n="np"/><s n="ant"/><s n="m"/></l><r>Pancrazio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>panda<s n="n"/><s n="f"/></l>          <r>panda<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>panda<s n="n"/><s n="m"/></l>          <r>panda<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Pandolfa<s n="np"/><s n="ant"/><s n="f"/></l><r>Pandolfa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Pandolfino<s n="np"/><s n="cog"/></l>  <r>Pandolfino<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Pandolfo<s n="np"/><s n="ant"/><s n="m"/></l><r>Pandolfo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -21231,7 +21230,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>saludu<s n="n"/><s n="m"/></l>         <r>saluto<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>salume<s n="n"/><s n="m"/></l>         <r>salume<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Salva<s n="np"/><s n="ant"/><s n="f"/></l><r>Salva<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Salvador<s n="np"/><s n="top"/><s n="m"/></l><r>Salvador<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Salvadòr<s n="np"/><s n="top"/><s n="m"/></l><r>Salvador<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Salvador<s n="np"/><s n="ant"/><s n="m"/></l><r>Salvador<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Salvadora<s n="np"/><s n="ant"/><s n="f"/></l><r>Salvadora<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>salvaguardare<s n="vblex"/></l>        <r>salvaguardare<s n="vblex"/></r></p></e>
@@ -22309,7 +22308,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>sudamericanu<s n="adj"/></l>           <r>sudamericano<s n="adj"/></r></p></e>
 <e>       <p><l>sudamericanu<s n="n"/></l>             <r>sudamericano<s n="n"/></r></p></e>
 <e r="RL"><p><l>sudamericanu<s n="adj"/></l>           <r>sudamericano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>Sudan<s n="np"/><s n="top"/><s n="m"/></l><r>Sudan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Sudàn<s n="np"/><s n="top"/><s n="m"/></l><r>Sudan<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>sudare<s n="vblex"/></l>               <r>sudare<s n="vblex"/></r></p></e>
 <e>       <p><l>sudcoreanu<s n="n"/></l>               <r>sudcoreano<s n="n"/></r></p></e>
 <e>       <p><l>sudcoreanu<s n="adj"/></l>             <r>sudcoreano<s n="adj"/></r></p></e>
@@ -24444,7 +24443,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Viero<s n="np"/><s n="ant"/><s n="m"/></l><r>Viero<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>vietadu<s n="adj"/></l>                <r>vietato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>vietadu<s n="adj"/></l>                <r>vietato<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>Vietnam<s n="np"/><s n="top"/><s n="m"/></l><r>Vietnam<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>vietnamita<s n="adj"/></l>             <r>vietnamita<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>vietnamita<s n="n"/></l>               <r>vietnamita<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>Vietnàm<s n="np"/><s n="top"/><s n="m"/></l><r>Vietnam<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
