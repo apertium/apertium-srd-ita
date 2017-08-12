@@ -2895,6 +2895,8 @@
 	  </test>
 	  <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
 	</when>
+     </choose>
+     <choose>
 	<when> 
 	  <test>
 	    <and>
@@ -2904,7 +2906,9 @@
 	  </test>
 	  <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
 	</when>
-	<when> <!-- VERIFY: no està funcionant, no sé perquè -->
+     </choose>
+     <choose>
+	<when>
 	  <test>
 	    <and>
 	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>

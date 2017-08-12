@@ -7678,7 +7678,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>difendidore<s n="n"/></l>              <r>difensore<s n="n"/></r></p></e>
 <e>       <p><l>difensore<s n="adj"/></l>              <r>difensore<s n="adj"/></r></p></e>
 <e>       <p><l>difensore<s n="n"/></l>                <r>difensore<s n="n"/></r></p></e>
-<e>       <p><l>difensìvu<s n="adj"/></l>              <r>difensivo<s n="adj"/></r></p></e>
+<e>       <p><l>difensivu<s n="adj"/></l>              <r>difensivo<s n="adj"/></r></p></e>
 <e>       <p><l>diferente<s n="adj"/></l>              <r>differente<s n="adj"/></r></p></e>
       <!--<e r="RL"><p><l>difendidore<s n="adj"/></l><r>difensore<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
 <e r="RL"><p><l>diferente<s n="adj"/></l>              <r>differente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -8927,7 +8927,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>erudidu<s n="adj"/></l>                <r>erudito<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>eruditzione<s n="n"/><s n="f"/></l>    <r>erudizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>erutzione<s n="n"/><s n="f"/></l>      <r>eruzione<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>Erzegovina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Erzegovina<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Erzegòvina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Erzegovina<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>eràriu<s n="n"/><s n="m"/></l>         <r>erario<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>erèntzia<s n="n"/><s n="f"/></l>       <r>stirpe<s n="n"/><s n="f"/></r></p></e>
