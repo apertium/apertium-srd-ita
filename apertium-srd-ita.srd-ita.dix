@@ -9689,7 +9689,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Filippo<s n="np"/><s n="ant"/><s n="m"/></l><r>Filippo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>filisteu<s n="adj"/></l>               <r>filisteo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>filisteu<s n="adj"/></l>               <r>filisteo<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>film<s n="n"/><s n="m"/></l>           <r>film<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>film<s n="n"/><s n="m"/></l>           <r>film<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>filmadu<s n="n"/><s n="m"/></l>        <r>cortometraggio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>filmadu<s n="adj"/></l>                <r>filmato<s n="adj"/></r></p></e>
 <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>filmadu<s n="n"/><s n="m"/></l><r>filmato<s n="n"/><s n="m"/></r></p></e>
@@ -13673,7 +13673,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>islovenu<s n="adj"/></l>               <r>sloveno<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Islovàchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Slovacchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Islovènia<s n="np"/><s n="top"/><s n="f"/></l><r>Slovenia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-<e>       <p><l>islàlom<s n="n"/><s n="m"/></l>        <r>slalom<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>islalom<s n="n"/><s n="m"/></l>        <r>slalom<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>islàmicu<s n="adj"/></l>               <r>islamico<s n="adj"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ismaltire<s n="vblex"/></l><r>smaltire<s n="vblex"/></r></p></e>
 <e>       <p><l>ismaltu<s n="n"/><s n="m"/></l>        <r>smalto<s n="n"/><s n="m"/></r></p></e>
@@ -15765,7 +15765,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Medora<s n="np"/><s n="ant"/><s n="f"/></l><r>Medora<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Medoro<s n="np"/><s n="ant"/><s n="m"/></l><r>Medoro<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>medàllia<s n="n"/><s n="f"/></l>       <r>medaglia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>mega<s n="n"/><s n="mf"/></l>          <r>mega<s n="n"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>mega<s n="n"/><s n="mf"/></l>          <r>mega<s n="n"/><s n="mf"/></r></p></e>
 <e>       <p><l>mega-fusione<s n="n"/><s n="f"/></l>   <r>mega-fusione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>megabanca<s n="n"/><s n="f"/></l>      <r>megabanca<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>megacuntzertu<s n="n"/><s n="m"/></l>  <r>megaconcerto<s n="n"/><s n="m"/></r></p></e>
