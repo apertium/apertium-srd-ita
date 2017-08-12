@@ -3303,21 +3303,49 @@
        </action>
     </rule>
 
-    <rule comment="regla: imper-ger-pp enc enc">	<!-- eliminamos nche -->
-       <pattern>
-         <pattern-item n="imper-ger-pp"/>
-         <pattern-item n="enc"/>
-         <pattern-item n="enc"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="2"/>
-         </call-macro>     
-         <call-macro n="f_concord1">
-           <with-param pos="3"/>
-         </call-macro>     
+<rule comment="regla: imper-ger-pp enc enc">	<!-- eliminamos nche -->
+   <pattern>
+     <pattern-item n="imper-ger-pp"/>
+     <pattern-item n="enc"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>     
+     <call-macro n="f_concord1">
+       <with-param pos="3"/>
+     </call-macro>     
+     <choose>
+       <when>
+         <test>
+           <and>
+             <equal><clip pos="2" side="sl" part="lem"/><lit v="nche"/></equal>
+             <not><equal><clip pos="3" side="tl" part="lem"/><lit v="nde"/></equal></not>
+           </and>
+        </test>
          <out>
            <chunk name="verb_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="tags"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lem"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="verb_enc_enc">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -3338,8 +3366,10 @@
              </mlu>
            </chunk>
          </out>
-       </action>
-    </rule>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
 
     <rule comment="regla: imper-ger-pp enc nche-enc enc">	<!-- eliminamos nche -->
        <pattern>
