@@ -320,7 +320,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>abalorare<s n="vblex"/></l>            <r>corroborare<s n="vblex"/></r></p></e>
 <e>       <p><l>abarrare<s n="vblex"/></l>             <r>restare<s n="vblex"/></r></p></e>
 <e>       <p><l>abarrare<s n="vblex"/></l>             <r>rimanere<s n="vblex"/></r></p></e>
-<e>       <p><l>abarrare<s n="vblex"/></l>             <r>stare<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>abarrare<s n="vblex"/></l>            <r>stare<s n="vblex"/></r></p></e>
 <e>       <p><l>abate<s n="n"/><s n="m"/></l>          <r>abate<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Abate<s n="np"/><s n="cog"/></l>       <r>Abate<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>abba<s n="n"/><s n="f"/></l>           <r>acqua<s n="n"/><s n="f"/></r></p></e>
@@ -11379,7 +11379,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Hong<b/>Kong<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Hong<b/>Kong<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Hood<s n="np"/><s n="cog"/></l>        <r>Hood<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>horror<s n="n"/><s n="m"/></l>         <r>horror<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>hotel<s n="n"/><s n="m"/></l>          <r>hotel<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>hotel<s n="n"/><s n="m"/></l>          <r>hotel<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Houston<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Houston<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>Howard<s n="np"/><s n="ant"/><s n="m"/></l><r>Howard<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Howard<s n="np"/><s n="cog"/></l>      <r>Howard<s n="np"/><s n="cog"/></r></p></e>
@@ -25099,7 +25099,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>èsitu<s n="n"/><s n="m"/></l>          <r>esito<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>èsodu<s n="n"/><s n="m"/></l>          <r>esodo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>èssere<s n="n"/><s n="m"/></l>         <r>essere<s n="n"/><s n="m"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>èssere<s n="vbser"/></l><r>stare<s n="vblex"/></r></p></e>
+<e i="yes"><p><l>èssere<s n="vbser"/></l>              <r>stare<s n="vblex"/></r></p></e>
 <e>       <p><l>èssere<g><b/>a<b/>largu</g><s n="vblex"/></l><r>distare<s n="vblex"/></r></p></e>
 <e>       <p><l>èsteru<s n="adj"/></l>                 <r>estero<s n="adj"/></r></p></e>
 <e r="RL"><p><l>èsteru<s n="adj"/></l>                 <r>estero<s n="adj"/><s n="sup"/></r></p></e>
