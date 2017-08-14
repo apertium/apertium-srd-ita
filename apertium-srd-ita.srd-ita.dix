@@ -15363,7 +15363,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Manno<s n="np"/><s n="ant"/><s n="m"/></l><r>Manno<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>mannoi<s n="n"/><s n="m"/></l>         <r>nonno<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mannu<s n="n"/></l>                    <r>adulto<s n="n"/></r></p></e>
-<e>       <p><l>mannu<s n="adj"/></l>                  <r>adulto<s n="adj"/></r></p></e>
+<e r="RL"><p><l>mannu<s n="adj"/></l>                  <r>adulto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>mannu<s n="adj"/></l>                  <r>adulto<s n="adj"/><s n="sup"/></r></p></e>
 <e r="RL"><p><l>mannu<s n="adj"/></l>                  <r>grande<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>mannu<s n="adj"/></l>                  <r>grande<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -25321,20 +25321,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ambos<s n="prn"/><s n="tn"/></l>       <r>entrambi<s n="prn"/><s n="tn"/></r></p></e>
 <e r="LR"><p><l>bi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>ci<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 <e r="LR"><p><l>bi<s n="prn"/><s n="enc"/><s n="adv"/></l><r>ci<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-
-<!--
-<e r="RL"><p><l>bi<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>bi<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>bi<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
--->
 <e r="LR"><p><l>bi<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="enc"/><s n="p3"/><s n="mfSG"/><s n="ND"/></r></p></e>
-<!--
-<e r="RL"><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="RL"><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
--->
 <e r="LR"><p><l>bi<s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sp"/></l><r>gli<s n="prn"/><s n="pro"/><s n="p3"/><s n="mfSG"/><s n="ND"/></r></p></e>
-<e>       <p><l>bi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>vi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
+<e r="RL"><p><l>bi<s n="prn"/><s n="pro"/><s n="adv"/></l><r>vi<s n="prn"/><s n="pro"/><s n="adv"/></r></p></e>
 <e>       <p><l>bois<s n="prn"/><s n="tn"/><s n="p2"/></l><r>voi<s n="prn"/><s n="tn"/><s n="p2"/></r></p></e>
 <e>       <p><l>bos<s n="prn"/><s n="pro"/><s n="p2"/></l><r>vi<s n="prn"/><s n="pro"/><s n="p2"/></r></p></e>
 <e>       <p><l>bos<s n="prn"/><s n="enc"/><s n="p2"/></l><r>vi<s n="prn"/><s n="enc"/><s n="p2"/></r></p></e>

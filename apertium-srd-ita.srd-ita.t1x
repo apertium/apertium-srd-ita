@@ -2593,6 +2593,7 @@
          <call-macro n="f_concord1">
            <with-param pos="1"/>
          </call-macro>
+<!--
          <call-macro n="f_evitar_mf1">
            <with-param pos="1"/>
          </call-macro>
@@ -2600,11 +2601,16 @@
 	    <clip pos="1" side="tl" part="a_adj"/>
 	    <lit-tag v="adj.sup"/>
 	  </let>
+-->
          <out>
-           <chunk name="adj">
+           <chunk name="preadv_adj">
              <tags>
                <tag><lit-tag v="SA"/></tag>
              </tags>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="1"/>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
              <clip pos="1" side="tl" part="tags"/>
@@ -2627,6 +2633,7 @@
            <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
+<!--
          <call-macro n="f_evitar_mf2">
            <with-param pos="2"/>
            <with-param pos="1"/>
@@ -2635,6 +2642,7 @@
 	    <clip pos="2" side="tl" part="a_adj"/>
 	    <lit-tag v="adj.sup"/>
 	  </let>
+-->
          <out>
            <chunk name="n_adj">
              <tags>
@@ -2646,6 +2654,10 @@
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
            <b pos="1"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="2"/>
            <lu>
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
