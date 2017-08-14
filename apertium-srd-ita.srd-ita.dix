@@ -164,7 +164,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>bighinu<b/>a<s n="pr"/></l>            <r>vicino<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>cara<b/>a<s n="pr"/></l>               <r>verso<s n="pr"/></r></p></e>
 <e>       <p><l>che<b/>a<s n="pr"/></l>                <r>come<s n="pr"/></r></p></e>
-<e>       <p><l>che<b/>a<s n="pr"/></l>                <r>come<b/>a<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>che<b/>a<s n="pr"/></l>                <r>come<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>contra<s n="pr"/></l>                  <r>contro<s n="pr"/></r></p></e>
 <e>       <p><l>cumintzande<b/>dae<s n="pr"/></l>      <r>a<b/>cominciare<b/>da<s n="pr"/></r></p></e>
 <e>       <p><l>cun<s n="pr"/></l>                     <r>con<s n="pr"/></r></p></e>
@@ -172,18 +172,18 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>dae<b/>como<b/>in<b/>susu<s n="pr"/></l><r>d'ora<b/>in<b/>poi<s n="pr"/></r></p></e>
 <e>       <p><l>dae<b/>in<b/>antis<s n="pr"/></l>      <r>davanti<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>dae<b/>segus<s n="pr"/></l>            <r>dietro<s n="pr"/></r></p></e>
-<e>       <p><l>dae<b/>segus<b/>a<s n="pr"/></l>       <r>dietro<b/>a<s n="pr"/></r></p></e>
-<e>       <p><l>de<s n="pr"/></l>                      <r>da<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>dae<b/>segus<b/>a<s n="pr"/></l>       <r>dietro<b/>a<s n="pr"/></r></p></e>
+<e>       <p><l>dae<s n="pr"/></l>                      <r>da<s n="pr"/></r></p></e>
 <e>       <p><l>de<s n="pr"/></l>                      <r>di<s n="pr"/></r></p></e>
 <e>       <p><l>durante<s n="pr"/></l>                 <r>durante<s n="pr"/></r></p></e>
 <e>       <p><l>finas<s n="pr"/></l>                   <r>fino<b/>a<s n="pr"/></r></p></e>
-<e>       <p><l>finas<s n="pr"/></l>                   <r>persino<s n="pr"/></r></p></e>
-<e>       <p><l>finas<s n="pr"/></l>                   <r>sino<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>finas<s n="pr"/></l>                   <r>persino<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>finas<s n="pr"/></l>                   <r>sino<s n="pr"/></r></p></e>
 <e>       <p><l>finas<b/>dae<s n="pr"/></l>            <r>fin<b/>da<s n="pr"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>fintzas<s n="pr"/></l><r>fino<b/>a<s n="pr"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>fintzas<b/>dae<s n="pr"/></l><r>fin<b/>da<s n="pr"/></r></p></e>
 <e>       <p><l>francu<s n="pr"/></l>                  <r>eccetto<s n="pr"/></r></p></e>
-<e>       <p><l>ifforas<s n="pr"/></l>                 <r>fuori<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>ifforas<s n="pr"/></l>                 <r>fuori<s n="pr"/></r></p></e>
 <e>       <p><l>in<s n="pr"/></l>                      <r>in<s n="pr"/></r></p></e>
 <e>       <p><l>in<s n="pr"/></l>                      <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>in<b/>foras<b/>de<s n="pr"/></l>       <r>fuori<b/>da<s n="pr"/></r></p></e>
@@ -196,17 +196,17 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>mediante<s n="pr"/></l>                <r>mediante<s n="pr"/></r></p></e>
 <e>       <p><l>nointames<s n="pr"/></l>               <r>nonostante<s n="pr"/></r></p></e>
 <e>       <p><l>paris<b/>cun<s n="pr"/></l>            <r>insieme<b/>a<s n="pr"/></r></p></e>
-<e>       <p><l>paris<b/>cun<s n="pr"/></l>            <r>insieme<b/>con<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>paris<b/>cun<s n="pr"/></l>            <r>insieme<b/>con<s n="pr"/></r></p></e>
 <e>       <p><l>partinde<b/>dae<s n="pr"/></l>         <r>a<b/>partire<b/>da<s n="pr"/></r></p></e>
 <e>       <p><l>posca<s n="pr"/></l>                   <r>dopo<s n="pr"/></r></p></e>
 <e>       <p><l>pre<s n="pr"/></l>                     <r>pre<s n="pr"/></r></p></e>
 <e>       <p><l>pro<s n="pr"/></l>                     <r>per<s n="pr"/></r></p></e>
 <e>       <p><l>pro<s n="pr"/></l>                     <r>pro<s n="pr"/></r></p></e>
 <e>       <p><l>pro<b/>mèdiu<b/>de<s n="pr"/></l>      <r>attraverso<s n="pr"/></r></p></e>
-<e>       <p><l>pro<b/>mèdiu<b/>de<s n="pr"/></l>      <r>fino<b/>a<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>pro<b/>mèdiu<b/>de<s n="pr"/></l>      <r>fino<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>sena<s n="pr"/></l>                    <r>senza<s n="pr"/></r></p></e>
 <e>       <p><l>subra<s n="pr"/></l>                   <r>sopra<s n="pr"/></r></p></e>
-<e>       <p><l>subra<s n="pr"/></l>                   <r>su<s n="pr"/></r></p></e>
+<e r="RL">       <p><l>subra<s n="pr"/></l>                   <r>su<s n="pr"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>subra<b/>de<s n="pr"/></l><r>sopra<s n="pr"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>susu<s n="pr"/></l>  <r>su<s n="pr"/></r></p></e>
 <e>       <p><l>tra<s n="pr"/></l>                     <r>tra<s n="pr"/></r></p></e>
@@ -217,14 +217,15 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       ****************************** -->
 <e>       <p><l>a<b/>aterue<s n="adv"/></l>            <r>altrove<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>banda<s n="adv"/></l>             <r>a<b/>parte<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>marolla<s n="adv"/></l>           <r>per<b/>forza<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>banda<s n="adv"/></l>             <r>da<b/>parte<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>bellu<s n="adv"/></l>             <r>lentamente<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>bellu<s n="adv"/></l>             <r>lentamente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>bellu<s n="adv"/></l>             <r>piano<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>beru<s n="adv"/></l>              <r>davvero<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>beru<s n="adv"/></l>              <r>in<b/>effetti<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>beru<s n="adv"/></l>              <r>realmente<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>beru<s n="adv"/></l>              <r>veramente<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>bias<s n="adv"/></l>              <r>a<b/>volte<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>beru<s n="adv"/></l>              <r>in<b/>effetti<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>beru<s n="adv"/></l>              <r>realmente<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>beru<s n="adv"/></l>              <r>veramente<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>bias<s n="adv"/></l>              <r>a<b/>volte<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>bonu<s n="ij"/></l>               <r>magari<s n="ij"/></r></p></e>
 <e>       <p><l>a<b/>bortas<s n="adv"/></l>            <r>talvolta<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>caddu<s n="adv"/></l>             <r>a<b/>cavallo<s n="adv"/></r></p></e>
@@ -235,39 +236,40 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>dae<b/>segus<s n="adv"/></l>      <r>all'indietro<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>de<b/>die<s n="adv"/></l>         <r>di<b/>giorno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>de<b/>note<s n="adv"/></l>        <r>di<b/>notte<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>discansu<s n="adv"/></l>          <r>a<b/>riposo<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>discansu<s n="adv"/></l>          <r>a<b/>riposo<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>discansu<s n="adv"/></l>          <r>comodamente<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>discansu<s n="adv"/></l>          <r>facilmente<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>discansu<s n="adv"/></l>          <r>facilmente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>disora<s n="adj"/></l>            <r>anacronistico<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e>       <p><l>a<b/>distàntzia<s n="adv"/></l>        <r>a<b/>distanza<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>distàntzia<s n="adj"/></l>        <r>a<b/>distanza<s n="adj"/></r></p></e>
+<e r="RL">       <p><l>a<b/>distàntzia<s n="adj"/></l>        <r>a<b/>distanza<s n="adj"/></r></p></e>
 <e>       <p><l>a<b/>dolu<b/>mannu<s n="adv"/></l>     <r>purtroppo<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>foras<s n="adv"/></l>             <r>fuori<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>forte<s n="adv"/></l>             <r>forte<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>forte<s n="adv"/></l>             <r>fortemente<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>forte<s n="adv"/></l>             <r>fortemente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>fortza<s n="adv"/></l>            <r>a<b/>forza<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>fortza<s n="adv"/></l>            <r>di<b/>forza<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>fortza<s n="adv"/></l>            <r>di<b/>forza<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>fundu<s n="adv"/></l>             <r>profondamente<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>fùrriu<s n="adv"/></l>            <r>profondament<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>fùrriu<s n="adv"/></l>            <r>attorno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>gasi<s n="adv"/></l>              <r>così<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>gherra<s n="adv"/></l>            <r>a<b/>fatica<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>gherra<s n="adv"/></l>            <r>difficilmente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>giosso<s n="adv"/></l>            <r>giù<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>giosso<s n="adv"/></l>            <r>verso<b/>giù<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>gosi<s n="adv"/></l>              <r>così<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>giosso<s n="adv"/></l>            <r>verso<b/>giù<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>gosi<s n="adv"/></l>              <r>così<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>in<b/>antis<s n="adv"/></l>       <r>avanti<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>inghìriu<s n="adv"/></l>          <r>dintorno<s n="adv"/></r></p></e>
+<e r="RL"><p><l>a<b/>inghìriu<s n="adv"/></l>          <r>dintorno<s n="adv"/></r></p></e>
       <!-- <e><p><l>paris<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e> FIXME -->
 <e>       <p><l>a<b/>inghìriu<s n="adv"/></l>          <r>intorno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>inoghe<s n="adv"/></l>            <r>qui<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>intro<s n="adv"/></l>             <r>dentro<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>largu<s n="adv"/></l>             <r>a<b/>largo<s n="adv"/></r></p></e>
+<e r="RL"><p><l>a<b/>largu<s n="adv"/></l>             <r>a<b/>largo<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>coa<s n="adv"/></l>               <r>dopo<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>largu<s n="adv"/></l>             <r>lontano<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>lestru<s n="adv"/></l>            <r>velocemente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>mala<b/>bògia<s n="adv"/></l>     <r>a<b/>malavoglia<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>mala<b/>gana<s n="adv"/></l>      <r>a<b/>malavoglia<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>mala<b/>gana<s n="adv"/></l>      <r>a<b/>malavoglia<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>malu<s n="adv"/></l>              <r>da<b/>cattivo<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>malu<s n="adv"/></l>              <r>malamente<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>malu<s n="adv"/></l>              <r>malamente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>mangianu<s n="adv"/></l>          <r>di<b/>mattina<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>merie<s n="adv"/></l>             <r>di<b/>pomeriggio<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>mesu<b/>die<s n="adv"/></l>       <r>a<b/>mezzogiorno<s n="adv"/></r></p></e>
@@ -282,7 +284,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>prou<s n="adv"/></l>              <r>perfettamente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>prus<s n="adv"/></l>              <r>tra<b/>l'altro<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>pustis<s n="adv"/></l>            <r>dopo<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>pustis<s n="adv"/></l>            <r>poi<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>pustis<s n="adv"/></l>            <r>poi<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>s'annu<s n="adv"/></l>            <r>all'anno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>s'imbesse<s n="adv"/></l>         <r>al<b/>rovescio<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>s'ispessada<s n="adv"/></l>       <r>inaspettatamente<s n="adv"/></r></p></e>
@@ -291,10 +293,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>s'èsteru<s n="adv"/></l>          <r>all'estero<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sa<b/>die<s n="adv"/></l>         <r>al<b/>giorno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sa<b/>fine<s n="adv"/></l>        <r>alla<b/>fine<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>sa<b/>grusera<s n="adv"/></l>     <r>alla<b/>buona<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>sa<b/>grusera<s n="adv"/></l>     <r>alla<b/>buona<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sa<b/>grussera<s n="adv"/></l>    <r>grossolanamente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sa<b/>minuda<s n="adv"/></l>      <r>dettagliatamente<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>sa<b/>revessa<s n="adv"/></l>     <r>al<b/>rovescio<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>sa<b/>revessa<s n="adv"/></l>     <r>al<b/>rovescio<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sa<b/>ritza<s n="adv"/></l>       <r>in<b/>piedi<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>segus<s n="adv"/></l>             <r>dietro<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>sero<s n="adv"/></l>              <r>di<b/>sera<s n="adv"/></r></p></e>
@@ -307,9 +309,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>su<b/>sòlitu<s n="adv"/></l>      <r>di<b/>solito<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>subra<s n="adv"/></l>             <r>sopra<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>susu<s n="adv"/></l>              <r>su<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>susu<s n="adv"/></l>              <r>verso<b/>su<s n="adv"/></r></p></e>
+<e r="RL">       <p><l>a<b/>susu<s n="adv"/></l>              <r>verso<b/>su<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>suta<s n="adv"/></l>              <r>sotto<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>tempus<s n="adv"/></l>            <r>tempestivamente<s n="adv"/></r></p></e>
+<e>       <p><l>a<b/>tempus<s n="adv"/></l>            <r>in<b/>tempo<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>tesu<s n="adv"/></l>              <r>lontano<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>totue<s n="adv"/></l>             <r>dappertutto<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>tìmigu<s n="adv"/></l>            <r>timidamente<s n="adv"/></r></p></e>
@@ -15860,6 +15862,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>mentovare<s n="vblex"/></l>            <r>menzionare<s n="vblex"/></r></p></e>
 <e>       <p><l>mentovu<s n="n"/><s n="m"/></l>        <r>menzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mentras<s n="adv"/></l>                <r>mentre<s n="adv"/></r></p></e>
+<e>       <p><l>in<b/>su<b/>mentras<s n="adv"/></l>    <r>nel<b/>mentre<s n="adv"/></r></p></e>
 <e>       <p><l>mentres<s n="adv"/></l>                <r>mentre<s n="adv"/></r></p></e>
 <e>       <p><l>mentu<s n="n"/><s n="m"/></l>          <r>mento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mentuadu<s n="adj"/></l>               <r>ricordato<s n="adj"/></r></p></e>
