@@ -15647,7 +15647,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>maternidade<s n="n"/><s n="f"/></l>    <r>maternità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>maternu<s n="adj"/></l>                <r>materno<s n="adj"/></r></p></e>
 <e r="RL"><p><l>maternu<s n="adj"/></l>                <r>materno<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>matessi<s n="adj"/></l>                <r>medesimo<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
+<e r="RL"><p><l>matessi<s n="adj"/></l>                <r>medesimo<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e r="RL"><p><l>matessi<s n="adj"/></l>                <r>medesimo<s n="adj"/><s n="sup"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e>       <p><l>matessi<s n="adv"/></l>                <r>stesso<s n="adv"/></r></p></e>
 <e>       <p><l>matessi<s n="prn"/><s n="tn"/></l>     <r>stesso<s n="prn"/><s n="tn"/></r></p><par n="mf_GD-sp_ND"/></e>
@@ -19768,8 +19768,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>prìstinu<s n="adj"/></l>               <r>pristino<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>pròere<s n="vblex"/></l>               <r>piovere<s n="vblex"/></r></p></e>
 <e>       <p><l>pròpiu<s n="adv"/></l>                 <r>proprio<s n="adv"/></r></p></e>
-<e>       <p><l>pròpiu<s n="adj"/></l>                 <r>proprio<s n="adj"/></r></p></e>
-<e r="RL"><p><l>pròpiu<s n="adj"/></l>                 <r>proprio<s n="adj"/><s n="sup"/></r></p></e>
+<e r="RL"><p><l>pròpiu<s n="adj"/></l>                 <r>proprio<s n="adj"/></r></p></e>
 <e>       <p><l>pròpiu<s n="adj"/></l>                 <r>stesso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>pròpiu<s n="adj"/></l>                 <r>stesso<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>pròroga<s n="n"/><s n="f"/></l>        <r>proroga<s n="n"/><s n="f"/></r></p></e>
@@ -21404,8 +21403,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Saverina<s n="np"/><s n="ant"/><s n="f"/></l><r>Saverina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Saverio<s n="np"/><s n="ant"/><s n="m"/></l><r>Saverio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Savina<s n="np"/><s n="ant"/><s n="f"/></l><r>Savina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Savoia<s n="np"/><s n="cog"/></l>      <r>Savoia<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>Savoia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Savoia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Savoja<s n="np"/><s n="cog"/></l>      <r>Savoia<s n="np"/><s n="cog"/></r></p></e>
+<e>       <p><l>Savoja<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Savoia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Savoia<s n="np"/><s n="cog"/></l>      <r>Savoia<s n="np"/><s n="cog"/></r></p></e>
+<e r="LR"><p><l>Savoia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Savoia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Scala<s n="np"/><s n="cog"/></l>       <r>Scala<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Scalepranu<s n="np"/><s n="top"/><s n="m"/></l><r>Escalaplano<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Scalici<s n="np"/><s n="cog"/></l>     <r>Scalici<s n="np"/><s n="cog"/></r></p></e>
@@ -22205,9 +22206,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>stùdiu<s n="n"/><s n="m"/></l><r>studio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Su<b/>Burgu<s n="np"/><s n="top"/><s n="m"/></l><r>Burgos<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Su<b/>Masu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Elmas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
-<e>       <p><l>su<b/>matessi<s n="adv"/></l>          <r>comunque<s n="adv"/></r></p></e>
 <e>       <p><l>su<b/>momentu<b/>chi<s n="adv"/></l>   <r>momento<b/>in<b/>cui<s n="adv"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>su<b/>pròpiu<s n="adv"/></l><r>comunque<s n="adv"/></r></p></e>
 <e>       <p><l>suare<s n="vblex"/></l>                <r>eccitare<s n="vblex"/></r></p></e>
 <e>       <p><l>sub-holding<s n="n"/><s n="f"/></l>    <r>sub-holding<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>sub-regione<s n="n"/><s n="f"/></l>    <r>sub-regione<s n="n"/><s n="f"/></r></p></e>
