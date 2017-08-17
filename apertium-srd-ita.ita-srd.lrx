@@ -186,6 +186,9 @@
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
      <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
+  <rule weight="0.6">
+     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
 
 
 <!-- VERB-CONJ DI: Marcamos "de" para eliminar, suponiendo que es un partitivo -->
