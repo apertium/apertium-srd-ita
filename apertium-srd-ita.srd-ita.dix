@@ -173,7 +173,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>dae<b/>in<b/>antis<s n="pr"/></l>      <r>davanti<b/>a<s n="pr"/></r></p></e>
 <e>       <p><l>dae<b/>segus<s n="pr"/></l>            <r>dietro<s n="pr"/></r></p></e>
 <e>       <p><l>dae<b/>segus<b/>a<s n="pr"/></l>       <r>dietro<b/>a<s n="pr"/></r></p></e>
-<e>       <p><l>de<s n="pr"/></l>               <r>da<s n="pr"/></r></p></e>
+<e>       <p><l>de<s n="pr"/></l>                      <r>da<s n="pr"/></r></p></e>
 <e>       <p><l>de<s n="pr"/></l>                      <r>di<s n="pr"/></r></p></e>
 <e>       <p><l>durante<s n="pr"/></l>                 <r>durante<s n="pr"/></r></p></e>
 <e>       <p><l>finas<s n="pr"/></l>                   <r>fino<b/>a<s n="pr"/></r></p></e>
@@ -24323,7 +24323,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>venetzianu<s n="adj"/></l>             <r>veneziano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>venetzuelanu<s n="adj"/></l>           <r>venezuelano<s n="adj"/></r></p></e>
 <e>       <p><l>venetzuelanu<s n="n"/></l>             <r>venezuelano<s n="n"/></r></p></e>
-<e>       <p><l>Venezuela<s n="np"/><s n="top"/><s n="f"/></l><r>Venezuela<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e>       <p><l>Venezuela<s n="np"/><s n="top"/><s n="m"/></l><r>Venezuela<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>vengare<s n="vblex"/></l>              <r>vendicare<s n="vblex"/></r></p></e>
 <e>       <p><l>veniale<s n="adj"/></l>                <r>veniale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>veniale<s n="adj"/></l>                <r>veniale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
@@ -25218,665 +25218,665 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>emiradinu<s n="n"/></l>               <r>emiratino<s n="n"/></r></p></e>
 <e>       <p><l>emiradinu<s n="adj"/></l>             <r>arabunitense<s n="adj"/></r></p></e>
 <e>       <p><l>emiradinu<s n="n"/></l>               <r>arabunitense<s n="n"/></r></p></e>
-      <e><p><l>Afganistàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Afganistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Afganistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Afganistan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>afganistanu<s n="n"/></l><r>afganistano<s n="n"/></r></p></e>
       <e><p><l>afganistanu<s n="adj"/></l><r>afganistano<s n="adj"/></r></p></e>
-      <e><p><l>Alaska<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Alaska<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Algeria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Algeria<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Alaska<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Alaska<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Algeria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Algeria<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>algerinu<s n="n"/></l><r>algerino<s n="n"/></r></p></e>
       <e><p><l>algerinu<s n="adj"/></l><r>algerino<s n="adj"/></r></p></e>
-      <e><p><l>Angola<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Angola<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Angola<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Angola<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>angolesu<s n="n"/></l><r>angolese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>angolesu<s n="adj"/></l><r>angolese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Antìgua<b/>e<b/>Barbuda<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Antigua<b/>e<b/>Barbuda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Antìgua<b/>e<b/>Barbuda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Antigua<b/>e<b/>Barbuda<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>antigu-barbudanu<s n="n"/></l><r>antiguo-barbudano<s n="n"/></r></p></e>
       <e><p><l>antigu-barbudanu<s n="adj"/></l><r>antiguo-barbudano<s n="adj"/></r></p></e>
-      <e><p><l>Aràbia<b/>Saudita<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Arabia<b/>Saudita<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Aràbia<b/>Saudita<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Arabia<b/>Saudita<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>saudita<s n="n"/></l><r>saudita<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>saudita<s n="adj"/></l><r>saudita<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>Argentina<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Argentina<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Argentina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Argentina<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>argentinu<s n="n"/></l><r>argentino<s n="n"/></r></p></e>
       <e><p><l>argentinu<s n="adj"/></l><r>argentino<s n="adj"/></r></p></e>
-      <e><p><l>Armènia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Armenia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Armènia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Armenia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>armenu<s n="n"/></l><r>armeno<s n="n"/></r></p></e>
       <e><p><l>armenu<s n="adj"/></l><r>armeno<s n="adj"/></r></p></e>
-      <e><p><l>Austràlia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Australia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Austràlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Australia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>australianu<s n="n"/></l><r>australiano<s n="n"/></r></p></e>
       <e><p><l>australianu<s n="adj"/></l><r>australiano<s n="adj"/></r></p></e>
-      <e><p><l>Àustria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Austria<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Àustria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Austria<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>austrìacu<s n="n"/></l><r>austriaco<s n="n"/></r></p></e>
       <e><p><l>austrìacu<s n="adj"/></l><r>austriaco<s n="adj"/></r></p></e>
-      <e><p><l>Azerbaigiàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Azerbaigian<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Azerbaigiàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Azerbaigian<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>azerbaigianu<s n="n"/></l><r>azerbaigiano<s n="n"/></r></p></e>
       <e><p><l>azerbaigianu<s n="adj"/></l><r>azerbaigiano<s n="adj"/></r></p></e>
-      <e><p><l>Bahamas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Bahamas<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Bahamas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Bahamas<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>bahamianu<s n="n"/></l><r>bahamiano<s n="n"/></r></p></e>
       <e><p><l>bahamianu<s n="adj"/></l><r>bahamiano<s n="adj"/></r></p></e>
-      <e><p><l>Bahrain<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Bahrain<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bahrain<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bahrain<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>bahreinita<s n="n"/></l><r>bahreinita<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>bahrainita<s n="n"/></l><r>bahrainita<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>bahreinita<s n="adj"/></l><r>bahreinita<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>bahrainita<s n="adj"/></l><r>bahrainita<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>bengalesu<s n="n"/></l><r>bengalese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>bengalesu<s n="adj"/></l><r>bengalese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Barbados<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Barbados<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Barbados<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Barbados<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>barbadianu<s n="n"/></l><r>barbadiano<s n="n"/></r></p></e>
       <e><p><l>barbadianu<s n="adj"/></l><r>barbadiano<s n="adj"/></r></p></e>
-      <e><p><l>Belize<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Belize<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Belize<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Belize<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>belisianu<s n="n"/></l><r>belisiano<s n="n"/></r></p></e>
       <e><p><l>belisianu<s n="adj"/></l><r>belisiano<s n="adj"/></r></p></e>
-      <e><p><l>Benìn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Benin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Benìn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Benin<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>beninesu<s n="n"/></l><r>beninese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>beninesu<s n="adj"/></l><r>beninese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Bhutàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Bhutan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bhutàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Bhutan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>buthanesu<s n="n"/></l><r>butanese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>buthanesu<s n="adj"/></l><r>butanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Bielorùssia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Bielorussia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bielorùssia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bielorussia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>bielorussu<s n="n"/></l><r>bielorusso<s n="n"/></r></p></e>
       <e><p><l>bielorussu<s n="adj"/></l><r>bielorusso<s n="adj"/></r></p></e>
-      <e><p><l>Bolìvia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Bolivia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bolìvia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bolivia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>bolivianu<s n="n"/></l><r>boliviano<s n="n"/></r></p></e>
       <e><p><l>bolivianu<s n="adj"/></l><r>boliviano<s n="adj"/></r></p></e>
-      <e><p><l>Bòrneo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Borneo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Botswana<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Botswana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bòrneo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Borneo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Botswana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Botswana<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>botswanesu<s n="n"/></l><r>botswanese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>botswanesu<s n="adj"/></l><r>botswanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Brasile<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Brasile<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Brasile<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Brasile<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>brasilianu<s n="n"/></l><r>brasiliano<s n="n"/></r></p></e>
       <e><p><l>brasilianu<s n="adj"/></l><r>brasiliano<s n="adj"/></r></p></e>
-      <e><p><l>Bretagna<b/>Manna<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Gran<b/>Bretagna<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bretagna<b/>Manna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gran<b/>Bretagna<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>britànnicu<s n="n"/></l><r>britannico<s n="n"/></r></p></e>
       <e><p><l>britànnicu<s n="adj"/></l><r>britannico<s n="adj"/></r></p></e>
-      <e><p><l>Brunei<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Brunei<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Brunei<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Brunei<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>bruneiesu<s n="n"/></l><r>bruneiese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>bruneiesu<s n="adj"/></l><r>bruneiese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Bulgaria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Bulgaria<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Bulgaria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bulgaria<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>bùlgaru<s n="n"/></l><r>bulgaro<s n="n"/></r></p></e>
       <e><p><l>bùlgaru<s n="adj"/></l><r>bulgaro<s n="adj"/></r></p></e>
-      <e><p><l>Burkina<b/>Faso<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Burkina<b/>Faso<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Burkina<b/>Faso<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Burkina<b/>Faso<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>burkinesu<s n="n"/></l><r>burkinese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>burkinesu<s n="adj"/></l><r>burkinese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Burundi<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Burundi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Burundi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Burundi<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>burundesu<s n="n"/></l><r>burundese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>burundesu<s n="adj"/></l><r>burundese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Cabu<b/>Birde<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Capo<b/>Verde<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Cabu<b/>Birde<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Capo<b/>Verde<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>cabubirdianu<s n="n"/></l><r>capoverdiano<s n="n"/></r></p></e>
       <e><p><l>cabubirdianu<s n="adj"/></l><r>capoverdiano<s n="adj"/></r></p></e>
-      <e><p><l>Caledònia<b/>Noa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Caledonia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Caledònia<b/>Noa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Caledonia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>neocaledonianu<s n="n"/></l><r>neocaledoniano<s n="n"/></r></p></e>
       <e><p><l>neocaledonianu<s n="adj"/></l><r>neocaledoniano<s n="adj"/></r></p></e>
-      <e><p><l>Camerùn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Camerun<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Camerùn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Camerun<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>camerunesu<s n="n"/></l><r>camerunese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>camerunesu<s n="adj"/></l><r>camerunese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Canadà<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Canada<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Canadà<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Canada<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>canadesu<s n="n"/></l><r>canadese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>canadesu<s n="adj"/></l><r>canadese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Cèlebes<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Sulawesi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ciàd<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Ciad<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Cèlebes<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sulawesi<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ciàd<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ciad<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ciadianu<s n="n"/></l><r>ciadiano<s n="n"/></r></p></e>
       <e><p><l>ciadianu<s n="adj"/></l><r>ciadiano<s n="adj"/></r></p></e>
-      <e><p><l>Colòmbia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Colombia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Colòmbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Colombia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>colombianu<s n="n"/></l><r>colombiano<s n="n"/></r></p></e>
       <e><p><l>colombianu<s n="adj"/></l><r>colombiano<s n="adj"/></r></p></e>
-      <e><p><l>Comoras<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Comore<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Comoras<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Comore<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>comorianu<s n="n"/></l><r>comoriano<s n="n"/></r></p></e>
       <e><p><l>comorianu<s n="adj"/></l><r>comoriano<s n="adj"/></r></p></e>
-      <e><p><l>Congo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Congo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Congo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Congo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>congolesu<s n="n"/></l><r>congolese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>congolesu<s n="adj"/></l><r>congolese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Corea<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Corea<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Corea<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corea<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>coreanu<s n="n"/></l><r>coreano<s n="n"/></r></p></e>
       <e><p><l>coreanu<s n="adj"/></l><r>coreano<s n="adj"/></r></p></e>
-      <e><p><l>Corea<b/>de<b/>su<b/>Nord<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Corea<b/>del<b/>Nord<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Corea<b/>de<b/>su<b/>Nord<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corea<b/>del<b/>Nord<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nordcoreanu<s n="n"/></l><r>nord-coreano<s n="n"/></r></p></e>
       <e><p><l>nordcoreanu<s n="adj"/></l><r>nord-coreano<s n="adj"/></r></p></e>
-      <e><p><l>Corea<b/>de<b/>su<b/>Sud<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Corea<b/>del<b/>Sud<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Corea<b/>de<b/>su<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Corea<b/>del<b/>Sud<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sudcoreanu<s n="n"/></l><r>sud-coreano<s n="n"/></r></p></e>
       <e><p><l>sudcoreanu<s n="adj"/></l><r>sud-coreano<s n="adj"/></r></p></e>
-      <e><p><l>Costa<b/>de<b/>Marfilu<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Costa<b/>d'Avorio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Costa<b/>de<b/>Marfilu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Costa<b/>d'Avorio<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ivorianu<s n="n"/></l><r>ivoriano<s n="n"/></r></p></e>
       <e><p><l>ivorianu<s n="adj"/></l><r>ivoriano<s n="adj"/></r></p></e>
-      <e><p><l>Costa<b/>Rica<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Costa<b/>Rica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Costa<b/>Rica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Costa<b/>Rica<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>costaricanu<s n="n"/></l><r>costaricano<s n="n"/></r></p></e>
       <e><p><l>costaricanu<s n="adj"/></l><r>costaricano<s n="adj"/></r></p></e>
-      <e><p><l>Cuba<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Cuba<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Cuba<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cuba<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>cubanu<s n="n"/></l><r>cubano<s n="n"/></r></p></e>
       <e><p><l>cubanu<s n="adj"/></l><r>cubano<s n="adj"/></r></p></e>
-      <e><p><l>Danimarca<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Danimarca<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Danimarca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Danimarca<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>danesu<s n="n"/></l><r>danese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>danesu<s n="adj"/></l><r>danese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Devon<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Devon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Dominica<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Dominica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Devon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Devon<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Dominica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Dominica<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>dominitzesu<s n="n"/></l><r>dominicense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>dominitzesu<s n="adj"/></l><r>dominicense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ecuadòr<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Ecuador<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ecuadòr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ecuador<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ecuadorianu<s n="n"/></l><r>equadoriano<s n="n"/></r></p></e>
       <e><p><l>ecuadorianu<s n="adj"/></l><r>equadoriano<s n="adj"/></r></p></e>
-      <e><p><l>Egitu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Egitto<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Egitu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Egitto<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>egitzianu<s n="n"/></l><r>egiziano<s n="n"/></r></p></e>
       <e><p><l>egitzianu<s n="adj"/></l><r>egiziano<s n="adj"/></r></p></e>
-      <e><p><l>Ellesmere<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Ellesmere<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>El<b/>Salvadòr<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>El<b/>Salvador<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ellesmere<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ellesmere<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>El<b/>Salvadòr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>El<b/>Salvador<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>salvadoregnu<s n="n"/></l><r>salvadoregno<s n="n"/></r></p></e>
       <e><p><l>salvadoregnu<s n="adj"/></l><r>salvadoregno<s n="adj"/></r></p></e>
-      <e><p><l>Eritrea<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Eritrea<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Eritrea<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Eritrea<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>eritreu<s n="n"/></l><r>eritreo<s n="n"/></r></p></e>
       <e><p><l>eritreu<s n="adj"/></l><r>eritreo<s n="adj"/></r></p></e>
-      <e><p><l>Estònia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Estonia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Estònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Estonia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>èstone<s n="n"/></l><r>estonia<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>èstone<s n="adj"/></l><r>estonia<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>Etiòpia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Etiopia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Etiòpia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Etiopia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>etiòpicu<s n="n"/></l><r>etiopia<s n="n"/></r></p></e>
       <e><p><l>etiòpicu<s n="adj"/></l><r>etiopia<s n="adj"/></r></p></e>
-      <e><p><l>Fer-Oer<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Fær<b/>Øer<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Fer-Oer<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Fær<b/>Øer<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>feroesu<s n="n"/></l><r>feroese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>feroesu<s n="adj"/></l><r>feroese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Figi<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Figi<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Figi<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Figi<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>figianu<s n="n"/></l><r>fijiano<s n="n"/></r></p></e>
       <e><p><l>figianu<s n="adj"/></l><r>fijiano<s n="adj"/></r></p></e>
-      <e><p><l>Filipinas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Filippine<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Filipinas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Filippine<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>filipinu<s n="n"/></l><r>filippino<s n="n"/></r></p></e>
       <e><p><l>filipinu<s n="adj"/></l><r>filippino<s n="adj"/></r></p></e>
-      <e><p><l>Finlàndia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Finlandia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Finlàndia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Finlandia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>finlandesu<s n="n"/></l><r>finlandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>finlandesu<s n="adj"/></l><r>finlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Frantza<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Francia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Frantza<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Francia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>frantzesu<s n="n"/></l><r>francese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>frantzesu<s n="adj"/></l><r>francese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Gabòn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Gabon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Gabòn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Gabon<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>gabonesu<s n="n"/></l><r>gabonese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>gabonesu<s n="adj"/></l><r>gabonese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Gàmbia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Gambia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Gàmbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Gambia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>gambianu<s n="n"/></l><r>gambiano<s n="n"/></r></p></e>
       <e><p><l>gambianu<s n="adj"/></l><r>gambiano<s n="adj"/></r></p></e>
-      <e><p><l>Geòrgia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Georgia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Geòrgia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Georgia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>georgianu<s n="n"/></l><r>georgiano<s n="n"/></r></p></e>
       <e><p><l>georgianu<s n="adj"/></l><r>georgiano<s n="adj"/></r></p></e>
-      <e><p><l>Germània<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Germania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Germània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Germania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tedescu<s n="n"/></l><r>tedesco<s n="n"/></r></p></e>
       <e><p><l>tedescu<s n="adj"/></l><r>tedesco<s n="adj"/></r></p></e>
-      <e><p><l>Ghana<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Ghana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ghana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Ghana<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ghanesu<s n="n"/></l><r>ghanese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ghanesu<s n="adj"/></l><r>ghanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ghinea<b/>Noa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Guinea<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ghinea<b/>Noa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Guinea<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>neo-guineanu<s n="n"/></l><r>neo-guineano<s n="n"/></r></p></e>
       <e><p><l>neo-guineanu<s n="adj"/></l><r>neo-guineano<s n="adj"/></r></p></e>
-      <e><p><l>Giamàica<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Giamaica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Giamàica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Giamaica<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>giamaicanu<s n="n"/></l><r>giamaicano<s n="n"/></r></p></e>
       <e><p><l>giamaicanu<s n="adj"/></l><r>giamaicano<s n="adj"/></r></p></e>
-      <e><p><l>Giapone<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Giappone<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Giapone<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Giappone<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>giaponesu<s n="n"/></l><r>giapponese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>giaponesu<s n="adj"/></l><r>giapponese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Giava<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Giava<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Giava<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Giava<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>giavanesu<s n="n"/></l><r>giavanese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>giavanesu<s n="adj"/></l><r>giavanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Gibuti<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Gibuti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Gibuti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Gibuti<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>gibutianu<s n="n"/></l><r>gibutiano<s n="n"/></r></p></e>
       <e><p><l>gibutianu<s n="adj"/></l><r>gibutiano<s n="adj"/></r></p></e>
-      <e><p><l>Giordània<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Giordania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Giordània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Giordania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>giordanu<s n="n"/></l><r>giordano<s n="n"/></r></p></e>
       <e><p><l>giordanu<s n="adj"/></l><r>giordano<s n="adj"/></r></p></e>
-      <e><p><l>Granada<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Grenada<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Granada<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grenada<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>grenadinu<s n="n"/></l><r>grenadino<s n="n"/></r></p></e>
       <e><p><l>grenadinu<s n="adj"/></l><r>grenadino<s n="adj"/></r></p></e>
-      <e><p><l>Grètzia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Grecia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Grètzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Grecia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>grecu<s n="n"/></l><r>greco<s n="n"/></r></p></e>
       <e><p><l>grecu<s n="adj"/></l><r>greco<s n="adj"/></r></p></e>
-      <e><p><l>Groenlàndia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Groenlandia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Groenlàndia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Groenlandia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>groenlandesu<s n="n"/></l><r>groenlandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>groenlandesu<s n="adj"/></l><r>groenlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Guadalupa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Guadalupa<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guadalupa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guadalupa<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guadalupesu<s n="n"/></l><r>guadalupense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>guadalupesu<s n="adj"/></l><r>guadalupense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Guajana<b/>Frantzesa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Guyana<b/>francese<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guajana<b/>Frantzesa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guyana<b/>francese<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guaianesu<s n="n"/></l><r>guaianese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>guaianesu<s n="adj"/></l><r>guaianese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Guàm<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Guam<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guàm<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Guam<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guamesu<s n="n"/></l><r>guamese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>guamesu<s n="adj"/></l><r>guamese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Guatemala<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Guatemala<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guatemala<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Guatemala<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guatemaltecu<s n="n"/></l><r>guatemalteco<s n="n"/></r></p></e>
       <e><p><l>guatemaltecu<s n="adj"/></l><r>guatemalteco<s n="adj"/></r></p></e>
-      <e><p><l>Guinea<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Guinea<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guinea<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guinea<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guineanu<s n="n"/></l><r>guineano<s n="n"/></r></p></e>
       <e><p><l>guineanu<s n="adj"/></l><r>guineano<s n="adj"/></r></p></e>
-      <e><p><l>Guinea<b/>Bissau<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Guinea<b/>Bissau<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guinea<b/>Bissau<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guinea<b/>Bissau<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guineesu<s n="n"/></l><r>guineense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>guineesu<s n="adj"/></l><r>guineense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Guinea<b/>Ecuatoriale<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Guinea<b/>Equatoriale<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Guinea<b/>Ecuatoriale<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guinea<b/>Equatoriale<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ecuatoguineanu<s n="n"/></l><r>ecuatoguineano<s n="n"/></r></p></e>
       <e><p><l>ecuatoguineanu<s n="adj"/></l><r>ecuatoguineano<s n="adj"/></r></p></e>
-      <e><p><l>Gujana<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Guyana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Gujana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Guyana<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guaianesu<s n="n"/></l><r>guaianese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>guaianesu<s n="adj"/></l><r>guaianese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Haiti<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Haiti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Haiti<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Haiti<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>haitianu<s n="n"/></l><r>haitiano<s n="n"/></r></p></e>
       <e><p><l>haitianu<s n="adj"/></l><r>haitiano<s n="adj"/></r></p></e>
-      <e><p><l>Honduras<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Honduras<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Honduras<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Honduras<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>honduregnu<s n="n"/></l><r>honduregno<s n="n"/></r></p></e>
       <e><p><l>honduregnu<s n="adj"/></l><r>honduregno<s n="adj"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Aleutinas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Aleutine<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Aleutinas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Aleutine<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>aleuta<s n="n"/></l><r>aleuto<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>aleuta<s n="adj"/></l><r>aleuto<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>Ìsulas<b/>Amirante<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Amirante<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Andamanas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Andamane<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Antìpodas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Antipodi<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Auckland<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Auckland<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Azorras<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Azzorre<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Bermudas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Bermuda<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Amirante<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Amirante<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Andamanas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Andamane<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Antìpodas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Antipodi<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Auckland<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Auckland<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Azorras<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Azzorre<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Bermudas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Bermuda<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>bermudianu<s n="n"/></l><r>bermudiano<s n="n"/></r></p></e>
       <e><p><l>bermudianu<s n="adj"/></l><r>bermudiano<s n="adj"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Bounty<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Bounty<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Campbell<b/>Lord<b/>Hove<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Ilsole<b/>Campbell<b/>Lord<b/>Hove<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Canàrias<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Canarie<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Bounty<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Bounty<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Campbell<b/>Lord<b/>Hove<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Ilsole<b/>Campbell<b/>Lord<b/>Hove<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Canàrias<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Canarie<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>canarinu<s n="n"/></l><r>canarino<s n="n"/></r></p></e>
       <e><p><l>canarinu<s n="adj"/></l><r>canarino<s n="adj"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Chagos<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Chagos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Chathan<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Chatham<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Chritmas<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Natale<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>Clìpperton<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Clipperton<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Cocos<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Cocos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Ascensione<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Ascensione<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Bouvet<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Bouvet<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Chiloè<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Chiloé<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>Crozet<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Crozet<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Diego<b/>Garcìa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Diego<b/>Garcia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>Fernado<b/>de<b/>Noronha<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Fernando<b/>Noronha<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Gough<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Gough<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>Juan<b/>Fernàndez<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Juan<b/>Fernández<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>Madèira<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Madera<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>Martìn<b/>Vaz<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Trindade<b/>e<b/>Martim<b/>Vaz<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Nova<b/>Amsterdam<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Saint<b/>Paul<b/>e<b/>Nuova<b/>Amsterdam<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Parry<b/>Bathrust<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Bathurst<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Pasca<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Pasqua<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Pitcairn<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>de<b/>Pitcairn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Sala<b/>e<b/>Gòmez<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Sala<b/>e<b/>Gòmez<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>San<b/>Ambrosio<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Sant'<b/>Ambrogio<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>San<b/>Fèlix<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>San<b/>Félix<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>San<b/>Pablo<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Saint-Paul<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Santa<b/>Elene<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Sant'Elena<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>sa<b/>Riunione<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>della<b/>Riunione<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>sa<b/>Sotziedade<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>della<b/>Società<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>sa<b/>Trinidade<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Trinità<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>Socotra<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Socotra<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsula<b/>de<b/>su<b/>Prìntzipe<b/>de<b/>Galles<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>del<b/>Principe<b/>del<b/>Galles<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>su<b/>Prìntzipe<b/>Eduardu<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>del<b/>Principe<b/>Edoardo<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>Tristan<b/>da<b/>Cunha<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Tristan<b/>da<b/>Cunha<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>de<b/>Tuamotù<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Tuamotu<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Farquhar<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Farquhar<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Galàpagos<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Galápagos<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Guadalupa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Guadalupa<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Chagos<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Chagos<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Chathan<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Chatham<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Chritmas<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Natale<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>Clìpperton<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Clipperton<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Cocos<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Cocos<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Ascensione<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Ascensione<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Bouvet<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Bouvet<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Chiloè<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Chiloé<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>Crozet<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Crozet<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Diego<b/>Garcìa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Diego<b/>Garcia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>Fernado<b/>de<b/>Noronha<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Fernando<b/>Noronha<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Gough<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Gough<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>Juan<b/>Fernàndez<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Juan<b/>Fernández<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>Madèira<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Madera<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>Martìn<b/>Vaz<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Trindade<b/>e<b/>Martim<b/>Vaz<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Nova<b/>Amsterdam<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Saint<b/>Paul<b/>e<b/>Nuova<b/>Amsterdam<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Parry<b/>Bathrust<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Bathurst<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Pasca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Pasqua<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Pitcairn<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>de<b/>Pitcairn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Sala<b/>e<b/>Gòmez<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Sala<b/>e<b/>Gòmez<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>San<b/>Ambrosio<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Sant'<b/>Ambrogio<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>San<b/>Fèlix<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>San<b/>Félix<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>San<b/>Pablo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Saint-Paul<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Santa<b/>Elene<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Sant'Elena<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>sa<b/>Riunione<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>della<b/>Riunione<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>sa<b/>Sotziedade<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>della<b/>Società<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>sa<b/>Trinidade<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Trinità<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>Socotra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Socotra<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>de<b/>su<b/>Prìntzipe<b/>de<b/>Galles<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>del<b/>Principe<b/>del<b/>Galles<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>su<b/>Prìntzipe<b/>Eduardu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>del<b/>Principe<b/>Edoardo<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>Tristan<b/>da<b/>Cunha<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Tristan<b/>da<b/>Cunha<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>de<b/>Tuamotù<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Tuamotu<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Farquhar<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>di<b/>Farquhar<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Galàpagos<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Galápagos<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Guadalupa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Guadalupa<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>guadalupesu<s n="n"/></l><r>guadalupense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>guadalupesu<s n="adj"/></l><r>guadalupense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ìsulas<b/>Hawai<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Hawai<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Hawai<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Hawai<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>hawaianu<s n="n"/></l><r>hawaiano<s n="n"/></r></p></e>
       <e><p><l>hawaianu<s n="adj"/></l><r>hawaiano<s n="adj"/></r></p></e>
-      <e><p><l>Ìsula<b/>Heard<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Heard<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Kerguelen<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Kerguelen<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Komandorskije<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>del<b/>Commodoro<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Kurilis<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Matua<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Lacadivas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Laccadive<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Macquari<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Macquarie<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Malvinas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Malvine<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Marchesas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Marchesi<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Mariannas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Marianne<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Heard<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Heard<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Kerguelen<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Kerguelen<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Komandorskije<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>del<b/>Commodoro<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Kurilis<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Matua<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Lacadivas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Laccadive<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Macquari<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Macquarie<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Malvinas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Malvine<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Marchesas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Marchesi<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Mariannas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Marianne<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>mariannensu<s n="n"/></l><r>mariannense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>mariannensu<s n="adj"/></l><r>mariannense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ìsula<b/>Marion<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Marion<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Marshall<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Marshall<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Marion<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Marion<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Marshall<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Marshall<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>marshallesu<s n="n"/></l><r>marshallese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>marshallesu<s n="adj"/></l><r>marshallese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ìsula<b/>Mayotte<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isola<b/>Mayotte<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìndia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>India<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsula<b/>Mayotte<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isola<b/>Mayotte<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìndia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>India<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>indianu<s n="n"/></l><r>indiano<s n="n"/></r></p></e>
       <e><p><l>indianu<s n="adj"/></l><r>indiano<s n="adj"/></r></p></e>
-      <e><p><l>Indonèsia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Indonesia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Indonèsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Indonesia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>indonesianu<s n="n"/></l><r>indonesiano<s n="n"/></r></p></e>
       <e><p><l>indonesianu<s n="adj"/></l><r>indonesiano<s n="adj"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Nikobar<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Nicobare<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Ogasawara<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Ogasawara<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Palau<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Palau<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Nikobar<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Nicobare<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Ogasawara<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Ogasawara<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Palau<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Palau<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>palauanu<s n="n"/></l><r>palauano<s n="n"/></r></p></e>
       <e r="LR"><p><l>palaulanu<s n="n"/></l><r>palauano<s n="n"/></r></p></e>
       <e><p><l>palauanu<s n="adj"/></l><r>palauano<s n="adj"/></r></p></e>
       <e r="LR"><p><l>palaulanu<s n="adj"/></l><r>palauano<s n="adj"/></r></p></e>
-      <e><p><l>Iran<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Iran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Iran<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Iran<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>iranianu<s n="n"/></l><r>iraniano<s n="n"/></r></p></e>
       <e><p><l>iranianu<s n="adj"/></l><r>iraniano<s n="adj"/></r></p></e>
-      <e><p><l>Iraq<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Iraq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Iraq<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Iraq<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>irachenu<s n="n"/></l><r>iracheno<s n="n"/></r></p></e>
       <e><p><l>irachenu<s n="adj"/></l><r>iracheno<s n="adj"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Revillagigedo<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Revillagigedo<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Irlanda<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Irlanda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Revillagigedo<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Revillagigedo<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Irlanda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Irlanda<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>irlandesu<s n="n"/></l><r>irlandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>irlandesu<s n="adj"/></l><r>irlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ìsulas<b/>Ryukyu<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Ryukyu<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>San<b/>Lorenzo<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>San<b/>Lorenzo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Shetland<b/>de<b/>su<b/>Sud<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Shetland<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Ìsula<b/>Grande<b/>de<b/>Tierra<b/>del<b/>Fuego<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Grande<b/>della<b/>Terra<b/>del<b/>Fuoco<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Islanda<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Islanda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Ryukyu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Ryukyu<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>San<b/>Lorenzo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>San<b/>Lorenzo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Shetland<b/>de<b/>su<b/>Sud<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Shetland<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Grande<b/>de<b/>Tierra<b/>del<b/>Fuego<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Grande<b/>della<b/>Terra<b/>del<b/>Fuoco<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Islanda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Islanda<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>islandesu<s n="n"/></l><r>islandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>islandesu<s n="adj"/></l><r>islandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ispagna<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Spagna<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ispagna<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Spagna<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ispagnolu<s n="n"/></l><r>spagnolo<s n="n"/></r></p></e>
       <e><p><l>ispagnolu<s n="adj"/></l><r>spagnolo<s n="adj"/></r></p></e>
-      <e><p><l>Israele<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Israele<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Israele<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Israele<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>israelianu<s n="n"/></l><r>israeliano<s n="n"/></r></p></e>
       <e><p><l>israelianu<s n="adj"/></l><r>israeliano<s n="adj"/></r></p></e>
-      <e><p><l>Istados<b/>Federados<b/>de<b/>Micronèsia<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></l><r>Stati<b/>Federati<b/>di<b/>Micronesia<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Istados<b/>Federados<b/>de<b/>Micronèsia<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Stati<b/>Federati<b/>di<b/>Micronesia<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>micronesianu<s n="n"/></l><r>micronesiano<s n="n"/></r></p></e>
       <e><p><l>micronesianu<s n="adj"/></l><r>micronesiano<s n="adj"/></r></p></e>
-      <e><p><l>Istados<b/>Unidos<b/>de<b/>Amèrica<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></l><r>Stati<b/>Uniti<b/>d'America<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Isvètzia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Svezia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Istados<b/>Unidos<b/>de<b/>Amèrica<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Stati<b/>Uniti<b/>d'America<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Isvètzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Svezia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>isvedesu<s n="n"/></l><r>svedese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>isvedesu<s n="adj"/></l><r>svedese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Isvìtzera<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Svizzera<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Isvìtzera<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Svizzera<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>isvìtzeru<s n="n"/></l><r>svizzero<s n="n"/></r></p></e>
       <e><p><l>isvìtzeru<s n="adj"/></l><r>svizzero<s n="adj"/></r></p></e>
-      <e><p><l>Itàlia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Italia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Itàlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Italia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>italianu<s n="n"/></l><r>italiano<s n="n"/></r></p></e>
       <e><p><l>italianu<s n="adj"/></l><r>italiano<s n="adj"/></r></p></e>
-      <e><p><l>Ìsula<b/>Tubuai<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Tubuai<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Ìsulas<b/>Vìrghines<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Vergini<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Ìsula<b/>Tubuai<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>Tubuai<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ìsulas<b/>Vìrghines<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Isole<b/>Vergini<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>verginianu<s n="n"/></l><r>verginiano<s n="n"/></r></p></e>
       <e><p><l>verginianu<s n="adj"/></l><r>verginiano<s n="adj"/></r></p></e>
-      <e><p><l>Jan<b/>Mayen<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Jan<b/>Mayen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Jemen<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Yemen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Jan<b/>Mayen<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Jan<b/>Mayen<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Jemen<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Yemen<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>jemenita<s n="n"/></l><r>yemenita<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>jemenita<s n="adj"/></l><r>yemenita<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>Kazakhstàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Kazakistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Kazakhstàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kazakistan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>kazaku<s n="n"/></l><r>kazaco<s n="n"/></r></p></e>
       <e><p><l>kazaku<s n="adj"/></l><r>kazaco<s n="adj"/></r></p></e>
-      <e><p><l>Kènia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Kenya<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Kènia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kenya<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>keniota<s n="n"/></l><r>keniota<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>keniota<s n="adj"/></l><r>keniota<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>Kirghisistàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Kirghizistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Kirghisistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kirghizistan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>chirghisu<s n="n"/></l><r>chirghiso<s n="n"/></r></p></e>
       <e><p><l>chirghisu<s n="adj"/></l><r>chirghiso<s n="adj"/></r></p></e>
-      <e><p><l>Kiribati<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Kiribati<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Kiribati<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Kiribati<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>gilbertesu<s n="n"/></l><r>gilbertese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>gilbertesu<s n="adj"/></l><r>gilbertese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Kuwait<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Kuwait<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Kuwait<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Kuwait<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>kuwaitianu<s n="n"/></l><r>kuwaitiano<s n="n"/></r></p></e>
       <e><p><l>kuwaitianu<s n="adj"/></l><r>kuwaitiano<s n="adj"/></r></p></e>
-      <e><p><l>Laos<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Laos<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Lesotho<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Lesotho<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Laos<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Laos<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Lesotho<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Lesotho<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>lesothianu<s n="n"/></l><r>lesothiano<s n="n"/></r></p></e>
       <e><p><l>lesothianu<s n="adj"/></l><r>lesothiano<s n="adj"/></r></p></e>
-      <e><p><l>Letònia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Lettonia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Letònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lettonia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>lètone<s n="n"/><s n="mf"/></l><r>lettone<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>lètone<s n="adj"/><s n="mf"/></l><r>lettone<s n="adj"/><s n="mf"/></r></p></e>
-      <e><p><l>Lìbanu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Libano<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Lìbanu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Libano<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>libanesu<s n="n"/></l><r>libanese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>libanesu<s n="adj"/></l><r>libanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Libèria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Liberia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Libèria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Liberia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>liberianu<s n="n"/></l><r>liberiano<s n="n"/></r></p></e>
       <e><p><l>liberianu<s n="adj"/></l><r>liberiano<s n="adj"/></r></p></e>
-      <e><p><l>Lìbia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Libia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Lìbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Libia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>lìbicu<s n="n"/></l><r>libico<s n="n"/></r></p></e>
       <e><p><l>lìbicu<s n="adj"/></l><r>libico<s n="adj"/></r></p></e>
-      <e><p><l>Lituània<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Lituania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Lituània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lituania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>lituanu<s n="n"/></l><r>lituano<s n="n"/></r></p></e>
       <e><p><l>lituanu<s n="adj"/></l><r>lituano<s n="adj"/></r></p></e>
-      <e><p><l>Luzon<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Luzon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Luzon<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Luzon<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>luzonianu<s n="n"/></l><r>luzoniano<s n="n"/></r></p></e>
       <e><p><l>luzonianu<s n="adj"/></l><r>luzoniano<s n="adj"/></r></p></e>
-      <e><p><l>Madagascàr<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Madagascar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Madagascàr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Madagascar<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>malgàsciu<s n="n"/></l><r>malgascio<s n="n"/></r></p></e>
       <e><p><l>malgàsciu<s n="adj"/></l><r>malgascio<s n="adj"/></r></p></e>
-      <e><p><l>Malaìsia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Malesia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Malaìsia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Malesia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>malesu<s n="n"/></l><r>malese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>malesu<s n="adj"/></l><r>malese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Malawi<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Malawi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Malawi<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Malawi<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>malawianu<s n="n"/></l><r>malawiano<s n="n"/></r></p></e>
       <e><p><l>malawianu<s n="adj"/></l><r>malawiano<s n="adj"/></r></p></e>
-      <e><p><l>Maldivas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Maldive<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Maldivas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Maldive<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>maldivianu<s n="n"/></l><r>maldiviano<s n="n"/></r></p></e>
       <e><p><l>maldivianu<s n="adj"/></l><r>maldiviano<s n="adj"/></r></p></e>
-      <e><p><l>Malì<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Mali<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Malì<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mali<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>malianu<s n="n"/></l><r>maliano<s n="n"/></r></p></e>
       <e><p><l>malianu<s n="adj"/></l><r>maliano<s n="adj"/></r></p></e>
-      <e><p><l>Malpelo<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Malpelo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Malta<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Malta<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Malpelo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Malpelo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Malta<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Malta<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>maltesu<s n="n"/></l><r>maltese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>maltesu<s n="adj"/></l><r>maltese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Mare<b/>de<b/>Beaufort<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Mare<b/>di<b/>Beaufort<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Marrocu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Marocco<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mare<b/>de<b/>Beaufort<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mare<b/>di<b/>Beaufort<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Marrocu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Marocco<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>marrochinu<s n="n"/></l><r>marocchino<s n="n"/></r></p></e>
       <e><p><l>marrochinu<s n="adj"/></l><r>marocchino<s n="adj"/></r></p></e>
-      <e><p><l>Mauritània<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Mauritania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mauritània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mauritania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>maurreddinu<s n="n"/></l><r>mauritano<s n="n"/></r></p></e>
       <e><p><l>maurreddinu<s n="adj"/></l><r>mauritano<s n="adj"/></r></p></e>
-      <e><p><l>Maurìtziu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Mauritius<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Maurìtziu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mauritius<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>mauritzianu<s n="n"/></l><r>mauriziano<s n="n"/></r></p></e>
       <e><p><l>mauritzianu<s n="adj"/></l><r>mauriziano<s n="adj"/></r></p></e>
-      <e><p><l>Melville<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Melville<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Mèssicu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Messico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Melville<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Melville<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mèssicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Messico<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>messicanu<s n="n"/></l><r>messicano<s n="n"/></r></p></e>
       <e><p><l>messicanu<s n="adj"/></l><r>messicano<s n="adj"/></r></p></e>
-      <e><p><l>Mindanao<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Mindanao<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Mongòlia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Mongolia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mindanao<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mindanao<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mongòlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mongolia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>mòngolu<s n="n"/></l><r>mongolo<s n="n"/></r></p></e>
       <e><p><l>mòngolu<s n="adj"/></l><r>mongolo<s n="adj"/></r></p></e>
-      <e><p><l>Mozambicu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Mozambico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Mozambicu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Mozambico<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>mozambiganu<s n="n"/></l><r>mozambicano<s n="n"/></r></p></e>
       <e><p><l>mozambiganu<s n="adj"/></l><r>mozambicano<s n="adj"/></r></p></e>
-      <e><p><l>Myanmàr<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Myanmar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Myanmàr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Myanmar<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>birmanu<s n="n"/></l><r>birmano<s n="n"/></r></p></e>
       <e><p><l>birmanu<s n="adj"/></l><r>birmano<s n="adj"/></r></p></e>
-      <e><p><l>Birmània<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Birmania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Birmània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Birmania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>birmanu<s n="n"/></l><r>birmano<s n="n"/></r></p></e>
       <e><p><l>birmanu<s n="adj"/></l><r>birmano<s n="adj"/></r></p></e>
-      <e><p><l>Namìbia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Namibia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Namìbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Namibia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>namibianu<s n="n"/></l><r>namibiano<s n="n"/></r></p></e>
       <e><p><l>namibianu<s n="adj"/></l><r>namibiano<s n="adj"/></r></p></e>
-      <e><p><l>Nauru<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Nauru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Nauru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nauru<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nauruanu<s n="n"/></l><r>naruano<s n="n"/></r></p></e>
       <e><p><l>nauruanu<s n="adj"/></l><r>naruano<s n="adj"/></r></p></e>
-      <e><p><l>Nepàl<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Nepal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Nepàl<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nepal<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nepalesu<s n="n"/></l><r>nepalese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>nepalesu<s n="adj"/></l><r>nepalese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Nicaràgua<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Nicaragua<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Nicaràgua<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Nicaragua<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nicaraguesu<s n="n"/></l><r>nicaraguense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>nicaraguesu<s n="adj"/></l><r>nicaraguense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Niger<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Niger<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Niger<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Niger<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nigerinu<s n="n"/></l><r>nigerino<s n="n"/></r></p></e>
       <e><p><l>nigerinu<s n="adj"/></l><r>nigerino<s n="adj"/></r></p></e>
-      <e><p><l>Nigèria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Nigeria<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Nigèria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nigeria<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>nigerianu<s n="n"/></l><r>nigeriano<s n="n"/></r></p></e>
       <e><p><l>nigerianu<s n="adj"/></l><r>nigeriano<s n="adj"/></r></p></e>
-      <e><p><l>Norfolk<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Norfolk<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Norfolk<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Norfolk<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>norfolkesu<s n="n"/></l><r>norfolkese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>norfolkesu<s n="adj"/></l><r>norfolkese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Norvègia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Norvegia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Norvègia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Norvegia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>norvegesu<s n="n"/></l><r>norvegese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>norvegesu<s n="adj"/></l><r>norvegese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Omàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Oman<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Omàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Oman<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>omanesu<s n="n"/></l><r>omanita<s n="n"/></r></p></e>
       <e><p><l>omanesu<s n="adj"/></l><r>omanita<s n="adj"/></r></p></e>
-      <e><p><l>Otzèanu<b/>Atlànticu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Atlantico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Otzèanu<b/>Atlànticu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Atlantico<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>atlànticu<s n="n"/></l><r>atlantico<s n="n"/></r></p></e>
       <e><p><l>atlànticu<s n="adj"/></l><r>atlantico<s n="adj"/></r></p></e>
-      <e><p><l>Otzèanu<b/>Glatziale<b/>Àrticu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Glaciale<b/>Artico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Otzèanu<b/>Indianu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Indiano<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Otzèanu<b/>Patzìficu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Pacifico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Pakistàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Pakistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Otzèanu<b/>Glatziale<b/>Àrticu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Glaciale<b/>Artico<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Otzèanu<b/>Indianu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Indiano<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Otzèanu<b/>Patzìficu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Oceano<b/>Pacifico<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Pakistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Pakistan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>pakistanu<s n="n"/></l><r>pakistano<s n="n"/></r></p></e>
       <e><p><l>pakistanu<s n="adj"/></l><r>pakistano<s n="adj"/></r></p></e>
-      <e><p><l>Panamà<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Panama<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Panamà<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Panama<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>panamesu<s n="n"/></l><r>panamense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>panamesu<s n="adj"/></l><r>panamense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Pàpua<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Papua<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Pàpua<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Papua<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>papuanu<s n="n"/></l><r>papuano<s n="n"/></r></p></e>
       <e><p><l>papuanu<s n="adj"/></l><r>papuano<s n="adj"/></r></p></e>
-      <e><p><l>Paraguai<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Paraguay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Paraguai<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Paraguay<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>paraguaianu<s n="n"/></l><r>paraguaiano<s n="n"/></r></p></e>
       <e><p><l>paraguaianu<s n="adj"/></l><r>paraguaiano<s n="adj"/></r></p></e>
-      <e><p><l>Perù<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Perù<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Perù<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Perù<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>peruvianu<s n="n"/></l><r>peruviano<s n="n"/></r></p></e>
       <e><p><l>peruvianu<s n="adj"/></l><r>peruviano<s n="adj"/></r></p></e>
-      <e><p><l>Polònia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Polonia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Polònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Polonia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>polacu<s n="n"/></l><r>polacco<s n="n"/></r></p></e>
       <e><p><l>polacu<s n="adj"/></l><r>polacco<s n="adj"/></r></p></e>
-      <e><p><l>Portugallu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Portogallo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Portugallu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Portogallo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>portoghesu<s n="n"/></l><r>portoghese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>portoghesu<s n="adj"/></l><r>portoghese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Portu<b/>Ricu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Puerto<b/>Rico<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Portu<b/>Ricu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Puerto<b/>Rico<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>portoricanu<s n="n"/></l><r>puertoricano<s n="n"/></r></p></e>
       <e><p><l>portoricanu<s n="adj"/></l><r>puertoricano<s n="adj"/></r></p></e>
-      <e><p><l>Qatàr<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Qatar<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Repùblica<b/>Dominicana<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Republica<b/>Dominicana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Qatàr<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Qatar<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Repùblica<b/>Dominicana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Republica<b/>Dominicana<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>dominicanu<s n="n"/></l><r>dominicano<s n="n"/></r></p></e>
       <e><p><l>dominicanu<s n="adj"/></l><r>dominicano<s n="adj"/></r></p></e>
-      <e><p><l>Repùblica<b/>Democràtica<b/>de<b/>Congo<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>Democratica<b/>del<b/>Congo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Repùblica<b/>Democràtica<b/>de<b/>Congo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>Democratica<b/>del<b/>Congo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>congolesu<s n="n"/></l><r>congolese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>congolesu<s n="adj"/></l><r>congolese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Repùblica<b/>de<b/>Sudàfrica<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>del<b/>Sudafrica<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Repùblica<b/>de<b/>Sudàfrica<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>del<b/>Sudafrica<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sudafricanu<s n="n"/></l><r>sudafricano<s n="n"/></r></p></e>
       <e><p><l>sudafricanu<s n="adj"/></l><r>sudafricano<s n="adj"/></r></p></e>
-      <e><p><l>Repùblica<b/>Tzentrafricana<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>Centrafricana<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Repùblica<b/>Tzentrafricana<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>Centrafricana<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>centrafricanu<s n="n"/></l><r>centrafricano<s n="n"/></r></p></e>
       <e><p><l>centrafricanu<s n="adj"/></l><r>centrafricano<s n="adj"/></r></p></e>
-      <e><p><l>Romania<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Romania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Romania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Romania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>rumenu<s n="n"/></l><r>rumeno<s n="n"/></r></p></e>
       <e><p><l>rumenu<s n="adj"/></l><r>rumeno<s n="adj"/></r></p></e>
-      <e><p><l>Ruanda<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Ruanda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ruanda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ruanda<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ruandesu<s n="n"/></l><r>ruandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ruandesu<s n="adj"/></l><r>ruandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Rùssia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Russia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Rùssia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Russia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>russu<s n="n"/></l><r>russo<s n="n"/></r></p></e>
       <e><p><l>russu<s n="adj"/></l><r>russo<s n="adj"/></r></p></e>
-      <e><p><l>Sàhara<b/>Otzidentale<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Sahara<b/>Occidentale<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sàhara<b/>Otzidentale<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sahara<b/>Occidentale<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>saharianu<s n="n"/></l><r>sahariano<s n="n"/></r></p></e>
       <e><p><l>saharianu<s n="adj"/></l><r>sahariano<s n="adj"/></r></p></e>
-      <e><p><l>Salomonas<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Salomone<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Salomonas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Salomone<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>salomonesu<s n="n"/></l><r>salomonese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>salomonesu<s n="adj"/></l><r>salomonese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Santa<b/>Lughia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Santa<b/>Lucia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Santa<b/>Lughia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Santa<b/>Lucia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>santalucianu<s n="n"/></l><r>santaluciano<s n="n"/></r></p></e>
       <e><p><l>santalucianu<s n="adj"/></l><r>santaluciano<s n="adj"/></r></p></e>
-      <e><p><l>Santu<b/>Tomeu<b/>e<b/>Prìntzipe<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>São<b/>Tomé<b/>e<b/>Príncipe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Santu<b/>Tomeu<b/>e<b/>Prìntzipe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>São<b/>Tomé<b/>e<b/>Príncipe<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>saotomesu<s n="n"/></l><r>saotomense<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>saotomesu<s n="adj"/></l><r>saotomense<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Santu<b/>Vissente<b/>e<b/>Grandinas<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Saint<b/>Vincent<b/>e<b/>Grenadine<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Santu<b/>Vissente<b/>e<b/>Grandinas<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Saint<b/>Vincent<b/>e<b/>Grenadine<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sanvissentinu<s n="n"/></l><r>sanvincentino<s n="n"/></r></p></e>
       <e><p><l>sanvissentinu<s n="adj"/></l><r>sanvincentino<s n="adj"/></r></p></e>
-      <e><p><l>Senegàl<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Senegal<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Senegàl<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Senegal<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>senegalesu<s n="n"/></l><r>senegalese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>senegalesu<s n="adj"/></l><r>senegalese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Sèrbia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Serbia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sèrbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Serbia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>serbu<s n="n"/></l><r>serbo<s n="n"/></r></p></e>
       <e><p><l>serbu<s n="adj"/></l><r>serbo<s n="adj"/></r></p></e>
-      <e><p><l>Seychelles<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Seychelles<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Seychelles<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Seychelles<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>seychellesu<s n="n"/></l><r>seychellese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>seychellesu<s n="adj"/></l><r>seychellese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Sibèria<b/>Noa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Siberia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sibèria<b/>Noa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Siberia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>neo-siberianu<s n="n"/></l><r>neo-siberiano<s n="n"/></r></p></e>
       <e><p><l>neo-siberianu<s n="adj"/></l><r>neo-siberiano<s n="adj"/></r></p></e>
-      <e><p><l>Sierra<b/>Leone<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Sierra<b/>Leone<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sierra<b/>Leone<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sierra<b/>Leone<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sierraleonesu<s n="n"/></l><r>sierraleonese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>sierraleonesu<s n="adj"/></l><r>sierraleonese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Singapore<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Singapore<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Singapore<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Singapore<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>singaporianu<s n="n"/></l><r>singaporiano<s n="n"/></r></p></e>
       <e><p><l>singaporianu<s n="adj"/></l><r>singaporiano<s n="adj"/></r></p></e>
-      <e><p><l>Sìria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Siria<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sìria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Siria<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sirianu<s n="n"/></l><r>siriano<s n="n"/></r></p></e>
       <e><p><l>sirianu<s n="adj"/></l><r>siriano<s n="adj"/></r></p></e>
-      <e><p><l>Somàlia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Somalia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Somàlia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Somalia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sòmalu<s n="n"/></l><r>somalo<s n="n"/></r></p></e>
       <e><p><l>sòmalu<s n="adj"/></l><r>somalo<s n="adj"/></r></p></e>
-      <e><p><l>Somerset<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Somerset<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Southampton<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Southampton<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Sri<b/>Lanka<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>St-Pierre-et-Miquelon<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Saint-Pierre<b/>e<b/>Miquelon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Sudàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Sudan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Somerset<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Somerset<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Southampton<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Southampton<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sri<b/>Lanka<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sri<b/>Lanka<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>St-Pierre-et-Miquelon<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Saint-Pierre<b/>e<b/>Miquelon<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sudàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Sudan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>sudanesu<s n="n"/></l><r>sudanese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>sudanesu<s n="adj"/></l><r>sudanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Sumatra<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Sumatra<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Suriname<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Suriname<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Sumatra<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Sumatra<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Suriname<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Suriname<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>surinamesu<s n="n"/></l><r>surinamese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>surinamesu<s n="adj"/></l><r>surinamese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Swazilàndia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Swaziland<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Swazilàndia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Swaziland<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>swazilandesu<s n="n"/></l><r>swazilandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>swazilandesu<s n="adj"/></l><r>swazilandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Tagikistàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Tagikistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Tailàndia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Tailandia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tagikistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tagikistan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tailàndia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tailandia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tailandesu<s n="n"/></l><r>tailandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>tailandesu<s n="adj"/></l><r>tailandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Taiwàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Taiwan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Taiwàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Taiwan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>taiwanesu<s n="n"/></l><r>taiwanese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>taiwanesu<s n="adj"/></l><r>taiwanese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Tanzània<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Tanzania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tanzània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tanzania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tanzanianu<s n="n"/></l><r>tanzaniano<s n="n"/></r></p></e>
       <e><p><l>tanzanianu<s n="adj"/></l><r>tanzaniano<s n="adj"/></r></p></e>
-      <e><p><l>Tasmània<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Tasmania<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tasmània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tasmania<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tasmanianu<s n="n"/></l><r>tasmaniano<s n="n"/></r></p></e>
       <e><p><l>tasmanianu<s n="adj"/></l><r>tasmaniano<s n="adj"/></r></p></e>
-      <e><p><l>Terra<b/>de<b/>Baffin<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Baffin<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Terranova<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Terranova<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Timor<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Timor<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Terra<b/>de<b/>Baffin<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Baffin<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Terranova<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Terranova<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Timor<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Timor<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>timoresu<s n="n"/></l><r>timorese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>timoresu<s n="adj"/></l><r>timorese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Togo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Togo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Togo<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Togo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>togolesu<s n="n"/></l><r>togolese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>togolesu<s n="adj"/></l><r>togolese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Trinidade<b/>e<b/>Tobago<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Trinidad<b/>e<b/>Tobago<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Tunisia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Tunisia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Trinidade<b/>e<b/>Tobago<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Trinidad<b/>e<b/>Tobago<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tunisia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tunisia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tunisinu<s n="n"/></l><r>tunisino<s n="n"/></r></p></e>
       <e><p><l>tunisinu<s n="adj"/></l><r>tunisino<s n="adj"/></r></p></e>
-      <e><p><l>Turchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Turchia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Turchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Turchia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>turcu<s n="n"/></l><r>turco<s n="n"/></r></p></e>
       <e><p><l>turcu<s n="adj"/></l><r>turco<s n="adj"/></r></p></e>
-      <e><p><l>Turkmenistàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Turkmenistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Turkmenistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Turkmenistan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>turcmanu<s n="n"/></l><r>turcamano<s n="n"/></r></p></e>
       <e><p><l>turcmanu<s n="adj"/></l><r>turcamano<s n="adj"/></r></p></e>
-      <e><p><l>Tuvalu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Tuvalu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tuvalu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Tuvalu<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tuvalianu<s n="n"/></l><r>tuvaliano<s n="n"/></r></p></e>
       <e><p><l>tuvalianu<s n="adj"/></l><r>tuvaliano<s n="adj"/></r></p></e>
-      <e><p><l>Tzèchia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>Ceca<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tzèchia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Repubblica<b/>Ceca<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tzecu<s n="n"/></l><r>ceco<s n="n"/></r></p></e>
       <e><p><l>tzecu<s n="adj"/></l><r>ceco<s n="adj"/></r></p></e>
-      <e><p><l>Tzile<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Cile<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tzile<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cile<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tzilenu<s n="n"/></l><r>cileno<s n="n"/></r></p></e>
       <e><p><l>tzilenu<s n="adj"/></l><r>cileno<s n="adj"/></r></p></e>
-      <e><p><l>Tzina<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Cina<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tzina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cina<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tzinesu<s n="n"/></l><r>cinese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>tzinesu<s n="adj"/></l><r>cinese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Tzipru<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Cipro<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Tzipru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Cipro<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>tzipriota<s n="n"/></l><r>cipriota<s n="n"/></r></p><par n="mf_GD"/></e>
       <e><p><l>tzipriota<s n="adj"/></l><r>cipriota<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>Ucràina<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Ucraina<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ucràina<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ucraina<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ucràinu<s n="n"/></l><r>ucraino<s n="n"/></r></p></e>
       <e><p><l>ucràinu<s n="adj"/></l><r>ucraino<s n="adj"/></r></p></e>
-      <e><p><l>U.e.a.<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></l><r>E.a.u.<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>Uganda<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Uganda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>U.e.a.<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>E.a.u.<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Uganda<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Uganda<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ugandesu<s n="n"/></l><r>ugandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ugandesu<s n="adj"/></l><r>ugandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Ungheria<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Ungheria<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Ungheria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Ungheria<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>ungheresu<s n="n"/></l><r>ungherese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>ungheresu<s n="adj"/></l><r>ungherese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Uruguai<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Uruguay<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Uruguai<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Uruguay<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>uruguaianu<s n="n"/></l><r>uruguaiano<s n="n"/></r></p></e>
       <e><p><l>uruguaianu<s n="adj"/></l><r>uruguaiano<s n="adj"/></r></p></e>
-      <e><p><l>Uzbekistàn<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Uzbekistan<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Uzbekistàn<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Uzbekistan<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>uzbecu<s n="n"/></l><r>uzbeco<s n="n"/></r></p></e>
       <e><p><l>uzbecu<s n="adj"/></l><r>uzbeco<s n="adj"/></r></p></e>
-      <e><p><l>Vanuatu<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></l><r>Vanuatu<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>Vanuatu<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Vanuatu<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l>vanuatecu<s n="n"/></l><r>vanuateco<s n="n"/></r></p></e>
       <e><p><l>vanuatecu<s n="adj"/></l><r>vanuateco<s n="adj"/></r></p></e>
-      <e><p><l>Venezuela<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Venezuela<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Venezuela<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Venezuela<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>venezuelanu<s n="n"/></l><r>venezuelano<s n="n"/></r></p></e>
       <e><p><l>venezuelanu<s n="adj"/></l><r>venezuelano<s n="adj"/></r></p></e>
-      <e><p><l>Victòria<b/>Banks<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Banks<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Vietnàm<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Vietnam<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Wrangel<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Wrangel<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Zàmbia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Zambia<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Victòria<b/>Banks<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Banks<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Vietnàm<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Vietnam<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Wrangel<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Isola<b/>di<b/>Wrangel<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Zàmbia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Zambia<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>zambianu<s n="n"/></l><r>zambiano<s n="n"/></r></p></e>
       <e><p><l>zambianu<s n="adj"/></l><r>zambiano<s n="adj"/></r></p></e>
-      <e><p><l>Zelanda<b/>Noa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Zelanda<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Zelanda<b/>Noa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Nuova<b/>Zelanda<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>neozelandesu<s n="n"/></l><r>neozelandese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>neozelandesu<s n="adj"/></l><r>neozelandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-      <e><p><l>Zimbawe<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></l><r>Zimbawe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Zimbawe<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Zimbawe<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
       <e><p><l>zimbabwesu<s n="n"/></l><r>zimbabwese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>zimbabwesu<s n="adj"/></l><r>zimbabwese<s n="adj"/></r></p><par n="GD_mf"/></e>
 

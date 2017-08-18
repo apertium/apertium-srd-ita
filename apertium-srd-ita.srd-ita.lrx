@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <rules>
 
 <!-- bi (prn.pro.adv) > ci, vi -->
@@ -6,6 +7,13 @@
     <match lemma="bi" tags="prn.pro.adv"><select lemma="ci" tags="prn.pro.adv"/></match>
   </rule>
 
+<!-- de (pr) > di, da -->
+
+  <rule weight="0.8">
+    <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+  </rule>
+
+</rules>
 <!-- 
 Resources: 
     http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
@@ -13,4 +21,3 @@ Resources:
     http://wiki.apertium.org/wiki/Lexical_selection
     http://wiki.apertium.org/wiki/Learning_rules_from_parallel_and_non-parallel_corpora
 -->
-
