@@ -6131,6 +6131,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Cristofora<s n="np"/><s n="ant"/><s n="f"/></l><r>Cristofora<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Cristoforo<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristoforo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Cristu<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>Cristu<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>criticare<s n="vblex"/></l>            <r>criticare<s n="vblex"/></r></p></e>
 <e>       <p><l>crititzidade<s n="n"/><s n="f"/></l>   <r>criticità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>critèriu<s n="n"/><s n="m"/></l>       <r>criterio<s n="n"/><s n="m"/></r></p></e>
@@ -7136,7 +7137,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>de<b/>millione<s n="adj"/><s n="ord"/></l><r>millionesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD_sp_ND"/></e>
 <e>       <p><l>de<b/>Montespan<s n="np"/><s n="cog"/></l><r>de<b/>Montespan<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>de<b/>Montijo<s n="np"/><s n="cog"/></l><r>de<b/>Montijo<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>de<b/>Napoleone<s n="adj"/></l>        <r>napoleonico<s n="adj"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e>       <p><l>de<b/>noe<s n="adj"/><s n="ord"/></l>  <r>nono<s n="adj"/><s n="ord"/></r></p><par n="mf_GD_sp_ND"/></e>
 <e>       <p><l>de<b/>noighentos<s n="adj"/><s n="ord"/></l><r>novecentesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD_sp_ND"/></e>
 <e>       <p><l>de<b/>noranta<s n="adj"/><s n="ord"/></l><r>novantesimo<s n="adj"/><s n="ord"/></r></p><par n="mf_GD_sp_ND"/></e>
@@ -8263,7 +8263,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>dotzente<s n="n"/></l>                 <r>docente<s n="n"/></r></p></e>
 <e>       <p><l>Douglas<s n="np"/><s n="ant"/><s n="m"/></l><r>Douglas<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Douglas<s n="np"/><s n="cog"/></l>     <r>Douglas<s n="np"/><s n="cog"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>dovere<s n="n"/><s n="m"/></l><r>dovere<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>dovere<s n="n"/><s n="m"/></l><r>dovere<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Doviglia<s n="np"/><s n="ant"/><s n="f"/></l><r>Doviglia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Dovilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Dovilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>dozina<s n="n"/><s n="f"/></l>         <r>dozzina<s n="n"/><s n="f"/></r></p></e>
@@ -11213,6 +11213,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>gregorianu<s n="adj"/></l>             <r>gregoriano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Gregorina<s n="np"/><s n="ant"/><s n="f"/></l><r>Gregorina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Gregorio<s n="np"/><s n="ant"/><s n="m"/></l><r>Gregorio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>Gregòriu<s n="np"/><s n="ant"/><s n="m"/></l><r>Gregoriu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>gregu<s n="adj"/></l>                  <r>greco<s n="adj"/></r></p></e>
 <e>       <p><l>gregu<s n="n"/></l>                    <r>greco<s n="n"/></r></p></e>
 <e r="RL"><p><l>gregu<s n="adj"/></l>                  <r>greco<s n="adj"/><s n="sup"/></r></p></e>
@@ -11358,7 +11359,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>HBO<s n="np"/><s n="org"/><s n="f"/></l><r>HBO<s n="np"/><s n="org"/><s n="f"/></r></p></e>
 <e>       <p><l>HD<s n="n"/><s n="acr"/><s n="f"/></l> <r>HD<s n="n"/><s n="acr"/><s n="f"/></r></p></e>
 <e>       <p><l>Heinrich<s n="np"/><s n="ant"/><s n="m"/></l><r>Heinrich<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Helsinki<s n="np"/><s n="top"/><s n="m"/></l><r>Helsinki<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Henri<s n="np"/><s n="ant"/><s n="m"/></l><r>Henri<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Henri<s n="np"/><s n="cog"/></l>       <r>Henri<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Henry<s n="np"/><s n="ant"/><s n="m"/></l><r>Henry<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -16234,7 +16234,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>modde<s n="adj"/></l>                  <r>tenero<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>modellare<s n="vblex"/></l>            <r>modellare<s n="vblex"/></r></p></e>
 <e>       <p><l>modellu<s n="n"/></l>                  <r>modello<s n="n"/></r></p></e>
-<e>       <p><l>Modena<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Modena<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>moderadore<s n="n"/></l>               <r>coordinatore<s n="n"/></r></p></e>
 <e>       <p><l>moderadu<s n="adj"/></l>               <r>moderato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>moderadu<s n="adj"/></l>               <r>moderato<s n="adj"/><s n="sup"/></r></p></e>
@@ -16812,7 +16811,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>navigàbile<s n="adj"/></l>             <r>navigabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e r="LR" c="non-preferred"><p><l>naviu<s n="n"/><s n="m"/></l><r>nave<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Nazarena<s n="np"/><s n="ant"/><s n="f"/></l><r>Nazarena<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Nazaret<s n="np"/><s n="top"/><s n="m"/></l><r>Nazaret<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>Nazario<s n="np"/><s n="ant"/><s n="m"/></l><r>Nazario<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>nazismu<s n="n"/><s n="m"/></l>        <r>nazismo<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>nazista<s n="adj"/></l>                <r>nazista<s n="adj"/><s n="sup"/></r></p></e>
@@ -17584,7 +17582,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>oratòriu<s n="n"/><s n="m"/></l>       <r>oratorio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>oratòriu<s n="adj"/></l>               <r>oratorio<s n="adj"/></r></p></e>
 <e>       <p><l>Orazia<s n="np"/><s n="ant"/><s n="f"/></l><r>Orazia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Orazio<s n="np"/><s n="ant"/><s n="m"/></l><r>Orazio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Orazio<s n="np"/><s n="ant"/><s n="m"/></l><r>Orazio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Oràtziu<s n="np"/><s n="ant"/><s n="m"/></l><r>Orazio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>orbitale<s n="adj"/></l>               <r>orbitale<s n="adj"/></r></p></e>
 <e r="RL"><p><l>orbitale<s n="adj"/></l>               <r>orbitale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>orchestra<s n="n"/><s n="f"/></l>      <r>orchestra<s n="n"/><s n="f"/></r></p></e>
@@ -17609,7 +17608,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Orestilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Orestilla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Orestina<s n="np"/><s n="ant"/><s n="f"/></l><r>Orestina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>orfanotròfiu<s n="n"/><s n="m"/></l>   <r>orfanotrofio<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>Orfeo<s n="np"/><s n="ant"/><s n="m"/></l><r>Orfeo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Orfeo<s n="np"/><s n="ant"/><s n="m"/></l><r>Orfeo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Orfeu<s n="np"/><s n="ant"/><s n="m"/></l><r>Orfeo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>organigramma<s n="n"/><s n="m"/></l>   <r>organigramma<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>organismu<s n="n"/><s n="m"/></l>      <r>organismo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>organista<s n="n"/></l>                <r>organista<s n="n"/></r></p><par n="mf_GD"/></e>
@@ -18834,7 +18834,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>pluritzellulare<s n="adj"/></l>        <r>pluricellulare<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>plusbalia<s n="n"/><s n="f"/></l>      <r>plusvalenza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>plusvalèntzia<s n="n"/><s n="f"/></l>  <r>plusvalenza<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>Plutarco<s n="np"/><s n="ant"/><s n="m"/></l><r>Plutarco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Plutarcu<s n="np"/><s n="ant"/><s n="m"/></l><r>Plutarco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Plutarco<s n="np"/><s n="ant"/><s n="m"/></l><r>Plutarco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>plàia<s n="n"/><s n="f"/></l>          <r>spiaggia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>plàstica<s n="n"/><s n="f"/></l>       <r>plastica<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>plàsticu<s n="adj"/></l>               <r>plastico<s n="adj"/></r></p></e>
@@ -19996,7 +19997,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Quintilina<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintilina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quintilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintilla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Quintina<s n="np"/><s n="ant"/><s n="f"/></l><r>Quintina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>Quinto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Quinto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quinziano<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinziano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quinzio<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinzio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Quirica<s n="np"/><s n="ant"/><s n="f"/></l><r>Quirica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -21091,6 +21092,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ràpidu<s n="adj"/></l><r>rapido<s n="adj"/></r></p></e>
 <e>       <p><l>ràteu<s n="n"/><s n="m"/></l>          <r>rateo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rècord<s n="n"/><s n="m"/></l>         <r>record<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>record<s n="n"/><s n="m"/><s n="sp"/></l><r>record<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>rèdditu<s n="n"/><s n="m"/></l><r>reddito<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rèditu<s n="n"/><s n="m"/></l>         <r>reddito<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>rèere<s n="vblex"/></l>                <r>reggere<s n="vblex"/></r></p></e>
@@ -21250,7 +21252,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Salvina<s n="np"/><s n="ant"/><s n="f"/></l><r>Salvina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Salvo<s n="np"/><s n="ant"/><s n="m"/></l><r>Salvo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>salvu<s n="adj"/></l><r>salvo<s n="adj"/></r></p></e>
-<e>       <p><l>Salzburg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Salisburgo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Salisburgu<s n="np"/><s n="top"/><s n="m"/></l><r>Salisburgo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Salzburg<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Salisburgo<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>salàriu<s n="n"/><s n="m"/></l>        <r>salario<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Sam<s n="np"/><s n="ant"/><s n="m"/></l><r>Sam<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Samanta<s n="np"/><s n="ant"/><s n="f"/></l><r>Samanta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -21474,7 +21477,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Seconda<s n="np"/><s n="ant"/><s n="f"/></l><r>Seconda<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Secondiana<s n="np"/><s n="ant"/><s n="f"/></l><r>Secondiana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Secondina<s n="np"/><s n="ant"/><s n="f"/></l><r>Secondina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>secretzione<s n="n"/><s n="f"/></l>    <r>secrezione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>secuestradore<s n="n"/></l>            <r>sequestratore<s n="n"/></r></p></e>
 <e>       <p><l>secuestrare<s n="vblex"/></l>          <r>sequestrare<s n="vblex"/></r></p></e>
@@ -21721,7 +21724,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>sestare<s n="vblex"/></l>              <r>tracciare<s n="vblex"/></r></p></e>
 <e>       <p><l>Sestilia<s n="np"/><s n="ant"/><s n="f"/></l><r>Sestilia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Sestina<s n="np"/><s n="ant"/><s n="f"/></l><r>Sestina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>Sesto<s n="np"/><s n="ant"/><s n="m"/></l><r>Sesto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Sesto<s n="np"/><s n="ant"/><s n="m"/></l><r>Sesto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>sestu<s n="n"/></l>                    <r>sesto<s n="n"/></r></p></e>
 <e>       <p><l>Sestu<s n="np"/><s n="top"/><s n="m"/></l><r>Sestu<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
 <e>       <p><l>set<s n="n"/><s n="m"/></l>            <r>set<s n="n"/><s n="m"/></r></p></e>
@@ -22945,7 +22948,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Teodorina<s n="np"/><s n="ant"/><s n="f"/></l><r>Teodorina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Teodoro<s n="np"/><s n="ant"/><s n="m"/></l><r>Teodoro<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Teodosia<s n="np"/><s n="ant"/><s n="f"/></l><r>Teodosia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Teodosio<s n="np"/><s n="ant"/><s n="m"/></l><r>Teodosio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Teodòsiu<s n="np"/><s n="ant"/><s n="m"/></l><r>Teodosio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Teodosio<s n="np"/><s n="ant"/><s n="m"/></l><r>Teodosio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Teofila<s n="np"/><s n="ant"/><s n="f"/></l><r>Teofila<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Teofilo<s n="np"/><s n="ant"/><s n="m"/></l><r>Teofilo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>teologale<s n="adj"/></l>              <r>teologale<s n="adj"/></r></p></e>
@@ -23170,7 +23174,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Tolomea<s n="np"/><s n="ant"/><s n="f"/></l><r>Tolomea<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Tolomeo<s n="np"/><s n="ant"/><s n="m"/></l><r>Tolomeo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Tolosa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Tolosa<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>Tolosa<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Toulouse<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Toulouse<s n="np"/><s n="top"/><s n="f"/></l><r>Toulouse<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
 <e>       <p><l>Tom<s n="np"/><s n="ant"/><s n="m"/></l><r>Tom<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Tomarchio<s n="np"/><s n="cog"/></l>   <r>Tomarchio<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Tomasa<s n="np"/><s n="ant"/><s n="f"/></l><r>Tomasa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -25134,6 +25138,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>èsteru<s n="adj"/></l>                 <r>estero<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>èstimu<s n="n"/><s n="m"/></l>         <r>estimo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>èstone<s n="adj"/></l>                 <r>estone<s n="adj"/></r></p></e>
+<e>       <p><l>èstone<s n="n"/></l>                   <r>estone<s n="n"/></r></p></e>
 <e>       <p><l>ètaru<s n="n"/><s n="m"/></l>          <r>ettaro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>èticu<s n="adj"/></l>                  <r>etico<s n="adj"/></r></p></e>
 <e>       <p><l>ètnicu<s n="adj"/></l>                 <r>etnico<s n="adj"/></r></p></e>
@@ -25333,9 +25338,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>salvadoregnu<s n="adj"/></l><r>salvadoregno<s n="adj"/></r></p></e>
       <e><p><l>eritreu<s n="n"/></l><r>eritreo<s n="n"/></r></p></e>
       <e><p><l>eritreu<s n="adj"/></l><r>eritreo<s n="adj"/></r></p></e>
-      <e><p><l>èstone<s n="n"/></l><r>estonia<s n="n"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>èstone<s n="adj"/></l><r>estonia<s n="adj"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>etiòpicu<s n="n"/></l><r>etiopia<s n="n"/></r></p></e>
+      <e><p><l>etiòpicu<s n="n"/></l><r>etiopico<s n="n"/></r></p></e>
       <e><p><l>etiòpicu<s n="adj"/></l><r>etiopia<s n="adj"/></r></p></e>
       <e><p><l>feroesu<s n="n"/></l><r>feroese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>feroesu<s n="adj"/></l><r>feroese<s n="adj"/></r></p><par n="GD_mf"/></e>
@@ -25764,8 +25767,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>eritreu<s n="n"/></l><r>eritreo<s n="n"/></r></p></e>
       <e><p><l>eritreu<s n="adj"/></l><r>eritreo<s n="adj"/></r></p></e>
       <e><p><l>Estònia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Estonia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>èstone<s n="n"/></l><r>estonia<s n="n"/></r></p><par n="mf_GD"/></e>
-      <e><p><l>èstone<s n="adj"/></l><r>estonia<s n="adj"/></r></p><par n="mf_GD"/></e>
       <e><p><l>Etiòpia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Etiopia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>etiòpicu<s n="n"/></l><r>etiopia<s n="n"/></r></p></e>
       <e><p><l>etiòpicu<s n="adj"/></l><r>etiopia<s n="adj"/></r></p></e>
@@ -25773,8 +25774,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>feroesu<s n="n"/></l><r>feroese<s n="n"/></r></p><par n="GD_mf"/></e>
       <e><p><l>feroesu<s n="adj"/></l><r>feroese<s n="adj"/></r></p><par n="GD_mf"/></e>
       <e><p><l>Figi<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Figi<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>figianu<s n="n"/></l><r>fijiano<s n="n"/></r></p></e>
-      <e><p><l>figianu<s n="adj"/></l><r>fijiano<s n="adj"/></r></p></e>
+      <e><p><l>figianu<s n="n"/></l><r>figiano<s n="n"/></r></p></e>
+      <e><p><l>figianu<s n="adj"/></l><r>figiano<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>figianu<s n="n"/></l><r>fijiano<s n="n"/></r></p></e>
+      <e r="RL"><p><l>figianu<s n="adj"/></l><r>fijiano<s n="adj"/></r></p></e>
       <e><p><l>Filipinas<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></l><r>Filippine<s n="np"/><s n="loc"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>filipinu<s n="n"/></l><r>filippino<s n="n"/></r></p></e>
       <e><p><l>filipinu<s n="adj"/></l><r>filippino<s n="adj"/></r></p></e>
@@ -27235,74 +27238,52 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="LR"><p><l>geograficamente<s n="adv"/></l><r>geograficamente<s n="adv"/></r></p></e>
       <e r="LR"><p><l>giustamente<s n="adv"/></l><r>giustamente<s n="adv"/></r></p></e>
       <e r="LR"><p><l>globalmente<s n="adv"/></l><r>globalmente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>hàbitat<s n="n"/><s n="m"/></l><r>habitat<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Hèlsinki<s n="np"/><s n="top"/><s n="m"/></l><r>Helsinki<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>hàbitat<s n="n"/><s n="m"/></l><r>habitat<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>Hèlsinki<s n="np"/><s n="top"/><s n="m"/></l><r>Helsinki<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ideare<s n="vblex"/></l><r>ideare<s n="vblex"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>indistintamente<s n="adv"/></l><r>indistintamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>intercomunale<s n="adj"/></l><r>intercomunale<s n="adj"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ispontaneamente<s n="adv"/></l><r>spontaneamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>istraordinariamente<s n="adv"/></l><r>straordinariamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Jèssica<s n="np"/><s n="ant"/><s n="f"/></l><r>Jessica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>localitzare<s n="vblex"/></l><r>localizzare<s n="vblex"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>logicamente<s n="adv"/></l><r>logicamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>magnitùdine<s n="n"/><s n="f"/></l><r>magnitudine<s n="n"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Malèsia<s n="np"/><s n="top"/><s n="f"/></l><r>Malesia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>manualmente<s n="adv"/></l><r>manualmente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>matematicamente<s n="adv"/></l><r>matematicamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Melània<s n="np"/><s n="ant"/><s n="f"/></l><r>Melania<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Mòdena<s n="np"/><s n="top"/><s n="f"/></l><r>Modena<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Mònica<s n="np"/><s n="ant"/><s n="f"/></l><r>Monica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Nàdia<s n="np"/><s n="ant"/><s n="f"/></l><r>Nadia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>napoleònicu<s n="adj"/></l><r>napoleonico<s n="adj"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Natàlia<s n="np"/><s n="ant"/><s n="f"/></l><r>Natalia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Nazarèt<s n="np"/><s n="top"/><s n="m"/></l><r>Nazaret<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>negativamente<s n="adv"/></l><r>negativamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>neutru<s n="adj"/></l><r>neutro<s n="adj"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Nicolàs<s n="np"/><s n="ant"/><s n="m"/></l><r>Nicolas<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>normalmente<s n="adv"/></l><r>normalmente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>oboe<s n="n"/><s n="m"/></l><r>oboe<s n="n"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Olau<s n="np"/><s n="ant"/><s n="m"/></l><r>Olao<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Oràtziu<s n="np"/><s n="ant"/><s n="m"/></l><r>Orazio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Orfeu<s n="np"/><s n="ant"/><s n="m"/></l><r>Orfeo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>organitzadore<s n="n"/></l><r>organizzatore<s n="n"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>oritzonte<s n="n"/><s n="m"/></l><r>orizzonte<s n="n"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ostilidade<s n="n"/><s n="f"/></l><r>ostilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>pertinèntzia<s n="n"/><s n="f"/></l><r>pertinenza<s n="n"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Plutarcu<s n="np"/><s n="ant"/><s n="m"/></l><r>Plutarco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>politicamente<s n="adv"/></l><r>politicamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Pompeu<s n="np"/><s n="ant"/><s n="m"/></l><r>Pompeo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>record<s n="n"/><s n="m"/><s n="sp"/></l><r>record<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Rubèn<s n="np"/><s n="ant"/><s n="m"/></l><r>Ruben<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Salisburgu<s n="np"/><s n="top"/><s n="m"/></l><r>Salisburgo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>sci<s n="n"/><s n="m"/><s n="sp"/></l><r>sci<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>semplitzemente<s n="adv"/></l><r>semplicemente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>sensibilmente<s n="adv"/></l><r>sensibilmente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>severamente<s n="adv"/></l><r>severamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Sònia<s n="np"/><s n="ant"/><s n="f"/></l><r>Sonia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Teodòsiu<s n="np"/><s n="ant"/><s n="m"/></l><r>Teodosio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>indistintamente<s n="adv"/></l><r>indistintamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>intercomunale<s n="adj"/></l><r>intercomunale<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>ispontaneamente<s n="adv"/></l><r>spontaneamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>istraordinariamente<s n="adv"/></l><r>straordinariamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>Jèssica<s n="np"/><s n="ant"/><s n="f"/></l><r>Jessica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>logicamente<s n="adv"/></l><r>logicamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>magnitùdine<s n="n"/><s n="f"/></l><r>magnitudine<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>Malèsia<s n="np"/><s n="top"/><s n="f"/></l><r>Malesia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>manualmente<s n="adv"/></l><r>manualmente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>matematicamente<s n="adv"/></l><r>matematicamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>Melània<s n="np"/><s n="ant"/><s n="f"/></l><r>Melania<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>Mòdena<s n="np"/><s n="top"/><s n="f"/></l><r>Modena<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>Mònica<s n="np"/><s n="ant"/><s n="f"/></l><r>Monica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>Nàdia<s n="np"/><s n="ant"/><s n="f"/></l><r>Nadia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>napoleònicu<s n="adj"/></l><r>napoleonico<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>Natàlia<s n="np"/><s n="ant"/><s n="f"/></l><r>Natalia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e><p><l>Nazarèt<s n="np"/><s n="top"/><s n="m"/></l><r>Nazaret<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>negativamente<s n="adv"/></l><r>negativamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>neutru<s n="adj"/></l><r>neutro<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>Nicolàs<s n="np"/><s n="ant"/><s n="m"/></l><r>Nicolas<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>normalmente<s n="adv"/></l><r>normalmente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>ostilidade<s n="n"/><s n="f"/></l><r>ostilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+      <e r="LR"><p><l>politicamente<s n="adv"/></l><r>politicamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>Rubèn<s n="np"/><s n="ant"/><s n="m"/></l><r>Ruben<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>sci<s n="n"/><s n="m"/><s n="sp"/></l><r>sci<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>semplitzemente<s n="adv"/></l><r>semplicemente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>sensibilmente<s n="adv"/></l><r>sensibilmente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>severamente<s n="adv"/></l><r>severamente<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>Sònia<s n="np"/><s n="ant"/><s n="f"/></l><r>Sonia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tesoro<s n="n"/><s n="m"/></l><r>tesoro<s n="n"/><s n="m"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>test<s n="n"/><s n="m"/><s n="sp"/></l><r>test<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tìpicamente<s n="adv"/></l><r>tipicamente<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Toulouse<s n="np"/><s n="top"/><s n="f"/></l><r>Toulouse<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>test<s n="n"/><s n="m"/><s n="sp"/></l><r>test<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      <e r="LR"><p><l>tìpicamente<s n="adv"/></l><r>tipicamente<s n="adv"/></r></p></e>
       <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>trainare<s n="vblex"/></l><r>trainare<s n="vblex"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tratzione<s n="n"/><s n="f"/></l><r>trazione<s n="n"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzentramericanu<s n="adj"/></l><r>centramericano<s n="adj"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzentramericanu<s n="n"/></l><r>centramericano<s n="n"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzertu<s n="adv"/></l><r>certo<s n="adv"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Valèria<s n="np"/><s n="ant"/><s n="f"/></l><r>Valeria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>tratzione<s n="n"/><s n="f"/></l><r>trazione<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>tzentramericanu<s n="adj"/></l><r>centramericano<s n="adj"/></r></p></e>
+      <e r="LR"><p><l>tzentramericanu<s n="n"/></l><r>centramericano<s n="n"/></r></p></e>
+      <e r="LR"><p><l>tzertu<s n="adv"/></l><r>certo<s n="adv"/></r></p></e>
+      <e r="LR"><p><l>Valèria<s n="np"/><s n="ant"/><s n="f"/></l><r>Valeria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>verdura<s n="n"/><s n="f"/></l><r>verdura<s n="n"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Verònica<s n="np"/><s n="ant"/><s n="f"/></l><r>Veronica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Victòria<s n="np"/><s n="ant"/><s n="f"/></l><r>Victoria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Zoè<s n="np"/><s n="ant"/><s n="f"/></l><r>Zoe<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Cristu<s n="np"/><s n="ant"/><s n="m"/></l><r>Cristu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>dovere<s n="n"/><s n="m"/></l><r>dovere<s n="n"/><s n="m"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>etiòpicu<s n="adj"/></l><r>etiopico<s n="adj"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>figianu<s n="adj"/></l><r>figiano<s n="adj"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Gregòriu<s n="np"/><s n="ant"/><s n="m"/></l><r>Gregoriu<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Quinto<s n="np"/><s n="ant"/><s n="m"/></l><r>Quinto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+      <e r="LR"><p><l>Verònica<s n="np"/><s n="ant"/><s n="f"/></l><r>Veronica<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>Victòria<s n="np"/><s n="ant"/><s n="f"/></l><r>Victoria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>Zoè<s n="np"/><s n="ant"/><s n="f"/></l><r>Zoe<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>serra<s n="n"/><s n="f"/></l><r>serra<s n="n"/><s n="f"/></r></p></e>
-      <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>Sesto<s n="np"/><s n="ant"/><s n="m"/></l><r>Sesto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tipu<s n="adj"/></l><r>tipo<s n="adj"/></r></p></e>
       <e r="RL"><p><l>algèbricu<s n="adj"/></l><r>algebrico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>àridu<s n="adj"/></l><r>arido<s n="adj"/><s n="sup"/></r></p></e>
@@ -27317,7 +27298,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>ducale<s n="adj"/></l><r>ducale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>ellenìsticu<s n="adj"/></l><r>ellenistico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>etiòpicu<s n="adj"/></l><r>etiopico<s n="adj"/><s n="sup"/></r></p></e>
-      <e r="RL"><p><l>figianu<s n="adj"/></l><r>figiano<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>gastronòmicu<s n="adj"/></l><r>gastronomico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>geodèticu<s n="adj"/></l><r>geodetico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>giulianu<s n="adj"/></l><r>giuliano<s n="adj"/><s n="sup"/></r></p></e>
