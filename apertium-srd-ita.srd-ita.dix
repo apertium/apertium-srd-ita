@@ -21475,7 +21475,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Seconda<s n="np"/><s n="ant"/><s n="f"/></l><r>Seconda<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Secondiana<s n="np"/><s n="ant"/><s n="f"/></l><r>Secondiana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Secondina<s n="np"/><s n="ant"/><s n="f"/></l><r>Secondina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<!-- <e>       <p><l>Secondo<s n="np"/><s n="ant"/><s n="m"/></l><r>Secondo<s n="np"/><s n="ant"/><s n="m"/></r></p></e> -->
 <e>       <p><l>secretzione<s n="n"/><s n="f"/></l>    <r>secrezione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>secuestradore<s n="n"/></l>            <r>sequestratore<s n="n"/></r></p></e>
 <e>       <p><l>secuestrare<s n="vblex"/></l>          <r>sequestrare<s n="vblex"/></r></p></e>
@@ -26790,6 +26790,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>Aleppu<s n="np"/><s n="top"/><s n="m"/></l><r>Aleppo<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
       <e><p><l>Alessàndria<s n="np"/><s n="top"/><s n="f"/></l><r>Alessandria<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>algèbricu<s n="adj"/></l><r>algebrico<s n="adj"/></r></p></e>
+      <e><p><l>lèssicu<s n="adj"/></l><r>lessico<s n="adj"/></r></p></e>
+      <e><p><l>lèsbicu<s n="adj"/></l><r>lesbico<s n="adj"/></r></p></e>
       <e><p><l>Allah<s n="np"/><s n="ant"/><s n="m"/></l><r>Allah<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>alleadu<s n="n"/></l><r>alleato<s n="n"/></r></p></e>
       <e><p><l>Alonso<s n="np"/><s n="cog"/></l><r>Alonso<s n="np"/><s n="cog"/></r></p></e>
@@ -27453,6 +27455,15 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="LR"><p><l>signore<s n="n"/></l><r>signore<s n="n"/></r></p></e>
       <e><p><l>parallelu<s n="n"/><s n="m"/></l><r>parallelo<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>parallelu<s n="n"/><s n="f"/></l><r>parallela<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>esternu<s n="n"/><s n="m"/></l><r>esterno<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>còmicu<s n="n"/><s n="m"/></l><r>comico<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>integrale<s n="n"/><s n="f"/></l><r>integrale<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzivile<s n="n"/><s n="m"/></l><r>civile<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>gastrònomu<s n="n"/><s n="m"/></l><r>gastronomo<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>rosa<s n="adj"/><s n="mf"/></l><r>rosa<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+      <e><p><l>golf<s n="n"/><s n="m"/><s n="sg"/></l><r>golf<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      <e><p><l>elaboradore<s n="n"/><s n="m"/></l><r>elaboratore<s n="n"/><s n="m"/></r></p></e>
+      <e><p><l>isolamentu<s n="n"/><s n="m"/></l><r>isolamento<s n="n"/><s n="m"/></r></p></e>
 
 
 
