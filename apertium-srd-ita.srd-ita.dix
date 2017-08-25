@@ -5224,11 +5224,12 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Cirilla<s n="np"/><s n="ant"/><s n="f"/></l><r>Cirilla<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Cirillo<s n="np"/><s n="ant"/><s n="m"/></l><r>Cirillo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Cirina<s n="np"/><s n="ant"/><s n="f"/></l><r>Cirina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Ciro<s n="np"/><s n="ant"/><s n="m"/></l><r>Ciro<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>Cisgiordània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cisgiordania<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
-<e>       <p><l>Ciuvascia<s n="np"/><s n="top"/><s n="f"/></l><r>Ciuvascia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
-<e>       <p><l>ciuvasciu<s n="adj"/></l>              <r>ciuvascio<s n="adj"/></r></p></e>
-<e>       <p><l>ciuvasciu<s n="n"/></l>                <r>ciuvascio<s n="n"/></r></p></e>
+<e>       <p><l>Tziru<s n="np"/><s n="ant"/><s n="m"/></l><r>Ciro<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Ciro<s n="np"/><s n="ant"/><s n="m"/></l><r>Ciro<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Tzisgiordània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cisgiordania<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Tzuvàscia<s n="np"/><s n="top"/><s n="f"/></l><r>Ciuvascia<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
+<e>       <p><l>tzuvàsciu<s n="adj"/></l>              <r>ciuvascio<s n="adj"/></r></p></e>
+<e>       <p><l>tzuvàsciu<s n="n"/></l>                <r>ciuvascio<s n="n"/></r></p></e>
 <e>       <p><l>Civita<s n="np"/><s n="ant"/><s n="f"/></l><r>Civita<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Claire<s n="np"/><s n="ant"/><s n="f"/></l><r>Claire<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>clamorosu<s n="adj"/></l>              <r>clamoroso<s n="adj"/></r></p></e>
@@ -10779,7 +10780,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ghetare<s n="vblex"/></l>              <r>gettare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>ghetare<s n="vblex"/></l><r>lanciare<s n="vblex"/></r></p></e>
 <e>       <p><l>ghetare<s n="vblex"/></l>              <r>versare<s n="vblex"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>ghettare<s n="vblex"/></l><r>versare<s n="vblex"/></r></p></e>
 <e>       <p><l>ghetu<s n="adj"/></l>                  <r>ghetto<s n="adj"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>ghia<s n="n"/><s n="f"/></l><r>comando<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>ghia<s n="n"/><s n="f"/></l>           <r>guida<s n="n"/><s n="f"/></r></p></e>
@@ -23818,6 +23818,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>tzircuscritzione<s n="n"/><s n="f"/></l><r>circoscrizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>tzircustàntzia<s n="n"/><s n="f"/></l> <r>circostanza<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>tzircùitu<s n="n"/><s n="m"/></l><r>circuito<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>tzisalpinu<s n="adj"/></l>             <r>cisalpino<s n="adj"/></r></p></e>
+<e>       <p><l>tzispadanu<s n="adj"/></l>             <r>cispadano<s n="adj"/></r></p></e>
+<e>       <p><l>transalpinu<s n="adj"/></l>            <r>transalpino<s n="adj"/></r></p></e>
+<e>       <p><l>transpadanu<s n="adj"/></l>            <r>transpadano<s n="adj"/></r></p></e>
 <e>       <p><l>tzisposu<s n="adj"/></l>               <r>cisposo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>tzisposu<s n="adj"/></l>               <r>cisposo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>tziste<s n="n"/><s n="f"/></l>         <r>ciste<s n="n"/><s n="f"/></r></p></e>
