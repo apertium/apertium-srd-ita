@@ -19644,9 +19644,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>propositzione<s n="n"/><s n="f"/></l>  <r>proposizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>proposta<s n="n"/><s n="f"/></l>       <r>proposta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>propriamente<s n="adv"/></l>           <r>propriamente<s n="adv"/></r></p></e>
-<e>       <p><l>propriedade<s n="n"/><s n="f"/></l>    <r>proprietà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
-<e>       <p><l>proprietàriu<s n="adj"/></l>           <r>proprietario<s n="adj"/></r></p></e>
-<e r="RL"><p><l>proprietàriu<s n="adj"/></l>           <r>proprietario<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>propiedade<s n="n"/><s n="f"/></l>     <r>proprietà<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>propietàriu<s n="adj"/></l>            <r>proprietario<s n="adj"/></r></p></e>
+<e r="RL"><p><l>propietàriu<s n="adj"/></l>            <r>proprietario<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>propulsore<s n="n"/><s n="m"/></l>     <r>propulsore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>propònnere<s n="vblex"/></l>           <r>proporre<s n="vblex"/></r></p></e>
 <e>       <p><l>propòsitu<s n="n"/><s n="m"/></l>      <r>proposito<s n="n"/><s n="m"/></r></p></e>
