@@ -222,14 +222,14 @@
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="adjec">
-       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.pos, adj.sup, adj.ind etc. -->
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
 <!--       <cat-item tags="adj.ord.*"/> -->
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="adjec-adv">
-       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincideisca amb adj.pos, adj.sup, adj.ind etc. -->
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
 <!--       <cat-item tags="adj.ord.*"/> -->
@@ -4461,6 +4461,74 @@
              <clip pos="3" side="tl" part="lemq"/>
            </lu>
          </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det nom pp si">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="pp"/>
+         <pattern-item n="si-enc"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_carchi2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord1">
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <chunk name="det_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         <b pos="2"/>
+         <chunk name="pp+si">
+           <tags>
+             <tag><lit-tag v="PP"/></tag>
+           </tags>
+             <mlu>
+               <lu>
+                 <lit v="àere"/>
+                 <lit-tag v="vbhaver.ger"/>
+               </lu>
+               <lu>
+                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="tags"/>
+                 <clip pos="4" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+             <b/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
