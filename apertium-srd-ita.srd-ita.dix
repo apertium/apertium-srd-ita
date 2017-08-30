@@ -5112,7 +5112,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>chi<b/>riguardat<s n="adj"/><s n="mf"/></l><r>riguardante<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>chi<b/>tenet<s n="adj"/><s n="mf"/></l><r>avente<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>chi<b/>torrat<b/>a<b/>artziare<s n="adj"/><s n="mf"/></l><r>risalente<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>chia<s n="n"/><s n="f"/></l>           <r>volta<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>chia<s n="n"/><s n="f"/></l>           <r>volta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Chianetta<s n="np"/><s n="cog"/></l>   <r>Chianetta<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Chiara<s n="np"/><s n="ant"/><s n="f"/></l><r>Chiara<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>chiaramente<s n="adv"/></l>            <r>chiaramente<s n="adv"/></r></p></e>
@@ -10540,6 +10540,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Gavino<s n="np"/><s n="ant"/><s n="m"/></l><r>Gavino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Gavinuccia<s n="np"/><s n="ant"/><s n="f"/></l><r>Gavinuccia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Gavoi<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Gavoi<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
+<e>       <p><l>rapper<s n="n"/><s n="mf"/><s n="sp"/></l><r>rapper<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>gay<s n="n"/><s n="mf"/><s n="sp"/></l><r>gay<s n="n"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>gay<s n="adj"/><s n="mf"/><s n="sp"/></l><r>gay<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>gaèlicu<s n="adj"/></l>                <r>gaelico<s n="adj"/></r></p></e>
@@ -19560,6 +19561,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>progetuale<s n="adj"/></l>             <r>progettuale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>programatzione<s n="n"/><s n="f"/></l> <r>programmazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>programma<s n="n"/><s n="m"/></l>      <r>programma<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>programma<s n="n"/><s n="m"/></l>      <r>software<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>software<s n="n"/><s n="m"/><s n="sp"/></l><r>software<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>programmadore<s n="n"/></l>            <r>programmatore<s n="n"/></r></p></e>
 <e>       <p><l>programmadu<s n="adj"/></l>            <r>programmato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>programmadu<s n="adj"/></l>            <r>programmato<s n="adj"/><s n="sup"/></r></p></e>
@@ -22134,6 +22137,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>sostratu<s n="n"/><s n="m"/></l>       <r>sostrato<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>sostre<s n="n"/><s n="m"/></l>         <r>soffitta<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>sotare<s n="vblex"/></l><r>costringere<s n="vblex"/></r></p></e>
+<e>       <p><l>ritirada<s n="n"/><s n="f"/></l>       <r>ritirata<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sotzialdemocratzia<s n="n"/><s n="f"/></l><r>socialdemocrazia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sotzialdemocràticu<s n="n"/></l>       <r>socialdemocratico<s n="n"/></r></p></e>
 <e>       <p><l>sotzialdemocràticu<s n="adj"/></l>     <r>socialdemocratico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>sotzialdemocràticu<s n="adj"/></l>     <r>socialdemocratico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>sotziale<s n="adj"/></l>               <r>sociale<s n="adj"/></r></p></e>
@@ -27550,7 +27556,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="LR"><p><l>senu<s n="n"/><s n="m"/></l><r>seno<s n="n"/><s n="m"/></r></p></e>
       <e r="LR"><p><l>sessualmente<s n="adv"/></l><r>sessualmente<s n="adv"/></r></p></e>
       <e r="LR"><p><l>simbolicamente<s n="adv"/></l><r>simbolicamente<s n="adv"/></r></p></e>
-      <e><p><l>software<s n="n"/><s n="m"/><s n="sp"/></l><r>software<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
       <e r="LR"><p><l>sognare<s n="vblex"/></l><r>sognare<s n="vblex"/></r></p></e>
       <e r="LR"><p><l>sonoridade<s n="n"/><s n="f"/></l><r>sonorità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
       <e r="LR"><p><l>superamentu<s n="n"/><s n="m"/></l><r>superamento<s n="n"/><s n="m"/></r></p></e>
@@ -27697,6 +27702,16 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>vivìbile<s n="adj"/></l><r>vivibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>voluminosu<s n="adj"/></l><r>voluminoso<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>zootècnicu<s n="adj"/></l><r>zootecnico<s n="adj"/><s n="sup"/></r></p></e>
+
+<e>       <p><l>tres<s n="n"/><s n="mf"/></l>      <r>terzo<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>bator<s n="n"/><s n="mf"/></l>     <r>quarto<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<!--
+<e>       <p><l>chimbe<s n="n"/><s n="mf"/></l>    <r>quinto<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>ses<s n="n"/><s n="mf"/></l>       <r>sesto<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>sete<s n="n"/><s n="mf"/></l>      <r>settimo<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>oto<s n="n"/><s n="mf"/></l>       <r>ottavo<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+<e>       <p><l>nou<s n="n"/><s n="mf"/></l>       <r>nono<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
+-->
 
   </section>
 </dictionary>

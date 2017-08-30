@@ -355,6 +355,13 @@
   <def-attr n="a_adj_ord">
      <attr-item tags="adj.ord"/>
   </def-attr>
+  <def-attr n="a_det">
+     <attr-item tags="det.ind"/>
+     <attr-item tags="det.dem"/>
+     <attr-item tags="det.pos"/>
+     <attr-item tags="predet"/>
+     <attr-item tags="det.def"/>
+  </def-attr>
   <def-attr n="a_prn">
      <attr-item tags="prn.pro"/>
      <attr-item tags="prn.enc"/>
@@ -426,6 +433,15 @@
        <list-item v="XXVIII"/>
        <list-item v="XXIX"/>
        <list-item v="XXX"/>
+    </def-list>
+   <def-list n="trencats">
+      <list-item v="terzo"/>
+      <list-item v="quarto"/>
+      <list-item v="quinto"/>
+      <list-item v="sesto"/>
+      <list-item v="settimo"/>
+      <list-item v="ottavo"/>
+      <list-item v="nono"/>
     </def-list>
 </section-def-lists>
 
@@ -2770,66 +2786,105 @@
 
 <section-rules>
     
-    <rule comment="regla: det nom">
-       <pattern>
-         <pattern-item n="det"/>
-         <pattern-item n="nom"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord2">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="f_concord_esp">
-           <with-param pos="2"/>
-           <with-param pos="1"/>
-         </call-macro>
-         <call-macro n="f_concord_carchi2">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
-         </call-macro>
-         <out>
-           <chunk name="det_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
+<rule comment="regla: det nom: la casa > sa domo, el terç > su tres unu, un terç > su tres unu"> 
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord2">
+      <with-param pos="2"/>
+      <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_concord_esp">
+      <with-param pos="2"/>
+      <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_concord_carchi2">
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+    </call-macro>
+    <choose>
+      <when>
+        <test>
+          <in caseless="yes"><clip pos="2" side="sl" part="lemh"/><list n="trencats"/></in>
+        </test>
+        <choose>
+          <when>
+            <test>
+	      <equal caseless="yes"><clip pos="1" side="sl" part="lemh"/><lit v="un"/></equal>
+            </test>
+            <let><clip pos="1" side="tl" part="lemh"/><lit v="su"/></let>
+            <let><clip pos="1" side="tl" part="a_det"/><lit-tag v="det.def"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="det-nom-unu">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <lit v="unu"/>
+              <lit-tag v="num"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <lit-tag v="sp"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="det-nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
 
 
-    <rule comment="regla: num nom">
-       <pattern>
-         <pattern-item n="num"/>
-         <pattern-item n="nom"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord2">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="f_concord_esp">
-           <with-param pos="2"/>
-           <with-param pos="1"/>
-         </call-macro>
-         <choose>
-           <when>
-             <test>
-               <in><clip pos="1" side="sl" part="lemh"/><list n="numrom"/></in>
-             </test>
-	     <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+<rule comment="regla: num nom">
+   <pattern>
+     <pattern-item n="num"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <call-macro n="f_concord_esp">
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <choose>
+       <when>
+         <test>
+           <in><clip pos="1" side="sl" part="lemh"/><list n="numrom"/></in>
+         </test>
+         <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
              <out>
                <chunk name="det_adjord_n">
                  <tags>
@@ -2883,6 +2938,74 @@
        </action>
     </rule>
 
+<!--
+<rule comment="regla: num nom">
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord2">
+      <with-param pos="2"/>
+      <with-param pos="1"/>
+    </call-macro>
+    <choose>
+      <when>
+        <test>
+          <in caseless="yes"><clip pos="2" side="sl" part="lemh"/><list n="trencats"/></in>
+        </test>
+        <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+        <out>
+          <chunk name="det-nom-num">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="su"/>
+              </get-case-from>
+              <lit-tag v="det.def"/>
+              <var n="genero"/>
+              <var n="numero"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="num-nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+  </action>
+</rule>
+-->
+
 
     <rule comment="regla: adjec nom">
        <pattern>
@@ -2891,8 +3014,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
@@ -2927,8 +3050,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
@@ -2967,8 +3090,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <out>
            <chunk name="n_adjpos">
@@ -3003,8 +3126,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -3115,8 +3238,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -3162,9 +3285,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
            <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
@@ -3214,9 +3337,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
            <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
@@ -3262,8 +3385,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
@@ -3326,8 +3449,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
@@ -3385,9 +3508,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -3440,6 +3563,9 @@
          <pattern-item n="adjord"/>
        </pattern>
        <action>
+     <call-macro n="f_concord1">
+       <with-param pos="1"/>
+     </call-macro>
      <choose>
        <when>
          <test>
@@ -3503,8 +3629,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
            <with-param pos="1"/>
@@ -3586,8 +3712,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
@@ -3685,9 +3811,10 @@
          <pattern-item n="nom"/>
        </pattern>
        <action>
-         <call-macro n="f_concord2">
-           <with-param pos="2"/>
+         <call-macro n="f_concord3">
            <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
            <with-param pos="1"/>
@@ -3732,9 +3859,10 @@
          <pattern-item n="nom"/>
        </pattern>
        <action>
-         <call-macro n="f_concord2">
-           <with-param pos="1"/>
+         <call-macro n="f_concord3">
            <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
            <with-param pos="2"/>
@@ -3784,9 +3912,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
            <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
@@ -3833,9 +3961,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -3893,10 +4021,10 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
-           <with-param pos="3"/>
            <with-param pos="4"/>
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="4"/>
@@ -3952,9 +4080,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
            <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
            <with-param pos="2"/>
@@ -4001,10 +4129,11 @@
          <pattern-item n="nom"/>
        </pattern>
        <action>
-         <call-macro n="f_concord3">
-           <with-param pos="1"/>
-           <with-param pos="3"/>
+         <call-macro n="f_concord4">
            <with-param pos="4"/>
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
            <with-param pos="2"/>
@@ -4062,10 +4191,11 @@
          <pattern-item n="nom"/>
        </pattern>
        <action>
-         <call-macro n="f_concord3">
+         <call-macro n="f_concord4">
+           <with-param pos="4"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="4"/>
+           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
            <with-param pos="3"/>
@@ -4123,9 +4253,10 @@
          <pattern-item n="adjec"/>
        </pattern>
        <action>
-         <call-macro n="f_concord3">
-           <with-param pos="1"/>
+         <call-macro n="f_concord4">
            <with-param pos="3"/>
+           <with-param pos="1"/>
+           <with-param pos="2"/>
            <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
@@ -4183,8 +4314,9 @@
          <pattern-item n="nom"/>
        </pattern>
        <action>
-         <call-macro n="f_concord1">
+         <call-macro n="f_concord2">
            <with-param pos="3"/>
+           <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_concord_esp"> <!-- expandir pl de adjord -->
            <with-param pos="2"/>
@@ -4231,8 +4363,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
@@ -4360,8 +4492,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -4413,8 +4545,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -4475,8 +4607,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
@@ -4542,9 +4674,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
@@ -4595,9 +4727,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
@@ -4657,8 +4789,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -4717,9 +4849,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
+           <with-param pos="4"/>
            <with-param pos="1"/>
            <with-param pos="3"/>
-           <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="4"/>
@@ -4777,8 +4909,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
@@ -4843,8 +4975,8 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
-           <with-param pos="1"/>
            <with-param pos="2"/>
+           <with-param pos="1"/>
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
@@ -4917,9 +5049,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -4983,9 +5115,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
@@ -5056,9 +5188,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
@@ -5104,9 +5236,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
+           <with-param pos="3"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
-           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
@@ -5191,10 +5323,10 @@
        </pattern>
        <action>
          <call-macro n="f_concord4">
+           <with-param pos="4"/>
            <with-param pos="1"/>
            <with-param pos="2"/>
            <with-param pos="3"/>
-           <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="4"/>
@@ -6731,9 +6863,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord3">
+           <with-param pos="4"/>
            <with-param pos="2"/>
            <with-param pos="3"/>
-           <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="4"/>
@@ -7425,28 +7557,67 @@
 
 <!-- tractament multiparaules -->
 
-    <rule comment="regla: nom">
-       <pattern>
-         <pattern-item n="nom"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>
-         <out>
-           <chunk name="n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
+<rule comment="regla: n">
+  <pattern>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord1">
+      <with-param pos="1"/>
+    </call-macro>     
+    <choose>
+      <when>
+        <test>
+          <in caseless="yes"><clip pos="1" side="sl" part="lemh"/><list n="trencats"/></in>
+        </test>
+        <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+        <out>
+          <chunk name="det-nom-unu">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <get-case-from pos="1">
+                <lit v="su"/>
+              </get-case-from>
+              <lit-tag v="det.def"/>
+              <var n="genero"/>
+              <var n="numero"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="unu"/>
+               <lit-tag v="num"/>
+               <var n="genero"/>
+               <lit-tag v="sp"/>
+             </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="nom">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="tags"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+        </out>
+      </otherwise>
+    </choose>
+   </action>
+</rule>
+
 
     <rule comment="regla: adjec">
        <pattern>
