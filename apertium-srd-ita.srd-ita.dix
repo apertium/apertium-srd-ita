@@ -27561,7 +27561,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="LR"><p><l>superamentu<s n="n"/><s n="m"/></l><r>superamento<s n="n"/><s n="m"/></r></p></e>
       <e r="LR"><p><l>universalmente<s n="adv"/></l><r>universalmente<s n="adv"/></r></p></e>
       <e r="LR"><p><l>visivamente<s n="adv"/></l><r>visivamente<s n="adv"/></r></p></e>
-      <e r="LR"><p><l>play-off<s n="n"/><s n="m"/><s n="sp"/></l><r>play-off<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+      <e>       <p><l>play-off<s n="n"/><s n="m"/><s n="sp"/></l><r>play-off<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
       <e r="RL"><p><l>acèticu<s n="adj"/></l><r>acetico<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>àgile<s n="adj"/></l><r>agile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>alcalinu<s n="adj"/></l><r>alcalino<s n="adj"/><s n="sup"/></r></p></e>
@@ -27702,6 +27702,21 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e r="RL"><p><l>vivìbile<s n="adj"/></l><r>vivibile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
       <e r="RL"><p><l>voluminosu<s n="adj"/></l><r>voluminoso<s n="adj"/><s n="sup"/></r></p></e>
       <e r="RL"><p><l>zootècnicu<s n="adj"/></l><r>zootecnico<s n="adj"/><s n="sup"/></r></p></e>
+
+      <e><p><l>arcada<s n="n"/><s n="f"/></l><r>arcata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>armada<s n="n"/><s n="f"/></l><r>armata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>bilantziadu<s n="adj"/></l><r>bilanciato<s n="adj"/></r></p></e>
+      <e><p><l>carreggiada<s n="n"/><s n="f"/></l><r>carreggiata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>derivada<s n="n"/><s n="f"/></l><r>derivata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>emantzipadu<s n="adj"/></l><r>emancipato<s n="adj"/></r></p></e>
+      <e><p><l>indagadore<s n="n"/></l><r>indagatore<s n="n"/></r></p></e>
+      <e><p><l>innovadore<s n="n"/></l><r>innovatore<s n="n"/></r></p></e>
+      <e><p><l>iscaladore<s n="n"/></l><r>scalatore<s n="n"/></r></p></e>
+      <e><p><l>isfilada<s n="n"/><s n="f"/></l><r>sfilata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>portada<s n="n"/><s n="f"/></l><r>portata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>retada<s n="n"/><s n="f"/></l><r>retata<s n="n"/><s n="f"/></r></p></e>
+      <e><p><l>tzascada<s n="n"/><s n="f"/></l><r>cascata<s n="n"/><s n="f"/></r></p></e>
+      <e r="LR"><p><l>tzilindrada<s n="n"/><s n="f"/></l><r>cilindrata<s n="n"/><s n="f"/></r></p></e>
 
 <e>       <p><l>tres<s n="n"/><s n="mf"/></l>      <r>terzo<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>bator<s n="n"/><s n="mf"/></l>     <r>quarto<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
