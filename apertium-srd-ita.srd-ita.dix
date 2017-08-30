@@ -1715,33 +1715,33 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>anglicanu<s n="adj"/></l>              <r>anglicano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>anglicanu<s n="adj"/></l>              <r>anglicano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>anglitzismu<s n="n"/><s n="m"/></l>    <r>anglicismo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>anglu-americanu<s n="adj"/></l>        <r>anglu-americano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-americanu<s n="adj"/></l>        <r>anglu-americano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-australianu<s n="adj"/></l>      <r>anglu-australiano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-australianu<s n="adj"/></l>      <r>anglu-australiano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-caraibicu<s n="adj"/></l>        <r>anglu-caraibico<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-caraibicu<s n="adj"/></l>        <r>anglu-caraibico<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-egitzianu<s n="adj"/></l>        <r>anglu-egiziano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-egitzianu<s n="adj"/></l>        <r>anglu-egiziano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-francu-americanu<s n="adj"/></l> <r>anglu-franco-americano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-francu-americanu<s n="adj"/></l> <r>anglu-franco-americano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-indianu<s n="adj"/></l>          <r>anglu-indiano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-indianu<s n="adj"/></l>          <r>anglu-indiano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-iranianu<s n="adj"/></l>         <r>anglu-iraniano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-iranianu<s n="adj"/></l>         <r>anglu-iraniano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-irlandesu<s n="adj"/></l>        <r>anglu-irlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>anglu-israelianu<s n="adj"/></l>       <r>anglu-israeliano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-israelianu<s n="adj"/></l>       <r>anglu-israeliano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-italianu<s n="adj"/></l>         <r>anglu-italiano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-italianu<s n="adj"/></l>         <r>anglu-italiano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-olandesu<s n="adj"/></l>         <r>anglu-olandese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>anglu-pakistanu<s n="adj"/></l>        <r>anglu-pakistano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-pakistanu<s n="adj"/></l>        <r>anglu-pakistano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-palestinesu<s n="adj"/></l>      <r>anglu-palestinese<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>anglu-russu<s n="adj"/></l>            <r>anglu-russo<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-russu<s n="adj"/></l>            <r>anglu-russo<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>anglu-sovièticu<s n="adj"/></l>        <r>anglu-sovietico<s n="adj"/></r></p></e>
-<e r="RL"><p><l>anglu-sovièticu<s n="adj"/></l>        <r>anglu-sovietico<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-americanu<s n="adj"/></l>        <r>anglo-americano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-americanu<s n="adj"/></l>        <r>anglo-americano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-australianu<s n="adj"/></l>      <r>anglo-australiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-australianu<s n="adj"/></l>      <r>anglo-australiano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-caraibicu<s n="adj"/></l>        <r>anglo-caraibico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-caraibicu<s n="adj"/></l>        <r>anglo-caraibico<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-egitzianu<s n="adj"/></l>        <r>anglo-egiziano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-egitzianu<s n="adj"/></l>        <r>anglo-egiziano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-franco-americanu<s n="adj"/></l> <r>anglo-franco-americano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-franco-americanu<s n="adj"/></l> <r>anglo-franco-americano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-indianu<s n="adj"/></l>          <r>anglo-indiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-indianu<s n="adj"/></l>          <r>anglo-indiano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-iranianu<s n="adj"/></l>         <r>anglo-iraniano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-iranianu<s n="adj"/></l>         <r>anglo-iraniano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-irlandesu<s n="adj"/></l>        <r>anglo-irlandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>anglo-israelianu<s n="adj"/></l>       <r>anglo-israeliano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-israelianu<s n="adj"/></l>       <r>anglo-israeliano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-italianu<s n="adj"/></l>         <r>anglo-italiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-italianu<s n="adj"/></l>         <r>anglo-italiano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-olandesu<s n="adj"/></l>         <r>anglo-olandese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>anglo-pakistanu<s n="adj"/></l>        <r>anglo-pakistano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-pakistanu<s n="adj"/></l>        <r>anglo-pakistano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-palestinesu<s n="adj"/></l>      <r>anglo-palestinese<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>anglo-russu<s n="adj"/></l>            <r>anglo-russo<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-russu<s n="adj"/></l>            <r>anglo-russo<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>anglo-sovièticu<s n="adj"/></l>        <r>anglo-sovietico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>anglo-sovièticu<s n="adj"/></l>        <r>anglo-sovietico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>angloamericanu<s n="n"/></l>           <r>angloamericano<s n="n"/></r></p></e>
 <e>       <p><l>angloamericanu<s n="adj"/></l>         <r>angloamericano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>angloamericanu<s n="adj"/></l>         <r>angloamericano<s n="adj"/><s n="sup"/></r></p></e>
@@ -10080,24 +10080,24 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Francisco<s n="np"/><s n="ant"/><s n="m"/></l><r>Francisco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Franco<s n="np"/><s n="cog"/><s n="mf"/></l><r>Franco<s n="np"/><s n="cog"/><s n="mf"/></r></p></e>
 <e>       <p><l>Franco<s n="np"/><s n="ant"/><s n="m"/></l><r>Franco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>francu-britànnicu<s n="adj"/></l>      <r>franco-britannico<s n="adj"/></r></p></e>
-<e r="RL"><p><l>francu-britànnicu<s n="adj"/></l>      <r>franco-britannico<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>francu-iranianu<s n="adj"/></l>        <r>franco-iraniano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>francu-iranianu<s n="adj"/></l>        <r>franco-iraniano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>francu-italianu<s n="adj"/></l>        <r>franco-italiano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>francu-italianu<s n="adj"/></l>        <r>franco-italiano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>francu-proventzale<s n="adj"/></l>     <r>franco-provenzale<s n="adj"/></r></p></e>
-<e>       <p><l>francu-proventzale<s n="n"/><s n="m"/></l><r>franco-provenzale<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>francu-prussianu<s n="adj"/></l>       <r>franco-prussiano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>francu-prussianu<s n="adj"/></l>       <r>franco-prussiano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>francu-tedescu<s n="adj"/></l>         <r>franco-tedesco<s n="adj"/></r></p></e>
+<e>       <p><l>franco-britànnicu<s n="adj"/></l>      <r>franco-britannico<s n="adj"/></r></p></e>
+<e r="RL"><p><l>franco-britànnicu<s n="adj"/></l>      <r>franco-britannico<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>franco-iranianu<s n="adj"/></l>        <r>franco-iraniano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>franco-iranianu<s n="adj"/></l>        <r>franco-iraniano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>franco-italianu<s n="adj"/></l>        <r>franco-italiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>franco-italianu<s n="adj"/></l>        <r>franco-italiano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>franco-proventzale<s n="adj"/></l>     <r>franco-provenzale<s n="adj"/></r></p></e>
+<e>       <p><l>franco-proventzale<s n="n"/><s n="m"/></l><r>franco-provenzale<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>franco-prussianu<s n="adj"/></l>       <r>franco-prussiano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>franco-prussianu<s n="adj"/></l>       <r>franco-prussiano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>franco-tedescu<s n="adj"/></l>         <r>franco-tedesco<s n="adj"/></r></p></e>
 <e>       <p><l>francofìlia<s n="n"/><s n="f"/></l>    <r>francofilia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>francofòbia<s n="n"/><s n="f"/></l>    <r>francofobia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>francuproventzale<s n="adj"/></l>      <r>francoprovenzale<s n="adj"/></r></p></e>
-<e>       <p><l>francuproventzale<s n="n"/><s n="m"/></l><r>francoprovenzale<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>francu<s n="adj"/></l><r>franco<s n="adj"/></r></p></e>
+<e>       <p><l>francoproventzale<s n="adj"/></l>      <r>francoprovenzale<s n="adj"/></r></p></e>
+<e>       <p><l>francoproventzale<s n="n"/><s n="m"/></l><r>francoprovenzale<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>francu<s n="n"/></l>                   <r>franco<s n="n"/></r></p></e>
+<e r="RL"><p><l>francu<s n="adj"/></l>                 <r>franco<s n="adj"/></r></p></e>
 <e r="RL"><p><l>francu<s n="adj"/></l>                 <r>franco<s n="adj"/><s n="sup"/></r></p></e>
-<e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>francu<s n="n"/></l><r>franco<s n="n"/></r></p></e>
 <e>       <p><l>francu<s n="n"/></l>                   <r>netto<s n="n"/></r></p></e>
 <e>       <p><l>francu<s n="adj"/></l>                 <r>netto<s n="adj"/></r></p></e>
 <e r="RL"><p><l>francu<s n="adj"/></l>                 <r>netto<s n="adj"/><s n="sup"/></r></p></e>
@@ -14214,13 +14214,13 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Italina<s n="np"/><s n="ant"/><s n="f"/></l><r>Italina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Italio<s n="np"/><s n="ant"/><s n="m"/></l><r>Italio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Italo<s n="np"/><s n="ant"/><s n="m"/></l><r>Italo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>italu-americanu<s n="adj"/></l>        <r>italo-americano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>italu-americanu<s n="adj"/></l>        <r>italo-americano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>italu-austrìacu<s n="adj"/></l>        <r>italo-austriaco<s n="adj"/></r></p></e>
-<e r="RL"><p><l>italu-austrìacu<s n="adj"/></l>        <r>italo-austriaco<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>italuamericanu<s n="n"/></l>           <r>italoamericano<s n="n"/></r></p></e>
-<e>       <p><l>italuamericanu<s n="adj"/></l>         <r>italoamericano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>italuamericanu<s n="adj"/></l>         <r>italoamericano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>italo-americanu<s n="adj"/></l>        <r>italo-americano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>italo-americanu<s n="adj"/></l>        <r>italo-americano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>italo-austrìacu<s n="adj"/></l>        <r>italo-austriaco<s n="adj"/></r></p></e>
+<e r="RL"><p><l>italo-austrìacu<s n="adj"/></l>        <r>italo-austriaco<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>italoamericanu<s n="n"/></l>           <r>italoamericano<s n="n"/></r></p></e>
+<e>       <p><l>italoamericanu<s n="adj"/></l>         <r>italoamericano<s n="adj"/></r></p></e>
+<e r="RL"><p><l>italoamericanu<s n="adj"/></l>         <r>italoamericano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>italòfonu<s n="adj"/></l>              <r>italofono<s n="adj"/></r></p></e>
 <e>       <p><l>italòfonu<s n="n"/></l>                <r>italofono<s n="n"/></r></p></e>
 <e r="RL"><p><l>italòfonu<s n="n"/></l>                <r>italianofono<s n="n"/></r></p></e>
