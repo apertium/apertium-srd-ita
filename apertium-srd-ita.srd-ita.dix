@@ -26428,6 +26428,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>Andrés<s n="np"/><s n="ant"/><s n="m"/></l><r>Andrés<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Ángela<s n="np"/><s n="ant"/><s n="f"/></l><r>Ángela<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
       <e><p><l>anglosàssone<s n="adj"/></l><r>anglosassone<s n="adj"/></r></p></e>
+      <e r="RL"><p><l>anglosàssone<s n="adj"/></l><r>anglo-sassone<s n="adj"/></r></p></e>
       <e><p><l>Ankara<s n="np"/><s n="top"/><s n="f"/></l><r>Ankara<s n="np"/><s n="loc"/><s n="f"/></r></p></e>
       <e><p><l>Antoine<s n="np"/><s n="ant"/><s n="m"/></l><r>Antoine<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
       <e><p><l>Apollo<s n="np"/><s n="ant"/><s n="m"/></l><r>Apollo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -26950,6 +26951,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 
       <e><p><l>amminoàtzidu<s n="n"/><s n="m"/></l><r>amminoacido<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>anglosàssone<s n="n"/><s n="mf"/></l><r>anglosassone<s n="n"/><s n="mf"/></r></p></e>
+      <e r="RL"><p><l>anglosàssone<s n="n"/><s n="mf"/></l><r>anglo-sassone<s n="n"/><s n="mf"/></r></p></e>
       <e><p><l>assu<s n="n"/><s n="m"/></l><r>asso<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>àtzidu<s n="n"/><s n="m"/></l><r>acido<s n="n"/><s n="m"/></r></p></e>
       <e><p><l>Batasuna<s n="np"/><s n="al"/><s n="f"/></l><r>Batasuna<s n="np"/><s n="al"/><s n="m"/></r></p></e>
@@ -27717,6 +27719,12 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
       <e><p><l>retada<s n="n"/><s n="f"/></l><r>retata<s n="n"/><s n="f"/></r></p></e>
       <e><p><l>tzascada<s n="n"/><s n="f"/></l><r>cascata<s n="n"/><s n="f"/></r></p></e>
       <e r="LR"><p><l>tzilindrada<s n="n"/><s n="f"/></l><r>cilindrata<s n="n"/><s n="f"/></r></p></e>
+
+      <e><p><l>franco<s n="adj"/><s n="mf"/><s n="sp"/></l><r>franco<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>italo<s n="adj"/><s n="mf"/><s n="sp"/></l><r>italo<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>anglo<s n="adj"/><s n="mf"/><s n="sp"/></l><r>anglo<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>germano<s n="adj"/><s n="mf"/><s n="sp"/></l><r>germano<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e><p><l>ispano<s n="adj"/><s n="mf"/><s n="sp"/></l><r>ispano<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 
 <e>       <p><l>tres<s n="n"/><s n="mf"/></l>      <r>terzo<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
 <e>       <p><l>bator<s n="n"/><s n="mf"/></l>     <r>quarto<s n="n"/><s n="m"/></r></p><par n="sp_ND"/></e>
