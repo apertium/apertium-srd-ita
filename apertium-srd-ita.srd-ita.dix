@@ -27622,6 +27622,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>otaedru<s n="n"/><s n="m"/></l>        <r>ottaedro<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>puzzle<s n="n"/><s n="m"/><s n="sp"/></l><r>puzzle<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>valutàbile<s n="adj"/></l>             <r>valutabile<s n="adj"/></r></p></e>
+<e r="RL"><p><l>valutàbile<s n="adj"/></l>             <r>valutabile<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 
 
   </section>
