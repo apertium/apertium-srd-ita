@@ -443,6 +443,32 @@
       <list-item v="ottavo"/>
       <list-item v="nono"/>
     </def-list>
+   <def-list n="vbambser">
+      <list-item v="andare"/>
+      <list-item v="crèschere"/>
+      <list-item v="frenare"/>
+      <list-item v="divenire"/>
+      <list-item v="arribbare"/>
+      <list-item v="intrare"/>
+      <list-item v="nàschere"/>
+      <list-item v="partire"/>
+      <list-item v="restare"/>
+      <list-item v="bènnere"/>
+      <list-item v="essire"/>
+      <list-item v="fugire"/>
+      <list-item v="isfugire"/>
+      <list-item v="colare"/>
+      <list-item v="èssere"/>
+      <list-item v="istare"/>
+      <list-item v="pèndere"/>
+      <list-item v="artziare"/>
+      <list-item v="bàlere"/>
+      <list-item v="sèere"/>
+      <list-item v="pròere"/>
+      <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
+      <list-item v="abbigiare"/>	<!-- perquè pron (crec) -->
+<!--      <list-item v="torrare"/> cas especial -->
+    </def-list>
 </section-def-lists>
 
 <section-def-macros>
@@ -5970,6 +5996,7 @@
     </rule>
 
 
+<!--
     <rule comment="regla: ifi">
        <pattern>
          <pattern-item n="ifi_novbser"/>
@@ -6003,8 +6030,80 @@
          </out>
        </action>
     </rule>
+-->
 
 
+<rule comment="regla: ifi">
+   <pattern>
+     <pattern-item n="ifi"/>
+   </pattern>
+   <action>
+     <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+     <choose>
+       <when>
+         <test>
+           <or>
+             <in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="vbambser"/></in>
+	     <and>
+	       <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="torrare"/></equal>
+	       <equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal>
+	     </and>
+           </or>
+         </test>
+         <out>
+           <chunk name="èssere_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pri"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pp.m"/>				<!-- FIXME: depèn del gènere i nombre del subjecte -->
+                 <clip pos="1" side="tl" part="nbr"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="àere_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                   <lit v="àere"/>
+                 </get-case-from>
+                 <lit-tag v="vbhaver.pri"/>
+                 <clip pos="1" side="tl" part="pers"/>
+                 <clip pos="1" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="1" side="tl" part="lemh"/>
+                 <clip pos="1" side="tl" part="a_verb"/>
+                 <lit-tag v="pp.m.sg"/>
+                 <clip pos="1" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
+
+<!--
     <rule comment="regla: vbser_ifi">
        <pattern>
          <pattern-item n="vbser_ifi"/>
@@ -6038,6 +6137,7 @@
          </out>
        </action>
     </rule>
+-->
 
 
     <rule comment="regla: fti">
