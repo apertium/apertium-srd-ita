@@ -2,7 +2,7 @@
 ## Makefile for Sardinian--Italian
 ###############################################################################
 
-VERSION=0.9.0
+VERSION=0.9.5
 LANG1=srd
 LANG2=ita
 PREFIX1=$(LANG1)-$(LANG2)
