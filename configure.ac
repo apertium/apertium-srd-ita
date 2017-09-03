@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Sardinian-Italian], [0.9.0], [francis.tyers@uit.no], [apertium-srd-ita], [http://wiki.apertium.org/wiki/Apertium-srd-ita])
+AC_INIT([Apertium Sardinian-Italian], [0.9.5], [francis.tyers@uit.no], [apertium-srd-ita], [http://wiki.apertium.org/wiki/Apertium-srd-ita])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
