@@ -3741,7 +3741,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>biancu<s n="n"/></l>                   <r>bianco<s n="n"/></r></p></e>
 <e r="RL"><p><l>biancu<s n="adj"/></l>                 <r>bianco<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Bianore<s n="np"/><s n="ant"/><s n="m"/></l><r>Bianore<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e>       <p><l>bibbia<s n="n"/><s n="f"/></l>         <r>bibbia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Bibbiano<s n="np"/><s n="ant"/><s n="m"/></l><r>Bibbiano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Bibiana<s n="np"/><s n="ant"/><s n="f"/></l><r>Bibiana<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Bibiano<s n="np"/><s n="ant"/><s n="m"/></l><r>Bibiano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -4288,8 +4287,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>bèrtula<s n="n"/><s n="f"/></l>        <r>bisaccia<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bèstia<s n="n"/><s n="f"/></l>         <r>bestia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bèvida<s n="n"/><s n="f"/></l>         <r>bevanda<s n="n"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>bìbbia<s n="n"/><s n="f"/></l><r>bibbia<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>bìblia<s n="n"/><s n="f"/></l>         <r>bibbia<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>bìbbia<s n="n"/><s n="f"/></l>         <r>bibbia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>bìblia<s n="n"/><s n="f"/></l>         <r>bibbia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bìblicu<s n="adj"/></l>                <r>biblico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>bìblicu<s n="adj"/></l>                <r>biblico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>bìculu<s n="n"/><s n="m"/></l>         <r>vicolo<s n="n"/><s n="m"/></r></p></e>
