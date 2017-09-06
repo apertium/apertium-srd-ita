@@ -4415,14 +4415,14 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>cale<s n="adj"/><s n="itg"/></l>       <r>quale<s n="adj"/><s n="itg"/></r></p></e>
 <e>       <p><l>calendàriu<s n="n"/><s n="m"/></l>     <r>calendario<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>calentura<s n="n"/><s n="f"/></l>      <r>febbre<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>calesi<b/>cherzat<s n="adj"/></l>      <r>qualsivoglia<s n="adj"/></r></p></e>
-<e r="RL"><p><l>calesi<b/>cherzat<s n="adj"/></l>      <r>qualsivoglia<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>calesi<b/>siat<s n="adj"/></l>         <r>qualsiasi<s n="adj"/></r></p></e>
-<e r="RL"><p><l>calesi<b/>siat<s n="adj"/></l>         <r>qualsiasi<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>calesi<b/>siat<s n="adj"/></l>         <r>qualsiasia<s n="adj"/></r></p></e>
-<e r="RL"><p><l>calesi<b/>siat<s n="adj"/></l>         <r>qualsiasia<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>calesi<b/>siat<s n="adj"/></l>         <r>qualunque<s n="adj"/></r></p></e>
-<e r="RL"><p><l>calesi<b/>siat<s n="adj"/></l>         <r>qualunque<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>cale<b/>si<b/>cherzat<s n="adj"/></l>      <r>qualsivoglia<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cale<b/>si<b/>cherzat<s n="adj"/></l>      <r>qualsivoglia<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>cale<b/>si<b/>siat<s n="adj"/></l>         <r>qualsiasi<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cale<b/>si<b/>siat<s n="adj"/></l>         <r>qualsiasi<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>cale<b/>si<b/>siat<s n="adj"/></l>         <r>qualsiasia<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cale<b/>si<b/>siat<s n="adj"/></l>         <r>qualsiasia<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>cale<b/>si<b/>siat<s n="adj"/></l>         <r>qualunque<s n="adj"/></r></p></e>
+<e r="RL"><p><l>cale<b/>si<b/>siat<s n="adj"/></l>         <r>qualunque<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>calesse<s n="n"/><s n="m"/></l>        <r>calesse<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>calibrare<s n="vblex"/></l>            <r>calibrare<s n="vblex"/></r></p></e>
 <e>       <p><l>calidade<s n="n"/><s n="f"/></l>       <r>qualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
@@ -25910,8 +25910,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cale<s n="prn"/><s n="itg"/></l>       <r>quale<s n="prn"/><s n="itg"/></r></p></e>
 <e>       <p><l>cale<s n="prn"/></l>                   <r>quale<s n="prn"/></r></p></e>
 <e>       <p><l>cale<b/>si<b/>siat<b/>cosa<s n="prn"/><s n="tn"/></l><r>qualsiasi<b/>cosa<s n="prn"/><s n="tn"/></r></p></e>
-<e>       <p><l>calesi<b/>chi<b/>siat<s n="prn"/><s n="tn"/></l><r>qualsiasi<s n="prn"/><s n="tn"/></r></p></e>
-<e>       <p><l>calesi<b/>siat<s n="prn"/><s n="tn"/></l><r>chiunque<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>cale<b/>si<b/>chi<b/>siat<s n="prn"/><s n="tn"/></l><r>qualsiasi<s n="prn"/><s n="tn"/></r></p></e>
+<e>       <p><l>cale<b/>si<b/>siat<s n="prn"/><s n="tn"/></l><r>chiunque<s n="prn"/><s n="tn"/></r></p></e>
 <e>       <p><l>calicunu<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>calicunu<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></l><r>alcuno<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>calicunu<s n="prn"/><s n="tn"/></l>    <r>qualche<s n="prn"/><s n="tn"/></r></p></e>
