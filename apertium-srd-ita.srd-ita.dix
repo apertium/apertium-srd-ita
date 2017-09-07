@@ -231,6 +231,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>bortas<s n="adv"/></l>            <r>talvolta<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>caddu<s n="adv"/></l>             <r>a<b/>cavallo<s n="adv"/></r></p></e>
 <e r="LR"><p><l>a<b/>coa<s n="adv"/></l>               <r>dopo<s n="adv"/></r></p></e>
+<e i="yes"><p><l>a<b/>coa<s n="adv"/></l>               <r>poi<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>cuddae<s n="adv"/></l>            <r>laggiù<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>cue<s n="adv"/></l>               <r>lì<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>curtzu<s n="adv"/></l>            <r>vicino<s n="adv"/></r></p></e>
@@ -262,7 +263,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>a<b/>inghìriu<s n="adv"/></l>          <r>dintorno<s n="adv"/></r></p></e>
       <!-- <e><p><l>paris<s n="adv"/></l><r>insieme<s n="adv"/></r></p></e> FIXME -->
 <e>       <p><l>a<b/>inghìriu<s n="adv"/></l>          <r>intorno<s n="adv"/></r></p></e>
-<e>       <p><l>a<b/>inoghe<s n="adv"/></l>            <r>qui<s n="adv"/></r></p></e>
+<e r="LR"><p><l>a<b/>inoghe<s n="adv"/></l>            <r>qui<s n="adv"/></r></p></e>
+<e r="LR"><p><l>in<b/>gosi<s n="adv"/></l>             <r>qui<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>intro<s n="adv"/></l>             <r>dentro<s n="adv"/></r></p></e>
 <e r="RL"><p><l>a<b/>largu<s n="adv"/></l>             <r>a<b/>largo<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>largu<s n="adv"/></l>             <r>lontano<s n="adv"/></r></p></e>
@@ -285,7 +287,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>a<b/>prou<s n="adv"/></l>              <r>perfettamente<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>prus<s n="adv"/></l>              <r>tra<b/>l'altro<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>pustis<s n="adv"/></l>            <r>dopo<s n="adv"/></r></p></e>
-<e i="yes"><p><l>a<b/>pustis<s n="adv"/></l>           <r>poi<s n="adv"/></r></p></e>
+<e r="LR"><p><l>a<b/>pustis<s n="adv"/></l>            <r>poi<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>s'annu<s n="adv"/></l>            <r>all'anno<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>s'imbesse<s n="adv"/></l>         <r>al<b/>rovescio<s n="adv"/></r></p></e>
 <e>       <p><l>a<b/>s'ispessada<s n="adv"/></l>       <r>inaspettatamente<s n="adv"/></r></p></e>
@@ -4911,7 +4913,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>castàngia<s n="n"/><s n="f"/></l>      <r>castagna<s n="n"/><s n="f"/></r></p></e>
 <e r="RL"><p><l>castàngiu<s n="adj"/></l>              <r>marrone<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>castàngiu<s n="adj"/></l>              <r>marrone<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>Castìglia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Castiglia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Castìllia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Castiglia<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>casu<s n="n"/><s n="m"/></l>           <r>caso<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>casu<s n="n"/><s n="m"/></l>           <r>formaggio<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>casuale<s n="adj"/></l>                <r>casuale<s n="adj"/></r></p></e>
@@ -5382,6 +5384,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>colare<s n="vblex"/></l>               <r>passare<s n="vblex"/></r></p></e>
 <e>       <p><l>colare<s n="vblex"/></l>               <r>trascorrere<s n="vblex"/></r></p></e>
 <e>       <p><l>colera<s n="n"/><s n="m"/><s n="sg"/></l><r>colera<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+<e>       <p><l>computer<s n="n"/><s n="m"/><s n="sp"/></l><r>computer<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>colesterolu<s n="n"/><s n="m"/></l>    <r>colesterolo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>collaboradore<s n="n"/></l>            <r>collaboratore<s n="n"/></r></p></e>
 <e>       <p><l>collaboradu<s n="adj"/></l>            <r>collaborato<s n="adj"/></r></p></e>
@@ -18900,8 +18903,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>poetare<s n="vblex"/></l>              <r>poetare<s n="vblex"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>poete<s n="n"/><s n="m"/></l><r>poeta<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Poggio<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Poggio<s n="np"/><s n="loc"/><s n="f"/><s n="sg"/></r></p></e>
-<e r="LR"><p><l>poi<s n="adv"/></l>                    <r>poi<s n="adv"/></r></p></e>
-<e r="LR"><p><l>pois<s n="adv"/></l>                   <r>poi<s n="adv"/></r></p></e>
 <e>       <p><l>poju<s n="n"/><s n="m"/></l>           <r>pozzanghera<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Pokemon<s n="n"/><s n="m"/></l>        <r>Pokemon<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>Pokémon<s n="n"/><s n="m"/></l>        <r>Pokémon<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
