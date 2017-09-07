@@ -4892,14 +4892,12 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>castigadu<s n="adj"/></l>              <r>castigato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>castigadu<s n="adj"/></l>              <r>castigato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>castigare<s n="vblex"/></l>            <r>castigare<s n="vblex"/></r></p></e>
-<e>       <p><l>castiglianu<s n="adj"/></l>            <r>castigliano<s n="adj"/></r></p></e>
-<e>       <p><l>castiglianu<s n="n"/></l>              <r>castigliano<s n="n"/></r></p></e>
-<e r="RL"><p><l>castiglianu<s n="adj"/></l>            <r>castigliano<s n="adj"/><s n="sup"/></r></p></e>
+<e>       <p><l>castillianu<s n="adj"/></l>            <r>castigliano<s n="adj"/></r></p></e>
+<e>       <p><l>castillianu<s n="n"/></l>              <r>castigliano<s n="n"/></r></p></e>
+<e r="RL"><p><l>castillianu<s n="adj"/></l>            <r>castigliano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Castiglione<s n="np"/><s n="cog"/></l> <r>Castiglione<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Castiglione<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Castiglione<s n="np"/><s n="loc"/><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l>castigu<s n="n"/><s n="m"/></l>        <r>castigo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>castillianu<s n="adj"/></l>            <r>castigliano<s n="adj"/></r></p></e>
-<e r="RL"><p><l>castillianu<s n="adj"/></l>            <r>castigliano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Castore<s n="np"/><s n="ant"/><s n="m"/></l><r>Castore<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Castorina<s n="np"/><s n="ant"/><s n="f"/></l><r>Castorina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>castoru<s n="n"/><s n="m"/></l>        <r>castoro<s n="n"/><s n="m"/></r></p></e>
@@ -21400,12 +21398,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>ispanòfonu<s n="adj"/></l>             <r>ispanoparlante<s n="adj"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>ispanòfonu<s n="n"/></l>               <r>ispanofono<s n="n"/></r></p></e>
 <e>       <p><l>ispanòfonu<s n="adj"/></l>             <r>ispanofono<s n="adj"/></r></p></e>
-<e r="RL"><p><l>castiglianòfonu<s n="n"/></l>          <r>castiglianoparlante<s n="n"/></r></p><par n="GD_mf"/></e>
-<e r="RL"><p><l>castiglianòfonu<s n="adj"/></l>        <r>castiglianoparlante<s n="adj"/></r></p><par n="GD_mf"/></e>
-<e>       <p><l>castiglianòfonu<s n="n"/></l>          <r>castiglianofono<s n="n"/></r></p></e>
-<e>       <p><l>castiglianòfonu<s n="adj"/></l>        <r>castiglianofono<s n="adj"/></r></p></e>
-<e r="LR"><p><l>castillanòfonu<s n="n"/></l>           <r>castiglianofono<s n="n"/></r></p></e>
-<e r="LR"><p><l>castillanòfonu<s n="adj"/></l>         <r>castiglianofono<s n="adj"/></r></p></e>
+<e r="RL"><p><l>castillianòfonu<s n="n"/></l>          <r>castiglianoparlante<s n="n"/></r></p><par n="GD_mf"/></e>
+<e r="RL"><p><l>castillianòfonu<s n="adj"/></l>        <r>castiglianoparlante<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e>       <p><l>castillianòfonu<s n="n"/></l>          <r>castiglianofono<s n="n"/></r></p></e>
+<e>       <p><l>castillianòfonu<s n="adj"/></l>        <r>castiglianofono<s n="adj"/></r></p></e>
 <e>       <p><l>sardònicu<s n="adj"/></l>              <r>sardonico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>sardònicu<s n="adj"/></l>              <r>sardonico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Saria<s n="np"/><s n="ant"/><s n="f"/></l><r>Saria<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
