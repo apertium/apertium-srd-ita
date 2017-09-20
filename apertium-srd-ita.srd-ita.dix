@@ -5117,7 +5117,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>chi<b/>ofendet<s n="adj"/></l>         <r>offensivo<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>chi<b/>riguardat<s n="adj"/><s n="mf"/></l><r>riguardante<s n="adj"/><s n="mf"/></r></p></e>
 <e>       <p><l>chi<b/>tenet<s n="adj"/><s n="mf"/></l><r>avente<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>chi<b/>torrat<b/>a<b/>artziare<s n="adj"/><s n="mf"/></l><r>risalente<s n="adj"/><s n="mf"/></r></p></e>
+<e>       <p><l>chi<b/>torrat<b/>a<b/>artziare<s n="adj"/><s n="mf"/></l><r>risalente<s n="adj"/><s n="mf"/></r></p></e> <!-- risalente també "que data" -->
 <e r="LR"><p><l>chia<s n="n"/><s n="f"/></l>           <r>volta<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Chianetta<s n="np"/><s n="cog"/></l>   <r>Chianetta<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Chiara<s n="np"/><s n="ant"/><s n="f"/></l><r>Chiara<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -6337,9 +6337,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cumentzare<s n="vblex"/></l>           <r>avviare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>cumentzare<s n="vblex"/></l><r>cominciare<s n="vblex"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>cumentzu<s n="n"/><s n="m"/></l><r>inizio<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>cumertziale<s n="adj"/></l>            <r>commerciale<s n="adj"/></r></p></e>
+<e>       <p><l>cummertziale<s n="adj"/></l>            <r>commerciale<s n="adj"/></r></p></e>
       <!--<e r="RL"><p><l>cumbivisore<s n="adj"/></l><r>convivente<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>-->
-<e r="RL"><p><l>cumertziale<s n="adj"/></l>            <r>commerciale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>cummertziale<s n="adj"/></l>            <r>commerciale<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>cumintzadu<s n="adj"/></l>             <r>cominciato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>cumintzadu<s n="adj"/></l>             <r>cominciato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>cumintzare<s n="vblex"/></l>           <r>cominciare<s n="vblex"/></r></p></e>
@@ -10081,6 +10081,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Franceschino<s n="np"/><s n="ant"/><s n="m"/></l><r>Franceschino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Francesco<s n="np"/><s n="ant"/><s n="m"/></l><r>Francesco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Frantziscu<s n="np"/><s n="ant"/><s n="m"/></l><r>Francesco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Frantziscu<b/>Giosepe<s n="np"/><s n="ant"/><s n="m"/></l><r>Francesco<b/>Giuseppe<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Franchi<s n="np"/><s n="cog"/></l>     <r>Franchi<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Franchina<s n="np"/><s n="ant"/><s n="f"/></l><r>Franchina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>franchista<s n="adj"/></l>             <r>franchista<s n="adj"/></r></p><par n="mf_GD"/></e>
@@ -10437,7 +10438,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Gagliano<s n="np"/><s n="cog"/></l>    <r>Gagliano<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>gai<b/>naradu<s n="adj"/></l>          <r>cosiddetto<s n="adj"/></r></p></e>
 <e>       <p><l>Gaia<s n="np"/><s n="ant"/><s n="f"/></l><r>Gaia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
-<e>       <p><l>Gaio<s n="np"/><s n="ant"/><s n="m"/></l><r>Gaio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Gàiu<s n="np"/><s n="ant"/><s n="m"/></l><r>Gaio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e r="LR"><p><l>Gaio<s n="np"/><s n="ant"/><s n="m"/></l><r>Gaio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>galante<s n="adj"/></l>                <r>galante<s n="adj"/></r></p></e>
 <e r="RL"><p><l>galante<s n="adj"/></l>                <r>galante<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e r="RL"><p><l>galanu<s n="adj"/></l>                 <r>piacevole<s n="adj"/><s n="sup"/></r></p></e>
@@ -11018,6 +11020,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Giuliano<s n="np"/><s n="ant"/><s n="m"/></l><r>Giuliano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Giulietta<s n="np"/><s n="ant"/><s n="f"/></l><r>Giulietta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Giulio<s n="np"/><s n="ant"/><s n="m"/></l><r>Giulio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Giùliu<s n="np"/><s n="ant"/><s n="m"/></l><r>Giulio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Giùliu<b/>Tzèsare<s n="np"/><s n="ant"/><s n="m"/></l><r>Giulio<b/>CCere<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Giulio<s n="np"/><s n="cog"/></l>      <r>Giulio<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Giummarra<s n="np"/><s n="cog"/></l>   <r>Giummarra<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>giumpare<s n="vblex"/></l>             <r>guadare<s n="vblex"/></r></p></e>
@@ -11045,6 +11049,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>giurìdicu<s n="adj"/></l>              <r>giuridico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Giuseppa<s n="np"/><s n="ant"/><s n="f"/></l><r>Giuseppa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Giuseppe<s n="np"/><s n="ant"/><s n="m"/></l><r>Giuseppe<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Giosepe<s n="np"/><s n="ant"/><s n="m"/></l><r>Giuseppe<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Giuseppina<s n="np"/><s n="ant"/><s n="f"/></l><r>Giuseppina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Giusi<s n="np"/><s n="ant"/><s n="f"/></l><r>Giusi<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Giusta<s n="np"/><s n="ant"/><s n="f"/></l><r>Giusta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -11960,7 +11965,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>in<b/>manera<b/>crìtica<s n="adv"/></l><r>criticamente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>cubada<s n="adv"/></l> <r>copertamente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>culturale<s n="adv"/></l><r>culturalmente<s n="adv"/></r></p></e>
-<e>       <p><l>in<b/>manera<b/>cumertziale<s n="adv"/></l><r>commercialmente<s n="adv"/></r></p></e>
+<e>       <p><l>in<b/>manera<b/>cummertziale<s n="adv"/></l><r>commercialmente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>cumparativa<s n="adv"/></l><r>comparativamente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>cumpatìbile<s n="adv"/></l><r>compatibilmente<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>manera<b/>cumpleta<s n="adv"/></l><r>esaustivamente<s n="adv"/></r></p></e>
@@ -15463,6 +15468,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Marciano<s n="np"/><s n="ant"/><s n="m"/></l><r>Marciano<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>marciare<s n="vblex"/></l><r>marciare<s n="vblex"/></r></p></e>
 <e>       <p><l>Marco<s n="np"/><s n="ant"/><s n="m"/></l><r>Marco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Marcu<s n="np"/><s n="ant"/><s n="m"/></l><r>Marco<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Marcolfa<s n="np"/><s n="ant"/><s n="f"/></l><r>Marcolfa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Marcolina<s n="np"/><s n="ant"/><s n="f"/></l><r>Marcolina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Marconi<s n="np"/><s n="cog"/></l>     <r>Marconi<s n="np"/><s n="cog"/></r></p></e>
@@ -15697,6 +15703,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Mattea<s n="np"/><s n="ant"/><s n="f"/></l><r>Mattea<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Matteina<s n="np"/><s n="ant"/><s n="f"/></l><r>Matteina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Matteo<s n="np"/><s n="ant"/><s n="m"/></l><r>Matteo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>       <p><l>Mateu<s n="np"/><s n="ant"/><s n="m"/></l><r>Matteo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Matthew<s n="np"/><s n="ant"/><s n="m"/></l><r>Matthew<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Mattia<s n="np"/><s n="ant"/><s n="m"/></l><r>Mattia<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>maturatzione<s n="n"/><s n="f"/></l><r>maturazione<s n="n"/><s n="f"/></r></p></e>

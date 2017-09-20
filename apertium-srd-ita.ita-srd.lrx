@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <rules>
 
   <rule weight="1.0">
@@ -180,14 +182,15 @@
   </rule>
 
 
-<!-- PP DA -->
+<!-- da > de, dae -->
+
+  <rule weight="0.6">
+     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
 
   <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
      <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
      <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
-  </rule>
-  <rule weight="0.6">
-     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
 
 
@@ -1628,6 +1631,198 @@
      </or>
      <match lemma="di" tags="pr"/>
      <match lemma="Massimiliano" tags="np.*"><select lemma="Massimilianu"/></match>
+  </rule>
+
+<!-- Giuseppe > Giuseppe, Giosepe -->
+
+  <rule weight="0.6">
+     <match lemma="Giuseppe" tags="np.*"><select lemma="Giuseppe"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Giuseppe" tags="np.*"><select lemma="Giosepe"/></match>
+     <match lemma="di" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Giuseppe" tags="np.*"><select lemma="Giosepe"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Giuseppe" tags="np.*"><select lemma="Giosepe"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="vescovo" tags="n.*"/>
+       <match lemma="santo" tags="adj.*"/>
+       <match lemma="imperatore" tags="n.*"/>
+       <match lemma="re" tags="n.*"/>
+       <match lemma="zar" tags="n.*"/>
+       <match lemma="viceré" tags="n.*"/>
+       <match lemma="principe" tags="n.*"/>
+       <match lemma="conde" tags="n.*"/>
+       <match lemma="duca" tags="n.*"/>
+       <match lemma="arciduca" tags="n.*"/>
+       <match lemma="marquese" tags="n.*"/>
+       <match lemma="barone" tags="n.*"/>
+     </or>
+     <match lemma="Giuseppe" tags="np.*"><select lemma="Giosepe"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papato" tags="n.*"/>
+       <match lemma="pontificato" tags="n.*"/>
+       <match lemma="impero" tags="n.*"/>
+       <match lemma="regno" tags="n.*"/>
+     </or>
+     <match lemma="di" tags="pr"/>
+     <match lemma="Giuseppe" tags="np.*"><select lemma="Giosepe"/></match>
+  </rule>
+
+<!-- Giulio > Giulio, Giùliu -->
+
+  <rule weight="0.6">
+     <match lemma="Giulio" tags="np.*"><select lemma="Giulio"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Giulio" tags="np.*"><select lemma="Giùliu"/></match>
+     <match lemma="di" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Giulio" tags="np.*"><select lemma="Giùliu"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Giulio" tags="np.*"><select lemma="Giùliu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="vescovo" tags="n.*"/>
+       <match lemma="santo" tags="adj.*"/>
+       <match lemma="imperatore" tags="n.*"/>
+       <match lemma="re" tags="n.*"/>
+       <match lemma="zar" tags="n.*"/>
+       <match lemma="viceré" tags="n.*"/>
+       <match lemma="principe" tags="n.*"/>
+       <match lemma="conde" tags="n.*"/>
+       <match lemma="duca" tags="n.*"/>
+       <match lemma="arciduca" tags="n.*"/>
+       <match lemma="marquese" tags="n.*"/>
+       <match lemma="barone" tags="n.*"/>
+     </or>
+     <match lemma="Giulio" tags="np.*"><select lemma="Giùliu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papato" tags="n.*"/>
+       <match lemma="pontificato" tags="n.*"/>
+       <match lemma="impero" tags="n.*"/>
+       <match lemma="regno" tags="n.*"/>
+     </or>
+     <match lemma="di" tags="pr"/>
+     <match lemma="Giulio" tags="np.*"><select lemma="Giùliu"/></match>
+  </rule>
+
+<!-- Matteo > Matteo, Mateu -->
+
+  <rule weight="0.6">
+     <match lemma="Matteo" tags="np.*"><select lemma="Matteo"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Matteo" tags="np.*"><select lemma="Mateu"/></match>
+     <match lemma="di" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Matteo" tags="np.*"><select lemma="Mateu"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Matteo" tags="np.*"><select lemma="Mateu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="vescovo" tags="n.*"/>
+       <match lemma="santo" tags="adj.*"/>
+       <match lemma="imperatore" tags="n.*"/>
+       <match lemma="re" tags="n.*"/>
+       <match lemma="zar" tags="n.*"/>
+       <match lemma="viceré" tags="n.*"/>
+       <match lemma="principe" tags="n.*"/>
+       <match lemma="conde" tags="n.*"/>
+       <match lemma="duca" tags="n.*"/>
+       <match lemma="arciduca" tags="n.*"/>
+       <match lemma="marquese" tags="n.*"/>
+       <match lemma="barone" tags="n.*"/>
+     </or>
+     <match lemma="Matteo" tags="np.*"><select lemma="Mateu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papato" tags="n.*"/>
+       <match lemma="pontificato" tags="n.*"/>
+       <match lemma="impero" tags="n.*"/>
+       <match lemma="regno" tags="n.*"/>
+     </or>
+     <match lemma="di" tags="pr"/>
+     <match lemma="Matteo" tags="np.*"><select lemma="Mateu"/></match>
+  </rule>
+
+<!-- Marco > Marco, Marcu -->
+
+  <rule weight="0.6">
+     <match lemma="Marco" tags="np.*"><select lemma="Marco"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Marco" tags="np.*"><select lemma="Marcu"/></match>
+     <match lemma="di" tags="pr"/>
+     <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Marco" tags="np.*"><select lemma="Marcu"/></match>
+     <match tags="det.*"/>
+     <match tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Marco" tags="np.*"><select lemma="Marcu"/></match>
+     <match tags="num.*"/>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papa" tags="n.*"/>
+       <match lemma="vescovo" tags="n.*"/>
+       <match lemma="santo" tags="adj.*"/>
+       <match lemma="imperatore" tags="n.*"/>
+       <match lemma="re" tags="n.*"/>
+       <match lemma="zar" tags="n.*"/>
+       <match lemma="viceré" tags="n.*"/>
+       <match lemma="principe" tags="n.*"/>
+       <match lemma="conde" tags="n.*"/>
+       <match lemma="duca" tags="n.*"/>
+       <match lemma="arciduca" tags="n.*"/>
+       <match lemma="marquese" tags="n.*"/>
+       <match lemma="barone" tags="n.*"/>
+     </or>
+     <match lemma="Marco" tags="np.*"><select lemma="Marcu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="papato" tags="n.*"/>
+       <match lemma="pontificato" tags="n.*"/>
+       <match lemma="impero" tags="n.*"/>
+       <match lemma="regno" tags="n.*"/>
+     </or>
+     <match lemma="di" tags="pr"/>
+     <match lemma="Marco" tags="np.*"><select lemma="Marcu"/></match>
   </rule>
 
 <!-- Caterina > Caterina, Callina -->
