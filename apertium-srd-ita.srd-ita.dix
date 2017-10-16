@@ -17307,6 +17307,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR"><p><l>nintzola<s n="n"/><s n="f"/></l>       <r>nocciola<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mèndula<s n="n"/><s n="f"/></l>        <r>mandoria<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>chessa<g><b/>de<b/>monte</g><s n="n"/><s n="f"/></l><r>pistacchio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>lentìgia<s n="n"/><s n="f"/></l>       <r>lenticchia<s n="n"/><s n="f"/></r></p></e>
+<e r="LR"><p><l>gentilla<s n="n"/><s n="f"/></l>       <r>lenticchia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Nuxis<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></l><r>Nuxis<s n="np"/><s n="loc"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>Nuzzo<s n="np"/><s n="ant"/><s n="m"/></l><r>Nuzzo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Nàpoli<s n="np"/><s n="top"/><s n="m"/></l><r>Napoli<s n="np"/><s n="loc"/><s n="m"/></r></p></e>
