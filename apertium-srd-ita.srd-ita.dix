@@ -196,7 +196,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>mancu<s n="pr"/></l>                   <r>meno<s n="pr"/></r></p></e>
 <e>       <p><l>mediante<s n="pr"/></l>                <r>mediante<s n="pr"/></r></p></e>
 <e>       <p><l>nointames<s n="pr"/></l>               <r>nonostante<s n="pr"/></r></p></e>
-<e r="RL"><p><l>nointames<s n="pr"/></l>               <r>malgrado<s n="pr"/></r></p></e>
+<e>       <p><l>mancari<s n="pr"/></l>                 <r>malgrado<s n="pr"/></r></p></e>
+<e r="LR"><p><l>cun<b/>totu<s n="pr"/></l>             <r>malgrado<s n="pr"/></r></p></e>
+<e r="LR"><p><l>a<b/>dispetu<b/>de<s n="pr"/></l>      <r>malgrado<s n="pr"/></r></p></e>
 <e>       <p><l>paris<b/>cun<s n="pr"/></l>            <r>insieme<b/>a<s n="pr"/></r></p></e>
 <e r="RL"><p><l>paris<b/>cun<s n="pr"/></l>            <r>insieme<b/>con<s n="pr"/></r></p></e>
 <e>       <p><l>partinde<b/>dae<s n="pr"/></l>         <r>a<b/>partire<b/>da<s n="pr"/></r></p></e>
