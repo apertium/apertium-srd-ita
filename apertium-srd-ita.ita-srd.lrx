@@ -537,6 +537,21 @@
     </or>
   </rule>
 
+<!-- **************** ADJ **************** -->
+
+<!-- gran > mannu, grandu -->
+
+  <rule weight="0.6">
+     <match lemma="grande" tags="adj.*"><select lemma="mannu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="grande" tags="adj.*"><select lemma="grandu"/></match>
+     <match tags="n.*"/>
+  </rule>
+
+
+
+<!-- **************** NP **************** -->
 
 <!-- Federico > Federico, Federicu -->
 
