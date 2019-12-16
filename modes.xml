@@ -8,8 +8,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -38,7 +36,6 @@
       <program name="lt-proc $1">
         <file name="srd-ita.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="srd-ita.autopgen.bin"/>
       </program>
@@ -50,8 +47,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -96,7 +91,7 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-      <program name="cg-conv -a"/>
+      <program name="cg-conv -a -l"/>
       <program name="vislcg3 --trace --grammar">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -108,8 +103,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -124,8 +117,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -141,8 +132,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -161,8 +150,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -184,8 +171,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -211,8 +196,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -242,8 +225,6 @@
       <program name="lt-proc -w">
         <file name="srd-ita.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="srd-ita.rlx.bin"/>
       </program>
@@ -279,8 +260,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -309,7 +288,6 @@
       <program name="lt-proc $1">
         <file name="ita-srd.autogen.bin"/>
       </program>
-
       <program name="lt-proc -p">
         <file name="ita-srd.autopgen.bin"/>
       </program>
@@ -365,7 +343,7 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-      <program name="cg-conv -a"/>
+      <program name="cg-conv -a -l"/>
       <program name="vislcg3 --trace --grammar">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -377,8 +355,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -393,8 +369,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -410,8 +384,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -430,8 +402,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -453,8 +423,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -480,8 +448,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
@@ -511,8 +477,6 @@
       <program name="lt-proc -w">
         <file name="ita-srd.automorf.bin"/>
       </program>
-
-
       <program name="cg-proc -w">
         <file name="ita-srd.rlx.bin"/>
       </program>
