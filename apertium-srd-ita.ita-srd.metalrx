@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metalrx>
+  <def-macros>
+    <def-macro name="noms_propis">
+      <rule weight="0.6">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match lemma="di" tags="pr"/>
+         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="np.ant.*"/>
+         <match lemma="di" tags="pr"/>
+         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match lemma="di" tags="pr"/>
+         <match tags="det.def.*"/>
+         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="np.ant.*"/>
+         <match lemma="di" tags="pr"/>
+         <match tags="det.def.*"/>
+         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="det.*"/>
+         <or>
+           <match tags="adj.*"/>
+           <match lemma="conquistador" tags="n.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="np.ant.*"/>
+         <match tags="det.*"/>
+         <or>
+           <match tags="adj.*"/>
+           <match lemma="conquistador" tags="n.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <or>
+           <match tags="num.*"/>
+           <match lemma="I" tags="adj.*"/>
+           <match lemma="II" tags="adj.*"/>
+           <match lemma="III" tags="adj.*"/>
+           <match lemma="IV" tags="adj.*"/>
+           <match lemma="V" tags="adj.*"/>
+           <match lemma="VI" tags="adj.*"/>
+           <match lemma="VII" tags="adj.*"/>
+           <match lemma="VIII" tags="adj.*"/>
+           <match lemma="IX" tags="adj.*"/>
+           <match lemma="X" tags="adj.*"/>
+           <match lemma="XI" tags="adj.*"/>
+           <match lemma="XII" tags="adj.*"/>
+           <match lemma="XIII" tags="adj.*"/>
+           <match lemma="XIV" tags="adj.*"/>
+           <match lemma="XV" tags="adj.*"/>
+           <match lemma="XVI" tags="adj.*"/>
+           <match lemma="XVII" tags="adj.*"/>
+           <match lemma="XVIII" tags="adj.*"/>
+           <match lemma="XIX" tags="adj.*"/>
+           <match lemma="XX" tags="adj.*"/>
+           <match lemma="XXI" tags="adj.*"/>
+           <match lemma="XXII" tags="adj.*"/>
+           <match lemma="XXIII" tags="adj.*"/>
+           <match lemma="XXIV" tags="adj.*"/>
+           <match lemma="XXV" tags="adj.*"/>
+           <match lemma="XXVI" tags="adj.*"/>
+           <match lemma="XXVII" tags="adj.*"/>
+           <match lemma="XXVIII" tags="adj.*"/>
+           <match lemma="XXIX" tags="adj.*"/>
+           <match lemma="XXX" tags="adj.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="np.ant.*"/>
+         <or>
+           <match tags="num.*"/>
+           <match lemma="I" tags="adj.*"/>
+           <match lemma="II" tags="adj.*"/>
+           <match lemma="III" tags="adj.*"/>
+           <match lemma="IV" tags="adj.*"/>
+           <match lemma="V" tags="adj.*"/>
+           <match lemma="VI" tags="adj.*"/>
+           <match lemma="VII" tags="adj.*"/>
+           <match lemma="VIII" tags="adj.*"/>
+           <match lemma="IX" tags="adj.*"/>
+           <match lemma="X" tags="adj.*"/>
+           <match lemma="XI" tags="adj.*"/>
+           <match lemma="XII" tags="adj.*"/>
+           <match lemma="XIII" tags="adj.*"/>
+           <match lemma="XIV" tags="adj.*"/>
+           <match lemma="XV" tags="adj.*"/>
+           <match lemma="XVI" tags="adj.*"/>
+           <match lemma="XVII" tags="adj.*"/>
+           <match lemma="XVIII" tags="adj.*"/>
+           <match lemma="XIX" tags="adj.*"/>
+           <match lemma="XX" tags="adj.*"/>
+           <match lemma="XXI" tags="adj.*"/>
+           <match lemma="XXII" tags="adj.*"/>
+           <match lemma="XXIII" tags="adj.*"/>
+           <match lemma="XXIV" tags="adj.*"/>
+           <match lemma="XXV" tags="adj.*"/>
+           <match lemma="XXVI" tags="adj.*"/>
+           <match lemma="XXVII" tags="adj.*"/>
+           <match lemma="XXVIII" tags="adj.*"/>
+           <match lemma="XXIX" tags="adj.*"/>
+           <match lemma="XXX" tags="adj.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="papa" tags="n.*"/>
+           <match lemma="patriarca" tags="n.*"/>
+           <match lemma="vescovo" tags="n.*"/>
+           <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="santo" tags="adj.*"/>
+           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
+           <match lemma="zar" tags="n.*"/>
+           <match lemma="viceré" tags="n.*"/>
+           <match lemma="reggent" tags="n.*"/>
+           <match lemma="principe" tags="n.*"/>
+           <match lemma="delfino" tags="n.*"/>
+           <match lemma="conte" tags="n.*"/>
+           <match lemma="visconte" tags="n.*"/>
+           <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
+           <match lemma="arciduca" tags="n.*"/>
+           <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
+           <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
+         </or>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="papa" tags="n.*"/>
+           <match lemma="patriarca" tags="n.*"/>
+           <match lemma="vescovo" tags="n.*"/>
+           <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="santo" tags="adj.*"/>
+           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
+           <match lemma="zar" tags="n.*"/>
+           <match lemma="viceré" tags="n.*"/>
+           <match lemma="reggent" tags="n.*"/>
+           <match lemma="principe" tags="n.*"/>
+           <match lemma="delfino" tags="n.*"/>
+           <match lemma="conte" tags="n.*"/>
+           <match lemma="visconte" tags="n.*"/>
+           <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
+           <match lemma="arciduca" tags="n.*"/>
+           <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
+           <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
+         </or>
+         <match tags="np.ant.*"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="cm"/>
+         <or>
+           <match lemma="papa" tags="n.*"/>
+           <match lemma="patriarca" tags="n.*"/>
+           <match lemma="vescovo" tags="n.*"/>
+           <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="santo" tags="adj.*"/>
+           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
+           <match lemma="zar" tags="n.*"/>
+           <match lemma="viceré" tags="n.*"/>
+           <match lemma="reggent" tags="n.*"/>
+           <match lemma="principe" tags="n.*"/>
+           <match lemma="delfino" tags="n.*"/>
+           <match lemma="conte" tags="n.*"/>
+           <match lemma="visconte" tags="n.*"/>
+           <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
+           <match lemma="arciduca" tags="n.*"/>
+           <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
+           <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <match tags="np.ant.*"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="cm"/>
+         <or>
+           <match lemma="papa" tags="n.*"/>
+           <match lemma="patriarca" tags="n.*"/>
+           <match lemma="vescovo" tags="n.*"/>
+           <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="santo" tags="adj.*"/>
+           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
+           <match lemma="zar" tags="n.*"/>
+           <match lemma="viceré" tags="n.*"/>
+           <match lemma="reggent" tags="n.*"/>
+           <match lemma="principe" tags="n.*"/>
+           <match lemma="delfino" tags="n.*"/>
+           <match lemma="conte" tags="n.*"/>
+           <match lemma="visconte" tags="n.*"/>
+           <match lemma="duca" tags="n.*"/>
+           <match lemma="granduca" tags="n.*"/>
+           <match lemma="arciduca" tags="n.*"/>
+           <match lemma="marquese" tags="n.*"/>
+           <match lemma="margravo" tags="n.*"/>
+           <match lemma="barone" tags="n.*"/>
+           <match lemma="voivoda" tags="n.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="papato" tags="n.*"/>
+           <match lemma="pontificato" tags="n.*"/>
+           <match lemma="impero" tags="n.*"/>
+           <match lemma="regno" tags="n.*"/>
+           <match lemma="reggenza" tags="n.*"/>
+           <match lemma="vicereame" tags="n.*"/>
+         </or>
+         <match lemma="di" tags="pr"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="papato" tags="n.*"/>
+           <match lemma="pontificato" tags="n.*"/>
+           <match lemma="impero" tags="n.*"/>
+           <match lemma="regno" tags="n.*"/>
+           <match lemma="reggenza" tags="n.*"/>
+           <match lemma="vicereame" tags="n.*"/>
+         </or>
+         <match lemma="di" tags="pr"/>
+         <match tags="det.def.*"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="papato" tags="n.*"/>
+           <match lemma="pontificato" tags="n.*"/>
+           <match lemma="impero" tags="n.*"/>
+           <match lemma="regno" tags="n.*"/>
+           <match lemma="reggenza" tags="n.*"/>
+           <match lemma="vicereame" tags="n.*"/>
+         </or>
+         <match lemma="di" tags="pr"/>
+         <match tags="np.ant.*"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <or>
+           <match lemma="regnare" tags="vblex.*"/>
+           <match lemma="governare" tags="vblex.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match tags="np.ant.*"/>
+         <or>
+           <match lemma="regnare" tags="vblex.*"/>
+           <match lemma="governare" tags="vblex.*"/>
+         </or>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="regnare" tags="vblex.ger"/>
+           <match lemma="governare" tags="vblex.ger"/>
+         </or>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="regnare" tags="vblex.ger"/>
+           <match lemma="governare" tags="vblex.ger"/>
+         </or>
+         <match tags="np.ant.*"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+    </def-macro>
+
+    <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
+    <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
+    <def-macro name="verb_nopron_pron">
+      <rule weight="0.6">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.sg"/>
+        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p1.*.sg"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.sg"/>
+        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p2.*.sg"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.ref.p3.*.sp"/>
+        <or>
+          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <or>
+          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p3}}"/></match>
+          <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        </or>
+        <match tags="prn.enc.ref.p3.*.sp"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.pl"/>
+        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p1.*.pl"/>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.pl"/>
+        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match tags="prn.enc.p2.*.pl"/>
+      </rule>
+
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.sg"/>
+        <match lemma="haver" tags="vbhaver.*.p1.sg"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.sg"/>
+        <match lemma="haver" tags="vbhaver.*.p2.sg"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p1.*.pl"/>
+        <match lemma="haver" tags="vbhaver.*.p1.pl"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.p2.*.pl"/>
+        <match lemma="haver" tags="vbhaver.*.p2.pl"/>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match tags="prn.pro.ref.p3.*.sp"/>
+        <or>
+          <match lemma="haver" tags="vbhaver.*.p3.sg"><select lemma="{{p3}}"/></match>
+          <match lemma="haver" tags="vbhaver.*.p3.pl"><select lemma="{{p3}}"/></match>
+        </or>
+        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+      </rule>
+    </def-macro>
+  </def-macros>
+
+  <def-seqs>
+    <def-seq n="distanza">
+      <match lemma="metro"/>
+      <match lemma="chilometro"/>
+      <match lemma="miglio"/>
+      <match lemma="lega"/>
+    </def-seq>
+
+    <def-seq n="periodo">
+      <match lemma="minuto" tags="n.*"/>
+      <match lemma="ora" tags="n.*"/>
+      <match lemma="giorno" tags="n.*"/>
+      <match lemma="settimana" tags="n.*"/>
+      <match lemma="mese" tags="n.*"/>
+      <match lemma="anno" tags="n.*"/>
+      <match lemma="decennio" tags="n.*"/>
+      <match lemma="secolo" tags="n.*"/>
+      <match lemma="millennio" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="mese">
+      <match lemma="gennaio" tags="n.*"/>
+      <match lemma="febbraio" tags="n.*"/>
+      <match lemma="marzo" tags="n.*"/>
+      <match lemma="aprile" tags="n.*"/>
+      <match lemma="maggio" tags="n.*"/>
+      <match lemma="giugno" tags="n.*"/>
+      <match lemma="luglio" tags="n.*"/>
+      <match lemma="agosto" tags="n.*"/>
+      <match lemma="settembre" tags="n.*"/>
+      <match lemma="ottobre" tags="n.*"/>
+      <match lemma="novembre" tags="n.*"/>
+      <match lemma="dicembre" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="incarico">
+      <match lemma="presidente" tags="n.*"/>
+      <match lemma="segretario" tags="n.*"/>
+      <match lemma="direttore" tags="n.*"/>
+      <match lemma="responsabile" tags="n.*"/>
+      <match lemma="capo" tags="n.*"/>
+      <match lemma="ministro" tags="n.*"/>
+      <match lemma="ambasciatore" tags="n.*"/>
+      <match lemma="osservatore" tags="n.*"/>
+      <match lemma="vescovo" tags="n.*"/>
+      <match lemma="arcivescovo" tags="n.*"/>
+      <match lemma="papa" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="costruzione">
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="chiesa" tags="n.*"/>
+      <match lemma="duomo" tags="n.*"/>
+      <match lemma="palazzo" tags="n.*"/>
+      <match lemma="banca" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="bevanda">
+      <match lemma="acqua" tags="n.*"/>
+      <match lemma="caffè" tags="n.*"/>
+      <match lemma="te" tags="n.*"/>
+      <match lemma="frullato" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="cibo">
+      <match lemma="carne" tags="n.*"/>
+      <match lemma="pesce" tags="n.*"/>
+      <match lemma="pasta" tags="n.*"/>
+      <match lemma="dessert" tags="n.*"/>
+      <match lemma="gelato" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="medicina">
+      <match lemma="medicina" tags="n.*"/>
+      <match lemma="compressa" tags="n.*"/>
+    </def-seq>
+
+    <def-seq n="verbi_da">
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="spostare" tags="vblex.*"/>
+      <match lemma="viaggiare" tags="vblex.*"/>
+      <match lemma="emigrare" tags="vblex.*"/>
+      <match lemma="inmigrar" tags="vblex.*"/>
+      <match lemma="muovere" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="camminare" tags="vblex.*"/>
+      <!-- <match lemma="dirigere" tags="vblex.*"/> -->
+      <match lemma="apropar" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="andare via" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+
+      <match lemma="apparire" tags="vblex.*"/>
+      <match lemma="portare" tags="vblex.*"/>
+      <match lemma="togliere" tags="vblex.*"/>
+      <match lemma="trarre" tags="vblex.*"/>
+      <match lemma="dimettire" tags="vblex.*"/>
+      <match lemma="prelevare" tags="vblex.*"/> <!-- sovint a la Viquipedia -->
+    </def-seq>
+  </def-seqs>
+
+<rules>
+
+  <rule weight="1.0">
+    <match lemma="anche" tags="adv"><select lemma="puru" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="quindi" tags="adv"><select lemma="tando" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="volere" tags="vbmod.*"><select lemma="bòlere" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="parlare" tags="vblex.*"><select lemma="faeddare" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.1">
+    <match lemma="rosso" tags="adj.*"><select lemma="nieddu" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="rosso" tags="adj.*"><select lemma="ruju" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="vino" tags="n.*"/>
+    <match lemma="rosso" tags="adj.*"><select lemma="nieddu" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="0.5">
+    <match lemma="stare" tags="vblex.*"><select lemma="istare" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.4">
+    <match lemma="stare" tags="vblex.*"><select lemma="èssere" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="stare" tags="vblex.*"><select lemma="èssere" tags="vblex.*"/></match>
+    <match tags="vblex.ger"/>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="stare" tags="vblex.*"><select lemma="èssere" tags="vblex.*"/></match>
+    <match/>
+    <match tags="vblex.ger"/>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="Andrea" tags="np.*"><select lemma="Andrea" tags="np.*"/></match>
+  </rule>
+
+  <rule weight="0.6">
+    <match lemma="Andrea" tags="np.*"><select lemma="Andrìa" tags="np.*"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="santo" tags="n.*"/>
+    <match lemma="Andrea" tags="np.*"><select lemma="Andrìa" tags="np.*"/></match>
+  </rule>
+
+
+
+
+<!-- POSTO -->
+
+  <rule weight="1.0">
+  <!-- "posto di lavoro → postu de traballu -->
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+    <match lemma="di" tags="pr"/>
+    <match lemma="lavoro" tags="n.*"/>
+  </rule>
+
+<rule weight="0.5"> 
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+</rule> 
+
+<rule weight="1.0">  
+    <match lemma="posto" tags="n.*"><select lemma="locu" tags="n.*"/></match>
+</rule> 
+
+
+
+<!-- ECONOMICO -->
+
+  <rule weight="1.0">
+  <!-- "molto economico →  meda baratu -->
+    <or>
+       <match lemma="molto" tags="adv"/>   <!-- just in case the tagger didn't get it right -->
+       <match lemma="molto" tags="preadv"/>
+    </or>
+    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
+  </rule>
+
+<rule weight="0.5"> 
+    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
+</rule> 
+
+<rule weight="1.0"> 
+    <match lemma="economico" tags="adj.*"><select lemma="econòmicu" tags="adj.*"/></match>
+</rule> 
+
+<!-- VITA/VIDA -->
+
+<rule weight="1.0">  <!-- regola senza contesto per scegliere una forma -->
+    <match lemma="vita" tags="n.*"><select lemma="vida" tags="n.*"/></match>
+</rule> 
+
+<rule weight="0.1"> 
+    <match lemma="vita" tags="n.*"><select lemma="chintu" tags="n.*"/></match>
+</rule> 
+
+  <rule weight="1.0">
+  <!-- "vita alta/bassa → chintu artu/bassu -->
+    <match lemma="vita" tags="n.*"><select lemma="chintu" tags="n.*"/></match>
+       <match lemma="alto" tags="adj.*"/>
+  </rule>
+
+<!--VITE/TORONÌLLIU-->
+
+  <rule weight="1.0">
+    <match tags="num.*"/>
+    <match lemma="vite" tags="n.*"><select lemma="toronìlliu" tags="n.*"/></match>
+  </rule>
+
+
+<!--CORSO n.m > CORSICANU/CURSU -->
+
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.sg"><select lemma="cursu" tags="n.m.sg"/></match>
+  </rule>
+
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.pl"><select lemma="corsicanu" tags="n.m.pl"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="corsicanu" tags="n.m.*"/></match>
+  </rule>
+
+  <rule weight="1.2">
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.sg"><select lemma="cursu" tags="n.m.sg"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
+
+
+<!-- MIGLIO n.m.sg > MÌLLIU/ERBA FERRU -->
+
+  <rule weight="0.8">
+    <match lemma="miglio" tags="n.m.sg"><select lemma="erba ferru" tags="n.f.sg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="miglio" tags="n.m.sg"><select lemma="mìlliu" tags="n.m.sg"/></match>
+    <match lemma="quadrato"/>
+  </rule>
+
+
+<!-- SU -->
+
+  <rule weight="1.0">
+     <match lemma="su" tags="pr"><select lemma="subra" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="su" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+  </rule>
+
+
+<!-- ESSERE DA -->
+
+  <rule weight="1.0">
+    <match lemma="essere" tags="vbser.*"/>
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
+
+<!-- da > de, dae -->
+
+  <rule weight="0.6">
+     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
+  <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
+     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+
+
+<!-- VERB-CONJ DI: Marcamos "de" para eliminar, suponiendo que es un partitivo -->
+
+  <rule weight="0.8">
+    <match lemma="di" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+
+<!-- no funciona la regla
+  <rule weight="1.0">
+     <or>
+       <match lemma="dare" tags="vblex.*"/>
+       <match lemma="volere" tags="vblex.*"/>
+       <match lemma="mangiare" tags="vblex.*"/>
+       <match lemma="bere" tags="vblex.*"/>
+     </or>
+    <match lemma="di" tags="pr"><select lemma="_de" tags="pr"/></match>
+  </rule>
+-->
+
+<!-- INTENDERE -->
+
+  <rule weight="1.0">
+    <match lemma="intendere" tags="vblex.*"><select lemma="cumprèndere" tags="vblex.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="intendere" tags="vblex.*"><select lemma="chèrrere" tags="vblex.*"/></match>
+    <match tags="vblex.inf"/>
+  </rule>
+
+
+<!-- SU (ADV) > SUSU, IN SUSU, A SUSU -->
+
+  <rule weight="0.8">
+    <match lemma="su" tags="adv"><select lemma="susu" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="su" tags="adv"><select lemma="in susu" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="su" tags="adv"><select lemma="in susu" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <match lemma="su" tags="adv"><select lemma="a susu" tags="adv"/></match>
+  </rule>
+
+
+<!-- GIÙ (ADV) > GIOSSO, IN GIOSSO, A GIOSSO -->
+
+  <rule weight="0.8">
+    <match lemma="giù" tags="adv"><select lemma="giosso" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="giù" tags="adv"><select lemma="in giosso" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="giù" tags="adv"><select lemma="in giosso" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <match lemma="giù" tags="adv"><select lemma="a giosso" tags="adv"/></match>
+  </rule>
+
+
+<!-- DOVE (ADV) > UE, IN UE, A UE -->
+
+  <rule weight="0.8">
+    <match lemma="dove" tags="adv"><select lemma="ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+    <match tags="prn.*"/>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+  </rule>
+
+
+<!-- DOVE (ADV.ITG) > UE, IN UE, A UE -->
+
+  <rule weight="0.8">
+    <match lemma="dove" tags="adv.itg"><select lemma="ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv.itg"><select lemma="in ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv.itg"><select lemma="in ue" tags="adv.itg"/></match>
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="dove" tags="adv.itg"><select lemma="in ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <match lemma="dove" tags="adv.itg"><select lemma="a ue" tags="adv.itg"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv.itg"><select lemma="a ue" tags="adv.itg"/></match>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="dove" tags="adv.itg"><select lemma="a ue" tags="adv.itg"/></match>
+    <match tags="prn.*"/>
+    <or> <!-- verbi di moto -->
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="dirigersi" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="girare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="rimettere" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+  </rule>
+
+<!-- **************** ADJ **************** -->
+
+<!-- gran > mannu, grandu -->
+
+  <rule weight="0.6">
+     <match lemma="grande" tags="adj.*"><select lemma="mannu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="grande" tags="adj.*"><select lemma="grandu"/></match>
+     <match tags="n.*"/>
+  </rule>
+
+
+
+<!-- **************** NP **************** -->
+
+  <macro name="noms_propis" p1="Federico" p2="Federicu" />
+  <macro name="noms_propis" p1="Alessandro" p2="Lisandru" />
+  <macro name="noms_propis" p1="Carlo" p2="Càralu" />
+  <macro name="noms_propis" p1="Giacomo" p2="Giacu" />
+  <macro name="noms_propis" p1="Ferdinando" p2="Ferrante" />
+  <macro name="noms_propis" p1="Riccardo" p2="Ricardu" />
+  <macro name="noms_propis" p1="Martino" p2="Martine" />
+  <macro name="noms_propis" p1="Alfonso" p2="Alfonsu" />
+  <macro name="noms_propis" p1="Umberto" p2="Umbertu" />
+  <macro name="noms_propis" p1="Luigi" p2="Luisi" />
+  <macro name="noms_propis" p1="Guglielmo" p2="Gullielmu" />
+  <macro name="noms_propis" p1="Nicola" p2="Nigola" />
+  <macro name="noms_propis" p1="Massimiliano" p2="Massimilianu" />
+  <macro name="noms_propis" p1="Giuseppe" p2="Giosepe" />
+  <macro name="noms_propis" p1="Giulio" p2="Giùliu" />
+  <macro name="noms_propis" p1="Matteo" p2="Mateu" />
+  <macro name="noms_propis" p1="Marco" p2="Marcu" />
+  <macro name="noms_propis" p1="Caterina" p2="Callina" />
+
+</rules>
+</metalrx>
