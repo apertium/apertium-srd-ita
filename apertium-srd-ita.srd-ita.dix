@@ -8102,7 +8102,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>diversu<s n="adj"/></l>                <r>diverso<s n="adj"/></r></p></e>
 <e r="RL"><p><l>diversu<s n="adj"/></l>                <r>diverso<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>dividendo<s n="n"/><s n="m"/></l>      <r>dividendo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>dividire<s n="vblex"/></l>             <r>dividere<s n="vblex"/></r></p></e>
+<e>       <p><l>partzire<s n="vblex"/></l>             <r>dividere<s n="vblex"/></r></p></e>
 <e>       <p><l>divinare<s n="vblex"/></l>             <r>indovinare<s n="vblex"/></r></p></e>
 <e>       <p><l>divinidade<s n="n"/><s n="f"/></l>     <r>divinità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>divinizare<s n="vblex"/></l>           <r>divinizzare<s n="vblex"/></r></p></e>
@@ -18185,9 +18185,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>partigianu<s n="adj"/></l>             <r>partigiano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>partigianu<s n="adj"/></l>             <r>partigiano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>Partiolla<s n="np"/><s n="top"/><s n="f"/></l><r>Dolianova<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e r="LR" c="non-preferred"><p><l>partire<s n="vblex"/></l><r>dividere<s n="vblex"/></r></p></e>
-<e>       <p><l>partire<s n="vblex"/></l>              <r>partire<s n="vblex"/></r></p></e>
-<e>       <p><l>partire<s n="vblex"/></l>              <r>suddividere<s n="vblex"/></r></p></e>
+<e r="LR" c="non-preferred"><p><l>partzire<s n="vblex"/></l><r>dividere<s n="vblex"/></r></p></e>
+<e>       <p><l>mòvere<s n="vblex"/></l>              <r>partire<s n="vblex"/></r></p></e>
+<e>       <p><l>partzire<s n="vblex"/></l>              <r>suddividere<s n="vblex"/></r></p></e>
 <e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>partitzione<s n="n"/><s n="f"/></l><r>partizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>partitzione<s n="n"/><s n="f"/></l>    <r>ripartizione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>partitzìpiu<s n="n"/><s n="m"/></l>    <r>participio<s n="n"/><s n="m"/></r></p></e>
