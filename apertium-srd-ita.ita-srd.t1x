@@ -6060,7 +6060,7 @@
                  <get-case-from pos="1">
                    <lit v="èssere"/>
                  </get-case-from>
-                 <lit-tag v="vbser.pri"/>
+                 <lit-tag v="vbser.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
                </lu>
@@ -6085,7 +6085,7 @@
                  <get-case-from pos="1">
                    <lit v="àere"/>
                  </get-case-from>
-                 <lit-tag v="vbhaver.pri"/>
+                 <lit-tag v="vbhaver.pii"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="nbr"/>
                </lu>
