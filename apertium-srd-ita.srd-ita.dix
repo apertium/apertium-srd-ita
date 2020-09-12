@@ -9,7 +9,6 @@
 apertium-dixtools format apertium-srd-ita.srd-ita.dix apertium-srd-ita.srd-ita.dix.new
 sort -ignorecase -alignBidix -stripEmptyLines -group n,n_symbol,adj,adj_symbol,adv,adv_symbol,np,np_symbol,vblex,vblex_symbol,ij,ij_symbol,sp_ND,pl_ND,mf_GD,ND_sp,GD_mf,GD_m,GD_mf-ND_sp,mf_GD-sp_ND,mf_GD_sp_ND,mf-sp_ND,m-m_f-f,ND_pl apertium-srd-ita.srd-ita.dix apertium-srd-ita.srd-ita.dix.new2
 apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita.dix.new3
-
 -->
 <dictionary>
   <alphabet></alphabet>
@@ -8473,7 +8472,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Edilio<s n="np"/><s n="ant"/><s n="m"/></l><r>Edilio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>edilìtzia<s n="n"/><s n="f"/></l>      <r>edilizia<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>edilìtziu<s n="adj"/></l>              <r>edilizio<s n="adj"/></r></p></e>
-<e>       <p><l>Edimburgo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Edimburgo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e>       <p><l>Edimburgu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Edimburgo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Edina<s n="np"/><s n="ant"/><s n="f"/></l><r>Edina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Edison<s n="np"/><s n="cog"/></l>      <r>Edison<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>editore<s n="n"/><s n="m"/></l>        <r>editore<s n="n"/><s n="m"/></r></p></e>
@@ -26179,7 +26178,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>ª<s n="num"/></l><r>ª<s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>°<s n="num"/></l><r>°<s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>º<s n="num"/></l><r>º<s n="num"/></r></p></e>
+<!--
 <e>       <re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
+-->
 
     <!-- ******************************
           group det_symbol
@@ -27654,5 +27655,23 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>umanizare<s n="vblex"/></l>            <r>umanizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>Istocolma<s n="np"/><s n="top"/><s n="f"/></l><r>Stoccolma<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Shangai<s n="np"/><s n="top"/><s n="f"/></l><r>Shanghai<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+
+
+<e><p><l>Macintosh<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Macintosh<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Covid<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Covid<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Covid-19<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Covid-19<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>iPhone<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>iPhone<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>iPod<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>iPod<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>iPad<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>iPad<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>iOs<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>iOs<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Telegram<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Telegram<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>WhatsApp<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>WhatsApp<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Instagram<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></l><r>Instagram<s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Michelin<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></l><r>Michelin<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Pirelli<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></l><r>Pirelli<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>FIBA<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></l><r>FIBA<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Wikileaks<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></l><r>Wikileaks<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></r></p></e>
+<e><p><l>Apple<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></l><r>Apple<s n="np"/><s n="org"/><s n="m"/><s n="sg"/></r></p></e>
+
   </section>
 </dictionary>
