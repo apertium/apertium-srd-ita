@@ -27708,5 +27708,86 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e><p><l>semidesèrticu<s n="adj"/></l><r>semidesertico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>semidesèrticu<s n="adj"/></l><r>semidesertico<s n="adj"/><s n="sup"/></r></p></e>
 
+<e a="bauladu"><p><l>pluriennale<s n="adj"/></l><r>pluriennale<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="bauladu"><p><l>vinculadu<s n="adj"/></l><r>vincolato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>integradu<s n="adj"/></l><r>integrato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>acumpridu<s n="adj"/></l><r>compiuto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>istabilidu<s n="adj"/></l><r>stabilito<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>fissadu<s n="adj"/></l><r>fissato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>seberadu<s n="adj"/></l><r>scelto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>ammentadu<s n="adj"/></l><r>ricordato<s n="adj"/></r></p></e>
+<e r="RL" a="bauladu"><p><l>definidu<s n="adj"/></l><r>definito<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>detentu<s n="adj"/></l><r>detenuto<s n="adj"/></r></p></e>
+<e a="bauladu"><p><l>premìtidu<s n="adj"/></l><r>premesso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>rilevadu<s n="adj"/></l><r>rilevato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>cuntribuente<s n="adj"/></l><r>contribuente<s n="adj"/></r></p></e>
+<e a="bauladu"><p><l>istitutivu<s n="adj"/></l><r>istitutivo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>provididu<s n="adj"/></l><r>provveduto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>redatadu<s n="adj"/></l><r>redatto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>aplicativu<s n="adj"/></l><r>applicativo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>coberadu<s n="adj"/></l><r>recuperato<s n="adj"/></r></p></e>
+<e a="bauladu"><p><l>cunsideradu<s n="adj"/></l><r>considerato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>dirìgidu<s n="adj"/></l><r>diretto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>fraigadu<s n="adj"/></l><r>fabbricato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>istimadu<s n="adj"/></l><r>stimato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>sutzessivu<s n="adj"/></l><r>successivo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>assentadu<s n="adj"/></l><r>stabile<s n="adj"/></r></p><par n="mf_GDsup"/></e>
+<e a="bauladu"><p><l>batidu<s n="adj"/></l><r>portato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>connètidu<s n="adj"/></l><r>connesso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>consuntivu<s n="adj"/></l><r>consuntivo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>contributivu<s n="adj"/></l><r>contributivo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>cumprovadu<s n="adj"/></l><r>provato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>cumprèndidu<s n="adj"/></l><r>compreso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>cunfirmadu<s n="adj"/></l><r>confermato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e i="yes" a="bauladu"><p><l>definitivu<s n="adj"/></l><r>definito<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>divididu<s n="adj"/></l><r>diviso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>impinnadu<s n="adj"/></l><r>impegnato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>inadempiente<s n="adj"/></l><r>inadempiente<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e r="LR" a="bauladu"><p><l>otimale<s n="adj"/></l><r>ottimale<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="bauladu"><p><l>personalitzadu<s n="adj"/></l><r>personalizzato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>predispostu<s n="adj"/></l><r>predisposto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>calidativu<s n="adj"/></l><r>qualitativo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>tarifàriu<s n="adj"/></l><r>tariffario<s n="adj"/></r></p></e>
+<e r="LR" a="bauladu"><p><l>validu<s n="adj"/></l><r>valido<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>abetadu<s n="adj"/></l><r>atteso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>afortigadu<s n="adj"/></l><r>rafforzato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>agroalimentare<s n="adj"/></l><r>agroalimentare<s n="adj"/></r></p></e>
+<e r="RL" a="bauladu"><p><l>amparadu<s n="adj"/></l><r>sostenuto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>anagràficu<s n="adj"/></l><r>anagrafico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>armadu<s n="adj"/></l><r>armato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>articuladu<s n="adj"/></l><r>articolato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="RL" a="bauladu"><p><l>artesanale<s n="adj"/></l><r>artigianale<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e r="LR" a="bauladu"><p><l>assumidu<s n="adj"/></l><r>assunto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>averguadu<s n="adj"/></l><r>verificato<s n="adj"/></r></p></e>
+<e r="LR" a="bauladu"><p><l>bàriu<s n="adj"/></l><r>carico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>capidu<s n="adj"/></l><r>contenuto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>cobertu<s n="adj"/></l><r>coperto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>commerciale<s n="adj"/></l><r>commerciale<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="bauladu"><p><l>consolidadu<s n="adj"/></l><r>consolidato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>contadu<s n="adj"/></l><r>contato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>cumproadu<s n="adj"/></l><r>verificato<s n="adj"/></r></p></e>
+<e a="bauladu"><p><l>cuntzèdidu<s n="adj"/></l><r>concesso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>decrarativu<s n="adj"/></l><r>dichiarativo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>diferentziadu<s n="adj"/></l><r>differenziato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>diferentziale<s n="adj"/></l><r>differenziale<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="bauladu"><p><l>disciplinadu<s n="adj"/></l><r>disciplinato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>discutidu<s n="adj"/></l><r>discusso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>elaboradu<s n="adj"/></l><r>elaborato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="bauladu"><p><l>equivalente<s n="adj"/></l><r>equivalente<s n="adj"/></r></p></e>
+<e r="RL" a="bauladu"><p><l>esclusivu<s n="adj"/></l><r>esaurito<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>fondiàriu<s n="adj"/></l><r>fondiario<s n="adj"/></r></p></e>
+<e a="bauladu"><p><l>imbiadu<s n="adj"/></l><r>inviato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>imputàbile<s n="adj"/></l><r>imputabile<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e r="LR" a="bauladu"><p><l>incluidu<s n="adj"/></l><r>incluso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>incumpridu<s n="adj"/></l><r>incompiuto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>insertadu<s n="adj"/></l><r>inserito<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>interessadu<s n="adj"/></l><r>interessato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>introduidu<s n="adj"/></l><r>introdotto<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="RL" a="bauladu"><p><l>istagiadu<s n="adj"/></l><r>staccato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>medidu<s n="adj"/></l><r>misurato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>modificàbile<s n="adj"/></l><r>modificabile<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="bauladu"><p><l>necroscòpicu<s n="adj"/></l><r>necroscopico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="bauladu"><p><l>obligatzionàriu<s n="adj"/></l><r>obbligazionario<s n="adj"/></r></p></e>
+
   </section>
 </dictionary>
