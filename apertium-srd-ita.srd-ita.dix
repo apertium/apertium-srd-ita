@@ -143,6 +143,11 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
   <e>       <p><l><s n="f"/></l><r><s n="f"/></r></p></e>
 </pardef>
 
+<pardef n="sp_sp" c="para competir con otras posibilidades de traducción en que se especifíca el plural">
+  <e>       <p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+  <e>       <p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="ND_pl">
   <e r="LR"><p><l><s n="sg"/></l><r><s n="pl"/></r></p></e>
   <e r="LR"><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
@@ -3612,6 +3617,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>bendidore<s n="adj"/></l>              <r>venditore<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>bene<s n="n"/><s n="m"/></l>           <r>bene<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>bene<s n="adv"/></l>                   <r>bene<s n="adv"/></r></p></e>
+<e r="LR"><p><l>bene<s n="adv"/></l>                   <r>be'<s n="adv"/></r></p></e>
 <e>       <p><l>benedetinu<s n="n"/><s n="m"/></l>     <r>benedettino<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>benedetinu<s n="adj"/></l>             <r>benedettino<s n="adj"/></r></p></e>
 <e>       <p><l>Benedetta<s n="np"/><s n="ant"/><s n="f"/></l><r>Benedetta<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -4381,7 +4387,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>cabèntzia<s n="n"/><s n="f"/></l>      <r>capienza<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Cacciatore<s n="np"/><s n="cog"/></l>  <r>Cacciatore<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>cacuminale<s n="adj"/><s n="mf"/></l>  <r>cacuminale<s n="adj"/><s n="mf"/></r></p></e>
-<e>       <p><l>cada<s n="det"/><s n="ind"/></l>       <r>ciascuno<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/></e>
+<e>       <p><l>cada<s n="det"/><s n="ind"/></l>       <r>ciascun<s n="det"/><s n="ind"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>cada<s n="adj"/></l>                   <r>ogni<s n="adj"/></r></p></e>
 <e r="RL"><p><l>cada<s n="adj"/></l>                   <r>ogni<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>cada<b/>annu<s n="adv"/></l>           <r>ogni<b/>anno<s n="adv"/></r></p></e>
@@ -4744,6 +4750,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>carcassa<s n="n"/><s n="f"/></l>       <r>carcassa<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>carche<s n="n"/><s n="m"/></l>         <r>calcio<s n="n"/><s n="m"/></r></p></e>
 <e r="RL"><p><l>carchi<s n="det"/><s n="ind"/></l>     <r>alcun<s n="det"/><s n="ind"/></r></p><par n="mf_GD-sp_ND"/></e>
+<e r="RL"><p><l>carchi<s n="det"/><s n="ind"/></l>     <r>qualcun<s n="det"/><s n="ind"/></r></p><par n="mf_GD-sp_ND"/></e>
 <e>       <p><l>carchidare<s n="vblex"/></l>           <r>calciare<s n="vblex"/></r></p></e>
 <e>       <p><l>carchina<s n="n"/><s n="f"/></l>       <r>calce<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>carcu<s n="adj"/></l>                  <r>intenso<s n="adj"/></r></p></e>
@@ -16316,6 +16323,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>modificatzione<s n="n"/><s n="f"/></l> <r>modificazione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Modoaldo<s n="np"/><s n="ant"/><s n="m"/></l><r>Modoaldo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>modu<s n="n"/><s n="m"/></l>           <r>modo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>modu<s n="n"/><s n="m"/></l>           <r>mo'<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>modulare<s n="vblex"/></l>             <r>modulare<s n="vblex"/></r></p></e>
 <e>       <p><l>modèstia<s n="n"/><s n="f"/></l>       <r>modestia<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>modìfica<s n="n"/><s n="f"/></l><r>modifica<s n="n"/><s n="f"/></r></p></e>
@@ -17724,7 +17732,10 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>originalidade<s n="n"/><s n="f"/></l>  <r>originalità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>originare<s n="vblex"/></l>            <r>originare<s n="vblex"/></r></p></e>
 <e>       <p><l>originàriu<s n="adj"/></l>             <r>originario<s n="adj"/></r></p></e>
-<e>       <p><l>origra<s n="n"/><s n="f"/></l>         <r>orecchio<s n="n"/><s n="m"/></r></p></e>
+<e>       <p><l>origra<s n="n"/><s n="f"/></l>         <r>orecchia<s n="n"/><s n="f"/></r></p><par n="sp_sp"/></e>
+<e>       <p><l>origra<s n="n"/><s n="f"/><s n="sg"/></l><r>orecchio<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>origra<s n="n"/><s n="f"/><s n="pl"/></l><r>orecchio<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="RL"><p><l>origra<s n="n"/><s n="f"/><s n="pl"/></l><r>orecchio<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>orina<s n="n"/><s n="f"/></l>          <r>orina<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>orinare<s n="vblex"/></l>              <r>orinare<s n="vblex"/></r></p></e>
 <e>       <p><l>Orinda<s n="np"/><s n="ant"/><s n="f"/></l><r>Orinda<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -21133,7 +21144,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Russell<s n="np"/><s n="ant"/><s n="m"/></l><r>Russell<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Russell<s n="np"/><s n="cog"/></l>     <r>Russell<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Russo<s n="np"/><s n="cog"/></l>       <r>Russo<s n="np"/><s n="cog"/></r></p></e>
-<e>       <p><l>russu<s n="adj"/></l>                  <r>russo<s n="adj"/></r></p></e>
+<e>       <p><l>russu<s n="adj"/></l>                  <r>russo<s n="adj"/></r></p><par n="mf_mf"/></e>
 <e>       <p><l>russu<s n="n"/></l>                    <r>russo<s n="n"/></r></p></e>
 <e r="RL"><p><l>russu<s n="adj"/></l>                  <r>russo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>rusuzu<s n="n"/><s n="m"/></l>         <r>residuo<s n="n"/><s n="m"/></r></p></e>
@@ -26226,8 +26237,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>custu<s n="det"/><s n="dem"/><s n="GD"/></l><r>questo<s n="det"/><s n="dem"/><s n="mf"/></r></p></e>
 <e>       <p><l>diversu<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></l><r>diverso<s n="det"/><s n="ind"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>diversu<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></l><r>diverso<s n="det"/><s n="ind"/><s n="f"/><s n="pl"/></r></p></e>
-<e>       <p><l>nisciunu<s n="det"/><s n="ind"/></l>   <r>nessuno<s n="det"/><s n="ind"/></r></p></e>
-<e>       <p><l>niunu<s n="det"/><s n="ind"/></l>      <r>nessuno<s n="det"/><s n="ind"/></r></p></e>
+<e>       <p><l>nisciunu<s n="det"/><s n="ind"/></l>   <r>nessun<s n="det"/><s n="ind"/></r></p></e>
+<e>       <p><l>niunu<s n="det"/><s n="ind"/></l>      <r>nessun<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>norantunu<s n="num"/></l>              <r>novantuno<s n="det"/><s n="def"/></r></p></e>
 <e>       <p><l>ogni<s n="det"/><s n="ind"/></l>       <r>ogni<s n="det"/><s n="ind"/></r></p></e>
 <e>       <p><l>otantunu<s n="num"/></l>               <r>ottantuno<s n="det"/><s n="def"/></r></p></e>
@@ -27789,5 +27800,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e a="bauladu"><p><l>necroscòpicu<s n="adj"/></l><r>necroscopico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e a="bauladu"><p><l>obligatzionàriu<s n="adj"/></l><r>obbligazionario<s n="adj"/></r></p></e>
 
+<e a="bauladu"><p><l>agualadore<s n="adj"/></l><r>perequativo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e><p><l>Euler<s n="np"/><s n="cog"/></l><r>Euler<s n="np"/><s n="cog"/></r></p></e>
+<e a="corraine"><p><l>Euleru<s n="np"/><s n="cog"/></l><r>Eulero<s n="np"/><s n="cog"/></r></p></e>
   </section>
 </dictionary>
