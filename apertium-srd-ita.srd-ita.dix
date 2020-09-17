@@ -1108,7 +1108,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>agreste<s n="adj"/></l>                <r>agreste<s n="adj"/><s n="sup"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>Agricola<s n="np"/><s n="ant"/><s n="m"/></l><r>Agricola<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e r="LR"><p><l>agricultura<s n="n"/><s n="f"/></l>    <r>agricoltura<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>Agrigentu<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Agrigento<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <p><l>Agrigentu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Agrigento<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>Agrippa<s n="np"/><s n="ant"/><s n="m"/></l><r>Agrippa<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Agrippina<s n="np"/><s n="ant"/><s n="f"/></l><r>Agrippina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Agrippino<s n="np"/><s n="ant"/><s n="m"/></l><r>Agrippino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -3199,7 +3199,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>autònomu<s n="n"/></l>                 <r>autonomo<s n="n"/></r></p></e>
 <e>       <p><l>autònomu<s n="adj"/></l>               <r>autonomo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>autònomu<s n="adj"/></l>               <r>autonomo<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>Auvèrnia<s n="np"/><s n="ant"/><s n="f"/></l><r>Alvernia<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
+<e>       <p><l>Auvèrnia<s n="np"/><s n="top"/><s n="f"/></l><r>Alvernia<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>avallare<s n="vblex"/></l>             <r>avallare<s n="vblex"/></r></p></e>
 <e>       <p><l>avallu<s n="n"/><s n="m"/></l>         <r>avallo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>avaloramentu<s n="n"/><s n="m"/></l>   <r>valutazione<s n="n"/><s n="f"/></r></p></e>
@@ -14508,7 +14508,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>lapidàriu<s n="adj"/></l>              <r>lapidario<s n="adj"/></r></p></e>
 <e>       <p><l>Lara<s n="np"/><s n="ant"/><s n="f"/></l><r>Lara<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>lardu<s n="n"/><s n="m"/></l>          <r>lardo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>larganu<s n="adj"/></l>                <r>distante<s n="adj"/></r></p><par n="ND_sp"/></e>
+<e r="LR"><p><l>larganu<s n="adj"/></l>                <r>distante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
 <e>       <p><l>larganu<s n="adj"/></l>                <r>lontano<s n="adj"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>largare<s n="vblex"/></l><r>allontanare<s n="vblex"/></r></p></e>
 <e>       <p><l>larghesa<s n="n"/><s n="f"/></l>       <r>larghezza<s n="n"/><s n="f"/></r></p></e>
@@ -26645,7 +26645,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Saddam<s n="np"/><s n="ant"/><s n="m"/></l><r>Saddam<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Sahara<s n="np"/><s n="top"/><s n="m"/></l><r>Sahara<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>       <p><l>Salamanca<s n="np"/><s n="top"/><s n="f"/></l><r>Salamanca<s n="np"/><s n="top"/><s n="f"/></r></p></e>
-<e>       <p><l>Salerno<s n="np"/><s n="top"/><s n="m"/></l><r>Salerno<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e>       <p><l>Salerno<s n="np"/><s n="top"/><s n="f"/></l><r>Salerno<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Salonicco<s n="np"/><s n="top"/><s n="m"/></l><r>Salonicco<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>       <p><l>Salvini<s n="np"/><s n="cog"/></l>     <r>Salvini<s n="np"/><s n="cog"/></r></p></e>
 <e>       <p><l>Salvi<s n="np"/><s n="cog"/></l>       <r>Salvi<s n="np"/><s n="cog"/></r></p></e>
@@ -27803,5 +27803,68 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e a="bauladu"><p><l>agualadore<s n="adj"/></l><r>perequativo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e><p><l>Euler<s n="np"/><s n="cog"/></l><r>Euler<s n="np"/><s n="cog"/></r></p></e>
 <e a="corraine"><p><l>Euleru<s n="np"/><s n="cog"/></l><r>Eulero<s n="np"/><s n="cog"/></r></p></e>
+
+
+<e a="bauladu"><p><l>Boltzanu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bolzano<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="bauladu"><p><l>Montiferru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Montiferru<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Bellinzona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bellinzona<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Bèrgamu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Bergamo<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Capadòtzia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Cappadocia<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Luganu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Lugano<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Mecca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Mecca<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Otzitània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Occitania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Tàrantu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Taranto<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Urbinu<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Urbino<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Zagabria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Zagabria<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>a<b/>sa<b/>fine<s n="adv"/></l><r>alfine<s n="adv"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>finamentas<s n="adv"/></l><r>alfine<s n="adv"/></r></p></e>
+<e a="gianfranco"><p><l>cantecantu<s n="adv"/></l><r>alquanto<s n="adv"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>meicantu<s n="adv"/></l><r>alquanto<s n="adv"/></r></p></e>
+<e a="gianfranco"><p><l>gasi<b/>puru<s n="adv"/></l><r>altresì<s n="adv"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>aici<b/>puru<s n="adv"/></l><r>altresì<s n="adv"/></r></p></e>
+<e a="gianfranco"><p><l>a<b/>manera<b/>esponentziale<s n="adv"/></l><r>esponenzialmente<s n="adv"/></r></p></e>
+
+<e a="gianfranco"><p><l>cravosu<s n="adj"/></l><r>aggressivo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>cravadore<s n="adj"/></l><r>aggressivo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>malarrimadu<s n="adj"/></l><r>aggressivo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="gianfranco"><p><l>asbùrgicu<s n="adj"/></l><r>asburgico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="RL" a="gianfranco"><p><l>carcu<s n="adj"/></l><r>denso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>calcu<s n="adj"/></l><r>denso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>gheladu<s n="adj"/></l><r>denso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>densu<s n="adj"/></l><r>denso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="gianfranco"><p><l>truncadu<s n="adj"/></l><r>discontinuo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="RL" a="gianfranco"><p><l>a<b/>tesu<s n="adj"/><s n="mf"/></l><r>distante<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="LR" a="gianfranco"><p><l>istesiadu<s n="adj"/></l><r>distante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>indedda<s n="adj"/><s n="mf"/></l><r>distante<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>esaltadore<s n="adj"/></l><r>esaltante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>bantadore<s n="adj"/></l><r>esaltante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>alabadore<s n="adj"/></l><r>esaltante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
+<e a="gianfranco"><p><l>isparghidore<s n="adj"/></l><r>espansionistico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="gianfranco"><p><l>fuidore<s n="adj"/></l><r>fugace<s n="adj"/></r></p><par n="mf_GDsup"/></e>
+<e r="RL" a="gianfranco"><p><l>costante<s n="adj"/></l><r>inalterato<s n="adj"/></r></p><par n="GD_mfsup"/></e>
+<e r="LR" a="gianfranco"><p><l>immudadu<s n="adj"/></l><r>inalterato<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="gianfranco"><p><l>imbinchìbile<s n="adj"/></l><r>invincibile<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="gianfranco"><p><l>motorìsticu<s n="adj"/></l><r>motoristico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="gianfranco"><p><l>naschente<s n="adj"/></l><r>nascente<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e r="RL" a="gianfranco"><p><l>de<b/>nòbile<s n="adj"/><s n="mf"/></l><r>nobiliare<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>paulesu<s n="adj"/></l><r>paludoso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="LR" a="gianfranco"><p><l>benosu<s n="adj"/></l><r>paludoso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="gianfranco"><p><l>pessimìsticu<s n="adj"/></l><r>pessimistico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="RL" a="gianfranco"><p><l>primidiu<s n="adj"/></l><r>prematuro<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="RL" a="gianfranco"><p><l>in<b/>favore<s n="adj"/></l><r>propizio<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e i="yes" a="gianfranco"><p><l>adatu<s n="adj"/></l><r>propizio<s n="adj"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>agreste<s n="adj"/></l><r>selvaggio<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="gianfranco"><p><l>seriale<s n="adj"/></l><r>seriale<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="gianfranco"><p><l>isprofundu<s n="adj"/></l><r>sprofondo<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>tetònicu<s n="adj"/></l><r>tettonico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e a="gianfranco"><p><l>timorosu<s n="adj"/></l><r>timoroso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
+<e r="RL" a="gianfranco"><p><l>de<b/>Mònacu<s n="adj"/></l><r>monegasco<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>divisore<s n="adj"/></l><r>dirimente<s n="adj"/></r></p><par n="mf_GDsup"/></e>
+<e a="gianfranco"><p><l>impreàbile<s n="adj"/></l><r>utilizzabile<s n="adj"/></r></p><par n="mf_mfsup"/></e>
+<e a="gianfranco"><p><l>liminàrgiu<s n="adj"/></l><r>limitante<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL" a="gianfranco"><p><l>de<b/>gabale<s n="adj"/></l><r>carismatico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e r="RL" a="hector"><p><l>de<b/>sos<b/>rabbinos<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e i="yes" a="gianfranco"><p><l>de<b/>su<b/>rabbinu<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+
   </section>
 </dictionary>
