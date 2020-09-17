@@ -2575,7 +2575,7 @@
 	  <test>
 	    <and>
 	    <equal><clip pos="1" side="tl" part="lem"/><lit v="carchi"/></equal>
-	    <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
 	    </and>
 	  </test>
 	  <let><clip pos="2" side="tl" part="nbr"/> <lit-tag v="sg"/></let>
