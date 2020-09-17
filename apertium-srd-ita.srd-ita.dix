@@ -5255,9 +5255,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>Ciccillo<s n="np"/><s n="ant"/><s n="m"/></l><r>Ciccillo<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Ciccio<s n="np"/><s n="ant"/><s n="m"/></l><r>Ciccio<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Cicerone<s n="np"/><s n="ant"/><s n="m"/></l><r>Cicerone<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
-<e r="RL"><p><l>ciclista<s n="adj"/></l>               <r>ciclista<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>ciclista<s n="n"/></l>                 <r>ciclista<s n="n"/></r></p><par n="mf_GD"/></e>
 <e>       <p><l>ciclista<s n="adj"/></l>               <r>ciclista<s n="adj"/></r></p><par n="mf_GD"/></e>
+<e r="RL"><p><l>ciclista<s n="adj"/></l>               <r>ciclista<s n="adj"/><s n="sup"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>ciclu<s n="n"/><s n="m"/></l><r>ciclo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Cina<s n="np"/><s n="ant"/><s n="f"/></l><r>Cina<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
 <e>       <p><l>Cino<s n="np"/><s n="ant"/><s n="m"/></l><r>Cino<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
@@ -27865,6 +27865,62 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL" a="gianfranco"><p><l>de<b/>gabale<s n="adj"/></l><r>carismatico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e r="RL" a="hector"><p><l>de<b/>sos<b/>rabbinos<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
 <e i="yes" a="gianfranco"><p><l>de<b/>su<b/>rabbinu<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+
+<e r="RL" a="gianfranco"><p><l>aparitzu<s n="n"/><s n="m"/></l><r>apparecchiatura<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>bonìfica<s n="n"/><s n="f"/></l><r>bonifica<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>flota<s n="n"/><s n="f"/></l><r>flottiglia<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>gioventude<s n="n"/><s n="f"/></l><r>giovinezza<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>muràllia<s n="n"/><s n="f"/></l><r>muraglia<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>càrriga<s n="n"/><s n="f"/></l><r>podesteria<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>maia<s n="n"/><s n="f"/></l><r>sortilegio<s n="n"/><s n="m"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>pìgiu<s n="n"/><s n="m"/></l><r>epitelio<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>nura<s n="n"/><s n="f"/></l><r>nuora<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>cartoleria<s n="n"/><s n="f"/></l><r>cartoleria<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>casta<s n="n"/><s n="f"/></l><r>élite<s n="n"/><s n="f"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>pesta<s n="n"/><s n="f"/></l><r>epidemia<s n="n"/><s n="f"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>acorru<s n="n"/><s n="m"/></l><r>confinamento<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>mascheredda<s n="n"/><s n="f"/></l><r>mascherina<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>bassu-relevu<s n="n"/><s n="m"/></l><r>bassorilievo<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>duchentenàriu<s n="n"/><s n="m"/></l><r>bicentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>càdmiu<s n="n"/><s n="m"/></l><r>cadmio<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>laore<s n="n"/><s n="m"/></l><r>cereale<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>colosseu<s n="n"/><s n="m"/></l><r>colosseo<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>complicatzione<s n="n"/><s n="f"/></l><r>complicanza<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>crutzifissu<s n="n"/><s n="m"/></l><r>crocifisso<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>rughifissu<s n="n"/><s n="m"/></l><r>crocifisso<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>disusu<s n="n"/><s n="m"/></l><r>disuso<s n="n"/><s n="m"/></r></p></e>
+<e i="yes" a="gianfranco"><p><l>disimpreu<s n="n"/><s n="m"/></l><r>disuso<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>flauteri<s n="n"/></l><r>flautista<s n="n"/></r></p></e>
+<e a="gianfranco"><p><l>granducadu<s n="n"/><s n="m"/></l><r>granducato<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>incorporatzione<s n="n"/><s n="f"/></l><r>incorporazione<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>inevitabilidade<s n="n"/><s n="f"/></l><r>inevitabilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>interatividade<s n="n"/><s n="f"/></l><r>interattività<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>iperispàtziu<s n="n"/><s n="m"/></l><r>iperspazio<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>ipertestualidade<s n="n"/><s n="f"/></l><r>ipertestualità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>liberista<s n="n"/></l><r>liberista<s n="n"/></r></p><par n="mf_GD"/></e>
+<e a="gianfranco"><p><l>mantenibilidade<s n="n"/><s n="f"/></l><r>manutenibilità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>memorizatzione<s n="n"/><s n="f"/></l><r>memorizzazione<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>proinosidade<s n="n"/><s n="f"/></l><r>piovosità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>potentziòmetru<s n="n"/><s n="m"/></l><r>potenziometro<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>rabbinu<s n="n"/><s n="m"/></l><r>rabbino<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>iscassia<s n="n"/><s n="f"/></l><r>scarsità<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>sepulcru<s n="n"/><s n="m"/></l><r>sepolcro<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>sumministrada<s n="n"/><s n="f"/></l><r>somministrazione<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>arreada<s n="n"/><s n="f"/></l><r>stazionamento<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>tranvia<s n="n"/><s n="f"/></l><r>tranvia<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>treschentenàriu<s n="n"/><s n="m"/></l><r>tricentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>batorchentenàriu<s n="n"/><s n="m"/></l><r>quadricentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>chimbichentenàriu<s n="n"/><s n="m"/></l><r>cinquecentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>seischentenàriu<s n="n"/><s n="m"/></l><r>seicentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>setechentenàriu<s n="n"/><s n="m"/></l><r>settecentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>otighentenàriu<s n="n"/><s n="m"/></l><r>ottocentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>noighentenàriu<s n="n"/><s n="m"/></l><r>novecentenario<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>ecografia<s n="n"/><s n="f"/></l><r>ecografia<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>diàgnosi<s n="n"/><s n="f"/></l><r>diagnosi<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>coronavirus<s n="n"/><s n="m"/></l><r>coronavirus<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
+<e r="LR" a="gianfranco"><p><l>barantena<s n="n"/><s n="f"/></l><r>quarantena<s n="n"/><s n="f"/></r></p></e>
+<e a="gianfranco"><p><l>contàgiu<s n="n"/><s n="m"/></l><r>contagio<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>apitzigadura<s n="n"/><s n="f"/></l><r>contagio<s n="n"/><s n="m"/></r></p></e>
 
   </section>
 </dictionary>
