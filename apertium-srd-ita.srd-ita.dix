@@ -19616,7 +19616,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>professone<s n="n"/><s n="f"/></l>     <r>processione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>professore<s n="n"/><s n="m"/></l>     <r>professore<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>professore<s n="n"/></l>               <r>professore<s n="n"/></r></p></e>
-<e>       <p><l>profeta<s n="n"/><s n="f"/></l>        <r>profeta<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>profeta<s n="n"/><s n="m"/></l>        <r>profeta<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>profetare<s n="vblex"/></l>            <r>profetizzare<s n="vblex"/></r></p></e>
 <e>       <p><l>profetosu<s n="adj"/></l>              <r>profetico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>profetosu<s n="adj"/></l>              <r>profetico<s n="adj"/><s n="sup"/></r></p></e>
@@ -21902,7 +21902,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>significativu<s n="adj"/></l>          <r>significativo<s n="adj"/></r></p></e>
 <e r="RL"><p><l>significativu<s n="adj"/></l>          <r>significativo<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>significu<s n="n"/><s n="m"/></l>      <r>significato<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>sennora<s n="n"/><s n="f"/></l>        <r>signora<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>sennore<s n="n"/><s n="f"/></l>        <r>signora<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" c="non-preferred"><p><l>sennore<s n="n"/></l><r>signore<s n="n"/></r></p></e>
 <e>       <p><l>sennorinu<s n="n"/></l>                <r>signorino<s n="n"/></r></p></e>
 <e>       <p><l>sennorinu<s n="adj"/></l>                <r>signorino<s n="adj"/></r></p></e>
@@ -27873,6 +27873,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e a="gianfranco"><p><l>muràllia<s n="n"/><s n="f"/></l><r>muraglia<s n="n"/><s n="f"/></r></p></e>
 <e r="RL" a="gianfranco"><p><l>càrriga<s n="n"/><s n="f"/></l><r>podesteria<s n="n"/><s n="f"/></r></p></e>
 <e a="gianfranco"><p><l>maia<s n="n"/><s n="f"/></l><r>sortilegio<s n="n"/><s n="m"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>iscuta<g><b/>a<b/>libru</g><s n="n"/><s n="f"/></l><r>sortilegio<s n="n"/><s n="m"/></r></p></e>
 <e r="RL" a="gianfranco"><p><l>pìgiu<s n="n"/><s n="m"/></l><r>epitelio<s n="n"/><s n="m"/></r></p></e>
 <e a="gianfranco"><p><l>nura<s n="n"/><s n="f"/></l><r>nuora<s n="n"/><s n="f"/></r></p></e>
 <e a="gianfranco"><p><l>cartoleria<s n="n"/><s n="f"/></l><r>cartoleria<s n="n"/><s n="f"/></r></p></e>
@@ -27921,6 +27922,60 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" a="gianfranco"><p><l>barantena<s n="n"/><s n="f"/></l><r>quarantena<s n="n"/><s n="f"/></r></p></e>
 <e a="gianfranco"><p><l>contàgiu<s n="n"/><s n="m"/></l><r>contagio<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" a="gianfranco"><p><l>apitzigadura<s n="n"/><s n="f"/></l><r>contagio<s n="n"/><s n="m"/></r></p></e>
+
+<e a="gianfranco"><p><l>Epicuru<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Epicuro<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+<e a="gianfranco"><p><l>Giustinianu<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>Giustiniano<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+
+<e a="gianfranco"><p><l>duchentenàriu<s n="adj"/></l><r>bicentenario<s n="adj"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>iscimpru<s n="adj"/></l><r>idiota<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>cuguddadu<s n="adj"/></l><r>incapucciato<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>cugugiadu<s n="adj"/></l><r>incappucciato<s n="adj"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>acucadu<s n="adj"/></l><r>incappucciato<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>liberista<s n="adj"/></l><r>liberista<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="gianfranco"><p><l>treschentenàriu<s n="adj"/></l><r>tricentenario<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>batorchentenàriu<s n="adj"/></l><r>quadricentenario<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>chimbichentenàriu<s n="adj"/></l><r>cinquecentenario<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>seischentenàriu<s n="adj"/></l><r>seicentenario<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>setechentenàriu<s n="adj"/></l><r>settecentenario<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>otighentenàriu<s n="adj"/></l><r>ottocentenario<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>noighentenàriu<s n="adj"/></l><r>novecentenario<s n="adj"/></r></p></e>
+
+<e a="gianfranco"><p><l>cuntzitadinu<s n="n"/></l><r>concittadino<s n="n"/></r></p></e>
+<e a="gianfranco"><p><l>cugugiadu<s n="n"/></l><r>incappucciato<s n="n"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>acucadu<s n="n"/></l><r>incappucciato<s n="n"/></r></p></e>
+
+<e a="gianfranco"><p><l>acramare<s n="vblex"/></l><r>acclamare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>ammaniare<s n="vblex"/></l><r>allestire<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>bonificare<s n="vblex"/></l><r>bonificare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>dimìtere<s n="vblex"/></l><r>dimettere<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>dispatzare<s n="vblex"/></l><r>dimettere<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>disdignare<s n="vblex"/></l><r>disdegnare<s n="vblex"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>animare<s n="vblex"/></l><r>incitare<s n="vblex"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>rugrare<s n="vblex"/></l><r>incrociare<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>irrugare<s n="vblex"/></l><r>incrociare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>pònnere<b/>a<b/>ìnditze<s n="vblex"/></l><r>indicizzare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>aposentare<s n="vblex"/></l><r>insediare<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>apoderare<s n="vblex"/></l><r>insediare<s n="vblex"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>rugrare<s n="vblex"/></l><r>intersecare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>cumbìnchere<s n="vblex"/></l><r>persuadere<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>persuadire<s n="vblex"/></l><r>persuadere<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>torrare<g><b/>a<b/>intèndere</g><s n="vblex"/></l><r>risentire<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>ofèndere<s n="vblex"/></l><r>risentire<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>torrare<g><b/>a<b/>imprentare</g><s n="vblex"/></l><r>ristampare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>torrare<g><b/>a<b/>acontzare</g><s n="vblex"/></l><r>ristrutturare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>iscriturare<s n="vblex"/></l><r>scritturare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>ismembrare<s n="vblex"/></l><r>smembrare<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>isperrare<s n="vblex"/></l><r>smembrare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>isantziare<s n="vblex"/></l><r>stanziare<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>cussorgiare<s n="vblex"/></l><r>stanziare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>colare<s n="vblex"/></l><r>transitare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>trighinare<s n="vblex"/></l><r>pigmentare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>contagiare<s n="vblex"/></l><r>contagiare<s n="vblex"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>apitzigare<s n="vblex"/></l><r>contagiare<s n="vblex"/></r></p></e>
+<e a="gianfranco"><p><l>impestare<s n="vblex"/></l><r>appestare<s n="vblex"/></r></p></e>
+<e r="RL" a="bauladu"><p><l>acumandare<s n="vblex"/></l><r>demandare<s n="vblex"/></r></p></e>
+<e a="bauladu"><p><l>cuantificare<s n="vblex"/></l><r>quantificare<s n="vblex"/></r></p></e>
+<e r="LR" a="bauladu"><p><l>decrare<s n="vblex"/></l><r>dichiarare<s n="vblex"/></r></p></e>
 
   </section>
 </dictionary>
