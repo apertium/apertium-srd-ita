@@ -11,10 +11,16 @@
        <cat-item tags="det.*"/>
        <cat-item lemma="lo" tags="prn.pro.p3.f.*"/> <!-- to avoid problems in disambiguation -->
     </def-cat>
+    <def-cat n="det_num">
+       <cat-item tags="det.*"/>
+       <cat-item tags="num"/>
+       <cat-item tags="num.*"/>
+    </def-cat>
     <def-cat n="predet">
        <cat-item tags="predet.*"/>
     </def-cat>
     <def-cat n="num">
+       <cat-item tags="num"/>
        <cat-item tags="num.*"/>
     </def-cat>
     <def-cat n="verb">
@@ -292,6 +298,9 @@
     <def-cat n="non">
        <cat-item lemma="non" tags="adv"/>
     </def-cat>
+    <def-cat n="molto">
+       <cat-item lemma="molto" tags="preadv"/>
+    </def-cat>
     <def-cat n="così">
        <cat-item lemma="così" tags="adv"/>
        <cat-item lemma="così" tags="preadv"/>
@@ -303,6 +312,15 @@
     </def-cat>
     <def-cat n="tanto">
        <cat-item lemma="tanto" tags="adv"/>
+    </def-cat>
+    <def-cat n="cnjadv">
+       <cat-item tags="cnjadv"/>
+    </def-cat>
+    <def-cat n="cnjcoo">
+       <cat-item tags="cnjcoo"/>
+    </def-cat>
+    <def-cat n="cnjsub">
+       <cat-item tags="cnjsub"/>
     </def-cat>
     <def-cat n="quanto-cnjadv">
        <cat-item lemma="quanto" tags="cnjadv"/>
@@ -434,7 +452,7 @@
        <list-item v="XXIX"/>
        <list-item v="XXX"/>
     </def-list>
-   <def-list n="trencats">
+    <def-list n="trencats">
       <list-item v="terzo"/>
       <list-item v="quarto"/>
       <list-item v="quinto"/>
@@ -443,7 +461,21 @@
       <list-item v="ottavo"/>
       <list-item v="nono"/>
     </def-list>
-   <def-list n="vbambser">
+    <def-list n="mese">
+       <list-item v="gennaio"/>
+       <list-item v="febbraio"/>
+       <list-item v="marzo"/>
+       <list-item v="aprile"/>
+       <list-item v="maggio"/>
+       <list-item v="giugno"/>
+       <list-item v="luglio"/>
+       <list-item v="agosto"/>
+       <list-item v="settembre"/>
+       <list-item v="ottobre"/>
+       <list-item v="novembre"/>
+       <list-item v="dicembre"/>
+    </def-list>
+    <def-list n="vbambser">
       <list-item v="andare"/>
       <list-item v="crèschere"/>
       <list-item v="frenare"/>
@@ -4810,7 +4842,7 @@
 
     <rule comment="regla: det nom adv adjec">
        <pattern>
-         <pattern-item n="det"/>
+         <pattern-item n="det_num"/>
          <pattern-item n="nom"/>
          <pattern-item n="adv-preadv"/>
          <pattern-item n="adjec"/>
@@ -4834,6 +4866,46 @@
            <with-param pos="2"/>
            <with-param pos="4"/>
          </call-macro>
+     <choose>
+       <when>
+         <test>
+           <or>
+	     <equal caseless="yes"><clip pos="3" side="tl" part="lemh"/><lit v="meda"/></equal>
+	     <equal caseless="yes"><clip pos="3" side="tl" part="lemh"/><lit v="a bera"/></equal>
+           </or>
+         </test>
+         <out>
+           <chunk name="det_n_adv_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </when>
+       <otherwise>
          <out>
            <chunk name="det_n_adv_adj">
              <tags>
@@ -4864,13 +4936,15 @@
            </lu>
          </chunk>
          </out>
+       </otherwise>
+     </choose>
        </action>
     </rule>
 
 
     <rule comment="regla: det adv adjec nom">
        <pattern>
-         <pattern-item n="det"/>
+         <pattern-item n="det_num"/>
          <pattern-item n="adv-preadv"/>
          <pattern-item n="adjec"/>
          <pattern-item n="nom"/>
@@ -4894,6 +4968,46 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
+     <choose>
+       <when>
+         <test>
+           <or>
+	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="meda"/></equal>
+	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="a bera"/></equal>
+           </or>
+         </test>
+         <out>
+           <chunk name="det_adv_adj_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </when>
+       <otherwise>
          <out>
            <chunk name="det_adv_adj_n">
              <tags>
@@ -4924,6 +5038,8 @@
            </lu>
          </chunk>
          </out>
+       </otherwise>
+     </choose>
        </action>
     </rule>
 
@@ -5350,6 +5466,18 @@
       </when>
 
        <otherwise>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+	         <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 <in caseless="yes"><clip pos="3" side="sl" part="lemh"/><list n="mese"/></in>
+               </and>
+             </test>
+	     <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+           </when>
+         </choose>
          <out>
            <chunk name="det-num-nom">
              <tags>
@@ -7814,6 +7942,79 @@
     </rule>
 
 
+    <rule comment="regla: molto adjec > adjec meda">
+       <pattern>
+         <pattern-item n="molto"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="adj_meda">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: molto adjec cnjcoo adjec > adjec cnjcoo adjec meda">
+       <pattern>
+         <pattern-item n="molto"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="cnjcoo"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <out>
+           <chunk name="adj_meda">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
     <rule comment="regla: tn">
        <pattern>
          <pattern-item n="tn"/>
@@ -7938,7 +8139,7 @@
 
     <rule comment="regla: adverb (tractament multiparaules)">
        <pattern>
-         <pattern-item n="adv"/>
+         <pattern-item n="adv-preadv"/>
        </pattern>
        <action>
          <out>
