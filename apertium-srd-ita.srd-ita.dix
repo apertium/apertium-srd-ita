@@ -7006,6 +7006,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>dae<b/>bivu<s n="n"/><s n="m"/><s n="sg"/></l><r>live<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
 <e>       <p><l>dae<b/>bivu<s n="adj"/><s n="mf"/><s n="sp"/></l><r>live<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e>       <p><l>dae<b/>chi<s n="cnjadv"/></l>          <r>dal<b/>momento<b/>che<s n="cnjadv"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>dae<b/>chi<s n="cnjadv"/></l><r>giacché<s n="cnjadv"/></r></p></e>
 <e>       <p><l>dae<b/>cuddae<s n="adv"/></l>          <r>da<b/>laggiù<s n="adv"/></r></p></e>
 <e>       <p><l>dae<b/>cue<s n="adv"/></l>             <r>da<b/>lì<s n="adv"/></r></p></e>
 <e>       <p><l>dae<b/>curtzu<s n="adv"/></l>          <r>da<b/>vicino<s n="adv"/></r></p></e>
@@ -14485,7 +14486,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>lampone<s n="n"/><s n="m"/></l>        <r>lampone<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>lampu<s n="n"/><s n="m"/></l>          <r>fulmine<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>lampu<s n="n"/><s n="m"/></l>          <r>lampo<s n="n"/><s n="m"/></r></p></e>
-<e>       <p><l>ballalloi<s n="n"/><s n="m"/></l>          <r>babbeo<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>ballalloi<s n="n"/><s n="m"/></l>          <r>babbeo<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>lana<s n="n"/><s n="f"/></l>           <r>lana<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>Lancillotto<s n="np"/><s n="ant"/><s n="m"/></l><r>Lancillotto<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>       <p><l>Landa<s n="np"/><s n="ant"/><s n="f"/></l><r>Landa<s n="np"/><s n="ant"/><s n="f"/></r></p></e>
@@ -16387,8 +16388,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>montanu<s n="adj"/></l>                <r>montano<s n="adj"/></r></p></e>
 <e r="RL"><p><l>montanu<s n="adj"/></l>                <r>montano<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>montare<s n="vblex"/></l>              <r>montare<s n="vblex"/></r></p></e>
+<e>       <p><l>monte<s n="n"/><s n="m"/></l>          <r>monte<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>monte<s n="n"/><s n="m"/></l>          <r>montagna<s n="n"/><s n="f"/></r></p></e>
-<e>       <p><l>grilletto<s n="n"/><s n="m"/></l>          <r>montagna<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>grilletto<s n="n"/><s n="m"/></l>      <r>montagna<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>monte<s n="n"/><s n="m"/></l>          <r>craita<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>Monte<s n="np"/><s n="top"/><s n="m"/><s n="sg"/></l><r>Monti<s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
 <e>       <p><l>Monteleone<s n="np"/><s n="top"/><s n="m"/></l><r>Monteleone<b/>Rocca<b/>Doria<s n="np"/><s n="top"/><s n="m"/></r></p></e>
@@ -27833,9 +27835,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="LR" a="gianfranco"><p><l>gheladu<s n="adj"/></l><r>denso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e r="LR" a="gianfranco"><p><l>densu<s n="adj"/></l><r>denso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e a="gianfranco"><p><l>truncadu<s n="adj"/></l><r>discontinuo<s n="adj"/></r></p><par n="GD_GDsup"/></e>
-<e r="RL" a="gianfranco"><p><l>a<b/>tesu<s n="adj"/><s n="mf"/></l><r>distante<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="RL" a="gianfranco"><p><l>a<b/>tesu<s n="adj"/><s n="mf"/></l><r>distante<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e r="LR" a="gianfranco"><p><l>istesiadu<s n="adj"/></l><r>distante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
-<e r="LR" a="gianfranco"><p><l>indedda<s n="adj"/><s n="mf"/></l><r>distante<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="LR" a="gianfranco"><p><l>indedda<s n="adj"/><s n="mf"/></l><r>distante<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e a="gianfranco"><p><l>esaltadore<s n="adj"/></l><r>esaltante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
 <e r="LR" a="gianfranco"><p><l>bantadore<s n="adj"/></l><r>esaltante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
 <e r="LR" a="gianfranco"><p><l>alabadore<s n="adj"/></l><r>esaltante<s n="adj"/></r></p><par n="mf_GDsup"/></e>
@@ -27846,25 +27848,25 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e a="gianfranco"><p><l>imbinchìbile<s n="adj"/></l><r>invincibile<s n="adj"/></r></p><par n="mf_mfsup"/></e>
 <e a="gianfranco"><p><l>motorìsticu<s n="adj"/></l><r>motoristico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e a="gianfranco"><p><l>naschente<s n="adj"/></l><r>nascente<s n="adj"/></r></p><par n="mf_mfsup"/></e>
-<e r="RL" a="gianfranco"><p><l>de<b/>nòbile<s n="adj"/><s n="mf"/></l><r>nobiliare<s n="adj"/><s n="mf"/></r></p><par n="ND_sp"/></e>
+<e r="RL" a="gianfranco"><p><l>de<b/>nòbile<s n="adj"/><s n="mf"/></l><r>nobiliare<s n="adj"/><s n="mf"/></r></p><par n="sp_ND"/></e>
 <e a="gianfranco"><p><l>paulesu<s n="adj"/></l><r>paludoso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e r="LR" a="gianfranco"><p><l>benosu<s n="adj"/></l><r>paludoso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e a="gianfranco"><p><l>pessimìsticu<s n="adj"/></l><r>pessimistico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e r="RL" a="gianfranco"><p><l>primidiu<s n="adj"/></l><r>prematuro<s n="adj"/></r></p><par n="GD_GDsup"/></e>
-<e r="RL" a="gianfranco"><p><l>in<b/>favore<s n="adj"/></l><r>propizio<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e r="RL" a="gianfranco"><p><l>in<b/>favore<s n="adj"/></l><r>propizio<s n="adj"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
 <e i="yes" a="gianfranco"><p><l>adatu<s n="adj"/></l><r>propizio<s n="adj"/></r></p></e>
-<e r="RL" a="gianfranco"><p><l>agreste<s n="adj"/></l><r>selvaggio<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL" a="gianfranco"><p><l>agreste<s n="adj"/></l><r>selvaggio<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="gianfranco"><p><l>seriale<s n="adj"/></l><r>seriale<s n="adj"/></r></p><par n="mf_mfsup"/></e>
 <e a="gianfranco"><p><l>isprofundu<s n="adj"/></l><r>sprofondo<s n="adj"/></r></p></e>
 <e a="gianfranco"><p><l>tetònicu<s n="adj"/></l><r>tettonico<s n="adj"/></r></p><par n="GD_GDsup"/></e>
 <e a="gianfranco"><p><l>timorosu<s n="adj"/></l><r>timoroso<s n="adj"/></r></p><par n="GD_GDsup"/></e>
-<e r="RL" a="gianfranco"><p><l>de<b/>Mònacu<s n="adj"/></l><r>monegasco<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e r="RL" a="gianfranco"><p><l>de<b/>Mònacu<s n="adj"/></l><r>monegasco<s n="adj"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
 <e a="gianfranco"><p><l>divisore<s n="adj"/></l><r>dirimente<s n="adj"/></r></p><par n="mf_GDsup"/></e>
 <e a="gianfranco"><p><l>impreàbile<s n="adj"/></l><r>utilizzabile<s n="adj"/></r></p><par n="mf_mfsup"/></e>
-<e a="gianfranco"><p><l>liminàrgiu<s n="adj"/></l><r>limitante<s n="adj"/></r></p><par n="mf_GD"/></e>
-<e r="RL" a="gianfranco"><p><l>de<b/>gabale<s n="adj"/></l><r>carismatico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
-<e r="RL" a="hector"><p><l>de<b/>sos<b/>rabbinos<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
-<e i="yes" a="gianfranco"><p><l>de<b/>su<b/>rabbinu<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="GD_mf"/><par n="ND_sp"/></e>
+<e a="gianfranco"><p><l>liminàrgiu<s n="adj"/></l><r>limitante<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e r="RL" a="gianfranco"><p><l>de<b/>gabale<s n="adj"/></l><r>carismatico<s n="adj"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
+<e r="RL" a="hector"><p><l>de<b/>sos<b/>rabbinos<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
+<e i="yes" a="gianfranco"><p><l>de<b/>su<b/>rabbinu<s n="adj"/></l><r>rabbinico<s n="adj"/></r></p><par n="mf_GD"/><par n="sp_ND"/></e>
 
 <e r="RL" a="gianfranco"><p><l>aparitzu<s n="n"/><s n="m"/></l><r>apparecchiatura<s n="n"/><s n="f"/></r></p></e>
 <e a="gianfranco"><p><l>bonìfica<s n="n"/><s n="f"/></l><r>bonifica<s n="n"/><s n="f"/></r></p></e>
@@ -27931,7 +27933,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e a="gianfranco"><p><l>cuguddadu<s n="adj"/></l><r>incapucciato<s n="adj"/></r></p></e>
 <e a="gianfranco"><p><l>cugugiadu<s n="adj"/></l><r>incappucciato<s n="adj"/></r></p></e>
 <e r="LR" a="gianfranco"><p><l>acucadu<s n="adj"/></l><r>incappucciato<s n="adj"/></r></p></e>
-<e a="gianfranco"><p><l>liberista<s n="adj"/></l><r>liberista<s n="adj"/></r></p><par n="GD_mf"/></e>
+<e a="gianfranco"><p><l>liberista<s n="adj"/></l><r>liberista<s n="adj"/></r></p><par n="mf_GD"/></e>
 <e a="gianfranco"><p><l>treschentenàriu<s n="adj"/></l><r>tricentenario<s n="adj"/></r></p></e>
 <e a="gianfranco"><p><l>batorchentenàriu<s n="adj"/></l><r>quadricentenario<s n="adj"/></r></p></e>
 <e a="gianfranco"><p><l>chimbichentenàriu<s n="adj"/></l><r>cinquecentenario<s n="adj"/></r></p></e>
@@ -27976,6 +27978,16 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL" a="bauladu"><p><l>acumandare<s n="vblex"/></l><r>demandare<s n="vblex"/></r></p></e>
 <e a="bauladu"><p><l>cuantificare<s n="vblex"/></l><r>quantificare<s n="vblex"/></r></p></e>
 <e r="LR" a="bauladu"><p><l>decrare<s n="vblex"/></l><r>dichiarare<s n="vblex"/></r></p></e>
+
+<e r="RL" a="gianfranco"><p><l>chi<b/>intervenit<s n="adj"/><s n="mf"/></l><r>interveniente<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>chi<b/>arrimat<s n="adj"/><s n="mf"/></l><r>supportante<s n="adj"/><s n="mf"/></r></p></e>
+<e r="RL" a="gianfranco"><p><l>chi<b/>si<b/>podet<b/>reconnòschere<s n="adj"/><s n="mf"/></l><r>riconoscibile<s n="adj"/><s n="mf"/></r></p></e>
+<e a="gianfranco"><p><l>ballalloi<s n="adj"/></l><r>idiota<s n="adj"/></r></p></e>
+<e a="gianfranco"><p><l>ballalloi<s n="n"/></l><r>idiota<s n="n"/></r></p></e>
+<e r="LR" a="gianfranco"><p><l>iscimpru<s n="n"/></l><r>idiota<s n="n"/></r></p></e>
+<e a="gianfranco"><p><l>cuguddadu<s n="n"/></l><r>incapucciato<s n="n"/></r></p></e>
+<e a="gianfranco"><p><l>lipidu<s n="n"/><s n="m"/></l><r>lipide<s n="n"/><s n="m"/></r></p></e>
+<e a="gianfranco"><p><l>medievalista<s n="n"/></l><r>medievalista<s n="n"/></r></p><par n="mf_GD"/></e>
 
   </section>
 </dictionary>
