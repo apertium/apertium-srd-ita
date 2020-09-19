@@ -4871,7 +4871,7 @@
          <test>
            <or>
 	     <equal caseless="yes"><clip pos="3" side="tl" part="lemh"/><lit v="meda"/></equal>
-	     <equal caseless="yes"><clip pos="3" side="tl" part="lemh"/><lit v="a bera"/></equal>
+	     <equal caseless="yes"><clip pos="3" side="tl" part="lemh"/><lit v="a beru"/></equal>
            </or>
          </test>
          <out>
@@ -4973,7 +4973,7 @@
          <test>
            <or>
 	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="meda"/></equal>
-	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="a bera"/></equal>
+	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="a beru"/></equal>
            </or>
          </test>
          <out>
