@@ -16684,7 +16684,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>màstrinu<s n="n"/></l>                 <r>raffinato<s n="n"/></r></p></e>
 <e>       <p><l>màstrinu<s n="adj"/></l>               <r>raffinato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>màstrinu<s n="adj"/></l>               <r>raffinato<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>mèdia<s n="n"/><s n="f"/></l>          <r>media<s n="n"/><s n="f"/></r></p><par n="ND_sp"/></e>
+<e>       <p><l>mèdia<s n="n"/><s n="f"/></l>          <r>media<s n="n"/><s n="f"/></r></p></e>
+<e>       <p><l>mèdiu<g><b/>de<b/>comunicatzione</g><s n="n"/><s n="m"/></l><r>media<s n="n"/><s n="m"/></r></p><par n="ND_sp"/></e>
 <e>       <p><l>mèdicu<s n="adj"/></l>                 <r>medico<s n="adj"/></r></p></e>
 <e r="RL"><p><l>mèdicu<s n="adj"/></l>                 <r>medico<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>mèdiu<s n="adj"/></l>                  <r>medio<s n="adj"/></r></p></e>
