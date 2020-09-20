@@ -475,6 +475,30 @@
        <list-item v="novembre"/>
        <list-item v="dicembre"/>
     </def-list>
+    <def-list n="adv_post">
+      <list-item v="meda"/>
+      <list-item v="a bassu"/>
+      <list-item v="a bellu"/>
+      <list-item v="a beru"/>
+      <list-item v="a curtzu"/>
+      <list-item v="a forte"/>
+      <list-item v="a lestru"/>
+      <list-item v="a longu"/>
+      <list-item v="a malu"/>
+      <list-item v="a primu"/>
+      <list-item v="a tessu"/>
+      <list-item v="a ùrtimu"/>
+      <list-item v="a s'abertu"/>
+      <list-item v="a sa dereta"/>
+      <list-item v="a sa lestra"/>
+      <list-item v="a sa grussera"/>
+      <list-item v="a sa minuda"/>
+      <list-item v="a sa longa"/>
+      <list-item v="a sa prima"/>
+      <list-item v="a sa revessa"/>
+      <list-item v="a sa sola"/>
+      <list-item v="a sas primas"/>
+    </def-list>
     <def-list n="vbambser">
       <list-item v="andare"/>
       <list-item v="crèschere"/>
@@ -4869,10 +4893,7 @@
      <choose>
        <when>
          <test>
-           <or>
-	     <equal caseless="yes"><clip pos="3" side="tl" part="lemh"/><lit v="meda"/></equal>
-	     <equal caseless="yes"><clip pos="3" side="tl" part="lemh"/><lit v="a beru"/></equal>
-           </or>
+          <in caseless="yes"><clip pos="3" side="tl" part="lemh"/><list n="adv_post"/></in>
          </test>
          <out>
            <chunk name="det_n_adv_adj">
@@ -4971,10 +4992,7 @@
      <choose>
        <when>
          <test>
-           <or>
-	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="meda"/></equal>
-	     <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="a beru"/></equal>
-           </or>
+          <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="adv_post"/></in>
          </test>
          <out>
            <chunk name="det_adv_adj_n">
