@@ -3901,7 +3901,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>birmanu<s n="adj"/></l>                <r>birmano<s n="adj"/></r></p></e>
 <e>       <p><l>birmanu<s n="n"/></l>                  <r>birmano<s n="n"/></r></p></e>
 <e r="RL"><p><l>birmanu<s n="adj"/></l>                <r>birmano<s n="adj"/><s n="sup"/></r></p></e>
-<e>       <p><l>Birmània<s n="np"/><s n="top"/><s n="f"/></l><r>Birmania<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>       <p><l>Birmània<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></l><r>Birmania<s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
 <e>       <p><l>birra<s n="n"/><s n="f"/></l>          <r>birra<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>bisadore<s n="n"/><s n="m"/></l>       <r>sognatore<s n="n"/><s n="m"/></r></p></e>
@@ -6394,7 +6393,6 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e r="RL"><p><l>cumintzadu<s n="adj"/></l>             <r>cominciato<s n="adj"/><s n="sup"/></r></p></e>
 <e>       <p><l>cumintzare<s n="vblex"/></l>           <r>cominciare<s n="vblex"/></r></p></e>
 <e>       <p><l>cumintzu<s n="n"/><s n="m"/></l>       <r>inizio<s n="n"/><s n="m"/></r></p></e>
-<e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cumissione<s n="n"/><s n="f"/></l><r>comissione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cumissione<s n="n"/><s n="f"/></l>     <r>commissione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>cummediante<s n="n"/><s n="m"/></l>    <r>commediante<s n="n"/><s n="m"/></r></p></e>
 <e r="LR" c="non-preferred (gen. from aut. dic. comparison)"><p><l>cummediògrafu<s n="n"/></l><r>commediografo<s n="n"/></r></p></e>
@@ -8366,8 +8364,7 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>duos<s n="num"/></l>                   <r>due<s n="num"/></r></p><par n="GD_mf"/></e>
 <e>       <p><l>duplicadu<s n="adj"/></l>              <r>duplicato<s n="adj"/></r></p></e>
 <e r="RL"><p><l>duplicadu<s n="adj"/></l>              <r>duplicato<s n="adj"/><s n="sup"/></r></p></e>
-<e r="RL" c="non-preferred (gen. from aut. dic. comparison)"><p><l>duplicare<s n="vblex"/></l><r>duplicare<s n="vblex"/></r></p></e>
-<e>       <p><l>duplicare<s n="vblex"/></l>            <r>dupplicare<s n="vblex"/></r></p></e>
+<e>       <p><l>duplicare<s n="vblex"/></l>            <r>duplicare<s n="vblex"/></r></p></e>
 <e>       <p><l>duplicatzione<s n="n"/><s n="f"/></l>  <r>duplicazione<s n="n"/><s n="f"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>duplu<s n="adj"/></l><r>doppio<s n="adj"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>dura<s n="n"/><s n="f"/></l><r>durata<s n="n"/><s n="f"/></r></p></e>
@@ -15942,7 +15939,8 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>mentovu<s n="n"/><s n="m"/></l>        <r>menzione<s n="n"/><s n="f"/></r></p></e>
 <e>       <p><l>mentras<s n="adv"/></l>                <r>mentre<s n="adv"/></r></p></e>
 <e>       <p><l>in<b/>su<b/>mentras<s n="adv"/></l>    <r>nel<b/>mentre<s n="adv"/></r></p></e>
-<e>       <p><l>mentres<s n="adv"/></l>                <r>mentre<s n="adv"/></r></p></e>
+<e r="LR"><p><l>in<b/>su<b/>mentres<s n="adv"/></l>    <r>nel<b/>mentre<s n="adv"/></r></p></e>
+<e r="LR"><p><l>mentres<s n="adv"/></l>                <r>mentre<s n="adv"/></r></p></e>
 <e>       <p><l>mentu<s n="n"/><s n="m"/></l>          <r>mento<s n="n"/><s n="m"/></r></p></e>
 <e>       <p><l>mentuadu<s n="adj"/></l>               <r>ricordato<s n="adj"/></r></p></e>
 <e r="LR" c="non-preferred"><p><l>mentuare<s n="vblex"/></l><r>nominare<s n="vblex"/></r></p></e>
@@ -26227,9 +26225,9 @@ apertium-dixtools fix apertium-srd-ita.srd-ita.dix.new2 apertium-srd-ita.srd-ita
 <e>       <p><l>ùndighi<s n="num"/></l>                <r>undici<s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)? *%</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-<e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>ª<s n="num"/></l><r>ª<s n="num"/></r></p></e>
 <e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>°<s n="num"/></l><r>°<s n="num"/></r></p></e>
-<e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>º<s n="num"/></l><r>º<s n="num"/></r></p></e>
+<e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>º<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></l><r>º<s n="adj"/><s n="ord"/><s n="m"/><s n="sg"/></r></p></e>
+<e>       <re>[0-9]+([., ][0-9]+)?</re><p><l>ª<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></l><r>ª<s n="adj"/><s n="ord"/><s n="f"/><s n="sg"/></r></p></e>
 <!--
 <e>       <re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l><s n="web"/></l><r><s n="web"/></r></p></e>
 -->
