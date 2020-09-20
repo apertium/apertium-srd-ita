@@ -4412,15 +4412,15 @@
            </lu>
            <b pos="1"/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
-           </lu>
-           <b/>
-           <lu>
              <get-case-from pos="2">
              <clip pos="1" side="tl" part="lemh"/>
              </get-case-from>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b/>
+           <lu>
+             <lit v="meda"/><lit-tag v="adv"/>
            </lu>
          </chunk>
          </out>
@@ -4494,7 +4494,7 @@
            </lu>
            <b pos="1"/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+               <lit v="meda"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
@@ -4608,7 +4608,7 @@
            </lu>
            <b pos="2"/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+               <lit v="meda"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
@@ -4820,7 +4820,7 @@
            </lu>
            <b pos="1"/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+               <lit v="meda"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
@@ -5170,7 +5170,7 @@
            </lu>
            <b pos="3"/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+               <lit v="meda"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
@@ -5310,7 +5310,7 @@
            </lu>
            <b pos="3"/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+               <lit v="meda"/><lit-tag v="adv"/>
            </lu>
            <b/>
            <lu>
@@ -7934,7 +7934,7 @@
            </lu>
            <b/>
            <lu>
-               <lit v="a beru"/><lit-tag v="adv"/>
+               <lit v="meda"/><lit-tag v="adv"/>
            </lu>
          </chunk>
          </out>
