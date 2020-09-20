@@ -160,7 +160,7 @@
       <program name="lt-proc -b">
         <file name="srd-ita.autobil.bin"/>
       </program>
-      <program name="lrx-proc -t">
+      <program name="lrx-proc -m -t">
         <file name="srd-ita.autolex.bin"/>
       </program>
     </pipeline>
@@ -412,7 +412,7 @@
       <program name="lt-proc -b">
         <file name="ita-srd.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m"> <!-- afegir -t per a ensenyar el pes total -->
+      <program name="lrx-proc -m -t">
         <file name="ita-srd.autolex.bin"/>
       </program>
     </pipeline>
