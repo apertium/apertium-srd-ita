@@ -651,6 +651,29 @@
 
 
     <def-macro n="f_concord2" npar="2">
+
+      <!-- pedaç per a coses com "200.000 unità" i "tre unità" -->
+      <!--
+        ^200.000<num>/200.000<num>$ ^unità<n><f><sp>/unitat<n><f><ND>$
+        ^tre<num><mf><sp>/tres<num><mf><sp>$ ^unità<n><f><sp>/unitat<n><f><ND>$^
+      -->
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+              <equal><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></equal>
+	      <or>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit v=""/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+          <let><var n="numero"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+
       <choose>
 	<when>
 	  <test> <!-- do the main and second parameter gender agree?-->
@@ -1095,6 +1118,29 @@
 
 
     <def-macro n="f_concord3" npar="3"> 
+
+      <!-- pedaç per a coses com "200.000 unità" i "tre unità" -->
+      <!--
+        ^200.000<num>/200.000<num>$ ^unità<n><f><sp>/unitat<n><f><ND>$
+        ^tre<num><mf><sp>/tres<num><mf><sp>$ ^unità<n><f><sp>/unitat<n><f><ND>$^
+      -->
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+              <equal><clip pos="2" side="tl" part="a_num"/><lit-tag v="num"/></equal>
+	      <or>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+                <equal><clip pos="2" side="tl" part="nbr"/><lit v=""/></equal>
+              </or>
+            </and>
+          </test>
+          <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+          <let><var n="numero"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+
       <choose><!-- Look whether in source language there is concordance between first and second element -->
 	<when>
 	  <test> 
@@ -3687,6 +3733,33 @@
      <choose>
        <when>
          <test>
+           <and>
+             <equal><clip pos="1" side="tl" part="lem"/><lit v="1º"/></equal>
+             <in caseless="yes"><clip pos="2" side="sl" part="lemh"/><list n="mese"/></in>
+           </and>
+         </test>
+         <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+         <out>
+           <chunk name="adjord_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </when>
+       <when>
+         <test>
 	    <and>
 	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
 	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
@@ -4141,6 +4214,20 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
          </call-macro>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+	         <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+	         <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 <in caseless="yes"><clip pos="3" side="sl" part="lemh"/><list n="mese"/></in>
+               </and>
+             </test>
+	     <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+	     <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+           </when>
+         </choose>
          <out>
            <chunk name="adjord_n">
              <tags>
@@ -5399,8 +5486,8 @@
    <action>
      <call-macro n="f_concord3">
        <with-param pos="3"/>
-       <with-param pos="1"/>
        <with-param pos="2"/>
+       <with-param pos="1"/>
      </call-macro>
      <call-macro n="f_concord_esp">
        <with-param pos="3"/>
