@@ -1050,26 +1050,44 @@
 
 <!-- **************** NP **************** -->
 
-  <macro name="noms_propis" p1="Federico" p2="Federicu" />
   <macro name="noms_propis" p1="Alessandro" p2="Lisandru" />
-  <macro name="noms_propis" p1="Carlo" p2="Càralu" />
-  <macro name="noms_propis" p1="Giacomo" p2="Giacu" />
-  <macro name="noms_propis" p1="Ferdinando" p2="Ferrante" />
-  <macro name="noms_propis" p1="Riccardo" p2="Ricardu" />
-  <macro name="noms_propis" p1="Martino" p2="Martine" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfonsu" />
-  <macro name="noms_propis" p1="Umberto" p2="Umbertu" />
-  <macro name="noms_propis" p1="Luigi" p2="Luisi" />
-  <macro name="noms_propis" p1="Guglielmo" p2="Gullielmu" />
-  <macro name="noms_propis" p1="Nicola" p2="Nigola" />
-  <macro name="noms_propis" p1="Massimiliano" p2="Massimilianu" />
+  <macro name="noms_propis" p1="Benedetto" p2="Beneitu" />
+  <macro name="noms_propis" p1="Bernardo" p2="Bernardu" />
+  <macro name="noms_propis" p1="Carlo" p2="Càralu" />
+  <macro name="noms_propis" p1="Ciro" p2="Tziru" />
+  <macro name="noms_propis" p1="Dario" p2="Dariu" />
+  <macro name="noms_propis" p1="Enrico" p2="Erricu" />
+  <macro name="noms_propis" p1="Federico" p2="Federicu" />
+  <macro name="noms_propis" p1="Ferdinando" p2="Ferrante" />
+  <macro name="noms_propis" p1="Filippo" p2="Tilipu" />
+  <macro name="noms_propis" p1="Francesco" p2="Frantziscu" />
+  <macro name="noms_propis" p1="Giacomo" p2="Giacu" />
+  <macro name="noms_propis" p1="Giovanni" p2="Giuanne" />
+  <macro name="noms_propis" p1="Giovanni Paolo" p2="Giuanne Pàule" />
   <macro name="noms_propis" p1="Giuseppe" p2="Giosepe" />
   <macro name="noms_propis" p1="Giulio" p2="Giùliu" />
-  <macro name="noms_propis" p1="Matteo" p2="Mateu" />
+  <macro name="noms_propis" p1="Giuseppe" p2="Giosepe" />
+  <macro name="noms_propis" p1="Gregorio" p2="Gregòriu" />
+  <macro name="noms_propis" p1="Goffredo" p2="Gofredu" />
+  <macro name="noms_propis" p1="Guglielmo" p2="Gullielmu" />
+  <macro name="noms_propis" p1="Innocenzo" p2="Innocentzu" />
+  <macro name="noms_propis" p1="Luigi" p2="Luisi" />
   <macro name="noms_propis" p1="Marco" p2="Marcu" />
-  <macro name="noms_propis" p1="Dario" p2="Dariu" />
-  <macro name="noms_propis" p1="Ciro" p2="Tziru" />
+  <macro name="noms_propis" p1="Massimiliano" p2="Massimilianu" />
+  <macro name="noms_propis" p1="Martino" p2="Martine" />
+  <macro name="noms_propis" p1="Matteo" p2="Mateu" />
+  <macro name="noms_propis" p1="Nicola" p2="Nigola" />
+  <macro name="noms_propis" p1="Paolo" p2="Pàule" />
+  <macro name="noms_propis" p1="Pietro" p2="Pedru" />
+  <macro name="noms_propis" p1="Raimondo" p2="Raimundu" />
+  <macro name="noms_propis" p1="Riccardo" p2="Ricardu" />
+  <macro name="noms_propis" p1="Sisto" p2="Sistu" />
+  <macro name="noms_propis" p1="Umberto" p2="Umbertu" />
+
   <macro name="noms_propis" p1="Caterina" p2="Callina" />
+  <macro name="noms_propis" p1="Giovanna" p2="Giuanna" />
+  <macro name="noms_propis" p1="Lucia" p2="Lughia" />
 
 </rules>
 </metalrx>
