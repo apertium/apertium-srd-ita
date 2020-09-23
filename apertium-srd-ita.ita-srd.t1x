@@ -3000,7 +3000,7 @@
 </rule>
 
 
-<rule comment="regla: num nom: XVI secolo > sèculu XVI, XVI biennale, su de XVI biennale, tre quarti > su de bator tre">
+<rule comment="regla: num nom: XVI secolo > sèculu XVI, XVI biennale, su de XVI biennales, tre quarti > su de bator tre">
    <pattern>
      <pattern-item n="num"/>
      <pattern-item n="nom"/>
@@ -3022,7 +3022,6 @@
 	     <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
-         <!-- <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let> -->
          <out>
            <chunk name="n_adjord">
              <tags>
@@ -3046,7 +3045,7 @@
          <test>
            <in><clip pos="1" side="sl" part="lemh"/><list n="numrom"/></in>
          </test>
-         <!-- <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let> -->
+         <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
          <out>
            <chunk name="det_adjord_n">
              <tags>
@@ -3135,7 +3134,7 @@
 </rule>
 
 
-<rule comment="regla: . num nom: . XVI secolo > . Sèculu XVI, . XVI biennale, . Su de XVI biennale, . Tre quarti > . Su de bator tre">
+<rule comment="regla: . num nom: . XVI secolo > . Sèculu XVI, . XVI biennale, . Su de XVI biennales, . Tre quarti > . Su de bator tre">
    <pattern>
      <pattern-item n="sent"/>
      <pattern-item n="num"/>
@@ -3169,7 +3168,6 @@
 	     <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
-         <!-- <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let> -->
           <modify-case>
             <clip pos="3" side="tl" part="lemh"/>
             <lit v="Aa"/>
@@ -3198,7 +3196,7 @@
          <test>
            <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
          </test>
-         <!-- <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let> -->
+         <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let>
          <out>
            <chunk name="det_adjord_n">
              <tags>
@@ -5684,6 +5682,39 @@
        <with-param pos="1"/>
      </call-macro>
      <choose>
+       <when>
+         <test>
+           <and>
+             <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
+	     <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="secolo"/></equal>
+           </and>
+         </test>
+         <out>
+           <chunk name="det_adjord_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+
        <when>
          <test>
            <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
