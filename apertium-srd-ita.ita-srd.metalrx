@@ -1034,6 +1034,22 @@
     </or>
   </rule>
 
+<!-- **************** N **************** -->
+
+<!-- pronipote > nepode segundu, grandu -->
+
+  <rule weight="0.6">
+     <match lemma="pronipote" tags="n.*"><select lemma="nepode segundu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match tags="*.f.*"/>
+     <match lemma="pronipote" tags="n.*"><select lemma="neta segunda"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="pronipote" tags="n.*"><select lemma="neta segunda"/></match>
+     <match tags="*.f.*"/>
+  </rule>
+
 <!-- **************** ADJ **************** -->
 
 <!-- gran > mannu, grandu -->
