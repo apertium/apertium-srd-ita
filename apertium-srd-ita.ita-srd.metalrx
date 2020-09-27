@@ -601,22 +601,6 @@
     <match lemma="economico" tags="adj.*"><select lemma="econòmicu" tags="adj.*"/></match>
 </rule> 
 
-<!-- VITA/VIDA -->
-
-<rule weight="1.0">  <!-- regola senza contesto per scegliere una forma -->
-    <match lemma="vita" tags="n.*"><select lemma="vida" tags="n.*"/></match>
-</rule> 
-
-<rule weight="0.1"> 
-    <match lemma="vita" tags="n.*"><select lemma="chintu" tags="n.*"/></match>
-</rule> 
-
-  <rule weight="1.0">
-  <!-- "vita alta/bassa → chintu artu/bassu -->
-    <match lemma="vita" tags="n.*"><select lemma="chintu" tags="n.*"/></match>
-       <match lemma="alto" tags="adj.*"/>
-  </rule>
-
 <!--VITE/TORONÌLLIU-->
 
   <rule weight="1.0">
@@ -658,6 +642,8 @@
     <match lemma="quadrato"/>
   </rule>
 
+
+<!-- **************** VBLEX **************** -->
 
 <!-- SU -->
 
@@ -709,8 +695,9 @@
   </rule>
 -->
 
-<!-- INTENDERE -->
+<!-- **************** VBLEX **************** -->
 
+<!-- INTENDERE -->
   <rule weight="1.0">
     <match lemma="intendere" tags="vblex.*"><select lemma="cumprèndere" tags="vblex.*"/></match>
   </rule>
@@ -720,6 +707,7 @@
     <match tags="vblex.inf"/>
   </rule>
 
+<!-- **************** ADV **************** -->
 
 <!-- SU (ADV) > SUSU, IN SUSU, A SUSU -->
 
@@ -1036,8 +1024,70 @@
 
 <!-- **************** N **************** -->
 
-<!-- pronipote > nepode segundu, grandu -->
+  <!-- divisione > partzidura, divisione -->
+  <rule weight="0.6">
+     <match lemma="divisione" tags="n.*"><select lemma="partzidura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="generale" tags="n.*"/>
+      <match lemma="ammiraglio" tags="n.*"/>
+      <match lemma="esercito" tags="n.*"/>
+      <match lemma="battaglia" tags="n.*"/>
+      <match lemma="guerra" tags="n.*"/>
+      <match lemma="fanteria" tags="n.*"/>
+      <match lemma="cabelleria" tags="n.*"/>
+      <match lemma="artiglieria" tags="n.*"/>
+      <match lemma="blindato"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <match lemma="divisione" tags="n.*"><select lemma="divisione"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="divisione" tags="n.*"><select lemma="divisione"/></match>
+    <repeat from="0" upto="8">
+      <match/>
+    </repeat>
+    <or>
+      <match lemma="generale" tags="n.*"/>
+      <match lemma="ammiraglio" tags="n.*"/>
+      <match lemma="esercito" tags="n.*"/>
+      <match lemma="battaglia" tags="n.*"/>
+      <match lemma="guerra" tags="n.*"/>
+      <match lemma="fanteria" tags="n.*"/>
+      <match lemma="cabelleria" tags="n.*"/>
+      <match lemma="artiglieria" tags="n.*"/>
+      <match lemma="blindato"/>
+    </or>
+  </rule>
 
+  <!-- vita > vida, cintura -->
+  <rule weight="0.6">
+    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="da" tags="pr"/>
+      <match lemma="fino a" tags="pr"/>
+    </or>
+    <match tags="det.def.*"/>
+    <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="vita" tags="n.*"><select lemma="cintura"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <or>
+      <match lemma="stretto" tags="adj.*"/>
+      <match lemma="alto" tags="adj.*"/>
+      <match lemma="basso" tags="adj.*"/>
+    </or>
+  </rule>
+
+  <!-- pronipote > nepode segundu, grandu -->
   <rule weight="0.6">
      <match lemma="pronipote" tags="n.*"><select lemma="nepode segundu"/></match>
   </rule>
@@ -1052,8 +1102,7 @@
 
 <!-- **************** ADJ **************** -->
 
-<!-- gran > mannu, grandu -->
-
+  <!-- gran > mannu, grandu -->
   <rule weight="0.6">
      <match lemma="grande" tags="adj.*"><select lemma="mannu"/></match>
   </rule>
