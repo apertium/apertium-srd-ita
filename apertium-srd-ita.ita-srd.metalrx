@@ -682,7 +682,7 @@
   </rule>
 
 
-<!-- **************** VBLEX **************** -->
+<!-- **************** PR **************** -->
 
 <!-- SU -->
 
@@ -735,6 +735,21 @@
 -->
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- richiamare > fàghere# riferimentu a, fàghere# riferimentu -->
+  <rule weight="0.8">
+    <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu"/></match>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="prn.enc.*"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+  </rule>
 
 <!-- INTENDERE -->
   <rule weight="1.0">
@@ -1073,6 +1088,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- tassa > imposta... -->
+  <rule weight="0.8">
+    <match lemma="tassa" tags="n.*"><select lemma="imposta"/></match>
+  </rule>
 
   <!-- papà > babbu, ba' -->
   <rule weight="0.8">
