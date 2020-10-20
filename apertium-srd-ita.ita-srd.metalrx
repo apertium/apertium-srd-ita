@@ -495,6 +495,45 @@
       <match lemma="dimettire" tags="vblex.*"/>
       <match lemma="prelevare" tags="vblex.*"/> <!-- sovint a la Viquipedia -->
     </def-seq>
+
+    <def-seq n="verbi_moto">
+      <match lemma="affondare" tags="vblex.*"/>
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="approdare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="ballare" tags="vblex.*"/>
+      <match lemma="balzare" tags="vblex.*"/>
+      <match lemma="cadere" tags="vblex.*"/>
+      <match lemma="camminare" tags="vblex.*"/>
+      <match lemma="cavalcare" tags="vblex.*"/>
+      <match lemma="correre" tags="vblex.*"/>
+      <match lemma="emigrare" tags="vblex.*"/>
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="nuotare" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="passeggiare" tags="vblex.*"/>
+      <match lemma="penetrare" tags="vblex.*"/>
+      <match lemma="pervenire" tags="vblex.*"/>
+      <match lemma="rincasare" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="riuscire" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="saltare" tags="vblex.*"/>
+      <match lemma="sbarcare" tags="vblex.*"/>
+      <match lemma="scappare" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="scivolare" tags="vblex.*"/>
+      <match lemma="scorrere" tags="vblex.*"/>
+      <match lemma="sparire" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="uscire" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <match lemma="viaggiare" tags="vblex.*"/>
+      <match lemma="volare" tags="vblex.*"/>
+    </def-seq>
+
   </def-seqs>
 
 <rules>
@@ -643,7 +682,7 @@
   </rule>
 
 
-<!-- **************** VBLEX **************** -->
+<!-- **************** PR **************** -->
 
 <!-- SU -->
 
@@ -697,6 +736,21 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- richiamare > fàghere# riferimentu a, fàghere# riferimentu -->
+  <rule weight="0.8">
+    <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu"/></match>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="prn.enc.*"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+  </rule>
+
 <!-- INTENDERE -->
   <rule weight="1.0">
     <match lemma="intendere" tags="vblex.*"><select lemma="cumprèndere" tags="vblex.*"/></match>
@@ -708,6 +762,17 @@
   </rule>
 
 <!-- **************** ADV **************** -->
+
+  <!-- a casa > in domo, a domo -->
+  <rule weight="0.8">
+    <match lemma="a casa" tags="adv"><select lemma="in domo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_moto"/>
+    </or>
+    <match lemma="a casa" tags="adv"><select lemma="a domo"/></match>
+  </rule>
 
 <!-- SU (ADV) > SUSU, IN SUSU, A SUSU -->
 
@@ -1023,6 +1088,16 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- tassa > imposta... -->
+  <rule weight="0.8">
+    <match lemma="tassa" tags="n.*"><select lemma="imposta"/></match>
+  </rule>
+
+  <!-- papà > babbu, ba' -->
+  <rule weight="0.8">
+    <match lemma="papà" tags="n.*"><select lemma="babbu"/></match>
+  </rule>
 
   <!-- divisione > partzidura, divisione -->
   <rule weight="0.6">
