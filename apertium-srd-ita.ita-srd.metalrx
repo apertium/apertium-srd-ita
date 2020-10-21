@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metalrx>
+<lrx>
   <def-macros>
     <def-macro name="noms_propis">
       <rule weight="0.6">
@@ -390,13 +390,16 @@
 
   <def-seqs>
     <def-seq n="distanza">
+      <or>
       <match lemma="metro"/>
       <match lemma="chilometro"/>
       <match lemma="miglio"/>
       <match lemma="lega"/>
+      </or>
     </def-seq>
 
     <def-seq n="periodo">
+      <or>
       <match lemma="minuto" tags="n.*"/>
       <match lemma="ora" tags="n.*"/>
       <match lemma="giorno" tags="n.*"/>
@@ -406,9 +409,11 @@
       <match lemma="decennio" tags="n.*"/>
       <match lemma="secolo" tags="n.*"/>
       <match lemma="millennio" tags="n.*"/>
+      </or>
     </def-seq>
 
     <def-seq n="mese">
+      <or>
       <match lemma="gennaio" tags="n.*"/>
       <match lemma="febbraio" tags="n.*"/>
       <match lemma="marzo" tags="n.*"/>
@@ -421,9 +426,11 @@
       <match lemma="ottobre" tags="n.*"/>
       <match lemma="novembre" tags="n.*"/>
       <match lemma="dicembre" tags="n.*"/>
+      </or>
     </def-seq>
 
     <def-seq n="incarico">
+      <or>
       <match lemma="presidente" tags="n.*"/>
       <match lemma="segretario" tags="n.*"/>
       <match lemma="direttore" tags="n.*"/>
@@ -435,37 +442,47 @@
       <match lemma="vescovo" tags="n.*"/>
       <match lemma="arcivescovo" tags="n.*"/>
       <match lemma="papa" tags="n.*"/>
+      </or>
     </def-seq>
 
     <def-seq n="costruzione">
+      <or>
       <match lemma="casa" tags="n.*"/>
       <match lemma="chiesa" tags="n.*"/>
       <match lemma="duomo" tags="n.*"/>
       <match lemma="palazzo" tags="n.*"/>
       <match lemma="banca" tags="n.*"/>
+      </or>
     </def-seq>
 
     <def-seq n="bevanda">
+      <or>
       <match lemma="acqua" tags="n.*"/>
       <match lemma="caffè" tags="n.*"/>
       <match lemma="te" tags="n.*"/>
       <match lemma="frullato" tags="n.*"/>
+      </or>
     </def-seq>
 
     <def-seq n="cibo">
+      <or>
       <match lemma="carne" tags="n.*"/>
       <match lemma="pesce" tags="n.*"/>
       <match lemma="pasta" tags="n.*"/>
       <match lemma="dessert" tags="n.*"/>
       <match lemma="gelato" tags="n.*"/>
+      </or>
     </def-seq>
 
     <def-seq n="medicina">
+      <or>
       <match lemma="medicina" tags="n.*"/>
       <match lemma="compressa" tags="n.*"/>
+      </or>
     </def-seq>
 
     <def-seq n="verbi_da">
+      <or>
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="spostare" tags="vblex.*"/>
       <match lemma="viaggiare" tags="vblex.*"/>
@@ -494,9 +511,11 @@
       <match lemma="trarre" tags="vblex.*"/>
       <match lemma="dimettire" tags="vblex.*"/>
       <match lemma="prelevare" tags="vblex.*"/> <!-- sovint a la Viquipedia -->
+      </or>
     </def-seq>
 
     <def-seq n="verbi_moto">
+      <or>
       <match lemma="affondare" tags="vblex.*"/>
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="approdare" tags="vblex.*"/>
@@ -532,6 +551,7 @@
       <match lemma="venire" tags="vblex.*"/>
       <match lemma="viaggiare" tags="vblex.*"/>
       <match lemma="volare" tags="vblex.*"/>
+      </or>
     </def-seq>
 
   </def-seqs>
@@ -684,6 +704,23 @@
 
 <!-- **************** PR **************** -->
 
+  <!-- in > in, a -->
+  <rule weight="0.8">
+    <match lemma="in" tags="pr"><select lemma="in"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"><select lemma="a"/></match>
+  </rule>
+
 <!-- SU -->
 
   <rule weight="1.0">
@@ -736,6 +773,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- sostenere > sustentare, sustènnere -->
+  <rule weight="0.8">
+    <match lemma="sostenere" tags="vblex.*"><select lemma="sustentare"/></match>
+  </rule>
+
   <!-- richiamare > fàghere# riferimentu a, fàghere# riferimentu -->
   <rule weight="0.8">
     <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu a"/></match>
@@ -765,13 +807,19 @@
 
   <!-- a casa > in domo, a domo -->
   <rule weight="0.8">
-    <match lemma="a casa" tags="adv"><select lemma="in domo"/></match>
+    <or>
+      <match lemma="a casa" tags="adv"><select lemma="in domo"/></match>
+      <match lemma="in casa" tags="adv"><select lemma="in domo"/></match>
+    </or>
   </rule>
   <rule weight="1.0">
     <or>
       <seq n="verbi_moto"/>
     </or>
-    <match lemma="a casa" tags="adv"><select lemma="a domo"/></match>
+    <or>
+      <match lemma="a casa" tags="adv"><select lemma="a domo"/></match>
+      <match lemma="in casa" tags="adv"><select lemma="a domo"/></match>
+    </or>
   </rule>
 
 <!-- SU (ADV) > SUSU, IN SUSU, A SUSU -->
@@ -1089,6 +1137,108 @@
 
 <!-- **************** N **************** -->
 
+  <!-- domanda > pregonta, dimanda -->
+  <rule weight="0.8">
+    <match lemma="domanda" tags="n.*"><select lemma="pregonta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="domanda" tags="n.*"><select lemma="dimanda"/></match>
+    <match tags="cnjcoo"/>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match lemma="offerta" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="presentare" tags="vblex.*"/>
+      <match lemma="soddisfare" tags="vblex.*"/>
+      <match lemma="stimolare" tags="vblex.*"/>
+      <match lemma="aumentare" tags="vblex.*"/>
+      <match lemma="incrementare" tags="vblex.*"/>
+      <match lemma="diminuire" tags="vblex.*"/>
+      <match lemma="sostenere" tags="vblex.*"/>
+      <match lemma="rifiutare" tags="vblex.*"/>
+      <match lemma="sostenere" tags="vblex.*"/>
+      <match lemma="supportare" tags="vblex.*"/>
+      <match lemma="accogliere" tags="vblex.*"/>
+      <match lemma="presentare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match tags="det.*"/>
+      <match tags="num.*"/>
+      <match tags="num"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="domanda" tags="n.*"><select lemma="dimanda"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="domanda" tags="n.*"><select lemma="dimanda"/></match>
+    <or>
+      <match lemma="domestico" tags="adj.*"/>
+      <match lemma="interno" tags="adj.*"/>
+      <match lemma="esterno" tags="adj.*"/>
+      <match lemma="forte" tags="adj.*"/>
+      <match lemma="debole" tags="adj.*"/>
+      <match lemma="maggiore" tags="adj.*"/>
+      <match lemma="minore" tags="adj.*"/>
+      <match lemma="soziale" tags="adj.*"/>
+      <match lemma="globale" tags="adj.*"/>
+      <match lemma="mondiale" tags="adj.*"/>
+      <match lemma="nazionale" tags="adj.*"/>
+      <match lemma="regionale" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="forte" tags="adj.*"/>
+      <match lemma="debole" tags="adj.*"/>
+      <match lemma="formale" tags="adj.*"/>
+    </or>
+    <match lemma="domanda" tags="n.*"><select lemma="dimanda"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="domanda" tags="n.*"><select lemma="dimanda"/></match>
+    <match lemma="di" tags="pr"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="energia" tags="n.*"/>
+      <match lemma="servizio" tags="n.*"/>
+      <match lemma="provvedimento" tags="n.*"/>
+      <match lemma="attenzione" tags="n.*"/>
+      <match lemma="adesione" tags="n.*"/>
+      <match lemma="lavoro" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="domanda" tags="n.*"><select lemma="dimanda"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="lavoratore" tags="n.*"/>
+      <match lemma="sindacato" tags="n.*"/>
+      <match lemma="rappresentante" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="aumento" tags="n.*"/>
+      <match lemma="incremento" tags="n.*"/>
+      <match lemma="diminuzione" tags="n.*"/>
+      <match lemma="sostegno" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.def.*"/>
+    <match lemma="domanda" tags="n.*"><select lemma="dimanda"/></match>
+  </rule>
+
   <!-- tassa > imposta... -->
   <rule weight="0.8">
     <match lemma="tassa" tags="n.*"><select lemma="imposta"/></match>
@@ -1230,4 +1380,4 @@
   <macro name="noms_propis" p1="Lucia" p2="Lughia" />
 
 </rules>
-</metalrx>
+</lrx>
