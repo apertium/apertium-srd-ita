@@ -481,6 +481,24 @@
       </or>
     </def-seq>
 
+    <def-seq n="strumenti_musicali">
+      <or>
+      <match lemma="piano" tags="n.*"/>
+      <match lemma="pianoforte" tags="n.*"/>
+      <match lemma="violino" tags="n.*"/>
+      <match lemma="viola" tags="n.*"/>
+      <match lemma="violoncello" tags="n.*"/>
+      <match lemma="contrabbasso" tags="n.*"/>
+      <match lemma="flauto" tags="n.*"/>
+      <match lemma="oboe" tags="n.*"/>
+      <match lemma="clarinetto" tags="n.*"/>
+      <match lemma="tromba" tags="n.*"/>
+      <match lemma="sassofono" tags="n.*"/>
+      <match lemma="sax" tags="n.*"/>
+      <match lemma="organo" tags="n.*"/>
+      </or>
+    </def-seq>
+
     <def-seq n="verbi_da">
       <or>
       <match lemma="andare" tags="vblex.*"/>
@@ -1136,6 +1154,42 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- piano > pranu, pianu -->
+  <rule weight="0.8">
+    <match lemma="piano" tags="n.*"><select lemma="pranu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="suonare" tags="vblex.*"/>
+    <match tags="det.*"/>
+    <match lemma="piano" tags="n.*"><select lemma="pianu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="piano" tags="n.*"><select lemma="pianu"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <seq n="strumenti_musicali"/>
+      <match lemma="strumento" tags="n.*"/>
+      <match lemma="percussione" tags="n.*"/>
+      <match lemma="arco" tags="n.m.pl"/>
+      <match lemma="musica" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="strumenti_musicali"/>
+      <match lemma="strumento" tags="n.*"/>
+      <match lemma="percussione" tags="n.*"/>
+      <match lemma="arco" tags="n.m.pl"/>
+      <match lemma="musica" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="piano" tags="n.*"><select lemma="pianu"/></match>
+  </rule>
 
   <!-- domanda > pregonta, dimanda -->
   <rule weight="0.8">
