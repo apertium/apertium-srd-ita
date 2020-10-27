@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metalrx>
+<lrx>
 <rules>
 
 <!-- bi (prn.pro.adv) > ci, vi -->
@@ -15,7 +15,7 @@
   </rule>
 
 </rules>
-</metalrx>
+</lrx>
 <!-- 
 Resources: 
     http://wiki.apertium.org/wiki/How_to_get_started_with_lexical_selection_rules
