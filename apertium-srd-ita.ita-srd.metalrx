@@ -659,8 +659,10 @@
 
 
 
-<!-- ECONOMICO -->
-
+<!-- economico > econòmicu, baratu -->
+<rule weight="0.8"> 
+    <match lemma="economico" tags="adj.*"><select lemma="econòmicu" tags="adj.*"/></match>
+</rule> 
   <rule weight="1.0">
   <!-- "molto economico →  meda baratu -->
     <or>
@@ -669,19 +671,21 @@
     </or>
     <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
   </rule>
-
-<rule weight="0.5"> 
-    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
-</rule> 
-
-<rule weight="1.0"> 
-    <match lemma="economico" tags="adj.*"><select lemma="econòmicu" tags="adj.*"/></match>
-</rule> 
-
-<!--VITE/TORONÌLLIU-->
-
   <rule weight="1.0">
-    <match tags="num.*"/>
+    <match tags="vbser"/>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
+  </rule>
+
+
+<!-- vite > vite, toronìlliu -->
+<rule weight="0.8"> 
+    <match lemma="vite" tags="n.*"><select lemma="vite"/></match>
+</rule> 
+  <rule weight="1.0">
+    <or><match tags="num"/><match tags="num.*"/></or>
     <match lemma="vite" tags="n.*"><select lemma="toronìlliu" tags="n.*"/></match>
   </rule>
 
