@@ -724,6 +724,17 @@
   </rule>
 
 
+<!-- **************** PRN **************** -->
+
+  <!-- quello > cuddu, su -->
+  <rule weight="0.8">
+    <match lemma="quello" tags="prn.*"><select lemma="cuddu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="quello" tags="prn.*"><select lemma="su"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
+
 <!-- **************** PR **************** -->
 
   <!-- in > in, a -->
@@ -1370,17 +1381,45 @@
     </or>
   </rule>
 
+  <!-- donna > fèmina, mugere -->
+  <rule weight="0.6">
+    <match lemma="donna" tags="n.*"><select lemma="fèmina"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="adj.pos.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="donna" tags="n.*"><select lemma="mugere"/></match>
+  </rule>
+
+  <!-- nipote > nepode, neta -->
+  <rule weight="0.6">
+    <match lemma="nipote" tags="n.*"><select lemma="nepode"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="*.f.*"/>
+    <match lemma="nipote" tags="n.*"><select lemma="neta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nipote" tags="n.*"><select lemma="neta"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match tags="*.f.*"/>
+  </rule>
+
   <!-- pronipote > nepode segundu, grandu -->
   <rule weight="0.6">
-     <match lemma="pronipote" tags="n.*"><select lemma="nepode segundu"/></match>
+    <match lemma="pronipote" tags="n.*"><select lemma="nepode segundu"/></match>
   </rule>
   <rule weight="1.0">
-     <match tags="*.f.*"/>
-     <match lemma="pronipote" tags="n.*"><select lemma="neta segunda"/></match>
+    <match tags="*.f.*"/>
+    <match lemma="pronipote" tags="n.*"><select lemma="neta segunda"/></match>
   </rule>
   <rule weight="1.0">
-     <match lemma="pronipote" tags="n.*"><select lemma="neta segunda"/></match>
-     <match tags="*.f.*"/>
+    <match lemma="pronipote" tags="n.*"><select lemma="neta segunda"/></match>
+    <match tags="*.f.*"/>
   </rule>
 
 <!-- **************** ADJ **************** -->
