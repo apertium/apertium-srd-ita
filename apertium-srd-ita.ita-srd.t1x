@@ -7,6 +7,9 @@
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="detdef">
+       <cat-item tags="det.def.*"/>
+    </def-cat>
     <def-cat n="det_laprn">
        <cat-item tags="det.*"/>
        <cat-item lemma="lo" tags="prn.pro.p3.f.*"/> <!-- to avoid problems in disambiguation -->
@@ -348,6 +351,34 @@
     </def-cat>
     <def-cat n="sent">
        <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="nom_famiglia">
+       <cat-item lemma="padre" tags="n.*"/>
+       <cat-item lemma="madre" tags="n.*"/>
+       <cat-item lemma="babbo" tags="n.*"/>
+       <cat-item lemma="genitore" tags="n.*"/>
+       <cat-item lemma="figlio" tags="n.*"/>
+       <cat-item lemma="figliolo" tags="n.*"/>
+       <cat-item lemma="nonno" tags="n.*"/>
+       <cat-item lemma="nonna" tags="n.*"/>
+       <cat-item lemma="bisnonno" tags="n.*"/>
+       <cat-item lemma="bisnonna" tags="n.*"/>
+       <cat-item lemma="padrino" tags="n.*"/>
+       <cat-item lemma="madrina" tags="n.*"/>
+       <cat-item lemma="zio" tags="n.*"/>
+       <cat-item lemma="nipote" tags="n.*"/>
+       <cat-item lemma="pronipote" tags="n.*"/>
+       <cat-item lemma="cugino" tags="n.*"/>
+       <cat-item lemma="cugina" tags="n.*"/>
+       <cat-item lemma="fratello" tags="n.*"/>
+       <cat-item lemma="sorella" tags="n.*"/>
+       <cat-item lemma="sorellina" tags="n.*"/>
+       <cat-item lemma="patrigno" tags="n.*"/>
+       <cat-item lemma="matrigna" tags="n.*"/>
+       <cat-item lemma="fratellastro" tags="n.*"/>
+       <cat-item lemma="sorellastra" tags="n.*"/>
+       <cat-item lemma="marito" tags="n.*"/>
+       <cat-item lemma="moglie" tags="n.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -2717,29 +2748,17 @@
       </call-macro>
     </def-macro>      
 
-    <def-macro n="f_det_to_adj_pos1" npar="1">
+    <def-macro n="f_det_to_detpos" npar="2">
       <let>
-        <clip pos="1" side="tl" part="a_pos"/>
-        <lit-tag v="adj.pos"/>
+        <clip pos="1" side="tl" part="a_det"/>
+        <lit-tag v="det.pos"/>
       </let>
       <choose>
         <when>
           <test>
             <equal caseless="yes">
-              <clip pos="1" side="sl" part="lem"/>
-              <lit v="el seu"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="suo"/>
-          </let>
-        </when>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="1" side="sl" part="lem"/>
-              <lit v="el meu"/>
+              <clip pos="2" side="sl" part="lem"/>
+              <lit v="mio"/>
             </equal>
           </test>
           <let>
@@ -2750,8 +2769,8 @@
         <when>
           <test>
             <equal caseless="yes">
-              <clip pos="1" side="sl" part="lem"/>
-              <lit v="el teu"/>
+              <clip pos="2" side="sl" part="lem"/>
+              <lit v="tuo"/>
             </equal>
           </test>
           <let>
@@ -2762,8 +2781,20 @@
         <when>
           <test>
             <equal caseless="yes">
-              <clip pos="1" side="sl" part="lem"/>
-              <lit v="el nostre"/>
+              <clip pos="2" side="sl" part="lem"/>
+              <lit v="suo"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="suo"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="2" side="sl" part="lem"/>
+              <lit v="nostro"/>
             </equal>
           </test>
           <let>
@@ -2774,13 +2805,33 @@
         <when>
           <test>
             <equal caseless="yes">
-              <clip pos="1" side="sl" part="lem"/>
-              <lit v="el vostre"/>
+              <clip pos="2" side="sl" part="lem"/>
+              <lit v="vostro"/>
             </equal>
           </test>
           <let>
             <clip pos="1" side="tl" part="lem"/>
             <lit v="bostru"/>
+          </let>
+        </when>
+        <when>
+          <test>
+            <equal caseless="yes">
+              <clip pos="2" side="sl" part="lem"/>
+              <lit v="loro"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="lem"/>
+            <lit v="issoro"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="gen"/>
+            <lit-tag v="mf"/>
+          </let>
+          <let>
+            <clip pos="1" side="tl" part="nbr"/>
+            <lit-tag v="sp"/>
           </let>
         </when>
       </choose>
@@ -3314,6 +3365,145 @@
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: detdef adjpos nom_famiglia > detpos nom">
+       <pattern>
+         <pattern-item n="detdef"/>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom_famiglia"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_det_to_detpos">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="det_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: detdef adjpos nom_famiglia adj > detpos nom adj">
+       <pattern>
+         <pattern-item n="detdef"/>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom_famiglia"/>
+         <pattern-item n="adj"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_det_to_detpos">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="det_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: detdef adjpos adj nom_famiglia > detpos adj nom">
+       <pattern>
+         <pattern-item n="detdef"/>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adj"/>
+         <pattern-item n="nom_famiglia"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="4"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_det_to_detpos">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="det_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lem"/>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
