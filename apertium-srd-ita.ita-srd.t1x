@@ -2748,95 +2748,6 @@
       </call-macro>
     </def-macro>      
 
-    <def-macro n="f_det_to_detpos" npar="2">
-      <let>
-        <clip pos="1" side="tl" part="a_det"/>
-        <lit-tag v="det.pos"/>
-      </let>
-      <choose>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="mio"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="meu"/>
-          </let>
-        </when>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="tuo"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="tuo"/>
-          </let>
-        </when>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="suo"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="suo"/>
-          </let>
-        </when>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="nostro"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="nostru"/>
-          </let>
-        </when>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="vostro"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="bostru"/>
-          </let>
-        </when>
-        <when>
-          <test>
-            <equal caseless="yes">
-              <clip pos="2" side="sl" part="lem"/>
-              <lit v="loro"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="lem"/>
-            <lit v="issoro"/>
-          </let>
-          <let>
-            <clip pos="1" side="tl" part="gen"/>
-            <lit-tag v="mf"/>
-          </let>
-          <let>
-            <clip pos="1" side="tl" part="nbr"/>
-            <lit-tag v="sp"/>
-          </let>
-        </when>
-      </choose>
-    </def-macro>
-
     <def-macro n="f_li2bi" npar="1">
       <choose>	<!--To change "li" to "bi" when there is a second enclitic -->
 	<when> 
@@ -3388,10 +3299,6 @@
            <with-param pos="3"/>
            <with-param pos="2"/>
          </call-macro>
-         <call-macro n="f_det_to_detpos">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
-         </call-macro>
          <out>
            <chunk name="det_n">
              <tags>
@@ -3429,10 +3336,6 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
-           <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="f_det_to_detpos">
-           <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
          <out>
@@ -3478,10 +3381,6 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="4"/>
-           <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="f_det_to_detpos">
-           <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
          <out>
