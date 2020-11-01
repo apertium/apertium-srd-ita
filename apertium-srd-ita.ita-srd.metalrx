@@ -499,6 +499,40 @@
       </or>
     </def-seq>
 
+    <def-seq n="materiali">
+      <or>
+      <match lemma="oro" tags="n.*"/>
+      <match lemma="argento" tags="n.*"/>
+      <match lemma="bronzo" tags="n.*"/>
+      <match lemma="ferro" tags="n.*"/>
+      <match lemma="acciaio" tags="n.*"/>
+      <match lemma="nichel" tags="n.*"/>
+      <match lemma="alluminio" tags="n.*"/>
+      <match lemma="alluminio" tags="n.*"/>
+      <match lemma="cristallo" tags="n.*"/>
+      <match lemma="diamante" tags="n.*"/>
+      <match lemma="pietra" tags="n.*"/>
+
+      <match lemma="cotone" tags="n.*"/>
+      <match lemma="lana" tags="n.*"/>
+      <match lemma="seda" tags="n.*"/>
+      <match lemma="filo" tags="n.*"/>
+      <match lemma="ruolo" tags="n.*"/>
+      <match lemma="straccio" tags="n.*"/>
+      <match lemma="roba" tags="n.*"/>
+      <match lemma="plastica" tags="n.*"/>
+      <match lemma="poliestere" tags="n.*"/>
+      <match lemma="nylon" tags="n.*"/>
+      <match lemma="ceramica" tags="n.*"/>
+      <match lemma="porcellana" tags="n.*"/>
+      <match lemma="bambù" tags="n.*"/>
+      <match lemma="fango" tags="n.*"/>
+      <match lemma="paglia" tags="n.*"/>
+      <match lemma="mattone" tags="n.*"/>
+      <match lemma="cemento" tags="n.*"/>
+      </or>
+    </def-seq>
+
     <def-seq n="verbi_da">
       <or>
       <match lemma="andare" tags="vblex.*"/>
@@ -754,6 +788,43 @@
     <match lemma="in" tags="pr"><select lemma="a"/></match>
   </rule>
 
+  <!-- di > de, dae -->
+  <rule weight="0.8">
+    <match lemma="di" tags="pr"><select lemma="de"/></match>
+  </rule>
+<!--
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_moto"/>
+      <match lemma="provenire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"><select lemma="dae"/></match>
+  </rule>
+-->
+  <rule weight="1.0">
+    <match lemma="di" tags="pr"><select lemma="dae"/></match>
+    <or>
+      <seq n="materiali"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="fabbrica" tags="n.*"/>
+      <match lemma="fattoria" tags="n.*"/>
+      <match lemma="impianto" tags="n.*"/>
+      <match lemma="mina" tags="n.*"/>
+      <match lemma="atomo" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"><select lemma="de"/></match>
+    <or>
+      <seq n="materiali"/>
+    </or>
+  </rule>
+
 <!-- SU -->
 
   <rule weight="1.0">
@@ -777,22 +848,75 @@
 <!-- da > de, dae -->
 
   <rule weight="0.6">
-     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
-
   <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
-     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
+    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_da"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <match lemma="provenire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <seq n="verbi_da"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <match lemma="provenire" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat> 
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="*.inf"/>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+    </or>
+    <match lemma="a" tags="pr"/>
+    <match tags="*.inf"/>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat> 
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+  <rule weight="1.4">
+    <or>
+      <match lemma="tornare" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+    </or>
+    <match lemma="a" tags="pr"/>
+    <or>
+      <seq n="verbi_da"/>
+      <match lemma="venire" tags="vblex.inf"/>
+      <match lemma="provenire" tags="vblex.inf"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat> 
+    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
 
 
 <!-- VERB-CONJ DI: Marcamos "de" para eliminar, suponiendo que es un partitivo -->
 
+<!-- no funciona la regla
   <rule weight="0.8">
     <match lemma="di" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
 
-<!-- no funciona la regla
   <rule weight="1.0">
      <or>
        <match lemma="dare" tags="vblex.*"/>
@@ -849,6 +973,9 @@
     <or>
       <seq n="verbi_moto"/>
     </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <or>
       <match lemma="a casa" tags="adv"><select lemma="a domo"/></match>
       <match lemma="in casa" tags="adv"><select lemma="a domo"/></match>
