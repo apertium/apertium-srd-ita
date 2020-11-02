@@ -286,6 +286,9 @@
     <def-cat n="di">
        <cat-item lemma="di" tags="pr"/>
     </def-cat>
+    <def-cat n="in">
+       <cat-item lemma="in" tags="pr"/>
+    </def-cat>
     <def-cat n="per">
        <cat-item lemma="per" tags="pr"/>
     </def-cat>
@@ -8267,6 +8270,212 @@
          </out>
        </action>
     </rule>
+
+    <rule comment="regla: in n (in albanese > in albanesu)">
+       <pattern>
+         <pattern-item n="in"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+	         <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
+               </and>
+             </test>
+             <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+	         <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+               </and>
+             </test>
+             <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+           </when>
+         </choose>
+         <out>
+           <chunk name="in-nom">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: in n adj (in albanese > in albanesu)">
+       <pattern>
+         <pattern-item n="in"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adj"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+	         <equal><clip pos="3" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+	         <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
+               </and>
+             </test>
+             <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+             <choose>
+               <when>
+                 <test>
+	           <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 </test>
+                 <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
+               </when>
+             </choose>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+	         <equal><clip pos="3" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+	         <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+               </and>
+             </test>
+             <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+             <choose>
+               <when>
+                 <test>
+	           <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                 </test>
+                 <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+               </when>
+             </choose>
+           </when>
+         </choose>
+         <out>
+           <chunk name="in-nom">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+<!--
+    <rule comment="regla: in adj n (in albanese > in albanesu)">
+       <pattern>
+         <pattern-item n="in"/>
+         <pattern-item n="adj"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="3" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+	         <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+	         <equal><clip pos="3" side="tl" part="gen"/><lit-tag v="f"/></equal>
+               </and>
+             </test>
+             <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
+             <choose>
+               <when>
+                 <test>
+	           <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 </test>
+                 <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+               </when>
+             </choose>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+               <and>
+	         <equal><clip pos="3" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+	         <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+	         <equal><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+               </and>
+             </test>
+             <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+             <choose>
+               <when>
+                 <test>
+	           <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                 </test>
+                 <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+               </when>
+             </choose>
+           </when>
+         </choose>
+         <out>
+           <chunk name="in-nom">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+-->
 
 
 <!-- xxxxxx -->
