@@ -1564,6 +1564,15 @@
 
 <!-- **************** NP **************** -->
 
+  <!-- Cicerone > Tzitzerone, Cicerone -->
+  <rule weight="0.6">
+     <match lemma="Cicerone" tags="np.ant.*"><select lemma="Tzitzerone"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="Cicerone" tags="np.ant.*"><select lemma="Cicerone"/></match>
+     <match tags="np.*"/>
+  </rule>
+
   <macro name="noms_propis" p1="Alessandro" p2="Lisandru" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfonsu" />
   <macro name="noms_propis" p1="Benedetto" p2="Beneitu" />
