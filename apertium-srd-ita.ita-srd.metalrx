@@ -501,35 +501,73 @@
 
     <def-seq n="materiali">
       <or>
-      <match lemma="oro" tags="n.*"/>
-      <match lemma="argento" tags="n.*"/>
-      <match lemma="bronzo" tags="n.*"/>
-      <match lemma="ferro" tags="n.*"/>
-      <match lemma="acciaio" tags="n.*"/>
-      <match lemma="nichel" tags="n.*"/>
-      <match lemma="alluminio" tags="n.*"/>
-      <match lemma="alluminio" tags="n.*"/>
-      <match lemma="cristallo" tags="n.*"/>
-      <match lemma="diamante" tags="n.*"/>
-      <match lemma="pietra" tags="n.*"/>
+      <match lemma="oro" tags="n.m.sg"/>
+      <match lemma="argento" tags="n.m.sg"/>
+      <match lemma="bronzo" tags="n.m.sg"/>
+      <match lemma="ferro" tags="n.m.sg"/>
+      <match lemma="acciaio" tags="n.m.sg"/>
+      <match lemma="nichel" tags="n.m.sg"/>
+      <match lemma="alluminio" tags="n.m.sg"/>
+      <match lemma="cristallo" tags="n.m.sg"/>
+      <match lemma="diamante" tags="n.m.sg"/>
+      <match lemma="pietra" tags="n.f.sg"/>
 
-      <match lemma="cotone" tags="n.*"/>
-      <match lemma="lana" tags="n.*"/>
-      <match lemma="seda" tags="n.*"/>
-      <match lemma="filo" tags="n.*"/>
-      <match lemma="ruolo" tags="n.*"/>
-      <match lemma="straccio" tags="n.*"/>
-      <match lemma="roba" tags="n.*"/>
-      <match lemma="plastica" tags="n.*"/>
-      <match lemma="poliestere" tags="n.*"/>
-      <match lemma="nylon" tags="n.*"/>
-      <match lemma="ceramica" tags="n.*"/>
-      <match lemma="porcellana" tags="n.*"/>
-      <match lemma="bambù" tags="n.*"/>
-      <match lemma="fango" tags="n.*"/>
-      <match lemma="paglia" tags="n.*"/>
-      <match lemma="mattone" tags="n.*"/>
-      <match lemma="cemento" tags="n.*"/>
+      <match lemma="cotone" tags="n.m.sg"/>
+      <match lemma="lana" tags="n.f.sg"/>
+      <match lemma="seda" tags="n.f.sg"/>
+      <match lemma="filo" tags="n.m.sg"/>
+      <match lemma="ruolo" tags="n.m.sg"/>
+      <match lemma="straccio" tags="n.m.sg"/>
+      <match lemma="roba" tags="n.f.sg"/>
+      <match lemma="plastica" tags="n.f.sg"/>
+      <match lemma="poliestere" tags="n.m.sg"/>
+      <match lemma="nylon" tags="n.m.sg"/>
+      <match lemma="ceramica" tags="n.f.sg"/>
+      <match lemma="porcellana" tags="n.f.sg"/>
+      <match lemma="bambù" tags="n.m.sg"/>
+      <match lemma="fango" tags="n.m.sg"/>
+      <match lemma="paglia" tags="n.f.sg"/>
+      <match lemma="mattone" tags="n.m.sg"/>
+      <match lemma="cemento" tags="n.m.sg"/>
+      </or>
+    </def-seq>
+
+    <def-seq n="mezzi_di_trasporto">
+      <or>
+      <match lemma="macchina" tags="n.*"/>
+      <match lemma="auto" tags="n.*"/>
+      <match lemma="moto" tags="n.f.*"/>
+      <match lemma="motocarro" tags="n.*"/>
+      <match lemma="motocicletta" tags="n.*"/>
+      <match lemma="motociclo" tags="n.*"/>
+      <match lemma="motorino" tags="n.*"/>
+      <match lemma="motoretta" tags="n.*"/>
+      <match lemma="motocicletta" tags="n.*"/>
+      <match lemma="scooter" tags="n.*"/>
+      <match lemma="chopper" tags="n.*"/>
+      <match lemma="sidecar" tags="n.*"/>
+      <match lemma="bicicletta" tags="n.*"/>
+      <match lemma="triciclo" tags="n.*"/>
+      <match lemma="quadriciclo" tags="n.*"/>
+      <match lemma="pattino" tags="n.*"/>
+      <match lemma="pedalò" tags="n.*"/>
+      <match lemma="monopattino" tags="n.*"/>
+      <match lemma="moto# d'acqua" tags="n.*"/>
+      <match lemma="skate" tags="n.*"/>
+      <match lemma="skateboard" tags="n.*"/>
+      <match lemma="autobus" tags="n.*"/>
+      <match lemma="bus" tags="n.*"/>
+      <match lemma="pullman" tags="n.*"/>
+      <match lemma="scuolabus" tags="n.*"/>
+      <match lemma="metro" tags="n.*"/>
+      <match lemma="camion" tags="n.*"/>
+      <match lemma="treno" tags="n.*"/>
+      <match lemma="aero" tags="n.*"/>
+      <match lemma="monoplano" tags="n.*"/>
+      <match lemma="biplano" tags="n.*"/>
+      <match lemma="elicottero" tags="n.*"/>
+      <match lemma="caccia" tags="n.m.*"/>
+      <match lemma="parapendio" tags="n.*"/>
       </or>
     </def-seq>
 
@@ -566,7 +604,30 @@
       </or>
     </def-seq>
 
-    <def-seq n="verbi_moto">
+    <def-seq n="verbi_moto_lista_corta">
+      <or>
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="approdare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <!-- <match lemma="cadere" tags="vblex.*"/> -->
+      <match lemma="camminare" tags="vblex.*"/>
+      <!-- <match lemma="correre" tags="vblex.*"/> -->
+      <match lemma="entrare" tags="vblex.*"/>
+      <match lemma="giungere" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="passare" tags="vblex.*"/>
+      <match lemma="pervenire" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="salire" tags="vblex.*"/>
+      <match lemma="scappare" tags="vblex.*"/>
+      <match lemma="scendere" tags="vblex.*"/>
+      <match lemma="tornare" tags="vblex.*"/>
+      <!-- <match lemma="uscire" tags="vblex.*"/> -->
+      <match lemma="venire" tags="vblex.*"/>
+      </or>
+    </def-seq>
+
+    <def-seq n="verbi_moto_lista_lunga">
       <or>
       <match lemma="affondare" tags="vblex.*"/>
       <match lemma="andare" tags="vblex.*"/>
@@ -771,21 +832,48 @@
 
 <!-- **************** PR **************** -->
 
-  <!-- in > in, a -->
+  <!-- a > a, in -->
+  <rule weight="0.8">
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+  </rule>
+
+  <!-- in > in, a, da -->
   <rule weight="0.8">
     <match lemma="in" tags="pr"><select lemma="in"/></match>
   </rule>
   <rule weight="1.0">
     <or>
+      <match lemma="andare" tags="vblex.*"/>
       <match lemma="arrivare" tags="vblex.*"/>
       <match lemma="partire" tags="vblex.*"/>
       <match lemma="ritornare" tags="vblex.*"/>
       <match lemma="venire" tags="vblex.*"/>
+      <seq n="verbi_moto_lista_corta"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
     <match lemma="in" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="in" tags="pr"><select lemma="in"/></match>
+    <or>
+      <seq n="mezzi_di_trasporto"/>
+      <match lemma="anticipo" tags="n.*"/>
+      <match lemma="contatto" tags="n.*"/>
+      <match lemma="crisi" tags="n.*"/>
+      <match lemma="disgrazia" tags="n.*"/>
+      <match lemma="giro" tags="n.*"/>
+      <match lemma="servizio" tags="n.*"/>
+      <match lemma="studio" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- di > de, dae -->
@@ -795,7 +883,7 @@
 <!--
   <rule weight="1.0">
     <or>
-      <seq n="verbi_moto"/>
+      <seq n="verbi_moto_lista_corta"/>
       <match lemma="provenire" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="1">
@@ -825,28 +913,26 @@
     </or>
   </rule>
 
-<!-- SU -->
-
+  <!-- su -->
   <rule weight="1.0">
      <match lemma="su" tags="pr"><select lemma="subra" tags="pr"/></match>
   </rule>
-
   <rule weight="1.0">
     <match lemma="su" tags="pr"><select lemma="in" tags="pr"/></match>
     <match tags="det.*"/>
   </rule>
 
-
-<!-- ESSERE DA -->
-
+  <!-- per > pro, a -->
+  <rule weight="0.6">
+    <match lemma="per" tags="pr"><select lemma="pro"/></match>
+  </rule>
   <rule weight="1.0">
-    <match lemma="essere" tags="vbser.*"/>
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="cadere" tags="vblex.*"/>
+    <match lemma="per" tags="pr"><select lemma="a" tags="pr"/></match>
+    <match lemma="terra" tags="n.*"/>
   </rule>
 
-
-<!-- da > de, dae -->
-
+  <!-- da > de, dae, a -->
   <rule weight="0.6">
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
@@ -909,6 +995,49 @@
     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
 
+<!--
+  <rule weight="1.0">
+    <match lemma="essere" tags="vbser.*"/>
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+  </rule>
+-->
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="andare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="da" tags="pr"><select lemma="in"/></match>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="andare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="da" tags="pr"><select lemma="ue"/></match>
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="np.cog.*"/>
+    </or>
+  </rule>
+
+  <rule weight="1.2">
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
+    <or><match tags="num"/><match tags="num.*"/></or>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <or><match tags="num"/><match tags="num.*"/></or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
+    <match tags="np.top.*"/>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <match tags="np.top.*"/>
+  </rule>
 
 <!-- VERB-CONJ DI: Marcamos "de" para eliminar, suponiendo que es un partitivo -->
 
@@ -971,7 +1100,7 @@
   </rule>
   <rule weight="1.0">
     <or>
-      <seq n="verbi_moto"/>
+      <seq n="verbi_moto_lista_corta"/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>

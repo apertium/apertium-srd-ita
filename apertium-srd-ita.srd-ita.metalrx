@@ -2,16 +2,33 @@
 <lrx>
 <rules>
 
-<!-- bi (prn.pro.adv) > ci, vi -->
+<!-- **************** PR **************** -->
 
-  <rule weight="0.8">
-    <match lemma="bi" tags="prn.pro.adv"><select lemma="ci" tags="prn.pro.adv"/></match>
+  <!-- a > a, per -->
+  <rule weight="0.6">
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="rughere" tags="vblex.*"/>
+    <match lemma="a" tags="pr"><select lemma="per"/></match>
+    <match lemma="terra" tags="n.*"/>
   </rule>
 
-<!-- de (pr) > di, da -->
-
+  <!-- de (pr) > di, da -->
   <rule weight="0.8">
     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+  </rule>
+
+  <!-- in > in, a, da -->
+  <rule weight="0.8">
+    <match lemma="in" tags="pr"><select lemma="in"/></match>
+  </rule>
+
+<!-- **************** PRN **************** -->
+
+  <!-- bi (prn.pro.adv) > ci, vi -->
+  <rule weight="0.8">
+    <match lemma="bi" tags="prn.pro.adv"><select lemma="ci" tags="prn.pro.adv"/></match>
   </rule>
 
 </rules>
