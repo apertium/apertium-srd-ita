@@ -537,7 +537,6 @@
       <match lemma="macchina" tags="n.*"/>
       <match lemma="auto" tags="n.*"/>
       <match lemma="moto" tags="n.f.*"/>
-      <match lemma="motocarro" tags="n.*"/>
       <match lemma="motocicletta" tags="n.*"/>
       <match lemma="motociclo" tags="n.*"/>
       <match lemma="motorino" tags="n.*"/>
@@ -546,6 +545,8 @@
       <match lemma="scooter" tags="n.*"/>
       <match lemma="chopper" tags="n.*"/>
       <match lemma="sidecar" tags="n.*"/>
+      <match lemma="motocarro" tags="n.*"/>
+      <match lemma="motocarrozzetta" tags="n.*"/>
       <match lemma="bicicletta" tags="n.*"/>
       <match lemma="triciclo" tags="n.*"/>
       <match lemma="quadriciclo" tags="n.*"/>
@@ -861,18 +862,37 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="in" tags="pr"><select lemma="a"/></match>
+<!--
+    <or>
+      <match tags="det.*"/>
+      <match tags="np.*"/>
+    </or>
+-->
   </rule>
   <rule weight="1.2">
     <match lemma="in" tags="pr"><select lemma="in"/></match>
     <or>
       <seq n="mezzi_di_trasporto"/>
+      <!-- En principio, "a" se pone solo cuándo se hable de un lugar físico y concreto (p.e. rutu a terra, rutu a sa piscina) y en los otros casos, donde se trata de substantivos abstractos poner "in" (rutu in tentatzione, rutu in misèria etc) -->
       <match lemma="anticipo" tags="n.*"/>
+      <match lemma="azione" tags="n.*"/>
       <match lemma="contatto" tags="n.*"/>
       <match lemma="crisi" tags="n.*"/>
       <match lemma="disgrazia" tags="n.*"/>
+      <match lemma="eredità" tags="n.*"/>
+      <match lemma="funzione" tags="n.*"/>
       <match lemma="giro" tags="n.*"/>
+      <match lemma="misèria" tags="n.*"/>
+      <match lemma="modo" tags="n.*"/>
+      <match lemma="onda" tags="n.*"/>
+      <match lemma="parte" tags="n.*"/>
+      <match lemma="patria" tags="n.*"/>
+      <match lemma="possesso" tags="n.*"/>
+      <match lemma="prestito" tags="n.*"/>
+      <match lemma="rotatzione" tags="n.*"/>
       <match lemma="servizio" tags="n.*"/>
       <match lemma="studio" tags="n.*"/>
+      <match lemma="tentatzione" tags="n.*"/>
     </or>
   </rule>
 
