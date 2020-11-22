@@ -572,6 +572,37 @@
       </or>
     </def-seq>
 
+    <def-seq n="famiglia">
+      <or>
+       <match lemma="padre" tags="n.*"/>
+       <match lemma="madre" tags="n.*"/>
+       <match lemma="babbo" tags="n.*"/>
+       <match lemma="genitore" tags="n.*"/>
+       <match lemma="figlio" tags="n.*"/>
+       <match lemma="figliolo" tags="n.*"/>
+       <match lemma="nonno" tags="n.*"/>
+       <match lemma="nonna" tags="n.*"/>
+       <match lemma="bisnonno" tags="n.*"/>
+       <match lemma="bisnonna" tags="n.*"/>
+       <match lemma="padrino" tags="n.*"/>
+       <match lemma="madrina" tags="n.*"/>
+       <match lemma="zio" tags="n.*"/>
+       <match lemma="nipote" tags="n.*"/>
+       <match lemma="pronipote" tags="n.*"/>
+       <match lemma="cugino" tags="n.*"/>
+       <match lemma="cugina" tags="n.*"/>
+       <match lemma="fratello" tags="n.*"/>
+       <match lemma="sorella" tags="n.*"/>
+       <match lemma="sorellina" tags="n.*"/>
+       <match lemma="patrigno" tags="n.*"/>
+       <match lemma="matrigna" tags="n.*"/>
+       <match lemma="fratellastro" tags="n.*"/>
+       <match lemma="sorellastra" tags="n.*"/>
+       <match lemma="marito" tags="n.*"/>
+       <match lemma="moglie" tags="n.*"/>
+      </or>
+    </def-seq>
+
     <def-seq n="verbi_da">
       <or>
       <match lemma="andare" tags="vblex.*"/>
@@ -1732,6 +1763,27 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- caro > caru, istimadu -->
+  <rule weight="0.6">
+    <match lemma="caro" tags="adj.*"><select lemma="caru"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="caro" tags="adj.*"><select lemma="istimadu"/></match>
+    <or>
+      <seq n="famiglia"/>
+      <match lemma="amico" tags="n.*"/>
+      <match tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="famiglia"/>
+      <match lemma="amico" tags="n.*"/>
+      <match tags="np.*"/>
+    </or>
+    <match lemma="caro" tags="adj.*"><select lemma="istimadu"/></match>
+  </rule>
+
   <!-- gran > mannu, grandu -->
   <rule weight="0.6">
      <match lemma="grande" tags="adj.*"><select lemma="mannu"/></match>
@@ -1740,7 +1792,6 @@
      <match lemma="grande" tags="adj.*"><select lemma="grandu"/></match>
      <match tags="n.*"/>
   </rule>
-
 
 
 <!-- **************** NP **************** -->
