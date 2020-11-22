@@ -1469,6 +1469,15 @@
 
 <!-- **************** N **************** -->
 
+  <!-- fronte > fronte, cherbeddu -->
+  <rule weight="0.8">
+    <match lemma="fronte" tags="n.*"><select lemma="fronte"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="adj.pos.*"/>
+    <match lemma="fronte" tags="n.*"><select lemma="cherbeddu"/></match>
+  </rule>
+
   <!-- piano > pranu, pianu -->
   <rule weight="0.8">
     <match lemma="piano" tags="n.*"><select lemma="pranu"/></match>
