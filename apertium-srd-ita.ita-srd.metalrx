@@ -1133,6 +1133,16 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- abitare > istare, bìvere, abitare -->
+  <rule weight="0.8">
+    <match lemma="abitare" tags="vblex.*"><select lemma="istare"/></match>
+  </rule>
+
+  <!-- appoggiare > imbarare, etc. -->
+  <rule weight="0.8">
+    <match lemma="appoggiare" tags="vblex.*"><select lemma="imbarare"/></match>
+  </rule>
+
   <!-- sostenere > sustentare, sustènnere -->
   <rule weight="0.8">
     <match lemma="sostenere" tags="vblex.*"><select lemma="sustentare"/></match>
@@ -1499,6 +1509,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- paese > paisu, bidda -->
+  <rule weight="0.8">
+    <match lemma="paese" tags="n.*"><select lemma="paisu"/></match>
+  </rule>
 
   <!-- fronte > fronte, cherbeddu -->
   <rule weight="0.8">
