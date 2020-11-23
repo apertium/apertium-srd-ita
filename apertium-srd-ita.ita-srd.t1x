@@ -188,6 +188,9 @@
     <def-cat n="stare">
        <cat-item lemma="stare" tags="vblex.*"/>
     </def-cat>
+    <def-cat n="prn">
+       <cat-item tags="prn.*"/>
+    </def-cat>
     <def-cat n="tn">
        <cat-item tags="prn.tn.*"/>
     </def-cat>
@@ -544,6 +547,7 @@
       <list-item v="crèschere"/>
       <list-item v="frenare"/>
       <list-item v="divenire"/>
+      <list-item v="devènnere"/>
       <list-item v="arribare"/>
       <list-item v="arribbare"/>
       <list-item v="intrare"/>
@@ -8672,16 +8676,29 @@
        </action>
     </rule>
 
-    <rule comment="regla: tn">
+    <rule comment="regla: pro">
        <pattern>
-         <pattern-item n="tn"/>
+         <pattern-item n="pro"/>
        </pattern>
        <action>
-         <call-macro n="f_concord1">
-           <with-param pos="1"/>
-         </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="GD"/></equal>
+            </test>
+            <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+            </test>
+            <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+          </when>
+        </choose>
          <out>
-           <chunk name="tn">
+           <chunk name="prn">
              <tags>
                <tag><lit-tag v="SPron"/></tag>
              </tags>
@@ -8695,6 +8712,28 @@
        </action>
     </rule>
 
+    <rule comment="regla: prn">
+       <pattern>
+         <pattern-item n="prn"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="prn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
 
     <rule comment="regla: predet">
        <pattern>
