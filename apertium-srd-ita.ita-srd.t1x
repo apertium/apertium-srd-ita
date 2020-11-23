@@ -201,6 +201,9 @@
        <cat-item tags="prn.pro.p3.mf.pl"/> <!-- acceptem aquest error del parser (però per alguna raó no ho està agafant)-->
     </def-cat>
     <def-cat n="pro">
+       <cat-item tags="prn.pro.*"/>
+    </def-cat>
+    <def-cat n="pro-pers">
        <cat-item tags="prn.pro.p1.*"/>
        <cat-item tags="prn.pro.p2.*"/>
        <cat-item tags="prn.pro.p3.*"/>
@@ -6617,6 +6620,118 @@
 -->
 
 
+<rule comment="regla: pro ifi (si arricchì > si fiat arrichidu)">
+   <pattern>
+     <pattern-item n="pro"/>
+     <pattern-item n="ifi"/>
+   </pattern>
+   <action>
+     <choose>
+       <when>
+         <test>
+           <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="GD"/></equal>
+         </test>
+         <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+       </when>
+     </choose>
+     <choose>
+       <when>
+         <test>
+           <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="ND"/></equal>
+         </test>
+         <let><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+       </when>
+     </choose>
+     <out>
+       <chunk name="pro">
+         <tags>
+           <tag><lit-tag v="SPron"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+       <b pos="1"/>
+     </out>
+
+     <choose>
+       <when>
+         <test>
+           <or>
+             <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
+	     <and>
+	       <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="torrare"/></equal>
+	       <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+	     </and>
+             <and>
+               <not><equal><clip pos="2" side="sl" part="pers"/><lit-tag v="p3"/></equal></not>
+               <equal><clip pos="1" side="sl" part="pers"/><clip pos="2" side="sl" part="pers"/></equal>
+               <or>
+                 <equal><clip pos="1" side="sl" part="nbr"/><clip pos="2" side="sl" part="nbr"/></equal>
+                 <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+               </or>
+             </and>
+             <and>
+               <equal><clip pos="2" side="sl" part="pers"/><lit-tag v="p3"/></equal>
+               <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="si"/></equal>
+             </and>
+           </or>
+         </test>
+         <out>
+           <chunk name="èssere_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pii"/>
+                 <clip pos="2" side="tl" part="pers"/>
+                 <clip pos="2" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="a_verb"/>
+                 <lit-tag v="pp.m"/>				<!-- FIXME: depèn del gènere i nombre del subjecte -->
+                 <clip pos="2" side="tl" part="nbr"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="àere_pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="àere"/>
+                 </get-case-from>
+                 <lit-tag v="vbhaver.pii"/>
+                 <clip pos="2" side="tl" part="pers"/>
+                 <clip pos="2" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="a_verb"/>
+                 <lit-tag v="pp.m.sg"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
+
 <rule comment="regla: ifi">
    <pattern>
      <pattern-item n="ifi"/>
@@ -8192,7 +8307,7 @@
 
     <rule comment="regla: pro si potere inf > fàghere a + pro inf">
        <pattern>
-         <pattern-item n="pro"/>
+         <pattern-item n="pro-pers"/>
          <pattern-item n="si-pro"/>
          <pattern-item n="potere-vbmod-tmp-srd"/>
          <pattern-item n="inf"/>
