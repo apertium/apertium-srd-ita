@@ -301,6 +301,20 @@
       </rule>
     </def-macro>
 
+    <!-- Aquesta macro tria el verb p2 per traduir el prenom p1, però manté p1 si va seguit de cognom  -->
+    <def-macro name="ant_antcog">
+      <rule weight="0.6">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p1}}"/></match>
+         <or>
+         <match tags="np.*"/>
+         <match tags=""/>
+         </or>
+      </rule>
+    </def-macro>
+
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
     <def-macro name="verb_nopron_pron">
@@ -1926,14 +1940,16 @@
 
 <!-- **************** NP **************** -->
 
-  <!-- Cicerone > Tzitzerone, Cicerone -->
-  <rule weight="0.6">
-     <match lemma="Cicerone" tags="np.ant.*"><select lemma="Tzitzerone"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="Cicerone" tags="np.ant.*"><select lemma="Cicerone"/></match>
-     <match tags="np.*"/>
-  </rule>
+  <macro name="ant_antcog" p1="Cicerone" p2="Tzitzerone" />
+  <macro name="ant_antcog" p1="Ercole" p2="Erculu" />
+  <macro name="ant_antcog" p1="Orazio" p2="Oràtziu" />
+  <macro name="ant_antcog" p1="Omero" p2="Omeru" />
+  <macro name="ant_antcog" p1="Cesare" p2="Tzèsare" />
+  <macro name="ant_antcog" p1="Augusto" p2="Augustu" />
+  <macro name="ant_antcog" p1="Gaio" p2="Gàiu" />
+  <macro name="ant_antcog" p1="Mosè" p2="Moses" />
+  <macro name="ant_antcog" p1="Costantino" p2="Costantinu" />
+  <macro name="ant_antcog" p1="Virgilio" p2="Virgìliu" />
 
   <macro name="noms_propis" p1="Alessandro" p2="Lisandru" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfonsu" />
