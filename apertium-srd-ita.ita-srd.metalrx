@@ -1943,9 +1943,9 @@
     </or>
   </rule>
 
-  <!-- vita > vida, chintu -->
+  <!-- vita > bida, vida (dcorraine), chintu -->
   <rule weight="0.6">
-    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
+    <match lemma="vita" tags="n.*"><select lemma="bida"/></match>
   </rule>
   <rule weight="1.0">
     <or>
@@ -1961,7 +1961,7 @@
       <match lemma="fino a" tags="pr"/>
     </or>
     <match tags="det.def.*"/>
-    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
+    <match lemma="vita" tags="n.*"><select lemma="bida"/></match>
     <match lemma="di" tags="pr"/>
   </rule>
   <rule weight="1.0">
@@ -2002,7 +2002,7 @@
     <match lemma="vita" tags="n.*"><select lemma="chintu"/></match>
   </rule>
   <rule weight="1.2">
-    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
+    <match lemma="vita" tags="n.*"><select lemma="bida"/></match>
     <match lemma="sociale" tags="adj.*"/>
   </rule>
 
