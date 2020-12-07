@@ -694,9 +694,8 @@
       </or>
     </def-seq>
 
-    <def-seq n="strumenti_musicali">
+    <def-seq n="strumenti_musicali_senza_piano">
       <or>
-      <match lemma="piano" tags="n.*"/>
       <match lemma="pianoforte" tags="n.*"/>
       <match lemma="violino" tags="n.*"/>
       <match lemma="viola" tags="n.*"/>
@@ -709,6 +708,13 @@
       <match lemma="sassofono" tags="n.*"/>
       <match lemma="sax" tags="n.*"/>
       <match lemma="organo" tags="n.*"/>
+      </or>
+    </def-seq>
+
+    <def-seq n="strumenti_musicali">
+      <or>
+      <match lemma="piano" tags="n.*"/>
+      <seq n="strumenti_musicali_senza_piano"/>
       </or>
     </def-seq>
 
@@ -1200,14 +1206,16 @@
     </or>
   </rule>
 
-  <!-- su -->
-  <rule weight="1.0">
+  <!-- su > subra, in -->
+  <rule weight="0.8">
      <match lemma="su" tags="pr"><select lemma="subra" tags="pr"/></match>
   </rule>
+<!--
   <rule weight="1.0">
     <match lemma="su" tags="pr"><select lemma="in" tags="pr"/></match>
     <match tags="det.*"/>
   </rule>
+-->
 
   <!-- per > pro, a -->
   <rule weight="0.6">
@@ -1325,6 +1333,31 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
     <match tags="np.top.*"/>
   </rule>
+  <rule weight="1.2">
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+        <match tags="num"/>
+        <match tags="num.*"/>
+        <match tags="adj.ord.*"/>
+      </or>
+    </repeat>
+    <seq n="mese"/>
+    <repeat from="0" upto="1">
+      <match tags="num"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="det.*"/>
+        <match tags="num"/>
+        <match tags="num.*"/>
+        <match tags="adj.ord.*"/>
+      </or>
+    </repeat>
+    <seq n="mese"/>
+  </rule>
 
 <!-- VERB-CONJ DI: Marcamos "de" para eliminar, suponiendo que es un partitivo -->
 
@@ -1345,6 +1378,11 @@
 -->
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- aspettare > isetare, etc. -->
+  <rule weight="0.8">
+    <match lemma="aspettare" tags="vblex.*"><select lemma="isetare"/></match>
+  </rule>
 
   <!-- abitare > istare, bìvere, abitare -->
   <rule weight="0.8">
@@ -1742,6 +1780,19 @@
 
 <!-- **************** N **************** -->
 
+  <!-- riso > arrosu, risu -->
+  <rule weight="0.8">
+    <match lemma="riso" tags="n.*"><select lemma="arrosu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="riso" tags="n.m.pl"><select lemma="risu"/></match>
+  </rule>
+
+  <!-- formica > formiga, fòrmica -->
+  <rule weight="0.8">
+    <match lemma="formica" tags="n.*"><select lemma="formiga"/></match>
+  </rule>
+
   <!-- paese > paisu, bidda -->
   <rule weight="0.8">
     <match lemma="paese" tags="n.*"><select lemma="paisu"/></match>
@@ -1771,7 +1822,7 @@
       <match tags="*"/>
     </repeat>
     <or>
-      <seq n="strumenti_musicali"/>
+      <seq n="strumenti_musicali_senza_piano"/>
       <match lemma="strumento" tags="n.*"/>
       <match lemma="percussione" tags="n.*"/>
       <match lemma="arco" tags="n.m.pl"/>
@@ -1780,7 +1831,7 @@
   </rule>
   <rule weight="1.0">
     <or>
-      <seq n="strumenti_musicali"/>
+      <seq n="strumenti_musicali_senza_piano"/>
       <match lemma="strumento" tags="n.*"/>
       <match lemma="percussione" tags="n.*"/>
       <match lemma="arco" tags="n.m.pl"/>
