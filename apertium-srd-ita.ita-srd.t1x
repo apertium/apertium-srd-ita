@@ -8995,36 +8995,6 @@
        </action>
     </rule>
 
-    <rule comment="regla: di (eliminació del partitiu, marcat com a @de a la selecció lèxica)">
-       <pattern>
-         <pattern-item n="di"/>
-       </pattern>
-       <action>
-      <choose>
-	<when> 
-	  <test>
-	    <not>
-	    <equal><clip pos="1" side="tl" part="lem"/><lit v="_de"/></equal>
-	    </not>
-	  </test>
-         <out>
-           <chunk name="pr">
-             <tags>
-               <tag><lit-tag v="pr"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-	</when> 
-      </choose>
-       </action>
-    </rule>
-
-
 </section-rules>
 
 </transfer>

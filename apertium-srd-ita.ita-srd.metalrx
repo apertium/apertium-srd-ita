@@ -1069,6 +1069,12 @@
     <match lemma="quadrato"/>
   </rule>
 
+<!-- **************** DET **************** -->
+
+  <!-- il > su -->
+  <rule weight="0.8">
+    <match lemma="il" tags="det.*"><select lemma="su"/></match>
+  </rule>
 
 <!-- **************** PRN **************** -->
 
@@ -1169,7 +1175,7 @@
     </or>
   </rule>
 
-  <!-- di > de, dae -->
+  <!-- di > de, dae, remove -->
   <rule weight="0.8">
     <match lemma="di" tags="pr"><select lemma="de"/></match>
   </rule>
@@ -1205,6 +1211,56 @@
       <seq n="materiali"/>
     </or>
   </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="dare" tags="vblex.*"/>
+       <match lemma="volere" tags="vblex.*"/>
+       <match lemma="mangiare" tags="vblex.*"/>
+       <match lemma="bere" tags="vblex.*"/>
+       <match lemma="vedere" tags="vblex.*"/>
+     </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"><remove tags="pr"/></match>
+    <match lemma="il" tags="det.def.*.sg"><remove tags="det.*"/></match>
+  </rule>
+  <rule weight="1.0">
+     <or>
+       <match lemma="dare" tags="vblex.*"/>
+       <match lemma="volere" tags="vblex.*"/>
+       <match lemma="mangiare" tags="vblex.*"/>
+       <match lemma="bere" tags="vblex.*"/>
+       <match lemma="vedere" tags="vblex.*"/>
+     </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"><remove tags="pr"/></match>
+    <match lemma="il" tags="det.def.*.pl"><select lemma="unos cantos"/></match>
+  </rule>
+  <rule weight="1.2">
+     <or>
+       <match tags="n.*"/>
+       <match tags="adj.*"/>
+       <match tags="adv"/>
+       <match tags="preadv"/>
+     </or>
+     <or>
+       <match lemma="dare" tags="vblex.pp.*"/>
+       <match lemma="volere" tags="vblex.pp.*"/>
+       <match lemma="mangiare" tags="vblex.pp.*"/>
+       <match lemma="bere" tags="vblex.pp.*"/>
+       <match lemma="vedere" tags="vblex.pp.*"/>
+     </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"><select lemma="de"/></match>
+    <match lemma="il" tags="det.def.*"><select lemma="su"/></match>
+  </rule>
+
 
   <!-- su > subra de, subra, in -->
   <rule weight="0.8">
@@ -1358,26 +1414,6 @@
     </repeat>
     <seq n="mese"/>
   </rule>
-
-<!-- VERB-CONJ DI: Marcamos "de" para eliminar, suponiendo que es un partitivo -->
-
-<!-- no funciona la regla
-  <rule weight="0.8">
-    <match lemma="di" tags="pr"><select lemma="de" tags="pr"/></match>
-  </rule>
-
-  <rule weight="1.0">
-     <or>
-       <match lemma="dare" tags="vblex.*"/>
-       <match lemma="volere" tags="vblex.*"/>
-       <match lemma="mangiare" tags="vblex.*"/>
-       <match lemma="bere" tags="vblex.*"/>
-     </or>
-    <match lemma="di" tags="pr"><select lemma="_de" tags="pr"/></match>
-  </rule>
--->
-
-<!-- **************** VBLEX **************** -->
 
   <!-- aspettare > isetare, etc. -->
   <rule weight="0.8">
