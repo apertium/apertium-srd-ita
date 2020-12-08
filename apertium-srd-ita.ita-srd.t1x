@@ -240,6 +240,9 @@
        <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
+       <cat-item tags="adj.ind.m.*"/>
+       <cat-item tags="adj.ind.f.*"/>
+       <cat-item tags="adj.ind.mf.*"/>
 <!--       <cat-item tags="adj.ord.*"/> -->
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
