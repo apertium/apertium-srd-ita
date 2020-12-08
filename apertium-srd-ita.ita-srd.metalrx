@@ -1206,9 +1206,9 @@
     </or>
   </rule>
 
-  <!-- su > subra, in -->
+  <!-- su > subra de, subra, in -->
   <rule weight="0.8">
-     <match lemma="su" tags="pr"><select lemma="subra" tags="pr"/></match>
+     <match lemma="su" tags="pr"><select lemma="subra de" tags="pr"/></match>
   </rule>
 <!--
   <rule weight="1.0">
