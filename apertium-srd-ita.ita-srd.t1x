@@ -10,6 +10,9 @@
     <def-cat n="detdef">
        <cat-item tags="det.def.*"/>
     </def-cat>
+    <def-cat n="detdefmf">
+       <cat-item tags="det.def.mf.*"/>
+    </def-cat>
     <def-cat n="det_laprn">
        <cat-item tags="det.*"/>
        <cat-item lemma="lo" tags="prn.pro.p3.f.*"/> <!-- to avoid problems in disambiguation -->
@@ -292,6 +295,10 @@
     <def-cat n="da">
        <cat-item lemma="da" tags="pr"/>
     </def-cat>
+    <def-cat n="a_da">
+       <cat-item lemma="a" tags="pr"/>
+       <cat-item lemma="da" tags="pr"/>
+    </def-cat>
     <def-cat n="di">
        <cat-item lemma="di" tags="pr"/>
     </def-cat>
@@ -363,6 +370,12 @@
     </def-cat>
     <def-cat n="sent">
        <cat-item tags="sent"/>
+    </def-cat>
+    <def-cat n="lingua_mf">
+       <cat-item lemma="inglese" tags="n.*"/>
+       <cat-item lemma="francese" tags="n.*"/>
+       <cat-item lemma="cinese" tags="n.*"/>
+       <cat-item lemma="giapponese" tags="n.*"/>
     </def-cat>
     <def-cat n="nom_famiglia">
        <cat-item lemma="padre" tags="n.*"/>
@@ -3258,6 +3271,79 @@
      </choose>
    </action>
 </rule>
+
+
+    <rule comment="regla: in lingua_mf (in inglese > in inglesu: per evitare 'in inglesa'">
+       <pattern>
+         <pattern-item n="in"/>
+         <pattern-item n="lingua_mf"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+         <out>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="whole"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: a_da det_mf lingua_mf (dall'inglese > dae s'inglesu: per evitare 'dae sa inglesa'">
+       <pattern>
+         <pattern-item n="a_da"/>
+         <pattern-item n="detdefmf"/>
+         <pattern-item n="lingua_mf"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+         <let><clip pos="3" side="tl" part="gen"/><lit-tag v="m"/></let>
+         <out>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="det_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="whole"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="3" side="tl" part="whole"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
 
 
     <rule comment="regla: adjec nom">
