@@ -377,7 +377,7 @@
        <cat-item lemma="cinese" tags="n.*"/>
        <cat-item lemma="giapponese" tags="n.*"/>
     </def-cat>
-    <def-cat n="nom_famiglia">
+    <def-cat n="nom_famiglia_casa">	<!-- famiglia + casa -->
        <cat-item lemma="padre" tags="n.*"/>
        <cat-item lemma="madre" tags="n.*"/>
        <cat-item lemma="babbo" tags="n.*"/>
@@ -404,6 +404,8 @@
        <cat-item lemma="sorellastra" tags="n.*"/>
        <cat-item lemma="marito" tags="n.*"/>
        <cat-item lemma="moglie" tags="n.*"/>
+
+       <cat-item lemma="casa" tags="n.*"/>
     </def-cat>
   </section-def-cats>
 
@@ -3386,7 +3388,7 @@
        <pattern>
          <pattern-item n="detdef"/>
          <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
-         <pattern-item n="nom_famiglia"/>
+         <pattern-item n="nom_famiglia_casa"/>
        </pattern>
        <action>
          <call-macro n="f_concord3">
@@ -3419,7 +3421,7 @@
        <pattern>
          <pattern-item n="detdef"/>
          <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
-         <pattern-item n="nom_famiglia"/>
+         <pattern-item n="nom_famiglia_casa"/>
          <pattern-item n="adj"/>
        </pattern>
        <action>
@@ -3461,7 +3463,7 @@
          <pattern-item n="detdef"/>
          <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
          <pattern-item n="adj"/>
-         <pattern-item n="nom_famiglia"/>
+         <pattern-item n="nom_famiglia_casa"/>
        </pattern>
        <action>
          <call-macro n="f_concord4">
@@ -3513,13 +3515,29 @@
     <rule comment="regla: adjpos nom_famiglia > detdef nom_famiglia">
        <pattern>
          <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
-         <pattern-item n="nom_famiglia"/>
+         <pattern-item n="nom_famiglia_casa"/>
        </pattern>
        <action>
          <call-macro n="f_concord2">
            <with-param pos="2"/>
            <with-param pos="1"/>
          </call-macro>
+         <choose>
+           <when>
+             <test>
+	       <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+             </test>
+	     <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+	       <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+             </test>
+	     <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></let>
+           </when>
+         </choose>
          <out>
            <chunk name="det_n">
              <tags>
