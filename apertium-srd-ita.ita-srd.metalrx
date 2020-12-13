@@ -1073,6 +1073,10 @@
     </repeat>
     <match lemma="a" tags="pr"><select lemma="in"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <seq n="mese"/>
+  </rule>
 
   <!-- in > in, a, da -->
   <rule weight="0.8">
@@ -1134,6 +1138,7 @@
       <match lemma="giro" tags="n.*"/>
       <match lemma="grazia" tags="n.*"/>
       <match lemma="interesse" tags="n.*"/>
+      <match lemma="libertà" tags="n.*"/>
       <match lemma="misèria" tags="n.*"/>
       <match lemma="modo" tags="n.*"/>
       <match lemma="onda" tags="n.*"/>
@@ -1389,6 +1394,11 @@
   </rule>
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- sentire > sentire, intèndere -->
+  <rule weight="0.8">
+    <match lemma="sentire" tags="vblex.*"><select lemma="sentire"/></match>
+  </rule>
 
   <!-- cojugare > coniugare, cojugare -->
   <macro name="verb_nopron_pron" p1="coniugare" p2="coniugare" p3="cojugare"/>
