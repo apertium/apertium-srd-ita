@@ -1,1 +1,4 @@
-echo "tutto lo giorno, tutta la giornata, tutti li giorni" | apertium -d . ita-srd
+1. "allora: se sigue traduciendo como "tando" cuando se antepone a un adjetivo?
+dell’allora presidente Chirac
+de su tando presidente Chirac
+cuando se antepone a un adjetivo es se traduce como "de tando"... en este caso la frase completa debería ser "de su presidente de tando Chirac". En italiano "allora" se puede anteponer al adjetivo pero en sardo se pospone siempre. 
