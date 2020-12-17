@@ -21,17 +21,25 @@ EOF
     exit 1
 fi
 
-while getopts "e" opt; do
+TRIMMED=true
+
+while getopts "et" opt; do
   case $opt in
     e)
       ENCLITICS=true
+      ;;
+    t)
+      TRIMMED=false
       ;;
   esac
 done
 
 expand_poly () {
-    sed 's/>\//>\/\//g' | sed 's/<sent>\/\//<sent>\/~\//g' > $POLY1
-    while grep -q "//" $POLY1; do 
+    sed 's/>\/\([^/]\)/>\/\/\1/g' | sed 's/<sent>\/\//<sent>\/~\//g' > $POLY1
+    for (( i=0; i<50; i++ )) do  # This runs for a limited number of iterations to avoid endless loops
+        if ! grep -q "//" $POLY; then
+            break
+        fi
         cat $POLY1 | 
         awk '# This program expands polysemic entries into multiple lines
         # so each possibility is tested during testvoc. Each time
@@ -51,6 +59,14 @@ expand_poly () {
         mv $POLY2 $POLY1
     done
     cat $POLY1 | sed 's/\/\//\//g' | sed "s|>/~/|>/|g" | sed "s|\$+\^|$ ^|g"
+}
+
+trim () {
+    if [[ $TRIMMED = true ]]; then
+        grep -v '>/@'
+    else
+        cat
+    fi
 }
 
 LANG1=$(sed 's/-.*//' <<< $MODE)
@@ -89,8 +105,11 @@ if [[ $MONODIX != "auto" ]]; then
 else
     MONODIX="$LANG1DIR/apertium-$LANG1.$LANG1.dix"
     if ! [[ -e $MONODIX ]]; then
-        echo "Monolingual dictionary ($MONODIX) not found."
-        exit 1
+        MONODIX="$LANG1DIR/.deps/apertium-$LANG1.$LANG1.dix"
+        if ! [[ -e $MONODIX ]]; then
+            echo "Monolingual dictionary ($MONODIX) not found."
+            exit 1
+        fi
     fi
 fi
 
@@ -103,7 +122,7 @@ lt-expand $MONODIX | grep -v 'REGEX' | grep -v ':<:' |  # The monodix is expande
 sed 's/:>:/\'$'\t/g' | sed 's/:/\'$'\t/g' | cut -f2 -d$'\t' |  # Surface forms are removed
 sed 's/^/^/g' | sed 's/\(.*\)/[\\\1\$]\1/g' | sed 's/$/$ ^.<sent>$/g' |  # Entries are converted to Apertium pipeline format, preceded by the source form and followed by a full stop
 bash "$PIPELINE_LEX" |  # Lexical transfer takes place
-grep -v '>/@' |  # The list of entries is trimmed according to the bidix
+trim |  # The list of entries is trimmed according to the bidix
 expand_poly |  # Polysemic entries are expanded into multiple lines
 bash "$PIPELINE_TFR" |  # Structural transfer takes place
 bash "$PIPELINE_GEN" |  # Target language surface forms are generated
