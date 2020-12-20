@@ -1057,6 +1057,23 @@
   <rule weight="0.8">
     <match lemma="il" tags="det.*"><select lemma="su"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="giocare" tags="vblex.*"/>
+    <match lemma="a" tags="pr"/>
+    <match lemma="il" tags="det.*"><remove tags="det.*"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="giocare" tags="vblex.*"/>
+    <match lemma="a" tags="pr"/>
+    <match lemma="il" tags="det.*"><select lemma="su"/></match>
+    <or>
+      <match lemma="stadio" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="terreno" tags="n.*"/>
+      <match lemma="parco" tags="n.*"/>
+      <match lemma="giardino" tags="n.*"/>
+    </or>
+  </rule>
 
 <!-- **************** PRN **************** -->
 
@@ -1084,7 +1101,29 @@
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in"/></match>
-    <seq n="mese"/>
+    <or>
+      <seq n="mese"/>
+      <match lemma="tavola" tags="n.*"/>
+      <match lemma="tavolo" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <seq n="verbi_moto_lista_corta"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <or>
+      <match lemma="tavola" tags="n.*"/>
+      <match lemma="tavolo" tags="n.*"/>
+    </or>
   </rule>
 
   <!-- in > in, a, da -->
@@ -1203,6 +1242,7 @@
      <or>
        <match lemma="dare" tags="vblex.*"/>
        <match lemma="volere" tags="vblex.*"/>
+       <match lemma="portare" tags="vblex.*"/>
        <match lemma="mangiare" tags="vblex.*"/>
        <match lemma="bere" tags="vblex.*"/>
        <match lemma="vedere" tags="vblex.*"/>
@@ -1217,6 +1257,7 @@
      <or>
        <match lemma="dare" tags="vblex.*"/>
        <match lemma="volere" tags="vblex.*"/>
+       <match lemma="portare" tags="vblex.*"/>
        <match lemma="mangiare" tags="vblex.*"/>
        <match lemma="bere" tags="vblex.*"/>
        <match lemma="vedere" tags="vblex.*"/>
@@ -1237,6 +1278,7 @@
      <or>
        <match lemma="dare" tags="vblex.pp.*"/>
        <match lemma="volere" tags="vblex.pp.*"/>
+       <match lemma="portare" tags="vblex.pp.*"/>
        <match lemma="mangiare" tags="vblex.pp.*"/>
        <match lemma="bere" tags="vblex.pp.*"/>
        <match lemma="vedere" tags="vblex.pp.*"/>
@@ -1698,6 +1740,104 @@
 
 <!-- **************** N **************** -->
 
+  <!-- tavola > tàula, mesa -->
+  <rule weight="0.8">
+    <match lemma="tavola" tags="n.*"><select lemma="tàula"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="a" tags="pr"/>
+      <match lemma="in" tags="pr"/>
+    </or>
+    <match lemma="tavola" tags="n.*"><select lemma="mesa"/></match>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="a" tags="pr"/>
+      <match lemma="in" tags="pr"/>
+    </or>
+    <match lemma="tavola" tags="n.*"><select lemma="tàula"/></match>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tavola" tags="n.*"><select lemma="mesa"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="piatto" tags="n.*"/>
+      <match lemma="bicchiere" tags="n.*"/>
+      <match lemma="forchetta" tags="n.*"/>
+      <match lemma="cucchiaio" tags="n.*"/>
+      <match lemma="coltello" tags="n.*"/>
+      <match lemma="coperto" tags="n.*"/>
+      <match lemma="tovagliolo" tags="n.*"/>
+      <match lemma="mangiare" tags="vblex.*"/>
+      <match lemma="fare# colazione" tags="vblex.*"/>
+      <match lemma="pranzare" tags="vblex.*"/>
+      <match lemma="cenare" tags="vblex.*"/>
+      <match lemma="colazione" tags="n.*"/>
+      <match lemma="pranzo" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="stanza" tags="n.*"/>
+      <match lemma="camera" tags="n.*"/>
+      <match lemma="camera# da pranzo" tags="n.*"/>
+      <match lemma="ufficio" tags="n.*"/>
+      <match lemma="salone" tags="n.*"/>
+      <match lemma="cucina" tags="n.*"/>
+      <match lemma="balcone" tags="n.*"/>
+      <match lemma="giardino" tags="n.*"/>
+      <match lemma="parco" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="piatto" tags="n.*"/>
+      <match lemma="bicchiere" tags="n.*"/>
+      <match lemma="forchetta" tags="n.*"/>
+      <match lemma="cucchiaio" tags="n.*"/>
+      <match lemma="coltello" tags="n.*"/>
+      <match lemma="coperto" tags="n.*"/>
+      <match lemma="tovagliolo" tags="n.*"/>
+      <match lemma="mangiare" tags="vblex.*"/>
+      <match lemma="fare# colazione" tags="vblex.*"/>
+      <match lemma="pranzare" tags="vblex.*"/>
+      <match lemma="cenare" tags="vblex.*"/>
+      <match lemma="colazione" tags="n.*"/>
+      <match lemma="pranzo" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="stanza" tags="n.*"/>
+      <match lemma="camera" tags="n.*"/>
+      <match lemma="camera# da pranzo" tags="n.*"/>
+      <match lemma="ufficio" tags="n.*"/>
+      <match lemma="salone" tags="n.*"/>
+      <match lemma="cucina" tags="n.*"/>
+      <match lemma="balcone" tags="n.*"/>
+      <match lemma="giardino" tags="n.*"/>
+      <match lemma="parco" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="tavola" tags="n.*"><select lemma="mesa"/></match>
+  </rule>
+
+  <!-- club > tzìrculu, club -->
+  <rule weight="0.8">
+    <match lemma="club" tags="n.*"><select lemma="tzìrculu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Club" tags="n.*"><select lemma="club"/></match>
+  </rule>
+
+  <!-- show > ispetàculu, show -->
+  <rule weight="0.8">
+    <match lemma="show" tags="n.*"><select lemma="ispetàculu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Show" tags="n.*"><select lemma="show"/></match>
+  </rule>
+
   <!-- studio > istùdiu, studio -->
   <rule weight="0.8">
     <match lemma="studio" tags="n.*"><select lemma="istùdiu"/></match>
@@ -2030,6 +2170,39 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- special > ispetziale, special -->
+  <rule weight="0.8">
+    <match lemma="special" tags="adj.*"><select lemma="ispetziale"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Special" tags="adj.*"><select lemma="special"/></match>
+  </rule>
+
+  <!-- reale > beru, reale -->
+  <rule weight="0.5">
+    <match lemma="reale" tags="adj.*"><select lemma="beru"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="altezza" tags="n.*"/>
+      <match lemma="casa" tags="n.*"/>
+      <match lemma="villa" tags="n.*"/>
+      <match lemma="corona" tags="n.*"/>
+      <match lemma="famiglia" tags="n.*"/>
+      <match lemma="accademia" tags="n.*"/>
+      <match lemma="monastero" tags="n.*"/>
+      <match lemma="via" tags="n.*"/>
+    </or>
+    <match lemma="reale" tags="adj.*"><select lemma="reale"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="reale" tags="adj.*"><select lemma="reale"/></match>
+    <or>
+      <match lemma="accademia" tags="n.*"/>
+      <match lemma="monastero" tags="n.*"/>
+    </or>
+  </rule>
+
   <!-- caro > caru, istimadu -->
   <rule weight="0.6">
     <match lemma="caro" tags="adj.*"><select lemma="caru"/></match>
@@ -2108,6 +2281,7 @@
   <macro name="noms_propis" p1="Riccardo" p2="Ricardu" />
   <macro name="noms_propis" p1="Sisto" p2="Sistu" />
   <macro name="noms_propis" p1="Umberto" p2="Umbertu" />
+  <macro name="noms_propis" p1="Celestino" p2="Tzelestinu" />
 
   <macro name="noms_propis" p1="Caterina" p2="Callina" />
   <macro name="noms_propis" p1="Giovanna" p2="Giuanna" />
