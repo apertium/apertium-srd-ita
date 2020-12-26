@@ -35,6 +35,7 @@
          <or>
            <match tags="adj.*"/>
            <match lemma="conquistador" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -44,6 +45,7 @@
          <or>
            <match tags="adj.*"/>
            <match lemma="conquistador" tags="n.*"/>
+           <match lemma="re" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -301,7 +303,7 @@
       </rule>
     </def-macro>
 
-    <!-- Aquesta macro tria el verb p2 per traduir el prenom p1, però manté p1 si va seguit de cognom  -->
+    <!-- Aquesta macro tria el verb p2 per traduir el prenom p1, però manté p1 si va seguit de cognom (o paraula desconeguda) -->
     <def-macro name="ant_antcog">
       <rule weight="0.6">
          <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
@@ -309,8 +311,8 @@
       <rule weight="1.0">
          <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p1}}"/></match>
          <or>
-         <match tags="np.*"/>
-         <match tags=""/>
+           <match tags="np.*"/>
+           <match tags=""/>
          </or>
       </rule>
     </def-macro>
@@ -1293,14 +1295,13 @@
 
   <!-- su > subra de, subra, in -->
   <rule weight="0.8">
-     <match lemma="su" tags="pr"><select lemma="subra de" tags="pr"/></match>
+     <match lemma="su" tags="pr"><select lemma="subra de"/></match>
   </rule>
-<!--
   <rule weight="1.0">
-    <match lemma="su" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match lemma="su" tags="pr"><select lemma="in"/></match>
     <match tags="det.*"/>
+    <match lemma="pagina" tags="n.*"/>
   </rule>
--->
 
   <!-- per > pro, a -->
   <rule weight="0.6">
@@ -1544,6 +1545,18 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- granché > chissai comente, meda -->
+  <rule weight="0.8">
+    <match lemma="granché" tags="adv"><select lemma="chissai comente"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="granché" tags="adv"><select lemma="meda"/></match>
+  </rule>
+
   <!-- a casa > in domo, a domo -->
   <rule weight="0.8">
     <or>
@@ -1592,6 +1605,66 @@
   <rule weight="1.0">
     <match lemma="fino a" tags="pr"/>
     <match lemma="lì" tags="adv"><select lemma="a cue" tags="adv"/></match>
+  </rule>
+
+  <!-- là > inie, in cue, a cue -->
+  <rule weight="0.8">
+    <match lemma="là" tags="adv"><select lemma="inie" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="là" tags="adv"><select lemma="in cue" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="là" tags="adv"><select lemma="in cue" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_moto_lista_corta"/>
+    </or>
+    <match lemma="là" tags="adv"><select lemma="a cue" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fino a" tags="pr"/>
+    <match lemma="là" tags="adv"><select lemma="a cue" tags="adv"/></match>
+  </rule>
+
+  <!-- laggiù > in cue indedda, in cuddae, a cuddae -->
+  <rule weight="0.8">
+    <match lemma="laggiù" tags="adv"><select lemma="in cue indedda" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="laggiù" tags="adv"><select lemma="in cuddae" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="laggiù" tags="adv"><select lemma="in cuddae" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_moto_lista_corta"/>
+    </or>
+    <match lemma="laggiù" tags="adv"><select lemma="a cuddae" tags="adv"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fino a" tags="pr"/>
+    <match lemma="laggiù" tags="adv"><select lemma="a cuddae" tags="adv"/></match>
   </rule>
 
   <!-- su > susu, in susu, a susu -->
@@ -1739,6 +1812,58 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- salsa > bàngia, salsa -->
+  <rule weight="0.8">
+    <match lemma="salsa" tags="n.*"><select lemma="bàngia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="salsa" tags="n.*"><select lemma="salsa"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="danzare" tags="vblex.*"/>
+      <match lemma="ballo" tags="n.*"/>
+      <match lemma="musica" tags="n.*"/>
+      <match lemma="ritmo" tags="n.*"/>
+      <match lemma="musica" tags="n.*"/>
+      <match lemma="merengue" tags="n.*"/>
+      <match lemma="reggeton" tags="n.*"/>
+      <match lemma="pachanga" tags="n.*"/>
+      <match lemma="bachata" tags="n.*"/>
+      <match lemma="habanera" tags="n.*"/>
+      <match lemma="bolero" tags="n.*"/>
+      <match lemma="danzón" tags="n.*"/>
+      <match lemma="mambo" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="danzare" tags="vblex.*"/>
+      <match lemma="ballo" tags="n.*"/>
+      <match lemma="musica" tags="n.*"/>
+      <match lemma="ritmo" tags="n.*"/>
+      <match lemma="musica" tags="n.*"/>
+      <match lemma="merengue" tags="n.*"/>
+      <match lemma="reggeton" tags="n.*"/>
+      <match lemma="pachanga" tags="n.*"/>
+      <match lemma="bachata" tags="n.*"/>
+      <match lemma="habanera" tags="n.*"/>
+      <match lemma="bolero" tags="n.*"/>
+      <match lemma="danzón" tags="n.*"/>
+      <match lemma="mambo" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="salsa" tags="n.*"><select lemma="salsa"/></match>
+  </rule>
+
+  <!-- raggio > raju, raja -->
+  <rule weight="0.8">
+    <match lemma="raggio" tags="n.*"><select lemma="raju"/></match>
+  </rule>
 
   <!-- tavola > tàula, mesa -->
   <rule weight="0.8">
@@ -2178,6 +2303,11 @@
     <match lemma="Special" tags="adj.*"><select lemma="special"/></match>
   </rule>
 
+  <!-- azzurro > azulu, baiatu, blau -->
+  <rule weight="0.8">
+    <match lemma="azzurro"><select lemma="azulu"/></match>
+  </rule>
+
   <!-- reale > beru, reale -->
   <rule weight="0.5">
     <match lemma="reale" tags="adj.*"><select lemma="beru"/></match>
@@ -2236,17 +2366,29 @@
 
 <!-- **************** NP **************** -->
 
-  <macro name="ant_antcog" p1="Cicerone" p2="Tzitzerone" />
-  <macro name="ant_antcog" p1="Ercole" p2="Èrcule" />
-  <macro name="ant_antcog" p1="Orazio" p2="Oràtziu" />
-  <macro name="ant_antcog" p1="Omero" p2="Omeru" />
-  <macro name="ant_antcog" p1="Cesare" p2="Tzèsare" />
+  <rule weight="0.6">
+     <match lemma="Cornelio" tags="np.ant.*"><select lemma="Cornelio"/></match>
+  </rule>
+  <rule weight="0.6">
+     <match lemma="Cornelia" tags="np.ant.*"><select lemma="Cornelia"/></match>
+  </rule>
+
+  <macro name="ant_antcog" p1="Attila" p2="Àtila" />
   <macro name="ant_antcog" p1="Augusto" p2="Augustu" />
+  <macro name="ant_antcog" p1="Cesare" p2="Tzèsare" />
+  <macro name="ant_antcog" p1="Cicerone" p2="Tzitzerone" />
+  <macro name="ant_antcog" p1="Costantino" p2="Costantinu" />
+  <macro name="ant_antcog" p1="Ercole" p2="Èrcule" />
   <macro name="ant_antcog" p1="Gaio" p2="Gàiu" />
   <macro name="ant_antcog" p1="Mosè" p2="Moses" />
-  <macro name="ant_antcog" p1="Costantino" p2="Costantinu" />
+  <macro name="ant_antcog" p1="Omero" p2="Omeru" />
+  <macro name="ant_antcog" p1="Orazio" p2="Oràtziu" />
+  <macro name="ant_antcog" p1="Ottone" p2="Otone" />
+  <macro name="ant_antcog" p1="Publio" p2="Pùbliu" />
+  <macro name="ant_antcog" p1="Terenzio" p2="Terènziu" />
   <macro name="ant_antcog" p1="Virgilio" p2="Virgìliu" />
 
+  <macro name="noms_propis" p1="Adalberto" p2="Adalbertu" />
   <macro name="noms_propis" p1="Alessandro" p2="Lisandru" />
   <macro name="noms_propis" p1="Alfonso" p2="Alfonsu" />
   <macro name="noms_propis" p1="Benedetto" p2="Beneitu" />
@@ -2275,15 +2417,18 @@
   <macro name="noms_propis" p1="Martino" p2="Martine" />
   <macro name="noms_propis" p1="Matteo" p2="Mateu" />
   <macro name="noms_propis" p1="Nicola" p2="Nigola" />
+  <macro name="noms_propis" p1="Oberto" p2="Obertu" />
   <macro name="noms_propis" p1="Paolo" p2="Pàule" />
   <macro name="noms_propis" p1="Pietro" p2="Pedru" />
   <macro name="noms_propis" p1="Raimondo" p2="Raimundu" />
   <macro name="noms_propis" p1="Riccardo" p2="Ricardu" />
   <macro name="noms_propis" p1="Sisto" p2="Sistu" />
+  <macro name="noms_propis" p1="Ugo" p2="Ugu" />
   <macro name="noms_propis" p1="Umberto" p2="Umbertu" />
   <macro name="noms_propis" p1="Celestino" p2="Tzelestinu" />
 
   <macro name="noms_propis" p1="Caterina" p2="Callina" />
+  <macro name="noms_propis" p1="Elisabetta" p2="Elisabeta" />
   <macro name="noms_propis" p1="Giovanna" p2="Giuanna" />
   <macro name="noms_propis" p1="Lucia" p2="Lughia" />
 
