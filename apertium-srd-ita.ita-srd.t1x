@@ -279,8 +279,8 @@
        <cat-item tags="prn.tn.pos.*"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="loro_pos">
-       <cat-item lemma= "loro" tags="adj.pos.*"/>
-       <cat-item lemma= "loro" tags="prn.tn.pos.*"/>
+       <cat-item lemma="loro" tags="adj.pos.*"/>
+       <cat-item lemma="loro" tags="prn.tn.pos.*"/>
        <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="adjord">
@@ -337,6 +337,7 @@
     <def-cat n="molto_proprio">
        <cat-item lemma="molto" tags="preadv"/>
        <cat-item lemma="proprio" tags="preadv"/>
+       <cat-item lemma="granché" tags="preadv"/>
     </def-cat>
     <def-cat n="così">
        <cat-item lemma="così" tags="adv"/>
