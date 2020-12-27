@@ -4,6 +4,13 @@
     <def-cat n="nom">
        <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="np">
+       <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="np_unk">
+       <cat-item tags="np.*"/>
+       <cat-item tags=""/>
+    </def-cat>
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
@@ -302,6 +309,10 @@
        <cat-item lemma="a" tags="pr"/>
        <cat-item lemma="da" tags="pr"/>
     </def-cat>
+    <def-cat n="a_in">
+       <cat-item lemma="a" tags="pr"/>
+       <cat-item lemma="in" tags="pr"/>
+    </def-cat>
     <def-cat n="di">
        <cat-item lemma="di" tags="pr"/>
     </def-cat>
@@ -339,6 +350,9 @@
     <def-cat n="tanto">
        <cat-item lemma="tanto" tags="adv"/>
        <cat-item lemma="tanto" tags="preadv"/>
+    </def-cat>
+    <def-cat n="proprio_adv">
+       <cat-item lemma="proprio" tags="adv"/>
     </def-cat>
     <def-cat n="cnjadv">
        <cat-item tags="cnjadv"/>
@@ -8058,7 +8072,9 @@
                <tag><lit-tag v="SAdj"/></tag>
              </tags>
            <lu>
+             <get-case-from pos="1">
              <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
            </lu>
@@ -8158,6 +8174,79 @@
              <lit v="chi"/>
              </get-case-from>
              <lit-tag v="cnjsub"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: proprio a np > a np etotu">
+       <pattern>
+         <pattern-item n="proprio_adv"/>
+         <pattern-item n="a_in"/>
+         <pattern-item n="np_unk"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="a-np-etotu">
+             <tags>
+               <tag><lit-tag v="SPrep"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lem"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <get-case-from pos="2">
+             <lit v="etotu"/>
+             </get-case-from>
+             <lit-tag v="adv"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: proprio a np np > a np np etotu">
+       <pattern>
+         <pattern-item n="proprio_adv"/>
+         <pattern-item n="a"/>
+         <pattern-item n="np_unk"/>
+         <pattern-item n="np_unk"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="a-np-np-etotu">
+             <tags>
+               <tag><lit-tag v="SPrep"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lem"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="whole"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="4" side="tl" part="whole"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <get-case-from pos="2">
+             <lit v="etotu"/>
+             </get-case-from>
+             <lit-tag v="adv"/>
            </lu>
          </chunk>
          </out>
