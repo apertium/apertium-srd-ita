@@ -456,6 +456,9 @@
   <def-attr n="a_adj_ord">
      <attr-item tags="adj.ord"/>
   </def-attr>
+  <def-attr n="a_adj_post">
+     <attr-item tags="adj.post"/>
+  </def-attr>
   <def-attr n="a_det">
      <attr-item tags="det.ind"/>
      <attr-item tags="det.dem"/>
@@ -499,6 +502,9 @@
   <def-var n="concSegundo"/>
   <def-var n="concTercero"/>
   <def-var n="caseFirstWord"/>
+  <def-var n="x"/>
+  <def-var n="y"/>
+  <def-var n="z"/>
   <def-var n="EOS"/>
   <def-var n="debug"/>
 </section-def-vars>
@@ -613,6 +619,55 @@
 </section-def-lists>
 
 <section-def-macros>
+
+    <def-macro n="f_clean_post" npar="1" c="clean 'post' in 'adj.post' if it exists">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="tl" part="a_adj_post"/><lit-tag v="adj.post"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_reord_adj" npar="2" c="par1=n, par2=adj: interchange par1 and par2">
+<!-- WARNING: BUG! It's not working with "su propria retrocessione", where propria=adj.post and retrocessione>torrada a dae segus. par2.lemq is not created -->
+<!-- I don't reorder if tl has lemq -->
+      <choose>
+        <when>
+          <test>
+            <and>
+            <equal><clip pos="2" side="tl" part="a_adj_post"/><lit-tag v="adj.post"/></equal>
+            <equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal>
+            </and>
+          </test>
+          <let><clip pos="2" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
+	  <let><var n="x"/><clip pos="1" side="sl" part="lemh"/></let>
+	  <let><var n="y"/><clip pos="1" side="sl" part="tags"/></let>
+	  <let><var n="z"/><clip pos="1" side="sl" part="lemq"/></let>
+	  <let><clip pos="1" side="sl" part="lemh"/><clip pos="2" side="sl" part="lemh"/></let>
+	  <let><clip pos="1" side="sl" part="tags"/><clip pos="2" side="sl" part="tags"/></let>
+	  <let><clip pos="1" side="sl" part="lemq"/><clip pos="2" side="sl" part="lemq"/></let>
+	  <let><clip pos="2" side="sl" part="lemh"/><var n="x"/></let>
+	  <let><clip pos="2" side="sl" part="tags"/><var n="y"/></let>
+	  <let><clip pos="2" side="sl" part="lemq"/><var n="z"/></let>
+
+	  <let><var n="x"/><clip pos="1" side="tl" part="lemh"/></let>
+	  <let><var n="y"/><clip pos="1" side="tl" part="tags"/></let>
+	  <let><var n="z"/><clip pos="1" side="tl" part="lemq"/></let>
+	  <let><clip pos="1" side="tl" part="lemh"/><clip pos="2" side="tl" part="lemh"/></let>
+	  <let><clip pos="1" side="tl" part="tags"/><clip pos="2" side="tl" part="tags"/></let>
+	  <let><clip pos="1" side="tl" part="lemq"/><clip pos="2" side="tl" part="lemq"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><var n="x"/></let>
+	  <let><clip pos="2" side="tl" part="tags"/><var n="y"/></let>
+	  <let><clip pos="2" side="tl" part="lemq"/><var n="z"/></let>
+        </when>
+        <otherwise>
+          <let><clip pos="2" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
 
     <def-macro n="f_concord1" npar="1">
       
@@ -3381,6 +3436,10 @@
            <with-param pos="2"/>
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_reord_adj">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="adj_n">
              <tags>
@@ -3450,6 +3509,9 @@
            <with-param pos="4"/>
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="4"/>
+         </call-macro>
          <out>
            <chunk name="det_n">
              <tags>
@@ -3490,6 +3552,9 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
            <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
          </call-macro>
          <choose>
            <when>
@@ -3678,6 +3743,9 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
          <out>
            <chunk name="n_adj_adjpos">
              <tags>
@@ -3736,6 +3804,9 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="4"/>
+         </call-macro>
          <out>
            <chunk name="det_n_adj_adjpos">
              <tags>
@@ -3784,6 +3855,9 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="3"/>
          </call-macro>
          <out>
@@ -3837,6 +3911,9 @@
            <with-param pos="3"/>
            <with-param pos="2"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="adj_n_adjpos">
              <tags>
@@ -3883,6 +3960,9 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="2"/>
          </call-macro>
          <out>
@@ -3940,6 +4020,12 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="4"/>
          </call-macro>
          <out>
@@ -4002,6 +4088,12 @@
            <with-param pos="2"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="4"/>
+         </call-macro>
          <out>
            <chunk name="n_adj_adj_adjpos">
              <tags>
@@ -4059,6 +4151,12 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="4"/>
          </call-macro>
          <out>
@@ -4291,6 +4389,9 @@
            <with-param pos="1"/>
            <with-param pos="3"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
      <choose>
        <when>
          <test>
@@ -4391,6 +4492,9 @@
            <with-param pos="1"/>
            <with-param pos="3"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="adjord_adj_n">
              <tags>
@@ -4438,6 +4542,9 @@
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
            <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
          </call-macro>
          <out>
            <chunk name="adjord_n_adjpos">
@@ -4541,6 +4648,9 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="4"/>
+         </call-macro>
          <out>
            <chunk name="num_n__adj_adjpos">
              <tags>
@@ -4599,6 +4709,9 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="3"/>
          </call-macro>
          <out>
@@ -4730,6 +4843,9 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
          <out>
            <chunk name="det_adjord_adj_n">
              <tags>
@@ -4846,6 +4962,9 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="4"/>
          </call-macro>
          <call-macro n="f_concord_carchi4">
@@ -4999,6 +5118,9 @@
            <with-param pos="1"/>
            <with-param pos="2"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="n_adj">
              <tags>
@@ -5083,6 +5205,9 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_carchi3">
@@ -5259,6 +5384,10 @@
       <with-param pos="2"/>
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="f_reord_adj">
+      <with-param pos="3"/>
+      <with-param pos="2"/>
+    </call-macro>
     <choose>
       <when>
         <test>
@@ -5418,6 +5547,9 @@
            <with-param pos="2"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="4"/>
+         </call-macro>
          <call-macro n="f_concord_carchi3">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5515,6 +5647,9 @@
          </call-macro>
          <call-macro n="f_concord_esp">
            <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_carchi3">
@@ -5621,6 +5756,12 @@
            <with-param pos="2"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="4"/>
+         </call-macro>
          <call-macro n="f_concord_carchi4">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5686,6 +5827,9 @@
          <call-macro n="f_concord_esp">
            <with-param pos="2"/>
            <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
          </call-macro>
          <call-macro n="f_concord_carchi4">
            <with-param pos="1"/>
@@ -5761,6 +5905,13 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_reord_adj">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="4"/>
+         </call-macro>
          <call-macro n="f_concord_carchi4">
            <with-param pos="1"/>
            <with-param pos="2"/>
@@ -5826,6 +5977,10 @@
          <call-macro n="f_concord_esp">
            <with-param pos="3"/>
            <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_reord_adj">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_concord_carchi4">
            <with-param pos="1"/>
@@ -7985,6 +8140,9 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="così-adj/adv-come">
              <tags>
@@ -8026,6 +8184,9 @@
          <call-macro n="f_concord1">
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="adj/adv-come">
              <tags>
@@ -8064,6 +8225,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="2"/>
          </call-macro>
          <out>
@@ -8107,6 +8271,9 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="più-adj/adv-chi">
              <tags>
@@ -8144,6 +8311,9 @@
        </pattern>
        <action>
          <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="2"/>
          </call-macro>
          <out>
@@ -8653,6 +8823,9 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
          <choose>
            <when>
              <test>
@@ -8728,6 +8901,10 @@
        </pattern>
        <action>
          <call-macro n="f_concord2">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_reord_adj">
            <with-param pos="3"/>
            <with-param pos="2"/>
          </call-macro>
@@ -8872,6 +9049,9 @@
          <call-macro n="f_concord1">
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="1"/>
+         </call-macro>
          <out>
            <chunk name="adj">
              <tags>
@@ -8928,6 +9108,9 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="adj_meda">
              <tags>
@@ -8959,6 +9142,12 @@
        <action>
          <call-macro n="f_concord2">
            <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
            <with-param pos="4"/>
          </call-macro>
          <out>
