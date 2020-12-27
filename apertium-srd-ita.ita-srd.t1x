@@ -670,6 +670,52 @@
       </choose>
     </def-macro>
 
+    <def-macro n="f_reord_adj3" npar="3" c="par1=n, par2=adj par3=adj: put par3 at the end if it is adj.post">
+<!-- WARNING: BUG! It's not working with "su propria retrocessione", where propria=adj.post and retrocessione>torrada a dae segus. par2.lemq is not created -->
+<!-- I don't reorder if tl has lemq -->
+      <choose>
+        <when>
+          <test>
+            <and>
+            <equal><clip pos="3" side="tl" part="a_adj_post"/><lit-tag v="adj.post"/></equal>
+            <equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal>
+            </and>
+          </test>
+          <let><clip pos="2" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
+          <let><clip pos="3" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
+	  <let><var n="x"/><clip pos="1" side="sl" part="lemh"/></let>
+	  <let><var n="y"/><clip pos="1" side="sl" part="tags"/></let>
+	  <let><var n="z"/><clip pos="1" side="sl" part="lemq"/></let>
+	  <let><clip pos="1" side="sl" part="lemh"/><clip pos="2" side="sl" part="lemh"/></let>
+	  <let><clip pos="1" side="sl" part="tags"/><clip pos="2" side="sl" part="tags"/></let>
+	  <let><clip pos="1" side="sl" part="lemq"/><clip pos="2" side="sl" part="lemq"/></let>
+	  <let><clip pos="2" side="sl" part="lemh"/><clip pos="3" side="sl" part="lemh"/></let>
+	  <let><clip pos="2" side="sl" part="tags"/><clip pos="3" side="sl" part="tags"/></let>
+	  <let><clip pos="2" side="sl" part="lemq"/><clip pos="3" side="sl" part="lemq"/></let>
+	  <let><clip pos="3" side="sl" part="lemh"/><var n="x"/></let>
+	  <let><clip pos="3" side="sl" part="tags"/><var n="y"/></let>
+	  <let><clip pos="3" side="sl" part="lemq"/><var n="z"/></let>
+
+	  <let><var n="x"/><clip pos="1" side="tl" part="lemh"/></let>
+	  <let><var n="y"/><clip pos="1" side="tl" part="tags"/></let>
+	  <let><var n="z"/><clip pos="1" side="tl" part="lemq"/></let>
+	  <let><clip pos="1" side="tl" part="lemh"/><clip pos="2" side="tl" part="lemh"/></let>
+	  <let><clip pos="1" side="tl" part="tags"/><clip pos="2" side="tl" part="tags"/></let>
+	  <let><clip pos="1" side="tl" part="lemq"/><clip pos="2" side="tl" part="lemq"/></let>
+	  <let><clip pos="2" side="tl" part="lemh"/><clip pos="3" side="tl" part="lemh"/></let>
+	  <let><clip pos="2" side="tl" part="tags"/><clip pos="3" side="tl" part="tags"/></let>
+	  <let><clip pos="2" side="tl" part="lemq"/><clip pos="3" side="tl" part="lemq"/></let>
+	  <let><clip pos="3" side="tl" part="lemh"/><var n="x"/></let>
+	  <let><clip pos="3" side="tl" part="tags"/><var n="y"/></let>
+	  <let><clip pos="3" side="tl" part="lemq"/><var n="z"/></let>
+        </when>
+        <otherwise>
+          <let><clip pos="2" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
+          <let><clip pos="3" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
+        </otherwise>
+      </choose>
+    </def-macro>
+
     <def-macro n="f_concord1" npar="1">
       
       <choose><!--To determine value of variables of gender and
@@ -5906,12 +5952,10 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
-         <call-macro n="f_reord_adj">
+         <call-macro n="f_reord_adj3">
            <with-param pos="3"/>
-           <with-param pos="2"/>
-         </call-macro>
-         <call-macro n="f_clean_post">
            <with-param pos="4"/>
+           <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_concord_carchi4">
            <with-param pos="1"/>
