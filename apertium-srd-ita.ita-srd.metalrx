@@ -129,6 +129,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="evangelista" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -156,6 +158,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="evangelista" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -186,6 +190,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="evangelista" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -215,6 +221,8 @@
            <match lemma="arcivescovo" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="apostolo" tags="n.*"/>
+           <match lemma="evangelista" tags="n.*"/>
+           <match lemma="arcangelo" tags="n.*"/>
            <match lemma="imperatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
@@ -299,6 +307,14 @@
            <match lemma="governare" tags="vblex.ger"/>
          </or>
          <match tags="np.ant.*"/>
+         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="vangelo" tags="n.*"/>
+           <match lemma="apocalisse" tags="n.*"/>
+         </or>
+         <match lemma="di" tags="pr"/>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
       </rule>
     </def-macro>
@@ -1075,6 +1091,17 @@
       <match lemma="parco" tags="n.*"/>
       <match lemma="giardino" tags="n.*"/>
     </or>
+  </rule>
+
+<!-- **************** REL **************** -->
+
+  <!-- come > comente a, comente -->
+  <rule weight="0.8">
+    <match lemma="come" tags="rel.*"><select lemma="comente a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="vblex.pp.*"/>
+    <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
   </rule>
 
 <!-- **************** PRN **************** -->
