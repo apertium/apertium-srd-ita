@@ -338,6 +338,7 @@
     </def-cat>
     <def-cat n="tanto">
        <cat-item lemma="tanto" tags="adv"/>
+       <cat-item lemma="tanto" tags="preadv"/>
     </def-cat>
     <def-cat n="cnjadv">
        <cat-item tags="cnjadv"/>
