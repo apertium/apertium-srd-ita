@@ -1104,6 +1104,23 @@
     <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
   </rule>
 
+<!-- **************** CNJADV **************** -->
+
+  <!-- anziché > imbetzes chi, imbetzes de -->
+  <rule weight="0.8">
+    <match lemma="anziché" tags="cnjadv"><select lemma="imbetzes chi"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="anziché" tags="cnjadv"><select lemma="imbetzes de"/></match>
+    <repeat from="0" upto="2">
+      <or>
+        <match tags="prn.*"/>
+        <match tags="adv"/>
+      </or>
+    </repeat>
+    <match tags="*.inf"/>
+  </rule>
+
 <!-- **************** PRN **************** -->
 
   <!-- quello > cuddu, su -->
@@ -1136,7 +1153,7 @@
       <match lemma="tavolo" tags="n.*"/>
     </or>
   </rule>
-  <rule weight="1.0">
+  <rule weight="1.2">
     <or>
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="arrivare" tags="vblex.*"/>
@@ -1153,6 +1170,23 @@
       <match lemma="tavola" tags="n.*"/>
       <match lemma="tavolo" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <match tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <match tags="np.top.*"/>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match lemma="andata" tags="n.*"/>
+      <match lemma="escursione" tags="n.*"/>
+      <match lemma="fuga" tags="n.*"/>
+      <match lemma="ritorno" tags="n.*"/>
+      <match lemma="trasferimento" tags="n.*"/>
+      <match lemma="viaggio" tags="n.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="a"/></match>
+    <match tags="np.top.*"/>
   </rule>
 
   <!-- in > in, a, da -->
@@ -1604,53 +1638,8 @@
     </or>
   </rule>
 
-  <!-- lì > cue, in cue, a cue -->
+  <!-- là > in cue, a cue -->
   <rule weight="0.8">
-    <match lemma="lì" tags="adv"><select lemma="cue" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <or>
-      <match tags="vbser.*"/>
-      <match lemma="stare" tags="vblex.*"/>
-    </or>
-    <match lemma="lì" tags="adv"><select lemma="in cue" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <or>
-      <match tags="vbser.*"/>
-      <match lemma="stare" tags="vblex.*"/>
-    </or>
-    <match tags="adj.*"/>
-    <match lemma="lì" tags="adv"><select lemma="in cue" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <or>
-      <seq n="verbi_moto_lista_corta"/>
-    </or>
-    <match lemma="lì" tags="adv"><select lemma="a cue" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="fino a" tags="pr"/>
-    <match lemma="lì" tags="adv"><select lemma="a cue" tags="adv"/></match>
-  </rule>
-
-  <!-- là > inie, in cue, a cue -->
-  <rule weight="0.8">
-    <match lemma="là" tags="adv"><select lemma="inie" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <or>
-      <match tags="vbser.*"/>
-      <match lemma="stare" tags="vblex.*"/>
-    </or>
-    <match lemma="là" tags="adv"><select lemma="in cue" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <or>
-      <match tags="vbser.*"/>
-      <match lemma="stare" tags="vblex.*"/>
-    </or>
-    <match tags="adj.*"/>
     <match lemma="là" tags="adv"><select lemma="in cue" tags="adv"/></match>
   </rule>
   <rule weight="1.0">
@@ -1664,34 +1653,19 @@
     <match lemma="là" tags="adv"><select lemma="a cue" tags="adv"/></match>
   </rule>
 
-  <!-- laggiù > in cue indedda, in cuddae, a cuddae -->
+  <!-- laggiù > in cue in giosso, a cue in giosso -->
   <rule weight="0.8">
-    <match lemma="laggiù" tags="adv"><select lemma="in cue indedda" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <or>
-      <match tags="vbser.*"/>
-      <match lemma="stare" tags="vblex.*"/>
-    </or>
-    <match lemma="laggiù" tags="adv"><select lemma="in cuddae" tags="adv"/></match>
-  </rule>
-  <rule weight="1.0">
-    <or>
-      <match tags="vbser.*"/>
-      <match lemma="stare" tags="vblex.*"/>
-    </or>
-    <match tags="adj.*"/>
-    <match lemma="laggiù" tags="adv"><select lemma="in cuddae" tags="adv"/></match>
+    <match lemma="laggiù" tags="adv"><select lemma="in cue in giosso" tags="adv"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <match lemma="laggiù" tags="adv"><select lemma="a cuddae" tags="adv"/></match>
+    <match lemma="laggiù" tags="adv"><select lemma="a cue in giosso" tags="adv"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="fino a" tags="pr"/>
-    <match lemma="laggiù" tags="adv"><select lemma="a cuddae" tags="adv"/></match>
+    <match lemma="laggiù" tags="adv"><select lemma="a cue in giosso" tags="adv"/></match>
   </rule>
 
   <!-- su > susu, in susu, a susu -->
@@ -1885,11 +1859,6 @@
       <match tags="*"/>
     </repeat>
     <match lemma="salsa" tags="n.*"><select lemma="salsa"/></match>
-  </rule>
-
-  <!-- raggio > raju, raja -->
-  <rule weight="0.8">
-    <match lemma="raggio" tags="n.*"><select lemma="raju"/></match>
   </rule>
 
   <!-- tavola > tàula, mesa -->
@@ -2321,6 +2290,23 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- casalingo > de domo, in domo -->
+  <rule weight="0.8">
+    <match lemma="casalingo" tags="adj.*"><select lemma="de domo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="partita" tags="n.*"/>
+      <match lemma="edizione" tags="n.*"/>
+      <match lemma="campionato" tags="n.*"/>
+      <match lemma="premio" tags="n.*"/>
+      <match lemma="gara" tags="n.*"/>
+      <match lemma="vittoria" tags="n.*"/>
+      <match lemma="sconfitta" tags="n.*"/>
+    </or>
+    <match lemma="casalingo" tags="adj.*"><select lemma="in domo"/></match>
+  </rule>
 
   <!-- special > ispetziale, special -->
   <rule weight="0.8">
