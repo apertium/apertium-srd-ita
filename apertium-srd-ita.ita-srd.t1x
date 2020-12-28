@@ -399,7 +399,9 @@
     </def-cat>
     <def-cat n="nom_famiglia_casa">	<!-- famiglia + casa -->
        <cat-item lemma="padre" tags="n.*"/>
+       <cat-item lemma="papà" tags="n.*"/>
        <cat-item lemma="madre" tags="n.*"/>
+       <cat-item lemma="mamma" tags="n.*"/>
        <cat-item lemma="babbo" tags="n.*"/>
        <cat-item lemma="genitore" tags="n.*"/>
        <cat-item lemma="figlio" tags="n.*"/>
