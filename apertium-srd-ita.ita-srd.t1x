@@ -378,6 +378,16 @@
        <cat-item lemma="quello" tags="det.*"/>
        <cat-item lemma="quello" tags="prn.tn.*"/>
     </def-cat>
+    <def-cat n="prnpers">
+       <cat-item lemma="io" tags="prn.tn.*"/>
+       <cat-item lemma="tu" tags="prn.tn.*"/>
+       <cat-item lemma="lui" tags="prn.tn.*"/>
+       <cat-item lemma="lei" tags="prn.tn.*"/> <!-- necessario per 'Lei' -->
+       <cat-item lemma="Lei" tags="prn.tn.*"/>
+       <cat-item lemma="noi" tags="prn.tn.*"/>
+       <cat-item lemma="voi" tags="prn.tn.*"/>
+       <cat-item lemma="loro" tags="prn.tn.*"/>
+    </def-cat>
     <def-cat n="che">
        <cat-item lemma="che" tags="cnjsub"/>
        <cat-item lemma="che" tags="rel.an.*"/>
@@ -8397,6 +8407,35 @@
        </action>
     </rule>
 
+    <rule comment="regla: proprio prnpers > prnpers etotu">
+       <pattern>
+         <pattern-item n="proprio_adv"/>
+         <pattern-item n="prnpers"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="prnpers-etotu">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="2" side="tl" part="lem"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="tags"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <get-case-from pos="2">
+             <lit v="etotu"/>
+             </get-case-from>
+             <lit-tag v="adv"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
     <rule comment="regla: proprio a np > a np etotu">
        <pattern>
          <pattern-item n="proprio_adv"/>
@@ -9252,7 +9291,7 @@
          <out>
            <chunk name="prn">
              <tags>
-               <tag><lit-tag v="SPron"/></tag>
+               <tag><lit-tag v="SN"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -9275,7 +9314,7 @@
          <out>
            <chunk name="prn">
              <tags>
-               <tag><lit-tag v="SPron"/></tag>
+               <tag><lit-tag v="SN"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
