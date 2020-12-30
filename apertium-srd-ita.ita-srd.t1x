@@ -3040,6 +3040,24 @@
       </choose>
     </def-macro>
 
+    <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+      <choose>
+        <when>
+          <test>
+            <not>
+              <equal>
+                <b pos="1"/>
+                <lit v=" "/>
+              </equal>
+            </not>
+          </test>
+          <out>
+            <b pos="1"/>
+          </out>
+        </when>
+      </choose>
+    </def-macro>
+
   </section-def-macros>
 
 <section-rules>
@@ -3521,10 +3539,11 @@
     </rule>
 
 
-    <rule comment="regla: detdef adjpos nom_famiglia > detpos nom">
+<!--
+    <rule comment="regla: detdef adjpos nom_famiglia > si adjpos=p1 o p2, nom_famiglia adjpos ; si adjpos = p3, detpos nom">
        <pattern>
          <pattern-item n="detdef"/>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adj_prnpos"/>
          <pattern-item n="nom_famiglia_casa"/>
        </pattern>
        <action>
@@ -3533,22 +3552,31 @@
            <with-param pos="2"/>
            <with-param pos="1"/>
          </call-macro>
-         <out>
-           <chunk name="det_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="tags"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+         <choose>
+           <when>
+             <test>
+               <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
+             </test>
+             <out>
+               <chunk name="det_n">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+               <lu>
+                 <clip pos="1" side="tl" part="lem"/>
+                 <clip pos="1" side="tl" part="tags"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+             </chunk>
+           </when>
+           <otherwise>
+           </otherwise>
+         </choose>
          </out>
        </action>
     </rule>
@@ -3557,7 +3585,7 @@
     <rule comment="regla: detdef adjpos nom_famiglia adj > detpos nom adj">
        <pattern>
          <pattern-item n="detdef"/>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adj_prnpos"/>
          <pattern-item n="nom_famiglia_casa"/>
          <pattern-item n="adj"/>
        </pattern>
@@ -3601,7 +3629,7 @@
     <rule comment="regla: detdef adjpos adj nom_famiglia > detpos adj nom">
        <pattern>
          <pattern-item n="detdef"/>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adj_prnpos"/>
          <pattern-item n="adj"/>
          <pattern-item n="nom_famiglia_casa"/>
        </pattern>
@@ -3653,7 +3681,7 @@
          </out>
        </action>
     </rule>
-
+-->
 
     <rule comment="regla: adjpos nom_famiglia > detdef nom_famiglia">
        <pattern>
@@ -3668,41 +3696,75 @@
          <choose>
            <when>
              <test>
-	       <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+               <or>
+	         <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="suo"/></equal>
+	         <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="loro"/></equal>
+               </or>
              </test>
-	     <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+             <choose>
+               <when>
+                 <test>
+	           <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+                 </test>
+	         <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+               </when>
+             </choose>
+             <choose>
+               <when>
+                 <test>
+	           <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+                 </test>
+	         <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></let>
+               </when>
+             </choose>
+             <out>
+               <chunk name="det_n">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1">
+                   <lit v="su"/>
+                   </get-case-from>
+                   <lit-tag v="det"/>
+                   <lit-tag v="def"/>
+                   <clip pos="1" side="tl" part="gen"/>
+                   <clip pos="1" side="tl" part="nbr"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
            </when>
+           <otherwise>
+             <out>
+               <chunk name="n_pos">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1">
+                   <clip pos="2" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <get-case-from pos="2">
+                   <clip pos="1" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
          </choose>
-         <choose>
-           <when>
-             <test>
-	       <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
-             </test>
-	     <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></let>
-           </when>
-         </choose>
-         <out>
-           <chunk name="det_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <get-case-from pos="1">
-             <lit v="su"/>
-             </get-case-from>
-             <lit-tag v="det"/>
-             <lit-tag v="def"/>
-             <clip pos="1" side="tl" part="gen"/>
-             <clip pos="1" side="tl" part="nbr"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
        </action>
     </rule>
 
