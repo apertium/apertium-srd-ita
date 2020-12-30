@@ -35,10 +35,10 @@ for i in "${!modes[@]}"; do
     printf "== %.45s\n" "${modenames[$i]} ============================================"
     sl="${modes[$i]:0:3}"
 
-    if [[ $sl = "frp" ]]; then
-        monodix="../../../apertium-frp/.deps/frp.dix"
+    if [[ $sl = "srd" ]]; then
+        monodix="../../../apertium-srd/apertium-srd.srd.dix"
     else
-        monodix="../../../apertium-fra/.deps/fra.dix"
+        monodix="../../../apertium-ita/apertium-ita.ita.dix"
     fi
 
     if [[ $ENCLITICS = true ]] && [[ $TRIMMED = false ]]; then
