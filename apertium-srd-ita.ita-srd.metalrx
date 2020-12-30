@@ -419,7 +419,7 @@
       </rule>
     </def-macro>
 
-    <!-- Aquesta macro tria el verb p2 si p1 és pronominal i està seguit del pronom p3 -->
+    <!-- Aquesta macro tria el verb p2 si p1 és pronominal i està seguit de la preposició p3 -->
     <def-macro name="verb_pron_pr">
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
@@ -950,24 +950,24 @@
 <rules>
 
   <rule weight="1.0">
-    <match lemma="anche" tags="adv"><select lemma="puru" tags="adv"/></match>
+    <match lemma="anche" tags="adv"><select lemma="puru"/></match>
   </rule>
 
   <rule weight="1.0">
-    <match lemma="quindi" tags="adv"><select lemma="tando" tags="adv"/></match>
+    <match lemma="quindi" tags="adv"><select lemma="tando"/></match>
   </rule>
 
   <rule weight="0.1">
-    <match lemma="rosso" tags="adj.*"><select lemma="nieddu" tags="adj.*"/></match>
+    <match lemma="rosso" tags="adj.*"><select lemma="nieddu"/></match>
   </rule>
 
   <rule weight="1.0">
-    <match lemma="rosso" tags="adj.*"><select lemma="ruju" tags="adj.*"/></match>
+    <match lemma="rosso" tags="adj.*"><select lemma="ruju"/></match>
   </rule>
 
   <rule weight="1.0">
     <match lemma="vino" tags="n.*"/>
-    <match lemma="rosso" tags="adj.*"><select lemma="nieddu" tags="adj.*"/></match>
+    <match lemma="rosso" tags="adj.*"><select lemma="nieddu"/></match>
   </rule>
 
   <rule weight="0.8">
@@ -1007,7 +1007,7 @@
 
 <!-- economico > econòmicu, baratu -->
 <rule weight="0.8"> 
-    <match lemma="economico" tags="adj.*"><select lemma="econòmicu" tags="adj.*"/></match>
+    <match lemma="economico" tags="adj.*"><select lemma="econòmicu"/></match>
 </rule> 
   <rule weight="1.0">
   <!-- "molto economico →  meda baratu -->
@@ -1015,14 +1015,14 @@
        <match lemma="molto" tags="adv"/>   <!-- just in case the tagger didn't get it right -->
        <match lemma="molto" tags="preadv"/>
     </or>
-    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
+    <match lemma="economico" tags="adj.*"><select lemma="baratu"/></match>
   </rule>
   <rule weight="1.0">
     <match tags="vbser"/>
     <repeat from="0" upto="1">
       <or><match tags="adv"/><match tags="preadv"/></or>
     </repeat>
-    <match lemma="economico" tags="adj.*"><select lemma="baratu" tags="adj.*"/></match>
+    <match lemma="economico" tags="adj.*"><select lemma="baratu"/></match>
   </rule>
 
 
@@ -1101,6 +1101,20 @@
   </rule>
   <rule weight="1.0">
     <match tags="vblex.pp.*"/>
+    <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="essere" tags="vbser.*"/>
+      <match lemma="sembrare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match tags="adj.*"/>
     <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
   </rule>
 
@@ -1353,6 +1367,45 @@
     <match lemma="il" tags="det.def.*"><select lemma="su"/></match>
   </rule>
 
+  <!-- come > comente, comente a, che a -->
+  <rule weight="0.8">
+    <match lemma="come" tags="pr"><select lemma="comente a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+     <match lemma="chiamare" tags="vblex.*"/>
+      <match lemma="dire" tags="vblex.*"/>
+      <match lemma="soprannominare" tags="vblex.*"/>
+      <match lemma="eleggere" tags="vblex.*"/>
+      <match lemma="nominare" tags="vblex.*"/>
+      <match lemma="proclamare" tags="vblex.*"/>
+      <match lemma="assumere" tags="vblex.*"/>
+      <match lemma="dichiarare" tags="vblex.*"/>
+      <match lemma="stimare" tags="vblex.*"/>
+      <match lemma="giudicare" tags="vblex.*"/>
+      <match lemma="considerare" tags="vblex.*"/>
+      <match lemma="ritenere" tags="vblex.*"/>
+      <match lemma="prendere" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="come" tags="pr"><select lemma="comente"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="essere" tags="vbser.*"/>
+      <match lemma="sembrare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match tags="adj.*"/>
+    <match lemma="come" tags="pr"><select lemma="comente"/></match>
+  </rule>
 
   <!-- su > subra de, subra, in -->
   <rule weight="0.8">
@@ -1508,9 +1561,21 @@
 
 <!-- **************** VBLEX **************** -->
 
-  <!-- sentire > sentire, intèndere -->
+  <!-- sentire > intèndere, sentire -->
   <rule weight="0.8">
+    <match lemma="sentire" tags="vblex.*"><select lemma="intèndere"/></match>
+  </rule>
+  <macro name="verb_pron_pr" p1="sentire" p2="sentire" p3="di"/>
+  <rule weight="1.0">
+    <match lemma="lo" tags="prn.pro.p3.f.sg"/>
     <match lemma="sentire" tags="vblex.*"><select lemma="sentire"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="lo" tags="prn.pro.p3.f.sg"/>
+    <match tags="vbhaber.*"/>
+    <match lemma="sentire" tags="vblex.pp.*"><select lemma="sentire"/></match>
+    <match lemma="di" tags="pr"/>
   </rule>
 
   <!-- cojugare > coniugare, cojugare -->
@@ -1578,7 +1643,6 @@
   <macro name="verb_pron_pr" p1="rifare" p2="riferire" p3="a"/>
   <macro name="verb_pron_pr_sg_pl" p1="rifare" p2="èssere# chitidu" p3="èssere# chitidos" p4="di"/>
 
-
   <!-- richiamare > fàghere# riferimentu a, fàghere# riferimentu -->
   <rule weight="0.8">
     <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu a"/></match>
@@ -1594,13 +1658,12 @@
     <match lemma="a" tags="pr"/>
   </rule>
 
-<!-- INTENDERE -->
+  <!-- intendere > cumprèndere, chèrrere -->
   <rule weight="1.0">
-    <match lemma="intendere" tags="vblex.*"><select lemma="cumprèndere" tags="vblex.*"/></match>
+    <match lemma="intendere" tags="vblex.*"><select lemma="cumprèndere"/></match>
   </rule>
-
   <rule weight="1.0">
-    <match lemma="intendere" tags="vblex.*"><select lemma="chèrrere" tags="vblex.*"/></match>
+    <match lemma="intendere" tags="vblex.*"><select lemma="chèrrere"/></match>
     <match tags="vblex.inf"/>
   </rule>
 
@@ -1650,44 +1713,66 @@
 
   <!-- là > in cue, a cue -->
   <rule weight="0.8">
-    <match lemma="là" tags="adv"><select lemma="in cue" tags="adv"/></match>
+    <match lemma="là" tags="adv"><select lemma="in cue"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <match lemma="là" tags="adv"><select lemma="a cue" tags="adv"/></match>
+    <match lemma="là" tags="adv"><select lemma="a cue"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="fino a" tags="pr"/>
-    <match lemma="là" tags="adv"><select lemma="a cue" tags="adv"/></match>
+    <match lemma="là" tags="adv"><select lemma="a cue"/></match>
+  </rule>
+
+  <!-- lì > inie, anie -->
+  <rule weight="0.8">
+    <match lemma="lì" tags="adv"><select lemma="inie"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_moto_lista_corta"/>
+    </or>
+    <match lemma="lì" tags="adv"><select lemma="anie"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fino a" tags="pr"/>
+    <match lemma="lì" tags="adv"><select lemma="anie"/></match>
   </rule>
 
   <!-- laggiù > in cue in giosso, a cue in giosso -->
   <rule weight="0.8">
-    <match lemma="laggiù" tags="adv"><select lemma="in cue in giosso" tags="adv"/></match>
+    <match lemma="laggiù" tags="adv"><select lemma="in cue in giosso"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <match lemma="laggiù" tags="adv"><select lemma="a cue in giosso" tags="adv"/></match>
+    <match lemma="laggiù" tags="adv"><select lemma="a cue in giosso"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="fino a" tags="pr"/>
-    <match lemma="laggiù" tags="adv"><select lemma="a cue in giosso" tags="adv"/></match>
+    <match lemma="laggiù" tags="adv"><select lemma="a cue in giosso"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="n.*"/>
+    <repeat from="0" upto="3">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="laggiù" tags="adv"><select lemma="in cuddae"/></match>
   </rule>
 
   <!-- su > susu, in susu, a susu -->
   <rule weight="0.8">
-    <match lemma="su" tags="adv"><select lemma="susu" tags="adv"/></match>
+    <match lemma="su" tags="adv"><select lemma="susu"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <match tags="vbser.*"/>
       <match lemma="stare" tags="vblex.*"/>
     </or>
-    <match lemma="su" tags="adv"><select lemma="in susu" tags="adv"/></match>
+    <match lemma="su" tags="adv"><select lemma="in susu"/></match>
   </rule>
   <rule weight="1.0">
     <or>
@@ -1695,25 +1780,25 @@
       <match lemma="stare" tags="vblex.*"/>
     </or>
     <match tags="adj.*"/>
-    <match lemma="su" tags="adv"><select lemma="in susu" tags="adv"/></match>
+    <match lemma="su" tags="adv"><select lemma="in susu"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <match lemma="su" tags="adv"><select lemma="a susu" tags="adv"/></match>
+    <match lemma="su" tags="adv"><select lemma="a susu"/></match>
   </rule>
 
   <!-- giù > giosso, in giosso, a giosso -->
   <rule weight="0.8">
-    <match lemma="giù" tags="adv"><select lemma="giosso" tags="adv"/></match>
+    <match lemma="giù" tags="adv"><select lemma="giosso"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <match tags="vbser.*"/>
       <match lemma="stare" tags="vblex.*"/>
     </or>
-    <match lemma="giù" tags="adv"><select lemma="in giosso" tags="adv"/></match>
+    <match lemma="giù" tags="adv"><select lemma="in giosso"/></match>
   </rule>
   <rule weight="1.0">
     <or>
@@ -1721,28 +1806,28 @@
       <match lemma="stare" tags="vblex.*"/>
     </or>
     <match tags="adj.*"/>
-    <match lemma="giù" tags="adv"><select lemma="in giosso" tags="adv"/></match>
+    <match lemma="giù" tags="adv"><select lemma="in giosso"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <match lemma="giù" tags="adv"><select lemma="a giosso" tags="adv"/></match>
+    <match lemma="giù" tags="adv"><select lemma="a giosso"/></match>
   </rule>
 
   <!-- dove (adv) > ue, in ue, a ue -->
   <rule weight="0.8">
-    <match lemma="dove" tags="adv"><select lemma="ue" tags="adv"/></match>
+    <match lemma="dove" tags="adv"><select lemma="ue"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <match tags="vbser.*"/>
       <match lemma="stare" tags="vblex.*"/>
     </or>
-    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+    <match lemma="dove" tags="adv"><select lemma="in ue"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+    <match lemma="dove" tags="adv"><select lemma="in ue"/></match>
     <or>
       <match tags="vbser.*"/>
       <match lemma="stare" tags="vblex.*"/>
@@ -1754,22 +1839,22 @@
       <match lemma="stare" tags="vblex.*"/>
     </or>
     <match tags="adj.*"/>
-    <match lemma="dove" tags="adv"><select lemma="in ue" tags="adv"/></match>
+    <match lemma="dove" tags="adv"><select lemma="in ue"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+    <match lemma="dove" tags="adv"><select lemma="a ue"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+    <match lemma="dove" tags="adv"><select lemma="a ue"/></match>
     <or>
       <seq n="verbi_moto_lista_corta"/>
     </or>
   </rule>
   <rule weight="1.0">
-    <match lemma="dove" tags="adv"><select lemma="a ue" tags="adv"/></match>
+    <match lemma="dove" tags="adv"><select lemma="a ue"/></match>
     <match tags="prn.*"/>
     <or>
       <seq n="verbi_moto_lista_corta"/>
