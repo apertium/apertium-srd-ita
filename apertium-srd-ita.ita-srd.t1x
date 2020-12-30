@@ -407,6 +407,9 @@
        <cat-item lemma="cinese" tags="n.*"/>
        <cat-item lemma="giapponese" tags="n.*"/>
     </def-cat>
+    <def-cat n="casa">
+       <cat-item lemma="casa" tags="n.*"/>
+    </def-cat>
     <def-cat n="nom_famiglia_casa">	<!-- famiglia + casa -->
        <cat-item lemma="padre" tags="n.*"/>
        <cat-item lemma="papà" tags="n.*"/>
@@ -3539,12 +3542,11 @@
     </rule>
 
 
-<!--
-    <rule comment="regla: detdef adjpos nom_famiglia > si adjpos=p1 o p2, nom_famiglia adjpos ; si adjpos = p3, detpos nom">
+    <rule comment="regla: detdef adjpos casa > domo adjpos">
        <pattern>
          <pattern-item n="detdef"/>
          <pattern-item n="adj_prnpos"/>
-         <pattern-item n="nom_famiglia_casa"/>
+         <pattern-item n="casa"/>
        </pattern>
        <action>
          <call-macro n="f_concord3">
@@ -3552,48 +3554,42 @@
            <with-param pos="2"/>
            <with-param pos="1"/>
          </call-macro>
-         <choose>
-           <when>
-             <test>
-               <equal><clip pos="2" side="tl" part="pers"/><lit-tag v="p3"/></equal>
-             </test>
-             <out>
-               <chunk name="det_n">
-                 <tags>
-                   <tag><lit-tag v="SN"/></tag>
-                 </tags>
-               <lu>
-                 <clip pos="1" side="tl" part="lem"/>
-                 <clip pos="1" side="tl" part="tags"/>
-               </lu>
-               <b pos="1"/>
-               <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
-               </lu>
-             </chunk>
-           </when>
-           <otherwise>
-           </otherwise>
-         </choose>
+         <out>
+           <chunk name="det_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+             <clip pos="3" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="tags"/>
+           </lu>
+         </chunk>
          </out>
+         <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
        </action>
     </rule>
 
 
-    <rule comment="regla: detdef adjpos nom_famiglia adj > detpos nom adj">
+    <rule comment="regla: detdef adjpos casa adj > domo adj adjpos">
        <pattern>
          <pattern-item n="detdef"/>
          <pattern-item n="adj_prnpos"/>
-         <pattern-item n="nom_famiglia_casa"/>
+         <pattern-item n="casa"/>
          <pattern-item n="adj"/>
        </pattern>
        <action>
          <call-macro n="f_concord4">
            <with-param pos="3"/>
-           <with-param pos="2"/>
            <with-param pos="4"/>
+           <with-param pos="2"/>
            <with-param pos="1"/>
          </call-macro>
          <call-macro n="f_clean_post">
@@ -3605,83 +3601,29 @@
                <tag><lit-tag v="SN"/></tag>
              </tags>
            <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="tags"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
+             <get-case-from pos="1">
              <clip pos="3" side="tl" part="lemh"/>
+             </get-case-from>
              <clip pos="3" side="tl" part="tags"/>
              <clip pos="3" side="tl" part="lemq"/>
            </lu>
-           <b pos="2"/>
+           <b pos="1"/>
            <lu>
              <clip pos="4" side="tl" part="lemh"/>
              <clip pos="4" side="tl" part="tags"/>
              <clip pos="4" side="tl" part="lemq"/>
            </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
-
-
-    <rule comment="regla: detdef adjpos adj nom_famiglia > detpos adj nom">
-       <pattern>
-         <pattern-item n="detdef"/>
-         <pattern-item n="adj_prnpos"/>
-         <pattern-item n="adj"/>
-         <pattern-item n="nom_famiglia_casa"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord4">
-           <with-param pos="4"/>
-           <with-param pos="2"/>
-           <with-param pos="3"/>
-           <with-param pos="1"/>
-         </call-macro>
-         <call-macro n="f_clean_post">
-           <with-param pos="3"/>
-         </call-macro>
-         <choose>
-           <when>
-             <test>
-               <and>
-                 <equal><clip pos="3" side="tl" part="a_adj_ord"/><lit-tag v="adj.ord"/></equal>
-                 <not><equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="primu"/></equal></not>
-                 <not><equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="segundu"/></equal></not>
-	         <equal><clip pos="4" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
-               </and>
-             </test>
-             <let><clip pos="4" side="tl" part="nbr"/><lit-tag v="pl"/></let>
-           </when>
-         </choose>
-         <out>
-           <chunk name="det_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="tags"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
            <b pos="2"/>
            <lu>
-             <clip pos="4" side="tl" part="lemh"/>
-             <clip pos="4" side="tl" part="tags"/>
-             <clip pos="4" side="tl" part="lemq"/>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="tags"/>
            </lu>
          </chunk>
          </out>
+         <call-macro n="f_bcond"><with-param pos="3"/><with-param pos="4"/></call-macro>
        </action>
     </rule>
--->
+
 
     <rule comment="regla: adjpos nom_famiglia > detdef nom_famiglia">
        <pattern>
@@ -3765,6 +3707,54 @@
              </out>
            </otherwise>
          </choose>
+       </action>
+    </rule>
+
+    <rule comment="regla: det loro nom_famiglia > detdef nom_famiglia">
+       <pattern>
+         <pattern-item n="detdef"/>
+         <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="nom_famiglia_casa"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="gen"/><clip pos="3" side="tl" part="gen"/></let>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+               <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="nbr"/><clip pos="3" side="tl" part="nbr"/></let>
+           </when>
+         </choose>
+         <out>
+           <chunk name="det_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lem"/>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+         <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
        </action>
     </rule>
 
@@ -8010,6 +8000,43 @@
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: stare adv ger (stava sempre combattendo > fiat semper cumbatende)">
+       <pattern>
+         <pattern-item n="stare"/>
+         <pattern-item n="adv"/>
+         <pattern-item n="ger"/>
+       </pattern>
+       <action>
+	  <let><clip pos="1" side="tl" part="lemh"/><lit v="èssere"/></let>
+	  <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vbser"/></let>
+         <out>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
