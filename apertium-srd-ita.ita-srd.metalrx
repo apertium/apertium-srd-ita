@@ -1606,6 +1606,16 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- sì > eja, a manera -->
+  <rule weight="0.8">
+    <match lemma="sì" tags="adv"><select lemma="eja"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fare" tags="vblex.*"/>
+    <match lemma="sì" tags="adv"><select lemma="a manera"/></match>
+    <match lemma="che"/>
+  </rule>
+
   <!-- granché > chissai comente, meda -->
   <rule weight="0.8">
     <match lemma="granché" tags="adv"><select lemma="chissai comente"/></match>
