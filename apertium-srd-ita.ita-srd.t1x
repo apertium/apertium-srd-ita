@@ -410,6 +410,14 @@
     <def-cat n="casa">
        <cat-item lemma="casa" tags="n.*"/>
     </def-cat>
+    <def-cat n="milione">
+       <cat-item lemma="milione" tags="n.*"/>
+       <cat-item lemma="miliardo" tags="n.*"/>
+       <cat-item lemma="bilione" tags="n.*"/>
+    </def-cat>
+    <def-cat n="mezzo">
+       <cat-item lemma="mezzo" tags="n.*"/>
+    </def-cat>
     <def-cat n="nom_famiglia_casa">	<!-- famiglia + casa -->
        <cat-item lemma="padre" tags="n.*"/>
        <cat-item lemma="papà" tags="n.*"/>
@@ -3427,6 +3435,57 @@
      </choose>
    </action>
 </rule>
+
+
+    <rule comment="regla: num milione e mezzo di (5 milioni e mezzo di euro > 5 milliones e mèdiu de èuros: per evitare '5 milliones e mèdiu de èuro'">
+       <pattern>
+         <pattern-item n="num"/>
+         <pattern-item n="milione"/>
+         <pattern-item n="cnjcoo"/>
+         <pattern-item n="mezzo"/>
+         <pattern-item n="di"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_concord2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="num_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="whole"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="whole"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="whole"/>
+             </lu>
+           </chunk>
+           <b pos="4"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="PREP"/></tag>
+             </tags>
+             <lu>
+               <clip pos="5" side="tl" part="whole"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
 
 
     <rule comment="regla: in lingua_mf (in inglese > in inglesu: per evitare 'in inglesa'">
