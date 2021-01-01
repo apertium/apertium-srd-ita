@@ -314,7 +314,10 @@
            <match lemma="vangelo" tags="n.*"/>
            <match lemma="apocalisse" tags="n.*"/>
          </or>
-         <match lemma="di" tags="pr"/>
+         <or>
+           <match lemma="di" tags="pr"/>
+           <match lemma="secondo" tags="pr"/>
+         </or>
          <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
       </rule>
     </def-macro>
@@ -2501,6 +2504,7 @@
   <macro name="noms_propis" p1="Alfonso" p2="Alfonsu" />
   <macro name="noms_propis" p1="Benedetto" p2="Beneitu" />
   <macro name="noms_propis" p1="Bernardo" p2="Bernardu" />
+  <macro name="noms_propis" p1="Bonifacio" p2="Bonifàtziu" />
   <macro name="noms_propis" p1="Carlo" p2="Càralu" />
   <macro name="noms_propis" p1="Ciro" p2="Tziru" />
   <macro name="noms_propis" p1="Dario" p2="Dariu" />
