@@ -1272,6 +1272,7 @@
       <match lemma="onda" tags="n.*"/>
       <match lemma="parte" tags="n.*"/>
       <match lemma="patria" tags="n.*"/>
+      <match lemma="pugno" tags="n.*"/>
       <match lemma="possesso" tags="n.*"/>
       <match lemma="prestito" tags="n.*"/>
       <match lemma="rotatzione" tags="n.*"/>
@@ -2069,14 +2070,6 @@
     <match lemma="Studio" tags="n.*"><select lemma="istùdiu"/></match>
   </rule>
 
-  <!-- riso > arrosu, risu -->
-  <rule weight="0.8">
-    <match lemma="riso" tags="n.*"><select lemma="arrosu"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="riso" tags="n.m.pl"><select lemma="risu"/></match>
-  </rule>
-
   <!-- formica > formiga, fòrmica -->
   <rule weight="0.8">
     <match lemma="formica" tags="n.*"><select lemma="formiga"/></match>
@@ -2486,6 +2479,7 @@
 
   <macro name="ant_antcog" p1="Attila" p2="Àtila" />
   <macro name="ant_antcog" p1="Augusto" p2="Augustu" />
+  <macro name="ant_antcog" p1="Belisario" p2="Belisàriu" />
   <macro name="ant_antcog" p1="Cesare" p2="Tzèsare" />
   <macro name="ant_antcog" p1="Cicerone" p2="Tzitzerone" />
   <macro name="ant_antcog" p1="Costantino" p2="Costantinu" />
