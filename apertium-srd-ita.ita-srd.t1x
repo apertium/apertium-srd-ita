@@ -459,6 +459,25 @@
 
        <cat-item lemma="casa" tags="n.*"/>
     </def-cat>
+    <def-cat n="mese_n">
+       <cat-item lemma="gennaio" tags="n.*"/>
+       <cat-item lemma="febbraio" tags="n.*"/>
+       <cat-item lemma="marzo" tags="n.*"/>
+       <cat-item lemma="aprile" tags="n.*"/>
+       <cat-item lemma="maggio" tags="n.*"/>
+       <cat-item lemma="giugno" tags="n.*"/>
+       <cat-item lemma="luglio" tags="n.*"/>
+       <cat-item lemma="agosto" tags="n.*"/>
+       <cat-item lemma="settembre" tags="n.*"/>
+       <cat-item lemma="ottobre" tags="n.*"/>
+       <cat-item lemma="novembre" tags="n.*"/>
+       <cat-item lemma="dicembre" tags="n.*"/>
+    </def-cat>
+    <def-cat n="inizio_fine">
+       <cat-item lemma="inizio" tags="n.*"/>
+       <cat-item lemma="metà" tags="n.*"/>
+       <cat-item lemma="fine" tags="n.*"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -4544,6 +4563,93 @@
                <clip pos="3" side="tl" part="whole"/>
              </lu>
            </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: inizio_fine mese_n (inizio gennaio = comintzu de ghennàriu)">
+       <pattern>
+         <pattern-item n="inizio_fine"/>
+         <pattern-item n="mese_n"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="de"/><lit-tag v="pr"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: pr inizio_fine mese_n (in inizio gennaio = in su comintzu de ghennàriu)">
+       <pattern>
+         <pattern-item n="pr"/>
+         <pattern-item n="inizio_fine"/>
+         <pattern-item n="mese_n"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="pr_n">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="whole"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <lit v="su"/><lit-tag v="det.def"/>
+             <clip pos="2" side="tl" part="gen"/>
+             <clip pos="2" side="tl" part="nbr"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <lit v="de"/><lit-tag v="pr"/>
+           </lu>
+           <b/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
          </out>
        </action>
     </rule>
