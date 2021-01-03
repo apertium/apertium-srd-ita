@@ -1953,6 +1953,71 @@
 
 <!-- **************** N **************** -->
 
+  <!-- pesca > pisca, pèssighe -->
+  <rule weight="0.8">
+    <match lemma="pesca" tags="n.*"><select lemma="pisca"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pesca" tags="n.*"><select lemma="pèssighe"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="mangiare" tags="vblex.*"/>
+      <match lemma="pranzare" tags="vblex.*"/>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="cenare" tags="vblex.*"/>
+      <match lemma="dolce" tags="n.*"/>
+      <match lemma="dessert" tags="n.*"/>
+      <match lemma="colazione" tags="n.*"/>
+      <match lemma="pranzo" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="pesco" tags="n.*"/>
+      <match lemma="frutta" tags="n.*"/>
+      <match lemma="mela" tags="n.*"/>
+      <match lemma="pera" tags="n.*"/>
+      <match lemma="arancia" tags="n.*"/>
+      <match lemma="mandarino" tags="n.*"/>
+      <match lemma="albicocca" tags="n.*"/>
+      <match lemma="prugna" tags="n.*"/>
+      <match lemma="ciliegia" tags="n.*"/>
+      <match lemma="melone" tags="n.*"/>
+      <match lemma="anguria" tags="n.*"/>
+      <match lemma="cocomero" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mangiare" tags="vblex.*"/>
+      <match lemma="pranzare" tags="vblex.*"/>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="cenare" tags="vblex.*"/>
+      <match lemma="pranzo" tags="n.*"/>
+      <match lemma="cena" tags="n.*"/>
+      <match lemma="colazione" tags="n.*"/>
+      <match lemma="dolce" tags="n.*"/>
+      <match lemma="dessert" tags="n.*"/>
+      <match lemma="pesco" tags="n.*"/>
+      <match lemma="frutta" tags="n.*"/>
+      <match lemma="mela" tags="n.*"/>
+      <match lemma="pera" tags="n.*"/>
+      <match lemma="arancia" tags="n.*"/>
+      <match lemma="mandarino" tags="n.*"/>
+      <match lemma="albicocca" tags="n.*"/>
+      <match lemma="prugna" tags="n.*"/>
+      <match lemma="ciliegia" tags="n.*"/>
+      <match lemma="melone" tags="n.*"/>
+      <match lemma="anguria" tags="n.*"/>
+      <match lemma="cocomero" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="pesca" tags="n.*"><select lemma="pèssighe"/></match>
+  </rule>
+
   <!-- salsa > bàngia, salsa -->
   <rule weight="0.8">
     <match lemma="salsa" tags="n.*"><select lemma="bàngia"/></match>
