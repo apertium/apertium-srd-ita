@@ -3952,7 +3952,30 @@
           <choose>
 	    <when> 
 	      <test>
-	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	        <or>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="bighinu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cantu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cara a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="che a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="chirru a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="comente a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="conca a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="contra a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun bista a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cunforma a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="dae segus a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="deretu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="finas a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="fintzas a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="gràtzias a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="in palas a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="in tundu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="inferiore a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="riferidu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="rispetu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="superiore a"/></equal>
+	        </or>
 	      </test>
 	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="mie"/></get-case-from></let>
 	    </when>
@@ -3974,7 +3997,30 @@
           <choose>
 	    <when> 
 	      <test>
-	        <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	        <or>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="bighinu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cantu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cara a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="che a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="chirru a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="comente a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="conca a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="contra a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cun bista a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="cunforma a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="dae segus a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="deretu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="finas a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="fintzas a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="gràtzias a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="in palas a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="in tundu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="inferiore a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="riferidu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="rispetu a"/></equal>
+	          <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="superiore a"/></equal>
+	        </or>
 	      </test>
 	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tie"/></get-case-from></let>
 	    </when>
