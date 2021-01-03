@@ -1104,6 +1104,31 @@
   </rule>
   <rule weight="1.0">
     <match tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="chiamare" tags="vblex.*"/>
+      <match lemma="condannare" tags="vblex.*"/>
+      <match lemma="dire" tags="vblex.*"/>
+      <match lemma="soprannominare" tags="vblex.*"/>
+      <match lemma="eleggere" tags="vblex.*"/>
+      <match lemma="nominare" tags="vblex.*"/>
+      <match lemma="proclamare" tags="vblex.*"/>
+      <match lemma="assumere" tags="vblex.*"/>
+      <match lemma="dichiarare" tags="vblex.*"/>
+      <match lemma="stimare" tags="vblex.*"/>
+      <match lemma="giudicare" tags="vblex.*"/>
+      <match lemma="considerare" tags="vblex.*"/>
+      <match lemma="ritenere" tags="vblex.*"/>
+      <match lemma="prendere" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
   </rule>
   <rule weight="1.0">
@@ -1147,6 +1172,18 @@
   <rule weight="1.0">
     <match lemma="quello" tags="prn.*"><select lemma="su"/></match>
     <match lemma="di" tags="pr"/>
+  </rule>
+
+  <!-- me > mene, mie, megus -->
+  <!-- selection after preposition is done in transfer -->
+  <rule weight="0.8">
+    <match lemma="me" tags="prn.*"><select lemma="mene"/></match>
+  </rule>
+
+  <!-- te > tene, tie, tegus -->
+  <!-- selection after preposition is done in transfer -->
+  <rule weight="0.8">
+    <match lemma="te" tags="prn.*"><select lemma="tene"/></match>
   </rule>
 
 <!-- **************** PR **************** -->
@@ -1267,6 +1304,8 @@
       <match lemma="grazia" tags="n.*"/>
       <match lemma="interesse" tags="n.*"/>
       <match lemma="libertà" tags="n.*"/>
+      <match lemma="loco" tags="n.*"/>
+      <match lemma="luogo" tags="n.*"/>
       <match lemma="misèria" tags="n.*"/>
       <match lemma="modo" tags="n.*"/>
       <match lemma="onda" tags="n.*"/>
@@ -1377,7 +1416,8 @@
   </rule>
   <rule weight="1.0">
     <or>
-     <match lemma="chiamare" tags="vblex.*"/>
+      <match lemma="chiamare" tags="vblex.*"/>
+      <match lemma="condannare" tags="vblex.*"/>
       <match lemma="dire" tags="vblex.*"/>
       <match lemma="soprannominare" tags="vblex.*"/>
       <match lemma="eleggere" tags="vblex.*"/>
@@ -1587,7 +1627,7 @@
 
   <!-- volere > bòlere, chèrrere -->
   <rule weight="0.8">
-    <match lemma="volere" tags="vbmod.*"><select lemma="bòlere" tags="vblex.*"/></match>
+    <match lemma="volere" tags="vbmod.*"><select lemma="chèrrere" tags="vblex.*"/></match>
   </rule>
 
   <!-- parlare > faeddare, etc -->
@@ -1663,7 +1703,7 @@
   </rule>
 
   <!-- intendere > cumprèndere, chèrrere -->
-  <rule weight="1.0">
+  <rule weight="0.8">
     <match lemma="intendere" tags="vblex.*"><select lemma="cumprèndere"/></match>
   </rule>
   <rule weight="1.0">
@@ -2407,9 +2447,9 @@
     <match lemma="Special" tags="adj.*"><select lemma="special"/></match>
   </rule>
 
-  <!-- azzurro > azulu, baiatu, blau -->
+  <!-- azzurro > asulu, baiatu, blau -->
   <rule weight="0.8">
-    <match lemma="azzurro"><select lemma="azulu"/></match>
+    <match lemma="azzurro"><select lemma="asulu"/></match>
   </rule>
 
   <!-- reale > beru, reale -->
