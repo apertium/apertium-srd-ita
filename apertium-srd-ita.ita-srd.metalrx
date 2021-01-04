@@ -2688,6 +2688,7 @@
      <match lemma="Cornelia" tags="np.ant.*"><select lemma="Cornelia"/></match>
   </rule>
 
+  <macro name="ant_antcog" p1="Annibale" p2="Annìbale" />
   <macro name="ant_antcog" p1="Attila" p2="Àtila" />
   <macro name="ant_antcog" p1="Augusto" p2="Augustu" />
   <macro name="ant_antcog" p1="Belisario" p2="Belisàriu" />
