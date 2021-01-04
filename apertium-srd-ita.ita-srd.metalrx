@@ -1029,13 +1029,39 @@
   </rule>
 
 
-<!-- vite > vite, toronìlliu -->
-<rule weight="0.8"> 
-    <match lemma="vite" tags="n.*"><select lemma="vite"/></match>
-</rule> 
+  <!-- vite > toronìlliu, vite  -->
+  <rule weight="0.8"> 
+    <match lemma="vite" tags="n.*"><select lemma="toronìlliu"/></match>
+  </rule> 
   <rule weight="1.0">
-    <or><match tags="num"/><match tags="num.*"/></or>
-    <match lemma="vite" tags="n.*"><select lemma="toronìlliu" tags="n.*"/></match>
+    <or>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="coltivare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="vendemmiare" tags="vblex.*"/>
+      <match lemma="vendemmia" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="uva" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="vite" tags="n.*"><select lemma="vite"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="vite" tags="n.*"><select lemma="vite"/></match>
+    <repeat from="0" upto="6">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="coltivare" tags="vblex.*"/>
+      <match lemma="cogliere" tags="vblex.*"/>
+      <match lemma="vendemmiare" tags="vblex.*"/>
+      <match lemma="vendemmia" tags="n.*"/>
+      <match lemma="campo" tags="n.*"/>
+      <match lemma="uva" tags="n.*"/>
+    </or>
   </rule>
 
 
@@ -1469,6 +1495,25 @@
     <match lemma="cadere" tags="vblex.*"/>
     <match lemma="per" tags="pr"><select lemma="a" tags="pr"/></match>
     <match lemma="terra" tags="n.*"/>
+  </rule>
+
+  <!-- tra, fra > intre, tra -->
+  <rule weight="0.6">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="intre"/></match>
+      <match lemma="fra" tags="pr"><select lemma="intre"/></match>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="tra"/></match>
+      <match lemma="fra" tags="pr"><select lemma="tra"/></match>
+    </or>
+    <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
+    <or>
+      <seq n="distanza"/>
+      <seq n="periodo"/>
+    </or>
   </rule>
 
   <!-- da > de, dae, a -->
@@ -1953,9 +1998,68 @@
 
 <!-- **************** N **************** -->
 
+  <!-- aria > àera, àrea, ària -->
+  <rule weight="0.6">
+     <match lemma="aria" tags="n.*"><select lemma="àera"/></match>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="misorare" tags="vblex.*"/>
+       <match lemma="calcolare" tags="vblex.*"/>
+     </or>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match tags="det.*"/>
+     <match lemma="aria" tags="n.*"><select lemma="àrea"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="aria" tags="n.*"><select lemma="àrea"/></match>
+     <match lemma="di" tags="pr"/>
+     <or><match tags="num"/><match tags="num.*"/></or>
+  </rule>
+
+  <rule weight="1.0">
+     <or>
+       <match lemma="cantare" tags="vblex.*"/>
+       <match lemma="ascoltare" tags="vblex.*"/>
+     </or>
+     <repeat from="0" upto="1">
+       <match tags="adv"/>
+     </repeat>
+     <match tags="det.*"/>
+     <match lemma="aria" tags="n.*"><select lemma="ària"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="aria" tags="n.*"><select lemma="ària"/></match>
+     <match lemma="di" tags="pr"/>
+     <match tags="det.*"/>
+     <or>
+       <match lemma="opera" tags="n.*"/>
+       <match lemma="cantata" tags="n.*"/>
+       <match lemma="oratorio" tags="n.*"/>
+     </or>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="aria" tags="n.*"><select lemma="ària"/></match>
+     <match lemma="di" tags="pr"/>
+     <or>
+       <match tags="np.*"/>
+       <match tags=""/>
+     </or>
+  </rule>
+
   <!-- pesca > pisca, pèssighe -->
   <rule weight="0.8">
     <match lemma="pesca" tags="n.*"><select lemma="pisca"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="pesca" tags="n.f.pl"><select lemma="pèssighe"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="un" tags="det.ind.*"/>
+     <match lemma="pesca" tags="n.*"><select lemma="pèssighe"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="pesca" tags="n.*"><select lemma="pèssighe"/></match>
@@ -1966,6 +2070,7 @@
       <match lemma="mangiare" tags="vblex.*"/>
       <match lemma="pranzare" tags="vblex.*"/>
       <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="coltivare" tags="vblex.*"/>
       <match lemma="cogliere" tags="vblex.*"/>
       <match lemma="cenare" tags="vblex.*"/>
       <match lemma="dolce" tags="n.*"/>
@@ -1992,6 +2097,7 @@
       <match lemma="mangiare" tags="vblex.*"/>
       <match lemma="pranzare" tags="vblex.*"/>
       <match lemma="piantare" tags="vblex.*"/>
+      <match lemma="coltivare" tags="vblex.*"/>
       <match lemma="cogliere" tags="vblex.*"/>
       <match lemma="cenare" tags="vblex.*"/>
       <match lemma="pranzo" tags="n.*"/>
@@ -2383,7 +2489,7 @@
 
   <!-- vita > bida, vida (dcorraine), chintu -->
   <rule weight="0.6">
-    <match lemma="vita" tags="n.*"><select lemma="bida"/></match>
+    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
   </rule>
   <rule weight="1.0">
     <or>
@@ -2399,7 +2505,7 @@
       <match lemma="fino a" tags="pr"/>
     </or>
     <match tags="det.def.*"/>
-    <match lemma="vita" tags="n.*"><select lemma="bida"/></match>
+    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
     <match lemma="di" tags="pr"/>
   </rule>
   <rule weight="1.0">
@@ -2440,7 +2546,7 @@
     <match lemma="vita" tags="n.*"><select lemma="chintu"/></match>
   </rule>
   <rule weight="1.2">
-    <match lemma="vita" tags="n.*"><select lemma="bida"/></match>
+    <match lemma="vita" tags="n.*"><select lemma="vida"/></match>
     <match lemma="sociale" tags="adj.*"/>
   </rule>
 
