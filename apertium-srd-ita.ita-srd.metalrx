@@ -1497,7 +1497,8 @@
     <match lemma="terra" tags="n.*"/>
   </rule>
 
-  <!-- tra, fra > intre, tra -->
+  <!-- tra > intre, tra -->
+  <!-- fra > intre, tra -->
   <rule weight="0.6">
     <or>
       <match lemma="tra" tags="pr"><select lemma="intre"/></match>
@@ -1509,11 +1510,50 @@
       <match lemma="tra" tags="pr"><select lemma="tra"/></match>
       <match lemma="fra" tags="pr"><select lemma="tra"/></match>
     </or>
-    <or><match tags="num.*"/><match tags="det.ind.f.sg"/></or>
+    <or><match tags="num.*"/><match tags="det.ind.*"/></or>
     <or>
       <seq n="distanza"/>
       <seq n="periodo"/>
+      <match lemma="distanza" tags="n.*"/>
+      <match lemma="tempo" tags="n.*"/>
+      <match lemma="periodo" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="tra"/></match>
+      <match lemma="fra" tags="pr"><select lemma="tra"/></match>
+    </or>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match tags="adj.*"/>
+    <or>
+      <seq n="distanza"/>
+      <seq n="periodo"/>
+      <match lemma="distanza" tags="n.*"/>
+      <match lemma="tempo" tags="n.*"/>
+      <match lemma="periodo" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="tra"/></match>
+      <match lemma="fra" tags="pr"><select lemma="tra"/></match>
+    </or>
+    <or>
+      <match lemma="poco"/>
+      <match lemma="breve"/>
+      <match lemma="quanto"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="tra" tags="pr"><select lemma="tra"/></match>
+      <match lemma="fra" tags="pr"><select lemma="tra"/></match>
+    </or>
+    <match lemma="non"/>
+    <match lemma="molto"/>
   </rule>
 
   <!-- da > de, dae, a -->
@@ -1734,6 +1774,10 @@
 
   <!-- richiamare > fàghere# riferimentu a, fàghere# riferimentu -->
   <rule weight="0.8">
+    <match lemma="richiamare" tags="vblex.*"><select lemma="torrare# a cramare"/></match>
+  </rule>
+<!--
+  <rule weight="0.8">
     <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu a"/></match>
   </rule>
   <rule weight="1.0">
@@ -1746,6 +1790,7 @@
     </repeat>
     <match lemma="a" tags="pr"/>
   </rule>
+-->
 
   <!-- intendere > cumprèndere, chèrrere -->
   <rule weight="0.8">
@@ -1998,28 +2043,57 @@
 
 <!-- **************** N **************** -->
 
-  <!-- aria > àera, àrea, ària -->
+  <!-- sito > giassu, situ -->
+  <rule weight="0.6">
+    <match lemma="sito" tags="n.*"><select lemma="giassu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sito" tags="n.*"><select lemma="situ"/></match>
+    <or>
+      <match lemma="web" tags="n.*"/>
+      <match lemma="internet" tags="n.*"/>
+      <match lemma="ufficiale" tags="adj.*"/>
+      <match lemma="archeologico" tags="adj.*"/>
+      <match lemma="social" tags="adj.*"/>
+      <match lemma="sociale" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sito" tags="n.*"><select lemma="situ"/></match>
+    <match lemma="di" tags="pr"/>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
+      <match tags="recensione.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sito" tags="n.*"><select lemma="situ"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*.*"/>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
+      <match lemma="compagnia" tags="n.*"/>
+      <match lemma="impresa" tags="n.*"/>
+      <match lemma="società" tags="n.*"/>
+      <match lemma="multinazionale" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="disponibile" tags="adj.*"/>
+    <or>
+      <match lemma="in" tags="pr"/>
+      <match lemma="su" tags="pr"/>
+    </or>
+    <match tags="det.*"/>
+    <match lemma="sito" tags="n.*"><select lemma="situ"/></match>
+  </rule>
+
+  <!-- aria > àera, ària -->
   <rule weight="0.6">
      <match lemma="aria" tags="n.*"><select lemma="àera"/></match>
   </rule>
-
-  <rule weight="1.0">
-     <or>
-       <match lemma="misorare" tags="vblex.*"/>
-       <match lemma="calcolare" tags="vblex.*"/>
-     </or>
-     <repeat from="0" upto="1">
-       <match tags="adv"/>
-     </repeat>
-     <match tags="det.*"/>
-     <match lemma="aria" tags="n.*"><select lemma="àrea"/></match>
-  </rule>
-  <rule weight="1.0">
-     <match lemma="aria" tags="n.*"><select lemma="àrea"/></match>
-     <match lemma="di" tags="pr"/>
-     <or><match tags="num"/><match tags="num.*"/></or>
-  </rule>
-
   <rule weight="1.0">
      <or>
        <match lemma="cantare" tags="vblex.*"/>
