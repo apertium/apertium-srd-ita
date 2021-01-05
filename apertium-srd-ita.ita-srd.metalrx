@@ -2667,6 +2667,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- espresso > espressadu, espressu -->
+  <rule weight="0.8">
+    <match lemma="espresso" tags="adj.*"><select lemma="espressadu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="caffè" tags="n.*"/>
+    <match lemma="espresso" tags="adj.*"><select lemma="espressu"/></match>
+  </rule>
+
   <!-- casalingo > de domo, in domo -->
   <rule weight="0.8">
     <match lemma="casalingo" tags="adj.*"><select lemma="de domo"/></match>
