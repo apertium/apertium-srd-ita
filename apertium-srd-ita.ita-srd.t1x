@@ -4,6 +4,10 @@
     <def-cat n="nom">
        <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="nom_pl">
+       <cat-item tags="n.*.pl"/>
+       <cat-item tags="n.*.sp"/>
+    </def-cat>
     <def-cat n="np">
        <cat-item tags="np.*"/>
     </def-cat>
@@ -246,6 +250,10 @@
        <cat-item tags="adj.*"/>
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
+    <def-cat n="adj_pl">
+       <cat-item tags="adj.*.pl"/>
+       <cat-item tags="adj.*.sp"/>
+    </def-cat>
     <def-cat n="adjec">
        <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
@@ -342,6 +350,9 @@
     </def-cat>
     <def-cat n="non">
        <cat-item lemma="non" tags="adv"/>
+    </def-cat>
+    <def-cat n="circa">
+       <cat-item lemma="circa" tags="adv"/>
     </def-cat>
     <def-cat n="molto_proprio">
        <cat-item lemma="molto" tags="preadv"/>
@@ -10892,6 +10903,439 @@
     </rule>
 -->
 
+<rule comment="regla: circa num nom > unu num nom">
+  <pattern>
+    <pattern-item n="circa"/>
+    <pattern-item n="num"/>
+    <pattern-item n="nom_pl"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord2">
+      <with-param pos="3"/>
+      <with-param pos="2"/>
+    </call-macro>     
+    <choose>	<!-- needed for e.g. "circa 90.000 KWh" -->
+       <when>
+         <test>
+           <equal><var n="numero"/><lit-tag v="sg"/></equal>
+         </test>
+         <let><var n="numero"/><lit-tag v="pl"/></let>
+       </when>
+    </choose>
+    <choose>
+       <when>
+         <test>
+           <in caseless="yes"><clip pos="3" side="sl" part="lemh"/><list n="trencats"/></in>
+         </test>
+         <out>
+           <chunk name="det-nom-num">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="unu"/>
+               </get-case-from>
+               <lit-tag v="det.ind"/>
+               <var n="genero"/>
+               <var n="numero"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="det-num-n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="unu"/>
+               </get-case-from>
+               <lit-tag v="det.ind"/>
+               <var n="genero"/>
+               <var n="numero"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           </out>
+       </otherwise>
+    </choose>
+   </action>
+</rule>
+
+
+<rule comment="regla: num nom adj > num nom adj">
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord3">
+      <with-param pos="2"/>
+      <with-param pos="3"/>
+      <with-param pos="1"/>
+    </call-macro>     
+    <out>
+      <chunk name="num-n-adj">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<!--
+<rule comment="regla: det num nom adj > det num nom adj">
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord4">
+      <with-param pos="3"/>
+      <with-param pos="4"/>
+      <with-param pos="1"/>
+      <with-param pos="2"/>
+    </call-macro>     
+    <out>
+      <chunk name="det-num-n-adj">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+-->
+
+<rule comment="regla: num adjec nom > num adjec nom">
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord3">
+      <with-param pos="3"/>
+      <with-param pos="2"/>
+      <with-param pos="1"/>
+    </call-macro>     
+    <call-macro n="f_reord_adj">
+      <with-param pos="3"/>
+      <with-param pos="2"/>
+    </call-macro>     
+    <out>
+      <chunk name="num-adj-n">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="regla: num nom adjec adjec > num nom adjec adjec">
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord4">
+      <with-param pos="2"/>
+      <with-param pos="3"/>
+      <with-param pos="4"/>
+      <with-param pos="1"/>
+    </call-macro>     
+    <out>
+      <chunk name="num-n-adj-adj">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="regla: num adjec nom adjec > num adjec nom adjec">
+  <pattern>
+    <pattern-item n="num"/>
+    <pattern-item n="adjec"/>
+    <pattern-item n="nom"/>
+    <pattern-item n="adjec"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord4">
+      <with-param pos="3"/>
+      <with-param pos="2"/>
+      <with-param pos="4"/>
+      <with-param pos="1"/>
+    </call-macro>     
+    <call-macro n="f_reord_adj3">
+      <with-param pos="3"/>
+      <with-param pos="4"/>
+      <with-param pos="2"/>
+    </call-macro>     
+    <out>
+      <chunk name="num-n-adj-adj">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="lemh"/>
+          <clip pos="1" side="tl" part="tags"/>
+          <clip pos="1" side="tl" part="lemq"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="regla: circa num nom adjec > unos num nom adjec">
+  <pattern>
+    <pattern-item n="circa"/>
+    <pattern-item n="num"/>
+    <pattern-item n="nom_pl"/>
+    <pattern-item n="adj_pl"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord3">
+      <with-param pos="3"/>
+      <with-param pos="4"/>
+      <with-param pos="2"/>
+    </call-macro>     
+    <choose>	<!-- needed for e.g. "circa 90.000 KWh" -->
+       <when>
+         <test>
+           <equal><var n="numero"/><lit-tag v="sg"/></equal>
+         </test>
+         <let><var n="numero"/><lit-tag v="pl"/></let>
+       </when>
+    </choose>
+    <out>
+      <chunk name="det-num-n-adj">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <get-case-from pos="1">
+            <lit v="unu"/>
+          </get-case-from>
+          <lit-tag v="det.ind"/>
+          <var n="genero"/>
+          <var n="numero"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="regla: circa num adjec nom > unos num adjec nom">
+  <pattern>
+    <pattern-item n="circa"/>
+    <pattern-item n="num"/>
+    <pattern-item n="adj_pl"/>
+    <pattern-item n="nom_pl"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord3">
+      <with-param pos="4"/>
+      <with-param pos="3"/>
+      <with-param pos="2"/>
+    </call-macro>     
+    <call-macro n="f_reord_adj">
+      <with-param pos="4"/>
+      <with-param pos="3"/>
+    </call-macro>     
+    <choose>	<!-- needed for e.g. "circa 90.000 KWh" -->
+       <when>
+         <test>
+           <equal><var n="numero"/><lit-tag v="sg"/></equal>
+         </test>
+         <let><var n="numero"/><lit-tag v="pl"/></let>
+       </when>
+    </choose>
+    <out>
+      <chunk name="det-num-adj-n">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <get-case-from pos="1">
+            <lit v="unu"/>
+          </get-case-from>
+          <lit-tag v="det.ind"/>
+          <var n="genero"/>
+          <var n="numero"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+        <b pos="2"/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b pos="3"/>
+        <lu>
+          <clip pos="4" side="tl" part="lemh"/>
+          <clip pos="4" side="tl" part="tags"/>
+          <clip pos="4" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
 
 <!-- xxxxxx -->
 
