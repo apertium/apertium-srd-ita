@@ -8,6 +8,11 @@
        <cat-item tags="n.*.pl"/>
        <cat-item tags="n.*.sp"/>
     </def-cat>
+    <def-cat n="nom_pl_mila">
+       <cat-item tags="n.*.pl"/>
+       <cat-item tags="n.*.sp"/>
+       <cat-item lemma="mila" tags="num.*"/>
+    </def-cat>
     <def-cat n="np">
        <cat-item tags="np.*"/>
     </def-cat>
@@ -566,8 +571,8 @@
 </section-def-attrs>
 
 <section-def-vars>
-  <def-var n="genero"/>
-  <def-var n="numero"/>
+  <def-var n="genero" v="&lt;m&gt;"/>
+  <def-var n="numero" v="&lt;sg&gt;"/>
   <def-var n="concPrimero"/>
   <def-var n="concSegundo"/>
   <def-var n="concTercero"/>
@@ -8340,7 +8345,7 @@
              <b pos="1"/>
              <lu>
                <get-case-from pos="2"><lit v="dare"/></get-case-from>
-               <lit-tag v="vblex.pri"/>
+               <lit-tag v="vblex.prs"/>
                <clip pos="2" side="tl" part="pers"/>
                <clip pos="2" side="tl" part="gen"/>
                <clip pos="2" side="tl" part="nbr"/>
@@ -8512,7 +8517,7 @@
              <b pos="1"/>
              <lu>
                <get-case-from pos="2"><lit v="dare"/></get-case-from>
-               <lit-tag v="vblex.pri"/>
+               <lit-tag v="vblex.prs"/>
                <clip pos="2" side="tl" part="pers"/>
                <clip pos="2" side="tl" part="gen"/>
                <clip pos="2" side="tl" part="nbr"/>
@@ -9236,10 +9241,8 @@
              </lu>
              <b/>
              <lu>
-               <get-case-from pos="2">
-                 <lit v="dèvere"/>
-               </get-case-from>
-               <lit-tag v="vbmod.pri"/>
+               <get-case-from pos="2"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
@@ -9506,10 +9509,8 @@
              </lu>
              <b/>
              <lu>
-               <get-case-from pos="2">
-                 <lit v="dèvere"/>
-               </get-case-from>
-               <lit-tag v="vbmod.pri"/>
+               <get-case-from pos="2"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
@@ -9685,18 +9686,17 @@
          <pattern-item n="che"/>
        </pattern>
        <action>
-       <let><clip pos="1" side="tl" part="gen"/><clip pos="1" side="sl" part="gen"/></let>
-      <choose>
-	<when> 
-	  <test>
-	    <equal>
-	      <clip pos="1" side="tl" part="gen"/>
-	      <lit-tag v="nt"/>
-	    </equal>
-	  </test>
-	  <let><clip pos="1" side="tl" part="gen"/><var n="genero"/></let>
-	</when>
-      </choose>
+       <choose>
+	 <when> 
+	   <test>
+	     <or>
+	       <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="nt"/></equal>
+	       <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="GD"/></equal>
+	     </or>
+	   </test>
+	   <let><clip pos="1" side="tl" part="gen"/><var n="genero"/></let>
+	 </when>
+       </choose>
          <out>
            <chunk name="su_chi">
              <tags>
@@ -10907,7 +10907,7 @@
   <pattern>
     <pattern-item n="circa"/>
     <pattern-item n="num"/>
-    <pattern-item n="nom_pl"/>
+    <pattern-item n="nom_pl_mila"/>
   </pattern>
   <action>
     <call-macro n="f_concord2">
@@ -11223,7 +11223,7 @@
   <pattern>
     <pattern-item n="circa"/>
     <pattern-item n="num"/>
-    <pattern-item n="nom_pl"/>
+    <pattern-item n="nom_pl_mila"/>
     <pattern-item n="adj_pl"/>
   </pattern>
   <action>
