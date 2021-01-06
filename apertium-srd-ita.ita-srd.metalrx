@@ -895,7 +895,7 @@
       <match lemma="scappare" tags="vblex.*"/>
       <match lemma="scendere" tags="vblex.*"/>
       <match lemma="tornare" tags="vblex.*"/>
-      <match lemma="trasferirsi" tags="vblex.*"/>
+      <match lemma="trasferire" tags="vblex.*"/>
       <match lemma="uscire" tags="vblex.*"/>
       <match lemma="venire" tags="vblex.*"/>
 
@@ -1064,26 +1064,29 @@
     </or>
   </rule>
 
-
-<!--CORSO n.m > CORSICANU/CURSU -->
-
+  <!--corsa n.f > cursa, corsicano f -->
   <rule weight="0.8">
-    <match lemma="corso" tags="n.m.sg"><select lemma="cursu" tags="n.m.sg"/></match>
+    <match lemma="corsa" tags="n.*"><select lemma="cursa"/></match>
   </rule>
 
+  <!--corso n.m > cursu, corsicano -->
   <rule weight="0.8">
-    <match lemma="corso" tags="n.m.pl"><select lemma="corsicanu" tags="n.m.pl"/></match>
+    <match lemma="corso" tags="n.m.sg"><select lemma="cursu"/></match>
   </rule>
-
+  <rule weight="0.8">
+    <match lemma="corso" tags="n.m.pl"><select lemma="corsicanu"/></match>
+  </rule>
   <rule weight="1.0">
-    <match lemma="in" tags="pr"/>
-    <match lemma="corso" tags="n.m.*"><select lemma="corsicanu" tags="n.m.*"/></match>
+    <match lemma="corso" tags="n.m.*"><select lemma="cursu"/></match>
+    <match tags="adj.*"/>
   </rule>
-
+  <rule weight="1.0">
+    <match lemma="corso" tags="n.m.*"><select lemma="cursu"/></match>
+    <match lemma="di" tags="pr"/>
+  </rule>
   <rule weight="1.2">
     <match lemma="in" tags="pr"/>
-    <match lemma="corso" tags="n.m.sg"><select lemma="cursu" tags="n.m.sg"/></match>
-    <match lemma="di" tags="pr"/>
+    <match lemma="corso" tags="n.m.sg"><select lemma="corsicanu"/></match>
   </rule>
 
 
@@ -1171,6 +1174,10 @@
     <match tags="adj.*"/>
     <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
   </rule>
+  <rule weight="1.0">
+    <match tags="sent"/>
+    <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
+  </rule>
 
 <!-- **************** CNJADV **************** -->
 
@@ -1256,6 +1263,11 @@
     <match lemma="a" tags="pr"><select lemma="in"/></match>
     <match tags="np.top.*"/>
   </rule>
+  <rule weight="1.0">
+    <match tags="sent"/>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <match tags="np.top.*"/>
+  </rule>
   <rule weight="1.2">
     <or>
       <match lemma="andata" tags="n.*"/>
@@ -1286,12 +1298,26 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="in" tags="pr"><select lemma="a"/></match>
-<!--
-    <or>
-      <match tags="det.*"/>
-      <match tags="np.*"/>
-    </or>
--->
+  </rule>
+  <rule weight="1.0"> <!-- simplification: just 'si + p3' -->
+    <match lemma="si" tags="prn.*"/>
+    <match lemma="dirigere" tags="vblex.*.p3.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"><select lemma="a"/></match>
+  </rule>
+  <rule weight="1.0"> <!-- simplification: just 'si + p3' -->
+    <match lemma="si" tags="prn.*"/>
+    <match tags="vbser.*.p3.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="dirigere" tags="vblex.pp.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"><select lemma="a"/></match>
   </rule>
   <rule weight="1.2">
     <match lemma="in" tags="pr"><select lemma="in"/></match>
@@ -1313,6 +1339,33 @@
       <match lemma="autunno" tags="n.*"/>
       <match lemma="inverno" tags="n.*"/>
     </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="in" tags="pr"><select lemma="in"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.4">
+    <or>
+      <match lemma="andare" tags="vblex.*"/>
+      <match lemma="arrivare" tags="vblex.*"/>
+      <match lemma="partire" tags="vblex.*"/>
+      <match lemma="ritornare" tags="vblex.*"/>
+      <match lemma="venire" tags="vblex.*"/>
+      <match lemma="dirigere" tags="vblex.*"/>
+      <seq n="verbi_moto_lista_corta"/>
+    </or>
+    <match lemma="in" tags="pr"><select lemma="a"/></match>
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <match tags="num"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match tags="n.*"/>
   </rule>
   <rule weight="1.2">
     <match lemma="in" tags="pr"><select lemma="in"/></match>
@@ -1476,15 +1529,48 @@
     <match tags="adj.*"/>
     <match lemma="come" tags="pr"><select lemma="comente"/></match>
   </rule>
+  <rule weight="1.0">
+    <match tags="sent"/>
+    <match lemma="come" tags="pr"><select lemma="comente"/></match>
+  </rule>
 
-  <!-- su > subra de, subra, in -->
+  <!-- su > subra de, subra, in, suta -->
   <rule weight="0.8">
      <match lemma="su" tags="pr"><select lemma="subra de"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="basare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="su" tags="pr"><select lemma="subra"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="su" tags="pr"><select lemma="in"/></match>
     <match tags="det.*"/>
-    <match lemma="pagina" tags="n.*"/>
+    <or>
+      <match lemma="pagina" tags="n.*"/>
+      <match lemma="web" tags="n.*"/>
+      <match lemma="sito" tags="n.*"/>
+      <match lemma="site" tags="n.*"/>
+      <match lemma="social"/>
+      <match lemma="social network" tags="n.*"/>
+      <match lemma="social network site" tags="n.*"/>
+      <match lemma="social web" tags="n.*"/>
+      <match lemma="social media" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0"> <!-- su Windows, Linux... -->
+    <match lemma="su" tags="pr"><select lemma="in"/></match>
+    <match tags="np.al.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="su" tags="pr"><select lemma="suta"/></match>
+    <match lemma="licenzia" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="disponibile" tags="adj.*"/>
+    <match lemma="su" tags="pr"><select lemma="suta"/></match>
   </rule>
 
   <!-- per > pro, a -->
@@ -1686,6 +1772,16 @@
       </or>
     </repeat>
     <seq n="mese"/>
+  </rule>
+
+  <!-- sotto > suta, suta de, a suta de, in suta de -->
+  <!-- Hi ha molta varietat -->
+  <rule weight="0.8">
+    <match lemma="sotto" tags="pr"><select lemma="suta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sotto" tags="pr"><select lemma="suta de"/></match>
+    <match tags="det.*"/>
   </rule>
 
 <!-- **************** VBLEX **************** -->
@@ -1923,6 +2019,32 @@
     <match lemma="su" tags="adv"><select lemma="a susu"/></match>
   </rule>
 
+  <!-- sotto > suta, in suta, a suta -->
+  <rule weight="0.8">
+    <match lemma="sotto" tags="adv"><select lemma="suta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="sotto" tags="adv"><select lemma="in suta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="sotto" tags="adv"><select lemma="in suta"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_moto_lista_corta"/>
+    </or>
+    <match lemma="sotto" tags="adv"><select lemma="a suta"/></match>
+  </rule>
+
   <!-- giù > giosso, in giosso, a giosso -->
   <rule weight="0.8">
     <match lemma="giù" tags="adv"><select lemma="giosso"/></match>
@@ -2064,7 +2186,15 @@
     <or>
       <match tags="np.*"/>
       <match tags=""/>
-      <match tags="recensione.*"/>
+      <match lemma="recensione" tags="n.*"/>
+      <match lemma="social"/>
+      <match lemma="social network" tags="n.*"/>
+      <match lemma="social web" tags="n.*"/>
+      <match lemma="alloggio" tags="n.*"/>
+      <match lemma="appuntamento" tags="n.*"/>
+      <match lemma="informazione" tags="n.*"/>
+      <match lemma="viaggio" tags="n.*"/>
+      <match lemma="scambio" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -2076,6 +2206,7 @@
       <match tags=""/>
       <match lemma="compagnia" tags="n.*"/>
       <match lemma="impresa" tags="n.*"/>
+      <match lemma="azienda" tags="n.*"/>
       <match lemma="società" tags="n.*"/>
       <match lemma="multinazionale" tags="n.*"/>
     </or>
@@ -2667,6 +2798,15 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- superbo > mannosu, superbu -->
+  <rule weight="0.8">
+    <match lemma="superbo" tags="adj.*"><select lemma="mannosu"/></match>
+  </rule>
+  <rule weight="1.0"> <!-- Tarcuìniu il Superbu -->
+    <match tags="det.*"/>
+    <match lemma="superbo" tags="adj.*"><select lemma="superbu"/></match>
+  </rule>
+
   <!-- espresso > espressadu, espressu -->
   <rule weight="0.8">
     <match lemma="espresso" tags="adj.*"><select lemma="espressadu"/></match>
@@ -2770,6 +2910,13 @@
   <rule weight="0.6">
      <match lemma="Cornelia" tags="np.ant.*"><select lemma="Cornelia"/></match>
   </rule>
+  <rule weight="0.6">
+     <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarquini"/></match>
+  </rule>
+  <rule weight="0.6">
+     <match tags="det.def.*.pl"/>
+     <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarcuìnios"/></match>
+  </rule>
 
   <macro name="ant_antcog" p1="Annibale" p2="Annìbale" />
   <macro name="ant_antcog" p1="Attila" p2="Àtila" />
@@ -2785,6 +2932,7 @@
   <macro name="ant_antcog" p1="Orazio" p2="Oràtziu" />
   <macro name="ant_antcog" p1="Ottone" p2="Otone" />
   <macro name="ant_antcog" p1="Publio" p2="Pùbliu" />
+  <macro name="ant_antcog" p1="Tarquinio" p2="Tarcuìniu" />
   <macro name="ant_antcog" p1="Terenzio" p2="Terènziu" />
   <macro name="ant_antcog" p1="Virgilio" p2="Virgìliu" />
 
@@ -2832,6 +2980,7 @@
   <macro name="noms_propis" p1="Elisabetta" p2="Elisabeta" />
   <macro name="noms_propis" p1="Giovanna" p2="Giuanna" />
   <macro name="noms_propis" p1="Lucia" p2="Lughia" />
+  <macro name="noms_propis" p1="Victoria" p2="Victòria" />
 
 </rules>
 </lrx>
