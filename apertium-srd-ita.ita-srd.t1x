@@ -4197,7 +4197,7 @@
             </lu>
             <b/>
             <lu>
-              <lit v="unu"/>
+              <lit v="unu_num"/>	<!-- to avoid un' -->
               <lit-tag v="num"/>
               <clip pos="1" side="tl" part="gen"/>
               <lit-tag v="sp"/>
@@ -6761,7 +6761,7 @@
              </lu>
              <b/>
              <lu>
-               <lit v="unu"/>
+               <lit v="unu_num"/>	<!-- to avoid un' -->
                <lit-tag v="num"/>
                <var n="genero"/>
                <lit-tag v="sp"/>
@@ -10934,7 +10934,7 @@
              </tags>
              <lu>
                <get-case-from pos="1">
-                 <lit v="unu"/>
+                 <lit v="unu_num"/>	<!-- to avoid un' -->
                </get-case-from>
                <lit-tag v="det.ind"/>
                <var n="genero"/>
@@ -11376,7 +11376,7 @@
              </lu>
              <b/>
              <lu>
-               <lit v="unu"/>
+               <lit v="unu_num"/>	<!-- to avoid un' -->
                <lit-tag v="num"/>
                <var n="genero"/>
                <lit-tag v="sp"/>
