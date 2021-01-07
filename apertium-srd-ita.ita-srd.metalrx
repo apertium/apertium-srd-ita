@@ -1226,7 +1226,21 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
   <rule weight="1.0">
-    <match tags="vbser.*"/>
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="partecipare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prendere" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="parte" tags="n.f.sg"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -1240,6 +1254,9 @@
       <match lemma="tavolo" tags="n.*"/>
     </or>
   </rule>
+  <rule weight="1.0">
+    <match lemma="partetzipatzione" tags="n.*"/>
+  </rule>
   <rule weight="1.2">
     <or>
       <match lemma="andare" tags="vblex.*"/>
@@ -1249,8 +1266,14 @@
       <match lemma="venire" tags="vblex.*"/>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
     </repeat>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
     <or>
@@ -1260,13 +1283,66 @@
   </rule>
   <rule weight="1.0">
     <match tags="n.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <match tags="np.top.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="abitare" tags="vblex.*"/>
+      <match lemma="vivere" tags="vblex.*"/>
+      <match lemma="nascere" tags="vblex.*"/>
+      <match lemma="morire" tags="vblex.*"/>
+      <match lemma="seppelire" tags="vblex.*"/>
+      <match lemma="crescere" tags="vblex.*"/>
+      <match lemma="studiare" tags="vblex.*"/>
+      <match lemma="laborare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <match tags="np.top.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="n.*"/>
+      <match lemma="abitare" tags="vblex.*"/>
+    </or>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <or>
+      <match lemma="San" tags="np.*"/>
+      <match lemma="Santa" tags="np.*"/>
+    </or>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match tags="sent"/>
     <match lemma="a" tags="pr"><select lemma="in"/></match>
     <match tags="np.top.*"/>
   </rule>
   <rule weight="1.0">
     <match tags="sent"/>
     <match lemma="a" tags="pr"><select lemma="in"/></match>
-    <match tags="np.top.*"/>
+    <or>
+      <match lemma="San" tags="np.*"/>
+      <match lemma="Santa" tags="np.*"/>
+    </or>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
+    </or>
   </rule>
   <rule weight="1.2">
     <or>
@@ -1276,6 +1352,7 @@
       <match lemma="ritorno" tags="n.*"/>
       <match lemma="trasferimento" tags="n.*"/>
       <match lemma="viaggio" tags="n.*"/>
+      <match lemma="affiliato" tags="adj.*"/>
     </or>
     <match lemma="a" tags="pr"><select lemma="a"/></match>
     <match tags="np.top.*"/>
@@ -1292,10 +1369,17 @@
       <match lemma="partire" tags="vblex.*"/>
       <match lemma="ritornare" tags="vblex.*"/>
       <match lemma="venire" tags="vblex.*"/>
+      <match lemma="accompagnare" tags="vblex.*"/>
       <seq n="verbi_moto_lista_corta"/>
     </or>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
+    <repeat from="0" upto="3">
+      <or>
+        <match tags="det.*"/>
+        <match tags="adj.*"/>
+        <match tags="n.*"/>
+        <match tags="adv"/>
+        <match tags="preadv"/>
+      </or>
     </repeat>
     <match lemma="in" tags="pr"><select lemma="a"/></match>
   </rule>
@@ -1338,6 +1422,8 @@
       <match lemma="estate" tags="n.*"/>
       <match lemma="autunno" tags="n.*"/>
       <match lemma="inverno" tags="n.*"/>
+      <match lemma="momento" tags="n.*"/>
+      <match lemma="clima" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.2">
@@ -1573,7 +1659,7 @@
     <match lemma="su" tags="pr"><select lemma="suta"/></match>
   </rule>
 
-  <!-- per > pro, a -->
+  <!-- per > pro, a, durante remove -->
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="pro"/></match>
   </rule>
@@ -1581,6 +1667,62 @@
     <match lemma="cadere" tags="vblex.*"/>
     <match lemma="per" tags="pr"><select lemma="a" tags="pr"/></match>
     <match lemma="terra" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><remove tags="pr"/></match>
+    <repeat from="0" upto="1">
+      <match tags="predet.*"/>
+    </repeat>
+    <or>
+      <match tags="num"/>
+      <match tags="num.*"/>
+      <match tags="det.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <seq n="periodo"/>
+      <match lemma="tempo" tags="n.*"/>
+      <match lemma="periodo" tags="n.*"/>
+      <match lemma="momento" tags="n.*"/>
+      <seq n="mese"/>
+      <match lemma="primavera" tags="n.*"/>
+      <match lemma="estate" tags="n.*"/>
+      <match lemma="autunno" tags="n.*"/>
+      <match lemma="inverno" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><remove tags="pr"/></match>
+    <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <match tags="adj.*"/>
+    <or>
+      <seq n="periodo"/>
+      <match lemma="tempo" tags="n.*"/>
+      <match lemma="periodo" tags="n.*"/>
+      <match lemma="momento" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><select lemma="durante"/></match>
+    <or>
+      <match lemma="minuto" tags="n.m.pl"/>
+      <match lemma="ora" tags="n.f.pl"/>
+      <match lemma="giorno" tags="n.m.pl"/>
+      <match lemma="settimana" tags="n.f.pl"/>
+      <match lemma="mese" tags="n.m.pl"/>
+      <match lemma="anno" tags="n.m.pl"/>
+      <match lemma="decennio" tags="n.m.pl"/>
+      <match lemma="secolo" tags="n.m.pl"/>
+      <match lemma="millennio" tags="n.m.pl"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="adottare" tags="vblex.*"/>
+    <match lemma="per" tags="pr"><select lemma="pro"/></match>
   </rule>
 
   <!-- tra > intre, tra -->
@@ -1603,6 +1745,7 @@
       <match lemma="distanza" tags="n.*"/>
       <match lemma="tempo" tags="n.*"/>
       <match lemma="periodo" tags="n.*"/>
+      <match lemma="momento" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -1620,6 +1763,7 @@
       <match lemma="distanza" tags="n.*"/>
       <match lemma="tempo" tags="n.*"/>
       <match lemma="periodo" tags="n.*"/>
+      <match lemma="momento" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
