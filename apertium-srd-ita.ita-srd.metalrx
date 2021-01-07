@@ -953,6 +953,10 @@
 <rules>
 
   <rule weight="1.0">
+    <match lemma="uno" tags="num.*"><select lemma="unu"/></match>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="anche" tags="adv"><select lemma="puru"/></match>
   </rule>
 
@@ -1127,7 +1131,7 @@
 
 <!-- **************** REL **************** -->
 
-  <!-- come > comente a, comente -->
+  <!-- come > comente a, comente, che a -->
   <rule weight="0.8">
     <match lemma="come" tags="rel.*"><select lemma="comente a"/></match>
   </rule>
@@ -1178,6 +1182,15 @@
     <match tags="sent"/>
     <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
   </rule>
+  <rule weight="1.0" c="dcorraine">
+    <match lemma="proprio"/>
+    <match lemma="come" tags="rel.*"><select lemma="che a"/></match>
+    <or>
+      <match tags="prn.tn.p1.*"/>
+      <match tags="prn.tn.p2.*"/>
+      <match tags="prn.tn.p3.*"/>
+    </or>
+  </rule>
 
 <!-- **************** CNJADV **************** -->
 
@@ -1226,25 +1239,29 @@
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <match tags="np.top.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="ci" tags="prn.pro.adv"/>
+    <match tags="vbser.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
     <or>
-      <match tags="vbser.*"/>
-      <match lemma="partecipare" tags="vblex.*"/>
+      <match lemma="San" tags="np.*"/>
+      <match lemma="Santa" tags="np.*"/>
+    </or>
+    <or>
+      <match tags="np.*"/>
+      <match tags=""/>
     </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
-    <match lemma="a" tags="pr"><select lemma="in"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="prendere" tags="vblex.*"/>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
-    </repeat>
-    <match lemma="parte" tags="n.f.sg"/>
-    <repeat from="0" upto="1">
-      <match tags="adv"/>
-    </repeat>
-    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <match lemma="ci" tags="prn.pro.adv"/>
+    <match tags="vbser.*"/>
   </rule>
   <rule weight="1.0">
     <match lemma="a" tags="pr"><select lemma="in"/></match>
@@ -1255,7 +1272,13 @@
     </or>
   </rule>
   <rule weight="1.0">
-    <match lemma="partetzipatzione" tags="n.*"/>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+    <or>
+      <match lemma="inizio" tags="n.*"/>
+      <match lemma="metà" tags="n.*"/>
+      <match lemma="fine" tags="n.*"/>
+    </or>
+    <seq n="mese"/>
   </rule>
   <rule weight="1.2">
     <or>
@@ -1361,6 +1384,13 @@
   <!-- in > in, a, da -->
   <rule weight="0.8">
     <match lemma="in" tags="pr"><select lemma="in"/></match>
+  </rule>
+   <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
   </rule>
   <rule weight="1.0">
     <or>
@@ -1619,13 +1649,25 @@
     <match tags="sent"/>
     <match lemma="come" tags="pr"><select lemma="comente"/></match>
   </rule>
+  <rule weight="1.0" c="dcorraine">
+    <match lemma="proprio"/>
+    <match lemma="come" tags="pr"><select lemma="che a"/></match>
+    <or>
+      <match tags="prn.tn.p1.*"/>
+      <match tags="prn.tn.p2.*"/>
+      <match tags="prn.tn.p3.*"/>
+    </or>
+  </rule>
 
   <!-- su > subra de, subra, in, suta -->
   <rule weight="0.8">
      <match lemma="su" tags="pr"><select lemma="subra de"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="basare" tags="vblex.*"/>
+    <or>
+      <match lemma="basare" tags="vblex.*"/>
+      <match lemma="contare" tags="vblex.*"/>
+    </or>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -2308,6 +2350,39 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- parte > banda, parte, ala, chirru -->
+  <rule weight="0.6">
+    <match lemma="parte" tags="n.*"><select lemma="fine"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="questo" tags="det.*"/>
+      <match lemma="quello" tags="det.*"/>
+    </or>
+    <match lemma="parte" tags="n.*"><select lemma="ala"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prendere" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="parte" tags="n.*"><select lemma="parte"/></match>
+  </rule>
+
+  <!-- fine > fine, agabbu -->
+  <rule weight="0.6">
+    <match lemma="fine" tags="n.*"><select lemma="fine"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="fine" tags="n.*"><select lemma="agabbu"/></match>
+    <seq n="mese"/>
+  </rule>
+
+  <!-- vena > bena, benale -->
+  <rule weight="0.6">
+    <match lemma="vena" tags="n.*"><select lemma="bena"/></match>
+  </rule>
 
   <!-- sito > giassu, situ -->
   <rule weight="0.6">
