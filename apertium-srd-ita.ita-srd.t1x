@@ -8400,6 +8400,178 @@
     </rule>
 
 
+    <rule comment="regla: c'è dei"> <!-- c'è del > b'at, c'erano > b'at (tots els temps simples de l'italià) (exactament igual que l'anterior, eliminant el partitiu) -->
+       <pattern>
+         <pattern-item n="ci"/>
+         <pattern-item n="essere-p3"/>
+         <pattern-item n="di"/>
+         <pattern-item n="detdef"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+	 <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
+      <choose>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	</when> 
+      </choose>
+      <choose>
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <lit-tag v="ifi"/>
+	    </equal>
+	  </test>
+         <out>
+           <chunk name="b'at-ifi">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                 <lit v="bi"/>
+                 </get-case-from>
+                 <clip pos="1" side="tl" part="tags"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="èssere"/>
+                 </get-case-from>
+                 <lit-tag v="vbser.pri"/>
+                 <clip pos="2" side="tl" part="pers"/>
+                 <clip pos="2" side="tl" part="nbr"/>
+               </lu>
+               <b/>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="àere"/>
+                 </get-case-from>
+                 <lit-tag v="vbhaver.pp.m.sg"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+	</when>
+
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <lit-tag v="fti"/>
+	    </equal>
+	  </test>
+         <out>
+           <chunk name="b'at-fti">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+               <lit v="bi"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+	</when>
+
+	<when> 
+	  <test>
+	    <equal>
+	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <lit-tag v="cni"/>
+	    </equal>
+	  </test>
+         <out>
+           <chunk name="b'at-cni">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+               <lit v="bi"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.inf"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+	</when>
+
+	<otherwise>
+         <out>
+           <chunk name="b'at">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <get-case-from pos="1">
+                 <lit v="bi"/>
+                 </get-case-from>
+                 <clip pos="1" side="tl" part="tags"/>
+               </lu>
+               <b pos="1"/>
+               <lu>
+                 <get-case-from pos="2">
+                   <lit v="àere"/>
+                 </get-case-from>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+	</otherwise>
+      </choose>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+       </action>
+    </rule>
+
+
     <rule comment="regla: c'è stato"> <!-- c'è > b'est istado (tots els temps simples de l'italià))-->
        <pattern>
          <pattern-item n="ci"/>
