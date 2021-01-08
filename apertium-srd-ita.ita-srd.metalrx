@@ -1970,6 +1970,15 @@
     <match tags="det.*"/>
   </rule>
 
+  <!-- dentro > intro, in intro de -->
+  <rule weight="0.8">
+    <match lemma="dentro" tags="pr"><select lemma="intro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dentro" tags="pr"><select lemma="in intro de"/></match>
+    <match tags="det.*"/>
+  </rule>
+
 <!-- **************** VBLEX **************** -->
 
   <!-- sentire > intèndere, sentire -->
@@ -1987,6 +1996,10 @@
     <match tags="vbhaber.*"/>
     <match lemma="sentire" tags="vblex.pp.*"><select lemma="sentire"/></match>
     <match lemma="di" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="sentire" tags="vblex.*"><select lemma=""/></match>
+    <match lemma="dae" tags="pr"/>
   </rule>
 
   <!-- cojugare > coniugare, cojugare -->
@@ -2257,6 +2270,32 @@
     <match lemma="giù" tags="adv"><select lemma="a giosso"/></match>
   </rule>
 
+  <!-- dentro > intro, in intro, a intro -->
+  <rule weight="0.8">
+    <match lemma="dentro" tags="adv"><select lemma="intro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match lemma="dentro" tags="adv"><select lemma="in intro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="stare" tags="vblex.*"/>
+    </or>
+    <match tags="adj.*"/>
+    <match lemma="dentro" tags="adv"><select lemma="in intro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="verbi_moto_lista_corta"/>
+    </or>
+    <match lemma="dentro" tags="adv"><select lemma="a intro"/></match>
+  </rule>
+
   <!-- dove (adv) > ue, in ue, a ue -->
   <rule weight="0.8">
     <match lemma="dove" tags="adv"><select lemma="ue"/></match>
@@ -2350,6 +2389,20 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- peccato > pecadu, làstima -->
+  <rule weight="0.6">
+    <match lemma="peccato" tags="n.*"><select lemma="pecadu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="peccato" tags="n.*"><select lemma="làstima"/></match>
+    <match lemma="che"/>
+  </rule>
+  <rule weight="1.2">
+    <match tags="det.*"/>
+    <match lemma="peccato" tags="n.*"><select lemma="pecadu"/></match>
+    <match lemma="che"/>
+  </rule>
 
   <!-- parte > banda, parte, ala, chirru -->
   <rule weight="0.6">
