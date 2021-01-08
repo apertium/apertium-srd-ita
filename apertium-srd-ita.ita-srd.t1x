@@ -719,20 +719,20 @@
             </and>
           </test>
           <let><clip pos="2" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
-	  <let><var n="x"/><clip pos="1" side="sl" part="lemh"/></let>
+	  <let><var n="x"/><get-case-from pos="1"><clip pos="1" side="sl" part="lemh"/></get-case-from></let>
 	  <let><var n="y"/><clip pos="1" side="sl" part="tags"/></let>
 	  <let><var n="z"/><clip pos="1" side="sl" part="lemq"/></let>
-	  <let><clip pos="1" side="sl" part="lemh"/><clip pos="2" side="sl" part="lemh"/></let>
+	  <let><clip pos="1" side="sl" part="lemh"/><get-case-from pos="2"><clip pos="2" side="sl" part="lemh"/></get-case-from></let>
 	  <let><clip pos="1" side="sl" part="tags"/><clip pos="2" side="sl" part="tags"/></let>
 	  <let><clip pos="1" side="sl" part="lemq"/><clip pos="2" side="sl" part="lemq"/></let>
 	  <let><clip pos="2" side="sl" part="lemh"/><var n="x"/></let>
 	  <let><clip pos="2" side="sl" part="tags"/><var n="y"/></let>
 	  <let><clip pos="2" side="sl" part="lemq"/><var n="z"/></let>
 
-	  <let><var n="x"/><clip pos="1" side="tl" part="lemh"/></let>
+	  <let><var n="x"/><get-case-from pos="1"><clip pos="1" side="tl" part="lemh"/></get-case-from></let>
 	  <let><var n="y"/><clip pos="1" side="tl" part="tags"/></let>
 	  <let><var n="z"/><clip pos="1" side="tl" part="lemq"/></let>
-	  <let><clip pos="1" side="tl" part="lemh"/><clip pos="2" side="tl" part="lemh"/></let>
+	  <let><clip pos="1" side="tl" part="lemh"/><get-case-from pos="2"><clip pos="2" side="tl" part="lemh"/></get-case-from></let>
 	  <let><clip pos="1" side="tl" part="tags"/><clip pos="2" side="tl" part="tags"/></let>
 	  <let><clip pos="1" side="tl" part="lemq"/><clip pos="2" side="tl" part="lemq"/></let>
 	  <let><clip pos="2" side="tl" part="lemh"/><var n="x"/></let>
