@@ -11337,6 +11337,86 @@
   </action>
 </rule>
 
+<rule comment="regla: sent non inf > sent non prs.p2.pl (Non fare così > Non fatzais gasi)">
+   <pattern>
+     <pattern-item n="sent"/>
+     <pattern-item n="non"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <choose>
+       <when>
+         <test>
+           <equal><clip pos="3" side="tl" part="a_verb"/><lit-tag v="vbmod"/></equal>
+         </test>
+         <out>
+           <chunk name="sent">
+             <tags>
+               <tag><lit-tag v="sent"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="non-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk name="sent">
+             <tags>
+               <tag><lit-tag v="sent"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="non-imp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="a_verb"/>
+               <lit-tag v="prs"/>
+               <lit-tag v="p2"/>
+               <lit-tag v="pl"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
 <!-- xxxxxx -->
 
 <!-- tractament multiparaules -->
