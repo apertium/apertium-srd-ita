@@ -8232,7 +8232,7 @@
     </rule>
 
 
-    <rule comment="regla: c'è"> <!-- c'è > b'at (tots els temps simples de l'italià))-->
+    <rule comment="regla: c'è"> <!-- c'è > b'at, c'erano > b'at (tots els temps simples de l'italià)-->
        <pattern>
          <pattern-item n="ci"/>
          <pattern-item n="essere-p3"/>
@@ -8242,6 +8242,14 @@
            <with-param pos="2"/>
          </call-macro>
 	 <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
+      <choose>
+	<when> 
+	  <test>
+	    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+	  </test>
+	  <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+	</when> 
+      </choose>
       <choose>
 	<when> 
 	  <test>
