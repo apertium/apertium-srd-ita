@@ -11744,6 +11744,86 @@
        </action>
     </rule>
 
+    <rule comment="regla: cnjsub">
+       <pattern>
+         <pattern-item n="cnjsub"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cnjsub">
+             <tags>
+               <tag><lit-tag v="cnjsub"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: cnjcoo">
+       <pattern>
+         <pattern-item n="cnjcoo"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cnjcoo">
+             <tags>
+               <tag><lit-tag v="cnjcoo"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: cnjadv">
+       <pattern>
+         <pattern-item n="cnjadv"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cnjadv">
+             <tags>
+               <tag><lit-tag v="cnjadv"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: pr">
+       <pattern>
+         <pattern-item n="pr"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
 </section-rules>
 
 </transfer>
