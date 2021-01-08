@@ -1319,6 +1319,24 @@
       <match lemma="nascere" tags="vblex.*"/>
       <match lemma="morire" tags="vblex.*"/>
       <match lemma="seppelire" tags="vblex.*"/>
+      <match lemma="sepolto" tags="adj.*"/>
+      <match lemma="crescere" tags="vblex.*"/>
+      <match lemma="studiare" tags="vblex.*"/>
+      <match lemma="laborare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="a" tags="pr"><select lemma="in"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="abitare" tags="vblex.*"/>
+      <match lemma="vivere" tags="vblex.*"/>
+      <match lemma="nascere" tags="vblex.*"/>
+      <match lemma="morire" tags="vblex.*"/>
+      <match lemma="seppelire" tags="vblex.*"/>
+      <match lemma="sepolto" tags="adj.*"/>
       <match lemma="crescere" tags="vblex.*"/>
       <match lemma="studiare" tags="vblex.*"/>
       <match lemma="laborare" tags="vblex.*"/>
@@ -2071,21 +2089,27 @@
   <rule weight="0.8">
     <match lemma="richiamare" tags="vblex.*"><select lemma="torrare# a cramare"/></match>
   </rule>
-<!--
-  <rule weight="0.8">
+  <rule weight="1.0">
+    <match lemma="si" tags="prn.*"/>
     <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu a"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu a"/></match>
+    <match tags="prn.enc.ref.*"/>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="si" tags="prn.*"/>
     <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu"/></match>
     <repeat from="0" upto="1">
-      <or>
-        <match tags="adv"/>
-        <match tags="prn.enc.*"/>
-      </or>
+      <match tags="adv"/>
     </repeat>
-    <match lemma="a" tags="pr"/>
+    <match tags="pr"/>
   </rule>
--->
+  <rule weight="1.2">
+    <match lemma="richiamare" tags="vblex.*"><select lemma="fàghere# riferimentu"/></match>
+    <match tags="prn.enc.ref.*"/>
+    <match tags="pr"/>
+  </rule>
 
   <!-- intendere > cumprèndere, chèrrere -->
   <rule weight="0.8">
@@ -2390,6 +2414,17 @@
 
 <!-- **************** N **************** -->
 
+  <!-- pianta > fundu, pranta -->
+  <rule weight="0.6">
+    <match lemma="pianta" tags="n.*"><select lemma="fundu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pianta" tags="n.*"><select lemma="pranta"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="det.*"/>
+    <match lemma="piede" tags="n.*"/>
+  </rule>
+
   <!-- peccato > pecadu, làstima -->
   <rule weight="0.6">
     <match lemma="peccato" tags="n.*"><select lemma="pecadu"/></match>
@@ -2472,7 +2507,7 @@
   <rule weight="1.0">
     <match lemma="sito" tags="n.*"><select lemma="situ"/></match>
     <match lemma="di" tags="pr"/>
-    <match tags="det.*.*"/>
+    <match tags="det.*"/>
     <or>
       <match tags="np.*"/>
       <match tags=""/>
@@ -2567,6 +2602,8 @@
       <match lemma="melone" tags="n.*"/>
       <match lemma="anguria" tags="n.*"/>
       <match lemma="cocomero" tags="n.*"/>
+      <match lemma="fico" tags="n.*"/>
+      <match lemma="fico# d'India" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0">
