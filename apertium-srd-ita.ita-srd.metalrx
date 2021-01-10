@@ -336,6 +336,29 @@
       </rule>
     </def-macro>
 
+    <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
+    <!-- p1 = verb fra, p2 = verb cat intransitiu, p3 = verb cat transitiu -->
+    <!-- la manera de veure que el verb és transitiu és molt barroera -->
+    <def-macro name="verb_intrans_trans">
+      <rule weight="0.8">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+        <or>
+          <match tags="det.*"/>
+          <match tags="np.*"/>
+        </or>
+      </rule>
+      <rule weight="1.0">
+        <match lemma="lo" tags="prn.pro.*"/>
+        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+      </rule>
+    </def-macro>
+
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
     <def-macro name="verb_nopron_pron">
@@ -828,6 +851,7 @@
        <match lemma="madrina" tags="n.*"/>
        <match lemma="zio" tags="n.*"/>
        <match lemma="nipote" tags="n.*"/>
+       <match lemma="nebodeddu" tags="n.*"/>
        <match lemma="pronipote" tags="n.*"/>
        <match lemma="cugino" tags="n.*"/>
        <match lemma="cugina" tags="n.*"/>
@@ -1704,6 +1728,7 @@
       <match lemma="social network site" tags="n.*"/>
       <match lemma="social web" tags="n.*"/>
       <match lemma="social media" tags="n.*"/>
+      <match lemma="balcone" tags="n.*"/>
     </or>
   </rule>
   <rule weight="1.0"> <!-- su Windows, Linux... -->
@@ -1719,7 +1744,7 @@
     <match lemma="su" tags="pr"><select lemma="suta"/></match>
   </rule>
 
-  <!-- per > pro, a, durante remove -->
+  <!-- per > pro, a, durante remove, in -->
   <rule weight="0.6">
     <match lemma="per" tags="pr"><select lemma="pro"/></match>
   </rule>
@@ -1779,6 +1804,13 @@
       <match lemma="secolo" tags="n.m.pl"/>
       <match lemma="millennio" tags="n.m.pl"/>
     </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="camminare" tags="vblex.*"/>
+      <match lemma="passegiare" tags="vblex.*"/>
+    </or>
+    <match lemma="per" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
   <rule weight="1.2">
     <match lemma="adottare" tags="vblex.*"/>
@@ -1992,12 +2024,27 @@
   <rule weight="0.8">
     <match lemma="dentro" tags="pr"><select lemma="intro"/></match>
   </rule>
+<!--
   <rule weight="1.0">
     <match lemma="dentro" tags="pr"><select lemma="in intro de"/></match>
     <match tags="det.*"/>
   </rule>
+-->
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- battere > adobbare, bìnchere -->
+  <rule weight="0.8">
+    <match lemma="battere" tags="vblex.*"><select lemma="adobbare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="battere" tags="vblex.*"><select lemma="bìnchere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <match lemma="record" tags="n.*"/>
+  </rule>
 
   <!-- sentire > intèndere, sentire -->
   <rule weight="0.8">
@@ -2019,6 +2066,9 @@
     <match lemma="sentire" tags="vblex.*"><select lemma=""/></match>
     <match lemma="dae" tags="pr"/>
   </rule>
+
+  <!-- ripartire > torrare# a mòvere, mòvere -->
+  <macro name="verb_intrans_trans" p1="ripartire" p2="torrare# a mòvere" p3="mòvere"/>
 
   <!-- cojugare > coniugare, cojugare -->
   <macro name="verb_nopron_pron" p1="coniugare" p2="coniugare" p3="cojugare"/>
@@ -2413,6 +2463,28 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- campagna > sartu, campagna -->
+  <rule weight="0.6">
+    <match lemma="campagna" tags="n.*"><select lemma="sartu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="campagna" tags="n.*"><select lemma="campagna"/></match>
+    <or>
+      <match lemma="per" tags="pr"/>
+      <match tags="num"/>
+      <match lemma="nazionale" tags="adj.*"/>
+      <match lemma="regionale" tags="adj.*"/>
+      <match lemma="mondiale" tags="adj.*"/>
+      <match lemma="popolare" tags="adj.*"/>
+      <match lemma="elettorale" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="campagna" tags="n.*"><select lemma="campagna"/></match>
+    <match lemma="di" tags="pr"/>
+    <match tags="n.*"/>
+  </rule>
 
   <!-- pianta > fundu, pranta -->
   <rule weight="0.6">
@@ -3169,6 +3241,7 @@
       <match lemma="accademia" tags="n.*"/>
       <match lemma="monastero" tags="n.*"/>
       <match lemma="via" tags="n.*"/>
+      <match lemma="carrozza" tags="n.*"/>
     </or>
     <match lemma="reale" tags="adj.*"><select lemma="reale"/></match>
   </rule>
