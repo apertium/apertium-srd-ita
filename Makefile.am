@@ -210,11 +210,11 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "house" | apertium -d . srd-ita | tee .test-mt
-	@echo "house" > .test-ref
+	echo "Apertium è una piattaforma di traduzione automatica." | apertium -d . ita-srd | tee .test-mt
+	@echo "Apertium est una prataforma de tradutzione automàtica." > .test-ref
 	@diff .test-ref .test-mt
-	echo "house" | apertium -d . ita-srd | tee .test-mt
-	@echo "house" > .test-ref
+	echo "Prataforma de tradutzione automàtica." | apertium -d . srd-ita | tee .test-mt
+	@echo "Piattaforma di traduzione automatica." > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
