@@ -1,55 +1,7 @@
-* text=auto !eol
-/AUTHORS -text
-/COPYING -text
-/ChangeLog -text
-/Makefile.am -text
-/NEWS -text
-/README -text
-/TODO -text
-/apertium-srd-ita.ita-srd.lrx -text
-/apertium-srd-ita.ita-srd.t1x -text
-/apertium-srd-ita.ita-srd.t2x -text
-/apertium-srd-ita.ita-srd.t3x -text
-/apertium-srd-ita.srd-ita.dix -text
-/apertium-srd-ita.srd-ita.lrx -text
-/apertium-srd-ita.srd-ita.t1x -text
-/apertium-srd-ita.srd-ita.t2x -text
-/apertium-srd-ita.srd-ita.t3x -text
-/autogen.sh -text
-/configure.ac -text
-/corpus_ita_4000.txt -text
-dev/glossariu.ita-srd.nospaces.txt -text
-dev/glossariu.ita-srd.spaces.txt -text
-dev/testvoc/bidix-unknowns.sh -text
-dev/testvoc/generation.sh -text
-dev/testvoc/streamparser.py -text
-evaluacion/notas_evaluacion_final.txt -text
-/evaluation.gsoc17 -text
-/evaluation.gsoc2017 -text
-/modes.xml -text
-t/README.org -text
-t/config.sh -text
-t/config.sh.in -text
-t/pending-tests -text
-t/regression-tests -text
-t/update-latest -text
-t/wiki-tests -text
-texts/cuento.2.srd.txt -text
-texts/cuento.ita.txt -text
-texts/cuento.srd.txt -text
-texts/guernica.ita.txt -text
-texts/guernica.srd.txt -text
-texts/pantomaca.ita.txt -text
-texts/pintxo.ita.txt -text
-texts/pintxo.srd.txt -text
-texts/pompia.ita.txt -text
-texts/pompia.srd.txt -text
-texts/sogliola.ita.txt -text
-texts/sogliola.srd.txt -text
-texts_bi/comunicadu_ita.txt -text
-texts_bi/comunicadu_srd.txt -text
+* text eol=lf
 *.dix linguist-language=XML linguist-detectable=true
 *.lrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true
 *.tsx linguist-language=XML linguist-detectable=true
 *.t[[:digit:]]x linguist-language=XML linguist-detectable=true
+*.prob binary

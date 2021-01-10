@@ -2,7 +2,6 @@
 ## Makefile for Sardinian--Italian
 ###############################################################################
 
-VERSION=0.9.5
 LANG1=srd
 LANG2=ita
 PREFIX1=$(LANG1)-$(LANG2)
@@ -217,4 +216,3 @@ test: all
 	@echo "Piattaforma di traduzione automatica." > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
-
