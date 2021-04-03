@@ -357,6 +357,14 @@
         <match lemma="lo" tags="prn.pro.*"/>
         <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
       </rule>
+      <rule weight="1.0">
+        <or>
+          <match tags="n.*"/>
+          <match tags="adj.*"/>
+          <match tags="vblex.pp.*"/>
+        </or>
+        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+      </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
