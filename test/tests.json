@@ -1,0 +1,22 @@
+{
+    "ita-srd": {
+        "input": "ita-srd-input.txt",
+        "mode": "ita-srd"
+    },
+    "ita-srd-pending": {
+        "input": "ita-srd-pending-input.txt",
+        "mode": "ita-srd"
+    },
+    "ita-srd-regression": {
+        "input": "ita-srd-regression-input.txt",
+        "mode": "ita-srd"
+    },
+    "srd-ita": {
+        "input": "srd-ita-input.txt",
+        "mode": "srd-ita"
+    },
+    "srd-ita-pending": {
+        "input": "srd-ita-pending-input.txt",
+        "mode": "srd-ita"
+    }
+}
