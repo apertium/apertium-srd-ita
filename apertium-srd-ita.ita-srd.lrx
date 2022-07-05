@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <lrx>
   <def-macros>
-    <def-macro name="noms_propis">
+    <def-macro n="noms_propis" npar="2">
       <rule weight="0.6">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p1}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="1"/></match>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="di" tags="pr"/>
          <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="di" tags="pr"/>
          <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="di" tags="pr"/>
          <match tags="det.def.*"/>
          <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="di" tags="pr"/>
          <match tags="det.def.*"/>
          <or><match tags="np.loc"/><match tags="np.top.*"/></or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="det.*"/>
          <or>
            <match tags="adj.*"/>
@@ -39,7 +39,7 @@
          </or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match tags="det.*"/>
          <or>
@@ -49,7 +49,7 @@
          </or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <or>
            <match tags="num.*"/>
            <match lemma="I" tags="adj.*"/>
@@ -85,7 +85,7 @@
          </or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <or>
            <match tags="num.*"/>
@@ -148,7 +148,7 @@
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
          </or>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
@@ -178,10 +178,10 @@
            <match lemma="voivoda" tags="n.*"/>
          </or>
          <match tags="np.ant.*"/>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="cm"/>
          <or>
            <match lemma="papa" tags="n.*"/>
@@ -212,7 +212,7 @@
       </rule>
       <rule weight="1.0">
          <match tags="np.ant.*"/>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="cm"/>
          <or>
            <match lemma="papa" tags="n.*"/>
@@ -251,7 +251,7 @@
            <match lemma="vicereame" tags="n.*"/>
          </or>
          <match lemma="di" tags="pr"/>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
@@ -264,7 +264,7 @@
          </or>
          <match lemma="di" tags="pr"/>
          <match tags="det.def.*"/>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
@@ -277,17 +277,17 @@
          </or>
          <match lemma="di" tags="pr"/>
          <match tags="np.ant.*"/>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <or>
            <match lemma="regnare" tags="vblex.*"/>
            <match lemma="governare" tags="vblex.*"/>
          </or>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <or>
            <match lemma="regnare" tags="vblex.*"/>
@@ -299,7 +299,7 @@
            <match lemma="regnare" tags="vblex.ger"/>
            <match lemma="governare" tags="vblex.ger"/>
          </or>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
@@ -307,7 +307,7 @@
            <match lemma="governare" tags="vblex.ger"/>
          </or>
          <match tags="np.ant.*"/>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
@@ -318,17 +318,17 @@
            <match lemma="di" tags="pr"/>
            <match lemma="secondo" tags="pr"/>
          </or>
-         <match lemma="{{p1}}" tags="np.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 per traduir el prenom p1, però manté p1 si va seguit de cognom (o paraula desconeguda) -->
-    <def-macro name="ant_antcog">
+    <def-macro n="ant_antcog" npar="2">
       <rule weight="0.6">
-         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p2}}"/></match>
+         <match plemma="1" tags="np.ant.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-         <match lemma="{{p1}}" tags="np.ant.*"><select lemma="{{p1}}"/></match>
+         <match plemma="1" tags="np.ant.*"><select plemma="1"/></match>
          <or>
            <match tags="np.*"/>
            <match tags=""/>
@@ -339,12 +339,12 @@
     <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
     <!-- p1 = verb fra, p2 = verb cat intransitiu, p3 = verb cat transitiu -->
     <!-- la manera de veure que el verb és transitiu és molt barroera -->
-    <def-macro name="verb_intrans_trans">
+    <def-macro n="verb_intrans_trans" npar="3">
       <rule weight="0.8">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
         <repeat from="0" upto="1">
           <match tags="adv"/>
         </repeat>
@@ -355,7 +355,7 @@
       </rule>
       <rule weight="1.0">
         <match lemma="lo" tags="prn.pro.*"/>
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <or>
@@ -363,181 +363,181 @@
           <match tags="adj.*"/>
           <match tags="vblex.pp.*"/>
         </or>
-        <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
       </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 no és pronominal i p3 si p1 és pronominal -->
     <!-- p1 = verb ita, p2 = verb cat no pron, p3 = verb cat pron -->
-    <def-macro name="verb_nopron_pron">
+    <def-macro n="verb_nopron_pron" npar="3">
       <rule weight="0.6">
-        <match lemma="{{p1}}" tags="vblex.*"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="3"/></match>
         <match tags="prn.enc.p1.*.sg"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="3"/></match>
         <match tags="prn.enc.p2.*.sg"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
         </or>
       </rule>
       <rule weight="1.0">
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.inf"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.ger"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
         </or>
         <match tags="prn.enc.ref.p3.*.sp"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
         <match tags="prn.enc.p1.*.pl"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="3"/></match>
         <match tags="prn.enc.p2.*.pl"/>
       </rule>
 
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
         <match lemma="avere" tags="vbhaver.*.p1.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
         <match lemma="avere" tags="vbhaver.*.p2.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
         <match lemma="avere" tags="vbhaver.*.p1.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
         <match lemma="avere" tags="vbhaver.*.p2.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="avere" tags="vbhaver.*.p3.sg"><select lemma="{{p3}}"/></match>
-          <match lemma="avere" tags="vbhaver.*.p3.pl"><select lemma="{{p3}}"/></match>
+          <match lemma="avere" tags="vbhaver.*.p3.sg"><select plemma="3"/></match>
+          <match lemma="avere" tags="vbhaver.*.p3.pl"><select plemma="3"/></match>
         </or>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
       </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 és pronominal i està seguit de la preposició p3 -->
-    <def-macro name="verb_pron_pr">
+    <def-macro n="verb_pron_pr" npar="3">
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="2"/></match>
         <match tags="prn.enc.p1.*.sg"/>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="2"/></match>
         <match tags="prn.enc.p2.*.sg"/>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p2}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="2"/></match>
         </or>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.pp.*"><select lemma="{{p2}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.ger"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.pp.*"><select plemma="2"/></match>
         </or>
         <match tags="prn.enc.ref.p3.*.sp"/>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="2"/></match>
         <match tags="prn.enc.p1.*.pl"/>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="2"/></match>
         <match tags="prn.enc.p2.*.pl"/>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="3" tags="pr"/>
       </rule>
 
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
         <match lemma="avere" tags="vbhaver.*.p1.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
         <match lemma="avere" tags="vbhaver.*.p2.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
         <match lemma="avere" tags="vbhaver.*.p1.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
         <match lemma="avere" tags="vbhaver.*.p2.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
@@ -545,110 +545,110 @@
           <match lemma="avere" tags="vbhaver.*.p3.sg"/>
           <match lemma="avere" tags="vbhaver.*.p3.pl"/>
         </or>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p3}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="3" tags="pr"/>
       </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 o p3 si p1 és pronominal i està seguit del pronom p4 -->
     <!-- Aquesta macro és com la precendent, però tria p3 en el cas que el verb estigui conjugat en plural -->
-    <def-macro name="verb_pron_pr_sg_pl">
+    <def-macro n="verb_pron_pr_sg_pl" npar="4">
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="2"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.sg"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.sg"><select plemma="2"/></match>
         <match tags="prn.enc.p1.*.sg"/>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="2"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.sg"><select lemma="{{p2}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.sg"><select plemma="2"/></match>
         <match tags="prn.enc.p2.*.sg"/>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
         </or>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <or>
-          <match lemma="{{p1}}" tags="vblex.*.p3.sg"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.*.p3.pl"><select lemma="{{p3}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.inf"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.ger"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.pp.*.sg"><select lemma="{{p2}}"/></match>
-          <match lemma="{{p1}}" tags="vblex.pp.*.pl"><select lemma="{{p3}}"/></match>
+          <match plemma="1" tags="vblex.*.p3.sg"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.*.p3.pl"><select plemma="3"/></match>
+          <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.ger"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.pp.*.sg"><select plemma="2"/></match>
+          <match plemma="1" tags="vblex.pp.*.pl"><select plemma="3"/></match>
         </or>
         <match tags="prn.enc.ref.p3.*.sp"/>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p1.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p1.pl"><select plemma="3"/></match>
         <match tags="prn.enc.p1.*.pl"/>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="3"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
-        <match lemma="{{p1}}" tags="vblex.*.p2.pl"><select lemma="{{p3}}"/></match>
+        <match plemma="1" tags="vblex.*.p2.pl"><select plemma="3"/></match>
         <match tags="prn.enc.p2.*.pl"/>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="4" tags="pr"/>
       </rule>
 
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.sg"/>
         <match lemma="avere" tags="vbhaver.*.p1.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.sg"/>
         <match lemma="avere" tags="vbhaver.*.p2.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p1.*.pl"/>
         <match lemma="avere" tags="vbhaver.*.p1.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.p2.*.pl"/>
         <match lemma="avere" tags="vbhaver.*.p2.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <match lemma="avere" tags="vbhaver.*.p3.sg"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p2}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="2"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
       <rule weight="1.0">
         <match tags="prn.pro.ref.p3.*.sp"/>
         <match lemma="avere" tags="vbhaver.*.p3.pl"/>
-        <match lemma="{{p1}}" tags="vblex.pp.m.sg"><select lemma="{{p3}}"/></match>
-        <match lemma="{{p4}}" tags="pr"/>
+        <match plemma="1" tags="vblex.pp.m.sg"><select plemma="3"/></match>
+        <match plemma="4" tags="pr"/>
       </rule>
     </def-macro>
   </def-macros>
@@ -2058,7 +2058,7 @@
   <rule weight="0.8">
     <match lemma="sentire" tags="vblex.*"><select lemma="intèndere"/></match>
   </rule>
-  <macro name="verb_pron_pr" p1="sentire" p2="sentire" p3="di"/>
+  <macro n="verb_pron_pr"><with-param v="sentire"/><with-param v="sentire"/><with-param v="di"/></macro>
   <rule weight="1.0">
     <match lemma="lo" tags="prn.pro.p3.f.sg"/>
     <match lemma="sentire" tags="vblex.*"><select lemma="sentire"/></match>
@@ -2076,10 +2076,10 @@
   </rule>
 
   <!-- ripartire > torrare# a mòvere, mòvere -->
-  <macro name="verb_intrans_trans" p1="ripartire" p2="torrare# a mòvere" p3="mòvere"/>
+  <macro n="verb_intrans_trans"><with-param v="ripartire"/><with-param v="torrare# a mòvere"/><with-param v="mòvere"/></macro>
 
   <!-- cojugare > coniugare, cojugare -->
-  <macro name="verb_nopron_pron" p1="coniugare" p2="coniugare" p3="cojugare"/>
+  <macro n="verb_nopron_pron"><with-param v="coniugare"/><with-param v="coniugare"/><with-param v="cojugare"/></macro>
 
   <!-- volere > bòlere, chèrrere -->
   <rule weight="0.8">
@@ -2140,8 +2140,8 @@
     <match tags="det.*"/>
     <match lemma="letto" tags="det.*"/>
   </rule>
-  <macro name="verb_pron_pr" p1="rifare" p2="riferire" p3="a"/>
-  <macro name="verb_pron_pr_sg_pl" p1="rifare" p2="èssere# chitidu" p3="èssere# chitidos" p4="di"/>
+  <macro n="verb_pron_pr"><with-param v="rifare"/><with-param v="riferire"/><with-param v="a"/></macro>
+  <macro n="verb_pron_pr_sg_pl"><with-param v="rifare"/><with-param v="èssere# chitidu"/><with-param v="èssere# chitidos"/><with-param v="di"/></macro>
 
   <!-- richiamare > fàghere# riferimentu a, fàghere# riferimentu -->
   <rule weight="0.8">
@@ -3308,69 +3308,69 @@
      <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarcuìnios"/></match>
   </rule>
 
-  <macro name="ant_antcog" p1="Annibale" p2="Annìbale" />
-  <macro name="ant_antcog" p1="Attila" p2="Àtila" />
-  <macro name="ant_antcog" p1="Augusto" p2="Augustu" />
-  <macro name="ant_antcog" p1="Belisario" p2="Belisàriu" />
-  <macro name="ant_antcog" p1="Cesare" p2="Tzèsare" />
-  <macro name="ant_antcog" p1="Cicerone" p2="Tzitzerone" />
-  <macro name="ant_antcog" p1="Costantino" p2="Costantinu" />
-  <macro name="ant_antcog" p1="Ercole" p2="Èrcule" />
-  <macro name="ant_antcog" p1="Gaio" p2="Gàiu" />
-  <macro name="ant_antcog" p1="Mosè" p2="Moses" />
-  <macro name="ant_antcog" p1="Omero" p2="Omeru" />
-  <macro name="ant_antcog" p1="Orazio" p2="Oràtziu" />
-  <macro name="ant_antcog" p1="Ottone" p2="Otone" />
-  <macro name="ant_antcog" p1="Publio" p2="Pùbliu" />
-  <macro name="ant_antcog" p1="Tarquinio" p2="Tarcuìniu" />
-  <macro name="ant_antcog" p1="Terenzio" p2="Terènziu" />
-  <macro name="ant_antcog" p1="Virgilio" p2="Virgìliu" />
+  <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Annìbale"/></macro>
+  <macro n="ant_antcog"><with-param v="Attila"/><with-param v="Àtila"/></macro>
+  <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="Augustu"/></macro>
+  <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisàriu"/></macro>
+  <macro n="ant_antcog"><with-param v="Cesare"/><with-param v="Tzèsare"/></macro>
+  <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Tzitzerone"/></macro>
+  <macro n="ant_antcog"><with-param v="Costantino"/><with-param v="Costantinu"/></macro>
+  <macro n="ant_antcog"><with-param v="Ercole"/><with-param v="Èrcule"/></macro>
+  <macro n="ant_antcog"><with-param v="Gaio"/><with-param v="Gàiu"/></macro>
+  <macro n="ant_antcog"><with-param v="Mosè"/><with-param v="Moses"/></macro>
+  <macro n="ant_antcog"><with-param v="Omero"/><with-param v="Omeru"/></macro>
+  <macro n="ant_antcog"><with-param v="Orazio"/><with-param v="Oràtziu"/></macro>
+  <macro n="ant_antcog"><with-param v="Ottone"/><with-param v="Otone"/></macro>
+  <macro n="ant_antcog"><with-param v="Publio"/><with-param v="Pùbliu"/></macro>
+  <macro n="ant_antcog"><with-param v="Tarquinio"/><with-param v="Tarcuìniu"/></macro>
+  <macro n="ant_antcog"><with-param v="Terenzio"/><with-param v="Terènziu"/></macro>
+  <macro n="ant_antcog"><with-param v="Virgilio"/><with-param v="Virgìliu"/></macro>
 
-  <macro name="noms_propis" p1="Adalberto" p2="Adalbertu" />
-  <macro name="noms_propis" p1="Alessandro" p2="Lisandru" />
-  <macro name="noms_propis" p1="Alfonso" p2="Alfonsu" />
-  <macro name="noms_propis" p1="Benedetto" p2="Beneitu" />
-  <macro name="noms_propis" p1="Bernardo" p2="Bernardu" />
-  <macro name="noms_propis" p1="Bonifacio" p2="Bonifàtziu" />
-  <macro name="noms_propis" p1="Carlo" p2="Càralu" />
-  <macro name="noms_propis" p1="Ciro" p2="Tziru" />
-  <macro name="noms_propis" p1="Dario" p2="Dariu" />
-  <macro name="noms_propis" p1="Enrico" p2="Erricu" />
-  <macro name="noms_propis" p1="Federico" p2="Federicu" />
-  <macro name="noms_propis" p1="Ferdinando" p2="Ferrante" />
-  <macro name="noms_propis" p1="Filippo" p2="Tilipu" />
-  <macro name="noms_propis" p1="Francesco" p2="Frantziscu" />
-  <macro name="noms_propis" p1="Giacomo" p2="Giacu" />
-  <macro name="noms_propis" p1="Giovanni" p2="Giuanne" />
-  <macro name="noms_propis" p1="Giovanni Paolo" p2="Giuanne Pàule" />
-  <macro name="noms_propis" p1="Giuseppe" p2="Giosepe" />
-  <macro name="noms_propis" p1="Giulio" p2="Giùliu" />
-  <macro name="noms_propis" p1="Giuseppe" p2="Giosepe" />
-  <macro name="noms_propis" p1="Gregorio" p2="Gregòriu" />
-  <macro name="noms_propis" p1="Goffredo" p2="Gofredu" />
-  <macro name="noms_propis" p1="Guglielmo" p2="Gullielmu" />
-  <macro name="noms_propis" p1="Innocenzo" p2="Innocentzu" />
-  <macro name="noms_propis" p1="Luigi" p2="Luisi" />
-  <macro name="noms_propis" p1="Marco" p2="Marcu" />
-  <macro name="noms_propis" p1="Massimiliano" p2="Massimilianu" />
-  <macro name="noms_propis" p1="Martino" p2="Martine" />
-  <macro name="noms_propis" p1="Matteo" p2="Mateu" />
-  <macro name="noms_propis" p1="Nicola" p2="Nigola" />
-  <macro name="noms_propis" p1="Oberto" p2="Obertu" />
-  <macro name="noms_propis" p1="Paolo" p2="Pàule" />
-  <macro name="noms_propis" p1="Pietro" p2="Pedru" />
-  <macro name="noms_propis" p1="Raimondo" p2="Raimundu" />
-  <macro name="noms_propis" p1="Riccardo" p2="Ricardu" />
-  <macro name="noms_propis" p1="Sisto" p2="Sistu" />
-  <macro name="noms_propis" p1="Ugo" p2="Ugu" />
-  <macro name="noms_propis" p1="Umberto" p2="Umbertu" />
-  <macro name="noms_propis" p1="Celestino" p2="Tzelestinu" />
+  <macro n="noms_propis"><with-param v="Adalberto"/><with-param v="Adalbertu"/></macro>
+  <macro n="noms_propis"><with-param v="Alessandro"/><with-param v="Lisandru"/></macro>
+  <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfonsu"/></macro>
+  <macro n="noms_propis"><with-param v="Benedetto"/><with-param v="Beneitu"/></macro>
+  <macro n="noms_propis"><with-param v="Bernardo"/><with-param v="Bernardu"/></macro>
+  <macro n="noms_propis"><with-param v="Bonifacio"/><with-param v="Bonifàtziu"/></macro>
+  <macro n="noms_propis"><with-param v="Carlo"/><with-param v="Càralu"/></macro>
+  <macro n="noms_propis"><with-param v="Ciro"/><with-param v="Tziru"/></macro>
+  <macro n="noms_propis"><with-param v="Dario"/><with-param v="Dariu"/></macro>
+  <macro n="noms_propis"><with-param v="Enrico"/><with-param v="Erricu"/></macro>
+  <macro n="noms_propis"><with-param v="Federico"/><with-param v="Federicu"/></macro>
+  <macro n="noms_propis"><with-param v="Ferdinando"/><with-param v="Ferrante"/></macro>
+  <macro n="noms_propis"><with-param v="Filippo"/><with-param v="Tilipu"/></macro>
+  <macro n="noms_propis"><with-param v="Francesco"/><with-param v="Frantziscu"/></macro>
+  <macro n="noms_propis"><with-param v="Giacomo"/><with-param v="Giacu"/></macro>
+  <macro n="noms_propis"><with-param v="Giovanni"/><with-param v="Giuanne"/></macro>
+  <macro n="noms_propis"><with-param v="Giovanni Paolo"/><with-param v="Giuanne Pàule"/></macro>
+  <macro n="noms_propis"><with-param v="Giuseppe"/><with-param v="Giosepe"/></macro>
+  <macro n="noms_propis"><with-param v="Giulio"/><with-param v="Giùliu"/></macro>
+  <macro n="noms_propis"><with-param v="Giuseppe"/><with-param v="Giosepe"/></macro>
+  <macro n="noms_propis"><with-param v="Gregorio"/><with-param v="Gregòriu"/></macro>
+  <macro n="noms_propis"><with-param v="Goffredo"/><with-param v="Gofredu"/></macro>
+  <macro n="noms_propis"><with-param v="Guglielmo"/><with-param v="Gullielmu"/></macro>
+  <macro n="noms_propis"><with-param v="Innocenzo"/><with-param v="Innocentzu"/></macro>
+  <macro n="noms_propis"><with-param v="Luigi"/><with-param v="Luisi"/></macro>
+  <macro n="noms_propis"><with-param v="Marco"/><with-param v="Marcu"/></macro>
+  <macro n="noms_propis"><with-param v="Massimiliano"/><with-param v="Massimilianu"/></macro>
+  <macro n="noms_propis"><with-param v="Martino"/><with-param v="Martine"/></macro>
+  <macro n="noms_propis"><with-param v="Matteo"/><with-param v="Mateu"/></macro>
+  <macro n="noms_propis"><with-param v="Nicola"/><with-param v="Nigola"/></macro>
+  <macro n="noms_propis"><with-param v="Oberto"/><with-param v="Obertu"/></macro>
+  <macro n="noms_propis"><with-param v="Paolo"/><with-param v="Pàule"/></macro>
+  <macro n="noms_propis"><with-param v="Pietro"/><with-param v="Pedru"/></macro>
+  <macro n="noms_propis"><with-param v="Raimondo"/><with-param v="Raimundu"/></macro>
+  <macro n="noms_propis"><with-param v="Riccardo"/><with-param v="Ricardu"/></macro>
+  <macro n="noms_propis"><with-param v="Sisto"/><with-param v="Sistu"/></macro>
+  <macro n="noms_propis"><with-param v="Ugo"/><with-param v="Ugu"/></macro>
+  <macro n="noms_propis"><with-param v="Umberto"/><with-param v="Umbertu"/></macro>
+  <macro n="noms_propis"><with-param v="Celestino"/><with-param v="Tzelestinu"/></macro>
 
-  <macro name="noms_propis" p1="Caterina" p2="Callina" />
-  <macro name="noms_propis" p1="Elisabetta" p2="Elisabeta" />
-  <macro name="noms_propis" p1="Giovanna" p2="Giuanna" />
-  <macro name="noms_propis" p1="Lucia" p2="Lughia" />
-  <macro name="noms_propis" p1="Victoria" p2="Victòria" />
+  <macro n="noms_propis"><with-param v="Caterina"/><with-param v="Callina"/></macro>
+  <macro n="noms_propis"><with-param v="Elisabetta"/><with-param v="Elisabeta"/></macro>
+  <macro n="noms_propis"><with-param v="Giovanna"/><with-param v="Giuanna"/></macro>
+  <macro n="noms_propis"><with-param v="Lucia"/><with-param v="Lughia"/></macro>
+  <macro n="noms_propis"><with-param v="Victoria"/><with-param v="Victòria"/></macro>
 
 </rules>
 </lrx>
