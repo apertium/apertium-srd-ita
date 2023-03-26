@@ -993,6 +993,14 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="pure" tags="adv"><select lemma="puru"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="pure" tags="cnjadv"><select lemma="puru"/></match>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="quindi" tags="adv"><select lemma="tando"/></match>
   </rule>
 
