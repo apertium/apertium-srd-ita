@@ -34,7 +34,7 @@
          <match tags="det.*"/>
          <or>
            <match tags="adj.*"/>
-           <match lemma="conquistador" tags="n.*"/>
+           <match lemma="conquistatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
          </or>
       </rule>
@@ -44,7 +44,7 @@
          <match tags="det.*"/>
          <or>
            <match tags="adj.*"/>
-           <match lemma="conquistador" tags="n.*"/>
+           <match lemma="conquistatore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
          </or>
       </rule>
@@ -3316,6 +3316,7 @@
      <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarcuìnios"/></match>
   </rule>
 
+  <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Lisandru"/></macro>
   <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Annìbale"/></macro>
   <macro n="ant_antcog"><with-param v="Attila"/><with-param v="Àtila"/></macro>
   <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="Augustu"/></macro>
@@ -3335,7 +3336,6 @@
   <macro n="ant_antcog"><with-param v="Virgilio"/><with-param v="Virgìliu"/></macro>
 
   <macro n="noms_propis"><with-param v="Adalberto"/><with-param v="Adalbertu"/></macro>
-  <macro n="noms_propis"><with-param v="Alessandro"/><with-param v="Lisandru"/></macro>
   <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfonsu"/></macro>
   <macro n="noms_propis"><with-param v="Benedetto"/><with-param v="Beneitu"/></macro>
   <macro n="noms_propis"><with-param v="Bernardo"/><with-param v="Bernardu"/></macro>
