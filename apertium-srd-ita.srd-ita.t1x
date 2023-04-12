@@ -42,6 +42,7 @@
     </def-cat>
     <def-cat n="vbhaver_pri">
        <cat-item tags="vbhaver.pri.*"/>
+       <cat-item lemma="àere" tags="vblex.pri.*"/>
     </def-cat>
     <def-cat n="vbdare_prs">
        <cat-item lemma="dare" tags="vblex.prs.*"/>
