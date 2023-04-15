@@ -123,28 +123,28 @@
       </rule>
       <rule weight="1.0">
          <or>
-           <match lemma="papa" tags="n.*"/>
+           <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
-           <match lemma="vescovo" tags="n.*"/>
-           <match lemma="arcivescovo" tags="n.*"/>
-           <match lemma="santo" tags="adj.*"/>
-           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="pìscamu" tags="n.*"/>
+           <match lemma="arcarchmu" tags="n.*"/>
+           <match lemma="santu" tags="adj.*"/>
+           <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
-           <match lemma="arcangelo" tags="n.*"/>
-           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="arcànghelu" tags="n.*"/>
+           <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
-           <match lemma="zar" tags="n.*"/>
-           <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
-           <match lemma="principe" tags="n.*"/>
-           <match lemma="delfino" tags="n.*"/>
+           <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzeré" tags="n.*"/>
+           <match lemma="reghente" tags="n.*"/>
+           <match lemma="prìntzipe" tags="n.*"/>
+           <match lemma="delfinu" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
-           <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
-           <match lemma="margravo" tags="n.*"/>
+           <match lemma="archiduca" tags="n.*"/>
+           <match lemma="marchesu" tags="n.*"/>
+           <match lemma="margravu" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
          </or>
@@ -152,28 +152,28 @@
       </rule>
       <rule weight="1.0">
          <or>
-           <match lemma="papa" tags="n.*"/>
+           <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
-           <match lemma="vescovo" tags="n.*"/>
-           <match lemma="arcivescovo" tags="n.*"/>
-           <match lemma="santo" tags="adj.*"/>
-           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="pìscamu" tags="n.*"/>
+           <match lemma="archipìscamu" tags="n.*"/>
+           <match lemma="santu" tags="adj.*"/>
+           <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
-           <match lemma="arcangelo" tags="n.*"/>
-           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="arcànghelu" tags="n.*"/>
+           <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
-           <match lemma="zar" tags="n.*"/>
-           <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
-           <match lemma="principe" tags="n.*"/>
-           <match lemma="delfino" tags="n.*"/>
+           <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzeré" tags="n.*"/>
+           <match lemma="reghente" tags="n.*"/>
+           <match lemma="prìntzipe" tags="n.*"/>
+           <match lemma="delfinu" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
-           <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
-           <match lemma="margravo" tags="n.*"/>
+           <match lemma="archiduca" tags="n.*"/>
+           <match lemma="marchesu" tags="n.*"/>
+           <match lemma="margravu" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
          </or>
@@ -184,28 +184,28 @@
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="cm"/>
          <or>
-           <match lemma="papa" tags="n.*"/>
+           <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
-           <match lemma="vescovo" tags="n.*"/>
-           <match lemma="arcivescovo" tags="n.*"/>
-           <match lemma="santo" tags="adj.*"/>
-           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="pìscamu" tags="n.*"/>
+           <match lemma="archipìscamu" tags="n.*"/>
+           <match lemma="santu" tags="adj.*"/>
+           <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
-           <match lemma="arcangelo" tags="n.*"/>
-           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="arcànghelu" tags="n.*"/>
+           <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
-           <match lemma="zar" tags="n.*"/>
-           <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
-           <match lemma="principe" tags="n.*"/>
-           <match lemma="delfino" tags="n.*"/>
+           <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzeré" tags="n.*"/>
+           <match lemma="reghente" tags="n.*"/>
+           <match lemma="prìntzipe" tags="n.*"/>
+           <match lemma="delfinu" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
-           <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
-           <match lemma="margravo" tags="n.*"/>
+           <match lemma="archiduca" tags="n.*"/>
+           <match lemma="marchesu" tags="n.*"/>
+           <match lemma="margravu" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
          </or>
@@ -215,52 +215,54 @@
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="cm"/>
          <or>
-           <match lemma="papa" tags="n.*"/>
+           <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
-           <match lemma="vescovo" tags="n.*"/>
-           <match lemma="arcivescovo" tags="n.*"/>
-           <match lemma="santo" tags="adj.*"/>
-           <match lemma="apostolo" tags="n.*"/>
+           <match lemma="pìscamu" tags="n.*"/>
+           <match lemma="archipìscamu" tags="n.*"/>
+           <match lemma="santu" tags="adj.*"/>
+           <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
-           <match lemma="arcangelo" tags="n.*"/>
-           <match lemma="imperatore" tags="n.*"/>
+           <match lemma="arcànghelu" tags="n.*"/>
+           <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
-           <match lemma="zar" tags="n.*"/>
-           <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
-           <match lemma="principe" tags="n.*"/>
-           <match lemma="delfino" tags="n.*"/>
+           <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzeré" tags="n.*"/>
+           <match lemma="reghente" tags="n.*"/>
+           <match lemma="prìntzipe" tags="n.*"/>
+           <match lemma="delfinu" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
            <match lemma="visconte" tags="n.*"/>
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
-           <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
-           <match lemma="margravo" tags="n.*"/>
+           <match lemma="archiduca" tags="n.*"/>
+           <match lemma="marchesu" tags="n.*"/>
+           <match lemma="margravu" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
          </or>
       </rule>
       <rule weight="1.0">
          <or>
-           <match lemma="papato" tags="n.*"/>
-           <match lemma="pontificato" tags="n.*"/>
-           <match lemma="impero" tags="n.*"/>
-           <match lemma="regno" tags="n.*"/>
-           <match lemma="reggenza" tags="n.*"/>
-           <match lemma="vicereame" tags="n.*"/>
+           <match lemma="pabadu" tags="n.*"/>
+           <match lemma="pontificadu" tags="n.*"/>
+           <match lemma="imperu" tags="n.*"/>
+           <match lemma="impèriu" tags="n.*"/>
+           <match lemma="regnu" tags="n.*"/>
+           <match lemma="rennu" tags="n.*"/>
+           <match lemma="règhida" tags="n.*"/>
          </or>
          <match lemma="de" tags="pr"/>
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
-           <match lemma="papato" tags="n.*"/>
-           <match lemma="pontificato" tags="n.*"/>
-           <match lemma="impero" tags="n.*"/>
-           <match lemma="regno" tags="n.*"/>
-           <match lemma="reggenza" tags="n.*"/>
-           <match lemma="vicereame" tags="n.*"/>
+           <match lemma="pabadu" tags="n.*"/>
+           <match lemma="pontificadu" tags="n.*"/>
+           <match lemma="imperu" tags="n.*"/>
+           <match lemma="impèriu" tags="n.*"/>
+           <match lemma="regnu" tags="n.*"/>
+           <match lemma="rennu" tags="n.*"/>
+           <match lemma="règhida" tags="n.*"/>
          </or>
          <match lemma="de" tags="pr"/>
          <match tags="det.def.*"/>
@@ -268,12 +270,13 @@
       </rule>
       <rule weight="1.0">
          <or>
-           <match lemma="papato" tags="n.*"/>
-           <match lemma="pontificato" tags="n.*"/>
-           <match lemma="impero" tags="n.*"/>
-           <match lemma="regno" tags="n.*"/>
-           <match lemma="reggenza" tags="n.*"/>
-           <match lemma="vicereame" tags="n.*"/>
+           <match lemma="pabadu" tags="n.*"/>
+           <match lemma="pontificadu" tags="n.*"/>
+           <match lemma="imperu" tags="n.*"/>
+           <match lemma="impèriu" tags="n.*"/>
+           <match lemma="regnu" tags="n.*"/>
+           <match lemma="rennu" tags="n.*"/>
+           <match lemma="règhida" tags="n.*"/>
          </or>
          <match lemma="de" tags="pr"/>
          <match tags="np.ant.*"/>
@@ -283,7 +286,8 @@
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <or>
            <match lemma="regnare" tags="vblex.*"/>
-           <match lemma="governare" tags="vblex.*"/>
+           <match lemma="reinare" tags="vblex.*"/>
+           <match lemma="guvernare" tags="vblex.*"/>
          </or>
       </rule>
       <rule weight="1.0">
@@ -291,27 +295,30 @@
          <match tags="np.ant.*"/>
          <or>
            <match lemma="regnare" tags="vblex.*"/>
-           <match lemma="governare" tags="vblex.*"/>
+           <match lemma="reinare" tags="vblex.*"/>
+           <match lemma="guvernare" tags="vblex.*"/>
          </or>
       </rule>
       <rule weight="1.0">
          <or>
            <match lemma="regnare" tags="vblex.ger"/>
-           <match lemma="governare" tags="vblex.ger"/>
+           <match lemma="reinare" tags="vblex.ger"/>
+           <match lemma="guvernare" tags="vblex.ger"/>
          </or>
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
            <match lemma="regnare" tags="vblex.ger"/>
-           <match lemma="governare" tags="vblex.ger"/>
+           <match lemma="reinare" tags="vblex.ger"/>
+           <match lemma="guvernare" tags="vblex.ger"/>
          </or>
          <match tags="np.ant.*"/>
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
       <rule weight="1.0">
          <or>
-           <match lemma="vangelo" tags="n.*"/>
+           <match lemma="vangelu" tags="n.*"/>
            <match lemma="apocalisse" tags="n.*"/>
          </or>
          <or>

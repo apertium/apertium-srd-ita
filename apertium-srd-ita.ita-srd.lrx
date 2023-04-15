@@ -135,7 +135,7 @@
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
            <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
+           <match lemma="reggente" tags="n.*"/>
            <match lemma="principe" tags="n.*"/>
            <match lemma="delfino" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
@@ -143,7 +143,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
+           <match lemma="marchese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
@@ -164,7 +164,7 @@
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
            <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
+           <match lemma="reggente" tags="n.*"/>
            <match lemma="principe" tags="n.*"/>
            <match lemma="delfino" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
@@ -172,7 +172,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
+           <match lemma="marchese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
@@ -196,7 +196,7 @@
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
            <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
+           <match lemma="reggente" tags="n.*"/>
            <match lemma="principe" tags="n.*"/>
            <match lemma="delfino" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
@@ -204,7 +204,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
+           <match lemma="marchese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
@@ -227,7 +227,7 @@
            <match lemma="re" tags="n.*"/>
            <match lemma="zar" tags="n.*"/>
            <match lemma="viceré" tags="n.*"/>
-           <match lemma="reggent" tags="n.*"/>
+           <match lemma="reggente" tags="n.*"/>
            <match lemma="principe" tags="n.*"/>
            <match lemma="delfino" tags="n.*"/>
            <match lemma="conte" tags="n.*"/>
@@ -235,7 +235,7 @@
            <match lemma="duca" tags="n.*"/>
            <match lemma="granduca" tags="n.*"/>
            <match lemma="arciduca" tags="n.*"/>
-           <match lemma="marquese" tags="n.*"/>
+           <match lemma="marchese" tags="n.*"/>
            <match lemma="margravo" tags="n.*"/>
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
@@ -316,7 +316,7 @@
          </or>
          <or>
            <match lemma="di" tags="pr"/>
-           <match lemma="secondo" tags="pr"/>
+           <match lemma="segundu" tags="pr"/>
          </or>
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
