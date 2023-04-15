@@ -504,6 +504,17 @@
   </section-def-cats>
 
   <section-def-attrs>
+    <def-attr n="a_nom">
+      <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
+      <attr-item tags="np.ant"/>
+    </def-attr>
+    <def-attr n="a_np">
+      <attr-item tags="ant"/>
+      <attr-item tags="cog"/>
+      <attr-item tags="top"/>
+      <attr-item tags="al"/>
+    </def-attr>
    <def-attr n="a_num">
      <attr-item tags="num"/>
   </def-attr>

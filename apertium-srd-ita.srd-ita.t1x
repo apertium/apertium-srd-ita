@@ -166,6 +166,21 @@
     <def-cat n="rel">
        <cat-item tags="rel.*"/>
     </def-cat>
+    <def-cat n="cnjadv">
+       <cat-item tags="cnjadv"/>
+    </def-cat>
+    <def-cat n="cnjcoo">
+       <cat-item tags="cnjcoo"/>
+    </def-cat>
+    <def-cat n="cnjsub">
+       <cat-item tags="cnjsub"/>
+    </def-cat>
+    <def-cat n="cm">
+       <cat-item tags="cm"/>
+    </def-cat>
+    <def-cat n="sent">
+       <cat-item tags="sent"/>
+    </def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -4467,6 +4482,162 @@
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: cnjsub">
+       <pattern>
+         <pattern-item n="cnjsub"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cnjsub">
+             <tags>
+               <tag><lit-tag v="cnjsub"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: cnjcoo">
+       <pattern>
+         <pattern-item n="cnjcoo"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cnjcoo">
+             <tags>
+               <tag><lit-tag v="cnjcoo"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: cnjadv">
+       <pattern>
+         <pattern-item n="cnjadv"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cnjadv">
+             <tags>
+               <tag><lit-tag v="cnjadv"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: pr">
+       <pattern>
+         <pattern-item n="pr"/>
+       </pattern>
+       <action>
+	 <!-- per evitare: condizioni di navigabilità > cunditziones de navigabilidades -->
+	 <let><var n="genero"/><lit-tag v="m"/></let>
+	 <let><var n="numero"/><lit-tag v="sg"/></let>
+         <out>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: pr rel">
+       <pattern>
+         <pattern-item n="pr"/>
+         <pattern-item n="rel"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="rel">
+             <tags>
+               <tag><lit-tag v="rel"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: cm">
+       <pattern>
+         <pattern-item n="cm"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="cm">
+             <tags>
+               <tag><lit-tag v="cm"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: sent">
+       <pattern>
+         <pattern-item n="sent"/>
+       </pattern>
+       <action>
+	 <let><var n="genero"/><lit-tag v="m"/></let>
+	 <let><var n="numero"/><lit-tag v="sg"/></let>
+         <out>
+           <chunk name="sent">
+             <tags>
+               <tag><lit-tag v="sent"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="whole"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
