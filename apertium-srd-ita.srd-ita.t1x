@@ -4126,7 +4126,7 @@
 </rule>
 
 
-<rule comment="regla: lis verb (lis faeddo > parlo loro)">
+<rule comment="regla: lis verb (lis faeddo > parlo loro)">	<!-- TBD: tempos compostos ! -->
    <pattern>
      <pattern-item n="lis-pro"/>
      <pattern-item n="verb"/>
@@ -4134,26 +4134,26 @@
    <action>
      <out>
        <chunk name="v">
-	 <tags>
-	   <tag><lit-tag v="SV"/></tag>
-	 </tags>
-       <lu>
-	 <clip pos="2" side="tl" part="lemh"/>
-	 <clip pos="2" side="tl" part="tags"/>
-	 <clip pos="2" side="tl" part="lemq"/>
-       </lu>
+	     <tags>
+	       <tag><lit-tag v="SV"/></tag>
+	     </tags>
+         <lu>
+           <get-case-from pos="1">
+	         <clip pos="2" side="tl" part="lemh"/>
+           </get-case-from>
+	       <clip pos="2" side="tl" part="tags"/>
+	       <clip pos="2" side="tl" part="lemq"/>
+         </lu>
        </chunk>
        <b pos="1"/>
        <chunk name="tn">
-	 <tags>
-	   <tag><lit-tag v="SN"/></tag>
-	 </tags>
-       <lu>
-	 <clip pos="1" side="tl" part="lemh"/>
-	 <clip pos="1" side="tl" part="tags"/>
-	 <clip pos="1" side="tl" part="lemq"/>
-       </lu>
-     </chunk>
+	     <tags>
+	       <tag><lit-tag v="SN"/></tag>
+	     </tags>
+         <lu>
+           <lit v="lui"/><lit-tag v="prn.tn.p3.mf.pl"/>
+         </lu>
+       </chunk>
      </out>
    </action>
 </rule>
