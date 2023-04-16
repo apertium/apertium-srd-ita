@@ -346,7 +346,7 @@
 
 <rules>
 
-<!-- **************** PR **************** -->
+<!-- **************** PREP **************** -->
 
   <!-- a > a, per -->
   <rule weight="0.6">
@@ -358,10 +358,22 @@
     <match lemma="terra" tags="n.*"/>
   </rule>
 
-  <!-- de (pr) > di, da -->
+  <!-- de > di, da -->
   <rule weight="0.8">
     <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
   </rule>
+
+  <!-- dae > da, di -->
+  <rule weight="0.6">
+    <match lemma="dae" tags="pr"><select lemma="da" tags="pr"/></match>
+  </rule>
+<!--
+  <rule weight="1.0">
+    <match lemma="dae" tags="pr"><select lemma="da" tags="pr"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
+  </rule>
+-->
 
   <!-- in > in, a, da -->
   <rule weight="0.8">

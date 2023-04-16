@@ -1272,7 +1272,7 @@
     <match lemma="te" tags="prn.*"><select lemma="tene"/></match>
   </rule>
 
-<!-- **************** PR **************** -->
+<!-- **************** PREP **************** -->
 
   <!-- a > a, in -->
   <rule weight="0.8">
@@ -1898,6 +1898,37 @@
   <rule weight="0.6">
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
+
+  <rule weight="1.0">
+    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <seq n="mese"/>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.2">
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.4">
+    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match tags="det.def.m.sg"/>
+    <match tags="num"/>
+    <or>
+      <match lemma="a" tags="pr"/>
+      <match lemma="fino a" tags="pr"/>
+    </or>
+    <match tags="det.def.m.sg"/>
+  </rule>
+
   <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
