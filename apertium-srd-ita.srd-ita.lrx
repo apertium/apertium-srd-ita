@@ -380,6 +380,11 @@
     <match lemma="in" tags="pr"><select lemma="in"/></match>
   </rule>
 
+  <!-- a curtzu de > vicino a, circa -->
+  <rule weight="0.6">
+    <match lemma="a curtzu de" tags="pr"><select lemma="vicino a"/></match>
+  </rule>
+
 <!-- **************** PRN **************** -->
 
   <!-- bi (prn.pro.adv) > ci, vi -->
