@@ -161,7 +161,11 @@
     <def-cat n="a_beru">
        <cat-item lemma="a beru" tags="adv"/>
        <cat-item lemma="meda" tags="adv"/>
-       <cat-item lemma="meda" tags="adj.*"/> <!-- per recuperar errors en el tagger -->
+       <cat-item lemma="meda" tags="adj.mf.pl"/>	<!-- termines noos medas -->
+    </def-cat>
+    <def-cat n="prus_mancu">
+       <cat-item lemma="prus" tags="adv"/>
+       <cat-item lemma="mancu" tags="adv"/>
     </def-cat>
     <def-cat n="rel">
        <cat-item tags="rel.*"/>
@@ -3543,16 +3547,21 @@
              <tags>
                <tag><lit-tag v="SA"/></tag>
              </tags>
-           <lu>
-               <lit v="molto"/><lit-tag v="preadv"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="molto"/>
+               </get-case-from>
+               <lit-tag v="preadv"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+	         <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -3598,6 +3607,696 @@
              <clip pos="2" side="tl" part="lemh"/>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: nom adjec adjec a_beru (tzentros urbanos mannos meda > centri urbani molto grandi">
+       <pattern>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adj nom adjec a_beru">
+       <pattern>
+         <pattern-item n="adj"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+           <with-param pos="3"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det adjec a_beru">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf1">
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="det_adj">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+             <lu>
+	       <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <lit v="molto"/>
+               <lit-tag v="preadv"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+	       <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det nom adjec a_beru">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="det_n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det nom adjec adjec a_beru (los tzentros urbanos mannos meda > i centri urbani molto grandi)">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="det_n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="4"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det adjec nom adjec a_beru">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="3"/>
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="det_n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="4"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: prus_mancu adjec a_beru (prus mannos meda > molto più grandi)">
+       <pattern>
+         <pattern-item n="prus_mancu"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf1">
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="preadv_adj">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="molto"/>
+               </get-case-from>
+               <lit-tag v="preadv"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+	         <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+	       <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: nom prus_mancu adjec a_beru (tzentros prus mannos meda > centri molto più grandi)">
+       <pattern>
+         <pattern-item n="nom"/>
+         <pattern-item n="prus_mancu"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="3"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: nom adjec prus_mancu adjec a_beru (tzentros urbanos prus mannos meda > centri urbani molto più grandi)">
+       <pattern>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="prus_mancu"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="4"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det prus_mancu adjec a_beru">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="prus_mancu"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf1">
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="1" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="det_adj">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+             </tags>
+             <lu>
+	       <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <lit v="molto"/>
+               <lit-tag v="preadv"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+	       <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+	       <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det nom prus_mancu adjec a_beru">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="prus_mancu"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="2"/>
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="det_n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="4"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: det nom adjec prus_mancu adjec a_beru (los tzentros urbanos prus mannos meda > i centri urbani molto più grandi)">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="prus_mancu"/>
+         <pattern-item n="adjec"/>
+         <pattern-item n="a_beru"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="5"/>
+           <with-param pos="1"/>
+         </call-macro>
+<!--
+         <call-macro n="f_evitar_mf2">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+	  <let>
+	    <clip pos="2" side="tl" part="a_adj"/>
+	    <lit-tag v="adj.sup"/>
+	  </let>
+-->
+         <out>
+           <chunk name="det_n_adj">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+               <lit v="molto"/><lit-tag v="preadv"/>
+           </lu>
+           <b pos="4"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="5"/>
+           <lu>
+             <clip pos="5" side="tl" part="lemh"/>
+             <clip pos="5" side="tl" part="tags"/>
+             <clip pos="5" side="tl" part="lemq"/>
            </lu>
          </chunk>
          </out>
