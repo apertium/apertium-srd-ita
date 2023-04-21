@@ -423,6 +423,9 @@
   <macro n="noms_propis"><with-param v="Sistu"/><with-param v="Sisto"/></macro>
   <macro n="noms_propis"><with-param v="Tilipu"/><with-param v="Filippo"/></macro>
   <macro n="noms_propis"><with-param v="Ugu"/><with-param v="Ugo"/></macro>
+  <macro n="noms_propis"><with-param v="Zuanna"/><with-param v="Giovanna"/></macro>
+  <macro n="noms_propis"><with-param v="Zuanne"/><with-param v="Giovanni"/></macro>
+  <macro n="noms_propis"><with-param v="Zuanne Pàule"/><with-param v="Giovanni Paolo"/></macro>
 
 <!--
   <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Annìbale"/></macro>
