@@ -1176,6 +1176,10 @@
     <match lemma="come" tags="rel.*"><select lemma="comente a"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="come" tags="rel.*"><select lemma="comente"/></match>
+    <match tags="pr"/>
+  </rule>
+  <rule weight="1.0">
     <match tags="vblex.pp.*"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>
@@ -1666,6 +1670,10 @@
   <!-- come > comente, comente a, che a -->
   <rule weight="0.8">
     <match lemma="come" tags="pr"><select lemma="comente a"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="come" tags="pr"><select lemma="comente"/></match>
+    <match tags="pr"/>
   </rule>
   <rule weight="1.0">
     <or>
