@@ -536,6 +536,33 @@
      <attr-item tags="p2"/>
      <attr-item tags="p3"/>
   </def-attr>
+
+  <def-attr n="a_adj">
+    <attr-item tags="adj.ind"/>
+    <attr-item tags="adj.sup"/>
+    <attr-item tags="adj.itg"/>
+    <attr-item tags="adj.pos"/>
+    <attr-item tags="adj"/>
+    <attr-item tags="num"/> <!-- pels sègles: le XVe siècle > lo sègle XV -->
+  </def-attr>
+
+  <def-attr n="a_adjec">
+    <attr-item tags="adj.ind"/>
+    <attr-item tags="adj.sup"/>
+    <attr-item tags="adj.itg"/>
+    <attr-item tags="adj.pos"/>
+    <attr-item tags="adj"/>
+    <attr-item tags="vblex.pp"/>
+    <attr-item tags="vblex.tv.pp"/>
+    <attr-item tags="vblex.pron.pp"/>
+    <attr-item tags="vblex.nopron.pp"/>
+    <attr-item tags="vblex.non-pron.pp"/>
+    <attr-item tags="vbhaver.pp"/>
+    <attr-item tags="vbser.pp"/>
+    <attr-item tags="vbmod.pp"/>
+    <attr-item tags="num"/>
+  </def-attr>
+
   <def-attr n="a_adj_sup">
      <attr-item tags="adj.sup"/>
   </def-attr>
@@ -562,7 +589,7 @@
      <attr-item tags="vbser"/>
      <attr-item tags="vbhaver"/>
   </def-attr>
-  <def-attr n="a_tmp">
+  <def-attr n="temps">
      <attr-item tags="pri"/>
      <attr-item tags="prs"/>
      <attr-item tags="pii"/>
@@ -584,11 +611,14 @@
 <section-def-vars>
   <def-var n="genero" v="&lt;m&gt;"/>
   <def-var n="numero" v="&lt;sg&gt;"/>
+  <def-var n="genero_sl" v="&lt;m&gt;"/>
+  <def-var n="numero_sl" v="&lt;sg&gt;"/>
   <def-var n="concPrimero"/>
   <def-var n="concSegundo"/>
   <def-var n="concTercero"/>
   <def-var n="concCuarto"/>
   <def-var n="caseFirstWord"/>
+  <def-var n="chunkname"/>
   <def-var n="x"/>
   <def-var n="y"/>
   <def-var n="z"/>
@@ -706,6 +736,57 @@
 </section-def-lists>
 
 <section-def-macros>
+
+    <def-macro n="f_chunk_tags_gen" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_m"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_f"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+          </test>
+          <let><var n="genero_sl"/><lit-tag v="sl_mf"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_chunk_tags_nbr" npar="1">
+      <choose>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_sg"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_pl"/></let>
+        </when>
+        <when>
+          <test>
+            <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+          </test>
+          <let><var n="numero_sl"/><lit-tag v="sl_sp"/></let>
+        </when>
+      </choose>
+    </def-macro>
+
+    <def-macro n="f_chunk_tags" npar="1">
+      <call-macro n="f_chunk_tags_gen"><with-param pos="1"/></call-macro>
+      <call-macro n="f_chunk_tags_nbr"><with-param pos="1"/></call-macro>
+    </def-macro>
 
     <def-macro n="f_clean_post" npar="1" c="clean 'post' in 'adj.post' if it exists">
       <choose>
@@ -4112,7 +4193,7 @@
 	  <test>
 	    <and>
 	      <equal><clip pos="1" side="sl" part="lemh"/><lit v="ESSERE"/></equal>
-	      <equal><clip pos="1" side="sl" part="a_tmp"/><lit-tag v="pri"/></equal>
+	      <equal><clip pos="1" side="sl" part="temps"/><lit-tag v="pri"/></equal>
 	      <equal><clip pos="1" side="sl" part="pers"/><lit-tag v="p3"/></equal>
 	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
 	    </and>
@@ -8265,7 +8346,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="ifi"/>
 	    </equal>
 	  </test>
@@ -8304,7 +8385,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="fti"/>
 	    </equal>
 	  </test>
@@ -8348,7 +8429,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="cni"/>
 	    </equal>
 	  </test>
@@ -8435,7 +8516,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="ifi"/>
 	    </equal>
 	  </test>
@@ -8474,7 +8555,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="fti"/>
 	    </equal>
 	  </test>
@@ -8518,7 +8599,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="cni"/>
 	    </equal>
 	  </test>
@@ -8597,7 +8678,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="ifi"/>
 	    </equal>
 	  </test>
@@ -8642,7 +8723,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="fti"/>
 	    </equal>
 	  </test>
@@ -8692,7 +8773,7 @@
 	<when>
 	  <test>
 	    <equal>
-	      <clip pos="2" side="tl" part="a_tmp"/>
+	      <clip pos="2" side="tl" part="temps"/>
 	      <lit-tag v="cni"/>
 	    </equal>
 	  </test>
@@ -9957,7 +10038,7 @@
          <pattern-item n="imper"/>
        </pattern>
        <action>
-	 <let><clip pos="2" side="tl" part="a_tmp"/><lit-tag v="prs"/></let>
+	 <let><clip pos="2" side="tl" part="temps"/><lit-tag v="prs"/></let>
          <out>
            <chunk name="non_imper">
              <tags>
@@ -9986,7 +10067,7 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
-	 <let><clip pos="2" side="tl" part="a_tmp"/><lit-tag v="prs"/></let>
+	 <let><clip pos="2" side="tl" part="temps"/><lit-tag v="prs"/></let>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
            <chunk name="non_imper_enc">
@@ -10023,7 +10104,7 @@
          <pattern-item n="enc"/>
        </pattern>
        <action>
-	 <let><clip pos="2" side="tl" part="a_tmp"/><lit-tag v="prs"/></let>
+	 <let><clip pos="2" side="tl" part="temps"/><lit-tag v="prs"/></let>
          <call-macro n="f_li2bi">
            <with-param pos="3"/>
          </call-macro>
@@ -10559,7 +10640,7 @@
              <lu>
                <get-case-from pos="1"><lit v="torrare"/></get-case-from>
                <lit-tag v="vblex"/>
-               <clip pos="1" side="tl" part="a_tmp"/>
+               <clip pos="1" side="tl" part="temps"/>
                <clip pos="1" side="tl" part="pers"/>
                <clip pos="1" side="tl" part="gen"/>
                <clip pos="1" side="tl" part="nbr"/>
@@ -10601,7 +10682,7 @@
                <lu>
                  <get-case-from pos="1"><lit v="torrare"/></get-case-from>
                  <lit-tag v="vblex"/>
-                 <clip pos="1" side="tl" part="a_tmp"/>
+                 <clip pos="1" side="tl" part="temps"/>
                  <clip pos="1" side="tl" part="pers"/>
                  <clip pos="1" side="tl" part="gen"/>
                  <clip pos="1" side="tl" part="nbr"/>
@@ -10777,7 +10858,7 @@
              <lu>
                <get-case-from pos="1"><lit v="fàghere"/></get-case-from>
                <lit-tag v="vblex"/>
-               <clip pos="2" side="tl" part="a_tmp"/>
+               <clip pos="2" side="tl" part="temps"/>
                <clip pos="2" side="tl" part="pers"/>
                <clip pos="2" side="tl" part="gen"/>
                <clip pos="2" side="tl" part="nbr"/>
@@ -10814,7 +10895,7 @@
              <lu>
                <get-case-from pos="1"><lit v="fàghere"/></get-case-from>
                <lit-tag v="vblex"/>
-               <clip pos="3" side="tl" part="a_tmp"/>
+               <clip pos="3" side="tl" part="temps"/>
                <clip pos="3" side="tl" part="pers"/>
                <clip pos="3" side="tl" part="gen"/>
                <clip pos="3" side="tl" part="nbr"/>
@@ -11686,6 +11767,9 @@
          <call-macro n="f_concord1">
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
          <call-macro n="f_clean_post">
            <with-param pos="1"/>
          </call-macro>
@@ -11693,10 +11777,16 @@
            <chunk name="adj">
              <tags>
                <tag><lit-tag v="SA"/></tag>
+               <tag><clip pos="1" side="tl" part="gen"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="a_adjec"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
          </chunk>
@@ -11712,6 +11802,9 @@
          <call-macro n="f_concord1">
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
 	  <let>
 	    <clip pos="1" side="tl" part="a_adj_sup"/>
 	    <lit-tag v="adj"/>
@@ -11720,10 +11813,16 @@
            <chunk name="adjsup">
              <tags>
                <tag><lit-tag v="SA"/></tag>
+               <tag><clip pos="1" side="tl" part="gen"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="a_adjec"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
            <b/>
@@ -11739,10 +11838,13 @@
     <rule comment="regla: molto adjec > adjec meda">
        <pattern>
          <pattern-item n="molto_proprio"/>
-         <pattern-item n="adjec-adv"/>
+         <pattern-item n="adjec"/>
        </pattern>
        <action>
          <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_chunk_tags">
            <with-param pos="2"/>
          </call-macro>
          <call-macro n="f_clean_post">
@@ -11752,15 +11854,65 @@
            <chunk name="adj_meda">
              <tags>
                <tag><lit-tag v="SA"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
            <lu>
-             <clip pos="2" side="tl" part="lemh"/>
+             <get-case-from pos="1">
+               <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="a_adjec"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <get-case-from pos="2">
+               <clip pos="1" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: molto adv > adv meda">
+       <pattern>
+         <pattern-item n="molto_proprio"/>
+         <pattern-item n="adv"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="adv_meda">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+           <lu>
+             <get-case-from pos="1">
+               <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
              <clip pos="2" side="tl" part="tags"/>
              <clip pos="2" side="tl" part="lemq"/>
            </lu>
            <b pos="1"/>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
+             <get-case-from pos="2">
+               <clip pos="1" side="tl" part="lemh"/>
+             </get-case-from>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
@@ -11781,6 +11933,9 @@
            <with-param pos="2"/>
            <with-param pos="4"/>
          </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="2"/>
+         </call-macro>
          <call-macro n="f_clean_post">
            <with-param pos="2"/>
          </call-macro>
@@ -11791,10 +11946,18 @@
            <chunk name="adj_meda">
              <tags>
                <tag><lit-tag v="SA"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
            <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
+             <get-case-from pos="1">
+               <clip pos="2" side="tl" part="lemh"/>
+             </get-case-from>
+             <clip pos="2" side="tl" part="a_adjec"/>
+             <lit-tag v="2"/>
+             <lit-tag v="3"/>
              <clip pos="2" side="tl" part="lemq"/>
            </lu>
            <b pos="1"/>
@@ -11809,7 +11972,9 @@
            </lu>
            <b pos="3"/>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
+             <get-case-from pos="2">
+               <clip pos="1" side="tl" part="lemh"/>
+             </get-case-from>
              <clip pos="1" side="tl" part="tags"/>
              <clip pos="1" side="tl" part="lemq"/>
            </lu>
@@ -11959,10 +12124,13 @@
          <call-macro n="modif_case">
            <with-param pos="1"/>
          </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="v">
+           <chunk namefrom="chunkname">
              <tags>
                <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
