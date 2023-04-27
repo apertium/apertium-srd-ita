@@ -543,7 +543,6 @@
     <attr-item tags="adj.itg"/>
     <attr-item tags="adj.pos"/>
     <attr-item tags="adj"/>
-    <attr-item tags="num"/> <!-- pels sègles: le XVe siècle > lo sègle XV -->
   </def-attr>
 
   <def-attr n="a_adjec">
@@ -560,7 +559,6 @@
     <attr-item tags="vbhaver.pp"/>
     <attr-item tags="vbser.pp"/>
     <attr-item tags="vbmod.pp"/>
-    <attr-item tags="num"/>
   </def-attr>
 
   <def-attr n="a_adj_sup">
@@ -4241,6 +4239,39 @@
 
 <section-rules>
 
+<rule comment="regla: det np">
+  <pattern>
+    <pattern-item n="det"/>
+    <pattern-item n="np"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord2">
+      <with-param pos="2"/>
+      <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_chunk_tags">
+      <with-param pos="2"/>
+    </call-macro>
+    <out>
+      <chunk name="det-np">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="whole"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+
 <rule comment="regla: det nom: la casa > sa domo, el terç > su tres unu, un terç > su tres unu">
   <pattern>
     <pattern-item n="det"/>
@@ -4257,6 +4288,9 @@
     </call-macro>
     <call-macro n="f_concord_carchi2">
       <with-param pos="1"/>
+      <with-param pos="2"/>
+    </call-macro>
+    <call-macro n="f_chunk_tags">
       <with-param pos="2"/>
     </call-macro>
     <choose>
@@ -4277,6 +4311,10 @@
           <chunk name="det-nom-unu">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -4302,6 +4340,10 @@
           <chunk name="det-nom">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="tl" part="gen"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -4334,18 +4376,25 @@
        <with-param pos="2"/>
        <with-param pos="1"/>
      </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="2"/>
+     </call-macro>
      <choose>
        <when>
          <test>
            <and>
              <in><clip pos="1" side="sl" part="lemh"/><list n="numrom"/></in>
-	     <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="secolo"/></equal>
+	         <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
          <out>
            <chunk name="n_adjord">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
              <lu>
                <clip pos="2" side="tl" part="lemh"/>
@@ -4370,6 +4419,10 @@
            <chunk name="det_adjord_n">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
              <lu>
                <lit v="su"/>
@@ -4405,6 +4458,10 @@
            <chunk name="det-nom-num">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
              <lu>
                <get-case-from pos="1">
@@ -4434,19 +4491,23 @@
            <chunk name="num_n">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </otherwise>
      </choose>
@@ -4470,6 +4531,9 @@
      <call-macro n="f_concord_esp">
        <with-param pos="3"/>
        <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="3"/>
      </call-macro>
      <out>
        <chunk name="sent">
@@ -4498,9 +4562,12 @@
            <chunk name="n_adjord">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="3" side="tl" part="gen"/></tag>
+               <tag><clip pos="3" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
              <lu>
-
                <clip pos="3" side="tl" part="lemh"/>
                <clip pos="3" side="tl" part="tags"/>
                <clip pos="3" side="tl" part="lemq"/>
@@ -4523,6 +4590,10 @@
            <chunk name="det_adjord_n">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="3" side="tl" part="gen"/></tag>
+               <tag><clip pos="3" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
              <lu>
                <lit v="Su"/>
@@ -4558,6 +4629,10 @@
            <chunk name="det-nom-num">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="3" side="tl" part="gen"/></tag>
+               <tag><clip pos="3" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
              <lu>
                <get-case-from pos="2">
@@ -4587,6 +4662,10 @@
            <chunk name="num_n">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="3" side="tl" part="gen"/></tag>
+               <tag><clip pos="3" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
            <lu>
              <clip pos="2" side="tl" part="lemh"/>
@@ -4623,10 +4702,17 @@
            <with-param pos="2"/>
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="num_n">
              <tags>
                <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
              </tags>
              <lu>
                <clip pos="1" side="tl" part="whole"/>
@@ -11705,6 +11791,9 @@
     <call-macro n="f_concord1">
       <with-param pos="1"/>
     </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="1"/>
+     </call-macro>
     <choose>
       <when>
         <test>
@@ -11715,6 +11804,10 @@
           <chunk name="det-nom-unu">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
             <lu>
               <get-case-from pos="1">
@@ -11745,6 +11838,10 @@
           <chunk name="nom">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="tl" part="gen"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><var n="genero_sl"/></tag>
+              <tag><var n="numero_sl"/></tag>
             </tags>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
@@ -11758,6 +11855,29 @@
    </action>
 </rule>
 
+
+    <rule comment="regla: NP">
+       <pattern>
+         <pattern-item n="np"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="np">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
 
     <rule comment="regla: adjec">
        <pattern>
