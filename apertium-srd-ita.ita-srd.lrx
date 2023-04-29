@@ -1840,6 +1840,11 @@
     <match lemma="adottare" tags="vblex.*"/>
     <match lemma="per" tags="pr"><select lemma="pro"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match lemma="via" tags="n.*"/>
+    <match tags="adj.*"/>
+  </rule>
 
   <!-- tra > intre, tra -->
   <!-- fra > intre, tra -->

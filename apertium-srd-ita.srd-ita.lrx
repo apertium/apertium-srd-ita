@@ -375,9 +375,14 @@
   </rule>
 -->
 
-  <!-- in > in, a, da -->
+  <!-- in > in, a, da, per -->
   <rule weight="0.8">
     <match lemma="in" tags="pr"><select lemma="in"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"><select lemma="per" tags="pr"/></match>
+    <match lemma="via" tags="n.*"/>
+    <match tags="adj.*"/>
   </rule>
 
   <!-- a curtzu de > vicino a, circa -->
