@@ -819,15 +819,33 @@
           <let><clip pos="2" side="sl" part="tags"/><var n="y"/></let>
           <let><clip pos="2" side="sl" part="lemq"/><var n="z"/></let>
 
-          <let><var n="x"/><get-case-from pos="1"><clip pos="1" side="tl" part="lemh"/></get-case-from></let>
-          <let><var n="y"/><clip pos="1" side="tl" part="tags"/></let>
-          <let><var n="z"/><clip pos="1" side="tl" part="lemq"/></let>
-          <let><clip pos="1" side="tl" part="lemh"/><get-case-from pos="2"><clip pos="2" side="tl" part="lemh"/></get-case-from></let>
-          <let><clip pos="1" side="tl" part="tags"/><clip pos="2" side="tl" part="tags"/></let>
-          <let><clip pos="1" side="tl" part="lemq"/><clip pos="2" side="tl" part="lemq"/></let>
-          <let><clip pos="2" side="tl" part="lemh"/><var n="x"/></let>
-          <let><clip pos="2" side="tl" part="tags"/><var n="y"/></let>
-          <let><clip pos="2" side="tl" part="lemq"/><var n="z"/></let>
+          <choose>
+            <when>
+              <test>
+                <equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal>
+              </test>
+              <let><var n="x"/><get-case-from pos="1"><clip pos="1" side="tl" part="lemh"/></get-case-from></let>
+              <let><var n="y"/><clip pos="1" side="tl" part="tags"/></let>
+              <let><var n="z"/><clip pos="1" side="tl" part="lemq"/></let>
+              <let><clip pos="1" side="tl" part="lemh"/><get-case-from pos="2"><clip pos="2" side="tl" part="lemh"/></get-case-from></let>
+              <let><clip pos="1" side="tl" part="tags"/><clip pos="2" side="tl" part="tags"/></let>
+              <let><clip pos="1" side="tl" part="lemq"/><clip pos="2" side="tl" part="lemq"/></let>
+              <let><clip pos="2" side="tl" part="lemh"/><var n="x"/></let>
+              <let><clip pos="2" side="tl" part="tags"/><var n="y"/></let>
+              <let><clip pos="2" side="tl" part="lemq"/><var n="z"/></let>
+            </when>
+            <otherwise>
+              <let><var n="x"/><clip pos="1" side="tl" part="lemh"/></let>
+              <let><var n="y"/><clip pos="1" side="tl" part="tags"/></let>
+              <let><var n="z"/><clip pos="1" side="tl" part="lemq"/></let>
+              <let><clip pos="1" side="tl" part="lemh"/><clip pos="2" side="tl" part="lemh"/></let>
+              <let><clip pos="1" side="tl" part="tags"/><clip pos="2" side="tl" part="tags"/></let>
+              <let><clip pos="1" side="tl" part="lemq"/><clip pos="2" side="tl" part="lemq"/></let>
+              <let><clip pos="2" side="tl" part="lemh"/><var n="x"/></let>
+              <let><clip pos="2" side="tl" part="tags"/><var n="y"/></let>
+              <let><clip pos="2" side="tl" part="lemq"/><var n="z"/></let>
+            </otherwise>
+          </choose>
         </when>
         <otherwise>
           <let><clip pos="2" side="tl" part="a_adj_post"/><lit-tag v="adj"/></let>
@@ -11361,6 +11379,9 @@
       <with-param pos="3"/>
       <with-param pos="1"/>
     </call-macro>
+    <call-macro n="f_clean_post">
+      <with-param pos="3"/>
+    </call-macro>
     <out>
       <chunk name="num-n-adj">
         <tags>
@@ -11493,6 +11514,12 @@
       <with-param pos="3"/>
       <with-param pos="4"/>
       <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_clean_post">
+      <with-param pos="3"/>
+    </call-macro>
+    <call-macro n="f_clean_post">
+      <with-param pos="4"/>
     </call-macro>
     <out>
       <chunk name="num-n-adj-adj">
