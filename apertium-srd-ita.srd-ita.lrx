@@ -397,6 +397,13 @@
     <match lemma="bi" tags="prn.pro.adv"><select lemma="ci" tags="prn.pro.adv"/></match>
   </rule>
 
+<!-- **************** NOM **************** -->
+
+  <!-- die > giorno, giornata -->
+  <rule weight="0.8">
+    <match lemma="die" tags="n.*"><select lemma="giorno"/></match>
+  </rule>
+
 <!-- **************** NP **************** -->
 
   <macro n="ant_antcog"><with-param v="Lisandru"/><with-param v="Alessandro"/></macro>
