@@ -10,6 +10,7 @@
       <cat-item tags="SA"/>
       <cat-item tags="SA.*"/>
       <cat-item tags="SAcomp.*"/>
+      <cat-item tags="SV.*.pp.*"/>
     </def-cat>
     <def-cat n="SAdv">
       <cat-item tags="SAdv"/>
@@ -19,13 +20,22 @@
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
     </def-cat>
+    <def-cat n="Ser">
+      <cat-item tags="SV.vbser"/>
+      <cat-item tags="SV.vbser.*"/>
+    </def-cat>
     <def-cat n="SV_copulatiu">
       <cat-item tags="SV.vbser"/>
       <cat-item tags="SV.vbser.*"/>
-      <cat-item lemma="paréisser" tags="SV.*"/>
-      <cat-item lemma="paréisher" tags="SV.*"/>
-      <cat-item lemma="semblar" tags="SV.*"/>
-      <cat-item lemma="venir" tags="SV.*"/>
+      <cat-item lemma="sembrare" tags="SV.*"/>
+      <cat-item lemma="parere" tags="SV.*"/>
+      <cat-item lemma="stare" tags="SV.*"/>
+    </def-cat>
+    <def-cat n="SV_copulatiu_pp">
+      <cat-item tags="SV.vbser.pp.*"/>
+      <cat-item lemma="sembrare" tags="SV.vblex.pp.*"/>
+      <cat-item lemma="parere" tags="SV.vblex.pp.*"/>
+      <cat-item lemma="stare" tags="SV.vblex.pp.*"/>
     </def-cat>
     <def-cat n="PREP">
       <cat-item tags="pr"/>
@@ -381,7 +391,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: SN PREP SN SV_copulatiu SA: sas dies de Pietro sunt bellas > i giorni di Petro sono belli">
+    <rule comment="RÈGLA: SN PREP SN SV_copulatiu SA: sas dies de Pedru sunt bellas > i giorni di Pedru sono belli">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="PREP"/>
@@ -415,7 +425,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: SN PREP SN SV_copulatiu SAdv SA: sas dies de Pietro sunt semper bellas > i giorni di Petro sono sempre belli">
+    <rule comment="RÈGLA: SN PREP SN SV_copulatiu SAdv SA: sas dies de Pedru sunt semper bellas > i giorni di Pedru sono sempre belli">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="PREP"/>
@@ -449,6 +459,230 @@
           <b pos="5"/>
           <chunk>
             <clip pos="6" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SA: sa die est istada bella > lo giorno è stato bello">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SV_copulatiu_pp"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib4"><with-param pos="1"/><with-param pos="2"/><with-param pos="3"/><with-param pos="4"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SAdv SA: sa die est istada semper bella > lo giorno è stato sempre bello">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SV_copulatiu_pp"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib4"><with-param pos="1"/><with-param pos="2"/><with-param pos="3"/><with-param pos="5"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SN Ser SAdv SV_copulatiu_pp SA: sa die est semper istada bella > lo giorno è sempre stato bello">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SV_copulatiu_pp"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib4"><with-param pos="1"/><with-param pos="2"/><with-param pos="4"/><with-param pos="5"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SA: sas dies de Pedru sunt istadas bellas > i giorni di Pedru sono stati belli">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="PREP"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SV_copulatiu_pp"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib4"><with-param pos="1"/><with-param pos="2"/><with-param pos="5"/><with-param pos="6"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SAdv SA: sas dies de Pedru sunt istadas semper bellas > i giorni di Pedru sono stati sempre belli">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="PREP"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SV_copulatiu_pp"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib4"><with-param pos="1"/><with-param pos="2"/><with-param pos="5"/><with-param pos="7"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: SN Ser SAdv SV_copulatiu_pp SA: sas dies de Pedru sunt semper istadas bellas > i giorni di Pedru sono sempre stati belli">
+      <pattern>
+        <pattern-item n="SN"/>
+        <pattern-item n="PREP"/>
+        <pattern-item n="SN"/>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SV_copulatiu_pp"/>
+        <pattern-item n="SA"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib4"><with-param pos="1"/><with-param pos="2"/><with-param pos="6"/><with-param pos="7"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+          <b pos="4"/>
+          <chunk>
+            <clip pos="5" part="whole"/>
+          </chunk>
+          <b pos="5"/>
+          <chunk>
+            <clip pos="6" part="whole"/>
+          </chunk>
+          <b pos="6"/>
+          <chunk>
+            <clip pos="7" part="whole"/>
           </chunk>
         </out>
       </action>
