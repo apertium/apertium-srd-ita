@@ -43,12 +43,28 @@
     <def-cat n="vbhaver">
        <cat-item tags="vbhaver.*"/>
     </def-cat>
+    <def-cat n="aere">
+       <cat-item lemma="àere" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="aere_inf">
+       <cat-item lemma="àere" tags="vblex.inf"/>
+    </def-cat>
+    <def-cat n="aere_p3">
+       <cat-item lemma="àere" tags="vblex.*.p3.*"/>
+    </def-cat>
     <def-cat n="vbhaver_pri">
        <cat-item tags="vbhaver.pri.*"/>
        <cat-item lemma="àere" tags="vblex.pri.*"/>
     </def-cat>
+    <def-cat n="vbhaver_pri_p3">
+       <cat-item tags="vbhaver.pri.p3.*"/>
+       <cat-item lemma="àere" tags="vblex.pri.p3.*"/>
+    </def-cat>
     <def-cat n="vbdare_prs">
        <cat-item lemma="dare" tags="vblex.prs.*"/>
+    </def-cat>
+    <def-cat n="vbdare_prs_p3">
+       <cat-item lemma="dare" tags="vblex.prs.p3.*"/>
     </def-cat>
     <def-cat n="torrare">
        <cat-item lemma="torrare" tags="vblex.*"/>
@@ -6834,13 +6850,13 @@
 	 </tags>
        <lu>
          <get-case-from pos="1">
-	   <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="lemh"/>
          </get-case-from>
-	 <clip pos="3" side="tl" part="a_verb"/>
+         <clip pos="3" side="tl" part="a_verb"/>
          <lit-tag v="fti"/>
-	 <clip pos="1" side="tl" part="pers"/>
-	 <clip pos="1" side="tl" part="nbr"/>
-	 <clip pos="2" side="tl" part="lemq"/>
+         <clip pos="1" side="tl" part="pers"/>
+         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="2" side="tl" part="lemq"/>
        </lu>
        </chunk>
      </out>
@@ -6848,7 +6864,7 @@
 </rule>
 
 
-<rule comment="regla: vbdare_prs inf > fti (Dia fàghere > Farei)">
+<rule comment="regla: vbdare_prs inf > fti (Dia fàghere > Farebbe)">
    <pattern>
      <pattern-item n="vbdare_prs"/>
      <pattern-item n="inf"/>
@@ -6861,13 +6877,13 @@
 	 </tags>
        <lu>
          <get-case-from pos="1">
-	   <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="lemh"/>
          </get-case-from>
-	 <clip pos="2" side="tl" part="a_verb"/>
+         <clip pos="2" side="tl" part="a_verb"/>
          <lit-tag v="cni"/>
-	 <clip pos="1" side="tl" part="pers"/>
-	 <clip pos="1" side="tl" part="nbr"/>
-	 <clip pos="2" side="tl" part="lemq"/>
+         <clip pos="1" side="tl" part="pers"/>
+         <clip pos="1" side="tl" part="nbr"/>
+         <clip pos="2" side="tl" part="lemq"/>
        </lu>
        </chunk>
      </out>
@@ -7011,10 +7027,10 @@
     </rule>
 
 
-<rule comment="regla: bi + àere > ci + essere (B'at > C'è)">
+<rule comment="regla: bi + àere > ci + essere (b'at > c'è)">
    <pattern>
      <pattern-item n="bi-adv"/>
-     <pattern-item n="vbhaver"/>
+     <pattern-item n="aere_p3"/>
    </pattern>
    <action>
      <out>
@@ -7041,6 +7057,70 @@
    </action>
 </rule>
 
+<rule comment="regla: bi vbhaver_pri_p3 a inf > fti (b'at a àere > ci sarà)">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="vbhaver_pri_p3"/>
+     <pattern-item n="a_pr"/>
+     <pattern-item n="aere_inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+	     <tags>
+	       <tag><lit-tag v="SV"/></tag>
+	     </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <lit v="essere"/>
+           <lit-tag v="vbser"/>
+           <lit-tag v="fti"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: bi vbdare_prs_p3 inf > fti (bi diat àere > ci sarebbe)">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="vbdare_prs_p3"/>
+     <pattern-item n="aere_inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+	     <tags>
+	       <tag><lit-tag v="SV"/></tag>
+	     </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <lit v="essere"/>
+           <lit-tag v="vbser"/>
+           <lit-tag v="cni"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<!--
 <rule comment="regla: bi + àere + pp > ci + avere + pp">
    <pattern>
      <pattern-item n="bi-adv"/>
@@ -7074,6 +7154,7 @@
      </out>
    </action>
 </rule>
+-->
 
     <!-- multiparaules -->
 
