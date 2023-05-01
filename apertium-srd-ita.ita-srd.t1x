@@ -12295,10 +12295,11 @@
          <pattern-item n="adv-preadv"/>
        </pattern>
        <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="adv">
+           <chunk namefrom="chunkname">
              <tags>
-               <tag><lit-tag v="adv"/></tag>
+               <tag><lit-tag v="SAdv"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -12399,11 +12400,12 @@
          <pattern-item n="pr"/>
        </pattern>
        <action>
-	 <!-- per evitare: condizioni di navigabilità > cunditziones de navigabilidades -->
-	 <let><var n="genero"/><lit-tag v="m"/></let>
-	 <let><var n="numero"/><lit-tag v="sg"/></let>
+         <!-- per evitare: condizioni di navigabilità > cunditziones de navigabilidades -->
+         <let><var n="genero"/><lit-tag v="m"/></let>
+         <let><var n="numero"/><lit-tag v="sg"/></let>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="pr">
+           <chunk namefrom="chunkname">
              <tags>
                <tag><lit-tag v="pr"/></tag>
              </tags>
@@ -12426,8 +12428,9 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="pr">
+           <chunk namefrom="chunkname">
              <tags>
                <tag><lit-tag v="pr"/></tag>
              </tags>

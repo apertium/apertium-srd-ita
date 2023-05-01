@@ -274,7 +274,7 @@
      <attr-item tags="vbser"/>
      <attr-item tags="vbhaver"/>
   </def-attr>
-  <def-attr n="a_tmp">
+  <def-attr n="temps">
      <attr-item tags="pri"/>
      <attr-item tags="prs"/>
      <attr-item tags="pii"/>
@@ -294,6 +294,7 @@
   <def-var n="numero" v="&lt;sg&gt;"/>
   <def-var n="genero_sl" v="&lt;m&gt;"/>
   <def-var n="numero_sl" v="&lt;sg&gt;"/>
+  <def-var n="chunkname"/>
   <def-var n="concPrimero"/>
   <def-var n="concSegundo"/>
   <def-var n="concTercero"/>
@@ -6891,7 +6892,7 @@
 	   <clip pos="3" side="tl" part="lemh"/>
          </get-case-from>
 	 <clip pos="3" side="tl" part="a_verb"/>
-	 <clip pos="1" side="tl" part="a_tmp"/>
+	 <clip pos="1" side="tl" part="temps"/>
 	 <clip pos="1" side="tl" part="pers"/>
 	 <clip pos="1" side="tl" part="gen"/>
 	 <clip pos="1" side="tl" part="nbr"/>
@@ -6925,7 +6926,7 @@
 	     <clip pos="4" side="tl" part="lemh"/>
              </get-case-from>
 	   <clip pos="4" side="tl" part="a_verb"/>
-	   <clip pos="1" side="tl" part="a_tmp"/>
+	   <clip pos="1" side="tl" part="temps"/>
 	   <clip pos="1" side="tl" part="pers"/>
 	   <clip pos="1" side="tl" part="nbr"/>
 	   <clip pos="1" side="tl" part="gen"/>
@@ -7030,10 +7031,10 @@
        <lu>
          <lit v="essere"/>
          <lit-tag v="vbser"/>
-	 <clip pos="2" side="tl" part="a_tmp"/>
-	 <clip pos="2" side="tl" part="pers"/>
-	 <clip pos="2" side="tl" part="gen"/>
-	 <clip pos="2" side="tl" part="nbr"/>
+         <clip pos="2" side="tl" part="temps"/>
+         <clip pos="2" side="tl" part="pers"/>
+         <clip pos="2" side="tl" part="gen"/>
+         <clip pos="2" side="tl" part="nbr"/>
        </lu>
        </chunk>
      </out>
@@ -7105,10 +7106,13 @@
          <pattern-item n="verb"/>
        </pattern>
        <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="v">
+           <chunk namefrom="chunkname">
              <tags>
                <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -7126,10 +7130,11 @@
          <pattern-item n="adv"/>
        </pattern>
        <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="adv">
+           <chunk namefrom="chunkname">
              <tags>
-               <tag><lit-tag v="adv"/></tag>
+               <tag><lit-tag v="SAdv"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -7371,11 +7376,12 @@
          <pattern-item n="pr"/>
        </pattern>
        <action>
-	 <!-- per evitare: condizioni di navigabilità > cunditziones de navigabilidades -->
-	 <let><var n="genero"/><lit-tag v="m"/></let>
-	 <let><var n="numero"/><lit-tag v="sg"/></let>
+         <!-- per evitare: condizioni di navigabilità > cunditziones de navigabilidades -->
+         <let><var n="genero"/><lit-tag v="m"/></let>
+         <let><var n="numero"/><lit-tag v="sg"/></let>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="pr">
+           <chunk namefrom="chunkname">
              <tags>
                <tag><lit-tag v="pr"/></tag>
              </tags>
@@ -7398,8 +7404,9 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
          <out>
-           <chunk name="pr">
+           <chunk namefrom="chunkname">
              <tags>
                <tag><lit-tag v="pr"/></tag>
              </tags>
