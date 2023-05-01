@@ -404,6 +404,13 @@
     <match lemma="die" tags="n.*"><select lemma="giorno"/></match>
   </rule>
 
+<!-- **************** VBLEX **************** -->
+
+  <!-- pàrrere > sembrare, parrere -->
+  <rule weight="0.8">
+    <match lemma="pàrrere" tags="vblex.*"><select lemma="sembrare"/></match>
+  </rule>
+
 <!-- **************** NP **************** -->
 
   <macro n="ant_antcog"><with-param v="Lisandru"/><with-param v="Alessandro"/></macro>
