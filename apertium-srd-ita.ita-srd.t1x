@@ -10604,7 +10604,7 @@
          <out>
            <chunk name="così-adj/adv-come">
              <tags>
-               <tag><lit-tag v="SAdj"/></tag>
+               <tag><lit-tag v="SA"/></tag>
              </tags>
            <lu>
              <get-case-from pos="1">
@@ -10650,7 +10650,7 @@
          <out>
            <chunk name="adj/adv-come">
              <tags>
-               <tag><lit-tag v="SAdj"/></tag>
+               <tag><lit-tag v="SA"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -10693,7 +10693,7 @@
          <out>
            <chunk name="tanto-adj/adv-quanto">
              <tags>
-               <tag><lit-tag v="SAdj"/></tag>
+               <tag><lit-tag v="SA"/></tag>
              </tags>
            <lu>
              <get-case-from pos="1">
@@ -10737,7 +10737,7 @@
          <out>
            <chunk name="più-adj/adv-chi">
              <tags>
-               <tag><lit-tag v="SAdj"/></tag>
+               <tag><lit-tag v="SA"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -10779,7 +10779,7 @@
          <out>
            <chunk name="più-adj/adv-inf-chi">
              <tags>
-               <tag><lit-tag v="SAdj"/></tag>
+               <tag><lit-tag v="SA"/></tag>
              </tags>
            <lu>
              <clip pos="1" side="tl" part="lemh"/>
@@ -12102,9 +12102,48 @@
        </action>
     </rule>
 
-    <rule comment="regla: adjec">
+    <rule comment="regla: pp (tractament multiparaules)">
        <pattern>
-         <pattern-item n="adjec"/>
+         <pattern-item n="pp"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+               <tag><clip pos="1" side="tl" part="gen"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_adjec"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adjec-nopp">
+       <pattern>
+         <pattern-item n="adjec-nopp"/>
        </pattern>
        <action>
          <call-macro n="f_concord1">
