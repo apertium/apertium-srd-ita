@@ -310,6 +310,8 @@
   <def-var n="numero" v="&lt;sg&gt;"/>
   <def-var n="genero_sl" v="&lt;m&gt;"/>
   <def-var n="numero_sl" v="&lt;sg&gt;"/>
+  <def-var n="genero_tl" v="&lt;m&gt;"/>
+  <def-var n="numero_tl" v="&lt;sg&gt;"/>
   <def-var n="chunkname"/>
   <def-var n="concPrimero"/>
   <def-var n="concSegundo"/>
@@ -390,6 +392,8 @@
     </def-macro>
 
     <def-macro n="f_reord_adj" npar="3" c="par1=n, par2=adj, par3=NP first word: interchange par1 and par2; if par3 = par1, first word in caps if it is in caps">
+      <let><var n="genero_tl"/><clip pos="1" side="tl" part="gen"/></let>	<!-- we need to get the gen & nbr of the noun because it may change its position -->
+      <let><var n="numero_tl"/><clip pos="1" side="tl" part="nbr"/></let>
       <choose>
         <when>
           <test>
@@ -458,6 +462,8 @@
     </def-macro>
 
     <def-macro n="f_reord_adj3" npar="3" c="par1=n, par2=adj par3=adj: put par3 at the beginning if it is adj.pre">
+      <let><var n="genero_tl"/><clip pos="1" side="tl" part="gen"/></let>	<!-- we need to get the gen & nbr of the noun because it may change its position -->
+      <let><var n="numero_tl"/><clip pos="1" side="tl" part="nbr"/></let>
       <choose>
         <when>
           <test>
@@ -502,6 +508,8 @@
     </def-macro>
 
     <def-macro n="f_reord_adj4" npar="4" c="par1=n, par2=adj par3=adj par4=adj: put par4 at the beginning if it is adj.pre">
+      <let><var n="genero_tl"/><clip pos="1" side="tl" part="gen"/></let>	<!-- we need to get the gen & nbr of the noun because it may change its position -->
+      <let><var n="numero_tl"/><clip pos="1" side="tl" part="nbr"/></let>
       <choose>
         <when>
           <test>
@@ -3932,8 +3940,8 @@
            <chunk name="n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="1" side="tl" part="gen"/></tag>
-               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -3978,8 +3986,8 @@
            <chunk name="n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="1" side="tl" part="gen"/></tag>
-               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -4086,8 +4094,8 @@
            <chunk name="n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="1" side="tl" part="gen"/></tag>
-               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -4257,8 +4265,8 @@
        <chunk name="det-pos-nom-adj">
          <tags>
            <tag><lit-tag v="SN"/></tag>
-           <tag><clip pos="2" side="tl" part="gen"/></tag>
-           <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_tl"/></tag>
+           <tag><var n="numero_tl"/></tag>
            <tag><var n="genero_sl"/></tag>
            <tag><var n="numero_sl"/></tag>
          </tags>
@@ -4317,8 +4325,8 @@
        <chunk name="det-pos-nom-adj">
          <tags>
            <tag><lit-tag v="SN"/></tag>
-           <tag><clip pos="2" side="tl" part="gen"/></tag>
-           <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_tl"/></tag>
+           <tag><var n="numero_tl"/></tag>
            <tag><var n="genero_sl"/></tag>
            <tag><var n="numero_sl"/></tag>
          </tags>
@@ -4379,8 +4387,8 @@
        <chunk name="det-pos-nom-adj">
          <tags>
            <tag><lit-tag v="SN"/></tag>
-           <tag><clip pos="2" side="tl" part="gen"/></tag>
-           <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_tl"/></tag>
+           <tag><var n="numero_tl"/></tag>
            <tag><var n="genero_sl"/></tag>
            <tag><var n="numero_sl"/></tag>
          </tags>
@@ -4769,8 +4777,8 @@
            <chunk name="det_n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="2" side="tl" part="gen"/></tag>
-               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -4823,8 +4831,8 @@
            <chunk name="det_n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="2" side="tl" part="gen"/></tag>
-               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -4947,8 +4955,8 @@
            <chunk name="det_n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="2" side="tl" part="gen"/></tag>
-               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -5133,8 +5141,8 @@
            <chunk name="num_n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="2" side="tl" part="gen"/></tag>
-               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -5187,8 +5195,8 @@
            <chunk name="num_n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="2" side="tl" part="gen"/></tag>
-               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -5311,8 +5319,8 @@
            <chunk name="num_n_adj">
              <tags>
                <tag><lit-tag v="SN"/></tag>
-               <tag><clip pos="2" side="tl" part="gen"/></tag>
-               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
@@ -6817,8 +6825,8 @@
        <chunk name="det-pos-nom-adj">
          <tags>
            <tag><lit-tag v="SN"/></tag>
-           <tag><clip pos="3" side="tl" part="gen"/></tag>
-           <tag><clip pos="3" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_tl"/></tag>
+           <tag><var n="numero_tl"/></tag>
            <tag><var n="genero_sl"/></tag>
            <tag><var n="numero_sl"/></tag>
          </tags>
@@ -6885,8 +6893,8 @@
        <chunk name="det-pos-nom-adj">
          <tags>
            <tag><lit-tag v="SN"/></tag>
-           <tag><clip pos="3" side="tl" part="gen"/></tag>
-           <tag><clip pos="3" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_tl"/></tag>
+           <tag><var n="numero_tl"/></tag>
            <tag><var n="genero_sl"/></tag>
            <tag><var n="numero_sl"/></tag>
          </tags>
