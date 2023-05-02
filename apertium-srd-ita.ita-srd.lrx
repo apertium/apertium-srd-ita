@@ -2524,6 +2524,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- avaro > asuridu, àvaru -->
+  <rule weight="0.6">
+    <match lemma="avaro" tags="n.*"><select lemma="asuridu"/></match>
+  </rule>
+
   <!-- campagna > sartu, campagna -->
   <rule weight="0.6">
     <match lemma="campagna" tags="n.*"><select lemma="sartu"/></match>
@@ -3238,6 +3243,11 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- avaro > asuridu, àvaru -->
+  <rule weight="0.8">
+    <match lemma="avaro" tags="adj.*"><select lemma="asuridu"/></match>
+  </rule>
 
   <!-- superbo > mannosu, superbu -->
   <rule weight="0.8">
