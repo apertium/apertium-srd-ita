@@ -2524,6 +2524,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- sentimento > sentimentu, sentidu -->
+  <rule weight="0.6">
+    <match lemma="sentimento" tags="n.*"><select lemma="sentimentu"/></match>
+  </rule>
+
   <!-- avaro > asuridu, àvaru -->
   <rule weight="0.6">
     <match lemma="avaro" tags="n.*"><select lemma="asuridu"/></match>
