@@ -409,6 +409,13 @@
     <match lemma="sentidu" tags="n.*"><select lemma="senso"/></match>
   </rule>
 
+<!-- **************** ADV **************** -->
+
+  <!-- belle > circa, ... -->
+  <rule weight="0.8">
+    <match lemma="belle" tags="adv"><select lemma="circa"/></match>
+  </rule>
+
 <!-- **************** VBLEX **************** -->
 
   <!-- pàrrere > sembrare, parrere -->

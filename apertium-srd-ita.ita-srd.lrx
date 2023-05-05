@@ -3259,6 +3259,15 @@
     <match lemma="avaro" tags="adj.*"><select lemma="asuridu"/></match>
   </rule>
 
+  <!-- molto > meda, meda_post -->
+  <rule weight="0.8">
+    <match lemma="molto" tags="adj.*"><select lemma="meda"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="molto" tags="adj.*"><select lemma="meda_post"/></match>
+    <match tags="n.*"/>
+  </rule>
+
   <!-- superbo > mannosu, superbu -->
   <rule weight="0.8">
     <match lemma="superbo" tags="adj.*"><select lemma="mannosu"/></match>
@@ -3384,6 +3393,7 @@
   <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Annìbale"/></macro>
   <macro n="ant_antcog"><with-param v="Attila"/><with-param v="Àtila"/></macro>
   <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="Augustu"/></macro>
+  <macro n="ant_antcog"><with-param v="Aureliano"/><with-param v="Aurelianu"/></macro>
   <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisàriu"/></macro>
   <macro n="ant_antcog"><with-param v="Cesare"/><with-param v="Tzèsare"/></macro>
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Tzitzerone"/></macro>
