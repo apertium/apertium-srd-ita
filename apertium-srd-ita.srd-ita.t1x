@@ -37,11 +37,14 @@
        <cat-item tags="vbhaver.*"/>
        <cat-item tags="vblex.*"/>
     </def-cat>
-    <def-cat n="vbmod">
-       <cat-item tags="vbmod.*"/>
+    <def-cat n="vbser">
+       <cat-item tags="vbser.*"/>
     </def-cat>
     <def-cat n="vbhaver">
        <cat-item tags="vbhaver.*"/>
+    </def-cat>
+    <def-cat n="vbmod">
+       <cat-item tags="vbmod.*"/>
     </def-cat>
     <def-cat n="aere">
        <cat-item lemma="àere" tags="vblex.*"/>
@@ -65,6 +68,9 @@
     </def-cat>
     <def-cat n="vbdare_prs_p3">
        <cat-item lemma="dare" tags="vblex.prs.p3.*"/>
+    </def-cat>
+    <def-cat n="istare_pp">
+       <cat-item lemma="istare" tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="torrare">
        <cat-item lemma="torrare" tags="vblex.*"/>
@@ -3529,6 +3535,23 @@
   </choose>
 </def-macro>
 
+    <def-macro n="f_bcond" npar="2"><!--Per mirar si el blanc conté o no format. Cal posar aquesta funció en les regles en què desaparegui alguna paraula, per tal de decidir si el blanc de la paraula eliminada s'ha d'eliminar o conservar. Si conté format cal conservar-la, si no en conté cal eliminar-la perquè no apareguin dos espais seguits. -->
+      <choose>
+        <when>
+          <test>
+            <not>
+              <equal>
+                <b pos="1"/>
+                <lit v=" "/>
+              </equal>
+            </not>
+          </test>
+          <out>
+            <b pos="1"/>
+          </out>
+        </when>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
 <section-rules>
@@ -7138,7 +7161,7 @@
 </rule>
 
 
-<rule comment="regla: vbdare_prs inf > fti (Dia fàghere > Farebbe)">
+<rule comment="regla: vbdare_prs inf > cni (Dia fàghere > Farebbe)">
    <pattern>
      <pattern-item n="vbdare_prs"/>
      <pattern-item n="inf"/>
@@ -7164,6 +7187,62 @@
    </action>
 </rule>
 
+
+<!--
+<rule comment="regla: vbser istare_pp pp > vbser pp">
+   <pattern>
+     <pattern-item n="vbser"/>
+     <pattern-item n="istare_pp"/>
+     <pattern-item n="pp"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="3"/>
+     </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="3"/>
+     </call-macro>
+     <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="chunkname">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+           <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+           <tag><clip pos="1" side="tl" part="temps"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+       <b pos="1"/>
+     </out>
+     <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+     <let><var n="chunkname"/><clip pos="3" side="tl" part="lem"/></let>
+     <out>
+       <chunk namefrom="chunkname">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+           <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+           <tag><clip pos="3" side="tl" part="temps"/></tag>
+           <tag><clip pos="3" side="tl" part="gen"/></tag>
+           <tag><clip pos="3" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_sl"/></tag>
+           <tag><var n="numero_sl"/></tag>
+         </tags>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_adjec"/>
+           <lit-tag v="4"/>
+           <lit-tag v="5"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+-->
 
 <rule comment="regla: torrare a inf > vb di nuovo (Torrat a chircare > Cerca di nuovo)">
    <pattern>
