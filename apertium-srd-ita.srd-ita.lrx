@@ -441,6 +441,8 @@
   <macro n="noms_propis"><with-param v="Giuanna"/><with-param v="Giovanna"/></macro>
   <macro n="noms_propis"><with-param v="Giuanne"/><with-param v="Giovanni"/></macro>
   <macro n="noms_propis"><with-param v="Giuanne Pàule"/><with-param v="Giovanni Paolo"/></macro>
+  <macro n="noms_propis"><with-param v="Giacu"/><with-param v="Giacomo"/></macro>
+  <macro n="noms_propis"><with-param v="Giagu"/><with-param v="Giacomo"/></macro>
   <macro n="noms_propis"><with-param v="Gregòriu"/><with-param v="Gregorio"/></macro>
   <macro n="noms_propis"><with-param v="Gofredu"/><with-param v="Goffredo"/></macro>
   <macro n="noms_propis"><with-param v="Innocentzu"/><with-param v="Innocenzo"/></macro>
@@ -480,7 +482,6 @@
   <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfonsu"/></macro>
   <macro n="noms_propis"><with-param v="Ciro"/><with-param v="Tziru"/></macro>
   <macro n="noms_propis"><with-param v="Dario"/><with-param v="Dariu"/></macro>
-  <macro n="noms_propis"><with-param v="Giacomo"/><with-param v="Giacu"/></macro>
   <macro n="noms_propis"><with-param v="Giulio"/><with-param v="Giùliu"/></macro>
   <macro n="noms_propis"><with-param v="Giuseppe"/><with-param v="Giosepe"/></macro>
   <macro n="noms_propis"><with-param v="Guglielmo"/><with-param v="Gullielmu"/></macro>
