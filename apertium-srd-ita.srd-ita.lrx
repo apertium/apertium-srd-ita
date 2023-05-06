@@ -409,6 +409,13 @@
     <match lemma="sentidu" tags="n.*"><select lemma="senso"/></match>
   </rule>
 
+<!-- **************** ADJ **************** -->
+
+  <!-- cale > che, quale -->
+  <rule weight="0.8">
+    <match lemma="cale" tags="adj.*"><select lemma="che"/></match>
+  </rule>
+
 <!-- **************** ADV **************** -->
 
   <!-- belle > circa, ... -->
@@ -446,6 +453,7 @@
   <macro n="noms_propis"><with-param v="Gregòriu"/><with-param v="Gregorio"/></macro>
   <macro n="noms_propis"><with-param v="Gofredu"/><with-param v="Goffredo"/></macro>
   <macro n="noms_propis"><with-param v="Innocentzu"/><with-param v="Innocenzo"/></macro>
+  <macro n="noms_propis"><with-param v="Jacu"/><with-param v="Giacomo"/></macro>
   <macro n="noms_propis"><with-param v="Lughia"/><with-param v="Lucia"/></macro>
   <macro n="noms_propis"><with-param v="Luisi"/><with-param v="Luigi"/></macro>
   <macro n="noms_propis"><with-param v="Mateu"/><with-param v="Matteo"/></macro>
