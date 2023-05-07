@@ -9210,10 +9210,10 @@
          <test>
            <or>
              <in caseless="yes"><clip pos="2" side="tl" part="lemh"/><list n="vbambser"/></in>
-	     <and>
-	       <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="torrare"/></equal>
-	       <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
-	     </and>
+             <and>
+               <equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="torrare"/></equal>
+               <equal><clip pos="2" side="tl" part="lemq"/><lit v=""/></equal>
+             </and>
              <and>
                <not><equal><clip pos="2" side="sl" part="pers"/><lit-tag v="p3"/></equal></not>
                <equal><clip pos="1" side="sl" part="pers"/><clip pos="2" side="sl" part="pers"/></equal>
@@ -9229,26 +9229,45 @@
            </or>
          </test>
          <out>
-           <chunk name="èssere_pp">
+           <chunk name="èssere">
              <tags>
                <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbser"/></tag>
+               <tag><lit-tag v="pii"/></tag>
              </tags>
-               <lu>
-                 <get-case-from pos="2">
-                   <lit v="èssere"/>
-                 </get-case-from>
-                 <lit-tag v="vbser.pii"/>
-                 <clip pos="2" side="tl" part="pers"/>
-                 <clip pos="2" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
-                 <clip pos="2" side="tl" part="a_verb"/>
-                 <lit-tag v="pp.m"/>				<!-- FIXME: depèn del gènere i nombre del subjecte -->
-                 <clip pos="2" side="tl" part="nbr"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.pii"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="GD"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
            </chunk>
          </out>
        </when>
@@ -9299,26 +9318,45 @@
            </or>
          </test>
          <out>
-           <chunk name="èssere_pp">
+           <chunk name="èssere">
              <tags>
                <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbser"/></tag>
+               <tag><lit-tag v="pii"/></tag>
              </tags>
-               <lu>
-                 <get-case-from pos="1">
-                   <lit v="èssere"/>
-                 </get-case-from>
-                 <lit-tag v="vbser.pii"/>
-                 <clip pos="1" side="tl" part="pers"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="a_verb"/>
-                 <lit-tag v="pp.m"/>				<!-- FIXME: depèn del gènere i nombre del subjecte -->
-                 <clip pos="1" side="tl" part="nbr"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="GD"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
            </chunk>
          </out>
        </when>
