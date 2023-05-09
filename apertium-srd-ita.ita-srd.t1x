@@ -266,6 +266,9 @@
        <cat-item tags="adj.ind.m.*"/>
        <cat-item tags="adj.ind.f.*"/>
        <cat-item tags="adj.ind.mf.*"/>
+       <cat-item tags="adj.itg.m.*"/>
+       <cat-item tags="adj.itg.f.*"/>
+       <cat-item tags="adj.itg.mf.*"/>
 <!--       <cat-item tags="adj.ord.*"/> -->
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
@@ -276,6 +279,9 @@
        <cat-item tags="adj.ind.m.*"/>
        <cat-item tags="adj.ind.f.*"/>
        <cat-item tags="adj.ind.mf.*"/>
+       <cat-item tags="adj.itg.m.*"/>
+       <cat-item tags="adj.itg.f.*"/>
+       <cat-item tags="adj.itg.mf.*"/>
 <!--       <cat-item tags="adj.ord.*"/> -->
     </def-cat>
     <def-cat n="adjec-adv">
@@ -285,6 +291,9 @@
        <cat-item tags="adj.ind.m.*"/>
        <cat-item tags="adj.ind.f.*"/>
        <cat-item tags="adj.ind.mf.*"/>
+       <cat-item tags="adj.itg.m.*"/>
+       <cat-item tags="adj.itg.f.*"/>
+       <cat-item tags="adj.itg.mf.*"/>
 <!--       <cat-item tags="adj.ord.*"/> -->
        <cat-item tags="vblex.pp.*"/>
        <cat-item tags="adv"/>
