@@ -399,6 +399,11 @@
 
 <!-- **************** NOM **************** -->
 
+  <!-- movimentu > movimento, moto -->
+  <rule weight="0.8">
+    <match lemma="movimentu" tags="n.*"><select lemma="movimento"/></match>
+  </rule>
+
   <!-- die > giorno, giornata -->
   <rule weight="0.8">
     <match lemma="die" tags="n.*"><select lemma="giorno"/></match>
@@ -417,6 +422,11 @@
   </rule>
 
 <!-- **************** ADV **************** -->
+
+  <!-- meda > molto, assai -->
+  <rule weight="0.8">
+    <match lemma="meda" tags="adv"><select lemma="molto"/></match>
+  </rule>
 
   <!-- belle > circa, ... -->
   <rule weight="0.8">
