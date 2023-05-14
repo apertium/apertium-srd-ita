@@ -2586,9 +2586,9 @@
     <match lemma="che"/>
   </rule>
 
-  <!-- parte > banda, parte, ala, chirru -->
+  <!-- parte > parte, ala, banda, chirru -->
   <rule weight="0.6">
-    <match lemma="parte" tags="n.*"><select lemma="fine"/></match>
+    <match lemma="parte" tags="n.*"><select lemma="parte"/></match>
   </rule>
   <rule weight="1.0">
     <or>
