@@ -22,6 +22,9 @@
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="detdefpl">
+       <cat-item tags="det.def.*.pl"/>
+    </def-cat>
     <def-cat n="unos_det">
        <cat-item lemma="unu" tags="det.ind.*.pl"/>
     </def-cat>
@@ -34,6 +37,9 @@
     </def-cat>
     <def-cat n="a_pr">
        <cat-item lemma="a" tags="pr"/>
+    </def-cat>
+    <def-cat n="de_pr">
+       <cat-item lemma="de" tags="pr"/>
     </def-cat>
     <def-cat n="verb">
        <cat-item tags="vbmod.*"/>
@@ -3534,7 +3540,7 @@
       </choose>
     </def-macro>
 
-<def-macro n="set_sg" npar="2"> <!-- posa pos2 en sg si po1 és en sg -->
+<def-macro n="set_sg" npar="2"> <!-- posa pos2 en sg si pos1 és en sg -->
   <choose>
         <when>
           <test>
@@ -4916,6 +4922,85 @@
    </action>
 </rule>
 
+
+<rule comment="regla: det ord de detdefpl nom adjpos: sa de tres de sas domos meas > la mia terza casa">
+   <pattern>
+     <pattern-item n="det"/>
+     <pattern-item n="adjord"/>
+     <pattern-item n="de_pr"/>
+     <pattern-item n="detdefpl"/>
+     <pattern-item n="nom"/>
+     <pattern-item n="adjpos"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="2"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <call-macro n="f_concord3">
+       <with-param pos="5"/>
+       <with-param pos="4"/>
+       <with-param pos="6"/>
+     </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="5"/>
+     </call-macro>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="4"/>
+     </call-macro>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="5"/>
+     </call-macro>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="6"/>
+     </call-macro>
+     <out>
+       <chunk name="det-ord-nom">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><clip pos="5" side="tl" part="gen"/></tag>
+           <tag><clip pos="5" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_sl"/></tag>
+           <tag><var n="numero_sl"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="6" side="tl" part="lemh"/>
+           <clip pos="6" side="tl" part="tags"/>
+           <clip pos="6" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="5" side="tl" part="lemh"/>
+           <clip pos="5" side="tl" part="tags"/>
+           <clip pos="5" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
 
     <rule comment="regla: det adj nom">
        <pattern>
