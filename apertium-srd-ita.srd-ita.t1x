@@ -65,6 +65,15 @@
     <def-cat n="aere_p3">
        <cat-item lemma="àere" tags="vblex.*.p3.*"/>
     </def-cat>
+    <def-cat n="chèrrere">
+       <cat-item lemma="chèrrere" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="chèrrere_pri">
+       <cat-item lemma="chèrrere" tags="vblex.pri.*"/>
+    </def-cat>
+    <def-cat n="chèrrere_pii">
+       <cat-item lemma="chèrrere" tags="vblex.pii.*"/>
+    </def-cat>
     <def-cat n="vbhaver_pri">
        <cat-item tags="vbhaver.pri.*"/>
        <cat-item lemma="àere" tags="vblex.pri.*"/>
@@ -7547,6 +7556,98 @@
          <clip pos="1" side="tl" part="nbr"/>
          <clip pos="2" side="tl" part="lemq"/>
        </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: chèrrere_pri a inf > volere che si prs.p3.sg (cheret a fàghere > vuole che si faccia)">
+   <pattern>
+     <pattern-item n="chèrrere_pri"/>
+     <pattern-item n="a_pr"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <get-case-from pos="3">
+             <lit v="che"/>
+           </get-case-from>
+           <lit-tag v="cnjsub"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <get-case-from pos="3">
+             <lit v="si"/>
+           </get-case-from>
+           <lit-tag v="prn.pro.ref.p3.mf.sp"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_verb"/>
+           <lit-tag v="prs"/>
+           <lit-tag v="p3"/>
+           <lit-tag v="sg"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: chèrrere_pii a inf > volere che si pis.p3.sg (cheriat a fàghere > voleva che si facesse)">
+   <pattern>
+     <pattern-item n="chèrrere_pii"/>
+     <pattern-item n="a_pr"/>
+     <pattern-item n="inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <get-case-from pos="3">
+             <lit v="che"/>
+           </get-case-from>
+           <lit-tag v="cnjsub"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <get-case-from pos="3">
+             <lit v="si"/>
+           </get-case-from>
+           <lit-tag v="prn.pro.ref.p3.mf.sp"/>
+         </lu>
+         <b/>
+         <lu>
+           <clip pos="3" side="tl" part="lemh"/>
+           <clip pos="3" side="tl" part="a_verb"/>
+           <lit-tag v="pis"/>
+           <lit-tag v="p3"/>
+           <lit-tag v="sg"/>
+           <clip pos="3" side="tl" part="lemq"/>
+         </lu>
        </chunk>
      </out>
    </action>
