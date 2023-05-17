@@ -2031,6 +2031,20 @@
       <match tags="np.cog.*"/>
     </or>
   </rule>
+  <rule weight="1.2">
+    <or>
+      <match tags="vbser.*"/>
+      <match lemma="andare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+    <repeat from="0" upto="2">
+      <match tags="prn.pro.*"/>
+    </repeat>
+    <match tags="*.inf"/>
+  </rule>
 
   <rule weight="1.2">
     <match lemma="da" tags="pr"><select lemma="dae"/></match>
@@ -3432,7 +3446,7 @@
   <macro n="noms_propis"><with-param v="Gregorio"/><with-param v="Gregòriu"/></macro>
   <macro n="noms_propis"><with-param v="Goffredo"/><with-param v="Gofredu"/></macro>
   <macro n="noms_propis"><with-param v="Guglielmo"/><with-param v="Gullielmu"/></macro>
-  <macro n="noms_propis"><with-param v="Innocenzo"/><with-param v="Innocentzu"/></macro>
+  <macro n="noms_propis"><with-param v="Innocenzo"/><with-param v="Innotzentzu"/></macro>
   <macro n="noms_propis"><with-param v="Luigi"/><with-param v="Luisi"/></macro>
   <macro n="noms_propis"><with-param v="Marco"/><with-param v="Marcu"/></macro>
   <macro n="noms_propis"><with-param v="Massimiliano"/><with-param v="Massimilianu"/></macro>
