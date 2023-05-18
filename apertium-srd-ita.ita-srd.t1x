@@ -4914,8 +4914,8 @@
            <b pos="1"/>
            <lu>
              <lit v="su"/><lit-tag v="det.def"/>
-             <clip pos="2" side="tl" part="gen"/>
-             <clip pos="2" side="tl" part="nbr"/>
+             <var n="genero"/>
+             <var n="numero"/>
            </lu>
            <b/>
            <lu>
@@ -5110,12 +5110,11 @@
                  </tags>
                  <lu>
                    <get-case-from pos="1">
-                   <lit v="su"/>
+                     <lit v="su"/>
                    </get-case-from>
-                   <lit-tag v="det"/>
-                   <lit-tag v="def"/>
-                   <clip pos="1" side="tl" part="gen"/>
-                   <clip pos="1" side="tl" part="nbr"/>
+                   <lit-tag v="det"/><lit-tag v="def"/>
+                   <var n="genero"/>
+                   <var n="numero"/>
                  </lu>
                  <b pos="1"/>
                  <lu>
@@ -5134,7 +5133,7 @@
                  </tags>
                  <lu>
                    <get-case-from pos="1">
-                   <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="lemh"/>
                    </get-case-from>
                    <clip pos="2" side="tl" part="tags"/>
                    <clip pos="2" side="tl" part="lemq"/>
@@ -5142,7 +5141,7 @@
                  <b pos="1"/>
                  <lu>
                    <get-case-from pos="2">
-                   <clip pos="1" side="tl" part="lemh"/>
+                     <clip pos="1" side="tl" part="lemh"/>
                    </get-case-from>
                    <clip pos="1" side="tl" part="tags"/>
                    <clip pos="1" side="tl" part="lemq"/>
@@ -6577,36 +6576,73 @@
            <with-param pos="2"/>
            <with-param pos="3"/>
          </call-macro>
-         <out>
-           <chunk name="pr_det_adjord_n">
-             <tags>
-               <tag><lit-tag v="SPrep"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b/>
-           <lu>
-               <lit v="su"/><lit-tag v="det"/><lit-tag v="def"/>
-               <clip pos="3" side="tl" part="gen"/>
-               <lit-tag v="sg"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="primu"/></equal>
+                 <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="segundu"/></equal>
+               </or>
+             </test>
+             <out>
+               <chunk name="pr_adjord_n">
+                 <tags>
+                   <tag><lit-tag v="SPrep"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="pr_det_adjord_n">
+                 <tags>
+                   <tag><lit-tag v="SPrep"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <lit v="su"/>
+                   <lit-tag v="det"/><lit-tag v="def"/>
+                   <var n="genero"/>
+                   <var n="numero"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </action>
     </rule>
 
@@ -10501,11 +10537,11 @@
            <b pos="1"/>
            <lu>
              <get-case-from pos="2">
-             <lit v="su"/>
+               <lit v="su"/>
              </get-case-from>
              <lit-tag v="det.def"/>
-              <var n="genero"/>
-              <var n="numero"/>
+             <var n="genero"/>
+             <var n="numero"/>
            </lu>
            <b/>
            <lu>
@@ -10551,11 +10587,11 @@
            <b pos="1"/>
            <lu>
              <get-case-from pos="2">
-             <lit v="su"/>
+               <lit v="su"/>
              </get-case-from>
              <lit-tag v="det.def"/>
-              <var n="genero"/>
-              <var n="numero"/>
+             <var n="genero"/>
+             <var n="numero"/>
            </lu>
            <b/>
            <lu>
@@ -10606,11 +10642,11 @@
            <b pos="1"/>
            <lu>
              <get-case-from pos="2">
-             <lit v="su"/>
+               <lit v="su"/>
              </get-case-from>
              <lit-tag v="det.def"/>
-              <var n="genero"/>
-              <var n="numero"/>
+             <var n="genero"/>
+             <var n="numero"/>
            </lu>
            <b/>
            <lu>
