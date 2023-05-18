@@ -6342,7 +6342,7 @@
            </when>
          </choose>
          <out>
-           <chunk name="adjord_n">
+           <chunk name="det_adjord_n">
              <tags>
                <tag><lit-tag v="SN"/></tag>
              </tags>
