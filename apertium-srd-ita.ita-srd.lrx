@@ -330,8 +330,8 @@
       <rule weight="1.0">
          <match plemma="1" tags="np.ant.*"><select plemma="1"/></match>
          <or>
-           <match tags="np.*"/>
-           <match tags=""/>
+           <match tags="np.cog.*"/>
+           <match tags="" case="Aa"/>
          </or>
       </rule>
     </def-macro>
@@ -1017,45 +1017,101 @@
     <match lemma="rosso" tags="adj.*"><select lemma="nieddu"/></match>
   </rule>
 
+
+  <!-- posto -->
   <rule weight="0.8">
-    <match lemma="Andrea" tags="np.*"><select lemma="Andrea" tags="np.*"/></match>
+    <match lemma="posto" tags="n.*"><select lemma="logu" tags="n.*"/></match>
   </rule>
-
-  <rule weight="0.6">
-    <match lemma="Andrea" tags="np.*"><select lemma="Andrìa" tags="np.*"/></match>
-  </rule>
-
-  <rule weight="0.8">
-    <match lemma="santo" tags="n.*"/>
-    <match lemma="Andrea" tags="np.*"><select lemma="Andrìa" tags="np.*"/></match>
-  </rule>
-
-
-
-
-<!-- POSTO -->
-
   <rule weight="1.0">
-  <!-- "posto di lavoro → postu de traballu -->
+    <match tags="adj.ord.*"/>
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
     <match lemma="di" tags="pr"/>
-    <match lemma="lavoro" tags="n.*"/>
+<!--
+    <or>
+      <match lemma="lavoro" tags="n.*"/>
+      <match lemma="comando" tags="n.*"/>
+      <match lemma="blocco" tags="n.*"/>
+    <or>
+-->
+  </rule>
+  <rule weight="1.0">
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+    <match lemma="in" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+    <match lemma="come"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="assegnare" tags="vblex.*"/>
+      <match lemma="assumere" tags="vblex.*"/>
+      <match lemma="concedere" tags="vblex.*"/>
+      <match lemma="lasciare" tags="vblex.*"/>
+      <match lemma="offrire" tags="vblex.*"/>
+      <match lemma="perdere" tags="vblex.*"/>
+      <match lemma="ritenere" tags="vblex.*"/>
+      <match lemma="prendere" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="adv"/>
+        <match tags="prn.*"/>
+        <match tags="tn.*"/>
+        <match tags="" case="Aa"/>
+      </or>
+    </repeat>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+</rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="nominare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="4">
+      <or>
+        <match tags="adv"/>
+        <match tags="prn.*"/>
+        <match tags="tn.*"/>
+        <match tags="" case="Aa"/>
+      </or>
+    </repeat>
+    <match lemma="a" tags="pr"/>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match tags="num"/>
+    <match lemma="posto" tags="n.*"><select lemma="logu" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="in" tags="pr"/>
+    <match tags="adj.ord.*"/>
+    <match lemma="posto" tags="n.*"><select lemma="logu" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.4">
+    <or>
+      <match lemma="arrivare" tags="vblex.*"/>
+    </or>
+    <match lemma="in" tags="pr"/>
+    <match tags="adj.ord.*"/>
+    <match lemma="posto" tags="n.*"><select lemma="logu" tags="n.*"/></match>
   </rule>
 
-<rule weight="0.5"> 
-    <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
-</rule> 
 
-<rule weight="1.0">  
-    <match lemma="posto" tags="n.*"><select lemma="locu" tags="n.*"/></match>
-</rule> 
-
-
-
-<!-- economico > econòmicu, baratu -->
-<rule weight="0.8"> 
+  <!-- economico > econòmicu, baratu -->
+  <rule weight="0.8">
     <match lemma="economico" tags="adj.*"><select lemma="econòmicu"/></match>
-</rule> 
+  </rule>
   <rule weight="1.0">
   <!-- "molto economico →  meda baratu -->
     <or>
@@ -1074,9 +1130,9 @@
 
 
   <!-- vite > toronìlliu, vite  -->
-  <rule weight="0.8"> 
+  <rule weight="0.8">
     <match lemma="vite" tags="n.*"><select lemma="toronìlliu"/></match>
-  </rule> 
+  </rule>
   <rule weight="1.0">
     <or>
       <match lemma="piantare" tags="vblex.*"/>
@@ -1965,7 +2021,7 @@
     </or>
     <repeat from="0" upto="6">
       <match tags="*"/>
-    </repeat> 
+    </repeat>
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
@@ -1981,7 +2037,7 @@
     <match tags="*.inf"/>
     <repeat from="0" upto="6">
       <match tags="*"/>
-    </repeat> 
+    </repeat>
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
   <rule weight="1.4">
@@ -1997,7 +2053,7 @@
     </or>
     <repeat from="0" upto="6">
       <match tags="*"/>
-    </repeat> 
+    </repeat>
     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
 
@@ -3390,17 +3446,65 @@
 <!-- **************** NP **************** -->
 
   <rule weight="0.6">
-     <match lemma="Cornelio" tags="np.ant.*"><select lemma="Cornelio"/></match>
+    <match lemma="Cornelio" tags="np.ant.*"><select lemma="Cornelio"/></match>
   </rule>
+
   <rule weight="0.6">
-     <match lemma="Cornelia" tags="np.ant.*"><select lemma="Cornelia"/></match>
+    <match lemma="Cornelia" tags="np.ant.*"><select lemma="Cornelia"/></match>
   </rule>
+
   <rule weight="0.6">
-     <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarquini"/></match>
+    <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarquini"/></match>
   </rule>
+  <rule weight="1.o">
+    <match tags="det.def.*.pl"/>
+    <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarcuìnios"/></match>
+  </rule>
+
   <rule weight="0.6">
-     <match tags="det.def.*.pl"/>
-     <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarcuìnios"/></match>
+    <match lemma="Lucio" tags="np.ant.*"><select lemma="Lucio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Lucio" tags="np.ant.*"><select lemma="Lùtziu"/></match>
+    <or>
+      <match lemma="Cornelio" tags="np.ant.*"><select lemma="Cornèliu"/></match>
+      <match lemma="Apuleio" tags="np.*"/>
+      <match lemma="Settimio" tags="np.*"/>
+    </or>
+  </rule>
+
+  <rule weight="0.6">
+    <match lemma="Mario" tags="np.ant.*"><select lemma="Mario"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="Mario" tags="np.ant.*"><select lemma="Mario"/></match>
+    <match tags="np.cog.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Mario" tags="np.ant.*"><select lemma="Màriu"/></match>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <or>
+      <match lemma="Silla" tags="np.*"/>
+      <match lemma="Roma" tags="np.*"/>
+      <match lemma="console" tags="n.*"/>
+      <match lemma="romano" tags="n.*"/>
+      <match lemma="romano" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="Silla" tags="np.*"/>
+      <match lemma="Roma" tags="np.*"/>
+      <match lemma="console" tags="n.*"/>
+      <match lemma="romano" tags="n.*"/>
+      <match lemma="romano" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <match tags="*"/>
+    </repeat>
+    <match lemma="Mario" tags="np.ant.*"><select lemma="Màriu"/></match>
   </rule>
 
   <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Lisandru"/></macro>
@@ -3411,6 +3515,7 @@
   <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisàriu"/></macro>
   <macro n="ant_antcog"><with-param v="Cesare"/><with-param v="Tzèsare"/></macro>
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Tzitzerone"/></macro>
+  <macro n="ant_antcog"><with-param v="Claudio"/><with-param v="Clàudiu"/></macro>
   <macro n="ant_antcog"><with-param v="Costantino"/><with-param v="Costantinu"/></macro>
   <macro n="ant_antcog"><with-param v="Ercole"/><with-param v="Èrcule"/></macro>
   <macro n="ant_antcog"><with-param v="Gaio"/><with-param v="Gàiu"/></macro>
@@ -3425,6 +3530,7 @@
 
   <macro n="noms_propis"><with-param v="Adalberto"/><with-param v="Adalbertu"/></macro>
   <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfonsu"/></macro>
+  <macro n="noms_propis"><with-param v="Andrea"/><with-param v="Andria"/></macro>
   <macro n="noms_propis"><with-param v="Benedetto"/><with-param v="Beneitu"/></macro>
   <macro n="noms_propis"><with-param v="Bernardo"/><with-param v="Bernardu"/></macro>
   <macro n="noms_propis"><with-param v="Bonifacio"/><with-param v="Bonifàtziu"/></macro>
@@ -3450,6 +3556,7 @@
   <macro n="noms_propis"><with-param v="Luigi"/><with-param v="Luisi"/></macro>
   <macro n="noms_propis"><with-param v="Marco"/><with-param v="Marcu"/></macro>
   <macro n="noms_propis"><with-param v="Massimiliano"/><with-param v="Massimilianu"/></macro>
+  <macro n="noms_propis"><with-param v="Marianu"/><with-param v="Marianu"/></macro>
   <macro n="noms_propis"><with-param v="Martino"/><with-param v="Martine"/></macro>
   <macro n="noms_propis"><with-param v="Matteo"/><with-param v="Mateu"/></macro>
   <macro n="noms_propis"><with-param v="Nicola"/><with-param v="Nigola"/></macro>
