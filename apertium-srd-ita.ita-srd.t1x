@@ -4462,8 +4462,8 @@
              <lu>
                <lit v="su"/>
                <lit-tag v="det.def"/>
-               <clip pos="2" side="tl" part="gen"/>
-               <lit-tag v="sg"/>
+               <var n="genero"/>
+               <var n="numero"/>
              </lu>
              <b/>
              <lu>
