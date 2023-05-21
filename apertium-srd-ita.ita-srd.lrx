@@ -3449,10 +3449,12 @@
   <rule weight="0.8">
     <match lemma="molto" tags="adj.*"><select lemma="meda"/></match>
   </rule>
+<!--
   <rule weight="1.0">
     <match lemma="molto" tags="adj.*"><select lemma="meda_post"/></match>
     <match tags="n.*"/>
   </rule>
+-->
 
   <!-- superbo > mannosu, superbu -->
   <rule weight="0.8">
