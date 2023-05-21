@@ -1144,14 +1144,20 @@
       <match lemma="uva" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="vite" tags="n.*"><select lemma="vite"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="vite" tags="n.*"><select lemma="vite"/></match>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="piantare" tags="vblex.*"/>
@@ -2009,7 +2015,10 @@
       <match lemma="provenire" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
@@ -2020,7 +2029,10 @@
       <match lemma="provenire" tags="vblex.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
     <repeat from="0" upto="1">
@@ -2036,7 +2048,10 @@
     <match lemma="a" tags="pr"/>
     <match tags="*.inf"/>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
   </rule>
@@ -2052,7 +2067,10 @@
       <match lemma="provenire" tags="vblex.inf"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
   </rule>
@@ -2598,6 +2616,68 @@
   <rule weight="0.6">
     <match lemma="macchina" tags="n.*"><select lemma="màchina"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="in" tags="pr"/>
+    <match lemma="macchina" tags="n.*"><select lemma="vetura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="guidare" tags="vblex.*"/>
+    <match tags="det.*"/>
+    <repeat from="0" upto="2">
+      <match tags="adj.*"/>
+    </repeat>
+    <match lemma="macchina" tags="n.*"><select lemma="vetura"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="macchina" tags="n.*"><select lemma="vetura"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="Fiat" tags="np.*"/>
+      <match lemma="Renault" tags="np.*"/>
+      <match lemma="Citroën" tags="np.*"/>
+      <match lemma="Volkswagen" tags="np.*"/>
+      <match lemma="BMW" tags="np.*"/>
+      <match lemma="Audi" tags="np.*"/>
+      <match lemma="Skoda" tags="np.*"/>
+      <match lemma="Seat" tags="np.*"/>
+      <match lemma="Ford" tags="np.*"/>
+      <match lemma="Toyota" tags="np.*"/>
+      <match lemma="Chrysler" tags="np.*"/>
+      <match lemma="Alfa Romeo" tags="np.*"/>
+      <match lemma="Maserati" tags="np.*"/>
+      <match lemma="Ferrari" tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="Fiat" tags="np.*"/>
+      <match lemma="Renault" tags="np.*"/>
+      <match lemma="Citroën" tags="np.*"/>
+      <match lemma="Volkswagen" tags="np.*"/>
+      <match lemma="BMW" tags="np.*"/>
+      <match lemma="Audi" tags="np.*"/>
+      <match lemma="Skoda" tags="np.*"/>
+      <match lemma="Seat" tags="np.*"/>
+      <match lemma="Ford" tags="np.*"/>
+      <match lemma="Toyota" tags="np.*"/>
+      <match lemma="Chrysler" tags="np.*"/>
+      <match lemma="Alfa Romeo" tags="np.*"/>
+      <match lemma="Maserati" tags="np.*"/>
+      <match lemma="Ferrari" tags="np.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="macchina" tags="n.*"><select lemma="vetura"/></match>
+  </rule>
 
   <!-- sentimento > sentimentu, sentidu -->
   <rule weight="0.6">
@@ -2793,7 +2873,10 @@
   <rule weight="1.0">
     <match lemma="pesca" tags="n.*"><select lemma="pèssighe"/></match>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="mangiare" tags="vblex.*"/>
@@ -2850,7 +2933,10 @@
       <match lemma="cocomero" tags="n.*"/>
     </or>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="pesca" tags="n.*"><select lemma="pèssighe"/></match>
   </rule>
@@ -2862,7 +2948,10 @@
   <rule weight="1.0">
     <match lemma="salsa" tags="n.*"><select lemma="salsa"/></match>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="danzare" tags="vblex.*"/>
@@ -2897,7 +2986,10 @@
       <match lemma="mambo" tags="n.*"/>
     </or>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="salsa" tags="n.*"><select lemma="salsa"/></match>
   </rule>
@@ -2924,7 +3016,10 @@
   <rule weight="1.0">
     <match lemma="tavola" tags="n.*"><select lemma="mesa"/></match>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="piatto" tags="n.*"/>
@@ -2979,7 +3074,10 @@
       <match lemma="parco" tags="n.*"/>
     </or>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="tavola" tags="n.*"><select lemma="mesa"/></match>
   </rule>
@@ -3043,7 +3141,10 @@
   <rule weight="1.0">
     <match lemma="piano" tags="n.*"><select lemma="pianu"/></match>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <seq n="strumenti_musicali_senza_piano"/>
@@ -3062,7 +3163,10 @@
       <match lemma="musica" tags="n.*"/>
     </or>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="piano" tags="n.*"><select lemma="pianu"/></match>
   </rule>
@@ -3196,14 +3300,20 @@
       <match lemma="blindato"/>
     </or>
     <repeat from="0" upto="8">
-      <match/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="divisione" tags="n.*"><select lemma="divisione"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="divisione" tags="n.*"><select lemma="divisione"/></match>
     <repeat from="0" upto="8">
-      <match/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="generale" tags="n.*"/>
@@ -3253,7 +3363,10 @@
   <rule weight="1.0">
     <match lemma="vita" tags="n.*"><select lemma="chintu"/></match>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="anca" tags="n.*"/>
@@ -3272,7 +3385,10 @@
       <match lemma="seno" tags="n.*"/>
     </or>
     <repeat from="0" upto="6">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="vita" tags="n.*"><select lemma="chintu"/></match>
   </rule>
@@ -3483,7 +3599,10 @@
   <rule weight="1.0">
     <match lemma="Mario" tags="np.ant.*"><select lemma="Màriu"/></match>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <or>
       <match lemma="Silla" tags="np.*"/>
@@ -3502,7 +3621,10 @@
       <match lemma="romano" tags="adj.*"/>
     </or>
     <repeat from="0" upto="8">
-      <match tags="*"/>
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
     </repeat>
     <match lemma="Mario" tags="np.ant.*"><select lemma="Màriu"/></match>
   </rule>
