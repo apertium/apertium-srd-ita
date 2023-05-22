@@ -5395,6 +5395,70 @@
     </rule>
 
 
+    <rule comment="regla: det adjpos adj nom > det adj nom adjpos (i suoi ultimi giorni > sas ùrtimas dies suas ; il suo nuovo gioco > su giogu nou suo">
+       <pattern>
+         <pattern-item n="det"/>
+         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord4">
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="4"/>
+           <with-param pos="4"/>
+         </call-macro>
+         <call-macro n="f_reord_adj">
+           <with-param pos="4"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <chunk name="det_adj_n_adjpos">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+           <b pos="1"/>
+           <lu>
+             <clip pos="3" side="tl" part="lemh"/>
+             <clip pos="3" side="tl" part="tags"/>
+             <clip pos="3" side="tl" part="lemq"/>
+           </lu>
+           <b pos="3"/>
+           <lu>
+             <clip pos="4" side="tl" part="lemh"/>
+             <clip pos="4" side="tl" part="tags"/>
+             <clip pos="4" side="tl" part="lemq"/>
+           </lu>
+           <b pos="2"/>
+           <lu>
+             <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="2" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <rule comment="regla: loro.pos nom adj > nom adj adjpos">
        <pattern>
          <pattern-item n="loro_pos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
