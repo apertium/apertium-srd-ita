@@ -442,7 +442,11 @@
 
 <!-- **************** NP **************** -->
 
+  <macro n="ant_antcog"><with-param v="Annìbale"/><with-param v="Annibale"/></macro>
+  <macro n="ant_antcog"><with-param v="Àtila"/><with-param v="Attila"/></macro>
+  <macro n="ant_antcog"><with-param v="Augustu"/><with-param v="Augusto"/></macro>
   <macro n="ant_antcog"><with-param v="Clàudiu"/><with-param v="Claudio"/></macro>
+  <macro n="ant_antcog"><with-param v="Costantinu"/><with-param v="Costantino"/></macro>
   <macro n="ant_antcog"><with-param v="Lisandru"/><with-param v="Alessandro"/></macro>
   <macro n="ant_antcog"><with-param v="Màriu"/><with-param v="Mario"/></macro>
   <macro n="ant_antcog"><with-param v="Tzèsare"/><with-param v="Cesare"/></macro>
@@ -496,12 +500,7 @@
   <macro n="noms_propis"><with-param v="Zuanne Pàule"/><with-param v="Giovanni Paolo"/></macro>
 
 <!--
-  <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Annìbale"/></macro>
-  <macro n="ant_antcog"><with-param v="Attila"/><with-param v="Àtila"/></macro>
-  <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="Augustu"/></macro>
-  <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisàriu"/></macro>
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Tzitzerone"/></macro>
-  <macro n="ant_antcog"><with-param v="Costantino"/><with-param v="Costantinu"/></macro>
   <macro n="ant_antcog"><with-param v="Ercole"/><with-param v="Èrcule"/></macro>
   <macro n="ant_antcog"><with-param v="Gaio"/><with-param v="Gàiu"/></macro>
   <macro n="ant_antcog"><with-param v="Mosè"/><with-param v="Moses"/></macro>

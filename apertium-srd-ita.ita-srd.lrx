@@ -2612,6 +2612,19 @@
 
 <!-- **************** N **************** -->
 
+  <!-- farmacia > potecaria, farmatzia -->
+  <rule weight="0.6">
+    <match lemma="farmacia" tags="n.*"><select lemma="potecaria"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="facoltà" tags="n.*"/>
+      <match lemma="studio" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"/>
+    <match lemma="farmacia" tags="n.*"><select lemma="farmatzia"/></match>
+  </rule>
+
   <!-- macchina > màchina, vetura -->
   <rule weight="0.6">
     <match lemma="macchina" tags="n.*"><select lemma="màchina"/></match>
@@ -3639,13 +3652,16 @@
   <macro n="ant_antcog"><with-param v="Belisario"/><with-param v="Belisàriu"/></macro>
   <macro n="ant_antcog"><with-param v="Cesare"/><with-param v="Tzèsare"/></macro>
   <macro n="ant_antcog"><with-param v="Cicerone"/><with-param v="Tzitzerone"/></macro>
+  <macro n="ant_antcog"><with-param v="Cirillo"/><with-param v="Tzirillu"/></macro>
   <macro n="ant_antcog"><with-param v="Claudio"/><with-param v="Clàudiu"/></macro>
   <macro n="ant_antcog"><with-param v="Costantino"/><with-param v="Costantinu"/></macro>
   <macro n="ant_antcog"><with-param v="Ercole"/><with-param v="Èrcule"/></macro>
   <macro n="ant_antcog"><with-param v="Gaio"/><with-param v="Gàiu"/></macro>
+  <macro n="ant_antcog"><with-param v="Metodio"/><with-param v="Metòdiu"/></macro>
   <macro n="ant_antcog"><with-param v="Mosè"/><with-param v="Moses"/></macro>
   <macro n="ant_antcog"><with-param v="Omero"/><with-param v="Omeru"/></macro>
   <macro n="ant_antcog"><with-param v="Orazio"/><with-param v="Oràtziu"/></macro>
+  <macro n="ant_antcog"><with-param v="Ottaviano"/><with-param v="Otavianu"/></macro>
   <macro n="ant_antcog"><with-param v="Ottone"/><with-param v="Otone"/></macro>
   <macro n="ant_antcog"><with-param v="Publio"/><with-param v="Pùbliu"/></macro>
   <macro n="ant_antcog"><with-param v="Tarquinio"/><with-param v="Tarcuìniu"/></macro>
