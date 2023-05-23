@@ -305,10 +305,6 @@
     <def-cat n="adjpos">
        <cat-item tags="adj.pos.*"/>
     </def-cat>
-    <def-cat n="adj_prnpos">
-       <cat-item tags="adj.pos.*"/>
-       <cat-item tags="prn.tn.pos.*"/>	<!-- per agafar anàlisis equivocades -->
-    </def-cat>
     <def-cat n="loro_pos">
        <cat-item lemma="loro" tags="adj.pos.*"/>
        <cat-item lemma="loro" tags="prn.tn.pos.*"/>
@@ -4989,7 +4985,7 @@
     <rule comment="regla: detdef adjpos casa > domo adjpos">
        <pattern>
          <pattern-item n="detdef"/>
-         <pattern-item n="adj_prnpos"/>
+         <pattern-item n="adjpos"/>
          <pattern-item n="casa"/>
        </pattern>
        <action>
@@ -5025,7 +5021,7 @@
     <rule comment="regla: detdef adjpos casa adj > domo adj adjpos">
        <pattern>
          <pattern-item n="detdef"/>
-         <pattern-item n="adj_prnpos"/>
+         <pattern-item n="adjpos"/>
          <pattern-item n="casa"/>
          <pattern-item n="adj"/>
        </pattern>
@@ -5071,7 +5067,7 @@
 
     <rule comment="regla: adjpos nom_famiglia > detdef nom_famiglia">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="nom_famiglia_casa"/>
        </pattern>
        <action>
@@ -5204,7 +5200,7 @@
 
     <rule comment="regla: adjpos nom > nom adjpos">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="nom"/>
        </pattern>
        <action>
@@ -5279,7 +5275,7 @@
 
     <rule comment="regla: adjpos nom adj > nom adj adjpos">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="nom"/>
          <pattern-item n="adjec"/>
        </pattern>
@@ -5335,7 +5331,7 @@
     <rule comment="regla: det adjpos nom adj > det nom adj adjpos: il nostro Sistema Solare > su Sistema Solare Nostru">
        <pattern>
          <pattern-item n="det"/>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="nom"/>
          <pattern-item n="adjec"/>
        </pattern>
@@ -5398,7 +5394,7 @@
     <rule comment="regla: det adjpos adj nom > det adj nom adjpos (i suoi ultimi giorni > sas ùrtimas dies suas ; il suo nuovo gioco > su giogu nou suo">
        <pattern>
          <pattern-item n="det"/>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="adjec"/>
          <pattern-item n="nom"/>
        </pattern>
@@ -5511,7 +5507,7 @@
 
     <rule comment="regla: adjpos adj nom > adj nom adjpos: la sua apparente indifferenza > sa aparente indiferèntzia sua">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="adjec"/>
          <pattern-item n="nom"/>
        </pattern>
@@ -5616,7 +5612,7 @@
 
     <rule comment="regla: adjpos nom adj adj > nom adj adj adjpos">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="nom"/>
          <pattern-item n="adjec"/>
          <pattern-item n="adjec"/>
@@ -6143,7 +6139,7 @@
 
     <rule comment="regla: adjpos adjord nom > adjord nom adjpos">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="adjord"/>
          <pattern-item n="nom"/>
        </pattern>
@@ -6198,7 +6194,7 @@
 
     <rule comment="regla: adjpos num nom > num nom adjpos: suoi due figli > duos fìgios suos">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="num"/>
          <pattern-item n="nom"/>
        </pattern>
@@ -6246,7 +6242,7 @@
 
     <rule comment="regla: adjpos num nom adj > num nom adj adjpos: suoi due figli intelligenti > duos fìgios intelligentes suos">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="num"/>
          <pattern-item n="nom"/>
          <pattern-item n="adjec"/>
@@ -6309,7 +6305,7 @@
 
     <rule comment="regla: adjpos num adj nom > num adj nom adjpos: le sue due principali fonti > sas duas printzipales fontes suas">
        <pattern>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="num"/>
          <pattern-item n="adjec"/>
          <pattern-item n="nom"/>
@@ -6501,7 +6497,7 @@
     <rule comment="regla: det adjpos adjord nom > det adjord nom adjpos">
        <pattern>
          <pattern-item n="det"/>
-         <pattern-item n="adj_prnpos"/> <!-- aceptamos prn.tn.pos para solucionar problemas de mal analisis morfologico -->
+         <pattern-item n="adjpos"/>
          <pattern-item n="adjord"/>
          <pattern-item n="nom"/>
        </pattern>
