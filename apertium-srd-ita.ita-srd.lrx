@@ -148,9 +148,12 @@
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
          </or>
+         <repeat from="0" upto="1">
+           <match tags="np.ant.*"/>
+         </repeat>
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
       </rule>
-      <rule weight="1.0">
+      <rule weight="1.2">
          <or>
            <match lemma="papa" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
@@ -177,8 +180,11 @@
            <match lemma="barone" tags="n.*"/>
            <match lemma="voivoda" tags="n.*"/>
          </or>
-         <match tags="np.ant.*"/>
-         <match plemma="1" tags="np.*"><select plemma="2"/></match>
+         <repeat from="0" upto="1">
+           <match tags="np.ant.*"/>
+         </repeat>
+         <match tags="np.cog.*"/>
+         <match plemma="1" tags="np.*"><select plemma="1"/></match>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
@@ -3577,6 +3583,43 @@
 <!-- **************** NP **************** -->
 
   <rule weight="0.6">
+    <match lemma="Arborea" tags="np.top.*"><select lemma="Arborea"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="giudicato" tags="n.*"/>
+      <match lemma="regno" tags="n.*"/>
+      <match lemma="giudice" tags="n.*"/>
+      <match lemma="re" tags="n.*"/>
+    </or>
+    <match lemma="di" tags="pr"/>
+    <match lemma="Arborea" tags="np.top.*"><select lemma="Arbaree"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="np.ant.*"/>
+      <match tags="" case="Aa"/>
+    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="num.*"/>
+        <match lemma="I" tags="adj.*"/>
+        <match lemma="II" tags="adj.*"/>
+        <match lemma="III" tags="adj.*"/>
+        <match lemma="IV" tags="adj.*"/>
+        <match lemma="V" tags="adj.*"/>
+        <match lemma="VI" tags="adj.*"/>
+        <match lemma="VII" tags="adj.*"/>
+        <match lemma="VIII" tags="adj.*"/>
+        <match lemma="IX" tags="adj.*"/>
+        <match lemma="X" tags="adj.*"/>
+      </or>
+    </repeat>
+    <match lemma="di" tags="pr"/>
+    <match lemma="Arborea" tags="np.top.*"><select lemma="Arbaree"/></match>
+  </rule>
+
+  <rule weight="0.6">
     <match lemma="Cornelio" tags="np.ant.*"><select lemma="Cornelio"/></match>
   </rule>
 
@@ -3665,7 +3708,7 @@
   <macro n="ant_antcog"><with-param v="Ottone"/><with-param v="Otone"/></macro>
   <macro n="ant_antcog"><with-param v="Publio"/><with-param v="Pùbliu"/></macro>
   <macro n="ant_antcog"><with-param v="Tarquinio"/><with-param v="Tarcuìniu"/></macro>
-  <macro n="ant_antcog"><with-param v="Terenzio"/><with-param v="Terènziu"/></macro>
+  <macro n="ant_antcog"><with-param v="Terenzio"/><with-param v="Terèntziu"/></macro>
   <macro n="ant_antcog"><with-param v="Virgilio"/><with-param v="Virgìliu"/></macro>
 
   <macro n="noms_propis"><with-param v="Adalberto"/><with-param v="Adalbertu"/></macro>
@@ -3680,6 +3723,8 @@
   <macro n="noms_propis"><with-param v="Dario"/><with-param v="Dariu"/></macro>
   <macro n="noms_propis"><with-param v="Domenico"/><with-param v="Domìnighe"/></macro>
   <macro n="noms_propis"><with-param v="Enrico"/><with-param v="Erricu"/></macro>
+  <macro n="noms_propis"><with-param v="Enzo"/><with-param v="Enzu"/></macro>
+  <macro n="noms_propis"><with-param v="Enzio"/><with-param v="Enzu"/></macro>
   <macro n="noms_propis"><with-param v="Federico"/><with-param v="Federicu"/></macro>
   <macro n="noms_propis"><with-param v="Ferdinando"/><with-param v="Ferrante"/></macro>
   <macro n="noms_propis"><with-param v="Filippo"/><with-param v="Tilipu"/></macro>
@@ -3707,6 +3752,8 @@
   <macro n="noms_propis"><with-param v="Pio"/><with-param v="Piu"/></macro>
   <macro n="noms_propis"><with-param v="Raimondo"/><with-param v="Raimundu"/></macro>
   <macro n="noms_propis"><with-param v="Riccardo"/><with-param v="Ricardu"/></macro>
+  <macro n="noms_propis"><with-param v="Roberto"/><with-param v="Robertu"/></macro>
+  <macro n="noms_propis"><with-param v="Salvatore"/><with-param v="Sarbadore"/></macro>
   <macro n="noms_propis"><with-param v="Sisto"/><with-param v="Sistu"/></macro>
   <macro n="noms_propis"><with-param v="Ugo"/><with-param v="Ugu"/></macro>
   <macro n="noms_propis"><with-param v="Umberto"/><with-param v="Umbertu"/></macro>
