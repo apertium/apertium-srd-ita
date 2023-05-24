@@ -3628,6 +3628,14 @@
   </rule>
 
   <rule weight="0.6">
+    <match lemma="Flàvia" tags="np.ant.*"><select lemma="Flàvia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="dinastia" tags="np.*"/>
+    <match lemma="Flàvia" tags="np.ant.*"><select lemma="Flavia"/></match>
+  </rule>
+
+  <rule weight="0.6">
     <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarquini"/></match>
   </rule>
   <rule weight="1.o">
