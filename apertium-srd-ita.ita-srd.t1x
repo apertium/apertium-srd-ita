@@ -633,6 +633,8 @@
 
 <section-def-lists>
     <def-list n="numrom">
+       <list-item v="I"/>
+       <list-item v="II"/>
        <list-item v="III"/>
        <list-item v="IV"/>
        <list-item v="V"/>
@@ -4377,7 +4379,7 @@
 </rule>
 
 
-<rule comment="regla: num nom: XVI secolo > sèculu XVI, XVI biennale, su de XVI biennales, tre quarti > su de bator tre">
+<rule comment="regla: num nom: XVI secolo > sèculu XVI, XVI biennale, sa de XVI biennales, tre quarti > su de bator tre">
    <pattern>
      <pattern-item n="num"/>
      <pattern-item n="nom"/>
@@ -4530,7 +4532,7 @@
 </rule>
 
 
-<rule comment="regla: . num nom: . XVI secolo > . Sèculu XVI, . XVI biennale, . Su de XVI biennales, . Tre quarti > . Su de bator tre">
+<rule comment="regla: . num nom: . XVI secolo > . Sèculu XVI, . XVI biennale, . Sa de XVI biennales, . Tre quarti > . Su de bator tre">
    <pattern>
      <pattern-item n="sent"/>
      <pattern-item n="num"/>
