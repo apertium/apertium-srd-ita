@@ -350,6 +350,28 @@
     </def-macro>
   </def-macros>
 
+  <def-seqs>
+    <def-seq n="zodìacu">
+      <or>
+      <match lemma="zodìacu"/>
+      <match lemma="zodiacale"/>
+      <match lemma="mascru"/>
+      <match lemma="trau"/>
+      <match lemma="malloru"/>
+      <match lemma="gemellu"/>
+      <match lemma="càncaru"/>
+      <match lemma="lione"/>
+      <match lemma="vìrgine"/>
+      <match lemma="balantza"/>
+      <match lemma="iscorpione"/>
+      <match lemma="sagitàriu"/>
+      <match lemma="crabucorru"/>
+      <match lemma="abbàrgiu"/>
+      <match lemma="pische"/>
+      </or>
+    </def-seq>
+  </def-seqs>
+
 <rules>
 
 <!-- **************** PREP **************** -->
@@ -403,7 +425,7 @@
     <match lemma="bi" tags="prn.pro.adv"><select lemma="ci" tags="prn.pro.adv"/></match>
   </rule>
 
-<!-- **************** NOM **************** -->
+<!-- **************** N **************** -->
 
   <!-- movimentu > movimento, moto -->
   <rule weight="0.8">
@@ -418,6 +440,35 @@
   <!-- sentidu > senso, ... -->
   <rule weight="0.8">
     <match lemma="sentidu" tags="n.*"><select lemma="senso"/></match>
+  </rule>
+
+  <!-- mascru > maschio, ariete -->
+  <rule weight="0.8">
+    <match lemma="mascru" tags="n.*"><select lemma="maschio"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="mascru" tags="n.*"><select lemma="ariete"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <seq n="zodìacu"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="zodìacu"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="mascru" tags="n.*"><select lemma="ariete"/></match>
   </rule>
 
 <!-- **************** ADJ **************** -->
