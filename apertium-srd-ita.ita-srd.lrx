@@ -2618,6 +2618,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- gemello > gemellu, ... -->
+  <rule weight="0.6">
+    <match lemma="gemello" tags="n.*"><select lemma="gemellu"/></match>
+  </rule>
+
   <!-- farmacia > potecaria, farmatzia -->
   <rule weight="0.6">
     <match lemma="farmacia" tags="n.*"><select lemma="potecaria"/></match>
@@ -3459,6 +3464,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- gemello > gemellu, ... -->
+  <rule weight="0.6">
+    <match lemma="gemello" tags="adj.*"><select lemma="gemellu"/></match>
+  </rule>
+
   <!-- avaro > asuridu, àvaru -->
   <rule weight="0.8">
     <match lemma="avaro" tags="adj.*"><select lemma="asuridu"/></match>
@@ -3714,6 +3724,7 @@
   <macro n="ant_antcog"><with-param v="Orazio"/><with-param v="Oràtziu"/></macro>
   <macro n="ant_antcog"><with-param v="Ottaviano"/><with-param v="Otavianu"/></macro>
   <macro n="ant_antcog"><with-param v="Ottone"/><with-param v="Otone"/></macro>
+  <macro n="ant_antcog"><with-param v="Ovidio"/><with-param v="Ovìdiu"/></macro>
   <macro n="ant_antcog"><with-param v="Publio"/><with-param v="Pùbliu"/></macro>
   <macro n="ant_antcog"><with-param v="Remo"/><with-param v="Remu"/></macro>
   <macro n="ant_antcog"><with-param v="Tarquinio"/><with-param v="Tarcuìniu"/></macro>

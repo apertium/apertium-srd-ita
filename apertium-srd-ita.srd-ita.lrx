@@ -432,6 +432,17 @@
     <match lemma="movimentu" tags="n.*"><select lemma="movimento"/></match>
   </rule>
 
+  <!-- bia > via, volta -->
+  <rule weight="0.8">
+    <match lemma="bia" tags="n.*"><select lemma="via"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="prus" tags="adv"/>
+    <match lemma="de" tags="pr"/>
+    <match lemma="unu" tags="det.*"/>
+    <match lemma="bia" tags="n.*"><select lemma="volta"/></match>
+  </rule>
+
   <!-- die > giorno, giornata -->
   <rule weight="0.8">
     <match lemma="die" tags="n.*"><select lemma="giorno"/></match>
@@ -507,6 +518,7 @@
   <macro n="ant_antcog"><with-param v="Èrcule"/><with-param v="Ercole"/></macro>
   <macro n="ant_antcog"><with-param v="Lisandru"/><with-param v="Alessandro"/></macro>
   <macro n="ant_antcog"><with-param v="Màriu"/><with-param v="Mario"/></macro>
+  <macro n="ant_antcog"><with-param v="Ovìdiu"/><with-param v="Ovidio"/></macro>
   <macro n="ant_antcog"><with-param v="Remu"/><with-param v="Remo"/></macro>
   <macro n="ant_antcog"><with-param v="Tzèsare"/><with-param v="Cesare"/></macro>
   <macro n="ant_antcog"><with-param v="Tzitzerone"/><with-param v="Cicerone"/></macro>
