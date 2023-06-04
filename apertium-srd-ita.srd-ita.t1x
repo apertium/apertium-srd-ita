@@ -22,6 +22,9 @@
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="detdefsg">
+       <cat-item tags="det.def.*.sg"/>
+    </def-cat>
     <def-cat n="detdefpl">
        <cat-item tags="det.def.*.pl"/>
     </def-cat>
@@ -32,6 +35,42 @@
        <cat-item tags="num"/>
        <cat-item tags="num.*"/>
     </def-cat>
+<!-- not working
+    <def-cat n="numrom">
+       <cat-item lemma="I" tags="num.*"/>
+       <cat-item lemma="II" tags="num.*"/>
+       <cat-item lemma="III" tags="num.*"/>
+       <cat-item lemma="IV" tags="num.*"/>
+       <cat-item lemma="V" tags="num.*"/>
+       <cat-item lemma="VI" tags="num.*"/>
+       <cat-item lemma="VII" tags="num.*"/>
+       <cat-item lemma="VIII" tags="num.*"/>
+       <cat-item lemma="IX" tags="num.*"/>
+       <cat-item lemma="X" tags="num.*"/>
+       <cat-item lemma="XI" tags="num.*"/>
+       <cat-item lemma="XI" tags="num.*"/>
+       <cat-item lemma="XII" tags="num.*"/>
+       <cat-item lemma="XIII" tags="num.*"/>
+       <cat-item lemma="XIV" tags="num.*"/>
+       <cat-item lemma="XV" tags="num.*"/>
+       <cat-item lemma="XVI" tags="num.*"/>
+       <cat-item lemma="XVII" tags="num.*"/>
+       <cat-item lemma="XVIII" tags="num.*"/>
+       <cat-item lemma="XIX" tags="num.*"/>
+       <cat-item lemma="XX" tags="num.*"/>
+       <cat-item lemma="XXI" tags="num.*"/>
+       <cat-item lemma="XXII" tags="num.*"/>
+       <cat-item lemma="XXII" tags="num.*"/>
+       <cat-item lemma="XXIII" tags="num.*"/>
+       <cat-item lemma="XXIV" tags="num.*"/>
+       <cat-item lemma="XXV" tags="num.*"/>
+       <cat-item lemma="XXVI" tags="num.*"/>
+       <cat-item lemma="XXVII" tags="num.*"/>
+       <cat-item lemma="XXVIII" tags="num.*"/>
+       <cat-item lemma="XXIX" tags="num.*"/>
+       <cat-item lemma="XXX" tags="num.*"/>
+    </def-cat>
+-->
     <def-cat n="pr">
        <cat-item tags="pr"/>
     </def-cat>
@@ -370,6 +409,42 @@
   <def-var n="y"/>
   <def-var n="z"/>
 </section-def-vars>
+
+<section-def-lists>
+    <def-list n="numrom">
+       <list-item v="I"/>
+       <list-item v="II"/>
+       <list-item v="III"/>
+       <list-item v="IV"/>
+       <list-item v="V"/>
+       <list-item v="VI"/>
+       <list-item v="VII"/>
+       <list-item v="VIII"/>
+       <list-item v="IX"/>
+       <list-item v="X"/>
+       <list-item v="XI"/>
+       <list-item v="XII"/>
+       <list-item v="XIII"/>
+       <list-item v="XIV"/>
+       <list-item v="XV"/>
+       <list-item v="XVI"/>
+       <list-item v="XVII"/>
+       <list-item v="XVIII"/>
+       <list-item v="XIX"/>
+       <list-item v="XX"/>
+       <list-item v="XXI"/>
+       <list-item v="XXII"/>
+       <list-item v="XXII"/>
+       <list-item v="XXIII"/>
+       <list-item v="XXIV"/>
+       <list-item v="XXV"/>
+       <list-item v="XXVI"/>
+       <list-item v="XXVII"/>
+       <list-item v="XXVIII"/>
+       <list-item v="XXIX"/>
+       <list-item v="XXX"/>
+    </def-list>
+</section-def-lists>
 
 <section-def-macros>
     <def-macro n="f_chunk_tags_gen" npar="1">
@@ -5023,6 +5098,255 @@
          </lu>
        </chunk>
      </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: det de num nom: sa de 3 biennales > la 3a biennale ; sa de 3 dies > il 3º giorno ; sa de XI biennales > XI biennale">
+   <pattern>
+     <pattern-item n="detdefsg"/>
+     <pattern-item n="de_pr"/>
+     <pattern-item n="num"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="4"/>
+     </call-macro>
+     <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></equal>
+              <equal><clip pos="4" side="tl" part="gen"/><lit-tag v="f"/></equal>
+            </or>
+          </test>
+          <let><clip pos="1" side="tl" part="gen"/><clip pos="4" side="tl" part="gen"/></let>
+        </when>
+     </choose>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="4"/>
+     </call-macro>
+     <choose>
+       <when>
+         <test>
+           <in><clip pos="3" side="sl" part="lemh"/><list n="numrom"/></in>
+         </test>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <call-macro n="f_bcond"><with-param pos="2"/><with-param pos="3"/></call-macro>
+         <out>
+           <chunk name="ord_nom">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="4" side="tl" part="gen"/></tag>
+               <tag><clip pos="4" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <when>
+         <test>
+           <equal><clip pos="3" side="sl" part="gen"/><lit v=""/></equal>
+         </test>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <out>
+           <chunk name="det_ord_nom">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="4" side="tl" part="gen"/></tag>
+               <tag><clip pos="4" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lem"/>
+               <lit-tag v="adj.ord"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <!-- strange case: copying -->
+         <out>
+           <chunk name="det_de_num_nom">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="4" side="tl" part="gen"/></tag>
+               <tag><clip pos="4" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="whole"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lem"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
+   </action>
+</rule>
+
+<rule comment="regla: det de num nom pos: su de 10 anniversàrios suo > il suo 10º anniversario">
+   <pattern>
+     <pattern-item n="detdefsg"/>
+     <pattern-item n="de_pr"/>
+     <pattern-item n="num"/>
+     <pattern-item n="nom"/>
+     <pattern-item n="adjpos"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="4"/>
+     </call-macro>
+     <choose>
+        <when>
+          <test>
+            <or>
+              <equal><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></equal>
+              <equal><clip pos="4" side="tl" part="gen"/><lit-tag v="f"/></equal>
+            </or>
+          </test>
+          <let><clip pos="1" side="tl" part="gen"/><clip pos="4" side="tl" part="gen"/></let>
+        </when>
+     </choose>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="4"/>
+     </call-macro>
+     <call-macro n="set_sg">
+       <with-param pos="1"/>
+       <with-param pos="5"/>
+     </call-macro>
+     <choose>
+       <when>
+         <test>
+           <equal><clip pos="3" side="sl" part="gen"/><lit v=""/></equal>
+         </test>
+         <call-macro n="f_bcond"><with-param pos="1"/><with-param pos="2"/></call-macro>
+         <out>
+           <chunk name="det_pos_ord_nom">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="4" side="tl" part="gen"/></tag>
+               <tag><clip pos="4" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="5" side="tl" part="lemh"/>
+               <clip pos="5" side="tl" part="tags"/>
+               <clip pos="5" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="3" side="tl" part="lem"/>
+               <lit-tag v="adj.ord"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b pos="4"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <!-- strange case: copying -->
+         <out>
+           <chunk name="det_de_num_nom">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="4" side="tl" part="gen"/></tag>
+               <tag><clip pos="4" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="whole"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lem"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+             <b pos="4"/>
+             <lu>
+               <clip pos="5" side="tl" part="lemh"/>
+               <clip pos="5" side="tl" part="tags"/>
+               <clip pos="5" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
    </action>
 </rule>
 
