@@ -489,6 +489,19 @@
     <match lemma="cale" tags="adj.*"><select lemma="che"/></match>
   </rule>
 
+  <!-- iscritu > iscritto, scrito -->
+  <rule weight="0.8">
+    <match lemma="iscritu" tags="adj.*"><select lemma="iscritto"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="orale" tags="adj.*"/>
+      <match lemma="verbale" tags="adj.*"/>
+    </or>
+    <match tags="cnjcoo"/>
+    <match lemma="iscritu" tags="adj.*"><select lemma="scritto"/></match>
+  </rule>
+
 <!-- **************** ADV **************** -->
 
   <!-- meda > molto, assai -->
