@@ -88,6 +88,9 @@
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
     </def-cat>
+    <def-cat n="vbmod-inf">
+       <cat-item tags="vbmod.inf"/>
+    </def-cat>
     <def-cat n="vbmod-tmp-srd">
        <cat-item tags="vbmod.inf"/>
        <cat-item tags="vbmod.pri.*"/>
@@ -585,6 +588,22 @@
   <def-attr n="a_prn">
      <attr-item tags="prn.pro"/>
      <attr-item tags="prn.enc"/>
+  </def-attr>
+  <def-attr n="tipus_prn">
+    <attr-item tags="prn.tn.pos"/>
+    <attr-item tags="prn.tn.ref"/>
+    <attr-item tags="prn.tn"/>
+    <attr-item tags="prn.itg"/>
+    <attr-item tags="prn.pro"/>
+    <attr-item tags="prn.pro.adv"/>
+    <attr-item tags="prn.pro.ref"/>
+    <attr-item tags="prn.enc"/>
+    <attr-item tags="prn.enc.adv"/>
+    <attr-item tags="prn.enc.ref"/>
+    <attr-item tags="prn.dem"/>
+    <attr-item tags="prn.ind"/>
+    <attr-item tags="prn.pos"/>
+    <attr-item tags="prn.enc"/>
   </def-attr>
   <def-attr n="a_verb">
      <attr-item tags="vblex"/>
@@ -9716,7 +9735,7 @@
        </action>
     </rule>
 
-    <rule comment="regla: inf enc enc">
+    <rule comment="regla: inf enc enc (dirglielo > bi lu nàrrere ; trasferirvisi > si nche tramudare">
        <pattern>
          <pattern-item n="inf"/>
          <pattern-item n="enc"/>
@@ -9727,30 +9746,66 @@
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
          <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
-         <out>
-           <chunk name="inf_enc">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-               <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
-                 <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
-           </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="2" side="sl" part="lem"/><lit v="ci"/></equal>
+                 <equal><clip pos="2" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk name="inf_enc">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                   <lu>
+                     <clip pos="3" side="tl" part="lemh"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="3" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="1" side="tl" part="lemh"/>
+                     <clip pos="1" side="tl" part="tags"/>
+                     <clip pos="1" side="tl" part="lemq"/>
+                   </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="inf_enc">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="3" side="tl" part="lemh"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="3" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="1" side="tl" part="lemh"/>
+                     <clip pos="1" side="tl" part="tags"/>
+                     <clip pos="1" side="tl" part="lemq"/>
+                   </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </action>
     </rule>
 
@@ -9958,42 +10013,89 @@
        <action>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
-         <out>
-           <chunk name="pro_pro_vbmod_inf">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-             <lu>
-               <get-case-from pos="1">
-                 <clip pos="3" side="tl" part="lemh"/>
-               </get-case-from>
-               <clip pos="3" side="tl" part="tags"/>
-               <clip pos="3" side="tl" part="lemq"/>
-             </lu>
-             <b/>
-             <lu>
-               <clip pos="4" side="tl" part="lemh"/>
-               <clip pos="4" side="tl" part="tags"/>
-               <clip pos="4" side="tl" part="lemq"/>
-             </lu>
-             <b/>
-             <lu>
-               <get-case-from pos="2">
-                 <clip pos="1" side="tl" part="lemh"/>
-               </get-case-from>
-               <clip pos="1" side="tl" part="tags"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-             <b pos="1"/>
-             <lu>
-               <clip pos="2" side="tl" part="lemh"/>
-               <clip pos="2" side="tl" part="tags"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ci"/></equal>
+                 <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk name="pro_pro_vbmod_inf">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1">
+                     <clip pos="4" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <get-case-from pos="2">
+                     <clip pos="1" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="pro_pro_vbmod_inf">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1">
+                     <clip pos="3" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="4" side="tl" part="lemh"/>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <get-case-from pos="2">
+                     <clip pos="1" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </action>
     </rule>
+
 
     <rule comment="regla: vbmod-ifi inf enc enc">
        <pattern>
@@ -10005,16 +10107,16 @@
        <action>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
-      <choose>
-	<when>
-	  <test>
-	    <equal><clip pos="4" side="sl" part="lem"/><lit v="li"/></equal>
-	  </test>
-	 <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
-         <let><clip pos="4" side="tl" part="lem"/><lit v="lu"/></let>
-         <let><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></let>
-	</when>
-      </choose>
+         <choose>
+           <when>
+             <test>
+               <equal><clip pos="4" side="sl" part="lem"/><lit v="li"/></equal>
+             </test>
+            <!-- corregim una anàlisi errònea de fomes com me'l, en què el segon component s'analitza com a CI, en comptes de com a CD -->
+            <let><clip pos="4" side="tl" part="lem"/><lit v="lu"/></let>
+            <let><clip pos="4" side="tl" part="gen"/><lit-tag v="m"/></let>
+           </when>
+         </choose>
          <out>
            <chunk name="pro_pro_aere_vbmodpp_inf">
              <tags>
