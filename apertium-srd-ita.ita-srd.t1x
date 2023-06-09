@@ -203,6 +203,15 @@
     <def-cat n="essere-p3">
        <cat-item lemma="essere" tags="vbser.*.p3.*"/>
     </def-cat>
+    <def-cat n="essere-ifi">
+       <cat-item lemma="essere" tags="vbser.ifi.*"/>
+    </def-cat>
+    <def-cat n="essere-fti">
+       <cat-item lemma="essere" tags="vbser.fti.*"/>
+    </def-cat>
+    <def-cat n="essere-cni">
+       <cat-item lemma="essere" tags="vbser.cni.*"/>
+    </def-cat>
     <def-cat n="essere-pp">
        <cat-item lemma="essere" tags="vbser.pp.*"/>
        <cat-item lemma="stare" tags="vblex.pp.*"/> <!-- possible error del parser -->
@@ -263,7 +272,7 @@
        <cat-item tags="adj.*.sp"/>
     </def-cat>
     <def-cat n="adjec">
-       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
        <cat-item tags="adj.ind.m.*"/>
@@ -276,7 +285,7 @@
        <cat-item tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="adjec-nopp">
-       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
        <cat-item tags="adj.ind.m.*"/>
@@ -287,8 +296,11 @@
        <cat-item tags="adj.itg.mf.*"/>
 <!--       <cat-item tags="adj.ord.*"/> -->
     </def-cat>
+    <def-cat n="meglio">
+       <cat-item lemma="meglio" tags="adj.*"/>
+    </def-cat>
     <def-cat n="adjec-adv">
-       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no es coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
+       <cat-item tags="adj.m.*"/> <!-- Hem d'especificar el gènere perquè no coincidesca amb adj.pos, adj.sup, adj.ind etc. -->
        <cat-item tags="adj.f.*"/>
        <cat-item tags="adj.mf.*"/>
        <cat-item tags="adj.ind.m.*"/>
@@ -8505,7 +8517,7 @@
     </rule>
 
 
-    <!-- ================================================================== -->
+    <!-- ============================= SV ================================= -->
 
     <rule comment="regla: pprs">
        <pattern>
@@ -9242,43 +9254,6 @@
     </rule>
 
 
-<!--
-    <rule comment="regla: ifi">
-       <pattern>
-         <pattern-item n="ifi_novbser"/>
-       </pattern>
-       <action>
-         <modify-case>
-           <clip pos="1" side="tl" part="lem"/>
-           <lit v="aa"/>
-         </modify-case>
-         <out>
-           <chunk name="àere_pp">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-               <lu>
-                 <get-case-from pos="1">
-                   <lit v="àere"/>
-                 </get-case-from>
-                 <lit-tag v="vbhaver.pii"/>
-                 <clip pos="1" side="tl" part="pers"/>
-                 <clip pos="1" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="a_verb"/>
-                 <lit-tag v="pp.m.sg"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
-           </chunk>
-         </out>
-       </action>
-    </rule>
--->
-
-
 <rule comment="regla: pro ifi (si arricchì > si fiat arrichidu)">
    <pattern>
      <pattern-item n="pro"/>
@@ -9410,7 +9385,7 @@
 </rule>
 
 
-<rule comment="regla: ifi">
+<rule comment="regla: ifi > èssere/àere pp">
    <pattern>
      <pattern-item n="ifi"/>
    </pattern>
@@ -9421,10 +9396,10 @@
          <test>
            <or>
              <in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="vbambser"/></in>
-	     <and>
-	       <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="torrare"/></equal>
-	       <equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal>
-	     </and>
+             <and>
+               <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="torrare"/></equal>
+               <equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal>
+             </and>
            </or>
          </test>
          <out>
@@ -9536,7 +9511,7 @@
 -->
 
 
-    <rule comment="regla: fti">
+    <rule comment="regla: fti > àere a inf">
        <pattern>
          <pattern-item n="fti"/>
        </pattern>
@@ -9578,7 +9553,7 @@
     </rule>
 
 
-    <rule comment="regla: cni">
+    <rule comment="regla: cni > dare.prs inf">
        <pattern>
          <pattern-item n="cni"/>
        </pattern>
@@ -9611,6 +9586,267 @@
        </action>
     </rule>
 
+    <!-- _____________________________ essere meglio inf >  èssere mègius a inf _________________________________ -->
+
+    <rule comment="regla: essere.ifi meglio inf > èssere èssere.pp mègius a inf: fu meglio lavorare > fiat istadu mègliu a traballare">
+       <pattern>
+         <pattern-item n="essere-ifi"/>
+         <pattern-item n="meglio"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="èssere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbser"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="GD"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="2"/>
+         </call-macro>
+         <out>
+           <chunk name="adj">
+             <tags>
+               <tag><lit-tag v="SA"/></tag>
+               <tag><clip pos="2" side="tl" part="gen"/></tag>
+               <tag><clip pos="2" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_adjec"/>
+               <lit-tag v="2"/>
+               <lit-tag v="3"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="2"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <modify-case><clip pos="3" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="3" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: essere.fti meglio inf > àere a èssere.inf mègius a inf: sarà meglio lavorare > at a èssere mègliu a traballare">
+       <pattern>
+         <pattern-item n="essere-fti"/>
+         <pattern-item n="meglio"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit v="aa"/>
+         </modify-case>
+         <out>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.cni meglio inf > dare.prs èssere.inf mègius a inf: sarebbe meglio lavorare > diat èssere mègliu a traballare">
+       <pattern>
+         <pattern-item n="essere-cni"/>
+         <pattern-item n="meglio"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case>
+           <clip pos="1" side="tl" part="lem"/>
+           <lit v="aa"/>
+         </modify-case>
+         <out>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: essere meglio inf > èssere mègius a inf">
+       <pattern>
+         <pattern-item n="essere"/>
+         <pattern-item n="meglio"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <!-- ============================= PRN ================================= -->
 
     <rule comment="regla: gli pro">
        <pattern>
@@ -12309,9 +12545,7 @@
    </action>
 </rule>
 
-<!-- xxxxxx -->
-
-<!-- tractament multiparaules -->
+    <!-- ============================= tractament multiparaules ================================= -->
 
 <rule comment="regla: n">
   <pattern>
@@ -12478,14 +12712,14 @@
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="a_adjec"/>
-             <lit-tag v="2"/>
-             <lit-tag v="3"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_adjec"/>
+               <lit-tag v="2"/>
+               <lit-tag v="3"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
