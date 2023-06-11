@@ -9588,7 +9588,7 @@
 
     <!-- _____________________________ essere meglio inf >  èssere mègius a inf _________________________________ -->
 
-    <rule comment="regla: essere.ifi meglio inf > èssere èssere.pp mègius a inf: fu meglio lavorare > fiat istadu mègliu a traballare">
+    <rule comment="regla: essere.ifi meglio inf > èssere èssere.pp mègius a inf: fu meglio lavorare > fiat istadu mègius a traballare">
        <pattern>
          <pattern-item n="essere-ifi"/>
          <pattern-item n="meglio"/>
@@ -9690,7 +9690,7 @@
        </action>
     </rule>
 
-    <rule comment="regla: essere.fti meglio inf > àere a èssere.inf mègius a inf: sarà meglio lavorare > at a èssere mègliu a traballare">
+    <rule comment="regla: essere.fti meglio inf > àere a èssere.inf mègius a inf: sarà meglio lavorare > at a èssere mègius a traballare">
        <pattern>
          <pattern-item n="essere-fti"/>
          <pattern-item n="meglio"/>
@@ -9750,7 +9750,7 @@
     </rule>
 
 
-    <rule comment="regla: essere.cni meglio inf > dare.prs èssere.inf mègius a inf: sarebbe meglio lavorare > diat èssere mègliu a traballare">
+    <rule comment="regla: essere.cni meglio inf > dare.prs èssere.inf mègius a inf: sarebbe meglio lavorare > diat èssere mègius a traballare">
        <pattern>
          <pattern-item n="essere-cni"/>
          <pattern-item n="meglio"/>
