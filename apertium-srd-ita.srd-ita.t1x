@@ -8732,25 +8732,50 @@
              <equal><clip pos="2" side="sl" part="lem"/><lit v="nche"/></equal>
              <not><equal><clip pos="3" side="tl" part="lem"/><lit v="nde"/></equal></not>
            </and>
-        </test>
-         <out>
-           <chunk name="verb_enc">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-             <mlu>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="tags"/>
-               </lu>
-               <lu>
-                 <clip pos="3" side="tl" part="lem"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
-             </mlu>
-           </chunk>
-         </out>
+         </test>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="1" side="sl" part="pers"/><lit-tag v="p2"/></equal>
+                 <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ti"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk name="verb_enc">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="verb_enc">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <mlu>
+                   <lu>
+                     <clip pos="1" side="tl" part="lemh"/>
+                     <clip pos="1" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="1" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </when>
        <otherwise>
          <out>
