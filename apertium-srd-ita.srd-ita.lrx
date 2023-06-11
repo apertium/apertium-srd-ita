@@ -382,22 +382,32 @@
   </rule>
   <rule weight="1.0">
     <match lemma="rughere" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
     <match lemma="a" tags="pr"><select lemma="per"/></match>
     <match lemma="terra" tags="n.*"/>
   </rule>
 
   <!-- de > di, da -->
   <rule weight="0.8">
-    <match lemma="de" tags="pr"><select lemma="di" tags="pr"/></match>
+    <match lemma="de" tags="pr"><select lemma="di"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="astènnere" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="de" tags="pr"><select lemma="da"/></match>
   </rule>
 
   <!-- dae > da, di -->
   <rule weight="0.6">
-    <match lemma="dae" tags="pr"><select lemma="da" tags="pr"/></match>
+    <match lemma="dae" tags="pr"><select lemma="da"/></match>
   </rule>
 <!--
   <rule weight="1.0">
-    <match lemma="dae" tags="pr"><select lemma="da" tags="pr"/></match>
+    <match lemma="dae" tags="pr"><select lemma="da"/></match>
     <match tags="det.def.m.sg"/>
     <match tags="num"/>
   </rule>
