@@ -3916,18 +3916,9 @@
 	<when>
 	  <test>
 	    <and>
-	    <equal>
-	      <clip pos="1" side="tl" part="gen"/>
-	      <lit-tag v="f"/>
-	    </equal>
-	    <equal>
-	      <clip pos="1" side="sl" part="gen"/>
-	      <lit-tag v="m"/>
-	    </equal>
-	    <equal>
-	      <clip pos="2" side="tl" part="gen"/>
-	      <lit-tag v="m"/>
-	    </equal>
+	      <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+	      <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="m"/></equal>
+	      <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></equal>
 	    </and>
 	  </test>
 	  <let>
@@ -3936,27 +3927,15 @@
 	  </let>
 	  <!-- we propagate the gender for f_concord2, f_concord3, etc. -->
 <!-- doesn't give positive results
-	  <let>
-	    <var n="genero"/>
-	    <clip pos="1" side="tl" part="gen"/>
-	  </let>
+	  <let><var n="genero"/><clip pos="1" side="tl" part="gen"/></let>
 -->
 	</when>
 	<when>
 	  <test>
 	    <and>
-	    <equal>
-	      <clip pos="1" side="tl" part="gen"/>
-	      <lit-tag v="m"/>
-	    </equal>
-	    <equal>
-	      <clip pos="1" side="sl" part="gen"/>
-	      <lit-tag v="f"/>
-	    </equal>
-	    <equal>
-	      <clip pos="2" side="tl" part="gen"/>
-	      <lit-tag v="f"/>
-	    </equal>
+	      <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></equal>
+	      <equal><clip pos="1" side="sl" part="gen"/><lit-tag v="f"/></equal>
+	      <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
 	    </and>
 	  </test>
 	  <let>
@@ -3965,10 +3944,7 @@
 	  </let>
 	  <!-- we propagate the gender for f_concord2, f_concord3, etc. -->
 <!-- doesn't give positive results
-	  <let>
-	    <var n="genero"/>
-	    <clip pos="1" side="tl" part="gen"/>
-	  </let>
+	  <let><var n="genero"/><clip pos="1" side="tl" part="gen"/></let>
 -->
 	</when>
       </choose>
@@ -3978,68 +3954,33 @@
 	<when>
 	  <test>
 	    <and>
-	    <equal>
-	      <clip pos="1" side="tl" part="a_adj_ord"/>
-	      <lit-tag v="adj.ord"/>
-	    </equal>
-	    <equal>
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <lit-tag v="sp"/>
-	    </equal>
-	    <equal>
-	      <clip pos="2" side="sl" part="nbr"/>
-	      <lit-tag v="sg"/>
-	    </equal>
+	      <equal><clip pos="1" side="tl" part="a_adj_ord"/><lit-tag v="adj.ord"/></equal>
+	      <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+	      <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	      <not><equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal></not>
 	    </and>
 	  </test>
-	  <let>
-	    <clip pos="2" side="tl" part="nbr"/>
-	    <lit-tag v="pl"/>
-	  </let>
+	  <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	</when>
 	<when>
 	  <test>
 	    <and>
-	    <equal>
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <lit-tag v="pl"/>
-	    </equal>
-	    <equal>
-	      <clip pos="1" side="sl" part="nbr"/>
-	      <lit-tag v="sg"/>
-	    </equal>
-	    <equal>
-	      <clip pos="2" side="tl" part="nbr"/>
-	      <lit-tag v="sg"/>
-	    </equal>
+	      <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	      <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
 	    </and>
 	  </test>
-	  <let>
-	    <clip pos="2" side="tl" part="nbr"/>
-	    <clip pos="1" side="tl" part="nbr"/>
-	  </let>
+	  <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
 	</when>
 	<when>
 	  <test>
 	    <and>
-	    <equal>
-	      <clip pos="1" side="tl" part="nbr"/>
-	      <lit-tag v="sg"/>
-	    </equal>
-	    <equal>
-	      <clip pos="1" side="sl" part="nbr"/>
-	      <lit-tag v="pl"/>
-	    </equal>
-	    <equal>
-	      <clip pos="2" side="tl" part="nbr"/>
-	      <lit-tag v="pl"/>
-	    </equal>
+          <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+	      <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	      <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
 	    </and>
 	  </test>
-	  <let>
-	    <clip pos="2" side="tl" part="nbr"/>
-	    <clip pos="1" side="tl" part="nbr"/>
-	  </let>
+	  <let><clip pos="2" side="tl" part="nbr"/><clip pos="1" side="tl" part="nbr"/></let>
 	</when>
       </choose>
 
