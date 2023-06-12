@@ -126,7 +126,9 @@
            <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="pìscamu" tags="n.*"/>
-           <match lemma="arcarchmu" tags="n.*"/>
+           <match lemma="bìscamu" tags="n.*"/>
+           <match lemma="artzipìscamu" tags="n.*"/>
+           <match lemma="artzibìscamu" tags="n.*"/>
            <match lemma="santu" tags="adj.*"/>
            <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
@@ -158,7 +160,9 @@
            <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="pìscamu" tags="n.*"/>
-           <match lemma="archipìscamu" tags="n.*"/>
+           <match lemma="bìscamu" tags="n.*"/>
+           <match lemma="artzipìscamu" tags="n.*"/>
+           <match lemma="artzibìscamu" tags="n.*"/>
            <match lemma="santu" tags="adj.*"/>
            <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
@@ -193,7 +197,9 @@
            <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="pìscamu" tags="n.*"/>
-           <match lemma="archipìscamu" tags="n.*"/>
+           <match lemma="bìscamu" tags="n.*"/>
+           <match lemma="artzipìscamu" tags="n.*"/>
+           <match lemma="artzibìscamu" tags="n.*"/>
            <match lemma="santu" tags="adj.*"/>
            <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
@@ -224,7 +230,9 @@
            <match lemma="paba" tags="n.*"/>
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="pìscamu" tags="n.*"/>
-           <match lemma="archipìscamu" tags="n.*"/>
+           <match lemma="bìscamu" tags="n.*"/>
+           <match lemma="artzipìscamu" tags="n.*"/>
+           <match lemma="artzibìscamu" tags="n.*"/>
            <match lemma="santu" tags="adj.*"/>
            <match lemma="apòstolu" tags="n.*"/>
            <match lemma="evangelista" tags="n.*"/>
