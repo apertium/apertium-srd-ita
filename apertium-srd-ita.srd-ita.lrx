@@ -361,21 +361,30 @@
   <def-seqs>
     <def-seq n="zodìacu">
       <or>
-      <match lemma="zodìacu"/>
-      <match lemma="zodiacale"/>
-      <match lemma="mascru"/>
-      <match lemma="trau"/>
-      <match lemma="malloru"/>
-      <match lemma="gemellu"/>
-      <match lemma="càncaru"/>
-      <match lemma="lione"/>
-      <match lemma="vìrgine"/>
-      <match lemma="balantza"/>
-      <match lemma="iscorpione"/>
-      <match lemma="sagitàriu"/>
-      <match lemma="crabucorru"/>
-      <match lemma="abbàrgiu"/>
-      <match lemma="pische"/>
+        <match lemma="zodìacu"/>
+        <match lemma="zodiacale"/>
+        <match lemma="mascru"/>
+        <match lemma="trau"/>
+        <match lemma="malloru"/>
+        <match lemma="gemellu"/>
+        <match lemma="càncaru"/>
+        <match lemma="lione"/>
+        <match lemma="vìrgine"/>
+        <match lemma="balantza"/>
+        <match lemma="iscorpione"/>
+        <match lemma="sagitàriu"/>
+        <match lemma="crabucorru"/>
+        <match lemma="abbàrgiu"/>
+        <match lemma="pische"/>
+      </or>
+    </def-seq>
+
+    <def-seq n="parrere">
+      <or>
+        <match tags="vbser.*"/>
+        <match lemma="pàrrere" tags="vblex.*"/>
+        <match lemma="cundiderare" tags="vblex.*"/>
+        <match lemma="giudicare" tags="vblex.*"/>
       </or>
     </def-seq>
   </def-seqs>
@@ -384,7 +393,7 @@
 
 <!-- **************** PREP **************** -->
 
-  <!-- a > a, per -->
+  <!-- a > a, per, [remove] -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
@@ -395,6 +404,23 @@
     </repeat>
     <match lemma="a" tags="pr"><select lemma="per"/></match>
     <match lemma="terra" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="parrere"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <or>
+      <match lemma="mègius" tags="adv"/>
+      <match lemma="peus" tags="adv"/>
+    </or>
+    <match lemma="a" tags="pr"><remove tags="pr"/></match>
+    <repeat from="0" upto="2">
+      <match tags="prn.pro.*"/>
+    </repeat>
+    <match tags="*.inf"/>
   </rule>
 
   <!-- de > di, da -->
