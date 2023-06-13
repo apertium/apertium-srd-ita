@@ -445,6 +445,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- dàtziu > dazio, dacio -->
+  <rule weight="0.8">
+    <match lemma="dàtziu" tags="n.*"><select lemma="dazio"/></match>
+  </rule>
+
   <!-- movimentu > movimento, moto -->
   <rule weight="0.8">
     <match lemma="movimentu" tags="n.*"><select lemma="movimento"/></match>
@@ -555,6 +560,7 @@
   <macro n="ant_antcog"><with-param v="Tzitzerone"/><with-param v="Cicerone"/></macro>
 
   <macro n="noms_propis"><with-param v="Adalbertu"/><with-param v="Adalberto"/></macro>
+  <macro n="noms_propis"><with-param v="Albertu"/><with-param v="Alberto"/></macro>
   <macro n="noms_propis"><with-param v="Alfonsu"/><with-param v="Alfonso"/></macro>
   <macro n="noms_propis"><with-param v="Andria"/><with-param v="Andrea"/></macro>
   <macro n="noms_propis"><with-param v="Beneitu"/><with-param v="Benedetto"/></macro>
@@ -583,6 +589,7 @@
   <macro n="noms_propis"><with-param v="Giusepe"/><with-param v="Gioseppe"/></macro>
   <macro n="noms_propis"><with-param v="Gofredu"/><with-param v="Goffredo"/></macro>
   <macro n="noms_propis"><with-param v="Gregòriu"/><with-param v="Gregorio"/></macro>
+  <macro n="noms_propis"><with-param v="Guidu"/><with-param v="Guido"/></macro>
   <macro n="noms_propis"><with-param v="Gullielmu"/><with-param v="Guglielmo"/></macro>
   <macro n="noms_propis"><with-param v="Innotzentzu"/><with-param v="Innocenzo"/></macro>
   <macro n="noms_propis"><with-param v="Jacu"/><with-param v="Giacomo"/></macro>

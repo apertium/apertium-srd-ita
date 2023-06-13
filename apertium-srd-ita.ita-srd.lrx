@@ -3464,6 +3464,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- ladino > ladinu, làdinu -->
+  <rule weight="0.6">
+    <match lemma="ladino" tags="adj.*"><select lemma="ladinu"/></match>
+  </rule>
+
   <!-- gemello > gemellu, ... -->
   <rule weight="0.6">
     <match lemma="gemello" tags="adj.*"><select lemma="gemellu"/></match>
@@ -3592,6 +3597,7 @@
 
 <!-- **************** NP **************** -->
 
+  <!-- Arborea > Arborea, Arboree -->
   <rule weight="0.6">
     <match lemma="Arborea" tags="np.top.*"><select lemma="Arborea"/></match>
   </rule>
@@ -3629,22 +3635,26 @@
     <match lemma="Arborea" tags="np.top.*"><select lemma="Arbaree"/></match>
   </rule>
 
+  <!-- Cornelio > Cornelio, Cornèliu -->
   <rule weight="0.6">
     <match lemma="Cornelio" tags="np.ant.*"><select lemma="Cornelio"/></match>
   </rule>
 
+  <!-- Cornelia > Cornelia, Cornèlia -->
   <rule weight="0.6">
     <match lemma="Cornelia" tags="np.ant.*"><select lemma="Cornelia"/></match>
   </rule>
 
+  <!-- Flavia > Flàvia, Flavia -->
   <rule weight="0.6">
-    <match lemma="Flàvia" tags="np.ant.*"><select lemma="Flàvia"/></match>
+    <match lemma="Flavia" tags="np.ant.*"><select lemma="Flàvia"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="dinastia" tags="np.*"/>
-    <match lemma="Flàvia" tags="np.ant.*"><select lemma="Flavia"/></match>
+    <match lemma="Flavia" tags="np.ant.*"><select lemma="Flavia"/></match>
   </rule>
 
+  <!-- Tarquini > Tarquini, Tarcuìnios -->
   <rule weight="0.6">
     <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarquini"/></match>
   </rule>
@@ -3653,6 +3663,7 @@
     <match lemma="Tarquini" tags="np.cog.*"><select lemma="Tarcuìnios"/></match>
   </rule>
 
+  <!-- Lucio > Lucio, Lùtziu -->
   <rule weight="0.6">
     <match lemma="Lucio" tags="np.ant.*"><select lemma="Lucio"/></match>
   </rule>
@@ -3665,6 +3676,7 @@
     </or>
   </rule>
 
+  <!-- Mario > Mario, Màriu -->
   <rule weight="0.6">
     <match lemma="Mario" tags="np.ant.*"><select lemma="Mario"/></match>
   </rule>
@@ -3705,6 +3717,20 @@
     <match lemma="Mario" tags="np.ant.*"><select lemma="Màriu"/></match>
   </rule>
 
+  <!-- Asburgo > Asburgu, Asburgos -->
+  <rule weight="0.6">
+    <match lemma="Asburgo" tags="np.cog.*"><select lemma="Asburgu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="det.*.pl"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="Asburgo" tags="np.cog.*"><select lemma="Asburgos"/></match>
+  </rule>
+
+
   <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Lisandru"/></macro>
   <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Annìbale"/></macro>
   <macro n="ant_antcog"><with-param v="Attila"/><with-param v="Àtila"/></macro>
@@ -3733,6 +3759,7 @@
   <macro n="ant_antcog"><with-param v="Virgilio"/><with-param v="Virgìliu"/></macro>
 
   <macro n="noms_propis"><with-param v="Adalberto"/><with-param v="Adalbertu"/></macro>
+  <macro n="noms_propis"><with-param v="Alberto"/><with-param v="Albertu"/></macro>
   <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfonsu"/></macro>
   <macro n="noms_propis"><with-param v="Andrea"/><with-param v="Andria"/></macro>
   <macro n="noms_propis"><with-param v="Benedetto"/><with-param v="Beneitu"/></macro>
@@ -3764,6 +3791,7 @@
   <macro n="noms_propis"><with-param v="Gregorio"/><with-param v="Gregòriu"/></macro>
   <macro n="noms_propis"><with-param v="Goffredo"/><with-param v="Gofredu"/></macro>
   <macro n="noms_propis"><with-param v="Guglielmo"/><with-param v="Gullielmu"/></macro>
+  <macro n="noms_propis"><with-param v="Guido"/><with-param v="Guidu"/></macro>
   <macro n="noms_propis"><with-param v="Innocenzo"/><with-param v="Innotzentzu"/></macro>
   <macro n="noms_propis"><with-param v="Lucia"/><with-param v="Lughia"/></macro>
   <macro n="noms_propis"><with-param v="Luigi"/><with-param v="Luisi"/></macro>
