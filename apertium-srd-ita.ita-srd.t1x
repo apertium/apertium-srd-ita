@@ -8466,65 +8466,7 @@
     </rule>
 
 
-<!--
-<rule comment="regla: pr detdefmsg inf > pr detdefmsg inf (per impedire l'esecuzione di altre regole)">
-  <pattern>
-    <pattern-item n="pr"/>
-    <pattern-item n="detdefmsg"/>
-    <pattern-item n="inf"/>
-  </pattern>
-  <action>
-    <call-macro n="f_concord1">
-      <with-param pos="2"/>
-    </call-macro>
-    <call-macro n="f_chunk_tags">
-      <with-param pos="2"/>
-    </call-macro>
-    <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
-    <out>
-      <chunk namefrom="chunkname">
-        <tags>
-          <tag><lit-tag v="pr"/></tag>
-        </tags>
-        <lu>
-          <clip pos="1" side="tl" part="lemh"/>
-          <clip pos="1" side="tl" part="tags"/>
-          <clip pos="1" side="tl" part="lemq"/>
-        </lu>
-      </chunk>
-      <b pos="1"/>
-      <chunk name="d">
-        <tags>
-          <tag><lit-tag v="Sdet"/></tag>
-        </tags>
-        <lu>
-          <clip pos="2" side="tl" part="whole"/>
-        </lu>
-      </chunk>
-      <b pos="2"/>
-    </out>
-    <call-macro n="modif_case">
-      <with-param pos="3"/>
-    </call-macro>
-    <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
-    <out>
-      <chunk namefrom="chunkname">
-        <tags>
-          <tag><lit-tag v="SV"/></tag>
-          <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-          <tag><clip pos="3" side="tl" part="temps"/></tag>
-        </tags>
-      <lu>
-        <clip pos="3" side="tl" part="lemh"/>
-        <clip pos="3" side="tl" part="tags"/>
-        <clip pos="3" side="tl" part="lemq"/>
-      </lu>
-      </chunk>
-    </out>
-  </action>
-</rule>
-
-<rule comment="regla: detdefmsg inf > detdefmsg de inf">
+<rule comment="regla: detdefmsg inf > detdefmsg de inf (il fare > su de fàghere)">
   <pattern>
     <pattern-item n="detdefmsg"/>
     <pattern-item n="inf"/>
@@ -8558,7 +8500,144 @@
     </out>
   </action>
 </rule>
--->
+
+<rule comment="regla: detdefmsg inf enc > detdefmsg de pro inf (il farlo > su de lu fàghere)">
+  <pattern>
+    <pattern-item n="detdefmsg"/>
+    <pattern-item n="inf"/>
+    <pattern-item n="enc"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord1">
+      <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_chunk_tags">
+      <with-param pos="1"/>
+    </call-macro>
+    <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+    <out>
+      <chunk name="det-inf">
+        <tags>
+          <tag><lit-tag v="SN"/></tag>
+        </tags>
+        <lu>
+          <clip pos="1" side="tl" part="whole"/>
+        </lu>
+        <b pos="1"/>
+        <lu>
+          <lit v="de"/><lit-tag v="pr"/>
+        </lu>
+        <b/>
+        <lu>
+          <clip pos="3" side="tl" part="lemh"/>
+          <clip pos="3" side="tl" part="tags"/>
+          <clip pos="3" side="tl" part="lemq"/>
+        </lu>
+        <b/>
+        <lu>
+          <clip pos="2" side="tl" part="lemh"/>
+          <clip pos="2" side="tl" part="tags"/>
+          <clip pos="2" side="tl" part="lemq"/>
+        </lu>
+      </chunk>
+    </out>
+  </action>
+</rule>
+
+<rule comment="regla: detdefmsg inf enc enc > detdefmsg de pro pro inf (il farglielo > su de bi lu fàghere)">
+  <pattern>
+    <pattern-item n="detdefmsg"/>
+    <pattern-item n="inf"/>
+    <pattern-item n="enc"/>
+    <pattern-item n="enc"/>
+  </pattern>
+  <action>
+    <call-macro n="f_concord1">
+      <with-param pos="1"/>
+    </call-macro>
+    <call-macro n="f_chunk_tags">
+      <with-param pos="1"/>
+    </call-macro>
+    <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+    <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+    <choose>
+      <when>
+        <test>
+          <and>
+            <equal><clip pos="4" side="sl" part="lem"/><lit v="ci"/></equal>
+            <equal><clip pos="4" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+          </and>
+        </test>
+        <out>
+          <chunk name="det-inf">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="de"/><lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </when>
+      <otherwise>
+        <out>
+          <chunk name="det-inf">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <lit v="de"/><lit-tag v="pr"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="tags"/>
+              <clip pos="3" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="4" side="tl" part="lemh"/>
+              <clip pos="4" side="tl" part="tags"/>
+              <clip pos="4" side="tl" part="lemq"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="tags"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </otherwise>
+    </choose>
+  </action>
+</rule>
 
 
     <!-- ============================= SV ================================= -->
