@@ -36,7 +36,7 @@
 [/3nTCsguLFKuq]
 [43VsOm39YdL9#0] ^pr<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/43VsOm39YdL9]
-[47AVNkjuVZJ3#0] ^v<SV>{^Èssere<vbser><pri><p3><sg>$}$ ^adj<SA>{^istare<vblex><pp><m><sg>$}$ ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^tres<n><mf><sp>$ ^unu_num<num><m><sp>$}$ ^pr<pr>{^a<pr>$}$ ^v<SV>{^arribbare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[47AVNkjuVZJ3#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^istare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^istare<vblex><pp><4><5>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$ ^adjord<SN>{^de tres<adj><ord><mf><sp>$}$ ^a<pr>{^a<pr>$}$ ^arribbare<SV><vblex><inf>{^arribbare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/47AVNkjuVZJ3]
 [4C2s3-RTTaes#0] ^inf_enc<SV>{^Bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/4C2s3-RTTaes]
@@ -356,7 +356,7 @@
 [/c2W-ugxmSCdu]
 [c8_uEZnOPqJW#0] ^default<default>{^Marco<np><ant><m><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^adv<adv>{^prus pagu<adv>$}$ ^adj<SA>{^istudiosu<adj><m><sg>$}$ ^pr<pr>{^de<pr>$}$ ^default<default>{^Carlo<np><ant><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/c8_uEZnOPqJW]
-[cUSriVq0Fp20#0] ^v<SV>{^Èssere<vbser><pri><p3><sg>$}$ ^adj<SA>{^arribbare<vblex><pp><m><sg>$}$ ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^tres<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[cUSriVq0Fp20#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^arribbare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^arribbare<vblex><pp><4><5>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$ ^adjord<SN>{^de tres<adj><ord><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/cUSriVq0Fp20]
 [cVYAnCs8Xo-L#0] ^verb_enc<SV>{^Dare<vblex><ger>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/cVYAnCs8Xo-L]
@@ -524,7 +524,7 @@
 [/y4MWcKqWQZ7j]
 [y73F7Q-peSLg#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/y73F7Q-peSLg]
-[yxbTeiQE1d-K#0] ^det-nom<SN>{^Cuddu<det><dem><m><sg>$ ^film<n><m><sp>$}$  ^mod-inf<SV>{^dare<vblex><prs><p3><sg>$ ^èssere<vbser><inf>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^bìdere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[yxbTeiQE1d-K#0] ^det-nom<SN><m><sp><sl_m><sl_sp>{^Cuddu<det><dem><m><sg>$ ^film<n><m><sp>$}$  ^mod-inf<SV><vblex>{^dare<vblex><prs><p3><sg>$ ^chèrrere<vblex><inf>$ ^bìdere<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/yxbTeiQE1d-K]
 [zaQfnQGJFLa2#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/zaQfnQGJFLa2]
