@@ -11921,8 +11921,6 @@
        <action>
          <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
-         <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
-         <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
          <choose>
            <when>
              <test>
@@ -11937,7 +11935,9 @@
                    <tag><lit-tag v="SV"/></tag>
                  </tags>
                    <lu>
-                     <clip pos="3" side="tl" part="lemh"/>
+                     <get-case-from pos="1">
+                       <clip pos="3" side="tl" part="lemh"/>
+                     </get-case-from>
                      <clip pos="3" side="tl" part="tags"/>
                      <clip pos="3" side="tl" part="lemq"/>
                    </lu>
@@ -11949,7 +11949,9 @@
                    </lu>
                    <b/>
                    <lu>
-                     <clip pos="1" side="tl" part="lemh"/>
+                     <get-case-from pos="3">
+                       <clip pos="1" side="tl" part="lemh"/>
+                     </get-case-from>
                      <clip pos="1" side="tl" part="tags"/>
                      <clip pos="1" side="tl" part="lemq"/>
                    </lu>
@@ -11963,7 +11965,9 @@
                    <tag><lit-tag v="SV"/></tag>
                  </tags>
                    <lu>
-                     <clip pos="2" side="tl" part="lemh"/>
+                     <get-case-from pos="1">
+                       <clip pos="2" side="tl" part="lemh"/>
+                     </get-case-from>
                      <clip pos="2" side="tl" part="tags"/>
                      <clip pos="2" side="tl" part="lemq"/>
                    </lu>
@@ -11975,7 +11979,9 @@
                    </lu>
                    <b/>
                    <lu>
-                     <clip pos="1" side="tl" part="lemh"/>
+                     <get-case-from pos="3">
+                       <clip pos="1" side="tl" part="lemh"/>
+                     </get-case-from>
                      <clip pos="1" side="tl" part="tags"/>
                      <clip pos="1" side="tl" part="lemq"/>
                    </lu>
