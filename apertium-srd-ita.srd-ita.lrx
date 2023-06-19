@@ -471,6 +471,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- registru > registro, ... -->
+  <rule weight="0.8">
+    <match lemma="registru" tags="n.*"><select lemma="registro"/></match>
+  </rule>
+
   <!-- dàtziu > dazio, dacio -->
   <rule weight="0.8">
     <match lemma="dàtziu" tags="n.*"><select lemma="dazio"/></match>
@@ -564,6 +569,32 @@
   </rule>
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- disconnòschere > ignorare, disconoscere, ... -->
+  <rule weight="0.8">
+    <match lemma="disconnòschere" tags="vblex.*"><select lemma="ignorare"/></match>
+  </rule>
+
+  <!-- cumpònnere > comporre, digitare -->
+  <rule weight="0.8">
+    <match lemma="cumpònnere" tags="vblex.*"><select lemma="comporre"/></match>
+  </rule>
+
+  <!-- pònnere > mettere, .... -->
+  <rule weight="0.8">
+    <match lemma="pònnere" tags="vblex.*"><select lemma="mettere"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="pònnere" tags="vblex.*"><select lemma="porre"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="det.*"/>
+    <or>
+      <match lemma="atzentu" tags="n.*"/>
+      <match lemma="base" tags="n.*"/>
+    </or>
+  </rule>
 
   <!-- pàrrere > sembrare, parrere -->
   <rule weight="0.8">
