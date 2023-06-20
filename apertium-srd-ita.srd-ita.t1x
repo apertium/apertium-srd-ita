@@ -273,6 +273,9 @@
     <def-cat n="adv">
        <cat-item tags="adv"/>
     </def-cat>
+    <def-cat n="adv_itg">
+       <cat-item tags="adv.itg"/>
+    </def-cat>
     <def-cat n="a_beru">
        <cat-item lemma="a beru" tags="adv"/>
        <cat-item lemma="meda" tags="adv"/>
@@ -8906,6 +8909,162 @@
     </rule>
 
 
+    <!-- _______________________________ adv_itg a inf > adv_itg inf ___________________________________ -->
+
+    <rule comment="regla: adv_itg a inf > adv_itg inf (pro ite a cantare > perché cantare)">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+         <pattern-item n="a_pr"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+         <let><var n="chunkname"/><clip pos="3" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="3" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adv_itg a pro inf > adv_itg enc inf (pro ite a lu cantare > perché cantarlo)">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+         <pattern-item n="a_pr"/>
+         <pattern-item n="pro"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="3"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+         <let><var n="chunkname"/><clip pos="4" side="tl" part="lem"/></let>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.enc"/></let>
+         <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.enc"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="4" side="tl" part="temps"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="tags"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lem"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="4" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: adv_itg a pro pro inf > adv_itg enc enc inf (pro ite a bi lu cantare > perché cantarlo)">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+         <pattern-item n="a_pr"/>
+         <pattern-item n="pro"/>
+         <pattern-item n="pro"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord1">
+           <with-param pos="4"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+         <let><var n="chunkname"/><clip pos="5" side="tl" part="lem"/></let>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.enc"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="5" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="5" side="tl" part="temps"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="5" side="tl" part="lemh"/>
+                 <clip pos="5" side="tl" part="tags"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lem"/>
+                 <clip pos="3" side="tl" part="tags"/>
+               </lu>
+               <lu>
+                 <clip pos="4" side="tl" part="lem"/>
+                 <clip pos="4" side="tl" part="tags"/>
+                 <clip pos="5" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <!-- =============================== multiparaules =================================== -->
 
     <rule comment="regla: num">
@@ -8945,18 +9104,18 @@
                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
                <tag><clip pos="1" side="tl" part="temps"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
 
 
-    <rule comment="regla: adverb (tractament multiparaules)">
+    <rule comment="regla: adverb">
        <pattern>
          <pattern-item n="adv"/>
        </pattern>
@@ -8978,7 +9137,30 @@
     </rule>
 
 
-    <rule comment="regla: relatiu (tractament multiparaules)">
+    <rule comment="regla: adv_itg">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+       </pattern>
+       <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: relatiu">
        <pattern>
          <pattern-item n="rel"/>
        </pattern>
