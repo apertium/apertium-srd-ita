@@ -245,9 +245,6 @@
     <def-cat n="gli">
        <cat-item lemma= "gli" tags="prn.pro.p3.m.sg"/>
     </def-cat>
-    <def-cat n="loro_pro">
-       <cat-item lemma= "gli" tags="prn.pro.p3.mf.pl"/>
-    </def-cat>
     <def-cat n="ci">
        <cat-item lemma= "ci" tags="prn.pro.adv"/>
     </def-cat>
@@ -262,6 +259,9 @@
     </def-cat>
     <def-cat n="si-pro">
        <cat-item lemma="si" tags="prn.pro.ref.p3.mf.sp"/>
+    </def-cat>
+    <def-cat n="lo-pro">
+       <cat-item lemma="lo" tags="prn.pro.p3.*"/>
     </def-cat>
     <def-cat n="lo-enc">
        <cat-item lemma="lo" tags="prn.enc.p3.*"/>
@@ -329,7 +329,6 @@
     <def-cat n="loro_pos">
        <cat-item lemma="loro" tags="adj.pos.*"/>
        <cat-item lemma="loro" tags="prn.tn.pos.*"/>
-       <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>	<!-- per agafar anàlisis equivocades -->
     </def-cat>
     <def-cat n="adjord">
        <cat-item tags="adj.ord.*"/>
@@ -441,6 +440,9 @@
        <cat-item lemma="noi" tags="prn.tn.*"/>
        <cat-item lemma="voi" tags="prn.tn.*"/>
        <cat-item lemma="loro" tags="prn.tn.*"/>
+    </def-cat>
+    <def-cat n="loro-tn">
+       <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>
     </def-cat>
     <def-cat n="che">
        <cat-item lemma="che" tags="cnjsub"/>
@@ -11787,6 +11789,425 @@
     </rule>
 
 
+    <!-- _____________________________ verb loro >  lis verb _________________________________ -->
+
+    <rule comment="regla: verb.ifi loro > lis àere.pii verb.pp (parlai loro > lis aia faeddadu)">
+       <pattern>
+         <pattern-item n="ifi"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="àere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbhaver"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp.m.sg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp.m.sg"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: lo verb.ifi loro > lis lu àere.pii verb.pp (lo portai loro > lis l'aia giutu)">
+       <pattern>
+         <pattern-item n="lo-pro"/>
+         <pattern-item n="ifi"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPrn"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lem"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+           </chunk>
+           <b pos="2"/>
+           <chunk name="àere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbhaver"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <lit v="àere"/>
+               <lit-tag v="vbhaver.pii"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp.m.sg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="pp.m.sg"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verb.fti loro > lis àere.pri a verb.inf (parlerò loro > lis apo a faeddare)">
+       <pattern>
+         <pattern-item n="fti"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vblex"/></tag>
+             </tags>
+             <lu>
+               <lit v="àere"/>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: lo verb.fti loro > lis lu àere.pri a verb.inf (lo porterò loro > lis l'apo a giùghere)">
+       <pattern>
+         <pattern-item n="lo-pro"/>
+         <pattern-item n="fti"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPrn"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lem"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+           </chunk>
+           <b pos="2"/>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vblex"/></tag>
+             </tags>
+             <lu>
+               <lit v="àere"/>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verb.cni loro > dare.prs verb.inf (parlerei loro > lis dia faeddare)">
+       <pattern>
+         <pattern-item n="cni"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vblex"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: lo verb.cni loro > lis lu dare.prs verb.inf (lo porterei loro > lis lu dia giùghere)">
+       <pattern>
+         <pattern-item n="lo-pro"/>
+         <pattern-item n="cni"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPrn"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lem"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+           </chunk>
+           <b pos="2"/>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vblex"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="gen"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verb loro > lis verb (parlo loro > lis faeddo)">
+       <pattern>
+         <pattern-item n="verb"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: lo verb loro > lis lo verb (lo porto loro > lis lo giugo)">
+       <pattern>
+         <pattern-item n="lo-pro"/>
+         <pattern-item n="verb"/>
+         <pattern-item n="loro-tn"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPron"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="li"/>
+               </get-case-from>
+               <lit-tag v="prn.pro.p3.mf.pl"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="tn">
+             <tags>
+               <tag><lit-tag v="SPrn"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lem"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+           </chunk>
+           <b pos="2"/>
+           <chunk name="v">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="2" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <!-- ============================= PRN ================================= -->
 
     <rule comment="regla: gli pro">
@@ -12488,42 +12909,6 @@
        </action>
     </rule>
 
-
-    <rule comment="regla: verb loro (parlo loro > lis faeddo)">
-       <pattern>
-         <pattern-item n="verb"/>
-         <pattern-item n="loro_pro"/>
-       </pattern>
-       <action>
-         <out>
-           <chunk name="tn">
-             <tags>
-               <tag><lit-tag v="SPron"/></tag>
-             </tags>
-           <lu>
-             <get-case-from pos="1">
-               <clip pos="2" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           </chunk>
-           <b pos="1"/>
-           <chunk name="v">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-           <lu>
-             <get-case-from pos="2">
-               <clip pos="1" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
 
     <rule comment="regla: stare ger (stava combattendo > fiat cumbatende)">
        <pattern>
