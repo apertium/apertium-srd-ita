@@ -570,6 +570,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- giùghere > portare, ... -->
+  <rule weight="0.8">
+    <match lemma="giùghere" tags="vblex.*"><select lemma="portare"/></match>
+  </rule>
+
   <!-- disconnòschere > ignorare, disconoscere, ... -->
   <rule weight="0.8">
     <match lemma="disconnòschere" tags="vblex.*"><select lemma="ignorare"/></match>
