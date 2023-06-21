@@ -340,6 +340,9 @@
        <cat-item tags="adv"/>
        <cat-item tags="preadv"/>
     </def-cat>
+    <def-cat n="adv_itg">
+       <cat-item tags="adv.itg"/>
+    </def-cat>
     <def-cat n="rel">
        <cat-item tags="rel.*"/>
     </def-cat>
@@ -12208,6 +12211,207 @@
     </rule>
 
 
+    <!-- _______________________________ adv_itg inf > adv_itg a inf ___________________________________ -->
+
+    <rule comment="regla: adv_itg inf > adv_itg a inf (perché cantare > pro ite a cantare)">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <let><var n="chunkname"/><clip pos="2" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="2" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: adv_itg inf enc > adv_itg a inf enc (perché cantarla > pro ite a la cantare)">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="inf_enc">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: adv_itg inf enc enc > adv_itg a pro pro inf (perché cantargliela > pro ite a bi la cantare)">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ci"/></equal>
+                 <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk name="inf_enc">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                   <lu>
+                     <clip pos="4" side="tl" part="lemh"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                     <clip pos="4" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="3" side="tl" part="lemh"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="3" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="inf_enc">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                   <lu>
+                     <clip pos="3" side="tl" part="lemh"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="3" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="4" side="tl" part="lemh"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                     <clip pos="4" side="tl" part="lemq"/>
+                   </lu>
+                   <b/>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
+       </action>
+    </rule>
+
+
     <!-- ============================= PRN ================================= -->
 
     <rule comment="regla: gli pro">
@@ -15367,12 +15571,12 @@
              <tags>
                <tag><lit-tag v="SNum"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -15394,18 +15598,18 @@
                <tag><clip pos="1" side="tl" part="a_verb"/></tag>
                <tag><clip pos="1" side="tl" part="temps"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
          </chunk>
          </out>
        </action>
     </rule>
 
 
-    <rule comment="regla: adverb (tractament multiparaules)">
+    <rule comment="regla: adverb">
        <pattern>
          <pattern-item n="adv-preadv"/>
        </pattern>
@@ -15427,7 +15631,30 @@
     </rule>
 
 
-    <rule comment="regla: relatiu (tractament multiparaules)">
+    <rule comment="regla: adv_itg">
+       <pattern>
+         <pattern-item n="adv_itg"/>
+       </pattern>
+       <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+               <tag><lit-tag v="itg"/></tag>
+             </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: relatiu">
        <pattern>
          <pattern-item n="rel"/>
        </pattern>
