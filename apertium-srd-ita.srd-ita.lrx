@@ -575,6 +575,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- girare > girare, ... -->
+  <rule weight="0.8">
+    <match lemma="girare" tags="vblex.*"><select lemma="girare"/></match>
+  </rule>
+
   <!-- giùghere > portare, ... -->
   <rule weight="0.8">
     <match lemma="giùghere" tags="vblex.*"><select lemma="portare"/></match>
@@ -621,6 +626,7 @@
   <macro n="ant_antcog"><with-param v="Èrcule"/><with-param v="Ercole"/></macro>
   <macro n="ant_antcog"><with-param v="Lisandru"/><with-param v="Alessandro"/></macro>
   <macro n="ant_antcog"><with-param v="Màriu"/><with-param v="Mario"/></macro>
+  <macro n="ant_antcog"><with-param v="Michelàngelu"/><with-param v="Michelangelo"/></macro>
   <macro n="ant_antcog"><with-param v="Ovìdiu"/><with-param v="Ovidio"/></macro>
   <macro n="ant_antcog"><with-param v="Remu"/><with-param v="Remo"/></macro>
   <macro n="ant_antcog"><with-param v="Tzèsare"/><with-param v="Cesare"/></macro>

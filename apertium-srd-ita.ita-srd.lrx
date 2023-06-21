@@ -2636,6 +2636,47 @@
     <match lemma="farmacia" tags="n.*"><select lemma="farmatzia"/></match>
   </rule>
 
+  <!-- calcio > fùbbalu, càltziu -->
+  <rule weight="0.6">
+    <match lemma="calcio" tags="n.*"><select lemma="fùbbalu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="calcio" tags="n.*"><select lemma="càltziu"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="chimica" tags="n.*"/>
+      <match lemma="chimico" tags="adj.*"/>
+      <match lemma="metallo" tags="n.*"/>
+      <match lemma="vitamina" tags="n.*"/>
+      <match lemma="minerale" tags="n.*"/>
+      <match lemma="fosforo" tags="n.*"/>
+      <match lemma="magnesio" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="chimica" tags="n.*"/>
+      <match lemma="chimico" tags="adj.*"/>
+      <match lemma="metallo" tags="n.*"/>
+      <match lemma="vitamina" tags="n.*"/>
+      <match lemma="minerale" tags="n.*"/>
+      <match lemma="fosforo" tags="n.*"/>
+      <match lemma="magnesio" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="calcio" tags="n.*"><select lemma="càltziu"/></match>
+  </rule>
+
   <!-- macchina > màchina, vetura -->
   <rule weight="0.6">
     <match lemma="macchina" tags="n.*"><select lemma="màchina"/></match>
@@ -3745,6 +3786,7 @@
   <macro n="ant_antcog"><with-param v="Ercole"/><with-param v="Èrcule"/></macro>
   <macro n="ant_antcog"><with-param v="Gaio"/><with-param v="Gàiu"/></macro>
   <macro n="ant_antcog"><with-param v="Metodio"/><with-param v="Metòdiu"/></macro>
+  <macro n="ant_antcog"><with-param v="Michelangelo"/><with-param v="Michelàngelu"/></macro>
   <macro n="ant_antcog"><with-param v="Mosè"/><with-param v="Moses"/></macro>
   <macro n="ant_antcog"><with-param v="Omero"/><with-param v="Omeru"/></macro>
   <macro n="ant_antcog"><with-param v="Onorio"/><with-param v="Onòriu"/></macro>
