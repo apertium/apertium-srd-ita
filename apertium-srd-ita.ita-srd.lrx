@@ -2623,6 +2623,15 @@
     <match lemma="gemello" tags="n.*"><select lemma="gemellu"/></match>
   </rule>
 
+  <!-- discorso > arresonu, discorsu -->
+  <rule weight="0.6">
+    <match lemma="discorso" tags="n.*"><select lemma="arresonu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="discorso" tags="n.*"><select lemma="discorsu"/></match>
+    <match tags="adj.*"/>
+  </rule>
+
   <!-- farmacia > potecaria, farmatzia -->
   <rule weight="0.6">
     <match lemma="farmacia" tags="n.*"><select lemma="potecaria"/></match>
@@ -3769,6 +3778,19 @@
       <match tags="num.*"/>
     </or>
     <match lemma="Asburgo" tags="np.cog.*"><select lemma="Asburgos"/></match>
+  </rule>
+
+  <!-- Savoia > Savoia, Savojas -->
+  <rule weight="0.6">
+    <match lemma="Savoia" tags="np.cog.*"><select lemma="Savoja"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="det.*.pl"/>
+      <match tags="num"/>
+      <match tags="num.*"/>
+    </or>
+    <match lemma="Savoia" tags="np.cog.*"><select lemma="Savojas"/></match>
   </rule>
 
 
