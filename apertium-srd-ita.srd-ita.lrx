@@ -393,7 +393,7 @@
 
 <!-- **************** PREP **************** -->
 
-  <!-- a > a, per, [remove] -->
+  <!-- a > a, per, de, [remove] -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
   </rule>
@@ -422,6 +422,14 @@
     </repeat>
     <match tags="*.inf"/>
   </rule>
+  <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <match lemma="a" tags="pr"><select lemma="da"/></match>
+    <repeat from="0" upto="2">
+      <match tags="prn.pro.*"/>
+    </repeat>
+    <match tags="*.inf"/>
+  </rule>
 
   <!-- de > di, da -->
   <rule weight="0.8">
@@ -433,6 +441,14 @@
       <match tags="adv"/>
     </repeat>
     <match lemma="de" tags="pr"><select lemma="da"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <match lemma="de" tags="pr"><select lemma="da"/></match>
+    <repeat from="0" upto="2">
+      <match tags="prn.pro.*"/>
+    </repeat>
+    <match tags="*.inf"/>
   </rule>
 
   <!-- dae > da, di -->
