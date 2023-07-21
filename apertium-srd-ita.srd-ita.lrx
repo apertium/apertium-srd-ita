@@ -533,6 +533,45 @@
     <match lemma="sentidu" tags="n.*"><select lemma="senso"/></match>
   </rule>
 
+  <!-- casta > tipologia, casta -->
+  <rule weight="0.8">
+    <match lemma="casta" tags="n.*"><select lemma="tipologia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="casta" tags="n.*"><select lemma="casta"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="India" tags="np.*"/>
+      <match lemma="induismu" tags="n.*"/>
+      <match lemma="induista" tags="n.*"/>
+      <match lemma="induista" tags="adj.*"/>
+      <match lemma="indù" tags="n.*"/>
+      <match lemma="indù" tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="India" tags="np.*"/>
+      <match lemma="induismu" tags="n.*"/>
+      <match lemma="induista" tags="n.*"/>
+      <match lemma="induista" tags="adj.*"/>
+      <match lemma="indù" tags="n.*"/>
+      <match lemma="indù" tags="adj.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="casta" tags="n.*"><select lemma="casta"/></match>
+  </rule>
+
   <!-- mascru > maschio, ariete -->
   <rule weight="0.8">
     <match lemma="mascru" tags="n.*"><select lemma="maschio"/></match>
@@ -594,6 +633,16 @@
     <match lemma="belle" tags="adv"><select lemma="circa"/></match>
   </rule>
 
+  <!-- finas > pure, fino a, ... -->
+  <rule weight="0.8">
+    <match lemma="finas" tags="adv"><select lemma="pure"/></match>
+  </rule>
+
+  <!-- fintzas > anche, ... -->
+  <rule weight="0.8">
+    <match lemma="fintzas" tags="adv"><select lemma="anche"/></match>
+  </rule>
+
 <!-- **************** VBLEX **************** -->
 
   <!-- girare > girare, ... -->
@@ -604,6 +653,11 @@
   <!-- giùghere > portare, ... -->
   <rule weight="0.8">
     <match lemma="giùghere" tags="vblex.*"><select lemma="portare"/></match>
+  </rule>
+
+  <!-- iscrìere > scrivere, iscrivere -->
+  <rule weight="0.8">
+    <match lemma="iscrìere" tags="vblex.*"><select lemma="scrivere"/></match>
   </rule>
 
   <!-- disconnòschere > ignorare, disconoscere, ... -->
