@@ -3,6 +3,7 @@
   <section-def-cats>
     <def-cat n="nom">
        <cat-item tags="n.*"/>
+       <cat-item tags="abbr"/>
     </def-cat>
     <def-cat n="nom_pl">
        <cat-item tags="n.*.pl"/>
@@ -706,6 +707,108 @@
        <list-item v="XXVIII"/>
        <list-item v="XXIX"/>
        <list-item v="XXX"/>
+    </def-list>
+    <def-list n="numarab">
+<!--  <list-item v="1"/> -->
+      <list-item v="2"/>
+      <list-item v="3"/>
+      <list-item v="4"/>
+      <list-item v="5"/>
+      <list-item v="6"/>
+      <list-item v="7"/>
+      <list-item v="8"/>
+      <list-item v="9"/>
+      <list-item v="10"/>
+      <list-item v="11"/>
+      <list-item v="12"/>
+      <list-item v="13"/>
+      <list-item v="14"/>
+      <list-item v="15"/>
+      <list-item v="16"/>
+      <list-item v="17"/>
+      <list-item v="18"/>
+      <list-item v="19"/>
+      <list-item v="20"/>
+      <list-item v="21"/>
+      <list-item v="22"/>
+      <list-item v="23"/>
+      <list-item v="24"/>
+      <list-item v="25"/>
+      <list-item v="26"/>
+      <list-item v="27"/>
+      <list-item v="28"/>
+      <list-item v="29"/>
+      <list-item v="30"/>
+      <list-item v="31"/>
+      <list-item v="32"/>
+      <list-item v="33"/>
+      <list-item v="34"/>
+      <list-item v="35"/>
+      <list-item v="36"/>
+      <list-item v="37"/>
+      <list-item v="38"/>
+      <list-item v="39"/>
+      <list-item v="40"/>
+      <list-item v="41"/>
+      <list-item v="42"/>
+      <list-item v="43"/>
+      <list-item v="44"/>
+      <list-item v="45"/>
+      <list-item v="46"/>
+      <list-item v="47"/>
+      <list-item v="48"/>
+      <list-item v="49"/>
+      <list-item v="50"/>
+      <list-item v="51"/>
+      <list-item v="52"/>
+      <list-item v="53"/>
+      <list-item v="54"/>
+      <list-item v="55"/>
+      <list-item v="56"/>
+      <list-item v="57"/>
+      <list-item v="58"/>
+      <list-item v="59"/>
+      <list-item v="60"/>
+      <list-item v="61"/>
+      <list-item v="62"/>
+      <list-item v="63"/>
+      <list-item v="64"/>
+      <list-item v="65"/>
+      <list-item v="66"/>
+      <list-item v="67"/>
+      <list-item v="68"/>
+      <list-item v="69"/>
+      <list-item v="70"/>
+      <list-item v="71"/>
+      <list-item v="72"/>
+      <list-item v="73"/>
+      <list-item v="74"/>
+      <list-item v="75"/>
+      <list-item v="76"/>
+      <list-item v="77"/>
+      <list-item v="78"/>
+      <list-item v="79"/>
+      <list-item v="80"/>
+      <list-item v="81"/>
+      <list-item v="82"/>
+      <list-item v="83"/>
+      <list-item v="84"/>
+      <list-item v="85"/>
+      <list-item v="86"/>
+      <list-item v="87"/>
+      <list-item v="88"/>
+      <list-item v="89"/>
+      <list-item v="90"/>
+      <list-item v="91"/>
+      <list-item v="92"/>
+      <list-item v="93"/>
+      <list-item v="94"/>
+      <list-item v="95"/>
+      <list-item v="96"/>
+      <list-item v="97"/>
+      <list-item v="98"/>
+      <list-item v="99"/>
+      <list-item v="100"/>
     </def-list>
     <def-list n="trencats">
       <list-item v="terzo"/>
@@ -3973,6 +4076,16 @@
 	  </test>
 	  <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
 	</when>
+        <when>
+          <test>
+	    <and>
+	      <equal><clip pos="1" side="tl" part="a_adj_ord"/><lit-tag v="adj.ord"/></equal>
+              <in><clip pos="1" side="tl" part="lem"/><list n="numarab"/></in>
+	      <not><equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sp"/></equal></not>
+	    </and>
+          </test>
+	  <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
+	</when>
 	<when>
 	  <test>
 	    <and>
@@ -5840,52 +5953,46 @@
      <choose>
        <when>
          <test>
-	    <and>
-	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
-	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
-           <equal>
-             <case-of pos="1" side="sl" part="lemh"/>
-             <lit v="Aa"/>
-           </equal>
-	    </and>
-           </test>
-           <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
-           <!-- afegim l'article -->
-           <modify-case>
-             <clip pos="1" side="tl" part="lemh"/>
-             <lit v="aa"/>
-           </modify-case>
+	   <and>
+	     <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
+	     <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
+             <equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal>
+	   </and>
+         </test>
+         <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
+         <!-- afegim l'article -->
+         <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
          <out>
-           <chunk name="det_adjord_n">
+           <chunk name="det_adjord">
              <tags>
-               <tag><lit-tag v="SN"/></tag>
+               <tag><lit-tag v="SAdj"/></tag>
              </tags>
-           <lu>
+             <lu>
                <lit v="Su"/><lit-tag v="det"/><lit-tag v="def"/>
                <lit-tag v="m"/>
                <lit-tag v="sg"/>
-           </lu>
-           <b/>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </when>
        <otherwise>
          <out>
            <chunk name="adjord">
              <tags>
-               <tag><lit-tag v="SN"/></tag>
+               <tag><lit-tag v="SAdj"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </otherwise>
      </choose>
@@ -6420,30 +6527,67 @@
 	     <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
            </when>
          </choose>
-         <out>
-           <chunk name="det_adjord_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <in><clip pos="2" side="tl" part="lem"/><list n="numarab"/></in>
+             </test>
+             <out>
+               <chunk name="det_adjord_n">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <lit v="de"/><lit-tag v="pr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="det_adjord_n">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </action>
     </rule>
 
@@ -6479,36 +6623,79 @@
          <call-macro n="f_clean_post">
            <with-param pos="3"/>
          </call-macro>
-         <out>
-           <chunk name="det_adjord_adj_n">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-           <b pos="3"/>
-           <lu>
-             <clip pos="4" side="tl" part="lemh"/>
-             <clip pos="4" side="tl" part="tags"/>
-             <clip pos="4" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <in><clip pos="2" side="tl" part="lem"/><list n="numarab"/></in>
+             </test>
+             <out>
+               <chunk name="det_adjord_adj_n">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <lit v="de"/><lit-tag v="pr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="3"/>
+                 <lu>
+                   <clip pos="4" side="tl" part="lemh"/>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="det_adjord_adj_n">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="3"/>
+                 <lu>
+                   <clip pos="4" side="tl" part="lemh"/>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </action>
     </rule>
 
@@ -6541,36 +6728,79 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
-         <out>
-           <chunk name="det_adjord_n_adjpos">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-           <b pos="3"/>
-           <lu>
-             <clip pos="4" side="tl" part="lemh"/>
-             <clip pos="4" side="tl" part="tags"/>
-             <clip pos="4" side="tl" part="lemq"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <in><clip pos="3" side="tl" part="lem"/><list n="numarab"/></in>
+             </test>
+             <out>
+               <chunk name="det_adjord_n_adjpos">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <lit v="de"/><lit-tag v="pr"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="3"/>
+                 <lu>
+                   <clip pos="4" side="tl" part="lemh"/>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="det_adjord_n_adjpos">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="3"/>
+                 <lu>
+                   <clip pos="4" side="tl" part="lemh"/>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </action>
     </rule>
 
@@ -6606,36 +6836,79 @@
            <with-param pos="3"/>
            <with-param pos="4"/>
          </call-macro>
-         <out>
-           <chunk name="det_adjord_n_adj">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-           <b pos="3"/>
-           <lu>
-             <clip pos="4" side="tl" part="lemh"/>
-             <clip pos="4" side="tl" part="tags"/>
-             <clip pos="4" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
+         <choose>
+           <when>
+             <test>
+               <in><clip pos="2" side="tl" part="lem"/><list n="numarab"/></in>
+             </test>
+             <out>
+               <chunk name="det_adjord_n">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <lit v="de"/><lit-tag v="pr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="3"/>
+                 <lu>
+                   <clip pos="4" side="tl" part="lemh"/>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="det_adjord_n_adj">
+                 <tags>
+                   <tag><lit-tag v="SN"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="3"/>
+                 <lu>
+                   <clip pos="4" side="tl" part="lemh"/>
+                   <clip pos="4" side="tl" part="tags"/>
+                   <clip pos="4" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
        </action>
     </rule>
 
@@ -6674,6 +6947,46 @@
                    <clip pos="1" side="tl" part="lemq"/>
                  </lu>
                  <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="2"/>
+                 <lu>
+                   <clip pos="3" side="tl" part="lemh"/>
+                   <clip pos="3" side="tl" part="tags"/>
+                   <clip pos="3" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <when>
+             <test>
+               <in><clip pos="2" side="tl" part="lem"/><list n="numarab"/></in>
+             </test>
+             <out>
+               <chunk name="pr_adjord_n">
+                 <tags>
+                   <tag><lit-tag v="SPrep"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <lit v="su"/>
+                   <lit-tag v="det"/><lit-tag v="def"/>
+                   <var n="genero"/>
+                   <var n="numero"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <lit v="de"/><lit-tag v="pr"/>
+                 </lu>
+                 <b/>
                  <lu>
                    <clip pos="2" side="tl" part="lemh"/>
                    <clip pos="2" side="tl" part="tags"/>
