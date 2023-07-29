@@ -4499,7 +4499,7 @@
          <test>
            <and>
              <in><clip pos="1" side="sl" part="lemh"/><list n="numrom"/></in>
-	         <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="secolo"/></equal>
+             <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
          <out>
@@ -4666,7 +4666,7 @@
          <test>
            <and>
              <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
-	     <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="secolo"/></equal>
+             <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
           <modify-case>
@@ -5163,24 +5163,24 @@
            <when>
              <test>
                <or>
-	         <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="suo"/></equal>
-	         <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="loro"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="suo"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="loro"/></equal>
                </or>
              </test>
              <choose>
                <when>
                  <test>
-	           <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
+                   <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></equal>
                  </test>
-	         <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
+                 <let><clip pos="1" side="tl" part="gen"/><clip pos="2" side="tl" part="gen"/></let>
                </when>
              </choose>
              <choose>
                <when>
                  <test>
-	           <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
+                   <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sp"/></equal>
                  </test>
-	         <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></let>
+                 <let><clip pos="1" side="tl" part="nbr"/><clip pos="2" side="tl" part="nbr"/></let>
                </when>
              </choose>
              <out>
@@ -5953,11 +5953,11 @@
      <choose>
        <when>
          <test>
-	   <and>
-	     <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
-	     <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
+           <and>
+             <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
+             <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
              <equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal>
-	   </and>
+           </and>
          </test>
          <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
          <!-- afegim l'article -->
@@ -6044,14 +6044,14 @@
        </when>
        <when>
          <test>
-	    <and>
-	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
-	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
+            <and>
+            <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
+            <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
            <equal>
              <case-of pos="1" side="sl" part="lemh"/>
              <lit v="Aa"/>
            </equal>
-	    </and>
+            </and>
            </test>
            <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
            <!-- afegim l'article -->
@@ -6135,14 +6135,14 @@
      <choose>
        <when>
          <test>
-	    <and>
-	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
-	    <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
+            <and>
+            <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="primu"/></equal></not>
+            <not><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="segundu"/></equal></not>
            <equal>
              <case-of pos="1" side="sl" part="lemh"/>
              <lit v="Aa"/>
            </equal>
-	    </and>
+            </and>
            </test>
            <!-- considerem que és inici de frase (comença amb majúscula i no hi ha article: no es "la Tercera República" -->
            <!-- afegim l'article -->
@@ -6492,6 +6492,83 @@
     </rule>
 
 
+    <rule comment="regla: detdef adjord: la terza > sa de tres">
+       <pattern>
+         <pattern-item n="detdef"/>
+         <pattern-item n="adjord"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord2">
+           <with-param pos="1"/>
+           <with-param pos="2"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                 <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 <in caseless="yes"><clip pos="3" side="sl" part="lemh"/><list n="mese"/></in>
+               </and>
+             </test>
+             <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+             <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+               <in><clip pos="2" side="tl" part="lem"/><list n="numarab"/></in>
+             </test>
+             <out>
+               <chunk name="det_adjord">
+                 <tags>
+                   <tag><lit-tag v="SAdj"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <lit v="de"/><lit-tag v="pr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="det_adjord">
+                 <tags>
+                   <tag><lit-tag v="SAdj"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <lu>
+                   <clip pos="2" side="tl" part="lemh"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                   <clip pos="2" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
+       </action>
+    </rule>
+
+
     <rule comment="regla: det adjord nom: la terza casa > sa de tres domos">
        <pattern>
          <pattern-item n="det"/>
@@ -6517,14 +6594,14 @@
            <when>
              <test>
                <and>
-	         <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
-	         <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
-	         <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 <equal><clip pos="1" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
+                 <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
+                 <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="f"/></equal>
                  <in caseless="yes"><clip pos="3" side="sl" part="lemh"/><list n="mese"/></in>
                </and>
              </test>
-	     <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
-	     <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
+             <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+             <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
            </when>
          </choose>
          <choose>
@@ -7053,10 +7130,10 @@
            <with-param pos="2"/>
            <with-param pos="1"/>
          </call-macro>
-	  <let>
-	    <clip pos="1" side="tl" part="a_adj_sup"/>
-	    <lit-tag v="adj"/>
-	  </let>
+          <let>
+            <clip pos="1" side="tl" part="a_adj_sup"/>
+            <lit-tag v="adj"/>
+          </let>
          <out>
            <chunk name="adjsup_n">
              <tags>
@@ -7150,10 +7227,10 @@
          <call-macro n="f_chunk_tags">
            <with-param pos="1"/>
          </call-macro>
-	     <let>
-	       <clip pos="2" side="tl" part="a_adj_sup"/>
-	       <lit-tag v="adj"/>
-	     </let>
+         <let>
+           <clip pos="2" side="tl" part="a_adj_sup"/>
+           <lit-tag v="adj"/>
+         </let>
          <out>
            <chunk name="n_adjsup">
              <tags>
@@ -7275,10 +7352,10 @@
          <call-macro n="f_chunk_tags">
            <with-param pos="2"/>
          </call-macro>
-	  <let>
-	    <clip pos="3" side="tl" part="a_adj_sup"/>
-	    <lit-tag v="adj"/>
-	  </let>
+      <let>
+        <clip pos="3" side="tl" part="a_adj_sup"/>
+        <lit-tag v="adj"/>
+      </let>
          <out>
            <chunk name="det_n_adjsup">
              <tags>

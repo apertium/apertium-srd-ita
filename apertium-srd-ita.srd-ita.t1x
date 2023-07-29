@@ -22,6 +22,9 @@
     <def-cat n="det">
        <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="detdef">
+       <cat-item tags="det.def.*"/>
+    </def-cat>
     <def-cat n="detdefmsg">
        <cat-item tags="det.def.m.sg"/>
     </def-cat>
@@ -4822,6 +4825,44 @@
    </action>
 </rule>
 
+
+<rule comment="regla: det ord: sa de tres > la terza">
+   <pattern>
+     <pattern-item n="detdef"/>
+     <pattern-item n="adjord"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord2">
+       <with-param pos="1"/>
+       <with-param pos="2"/>
+     </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="1"/>
+     </call-macro>
+     <out>
+       <chunk name="det-ord">
+         <tags>
+           <tag><lit-tag v="SAdj"/></tag>
+           <tag><clip pos="1" side="tl" part="gen"/></tag>
+           <tag><clip pos="1" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_sl"/></tag>
+           <tag><var n="numero_sl"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
 
 <rule comment="regla: det ord nom: sa de tres domos > la terza casa">
    <pattern>
