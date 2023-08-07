@@ -355,6 +355,14 @@
            <match tags="" case="Aa"/>
          </or>
       </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="sennore" tags="n.*"/>
+           <match lemma="segnore" tags="n.*"/>
+           <match lemma="sennorinu" tags="n.*"/>
+         </or>
+         <match plemma="1" tags="np.*"><select plemma="1"/></match>
+      </rule>
     </def-macro>
   </def-macros>
 
@@ -703,6 +711,7 @@
   <macro n="ant_antcog"><with-param v="Màriu"/><with-param v="Mario"/></macro>
   <macro n="ant_antcog"><with-param v="Michelàngelu"/><with-param v="Michelangelo"/></macro>
   <macro n="ant_antcog"><with-param v="Ovìdiu"/><with-param v="Ovidio"/></macro>
+  <macro n="ant_antcog"><with-param v="Pipinu"/><with-param v="Pipino"/></macro>
   <macro n="ant_antcog"><with-param v="Remu"/><with-param v="Remo"/></macro>
   <macro n="ant_antcog"><with-param v="Tzèsare"/><with-param v="Cesare"/></macro>
   <macro n="ant_antcog"><with-param v="Tzitzerone"/><with-param v="Cicerone"/></macro>
@@ -755,7 +764,6 @@
   <macro n="noms_propis"><with-param v="Obertu"/><with-param v="Oberto"/></macro>
   <macro n="noms_propis"><with-param v="Pàule"/><with-param v="Paolo"/></macro>
   <macro n="noms_propis"><with-param v="Pedru"/><with-param v="Pietro"/></macro>
-  <macro n="noms_propis"><with-param v="Pipinu"/><with-param v="Pipino"/></macro>
   <macro n="noms_propis"><with-param v="Piu"/><with-param v="Pio"/></macro>
   <macro n="noms_propis"><with-param v="Raimundu"/><with-param v="Raimondo"/></macro>
   <macro n="noms_propis"><with-param v="Riccardu"/><with-param v="Ricardo"/></macro>

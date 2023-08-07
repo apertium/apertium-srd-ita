@@ -340,6 +340,13 @@
            <match tags="" case="Aa"/>
          </or>
       </rule>
+      <rule weight="1.0">
+         <or>
+           <match lemma="signore" tags="n.*"/>
+           <match lemma="signorino" tags="n.*"/>
+         </or>
+         <match plemma="1" tags="np.*"><select plemma="1"/></match>
+      </rule>
     </def-macro>
 
     <!-- Aquesta macro tria el verb p2 si p1 és intransitiu i p3 si p1 és transitiu -->
@@ -3806,6 +3813,7 @@
   <macro n="ant_antcog"><with-param v="Claudio"/><with-param v="Clàudiu"/></macro>
   <macro n="ant_antcog"><with-param v="Costantino"/><with-param v="Costantinu"/></macro>
   <macro n="ant_antcog"><with-param v="Ercole"/><with-param v="Èrcule"/></macro>
+  <macro n="ant_antcog"><with-param v="Ettore"/><with-param v="Ètore"/></macro>
   <macro n="ant_antcog"><with-param v="Gaio"/><with-param v="Gàiu"/></macro>
   <macro n="ant_antcog"><with-param v="Metodio"/><with-param v="Metòdiu"/></macro>
   <macro n="ant_antcog"><with-param v="Michelangelo"/><with-param v="Michelàngelu"/></macro>
@@ -3816,6 +3824,7 @@
   <macro n="ant_antcog"><with-param v="Ottaviano"/><with-param v="Otavianu"/></macro>
   <macro n="ant_antcog"><with-param v="Ottone"/><with-param v="Otone"/></macro>
   <macro n="ant_antcog"><with-param v="Ovidio"/><with-param v="Ovìdiu"/></macro>
+  <macro n="ant_antcog"><with-param v="Pipino"/><with-param v="Pipinu"/></macro>
   <macro n="ant_antcog"><with-param v="Publio"/><with-param v="Pùbliu"/></macro>
   <macro n="ant_antcog"><with-param v="Remo"/><with-param v="Remu"/></macro>
   <macro n="ant_antcog"><with-param v="Tarquinio"/><with-param v="Tarcuìniu"/></macro>
@@ -3872,7 +3881,6 @@
   <macro n="noms_propis"><with-param v="Paolo"/><with-param v="Pàule"/></macro>
   <macro n="noms_propis"><with-param v="Pietro"/><with-param v="Pedru"/></macro>
   <macro n="noms_propis"><with-param v="Pio"/><with-param v="Piu"/></macro>
-  <macro n="noms_propis"><with-param v="Pipino"/><with-param v="Pipinu"/></macro>
   <macro n="noms_propis"><with-param v="Raimondo"/><with-param v="Raimundu"/></macro>
   <macro n="noms_propis"><with-param v="Riccardo"/><with-param v="Ricardu"/></macro>
   <macro n="noms_propis"><with-param v="Roberto"/><with-param v="Robertu"/></macro>
