@@ -8520,15 +8520,15 @@
    <action>
      <out>
        <chunk name="v">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
          <lu>
            <get-case-from pos="1">
-                 <clip pos="2" side="tl" part="lemh"/>
+             <clip pos="2" side="tl" part="lemh"/>
            </get-case-from>
-               <clip pos="2" side="tl" part="tags"/>
-               <clip pos="2" side="tl" part="lemq"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
          </lu>
        </chunk>
        <b pos="1"/>
@@ -8552,7 +8552,7 @@
          <pattern-item n="ger"/>
        </pattern>
        <action>
-          <let><clip pos="1" side="tl" part="lemh"/><lit v="stare"/></let>
+          <let><clip pos="1" side="tl" part="lem"/><lit v="stare"/></let>
           <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex"/></let>
          <out>
            <chunk name="v">
@@ -8560,9 +8560,10 @@
                <tag><lit-tag v="SV"/></tag>
              </tags>
            <lu>
-             <clip pos="1" side="tl" part="lemh"/>
+             <get-case-from pos="1">
+               <clip pos="1" side="tl" part="lemh"/>
+             </get-case-from>
              <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
            </lu>
            <b pos="1"/>
            <lu>
