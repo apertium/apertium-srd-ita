@@ -765,7 +765,6 @@
 
     <def-seq n="strumenti_musicali_senza_piano">
       <or>
-      <match lemma="pianoforte" tags="n.*"/>
       <match lemma="violino" tags="n.*"/>
       <match lemma="viola" tags="n.*"/>
       <match lemma="violoncello" tags="n.*"/>
@@ -777,6 +776,17 @@
       <match lemma="sassofono" tags="n.*"/>
       <match lemma="sax" tags="n.*"/>
       <match lemma="organo" tags="n.*"/>
+      <match lemma="cembalo" tags="n.*"/>
+      <match lemma="clavicembalo" tags="n.*"/>
+      <match lemma="clavicordo" tags="n.*"/>
+      <match lemma="pianoforte" tags="n.*"/>
+      <match lemma="chitarra" tags="n.*"/>
+      <match lemma="chitarrone" tags="n.*"/>
+      <match lemma="tiorba" tags="n.*"/>
+      <match lemma="liuto" tags="n.*"/>
+      <match lemma="ukulele" tags="n.*"/>
+      <match lemma="cornamusa" tags="n.*"/>
+      <match lemma="armonica" tags="n.*"/>
       </or>
     </def-seq>
 
@@ -2634,6 +2644,14 @@
     <match lemma="gemello" tags="n.*"><select lemma="gemellu"/></match>
   </rule>
 
+  <!-- intesa > acordu, intesa -->
+  <rule weight="0.8">
+    <match lemma="intesa" tags="n.*"><select lemma="acordu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Intesa" tags="n.*"><select lemma="intesa"/></match>
+  </rule>
+
   <!-- discorso > arresonu, discorsu -->
   <rule weight="0.6">
     <match lemma="discorso" tags="n.*"><select lemma="arresonu"/></match>
@@ -2654,6 +2672,41 @@
     </or>
     <match lemma="di" tags="pr"/>
     <match lemma="farmacia" tags="n.*"><select lemma="farmatzia"/></match>
+  </rule>
+
+  <!-- strumento > trastu, istrumentu -->
+  <rule weight="0.6">
+    <match lemma="strumento" tags="n.*"><select lemma="trastu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="strumento" tags="n.*"><select lemma="istrumentu"/></match>
+    <match lemma="musicale" tags="adj.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="strumento" tags="n.*"><select lemma="istrumentu"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="suonare" tags="vblex.*"/>
+      <seq n="strumenti_musicali"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="suonare" tags="vblex.*"/>
+      <seq n="strumenti_musicali"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="strumento" tags="n.*"><select lemma="istrumentu"/></match>
   </rule>
 
   <!-- calcio > fùbbalu, càltziu -->

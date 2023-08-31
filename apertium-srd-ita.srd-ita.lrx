@@ -495,7 +495,6 @@
 
 <!-- **************** N **************** -->
 
-  <!-- conca > testa, conca -->
   <rule weight="0.8">
     <match lemma="conca" tags="n.*"><select lemma="testa"/></match>
   </rule>
