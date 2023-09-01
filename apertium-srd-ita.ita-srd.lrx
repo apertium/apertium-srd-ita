@@ -2242,6 +2242,9 @@
     <match lemma="dae" tags="pr"/>
   </rule>
 
+  <!-- aumentare > crèschere, aumentare -->
+  <macro n="verb_intrans_trans"><with-param v="aumentare"/><with-param v="crèschere"/><with-param v="aumentare"/></macro>
+
   <!-- ripartire > torrare# a mòvere, mòvere -->
   <macro n="verb_intrans_trans"><with-param v="ripartire"/><with-param v="torrare# a mòvere"/><with-param v="mòvere"/></macro>
 

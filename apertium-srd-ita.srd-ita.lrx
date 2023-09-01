@@ -652,6 +652,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- crèschere > crescere, ... -->
+  <rule weight="0.8">
+    <match lemma="crèschere" tags="vblex.*"><select lemma="crescere"/></match>
+  </rule>
+
   <!-- girare > girare, ... -->
   <rule weight="0.8">
     <match lemma="girare" tags="vblex.*"><select lemma="girare"/></match>
