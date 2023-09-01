@@ -3999,6 +3999,9 @@
          <call-macro n="f_chunk_tags">
            <with-param pos="2"/>
          </call-macro>
+         <call-macro n="f_clean_pre">
+           <with-param pos="2"/>
+         </call-macro>
          <out>
            <chunk name="det_adj">
              <tags>
