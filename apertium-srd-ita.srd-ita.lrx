@@ -652,6 +652,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- refudare > rifiutare, ... -->
+  <rule weight="0.8">
+    <match lemma="refudare" tags="vblex.*"><select lemma="rifiutare"/></match>
+  </rule>
+
   <!-- crèschere > crescere, ... -->
   <rule weight="0.8">
     <match lemma="crèschere" tags="vblex.*"><select lemma="crescere"/></match>
@@ -732,12 +737,17 @@
   <macro n="noms_propis"><with-param v="Callina"/><with-param v="Caterina"/></macro>
   <macro n="noms_propis"><with-param v="Càralu"/><with-param v="Carlo"/></macro>
   <macro n="noms_propis"><with-param v="Callistu"/><with-param v="Callisto"/></macro>
+  <macro n="noms_propis"><with-param v="Corradinu"/><with-param v="Corradino"/></macro>
+  <macro n="noms_propis"><with-param v="Corradu"/><with-param v="Corrado"/></macro>
+  <macro n="noms_propis"><with-param v="Costantza"/><with-param v="Costanza"/></macro>
   <macro n="noms_propis"><with-param v="Domìnighe"/><with-param v="Domenico"/></macro>
+  <macro n="noms_propis"><with-param v="Elianora"/><with-param v="Eleonora"/></macro>
   <macro n="noms_propis"><with-param v="Elisabeta"/><with-param v="Elisabetta"/></macro>
-  <macro n="noms_propis"><with-param v="Enzu"/><with-param v="Enzo"/></macro>
+  <macro n="noms_propis"><with-param v="Entzu"/><with-param v="Enzo"/></macro>
   <macro n="noms_propis"><with-param v="Erricu"/><with-param v="Enrico"/></macro>
   <macro n="noms_propis"><with-param v="Federicu"/><with-param v="Federico"/></macro>
   <macro n="noms_propis"><with-param v="Fidericu"/><with-param v="Federico"/></macro>
+  <macro n="noms_propis"><with-param v="Ferdinandu"/><with-param v="Ferdinando"/></macro>
   <macro n="noms_propis"><with-param v="Ferrante"/><with-param v="Ferdinando"/></macro>
   <macro n="noms_propis"><with-param v="Frantzisca"/><with-param v="Francesca"/></macro>
   <macro n="noms_propis"><with-param v="Frantziscu"/><with-param v="Francesco"/></macro>
@@ -754,16 +764,20 @@
   <macro n="noms_propis"><with-param v="Gregòriu"/><with-param v="Gregorio"/></macro>
   <macro n="noms_propis"><with-param v="Guidu"/><with-param v="Guido"/></macro>
   <macro n="noms_propis"><with-param v="Gullielmu"/><with-param v="Guglielmo"/></macro>
+  <macro n="noms_propis"><with-param v="Gulliermu"/><with-param v="Guglielmo"/></macro>
   <macro n="noms_propis"><with-param v="Innotzentzu"/><with-param v="Innocenzo"/></macro>
   <macro n="noms_propis"><with-param v="Jacu"/><with-param v="Giacomo"/></macro>
   <macro n="noms_propis"><with-param v="Juvanna"/><with-param v="Giovanna"/></macro>
   <macro n="noms_propis"><with-param v="Lughia"/><with-param v="Lucia"/></macro>
+  <macro n="noms_propis"><with-param v="Lenardu"/><with-param v="Leonardo"/></macro>
   <macro n="noms_propis"><with-param v="Luisi"/><with-param v="Luigi"/></macro>
   <macro n="noms_propis"><with-param v="Marcu"/><with-param v="Marco"/></macro>
   <macro n="noms_propis"><with-param v="Marianu"/><with-param v="Mariano"/></macro>
   <macro n="noms_propis"><with-param v="Martine"/><with-param v="Martino"/></macro>
+  <macro n="noms_propis"><with-param v="Martinu"/><with-param v="Martino"/></macro>
   <macro n="noms_propis"><with-param v="Massimilianu"/><with-param v="Massimiliano"/></macro>
   <macro n="noms_propis"><with-param v="Mateu"/><with-param v="Matteo"/></macro>
+  <macro n="noms_propis"><with-param v="Mighele"/><with-param v="Michele"/></macro>
   <macro n="noms_propis"><with-param v="Nigola"/><with-param v="Nicola"/></macro>
   <macro n="noms_propis"><with-param v="Ninu"/><with-param v="Nino"/></macro>
   <macro n="noms_propis"><with-param v="Obertu"/><with-param v="Oberto"/></macro>
@@ -776,6 +790,7 @@
   <macro n="noms_propis"><with-param v="Sarbadore"/><with-param v="Salvatore"/></macro>
   <macro n="noms_propis"><with-param v="Sistu"/><with-param v="Sisto"/></macro>
   <macro n="noms_propis"><with-param v="Tilipu"/><with-param v="Filippo"/></macro>
+  <macro n="noms_propis"><with-param v="Ubaldu"/><with-param v="Ubaldo"/></macro>
   <macro n="noms_propis"><with-param v="Ugu"/><with-param v="Ugo"/></macro>
   <macro n="noms_propis"><with-param v="Umbertu"/><with-param v="Umberto"/></macro>
   <macro n="noms_propis"><with-param v="Victòria"/><with-param v="Victoria"/></macro>
