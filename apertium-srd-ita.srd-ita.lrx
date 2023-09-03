@@ -135,7 +135,10 @@
            <match lemma="arcànghelu" tags="n.*"/>
            <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
+           <match lemma="giuighe" tags="n.*"/>
+           <match lemma="giuighissa" tags="n.*"/>
            <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzerè" tags="n.*"/>
            <match lemma="vitzeré" tags="n.*"/>
            <match lemma="reghente" tags="n.*"/>
            <match lemma="prìntzipe" tags="n.*"/>
@@ -169,7 +172,10 @@
            <match lemma="arcànghelu" tags="n.*"/>
            <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
+           <match lemma="giuighe" tags="n.*"/>
+           <match lemma="giuighissa" tags="n.*"/>
            <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzerè" tags="n.*"/>
            <match lemma="vitzeré" tags="n.*"/>
            <match lemma="reghente" tags="n.*"/>
            <match lemma="prìntzipe" tags="n.*"/>
@@ -206,7 +212,10 @@
            <match lemma="arcànghelu" tags="n.*"/>
            <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
+           <match lemma="giuighe" tags="n.*"/>
+           <match lemma="giuighissa" tags="n.*"/>
            <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzerè" tags="n.*"/>
            <match lemma="vitzeré" tags="n.*"/>
            <match lemma="reghente" tags="n.*"/>
            <match lemma="prìntzipe" tags="n.*"/>
@@ -239,7 +248,10 @@
            <match lemma="arcànghelu" tags="n.*"/>
            <match lemma="imperadore" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
+           <match lemma="giuighe" tags="n.*"/>
+           <match lemma="giuighissa" tags="n.*"/>
            <match lemma="tzar" tags="n.*"/>
+           <match lemma="vitzerè" tags="n.*"/>
            <match lemma="vitzeré" tags="n.*"/>
            <match lemma="reghente" tags="n.*"/>
            <match lemma="prìntzipe" tags="n.*"/>
@@ -263,6 +275,7 @@
            <match lemma="impèriu" tags="n.*"/>
            <match lemma="regnu" tags="n.*"/>
            <match lemma="rennu" tags="n.*"/>
+           <match lemma="giuigadu" tags="n.*"/>
            <match lemma="règhida" tags="n.*"/>
          </or>
          <match lemma="de" tags="pr"/>
@@ -276,6 +289,7 @@
            <match lemma="impèriu" tags="n.*"/>
            <match lemma="regnu" tags="n.*"/>
            <match lemma="rennu" tags="n.*"/>
+           <match lemma="giuigadu" tags="n.*"/>
            <match lemma="règhida" tags="n.*"/>
          </or>
          <match lemma="de" tags="pr"/>
@@ -290,6 +304,7 @@
            <match lemma="impèriu" tags="n.*"/>
            <match lemma="regnu" tags="n.*"/>
            <match lemma="rennu" tags="n.*"/>
+           <match lemma="giuigadu" tags="n.*"/>
            <match lemma="règhida" tags="n.*"/>
          </or>
          <match lemma="de" tags="pr"/>
