@@ -2208,6 +2208,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- insediare > aposentare, apoderare -->
+  <rule weight="0.8">
+    <match lemma="insediare" tags="vblex.*"><select lemma="aposentare"/></match>
+  </rule>
+
   <!-- battere > adobbare, bìnchere -->
   <rule weight="0.8">
     <match lemma="battere" tags="vblex.*"><select lemma="adobbare"/></match>
@@ -3580,6 +3585,23 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- scorso > coladu, passadu -->
+  <rule weight="0.6">
+    <match lemma="scorso" tags="adj.*"><select lemma="coladu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="periodo"/>
+    </or>
+    <match lemma="scorso" tags="adj.*"><select lemma="passadu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="scorso" tags="adj.*"><select lemma="passadu"/></match>
+    <or>
+      <seq n="periodo"/>
+    </or>
+  </rule>
 
   <!-- ladino > ladinu, làdinu -->
   <rule weight="0.6">

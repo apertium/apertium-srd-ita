@@ -382,6 +382,20 @@
   </def-macros>
 
   <def-seqs>
+    <def-seq n="periodu">
+      <or>
+      <match lemma="minutu" tags="n.*"/>
+      <match lemma="ora" tags="n.*"/>
+      <match lemma="die" tags="n.*"/>
+      <match lemma="chida" tags="n.*"/>
+      <match lemma="mese" tags="n.*"/>
+      <match lemma="annu" tags="n.*"/>
+      <match lemma="dècada" tags="n.*"/>
+      <match lemma="sèculu" tags="n.*"/>
+      <match lemma="millènniu" tags="n.*"/>
+      </or>
+    </def-seq>
+
     <def-seq n="zodìacu">
       <or>
         <match lemma="zodìacu"/>
@@ -406,7 +420,7 @@
       <or>
         <match tags="vbser.*"/>
         <match lemma="pàrrere" tags="vblex.*"/>
-        <match lemma="cundiderare" tags="vblex.*"/>
+        <match lemma="cunsiderare" tags="vblex.*"/>
         <match lemma="giudicare" tags="vblex.*"/>
       </or>
     </def-seq>
@@ -625,6 +639,23 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- passadu > passato, scorso -->
+  <rule weight="0.6">
+    <match lemma="passadu" tags="adj.*"><select lemma="passato"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <seq n="periodu"/>
+    </or>
+    <match lemma="passadu" tags="adj.*"><select lemma="scorso"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="passadu" tags="adj.*"><select lemma="scorso"/></match>
+    <or>
+      <seq n="periodu"/>
+    </or>
+  </rule>
+
   <!-- cale > che, quale -->
   <rule weight="0.8">
     <match lemma="cale" tags="adj.*"><select lemma="che"/></match>
@@ -644,6 +675,11 @@
   </rule>
 
 <!-- **************** ADV **************** -->
+
+  <!-- deretu > subito, ... -->
+  <rule weight="0.8">
+    <match lemma="deretu" tags="adv"><select lemma="subito"/></match>
+  </rule>
 
   <!-- meda > molto, assai -->
   <rule weight="0.8">
@@ -666,6 +702,33 @@
   </rule>
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- apoderare > appropriare, insediare -->
+  <rule weight="0.8">
+    <match lemma="apoderare" tags="vblex.*"><select lemma="appropriare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="apoderare" tags="vblex.*"><select lemma="insediare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nche" tags="prn.pro.*"/>
+    <match lemma="apoderare" tags="vblex.*"><select lemma="insediare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nche" tags="prn.pro.*"/>
+    <or>
+      <match tags="vbser.*"/>
+      <match tags="vbhaver.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="apoderare" tags="vblex.*"><select lemma="insediare"/></match>
+  </rule>
 
   <!-- refudare > rifiutare, ... -->
   <rule weight="0.8">
