@@ -2208,6 +2208,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- desiderare > disigiare, ... -->
+  <rule weight="0.8">
+    <match lemma="desiderare" tags="vblex.*"><select lemma="disigiare"/></match>
+  </rule>
+
   <!-- insediare > aposentare, apoderare -->
   <rule weight="0.8">
     <match lemma="insediare" tags="vblex.*"><select lemma="aposentare"/></match>
