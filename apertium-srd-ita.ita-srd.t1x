@@ -793,6 +793,12 @@
   <def-attr n="a_adj_post">
      <attr-item tags="adj.post"/>
   </def-attr>
+
+  <def-attr n="a_adv">
+    <attr-item tags="adv"/>
+    <attr-item tags="preadv"/>
+  </def-attr>
+
   <def-attr n="a_det">
      <attr-item tags="det.ind"/>
      <attr-item tags="det.dem"/>
@@ -1092,7 +1098,7 @@
                </and>
              </test>
              <out>
-               <chunk name="inf_enc">
+               <chunk name="pro_inf">
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                  </tags>
@@ -1118,7 +1124,7 @@
            </when>
            <otherwise>
              <out>
-               <chunk name="inf_enc">
+               <chunk name="pro_inf">
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                  </tags>
@@ -1143,6 +1149,97 @@
              </out>
            </otherwise>
          </choose>
+    </def-macro>
+
+    <def-macro n="print_adv_adj" npar="2">
+      <call-macro n="f_concord1">
+        <with-param pos="2"/>
+      </call-macro>
+      <call-macro n="f_chunk_tags">
+        <with-param pos="2"/>
+      </call-macro>
+      <call-macro n="f_clean_post">
+        <with-param pos="2"/>
+      </call-macro>
+      <choose>
+        <when>
+          <test>
+            <and>
+              <equal><clip pos="1" side="sl" part="a_adv"/><lit-tag v="preadv"/></equal>
+              <equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="meda"/></equal>
+            </and>
+          </test>
+          <out>
+            <chunk name="adj_meda">
+              <tags>
+                <tag><lit-tag v="SA"/></tag>
+                <tag><clip pos="2" side="tl" part="gen"/></tag>
+                <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                <tag><var n="genero_sl"/></tag>
+                <tag><var n="numero_sl"/></tag>
+              </tags>
+              <lu>
+                <get-case-from pos="1">
+                  <clip pos="2" side="tl" part="lemh"/>
+                </get-case-from>
+                <clip pos="2" side="tl" part="a_adjec"/>
+                <lit-tag v="2"/>
+                <lit-tag v="3"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <get-case-from pos="2">
+                  <clip pos="1" side="tl" part="lemh"/>
+                </get-case-from>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+          <out>
+            <chunk namefrom="chunkname">
+              <tags>
+                <tag><lit-tag v="SAdv"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </chunk>
+            <b pos="1"/>
+          </out>
+          <call-macro n="f_concord1">
+            <with-param pos="2"/>
+          </call-macro>
+          <call-macro n="f_chunk_tags">
+            <with-param pos="2"/>
+          </call-macro>
+          <call-macro n="f_clean_post">
+            <with-param pos="2"/>
+          </call-macro>
+          <out>
+            <chunk name="adj">
+              <tags>
+                <tag><lit-tag v="SA"/></tag>
+                <tag><clip pos="2" side="tl" part="gen"/></tag>
+                <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                <tag><var n="genero_sl"/></tag>
+                <tag><var n="numero_sl"/></tag>
+              </tags>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="a_adjec"/>
+                <lit-tag v="2"/>
+                <lit-tag v="3"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
+        </otherwise>
+      </choose>
     </def-macro>
 
     <def-macro n="f_chunk_tags_gen" npar="1">
@@ -12988,7 +13085,7 @@
          </out>
          <let><clip pos="3" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
-           <chunk name="inf_enc">
+           <chunk name="pro_inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -13535,7 +13632,7 @@
 
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
-           <chunk name="inf_enc">
+           <chunk name="pro_inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -13639,7 +13736,7 @@
 
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
-           <chunk name="inf_enc">
+           <chunk name="pro_inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -13735,7 +13832,7 @@
 
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
-           <chunk name="inf_enc">
+           <chunk name="pro_inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -13827,7 +13924,7 @@
 
          <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
          <out>
-           <chunk name="inf_enc">
+           <chunk name="pro_inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -13846,8 +13943,6 @@
          </out>
        </action>
     </rule>
-
-<!-- enc enc xxxx -->
 
     <rule comment="regla: essere.ifi adj inf enc enc > èssere èssere.pp adj a pro pro inf (fu pericoloso cantargliela > fiat istadu perigulosu a bi la cantare)">
        <pattern>
@@ -14205,7 +14300,892 @@
        </action>
     </rule>
 
-<!-- xxxxx -->
+
+    <rule comment="regla: essere.ifi adv adj inf > èssere èssere.pp adv adj a inf (fu sempre pericoloso andare > fiat istadu semper perigulosu a andare)">
+       <pattern>
+         <pattern-item n="essere-ifi"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="èssere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbser"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="GD"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><var n="chunkname"/><clip pos="4" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="4" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.fti adv adj inf > àere a èssere adv adj a inf (sarà sempre pericoloso andare > at a èssere semper perigulosu a andare)">
+       <pattern>
+         <pattern-item n="essere-fti"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><var n="chunkname"/><clip pos="4" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="4" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.cni adv adj inf > dare.prs èssere.inf adv adj a inf (sarebbe sempre pericoloso andare > diat èssere semper perigulosu a andare)">
+       <pattern>
+         <pattern-item n="essere-cni"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><var n="chunkname"/><clip pos="4" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="4" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere adv adj inf > èssere adv adj a inf (è sempre pericoloso andare > est semper perigulosu a andare)">
+       <pattern>
+         <pattern-item n="essere"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><var n="chunkname"/><clip pos="4" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="4" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="4" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.ifi adv adj inf enc > èssere èssere.pp adv adj a pro inf (fu sempre pericoloso cantarla > fiat istadu semper perigulosu a la cantare)">
+       <pattern>
+         <pattern-item n="essere-ifi"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="èssere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbser"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="GD"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><clip pos="5" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="pro_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="5" side="tl" part="lem"/>
+                 <clip pos="5" side="tl" part="tags"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="tags"/>
+                 <clip pos="4" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.fti adv adj inf enc > àere a èssere adv adj a pro inf (sarà sempre pericoloso cantarla > at a èssere semper perigulosu a la cantare)">
+       <pattern>
+         <pattern-item n="essere-fti"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><clip pos="5" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="pro_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="5" side="tl" part="lem"/>
+                 <clip pos="5" side="tl" part="tags"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="tags"/>
+                 <clip pos="4" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.cni adv adj inf enc > dare.prs èssere.inf adv adj a pro inf (sarebbe sempre pericoloso cantarla > diat èssere semper perigulosu a la cantare)">
+       <pattern>
+         <pattern-item n="essere-cni"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><clip pos="5" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="pro_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="5" side="tl" part="lem"/>
+                 <clip pos="5" side="tl" part="tags"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="tags"/>
+                 <clip pos="4" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere adv adj inf enc > èssere adv adj a pro inf (è sempre pericoloso cantarla > est semper perigulosu a la cantare)">
+       <pattern>
+         <pattern-item n="essere"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <let><clip pos="5" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="pro_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+               <lu>
+                 <clip pos="5" side="tl" part="lem"/>
+                 <clip pos="5" side="tl" part="tags"/>
+               </lu>
+               <b/>
+               <lu>
+                 <clip pos="4" side="tl" part="lemh"/>
+                 <clip pos="4" side="tl" part="tags"/>
+                 <clip pos="4" side="tl" part="lemq"/>
+               </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.ifi adv adj inf enc enc > èssere èssere.pp adv adj a pro pro inf (fu sempre pericoloso cantargliela > fiat istadu semper perigulosu a bi la cantare)">
+       <pattern>
+         <pattern-item n="essere-ifi"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="èssere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbser"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="èssere"/>
+               </get-case-from>
+               <lit-tag v="vbser.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="pp">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="GD"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <call-macro n="inf-enc-enc-2-pro-pro-inf">
+           <with-param pos="4"/>
+           <with-param pos="5"/>
+           <with-param pos="6"/>
+         </call-macro>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.fti adv adj inf enc enc > àere a èssere adv adj a pro pro inf (sarà sempre pericoloso cantargliela > at a èssere semper perigulosu a bi la cantare)">
+       <pattern>
+         <pattern-item n="essere-fti"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <call-macro n="inf-enc-enc-2-pro-pro-inf">
+           <with-param pos="4"/>
+           <with-param pos="5"/>
+           <with-param pos="6"/>
+         </call-macro>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere.cni adv adj inf enc enc > dare.prs èssere.inf adv adj a pro pro inf (sarebbe sempre pericoloso cantargliela > diat èssere semper perigulosu a bi la cantare)">
+       <pattern>
+         <pattern-item n="essere-cni"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <call-macro n="inf-enc-enc-2-pro-pro-inf">
+           <with-param pos="4"/>
+           <with-param pos="5"/>
+           <with-param pos="6"/>
+         </call-macro>
+       </action>
+    </rule>
+
+
+    <rule comment="regla: essere adv adj inf enc enc > èssere adv adj a pro pro inf (è sempre pericoloso cantargliela > est semper perigulosu a bi la cantare)">
+       <pattern>
+         <pattern-item n="essere"/>
+         <pattern-item n="adv-preadv"/>
+         <pattern-item n="possibile_adj"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+
+         <call-macro n="print_adv_adj">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+
+         <out>
+           <b pos="3"/>
+           <chunk name="pr">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+
+         <call-macro n="inf-enc-enc-2-pro-pro-inf">
+           <with-param pos="4"/>
+           <with-param pos="5"/>
+           <with-param pos="6"/>
+         </call-macro>
+       </action>
+    </rule>
 
     <!-- ============================= PRN ================================= -->
 
@@ -14312,7 +15292,7 @@
          <modify-case><clip pos="2" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
          <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
          <out>
-           <chunk name="inf_enc">
+           <chunk name="pro_inf">
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
@@ -14350,7 +15330,7 @@
                </and>
              </test>
              <out>
-               <chunk name="inf_enc">
+               <chunk name="pro_inf">
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                  </tags>
@@ -14380,7 +15360,7 @@
            </when>
            <otherwise>
              <out>
-               <chunk name="inf_enc">
+               <chunk name="pro_inf">
                  <tags>
                    <tag><lit-tag v="SV"/></tag>
                  </tags>
@@ -17120,24 +18100,24 @@
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
-           <lu>
-             <get-case-from pos="1">
-               <clip pos="2" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="2" side="tl" part="a_adjec"/>
-             <lit-tag v="2"/>
-             <lit-tag v="3"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <get-case-from pos="2">
-               <clip pos="1" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <get-case-from pos="1">
+                 <clip pos="2" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="2" side="tl" part="a_adjec"/>
+               <lit-tag v="2"/>
+               <lit-tag v="3"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -17162,22 +18142,22 @@
              <tags>
                <tag><lit-tag v="SAdv"/></tag>
              </tags>
-           <lu>
-             <get-case-from pos="1">
-               <clip pos="2" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <get-case-from pos="2">
-               <clip pos="1" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <get-case-from pos="1">
+                 <clip pos="2" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -17212,34 +18192,34 @@
                <tag><var n="genero_sl"/></tag>
                <tag><var n="numero_sl"/></tag>
              </tags>
-           <lu>
-             <get-case-from pos="1">
-               <clip pos="2" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="2" side="tl" part="a_adjec"/>
-             <lit-tag v="2"/>
-             <lit-tag v="3"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="3" side="tl" part="whole"/>
-           </lu>
-           <b pos="2"/>
-           <lu>
-             <clip pos="4" side="tl" part="lemh"/>
-             <clip pos="4" side="tl" part="tags"/>
-             <clip pos="4" side="tl" part="lemq"/>
-           </lu>
-           <b pos="3"/>
-           <lu>
-             <get-case-from pos="2">
-               <clip pos="1" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <get-case-from pos="1">
+                 <clip pos="2" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="2" side="tl" part="a_adjec"/>
+               <lit-tag v="2"/>
+               <lit-tag v="3"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="3" side="tl" part="whole"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="4" side="tl" part="lemh"/>
+               <clip pos="4" side="tl" part="tags"/>
+               <clip pos="4" side="tl" part="lemq"/>
+             </lu>
+             <b pos="3"/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -17270,12 +18250,12 @@
              <tags>
                <tag><lit-tag v="SN"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -17293,12 +18273,12 @@
              <tags>
                <tag><lit-tag v="SN"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -17316,12 +18296,12 @@
              <tags>
                <tag><lit-tag v="Sdet"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -17342,12 +18322,12 @@
              <tags>
                <tag><lit-tag v="Sdet"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
@@ -17415,12 +18395,12 @@
              <tags>
                <tag><lit-tag v="SAdv"/></tag>
              </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
          </out>
        </action>
     </rule>
