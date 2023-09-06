@@ -8,26 +8,46 @@
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="de" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="de" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="de" tags="pr"/>
          <match tags="det.def.*"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="de" tags="pr"/>
          <match tags="det.def.*"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
@@ -820,6 +840,7 @@
   <macro n="noms_propis"><with-param v="Costantza"/><with-param v="Costanza"/></macro>
   <macro n="noms_propis"><with-param v="Domìnighe"/><with-param v="Domenico"/></macro>
   <macro n="noms_propis"><with-param v="Elianora"/><with-param v="Eleonora"/></macro>
+  <macro n="noms_propis"><with-param v="Elionora"/><with-param v="Eleonora"/></macro>
   <macro n="noms_propis"><with-param v="Elisabeta"/><with-param v="Elisabetta"/></macro>
   <macro n="noms_propis"><with-param v="Entzu"/><with-param v="Enzo"/></macro>
   <macro n="noms_propis"><with-param v="Erricu"/><with-param v="Enrico"/></macro>

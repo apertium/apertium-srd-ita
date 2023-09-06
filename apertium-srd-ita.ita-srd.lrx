@@ -8,26 +8,46 @@
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="di" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="di" tags="pr"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="di" tags="pr"/>
          <match tags="det.def.*"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="di" tags="pr"/>
          <match tags="det.def.*"/>
-         <or><match tags="np.loc"/><match tags="np.top.*"/></or>
+         <or>
+           <match tags="np.top.*"/>
+           <match lemma="Lacon" tags="np.cog.*"/>
+           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+           <match lemma="Lacon-Massa" tags="np.cog.*"/>
+         </or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
