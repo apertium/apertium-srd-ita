@@ -277,10 +277,15 @@
     </def-cat>
     <def-cat n="possibile_adj">
        <cat-item lemma="abituale" tags="adj.*"/>
+       <cat-item lemma="adecuadu" tags="adj.*"/>
+       <cat-item lemma="adeguadu" tags="adj.*"/>
        <cat-item lemma="ammissìbile" tags="adj.*"/>
+       <cat-item lemma="apòsitu" tags="adj.*"/>
        <cat-item lemma="assurdu" tags="adj.*"/>
        <cat-item lemma="atzetàbile" tags="adj.*"/>
        <cat-item lemma="atzetadu" tags="adj.*"/>
+       <cat-item lemma="auguradu" tags="adj.*"/>
+       <cat-item lemma="auspicàbile" tags="adj.*"/>
        <cat-item lemma="benèficu" tags="adj.*"/>
        <cat-item lemma="birgongiosu" tags="adj.*"/>
        <cat-item lemma="brutu" tags="adj.*"/>
@@ -291,13 +296,18 @@
        <cat-item lemma="cumpartzìbile" tags="adj.*"/>
        <cat-item lemma="curiosu" tags="adj.*"/>
        <cat-item lemma="curretu" tags="adj.*"/>
+       <cat-item lemma="cussigiàbile" tags="adj.*"/>
        <cat-item lemma="dannosu" tags="adj.*"/>
+       <cat-item lemma="dèchidu" tags="adj.*"/>
        <cat-item lemma="deletèriu" tags="adj.*"/>
        <cat-item lemma="deludente" tags="adj.*"/>
        <cat-item lemma="difìtzile" tags="adj.*"/>
        <cat-item lemma="discutìbile" tags="adj.*"/>
+       <cat-item lemma="disigiàbile" tags="adj.*"/>
+       <cat-item lemma="disigiadu" tags="adj.*"/>
        <cat-item lemma="disonestu" tags="adj.*"/>
        <cat-item lemma="dolianu" tags="adj.*"/>
+       <cat-item lemma="erradu" tags="adj.*"/>
        <cat-item lemma="essentziale" tags="adj.*"/>
        <cat-item lemma="etzetzionale" tags="adj.*"/>
        <cat-item lemma="faddidu" tags="adj.*"/>
@@ -307,7 +317,10 @@
        <cat-item lemma="fidadu" tags="adj.*"/>
        <cat-item lemma="fitianu" tags="adj.*"/>
        <cat-item lemma="fundamentale" tags="adj.*"/>
+       <cat-item lemma="galanu" tags="adj.*"/>
        <cat-item lemma="giustu" tags="adj.*"/>
+       <cat-item lemma="ideale" tags="adj.*"/>
+       <cat-item lemma="idòneu" tags="adj.*"/>
        <cat-item lemma="illegìtimu" tags="adj.*"/>
        <cat-item lemma="imaginàbile" tags="adj.*"/>
        <cat-item lemma="immorale" tags="adj.*"/>
@@ -316,10 +329,15 @@
        <cat-item lemma="importante" tags="adj.*"/>
        <cat-item lemma="impossìbile" tags="adj.*"/>
        <cat-item lemma="impressionante" tags="adj.*"/>
+       <cat-item lemma="impròpriu" tags="adj.*"/>
+       <cat-item lemma="inadatu" tags="adj.*"/>
+       <cat-item lemma="inadeguadu" tags="adj.*"/>
        <cat-item lemma="inammissìbile" tags="adj.*"/>
        <cat-item lemma="incontzepìbile" tags="adj.*"/>
+       <cat-item lemma="incorretu" tags="adj.*"/>
        <cat-item lemma="incredìbile" tags="adj.*"/>
        <cat-item lemma="indispensàbile" tags="adj.*"/>
+       <cat-item lemma="inditadu" tags="adj.*"/>
        <cat-item lemma="ingiustu" tags="adj.*"/>
        <cat-item lemma="inimaginàbile" tags="adj.*"/>
        <cat-item lemma="innòcuu" tags="adj.*"/>
@@ -345,9 +363,12 @@
        <cat-item lemma="ordinàriu" tags="adj.*"/>
        <cat-item lemma="patèticu" tags="adj.*"/>
        <cat-item lemma="penosu" tags="adj.*"/>
+       <cat-item lemma="perfetu" tags="adj.*"/>
        <cat-item lemma="perigulosu" tags="adj.*"/>
        <cat-item lemma="pèssimu" tags="adj.*"/>
        <cat-item lemma="possìbile" tags="adj.*"/>
+       <cat-item lemma="preferìbile" tags="adj.*"/>
+       <cat-item lemma="pretzisu" tags="adj.*"/>
        <cat-item lemma="punìbile" tags="adj.*"/>
        <cat-item lemma="regulare" tags="adj.*"/>
        <cat-item lemma="ruinosu" tags="adj.*"/>
