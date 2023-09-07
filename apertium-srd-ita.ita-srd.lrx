@@ -922,6 +922,99 @@
       </or>
     </def-seq>
 
+    <def-seq n="animale"><or>
+      <match lemma="animale" tags="n.*"/>
+      <match lemma="cane" tags="n.*"/>
+      <match lemma="gatto" tags="n.*"/>
+      <match lemma="bue" tags="n.*"/>
+      <match lemma="bove" tags="n.*"/>
+      <match lemma="vacca" tags="n.*"/>
+      <match lemma="vitello" tags="n.*"/>
+      <match lemma="agnello" tags="n.*"/>
+      <match lemma="capra" tags="n.*"/>
+      <match lemma="pecora" tags="n.*"/>
+      <match lemma="gallo" tags="n.*"/>
+      <match lemma="gallina" tags="n.*"/>
+      <match lemma="pollo" tags="n.*"/>
+      <match lemma="anatra" tags="n.*"/>
+      <match lemma="anitra" tags="n.*"/>
+      <match lemma="oca" tags="n.*"/>
+      <match lemma="cigno" tags="n.*"/>
+      <match lemma="coniglio" tags="n.*"/>
+      <match lemma="lepre" tags="n.*"/>
+      <match lemma="cavallo" tags="n.*"/>
+      <match lemma="cavalla" tags="n.*"/>
+      <match lemma="puledro" tags="n.*"/>
+      <match lemma="maiale" tags="n.*"/>
+      <match lemma="porco" tags="n.*"/>
+      <match lemma="scrofa" tags="n.*"/>
+      <match lemma="porcellino" tags="n.*"/>
+
+      <match lemma="cinghiale" tags="n.*"/>
+      <match lemma="lupo" tags="n.*"/>
+      <match lemma="ghiottone" tags="n.*"/>
+      <match lemma="volpe" tags="n.*"/>
+      <match lemma="orso" tags="n.*"/>
+      <match lemma="serpente" tags="n.*"/>
+      <match lemma="serpe" tags="n.*"/>
+
+      <match lemma="leopardo" tags="n.*"/>
+      <match lemma="leone" tags="n.*"/>
+      <match lemma="tigre" tags="n.*"/>
+      <match lemma="ghepardo" tags="n.*"/>
+      <match lemma="pantera" tags="n.*"/>
+      <match lemma="giraffa" tags="n.*"/>
+      <match lemma="rinoceronte" tags="n.*"/>
+      <match lemma="ippopotamo" tags="n.*"/>
+      <match lemma="zebra" tags="n.*"/>
+      <match lemma="cervo" tags="n.*"/>
+      <match lemma="alce" tags="n.*"/>
+      <match lemma="renna" tags="n.*"/>
+      <match lemma="coccodrillo" tags="n.*"/>
+      <match lemma="alligatore" tags="n.*"/>
+      <match lemma="scimmia" tags="n.*"/>
+      <match lemma="gorilla" tags="n.*"/>
+      <match lemma="scimpanzé" tags="n.*"/>
+      <match lemma="canguro" tags="n.*"/>
+
+      <match lemma="uccello" tags="n.*"/>
+      <match lemma="uccellino" tags="n.*"/>
+      <match lemma="piccione" tags="n.*"/>
+      <match lemma="passero" tags="n.*"/>
+      <match lemma="pappagallo" tags="n.*"/>
+      <match lemma="parrocchetto" tags="n.*"/>
+      <match lemma="aquila" tags="n.*"/>
+
+      <match lemma="pesce" tags="n.*"/>
+      <match lemma="balena" tags="n.*"/>
+      <match lemma="orca" tags="n.*"/>
+      <match lemma="delfino" tags="n.*"/>
+      <match lemma="squalo" tags="n.*"/>
+      <match lemma="polipo" tags="n.*"/>
+      <match lemma="calamaro" tags="n.*"/>
+      <match lemma="seppia" tags="n.*"/>
+      <match lemma="trota" tags="n.*"/>
+      <match lemma="tonno" tags="n.*"/>
+      <match lemma="merluzzo" tags="n.*"/>
+      <match lemma="sardina" tags="n.*"/>
+      <match lemma="acciuga" tags="n.*"/>
+      <match lemma="gambero" tags="n.*"/>
+      <match lemma="scampo" tags="n.*"/>
+
+      <match lemma="dinosauro" tags="n.*"/>
+      <match lemma="brontosauro" tags="n.*"/>
+      <match lemma="tirannosauro" tags="n.*"/>
+      <match lemma="mosasauro" tags="n.*"/>
+      <match lemma="pelicosauro" tags="n.*"/>
+      <match lemma="plesiosauro" tags="n.*"/>
+      <match lemma="tirannosauro" tags="n.*"/>
+      <match lemma="allosauro" tags="n.*"/>
+      <match lemma="carnosauro" tags="n.*"/>
+      <match lemma="iguanodonte" tags="n.*"/>
+      <match lemma="sauropode" tags="n.*"/>
+      <match lemma="teropode" tags="n.*"/>
+    </or></def-seq>
+
     <def-seq n="verbi_da">
       <or>
       <match lemma="andare" tags="vblex.*"/>
@@ -2228,6 +2321,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- domandare > pregontare, ... -->
+  <rule weight="0.8">
+    <match lemma="domandare" tags="vblex.*"><select lemma="pregontare"/></match>
+  </rule>
+
   <!-- desiderare > disigiare, ... -->
   <rule weight="0.8">
     <match lemma="desiderare" tags="vblex.*"><select lemma="disigiare"/></match>
@@ -2692,6 +2790,21 @@
   <rule weight="1.0">
     <match lemma="discorso" tags="n.*"><select lemma="discorsu"/></match>
     <match tags="adj.*"/>
+  </rule>
+
+  <!-- capo > capu, conca -->
+  <rule weight="0.6">
+    <match lemma="capo" tags="n.*"><select lemma="capu"/></match>
+  </rule>
+  <rule weight="1.0">
+     <match lemma="capo" tags="n.*"><select lemma="conca"/></match>
+     <match lemma="di" tags="pr"/>
+     <repeat from="0" upto="1">
+       <match tags="det.*"/>
+     </repeat>
+     <or>
+       <seq n="animale"/>
+     </or>
   </rule>
 
   <!-- farmacia > potecaria, farmatzia -->

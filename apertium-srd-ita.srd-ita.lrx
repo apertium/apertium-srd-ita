@@ -436,6 +436,95 @@
       </or>
     </def-seq>
 
+    <def-seq n="animale"><or>
+      <match lemma="animale" tags="n.*"/>
+      <match lemma="pecu" tags="n.*"/>
+      <match lemma="cane" tags="n.*"/>
+      <match lemma="gatu" tags="n.*"/>
+      <match lemma="boe" tags="n.*"/>
+      <match lemma="baca" tags="n.*"/>
+      <match lemma="bitellu" tags="n.*"/>
+      <match lemma="bricu" tags="n.*"/>
+      <match lemma="bigru" tags="n.*"/>
+      <match lemma="angione" tags="n.*"/>
+      <match lemma="berbeghe" tags="n.*"/>
+      <match lemma="cabra" tags="n.*"/>
+      <match lemma="puddu" tags="n.*"/>
+      <match lemma="pudda" tags="n.*"/>
+      <match lemma="anade" tags="n.*"/>
+      <match lemma="oca" tags="n.*"/>
+      <match lemma="tzignu" tags="n.*"/>
+      <match lemma="conìlliu" tags="n.*"/>
+      <match lemma="lèpore" tags="n.*"/>
+      <match lemma="caddu" tags="n.*"/>
+      <match lemma="ebba" tags="n.*"/>
+      <match lemma="puddedru" tags="n.*"/>
+      <match lemma="porcu" tags="n.*"/>
+      <match lemma="sue" tags="n.*"/>
+      <match lemma="porcheddu" tags="n.*"/>
+
+      <match lemma="sirbone" tags="n.*"/>
+      <match lemma="lupu" tags="n.*"/>
+      <match lemma="mariane" tags="n.*"/>
+      <match lemma="orsu" tags="n.*"/>
+      <match lemma="colovra" tags="n.*"/>
+      <match lemma="serpente" tags="n.*"/>
+      <match lemma="tzerpe" tags="n.*"/>
+
+      <match lemma="leopardu" tags="n.*"/>
+      <match lemma="leone" tags="n.*"/>
+      <match lemma="tigre" tags="n.*"/>
+      <match lemma="ghepardu" tags="n.*"/>
+      <match lemma="pantera" tags="n.*"/>
+      <match lemma="girafa" tags="n.*"/>
+      <match lemma="rinotzeronte" tags="n.*"/>
+      <match lemma="ipopòtamu" tags="n.*"/>
+      <match lemma="zebra" tags="n.*"/>
+      <match lemma="cherbu" tags="n.*"/>
+      <match lemma="altze" tags="n.*"/>
+      <match lemma="caribù" tags="n.*"/>
+      <match lemma="cocodrillu" tags="n.*"/>
+      <match lemma="alligatore" tags="n.*"/>
+      <match lemma="martinica" tags="n.*"/>
+      <match lemma="gorilla" tags="n.*"/>
+      <match lemma="iscimpantzè" tags="n.*"/>
+      <match lemma="canguru" tags="n.*"/>
+
+      <match lemma="pugione" tags="n.*"/>
+      <match lemma="pugioneddu" tags="n.*"/>
+      <match lemma="pitzone" tags="n.*"/>
+      <match lemma="furfuràrgiu" tags="n.*"/>
+      <match lemma="papagallu" tags="n.*"/>
+      <match lemma="àbbila" tags="n.*"/>
+
+      <match lemma="pische" tags="n.*"/>
+      <match lemma="balena" tags="n.*"/>
+      <match lemma="orca" tags="n.*"/>
+      <match lemma="delfinu" tags="n.*"/>
+      <match lemma="pischecane" tags="n.*"/>
+      <match lemma="purpu" tags="n.*"/>
+      <match lemma="calamaru" tags="n.*"/>
+      <match lemma="sèpia" tags="n.*"/>
+      <match lemma="trota" tags="n.*"/>
+      <match lemma="tunnu" tags="n.*"/>
+      <match lemma="sardina" tags="n.*"/>
+      <match lemma="merulutzu" tags="n.*"/>
+      <match lemma="gàmberu" tags="n.*"/>
+
+      <match lemma="dinosàuru" tags="n.*"/>
+      <match lemma="brontosàuru" tags="n.*"/>
+      <match lemma="tirannosàuru" tags="n.*"/>
+      <match lemma="mosasàuru" tags="n.*"/>
+      <match lemma="pelicosàuru" tags="n.*"/>
+      <match lemma="plesiosàuru" tags="n.*"/>
+      <match lemma="tirannosàuru" tags="n.*"/>
+      <match lemma="allosàuru" tags="n.*"/>
+      <match lemma="carnosàuru" tags="n.*"/>
+      <match lemma="iguanodonte" tags="n.*"/>
+      <match lemma="sauròpode" tags="n.*"/>
+      <match lemma="teròpode" tags="n.*"/>
+    </or></def-seq>
+
     <def-seq n="parrere">
       <or>
         <match tags="vbser.*"/>
