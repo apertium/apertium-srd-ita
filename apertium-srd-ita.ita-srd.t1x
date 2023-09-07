@@ -16804,6 +16804,71 @@
        </action>
     </rule>
 
+<!--
+    <rule comment="regla: ifi + di nuovo">
+       <pattern>
+         <pattern-item n="ifi"/>
+         <pattern-item n="di_nuovo"/>
+       </pattern>
+       <action>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk name="èssere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbser"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="èssere"/></get-case-from>
+               <lit-tag v="vbser.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+           <chunk name="torrare">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vblex"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="GD"/></tag>
+               <tag><lit-tag v="sg"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2"><lit v="torrare"/></get-case-from>
+               <lit-tag v="vblex.pp.4.5"/>
+             </lu>
+           </chunk>
+           <b/>
+           <chunk name="a">
+             <tags>
+               <tag><lit-tag v="pr"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2"><lit v="a"/></get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="inf"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="2"><clip pos="1" side="tl" part="lemh"/></get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+-->
+
 
     <rule comment="regla: fti + di nuovo">
        <pattern>
