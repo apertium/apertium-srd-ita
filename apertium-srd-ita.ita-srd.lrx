@@ -2995,6 +2995,41 @@
     <match lemma="gemello" tags="n.*"><select lemma="gemellu"/></match>
   </rule>
 
+  <!-- indice > inditze, contadinari -->
+  <rule weight="0.6">
+    <match lemma="indice" tags="n.*"><select lemma="inditze"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="indice" tags="n.*"><select lemma="contadinari"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="dito" tags="n.*"/>
+      <match lemma="pollice" tags="n.*"/>
+      <match lemma="anulare" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="dito" tags="n.*"/>
+      <match lemma="pollice" tags="n.*"/>
+      <match lemma="anulare" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="indice" tags="n.*"><select lemma="contadinari"/></match>
+  </rule>
+
   <!-- bambino > pitzinnu, fìgiu -->
   <rule weight="0.6">
     <match lemma="bambino" tags="n.*"><select lemma="pitzinnu"/></match>
