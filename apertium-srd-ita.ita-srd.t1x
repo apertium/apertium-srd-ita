@@ -1056,7 +1056,7 @@
     </def-list>
     <def-list n="vbambser">
       <list-item v="andare"/>
-      <list-item v="crèschere"/>
+      <list-item v="crèschere"/>	<!-- non "crèschere_trans -->
       <list-item v="frenare"/>
       <list-item v="divenire"/>
       <list-item v="devènnere"/>
@@ -1079,6 +1079,10 @@
       <list-item v="sèere"/>
       <list-item v="pròere"/>
       <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
+      <list-item v="cumintzare"/>	<!-- non "trans_cumintziare -->
+      <list-item v="finire"/>	<!-- non "trans_finire -->
+      <list-item v="acabare"/>	<!-- non "trans_acabare -->
+      <list-item v="cùrrere"/>	<!-- non "cùrrere_trans -->
       <list-item v="abbigiare"/>	<!-- perquè pron (crec) -->
 <!--      <list-item v="torrare"/> cas especial -->
     </def-list>
