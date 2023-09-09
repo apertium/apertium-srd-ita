@@ -385,14 +385,58 @@
         <repeat from="0" upto="1">
           <match tags="adv"/>
         </repeat>
+        <repeat from="0" upto="1">
+          <match tags="predet.*"/>
+        </repeat>
+        <match tags="det.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
         <or>
-          <match tags="det.*"/>
           <match tags="np.*"/>
+          <match tags="" case="Aa"/>
         </or>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="det.*"/>
+        </repeat>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <match tags="n.*"/>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="adv"/>
+            <match tags="preadv"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="adj.*"/>
+        </repeat>
+        <match tags="n.*"/>
       </rule>
       <rule weight="1.0">
         <match lemma="lo" tags="prn.pro.*"/>
         <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <match lemma="lo" tags="prn.enc.*"/>
       </rule>
       <rule weight="1.0">
         <or>
@@ -401,6 +445,87 @@
           <match tags="vblex.pp.*"/>
         </or>
         <match plemma="1" tags="vblex.pp.*"><select plemma="3"/></match>
+      </rule>
+      <rule weight="1.0">
+        <match plemma="1" tags="vblex.*"><select plemma="3"/></match>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match lemma="a" tags="pr"/>
+        </repeat>
+        <match tags="*.inf"/>
+      </rule>
+
+      <rule weight="1.2">
+        <match lemma="fare" tags="vblex."/>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+        <match plemma="1" tags="vblex.inf"><select plemma="2"/></match>
+      </rule>
+
+      <rule weight="1.2">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+
+        <repeat from="0" upto="1"> <!-- data -->
+          <match tags="det.*"/>
+        </repeat>
+        <repeat from="0" upto="1">
+          <seq n="giorno"/>
+        </repeat>
+        <or>
+          <match tags="num.*"/>
+          <match tags="num"/>
+        </or>
+        <seq n="mese"/>
+        <repeat from="0" upto="1">
+          <match tags="num"/>
+        </repeat>
+
+        <or>
+          <match tags="sent"/>
+          <match tags="cm"/>
+          <match tags="cnjcoo"/>
+          <match tags="cnjadv"/>
+        </or>
+      </rule>
+
+      <rule weight="1.2">
+        <match plemma="1" tags="vblex.*"><select plemma="2"/></match>
+        <repeat from="0" upto="1">
+          <match tags="adv"/>
+        </repeat>
+
+        <repeat from="0" upto="1"> <!-- data -->
+          <match tags="predet.*"/>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="det.*"/>
+        </repeat>
+        <seq n="giorno"/>
+        <repeat from="0" upto="1">
+          <or>
+            <match tags="num.*"/>
+            <match tags="num"/>
+          </or>
+        </repeat>
+        <repeat from="0" upto="1">
+          <seq n="mese"/>
+        </repeat>
+        <repeat from="0" upto="1">
+          <match tags="num"/>
+        </repeat>
+
+        <or>
+          <match tags="sent"/>
+          <match tags="cm"/>
+          <match tags="cnjcoo"/>
+          <match tags="cnjadv"/>
+        </or>
       </rule>
     </def-macro>
 
@@ -691,17 +816,14 @@
   </def-macros>
 
   <def-seqs>
-    <def-seq n="distanza">
-      <or>
+    <def-seq n="distanza"><or>
       <match lemma="metro"/>
       <match lemma="chilometro"/>
       <match lemma="miglio"/>
       <match lemma="lega"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="periodo">
-      <or>
+    <def-seq n="periodo"><or>
       <match lemma="minuto" tags="n.*"/>
       <match lemma="ora" tags="n.*"/>
       <match lemma="giorno" tags="n.*"/>
@@ -711,11 +833,9 @@
       <match lemma="decennio" tags="n.*"/>
       <match lemma="secolo" tags="n.*"/>
       <match lemma="millennio" tags="n.*"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="mese">
-      <or>
+    <def-seq n="mese"><or>
       <match lemma="gennaio" tags="n.*"/>
       <match lemma="febbraio" tags="n.*"/>
       <match lemma="marzo" tags="n.*"/>
@@ -728,11 +848,19 @@
       <match lemma="ottobre" tags="n.*"/>
       <match lemma="novembre" tags="n.*"/>
       <match lemma="dicembre" tags="n.*"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="incarico">
-      <or>
+    <def-seq n="giorno"><or>
+      <match lemma="lunedì" tags="n.*"/>
+      <match lemma="martedì" tags="n.*"/>
+      <match lemma="mercoledì" tags="n.*"/>
+      <match lemma="giovedì" tags="n.*"/>
+      <match lemma="venerdì" tags="n.*"/>
+      <match lemma="sabato" tags="n.*"/>
+      <match lemma="domenica" tags="n.*"/>
+    </or></def-seq>
+
+    <def-seq n="incarico"><or>
       <match lemma="presidente" tags="n.*"/>
       <match lemma="segretario" tags="n.*"/>
       <match lemma="direttore" tags="n.*"/>
@@ -744,8 +872,7 @@
       <match lemma="vescovo" tags="n.*"/>
       <match lemma="arcivescovo" tags="n.*"/>
       <match lemma="papa" tags="n.*"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
     <def-seq n="costruzione">
       <or>
@@ -776,15 +903,62 @@
       </or>
     </def-seq>
 
-    <def-seq n="medicina">
+    <def-seq n="corpo">
       <or>
-      <match lemma="medicina" tags="n.*"/>
-      <match lemma="compressa" tags="n.*"/>
-      </or>
-    </def-seq>
+      <match lemma="testa" tags="n.*"/>
+      <match lemma="viso" tags="n.*"/>
+      <match lemma="capello" tags="n.*"/>
+      <match lemma="fronte" tags="n.*"/>
+      <match lemma="orecchio" tags="n."/>
+      <match lemma="occhio" tags="n.*"/>
+      <match lemma="bocca" tags="n.*"/>
+      <match lemma="dente" tags="n.*"/>
+      <match lemma="mento" tags="n.*"/>
+      <match lemma="guancia" tags="n.*"/>
+      <match lemma="barba" tags="n.*"/>
+      <match lemma="baffo" tags="n.*"/>
+      <match lemma="collo" tags="n.*"/>
+      <match lemma="nuca" tags="n.*"/>
 
-    <def-seq n="strumenti_musicali_senza_piano">
-      <or>
+      <match lemma="petto" tags="n.*"/>
+      <match lemma="pancia" tags="n.*"/>
+      <match lemma="ventre" tags="n.*"/>
+      <match lemma="ombelico" tags="n.*"/>
+      <match lemma="spalla" tags="n.*"/>
+      <match lemma="schiena" tags="n.*"/>
+      <match lemma="culo" tags="n.*"/>
+      <match lemma="cazzo" tags="n.*"/>
+
+      <match lemma="braccio" tags="n.*"/>
+      <match lemma="mano" tags="n.*"/>
+      <match lemma="gomito" tags="n.*"/>
+      <match lemma="polso" tags="n.*"/>
+      <match lemma="gamba" tags="n.*"/>
+      <match lemma="piede" tags="n.*"/>
+      <match lemma="ginocchio" tags="n.*"/>
+      <match lemma="caviglia" tags="n.*"/>
+      <match lemma="dito" tags="n.*"/>
+      <!-- <match lemma="indice" tags="n.*"/> -->
+      <match lemma="dito indice" tags="n.*"/>
+      <match lemma="pollice" tags="n.*"/>
+      <match lemma="anulare" tags="n.*"/>
+
+      <match lemma="cervello" tags="n.*"/>
+      <match lemma="cuore" tags="n.*"/>
+      <match lemma="polmone" tags="n.*"/>
+      <match lemma="stomaco" tags="n.*"/>
+      <match lemma="fegato" tags="n.*"/>
+      <match lemma="rene" tags="n.*"/>
+      <match lemma="intestino" tags="n.*"/>
+      <match lemma="vena" tags="n.*"/>
+      <match lemma="arteria" tags="n.*"/>
+      <match lemma="nervo" tags="n.*"/>
+      <match lemma="muscolo" tags="n.*"/>
+      <match lemma="osso" tags="n.*"/>
+      <match lemma="sangue" tags="n.*"/>
+    </or></def-seq>
+
+    <def-seq n="strumenti_musicali_senza_piano"><or>
       <match lemma="violino" tags="n.*"/>
       <match lemma="viola" tags="n.*"/>
       <match lemma="violoncello" tags="n.*"/>
@@ -807,18 +981,14 @@
       <match lemma="ukulele" tags="n.*"/>
       <match lemma="cornamusa" tags="n.*"/>
       <match lemma="armonica" tags="n.*"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="strumenti_musicali">
-      <or>
+    <def-seq n="strumenti_musicali"><or>
       <match lemma="piano" tags="n.*"/>
       <seq n="strumenti_musicali_senza_piano"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="materiali">
-      <or>
+    <def-seq n="materiali"><or>
       <match lemma="oro" tags="n.m.sg"/>
       <match lemma="argento" tags="n.m.sg"/>
       <match lemma="bronzo" tags="n.m.sg"/>
@@ -847,11 +1017,9 @@
       <match lemma="paglia" tags="n.f.sg"/>
       <match lemma="mattone" tags="n.m.sg"/>
       <match lemma="cemento" tags="n.m.sg"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="mezzi_di_trasporto">
-      <or>
+    <def-seq n="mezzi_di_trasporto"><or>
       <match lemma="macchina" tags="n.*"/>
       <match lemma="auto" tags="n.*"/>
       <match lemma="moto" tags="n.f.*"/>
@@ -887,11 +1055,9 @@
       <match lemma="elicottero" tags="n.*"/>
       <match lemma="caccia" tags="n.m.*"/>
       <match lemma="parapendio" tags="n.*"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="famiglia">
-      <or>
+    <def-seq n="famiglia"><or>
        <match lemma="padre" tags="n.*"/>
        <match lemma="madre" tags="n.*"/>
        <match lemma="babbo" tags="n.*"/>
@@ -919,8 +1085,7 @@
        <match lemma="sorellastra" tags="n.*"/>
        <match lemma="marito" tags="n.*"/>
        <match lemma="moglie" tags="n.*"/>
-      </or>
-    </def-seq>
+    </or></def-seq>
 
     <def-seq n="animale"><or>
       <match lemma="animale" tags="n.*"/>
@@ -940,6 +1105,7 @@
       <match lemma="anitra" tags="n.*"/>
       <match lemma="oca" tags="n.*"/>
       <match lemma="cigno" tags="n.*"/>
+      <match lemma="tacchino" tags="n.*"/>
       <match lemma="coniglio" tags="n.*"/>
       <match lemma="lepre" tags="n.*"/>
       <match lemma="cavallo" tags="n.*"/>
@@ -949,6 +1115,11 @@
       <match lemma="porco" tags="n.*"/>
       <match lemma="scrofa" tags="n.*"/>
       <match lemma="porcellino" tags="n.*"/>
+      <match lemma="ratu" tags="n.*"/>
+      <match lemma="sòrighe" tags="n.*"/>
+      <match lemma="ratto" tags="n.*"/>
+      <match lemma="topo" tags="n.*"/>
+      <match lemma="talpa" tags="n.*"/>
 
       <match lemma="cinghiale" tags="n.*"/>
       <match lemma="lupo" tags="n.*"/>
@@ -984,6 +1155,8 @@
       <match lemma="pappagallo" tags="n.*"/>
       <match lemma="parrocchetto" tags="n.*"/>
       <match lemma="aquila" tags="n.*"/>
+      <match lemma="pellicano" tags="n.*"/>
+      <match lemma="fenicottero" tags="n.*"/>
 
       <match lemma="pesce" tags="n.*"/>
       <match lemma="balena" tags="n.*"/>
@@ -1007,6 +1180,7 @@
       <match lemma="mosasauro" tags="n.*"/>
       <match lemma="pelicosauro" tags="n.*"/>
       <match lemma="plesiosauro" tags="n.*"/>
+      <match lemma="ittiosauro" tags="n.*"/>
       <match lemma="tirannosauro" tags="n.*"/>
       <match lemma="allosauro" tags="n.*"/>
       <match lemma="carnosauro" tags="n.*"/>
@@ -1015,8 +1189,7 @@
       <match lemma="teropode" tags="n.*"/>
     </or></def-seq>
 
-    <def-seq n="verbi_da">
-      <or>
+    <def-seq n="verbi_da"><or>
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="spostare" tags="vblex.*"/>
       <match lemma="viaggiare" tags="vblex.*"/>
@@ -1045,11 +1218,9 @@
       <match lemma="trarre" tags="vblex.*"/>
       <match lemma="dimettire" tags="vblex.*"/>
       <match lemma="prelevare" tags="vblex.*"/> <!-- sovint a la Viquipedia -->
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="verbi_moto_lista_corta">
-      <or>
+    <def-seq n="verbi_moto_lista_corta"><or>
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="approdare" tags="vblex.*"/>
       <match lemma="arrivare" tags="vblex.*"/>
@@ -1075,11 +1246,9 @@
       <match lemma="fuggire" tags="vblex.*"/>
       <match lemma="rimettere" tags="vblex.*"/>
 -->
-      </or>
-    </def-seq>
+    </or></def-seq>
 
-    <def-seq n="verbi_moto_lista_lunga">
-      <or>
+    <def-seq n="verbi_moto_lista_lunga"><or>
       <match lemma="affondare" tags="vblex.*"/>
       <match lemma="andare" tags="vblex.*"/>
       <match lemma="approdare" tags="vblex.*"/>
@@ -1117,9 +1286,7 @@
       <match lemma="venire" tags="vblex.*"/>
       <match lemma="viaggiare" tags="vblex.*"/>
       <match lemma="volare" tags="vblex.*"/>
-      </or>
-    </def-seq>
-
+    </or></def-seq>
   </def-seqs>
 
 <rules>
@@ -2331,6 +2498,44 @@
     <match lemma="desiderare" tags="vblex.*"><select lemma="disigiare"/></match>
   </rule>
 
+  <!-- avere > tènnere, giùghere -->
+  <rule weight="0.8">
+    <match lemma="avere" tags="vblex.*"><select lemma="tènnere"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="avere" tags="vblex.*"><select lemma="giùghere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="det.*"/>
+        <match tags="num.*"/>
+        <match tags="num"/>
+      </or>
+    </repeat>
+    <or>
+      <seq n="corpo"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="avere" tags="vblex.*"><select lemma="tènnere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="det.*"/>
+        <match tags="num.*"/>
+        <match tags="num"/>
+      </or>
+    </repeat>
+    <or>
+      <seq n="corpo"/>
+    </or>
+    <match tags="pr"/>
+  </rule>
+
   <!-- insediare > aposentare, apoderare -->
   <rule weight="0.8">
     <match lemma="insediare" tags="vblex.*"><select lemma="aposentare"/></match>
@@ -2370,8 +2575,23 @@
     <match lemma="dae" tags="pr"/>
   </rule>
 
-  <!-- aumentare > crèschere, aumentare -->
-  <macro n="verb_intrans_trans"><with-param v="aumentare"/><with-param v="crèschere"/><with-param v="aumentare"/></macro>
+  <!-- aumentare > crèschere, trans_crèschere, aumentare -->
+  <macro n="verb_intrans_trans"><with-param v="aumentare"/><with-param v="crèschere"/><with-param v="trans_crèschere"/></macro>
+
+  <!-- correre > cùrrere, trans_cùrrere -->
+  <macro n="verb_intrans_trans"><with-param v="correre"/><with-param v="cùrrere"/><with-param v="trans_cùrrere"/></macro>
+
+  <!-- cominciare > cumintzare, trans_cumintzare -->
+  <macro n="verb_intrans_trans"><with-param v="cominciare"/><with-param v="cumintzare"/><with-param v="trans_cumintzare"/></macro>
+
+  <!-- iniziare > cumintzare, trans_cumintzare -->
+  <macro n="verb_intrans_trans"><with-param v="iniziare"/><with-param v="cumintzare"/><with-param v="trans_cumintzare"/></macro>
+
+  <!-- finire > finire, trans_finire -->
+  <macro n="verb_intrans_trans"><with-param v="finire"/><with-param v="finire"/><with-param v="trans_finire"/></macro>
+
+  <!-- terminare > acabare, trans_acabare -->
+  <macro n="verb_intrans_trans"><with-param v="terminare"/><with-param v="acabare"/><with-param v="trans_acabare"/></macro>
 
   <!-- ripartire > torrare# a mòvere, mòvere -->
   <macro n="verb_intrans_trans"><with-param v="ripartire"/><with-param v="torrare# a mòvere"/><with-param v="mòvere"/></macro>
@@ -2773,6 +2993,18 @@
   <!-- gemello > gemellu, ... -->
   <rule weight="0.6">
     <match lemma="gemello" tags="n.*"><select lemma="gemellu"/></match>
+  </rule>
+
+  <!-- bambino > pitzinnu, fìgiu -->
+  <rule weight="0.6">
+    <match lemma="bambino" tags="n.*"><select lemma="pitzinnu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match tags="det.pos.*"/>
+      <match tags="adj.pos.*"/>
+    </or>
+    <match lemma="bambino" tags="n.*"><select lemma="fìgiu"/></match>
   </rule>
 
   <!-- intesa > acordu, intesa -->
@@ -3409,7 +3641,10 @@
     <match lemma="fronte" tags="n.*"><select lemma="fronte"/></match>
   </rule>
   <rule weight="1.0">
-    <match tags="adj.pos.*"/>
+    <or>
+      <match tags="det.pos.*"/>
+      <match tags="adj.pos.*"/>
+    </or>
     <match lemma="fronte" tags="n.*"><select lemma="cherbeddu"/></match>
   </rule>
 
