@@ -224,33 +224,42 @@
     <def-cat n="stare">
        <cat-item lemma="stare" tags="vblex.*"/>
     </def-cat>
-    <def-cat n="sembrare">
-       <cat-item tags="vbser.*"/>
-       <cat-item lemma="sembrare" tags="vblex.*"/>
-       <cat-item lemma="parrere" tags="vblex.*"/>
-       <cat-item lemma="considerare" tags="vblex.*"/>
-       <cat-item lemma="giudicare" tags="vblex.*"/>
+    <def-cat n="verbi_percezione">
+       <cat-item lemma="vedere" tags="vblex.*"/>
+       <cat-item lemma="osservare" tags="vblex.*"/>
+       <cat-item lemma="notare" tags="vblex.*"/>
+       <cat-item lemma="guardare" tags="vblex.*"/>
+       <cat-item lemma="sentire" tags="vblex.*"/>
+       <cat-item lemma="ascoltare" tags="vblex.*"/>
+       <cat-item lemma="udire" tags="vblex.*"/>
     </def-cat>
-    <def-cat n="sembrare-ifi">
+    <def-cat n="verbi_percezione-ifi">
        <cat-item tags="vbser.ifi.*"/>
-       <cat-item lemma="sembrare" tags="vblex.ifi.*"/>
-       <cat-item lemma="parrere" tags="vblex.ifi.*"/>
-       <cat-item lemma="considerare" tags="vblex.ifi.*"/>
-       <cat-item lemma="giudicare" tags="vblex.ifi.*"/>
+       <cat-item lemma="osservare" tags="vblex.ifi.*"/>
+       <cat-item lemma="vedere" tags="vblex.ifi.*"/>
+       <cat-item lemma="notare" tags="vblex.ifi.*"/>
+       <cat-item lemma="guardare" tags="vblex.ifi.*"/>
+       <cat-item lemma="sentire" tags="vblex.ifi.*"/>
+       <cat-item lemma="ascoltare" tags="vblex.ifi.*"/>
+       <cat-item lemma="udire" tags="vblex.ifi.*"/>
     </def-cat>
-    <def-cat n="sembrare-fti">
-       <cat-item tags="vbser.fti.*"/>
-       <cat-item lemma="sembrare" tags="vblex.fti.*"/>
-       <cat-item lemma="parrere" tags="vblex.fti.*"/>
-       <cat-item lemma="considerare" tags="vblex.fti.*"/>
-       <cat-item lemma="giudicare" tags="vblex.fti.*"/>
+    <def-cat n="verbi_percezione-fti">
+       <cat-item lemma="vedere" tags="vblex.fti.*"/>
+       <cat-item lemma="osservare" tags="vblex.fti.*"/>
+       <cat-item lemma="notare" tags="vblex.fti.*"/>
+       <cat-item lemma="guardare" tags="vblex.fti.*"/>
+       <cat-item lemma="sentire" tags="vblex.fti.*"/>
+       <cat-item lemma="ascoltare" tags="vblex.fti.*"/>
+       <cat-item lemma="udire" tags="vblex.fti.*"/>
     </def-cat>
-    <def-cat n="sembrare-cni">
-       <cat-item tags="vbser.cni.*"/>
-       <cat-item lemma="sembrare" tags="vblex.cni.*"/>
-       <cat-item lemma="parrere" tags="vblex.cni.*"/>
-       <cat-item lemma="considerare" tags="vblex.cni.*"/>
-       <cat-item lemma="giudicare" tags="vblex.cni.*"/>
+    <def-cat n="verbi_percezione-cni">
+       <cat-item lemma="vedere" tags="vblex.cni.*"/>
+       <cat-item lemma="osservare" tags="vblex.cni.*"/>
+       <cat-item lemma="notare" tags="vblex.cni.*"/>
+       <cat-item lemma="guardare" tags="vblex.cni.*"/>
+       <cat-item lemma="sentire" tags="vblex.cni.*"/>
+       <cat-item lemma="ascoltare" tags="vblex.cni.*"/>
+       <cat-item lemma="udire" tags="vblex.cni.*"/>
     </def-cat>
     <def-cat n="prn">
        <cat-item tags="prn.*"/>
@@ -12715,6 +12724,838 @@
          </choose>
        </action>
     </rule>
+
+
+    <!-- _____________________________ verbi_percezione inf >  verbi_percezione a inf _________________________________ -->
+
+    <rule comment="regla: verbi_percezione.ifi inf > aère verbi_percezione.pp ger: vide fare > aiat bidu faghende">
+       <pattern>
+         <pattern-item n="verbi_percezione-ifi"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="àere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbhaver"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="m"/></tag>
+               <tag><lit-tag v="sg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+         <modify-case><clip pos="2" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="ger"/></tag>
+             </tags>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="ger"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.ifi inf enc > aère verbi_percezione.pp ger enc: vide farlo > aiat bidu faghende·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione-ifi"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="àere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbhaver"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="m"/></tag>
+               <tag><lit-tag v="sg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+         <modify-case><clip pos="2" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="ger"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="a_verb"/>
+                 <lit-tag v="ger"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lem"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.ifi inf enc enc > aère verbi_percezione.pp ger enc enc: vide farglielo > aiat bidu faghende·bi·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione-ifi"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="àere">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><lit-tag v="vbhaver"/></tag>
+               <tag><lit-tag v="pii"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pii"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+           </chunk>
+           <b/>
+         </out>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><lit-tag v="pp"/></tag>
+               <tag><lit-tag v="m"/></tag>
+               <tag><lit-tag v="sg"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="pp"/>
+               <lit-tag v="4"/>
+               <lit-tag v="5"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+           <b pos="1"/>
+         </out>
+         <modify-case><clip pos="2" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <let><var n="chunkname"/><clip pos="2" side="tl" part="lem"/></let>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ci"/></equal>
+                 <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk namefrom="chunkname">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+                   <tag><lit-tag v="ger"/></tag>
+                 </tags>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk namefrom="chunkname">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+                   <tag><lit-tag v="ger"/></tag>
+                 </tags>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.fti inf > aère a verbi_percezione.inf ger: vedrà fare > at a bìdere faghende">
+       <pattern>
+         <pattern-item n="verbi_percezione-fti"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="ger"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.fti inf enc > aère a verbi_percezione.inf ger enc: vedrà farlo > at a bìdere faghende·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione-fti"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="àere_a_inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <lit v="a"/><lit-tag v="pr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <clip pos="1" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <mlu>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="a_verb"/>
+                 <lit-tag v="ger"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lem"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.fti inf enc enc > aère a verbi_percezione.inf ger enc enc: vedrà farglielo > at a bìdere faghende·bi·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione-fti"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ci"/></equal>
+                 <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk name="àere_a_inf">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1">
+                     <lit v="àere"/>
+                   </get-case-from>
+                   <lit-tag v="vbhaver.pri"/>
+                   <clip pos="1" side="tl" part="pers"/>
+                   <clip pos="1" side="tl" part="gen"/>
+                   <clip pos="1" side="tl" part="nbr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <lit v="a"/><lit-tag v="pr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <get-case-from pos="2">
+                     <clip pos="1" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                   <lit-tag v="inf"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+             </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="àere_a_inf">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1">
+                     <lit v="àere"/>
+                   </get-case-from>
+                   <lit-tag v="vbhaver.pri"/>
+                   <clip pos="1" side="tl" part="pers"/>
+                   <clip pos="1" side="tl" part="gen"/>
+                   <clip pos="1" side="tl" part="nbr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <lit v="a"/><lit-tag v="pr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <get-case-from pos="2">
+                     <clip pos="1" side="tl" part="lemh"/>
+                   </get-case-from>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                   <lit-tag v="inf"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+             </chunk>
+             </out>
+           </otherwise>
+         </choose>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.cni inf > dare.prs verbi_percezione.inf ger: vedrebbe fare > diat bìdere faghende">
+       <pattern>
+         <pattern-item n="verbi_percezione-cni"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <out>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="ger"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.cni inf enc > dare.prs verbi_percezione.inf ger enc: vedrebbe farlo > diat bìdere faghende·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione-cni"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <let><clip pos="4" side="tl" part="a_prn"/><lit-tag v="prn.pro"/></let>
+         <out>
+           <chunk name="mod-inf">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="dare"/></get-case-from>
+               <lit-tag v="vblex.prs"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <mlu>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="a_verb"/>
+                 <lit-tag v="ger"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lem"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione.cni inf enc enc > dare.prs verbi_percezione.inf ger enc enc: vedrebbe farglielo > diat bìdere faghende·bi·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione-cni"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <modify-case><clip pos="1" side="tl" part="lem"/><lit v="aa"/></modify-case>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ci"/></equal>
+                 <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk name="mod-inf">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1"><lit v="dare"/></get-case-from>
+                   <lit-tag v="vblex.prs"/>
+                   <clip pos="1" side="tl" part="pers"/>
+                   <clip pos="1" side="tl" part="gen"/>
+                   <clip pos="1" side="tl" part="nbr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                   <lit-tag v="inf"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk name="mod-inf">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                 </tags>
+                 <lu>
+                   <get-case-from pos="1"><lit v="dare"/></get-case-from>
+                   <lit-tag v="vblex.prs"/>
+                   <clip pos="1" side="tl" part="pers"/>
+                   <clip pos="1" side="tl" part="gen"/>
+                   <clip pos="1" side="tl" part="nbr"/>
+                 </lu>
+                 <b/>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                   <lit-tag v="inf"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione inf > verbi_percezione ger: vedo fare > bido faghende">
+       <pattern>
+         <pattern-item n="verbi_percezione"/>
+         <pattern-item n="inf"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="ger"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione inf enc > verbi_percezione ger enc: vedo farlo > bido faghende·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="1" side="tl" part="temps"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <mlu>
+               <lu>
+                 <clip pos="2" side="tl" part="lemh"/>
+                 <clip pos="2" side="tl" part="a_verb"/>
+                 <lit-tag v="ger"/>
+               </lu>
+               <lu>
+                 <clip pos="3" side="tl" part="lem"/>
+                 <clip pos="3" side="tl" part="tags"/>
+                 <clip pos="2" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: verbi_percezione inf enc enc > verbi_percezione ger enc enc: vedo farglielo > bido faghende·bi·lu">
+       <pattern>
+         <pattern-item n="verbi_percezione"/>
+         <pattern-item n="inf"/>
+         <pattern-item n="enc"/>
+         <pattern-item n="enc"/>
+       </pattern>
+       <action>
+         <call-macro n="modif_case">
+           <with-param pos="1"/>
+         </call-macro>
+         <let><var n="chunkname"/><clip pos="1" side="tl" part="lem"/></let>
+         <choose>
+           <when>
+             <test>
+               <and>
+                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ci"/></equal>
+                 <equal><clip pos="3" side="sl" part="tipus_prn"/><lit-tag v="prn.enc.adv"/></equal>
+               </and>
+             </test>
+             <out>
+               <chunk namefrom="chunkname">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                   <tag><clip pos="1" side="tl" part="temps"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+               </chunk>
+             </out>
+           </when>
+           <otherwise>
+             <out>
+               <chunk namefrom="chunkname">
+                 <tags>
+                   <tag><lit-tag v="SV"/></tag>
+                   <tag><clip pos="1" side="tl" part="a_verb"/></tag>
+                   <tag><clip pos="1" side="tl" part="temps"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                   <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+                 <b pos="1"/>
+                 <mlu>
+                   <lu>
+                     <clip pos="2" side="tl" part="lemh"/>
+                     <clip pos="2" side="tl" part="a_verb"/>
+                     <lit-tag v="ger"/>
+                   </lu>
+                   <lu>
+                     <clip pos="3" side="tl" part="lem"/>
+                     <clip pos="3" side="tl" part="tags"/>
+                   </lu>
+                   <lu>
+                     <clip pos="4" side="tl" part="lem"/>
+                     <clip pos="4" side="tl" part="tags"/>
+                     <clip pos="2" side="tl" part="lemq"/>
+                   </lu>
+                 </mlu>
+               </chunk>
+             </out>
+           </otherwise>
+         </choose>
+       </action>
+    </rule>
+<!-- xxx
+-->
 
 
     <!-- _____________________________ verb loro >  lis verb _________________________________ -->
