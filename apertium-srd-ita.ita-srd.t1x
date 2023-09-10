@@ -5486,6 +5486,68 @@
     </rule>
 
 
+    <rule comment="regla: adjec nom adject (numerose faglie attive > numerosos ispacos ativos">
+       <pattern>
+         <pattern-item n="adjec"/>
+         <pattern-item n="nom"/>
+         <pattern-item n="adjec"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord3">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="2"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="3"/>
+         </call-macro>
+         <call-macro n="f_concord_esp">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_reord_adj">
+           <with-param pos="2"/>
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_clean_post">
+           <with-param pos="3"/>
+         </call-macro>
+         <out>
+           <chunk name="adj_n">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+               <tag><var n="genero_tl"/></tag>
+               <tag><var n="numero_tl"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lemh"/>
+               <clip pos="2" side="tl" part="tags"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <clip pos="3" side="tl" part="lemh"/>
+               <clip pos="3" side="tl" part="tags"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+
     <rule comment="regla: detdef adjpos casa > domo adjpos">
        <pattern>
          <pattern-item n="detdef"/>
