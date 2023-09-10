@@ -49,6 +49,9 @@
        <cat-item tags="num"/>
        <cat-item tags="num.*"/>
     </def-cat>
+    <def-cat n="num_lettere">
+       <cat-item tags="num.*"/>
+    </def-cat>
     <def-cat n="verb">
        <cat-item tags="vbmod.*"/>
        <cat-item tags="vbser.*"/>
@@ -609,6 +612,9 @@
     <def-cat n="cnjcoo">
        <cat-item tags="cnjcoo"/>
     </def-cat>
+    <def-cat n="o">
+       <cat-item lemma="o" tags="cnjcoo"/>
+    </def-cat>
     <def-cat n="cnjsub">
        <cat-item tags="cnjsub"/>
     </def-cat>
@@ -1078,11 +1084,12 @@
       <list-item v="bàlere"/>
       <list-item v="sèere"/>
       <list-item v="pròere"/>
-      <list-item v="variare"/>	<!-- només intr i pron... però això és la norma -->
+      <list-item v="pesare"/>
+      <list-item v="variare"/>	<!-- non "trans_variare" -->
       <list-item v="cumintzare"/>	<!-- non "trans_cumintziare -->
       <list-item v="finire"/>	<!-- non "trans_finire -->
       <list-item v="acabare"/>	<!-- non "trans_acabare -->
-      <list-item v="cùrrere"/>	<!-- non "cùrrere_trans -->
+      <list-item v="cùrrere"/>	<!-- non "trans_cùrrere -->
       <list-item v="abbigiare"/>	<!-- perquè pron (crec) -->
 <!--      <list-item v="torrare"/> cas especial -->
     </def-list>
@@ -4830,6 +4837,62 @@
         </out>
       </otherwise>
     </choose>
+  </action>
+</rule>
+
+
+<rule comment="regla: num o num nom: due o tre volte > duas o tres bortas">
+   <pattern>
+     <pattern-item n="num_lettere"/>
+     <pattern-item n="o"/>
+     <pattern-item n="num_lettere"/>
+     <pattern-item n="nom"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord3">
+       <with-param pos="4"/>
+       <with-param pos="3"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <call-macro n="f_concord_esp">
+       <with-param pos="4"/>
+       <with-param pos="1"/>
+     </call-macro>
+     <call-macro n="f_concord_esp">
+       <with-param pos="4"/>
+       <with-param pos="3"/>
+     </call-macro>
+     <call-macro n="f_chunk_tags">
+       <with-param pos="4"/>
+     </call-macro>
+     <out>
+       <chunk name="num_n">
+         <tags>
+           <tag><lit-tag v="SN"/></tag>
+           <tag><clip pos="4" side="tl" part="gen"/></tag>
+           <tag><clip pos="4" side="tl" part="nbr"/></tag>
+           <tag><var n="genero_sl"/></tag>
+           <tag><var n="numero_sl"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="whole"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="whole"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <clip pos="3" side="tl" part="whole"/>
+         </lu>
+         <b pos="3"/>
+         <lu>
+           <clip pos="4" side="tl" part="lemh"/>
+           <clip pos="4" side="tl" part="tags"/>
+           <clip pos="4" side="tl" part="lemq"/>
+         </lu>
+       </chunk>
+     </out>
   </action>
 </rule>
 
