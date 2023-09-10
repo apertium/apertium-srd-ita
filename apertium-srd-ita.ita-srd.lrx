@@ -2488,6 +2488,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- alzare > pesare, ... -->
+  <rule weight="0.8">
+    <match lemma="alzare" tags="vblex.*"><select lemma="pesare"/></match>
+  </rule>
+
   <!-- domandare > pregontare, ... -->
   <rule weight="0.8">
     <match lemma="domandare" tags="vblex.*"><select lemma="pregontare"/></match>

@@ -1022,6 +1022,11 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- torra > di nuovo, ... -->
+  <rule weight="0.8">
+    <match lemma="torra" tags="adv"><select lemma="di nuovo"/></match>
+  </rule>
+
   <!-- deretu > subito, ... -->
   <rule weight="0.8">
     <match lemma="deretu" tags="adv"><select lemma="subito"/></match>
@@ -1048,6 +1053,11 @@
   </rule>
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- ghetare > gettare, ... -->
+  <rule weight="0.8">
+    <match lemma="ghetare" tags="vblex.*"><select lemma="gettare"/></match>
+  </rule>
 
   <!-- fàghere > fare, ... -->
   <rule weight="0.8">
