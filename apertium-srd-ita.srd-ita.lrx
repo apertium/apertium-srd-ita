@@ -770,6 +770,11 @@
 
 <!-- **************** PREP **************** -->
 
+  <!-- in s'oru de > vicino a, ... -->
+  <rule weight="0.6">
+    <match lemma="in s'oru de" tags="pr"><select lemma="vicino a"/></match>
+  </rule>
+
   <!-- a > a, per, de, [remove] -->
   <rule weight="0.6">
     <match lemma="a" tags="pr"><select lemma="a"/></match>
@@ -863,6 +868,34 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- tziculate > cioccolato, cioccolata -->
+  <rule weight="0.8">
+    <match lemma="tziculate" tags="n.*"><select lemma="cioccolato"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="tzìchera" tags="n.*"/>
+    <match lemma="de" tags="pr"/>
+    <match lemma="tziculate" tags="n.*"><select lemma="cioccolata"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="bufare" tags="vblex.*"/>
+      <match lemma="pigare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="det.*"/>
+        <match tags="num.*"/>
+      </or>
+    </repeat>
+    <match lemma="tziculate" tags="n.*"><select lemma="cioccolata"/></match>
+  </rule>
+
+  <!-- farta > mancanza, colpevolezza -->
+  <rule weight="0.8">
+    <match lemma="farta" tags="n.*"><select lemma="mancanza"/></match>
+  </rule>
 
   <!-- pitzinnu > bambino, ragazzo -->
   <rule weight="0.8">

@@ -2488,6 +2488,23 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- venire > bènnire, èssere -->
+  <rule weight="0.8">
+    <match lemma="venire" tags="vblex.*"><select lemma="bènnire"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="venire" tags="vblex.*"><select lemma="èssere"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match tags="vblex.pp.*"/>
+  </rule>
+
+  <!-- sciogliere > iscagiare, ... -->
+  <rule weight="0.8">
+    <match lemma="sciogliere" tags="vblex.*"><select lemma="iscagiare"/></match>
+  </rule>
+
   <!-- alzare > pesare, ... -->
   <rule weight="0.8">
     <match lemma="alzare" tags="vblex.*"><select lemma="pesare"/></match>
@@ -2576,9 +2593,12 @@
     <match lemma="di" tags="pr"/>
   </rule>
   <rule weight="1.0">
-    <match lemma="sentire" tags="vblex.*"><select lemma=""/></match>
+    <match lemma="sentire" tags="vblex.*"><select lemma="sentire"/></match>
     <match lemma="dae" tags="pr"/>
   </rule>
+
+  <!-- crescere > crèschere, trans_crèschere -->
+  <macro n="verb_intrans_trans"><with-param v="crescere"/><with-param v="crèschere"/><with-param v="trans_crèschere"/></macro>
 
   <!-- aumentare > crèschere, trans_crèschere, aumentare -->
   <macro n="verb_intrans_trans"><with-param v="aumentare"/><with-param v="crèschere"/><with-param v="trans_crèschere"/></macro>
@@ -2994,6 +3014,26 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- autista > isciaferru, ... -->
+  <rule weight="0.6">
+    <match lemma="autista" tags="n.*"><select lemma="isciaferru"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="vbser.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="autista" tags="n.*"><select lemma="autista"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match tags="adj.*"/>
+    <match lemma="autista" tags="n.*"><select lemma="isciaferru"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="autista" tags="n.*"><select lemma="isciaferru"/></match>
+    <match tags="adj.*"/>
+  </rule>
 
   <!-- gemello > gemellu, ... -->
   <rule weight="0.6">
@@ -4041,6 +4081,15 @@
     <match tags="n.*"/>
   </rule>
 -->
+
+  <!-- vasto > ampru, mannu# a beru -->
+  <rule weight="0.8">
+    <match lemma="vasto" tags="adj.*"><select lemma="ampru"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="vasto" tags="adj.*"><select lemma="mannu# a beru"/></match>
+    <match tags="n.*"/>
+  </rule>
 
   <!-- superbo > mannosu, superbu -->
   <rule weight="0.8">
