@@ -1126,14 +1126,19 @@
       <match lemma="ghiottone" tags="n.*"/>
       <match lemma="volpe" tags="n.*"/>
       <match lemma="orso" tags="n.*"/>
+
       <match lemma="serpente" tags="n.*"/>
       <match lemma="serpe" tags="n.*"/>
+      <match lemma="rana" tags="n.*"/>
 
-      <match lemma="leopardo" tags="n.*"/>
       <match lemma="leone" tags="n.*"/>
       <match lemma="tigre" tags="n.*"/>
       <match lemma="ghepardo" tags="n.*"/>
       <match lemma="pantera" tags="n.*"/>
+      <match lemma="leopardo" tags="n.*"/>
+      <match lemma="ocelot" tags="n.*"/>
+      <match lemma="ocelotto" tags="n.*"/>
+      <match lemma="serval" tags="n.*"/>
       <match lemma="giraffa" tags="n.*"/>
       <match lemma="rinoceronte" tags="n.*"/>
       <match lemma="ippopotamo" tags="n.*"/>

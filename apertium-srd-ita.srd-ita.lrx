@@ -648,14 +648,17 @@
       <match lemma="mariane" tags="n.*"/>
       <match lemma="orsu" tags="n.*"/>
       <match lemma="colovra" tags="n.*"/>
+
       <match lemma="serpente" tags="n.*"/>
       <match lemma="tzerpe" tags="n.*"/>
+      <match lemma="rana" tags="n.*"/>
 
-      <match lemma="leopardu" tags="n.*"/>
       <match lemma="leone" tags="n.*"/>
       <match lemma="tigre" tags="n.*"/>
       <match lemma="ghepardu" tags="n.*"/>
       <match lemma="pantera" tags="n.*"/>
+      <match lemma="leopardu" tags="n.*"/>
+      <match lemma="serval" tags="n.*"/>
       <match lemma="girafa" tags="n.*"/>
       <match lemma="rinotzeronte" tags="n.*"/>
       <match lemma="ipopòtamu" tags="n.*"/>
@@ -1091,6 +1094,11 @@
   </rule>
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- bogare > togliere, ... -->
+  <rule weight="0.8">
+    <match lemma="bogare" tags="vblex.*"><select lemma="togliere"/></match>
+  </rule>
 
   <!-- ghetare > gettare, ... -->
   <rule weight="0.8">
