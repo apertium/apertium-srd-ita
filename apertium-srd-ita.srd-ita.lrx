@@ -869,6 +869,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- agiudu > aiuto, ausilio -->
+  <rule weight="0.8">
+    <match lemma="agiudu" tags="n.*"><select lemma="aiuto"/></match>
+  </rule>
+
   <!-- tziculate > cioccolato, cioccolata -->
   <rule weight="0.8">
     <match lemma="tziculate" tags="n.*"><select lemma="cioccolato"/></match>
