@@ -1093,6 +1093,7 @@
       <match lemma="gatto" tags="n.*"/>
       <match lemma="bue" tags="n.*"/>
       <match lemma="bove" tags="n.*"/>
+      <match lemma="toro" tags="n.*"/>
       <match lemma="vacca" tags="n.*"/>
       <match lemma="vitello" tags="n.*"/>
       <match lemma="agnello" tags="n.*"/>
@@ -1115,8 +1116,6 @@
       <match lemma="porco" tags="n.*"/>
       <match lemma="scrofa" tags="n.*"/>
       <match lemma="porcellino" tags="n.*"/>
-      <match lemma="ratu" tags="n.*"/>
-      <match lemma="sòrighe" tags="n.*"/>
       <match lemma="ratto" tags="n.*"/>
       <match lemma="topo" tags="n.*"/>
       <match lemma="talpa" tags="n.*"/>
@@ -1126,6 +1125,7 @@
       <match lemma="ghiottone" tags="n.*"/>
       <match lemma="volpe" tags="n.*"/>
       <match lemma="orso" tags="n.*"/>
+      <match lemma="bisonto" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="serpe" tags="n.*"/>
@@ -1152,6 +1152,9 @@
       <match lemma="gorilla" tags="n.*"/>
       <match lemma="scimpanzé" tags="n.*"/>
       <match lemma="canguro" tags="n.*"/>
+      <match lemma="castoro" tags="n."/>
+      <match lemma="marmotta" tags="n.*"/>
+      <match lemma="lontra" tags="n.*"/>
 
       <match lemma="uccello" tags="n.*"/>
       <match lemma="uccellino" tags="n.*"/>
@@ -1167,6 +1170,7 @@
       <match lemma="balena" tags="n.*"/>
       <match lemma="orca" tags="n.*"/>
       <match lemma="delfino" tags="n.*"/>
+      <match lemma="foca" tags="n.*"/>
       <match lemma="squalo" tags="n.*"/>
       <match lemma="polipo" tags="n.*"/>
       <match lemma="calamaro" tags="n.*"/>
@@ -1178,6 +1182,14 @@
       <match lemma="acciuga" tags="n.*"/>
       <match lemma="gambero" tags="n.*"/>
       <match lemma="scampo" tags="n.*"/>
+
+      <match lemma="insetto" tags="n.*"/>
+      <match lemma="mosca" tags="n.*"/>
+      <match lemma="zanzara" tags="n.*"/>
+      <match lemma="ape" tags="n.*"/>
+      <match lemma="vespa" tags="n.*"/>
+      <match lemma="farfalla" tags="n.*"/>
+      <match lemma="libellula" tags="n.*"/>
 
       <match lemma="dinosauro" tags="n.*"/>
       <match lemma="brontosauro" tags="n.*"/>

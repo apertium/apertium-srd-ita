@@ -619,6 +619,7 @@
       <match lemma="cane" tags="n.*"/>
       <match lemma="gatu" tags="n.*"/>
       <match lemma="boe" tags="n.*"/>
+      <match lemma="trau" tags="n.*"/>
       <match lemma="baca" tags="n.*"/>
       <match lemma="bitellu" tags="n.*"/>
       <match lemma="bricu" tags="n.*"/>
@@ -642,15 +643,18 @@
       <match lemma="porcheddu" tags="n.*"/>
       <match lemma="ratu" tags="n.*"/>
       <match lemma="sòrighe" tags="n.*"/>
+      <match lemma="sòrighe" tags="n.*"/>
+      <match lemma="sorighitu" tags="n.*"/>
 
       <match lemma="sirbone" tags="n.*"/>
       <match lemma="lupu" tags="n.*"/>
       <match lemma="mariane" tags="n.*"/>
       <match lemma="orsu" tags="n.*"/>
-      <match lemma="colovra" tags="n.*"/>
+      <match lemma="bisonte" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="tzerpe" tags="n.*"/>
+      <match lemma="colovra" tags="n.*"/>
       <match lemma="rana" tags="n.*"/>
 
       <match lemma="leone" tags="n.*"/>
@@ -672,6 +676,8 @@
       <match lemma="gorilla" tags="n.*"/>
       <match lemma="iscimpantzè" tags="n.*"/>
       <match lemma="canguru" tags="n.*"/>
+      <match lemma="castoru" tags="n."/>
+      <match lemma="lontra" tags="n.*"/>
 
       <match lemma="pugione" tags="n.*"/>
       <match lemma="pugioneddu" tags="n.*"/>
@@ -684,6 +690,7 @@
       <match lemma="balena" tags="n.*"/>
       <match lemma="orca" tags="n.*"/>
       <match lemma="delfinu" tags="n.*"/>
+      <match lemma="foca" tags="n.*"/>
       <match lemma="pischecane" tags="n.*"/>
       <match lemma="purpu" tags="n.*"/>
       <match lemma="calamaru" tags="n.*"/>
@@ -693,6 +700,20 @@
       <match lemma="sardina" tags="n.*"/>
       <match lemma="merulutzu" tags="n.*"/>
       <match lemma="gàmberu" tags="n.*"/>
+
+      <match lemma="babboi" tags="n.*"/>
+      <match lemma="musca" tags="n.*"/>
+      <match lemma="tzìntzula" tags="n.*"/>
+      <match lemma="tìtula" tags="n.*"/>
+      <match lemma="muschitu" tags="n.*"/>
+      <match lemma="abe" tags="n.*"/>
+      <match lemma="bespe" tags="n.*"/>
+      <match lemma="mariposa" tags="n.*"/>
+      <match lemma="farfalla" tags="n.*"/>
+      <match lemma="barabàtula" tags="n.*"/>
+      <match lemma="carabàtula" tags="n.*"/>
+      <match lemma="tzarabàtula" tags="n.*"/>
+      <match lemma="coebida" tags="n.*"/>
 
       <match lemma="dinosàuru" tags="n.*"/>
       <match lemma="brontosàuru" tags="n.*"/>
