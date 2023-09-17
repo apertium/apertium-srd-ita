@@ -1099,7 +1099,7 @@
       <match lemma="agnello" tags="n.*"/>
       <match lemma="capra" tags="n.*"/>
       <match lemma="pecora" tags="n.*"/>
-      <match lemma="gallo" tags="n.*"/>
+      <match lemma="gallo" tags="n.m.*"/>
       <match lemma="gallina" tags="n.*"/>
       <match lemma="pollo" tags="n.*"/>
       <match lemma="anatra" tags="n.*"/>
@@ -1130,6 +1130,10 @@
       <match lemma="serpente" tags="n.*"/>
       <match lemma="serpe" tags="n.*"/>
       <match lemma="rana" tags="n.*"/>
+      <match lemma="girino" tags="n.*"/>
+      <match lemma="rospo" tags="n.*"/>
+      <match lemma="lucertola" tags="n.*"/>
+      <match lemma="lucertolone" tags="n.*"/>
 
       <match lemma="leone" tags="n.*"/>
       <match lemma="tigre" tags="n.*"/>
@@ -2517,6 +2521,61 @@
     <match tags="vblex.pp.*"/>
   </rule>
 
+  <!-- doppiare > adopiare, dopiare -->
+  <rule weight="0.8">
+    <match lemma="doppiare" tags="vblex.*"><select lemma="adopiare"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="doppiare" tags="vblex.*"><select lemma="dopiare"/></match>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"/>
+    <match tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="doppiare" tags="vblex.pp.*"><select lemma="dopiare"/></match>
+    <match lemma="da" tags="pr"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="doppiare" tags="vblex.*"><select lemma="dopiare"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="film" tags="n.*"/>
+      <match lemma="lungometraggio" tags="n.*"/>
+      <match lemma="cortometraggio" tags="n.*"/>
+      <match lemma="documentario" tags="n.*"/>
+      <match lemma="attore" tags="n.*"/>
+      <match lemma="sottotitolo" tags="n.*"/>
+      <match lemma="sottotitolare" tags="vblex.*"/>
+      <match lemma="proggetare" tags="vblex.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="film" tags="n.*"/>
+      <match lemma="lungometraggio" tags="n.*"/>
+      <match lemma="cortometraggio" tags="n.*"/>
+      <match lemma="documentario" tags="n.*"/>
+      <match lemma="attore" tags="n.*"/>
+      <match lemma="sottotitolo" tags="n.*"/>
+      <match lemma="sottotitolare" tags="vblex.*"/>
+      <match lemma="proggetare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="doppiare" tags="vblex.*"><select lemma="dopiare"/></match>
+  </rule>
+
   <!-- sciogliere > iscagiare, ... -->
   <rule weight="0.8">
     <match lemma="sciogliere" tags="vblex.*"><select lemma="iscagiare"/></match>
@@ -3032,7 +3091,15 @@
 
 <!-- **************** N **************** -->
 
-  <!-- autista > isciaferru, ... -->
+  <!-- gallo > puddu, gallo -->
+  <rule weight="0.6">
+    <match lemma="gallo" tags="n.*"><select lemma="puddu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Gallo" tags="n.m.pl"><select lemma="gallu"/></match>
+  </rule>
+
+  <!-- autista > isciaferru, autista -->
   <rule weight="0.6">
     <match lemma="autista" tags="n.*"><select lemma="isciaferru"/></match>
   </rule>
