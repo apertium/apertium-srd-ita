@@ -1118,6 +1118,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- impreare > utilizzare, ... -->
+  <rule weight="0.8">
+    <match lemma="impreare" tags="vblex.*"><select lemma="utilizzare"/></match>
+  </rule>
+
   <!-- bogare > togliere, ... -->
   <rule weight="0.8">
     <match lemma="bogare" tags="vblex.*"><select lemma="togliere"/></match>
