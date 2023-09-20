@@ -649,6 +649,7 @@
       <match lemma="sirbone" tags="n.*"/>
       <match lemma="lupu" tags="n.*"/>
       <match lemma="mariane" tags="n.*"/>
+      <match lemma="lintze" tags="n.*"/>
       <match lemma="orsu" tags="n.*"/>
       <match lemma="bisonte" tags="n.*"/>
 
@@ -716,6 +717,7 @@
       <match lemma="carabàtula" tags="n.*"/>
       <match lemma="tzarabàtula" tags="n.*"/>
       <match lemma="coebida" tags="n.*"/>
+      <match lemma="tzilibirche" tags="n.*"/>
 
       <match lemma="dinosàuru" tags="n.*"/>
       <match lemma="brontosàuru" tags="n.*"/>
@@ -1048,6 +1050,11 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- brutu > lordo, sporco -->
+  <rule weight="0.6">
+    <match lemma="brutu" tags="adj.*"><select lemma="lordo"/></match>
+  </rule>
 
   <!-- passadu > passato, scorso -->
   <rule weight="0.6">

@@ -1122,8 +1122,10 @@
 
       <match lemma="cinghiale" tags="n.*"/>
       <match lemma="lupo" tags="n.*"/>
-      <match lemma="ghiottone" tags="n.*"/>
+      <match lemma="lupetto" tags="n.*"/>
+      <match lemma="lupacchiotto" tags="n.*"/>
       <match lemma="volpe" tags="n.*"/>
+      <match lemma="lince" tags="n.*"/>
       <match lemma="orso" tags="n.*"/>
       <match lemma="bisonto" tags="n.*"/>
 
@@ -1194,6 +1196,7 @@
       <match lemma="vespa" tags="n.*"/>
       <match lemma="farfalla" tags="n.*"/>
       <match lemma="libellula" tags="n.*"/>
+      <match lemma="locusta" tags="n.*"/>
 
       <match lemma="dinosauro" tags="n.*"/>
       <match lemma="brontosauro" tags="n.*"/>
