@@ -1669,6 +1669,30 @@
     <match lemma="te" tags="prn.*"><select lemma="tene"/></match>
   </rule>
 
+  <!-- ne > nde, nche -->
+  <rule weight="0.8">
+    <match lemma="ne" tags="prn.enc.*"><select lemma="nde"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="andare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match lemma="ne" tags="prn.enc.*"><select lemma="nche"/></match>
+  </rule>
+
+  <!-- ne > nde, nche -->
+  <rule weight="0.8">
+    <match lemma="ne" tags="prn.pro.*"><select lemma="nde"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ne" tags="prn.pro.*"><select lemma="nche"/></match>
+    <repeat from="0" upto="1">
+      <match tags="prn.pro.*"/>
+    </repeat>
+    <match lemma="andare" tags="vblex.*"/>
+  </rule>
+
 <!-- **************** PREP **************** -->
 
   <!-- a > a, in -->
@@ -1836,7 +1860,7 @@
     <match tags="np.top.*"/>
   </rule>
 
-  <!-- in > in, a, da -->
+  <!-- in > in, a, da, per -->
   <rule weight="0.8">
     <match lemma="in" tags="pr"><select lemma="in"/></match>
   </rule>
@@ -2229,17 +2253,30 @@
     </or>
     <match lemma="per" tags="pr"><select lemma="in" tags="pr"/></match>
   </rule>
-  <rule weight="1.2">
-    <match lemma="adottare" tags="vblex.*"/>
-    <match lemma="per" tags="pr"><select lemma="pro"/></match>
-  </rule>
   <rule weight="1.0">
     <match lemma="per" tags="pr"><select lemma="in" tags="pr"/></match>
     <match lemma="via" tags="n.*"/>
     <match tags="adj.*"/>
   </rule>
+  <rule weight="1.0">
+    <match lemma="per" tags="pr"><select lemma="in" tags="pr"/></match>
+    <match tags="det.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adj.*"/>
+    </repeat>
+    <or>
+      <match lemma="strada" tags="n.*"/>
+      <match lemma="via" tags="n.*"/>
+      <match lemma="percorso" tags="n.*"/>
+      <match lemma="rotta" tags="n.*"/>
+      <match lemma="itinerario" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="adottare" tags="vblex.*"/>
+    <match lemma="per" tags="pr"><select lemma="pro"/></match>
+  </rule>
 
-  <!-- tra > intre, tra -->
   <!-- fra > intre, tra -->
   <rule weight="0.6">
     <or>

@@ -895,6 +895,30 @@
     <match lemma="bi" tags="prn.pro.adv"><select lemma="ci" tags="prn.pro.adv"/></match>
   </rule>
 
+  <!-- nche > ci, ne -->
+  <rule weight="0.8">
+    <match lemma="nche" tags="prn.enc.*"><select lemma="ci"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="andare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="prn.enc.*"/>
+    </repeat>
+    <match lemma="nche" tags="prn.enc.*"><select lemma="ne"/></match>
+  </rule>
+
+  <!-- nche > ci, ne -->
+  <rule weight="0.8">
+    <match lemma="nche" tags="prn.pro.*"><select lemma="ci"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="nche" tags="prn.pro.*"><select lemma="ne"/></match>
+    <repeat from="0" upto="1">
+      <match tags="prn.pro.*"/>
+    </repeat>
+    <match lemma="andare" tags="vblex.*"/>
+  </rule>
+
 <!-- **************** N **************** -->
 
   <!-- agiudu > aiuto, ausilio -->
@@ -1051,6 +1075,11 @@
 
 <!-- **************** ADJ **************** -->
 
+  <!-- bonu > buono, bravo -->
+  <rule weight="0.6">
+    <match lemma="bonu" tags="adj.*"><select lemma="buono"/></match>
+  </rule>
+
   <!-- brutu > lordo, sporco -->
   <rule weight="0.6">
     <match lemma="brutu" tags="adj.*"><select lemma="lordo"/></match>
@@ -1124,6 +1153,11 @@
   </rule>
 
 <!-- **************** VBLEX **************** -->
+
+  <!-- incarcare > cliccare, ... -->
+  <rule weight="0.8">
+    <match lemma="incarcare" tags="vblex.*"><select lemma="cliccare"/></match>
+  </rule>
 
   <!-- impreare > utilizzare, ... -->
   <rule weight="0.8">
