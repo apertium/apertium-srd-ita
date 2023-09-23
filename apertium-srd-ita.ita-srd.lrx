@@ -1090,10 +1090,13 @@
     <def-seq n="animale"><or>
       <match lemma="animale" tags="n.*"/>
       <match lemma="cane" tags="n.*"/>
+      <match lemma="cucciolo" tags="n.*"/>
       <match lemma="gatto" tags="n.*"/>
+      <match lemma="gattino" tags="n.*"/>
       <match lemma="bue" tags="n.*"/>
       <match lemma="bove" tags="n.*"/>
       <match lemma="toro" tags="n.*"/>
+      <match lemma="manzo" tags="n.*"/>
       <match lemma="vacca" tags="n.*"/>
       <match lemma="vitello" tags="n.*"/>
       <match lemma="agnello" tags="n.*"/>
@@ -1110,8 +1113,12 @@
       <match lemma="coniglio" tags="n.*"/>
       <match lemma="lepre" tags="n.*"/>
       <match lemma="cavallo" tags="n.*"/>
+      <match lemma="stallone" tags="n.*"/>
       <match lemma="cavalla" tags="n.*"/>
+      <match lemma="giumenta" tags="n.*"/>
       <match lemma="puledro" tags="n.*"/>
+      <match lemma="cavallino" tags="n.*"/>
+      <match lemma="megera" tags="n.*"/>
       <match lemma="maiale" tags="n.*"/>
       <match lemma="porco" tags="n.*"/>
       <match lemma="scrofa" tags="n.*"/>
@@ -1128,6 +1135,7 @@
       <match lemma="lince" tags="n.*"/>
       <match lemma="orso" tags="n.*"/>
       <match lemma="bisonto" tags="n.*"/>
+      <match lemma="castoro" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="serpe" tags="n.*"/>
@@ -1142,12 +1150,14 @@
       <match lemma="ghepardo" tags="n.*"/>
       <match lemma="pantera" tags="n.*"/>
       <match lemma="leopardo" tags="n.*"/>
+      <match lemma="ghepardo" tags="n.*"/>
       <match lemma="ocelot" tags="n.*"/>
       <match lemma="ocelotto" tags="n.*"/>
       <match lemma="serval" tags="n.*"/>
       <match lemma="giraffa" tags="n.*"/>
       <match lemma="rinoceronte" tags="n.*"/>
       <match lemma="ippopotamo" tags="n.*"/>
+      <match lemma="gazzella" tags="n.*"/>
       <match lemma="zebra" tags="n.*"/>
       <match lemma="cervo" tags="n.*"/>
       <match lemma="alce" tags="n.*"/>

@@ -620,6 +620,7 @@
       <match lemma="gatu" tags="n.*"/>
       <match lemma="boe" tags="n.*"/>
       <match lemma="trau" tags="n.*"/>
+      <match lemma="bùulu" tags="n.*"/>
       <match lemma="baca" tags="n.*"/>
       <match lemma="bitellu" tags="n.*"/>
       <match lemma="bricu" tags="n.*"/>
@@ -636,6 +637,7 @@
       <match lemma="conìlliu" tags="n.*"/>
       <match lemma="lèpore" tags="n.*"/>
       <match lemma="caddu" tags="n.*"/>
+      <match lemma="istallone" tags="n.*"/>
       <match lemma="ebba" tags="n.*"/>
       <match lemma="puddedru" tags="n.*"/>
       <match lemma="porcu" tags="n.*"/>
@@ -652,6 +654,7 @@
       <match lemma="lintze" tags="n.*"/>
       <match lemma="orsu" tags="n.*"/>
       <match lemma="bisonte" tags="n.*"/>
+      <match lemma="castoru" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="tzerpe" tags="n.*"/>
@@ -665,6 +668,7 @@
       <match lemma="ghepardu" tags="n.*"/>
       <match lemma="pantera" tags="n.*"/>
       <match lemma="leopardu" tags="n.*"/>
+      <match lemma="ghepardu" tags="n.*"/>
       <match lemma="serval" tags="n.*"/>
       <match lemma="girafa" tags="n.*"/>
       <match lemma="rinotzeronte" tags="n.*"/>
@@ -680,6 +684,7 @@
       <match lemma="iscimpantzè" tags="n.*"/>
       <match lemma="canguru" tags="n.*"/>
       <match lemma="castoru" tags="n."/>
+      <match lemma="marmota" tags="n."/>
       <match lemma="lontra" tags="n.*"/>
 
       <match lemma="pugione" tags="n.*"/>
