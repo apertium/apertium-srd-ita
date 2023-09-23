@@ -20,6 +20,9 @@
       <cat-item tags="SV"/>
       <cat-item tags="SV.*"/>
     </def-cat>
+    <def-cat n="SV_pp">
+      <cat-item tags="SV.*.pp.*"/>
+    </def-cat>
     <def-cat n="Ser">
       <cat-item tags="SV.vbser"/>
       <cat-item tags="SV.vbser.*"/>
@@ -338,7 +341,7 @@
   </section-def-macros>
 
   <section-rules>
-    <rule comment="RÈGLA: SN SV_copulatiu SA: sa die est bella > lo giorno è bello">
+    <rule comment="RÈGLA: SN SV_copulatiu SA: sa die est bella > il giorno è bello">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SV_copulatiu"/>
@@ -362,7 +365,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: SN SV_copulatiu SAdv SA: sa die est semper bella > lo giorno è sempre bello">
+    <rule comment="RÈGLA: SN SV_copulatiu SAdv SA: sa die est semper bella > il giorno è sempre bello">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="SV_copulatiu"/>
@@ -464,7 +467,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SA: sa die est istada bella > lo giorno è stato bello">
+    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SA: sa die est istada bella > il giorno è stato bello">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="Ser"/>
@@ -493,7 +496,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SAdv SA: sa die est istada semper bella > lo giorno è stato sempre bello">
+    <rule comment="RÈGLA: SN Ser SV_copulatiu_pp SAdv SA: sa die est istada semper bella > il giorno è stato sempre bello">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="Ser"/>
@@ -527,7 +530,7 @@
       </action>
     </rule>
 
-    <rule comment="RÈGLA: SN Ser SAdv SV_copulatiu_pp SA: sa die est semper istada bella > lo giorno è sempre stato bello">
+    <rule comment="RÈGLA: SN Ser SAdv SV_copulatiu_pp SA: sa die est semper istada bella > il giorno è sempre stato bello">
       <pattern>
         <pattern-item n="SN"/>
         <pattern-item n="Ser"/>
@@ -683,6 +686,88 @@
           <b pos="6"/>
           <chunk>
             <clip pos="7" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: Ser SV_pp SN: est arribada sa die > è arribato il giorno">
+      <pattern>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SV_pp"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib3"><with-param pos="3"/><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: Ser SAdv SV_pp SN: est semper arribada sa die > è sempre arribato il giorno">
+      <pattern>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SV_pp"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib3"><with-param pos="4"/><with-param pos="1"/><with-param pos="3"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="RÈGLA: Ser SV_pp SAdv SN: est arribada semper sa die > è arribato sempre il giorno">
+      <pattern>
+        <pattern-item n="Ser"/>
+        <pattern-item n="SV_pp"/>
+        <pattern-item n="SAdv"/>
+        <pattern-item n="SN"/>
+      </pattern>
+      <action>
+        <call-macro n="f_acord_subj_vcop_atrib3"><with-param pos="4"/><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk>
+            <clip pos="1" part="whole"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+            <clip pos="2" part="whole"/>
+          </chunk>
+          <b pos="2"/>
+          <chunk>
+            <clip pos="3" part="whole"/>
+          </chunk>
+          <b pos="3"/>
+          <chunk>
+            <clip pos="4" part="whole"/>
           </chunk>
         </out>
       </action>
