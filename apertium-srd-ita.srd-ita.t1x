@@ -253,6 +253,9 @@
     <def-cat n="bi-adv">
        <cat-item lemma="bi" tags="prn.pro.adv"/>
     </def-cat>
+    <def-cat n="nde-adv">
+       <cat-item lemma="nde" tags="prn.pro.adv"/>
+    </def-cat>
     <def-cat n="nche-pro">
        <cat-item lemma="nche" tags="prn.enc.adv"/>
     </def-cat>
@@ -8837,6 +8840,108 @@
    </action>
 </rule>
 -->
+
+<rule comment="regla: bi + nde + àere > ci + ne + essere (bi nd'at > ce n'è)">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="nde-adv"/>
+     <pattern-item n="aere_p3"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="whole"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="whole"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <lit v="essere"/>
+           <lit-tag v="vbser"/>
+           <clip pos="3" side="tl" part="temps"/>
+           <clip pos="3" side="tl" part="pers"/>
+           <clip pos="3" side="tl" part="gen"/>
+           <clip pos="3" side="tl" part="nbr"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: bi nde vbhaver_pri_p3 a inf > fti (be nd'at a àere > ci ne sarà)">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="nde-adv"/>
+     <pattern-item n="vbhaver_pri_p3"/>
+     <pattern-item n="a_pr"/>
+     <pattern-item n="aere_inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="whole"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="whole"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <lit v="essere"/>
+           <lit-tag v="vbser"/>
+           <lit-tag v="fti"/>
+           <clip pos="3" side="tl" part="pers"/>
+           <clip pos="3" side="tl" part="nbr"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: bi nde vbdare_prs_p3 inf > fti (bi nde diat àere > ci ne sarebbe)">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="nde-adv"/>
+     <pattern-item n="vbdare_prs_p3"/>
+     <pattern-item n="aere_inf"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="whole"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <clip pos="2" side="tl" part="whole"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <lit v="essere"/>
+           <lit-tag v="vbser"/>
+           <lit-tag v="cni"/>
+           <clip pos="3" side="tl" part="pers"/>
+           <clip pos="3" side="tl" part="nbr"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
 
 <rule comment="regla: pro inf > inf enc (la cantare > cantarla">
    <pattern>
