@@ -900,7 +900,7 @@
     <match lemma="bi" tags="prn.pro.adv"><select lemma="ci" tags="prn.pro.adv"/></match>
   </rule>
 
-  <!-- nche > ci, ne -->
+  <!-- nche (prn.enc) > ci, ne -->
   <rule weight="0.8">
     <match lemma="nche" tags="prn.enc.*"><select lemma="ci"/></match>
   </rule>
@@ -912,7 +912,7 @@
     <match lemma="nche" tags="prn.enc.*"><select lemma="ne"/></match>
   </rule>
 
-  <!-- nche > ci, ne -->
+  <!-- nche (prn.pro) > ci, ne -->
   <rule weight="0.8">
     <match lemma="nche" tags="prn.pro.*"><select lemma="ci"/></match>
   </rule>
@@ -922,6 +922,24 @@
       <match tags="prn.pro.*"/>
     </repeat>
     <match lemma="andare" tags="vblex.*"/>
+  </rule>
+
+  <!-- suo > suo, lui -->
+  <rule weight="0.8">
+    <match lemma="suo" tags="prn.*"><select lemma="suo"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="dae in antis" tags="pr"/>
+    </or>
+    <match lemma="suo" tags="prn.*"><select lemma="lui"/></match>
+  </rule>
+
+<!-- **************** DET **************** -->
+
+  <!-- cada > ogni, ciascun -->
+  <rule weight="0.8">
+    <match lemma="cada" tags="det.*"><select lemma="ogni"/></match>
   </rule>
 
 <!-- **************** N **************** -->

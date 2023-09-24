@@ -817,6 +817,8 @@
 
   <def-seqs>
     <def-seq n="distanza"><or>
+      <match lemma="millimetro"/>
+      <match lemma="centimetro"/>
       <match lemma="metro"/>
       <match lemma="chilometro"/>
       <match lemma="miglio"/>
@@ -1550,6 +1552,11 @@
 
 <!-- **************** DET **************** -->
 
+  <!-- ogni > cada, ogni/onni -->
+  <rule weight="0.8">
+    <match lemma="ogni" tags="det.*"><select lemma="cada"/></match>
+  </rule>
+
   <!-- il > su -->
   <rule weight="0.8">
     <match lemma="il" tags="det.*"><select lemma="su"/></match>
@@ -1677,6 +1684,22 @@
   <!-- selection after preposition is done in transfer -->
   <rule weight="0.8">
     <match lemma="te" tags="prn.*"><select lemma="tene"/></match>
+  </rule>
+
+  <!-- lui > issu, suo -->
+  <rule weight="0.8">
+    <match lemma="lui" tags="prn.*"><select lemma="issu"/></match>
+  </rule>
+
+  <!-- sé > sese, suo -->
+  <rule weight="0.8">
+    <match lemma="sé" tags="prn.*"><select lemma="sese"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="davanti a" tags="pr"/>
+    </or>
+    <match lemma="sé" tags="prn.*"><select lemma="suo"/></match>
   </rule>
 
   <!-- ne > nde, nche -->
@@ -2207,13 +2230,18 @@
   <rule weight="1.0">
     <match lemma="per" tags="pr"><remove tags="pr"/></match>
     <repeat from="0" upto="1">
+      <or><match tags="adv"/><match tags="preadv"/></or>
+    </repeat>
+    <repeat from="0" upto="1">
       <match tags="predet.*"/>
     </repeat>
-    <or>
-      <match tags="num"/>
-      <match tags="num.*"/>
-      <match tags="det.*"/>
-    </or>
+    <repeat from="0" upto="1">
+      <or>
+        <match tags="num"/>
+        <match tags="num.*"/>
+        <match tags="det.*"/>
+      </or>
+    </repeat>
     <repeat from="0" upto="1">
       <match tags="adj.*"/>
     </repeat>
@@ -2227,33 +2255,6 @@
       <match lemma="estate" tags="n.*"/>
       <match lemma="autunno" tags="n.*"/>
       <match lemma="inverno" tags="n.*"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="per" tags="pr"><remove tags="pr"/></match>
-    <repeat from="0" upto="1">
-      <or><match tags="adv"/><match tags="preadv"/></or>
-    </repeat>
-    <match tags="adj.*"/>
-    <or>
-      <seq n="periodo"/>
-      <match lemma="tempo" tags="n.*"/>
-      <match lemma="periodo" tags="n.*"/>
-      <match lemma="momento" tags="n.*"/>
-    </or>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="per" tags="pr"><select lemma="durante"/></match>
-    <or>
-      <match lemma="minuto" tags="n.m.pl"/>
-      <match lemma="ora" tags="n.f.pl"/>
-      <match lemma="giorno" tags="n.m.pl"/>
-      <match lemma="settimana" tags="n.f.pl"/>
-      <match lemma="mese" tags="n.m.pl"/>
-      <match lemma="anno" tags="n.m.pl"/>
-      <match lemma="decennio" tags="n.m.pl"/>
-      <match lemma="secolo" tags="n.m.pl"/>
-      <match lemma="millennio" tags="n.m.pl"/>
     </or>
   </rule>
   <rule weight="1.0">
@@ -4308,6 +4309,25 @@
     <or>
       <seq n="famiglia"/>
       <match lemma="amico" tags="n.*"/>
+      <match lemma="nemico" tags="n.*"/>
+      <match lemma="bambino" tags="n.*"/>
+      <match lemma="professore" tags="n.*"/>
+      <match lemma="studente" tags="n.*"/>
+      <match lemma="alunno" tags="n.*"/>
+      <match lemma="allievo" tags="n.*"/>
+      <match lemma="direttore" tags="n.*"/>
+      <match lemma="segretario" tags="n.*"/>
+      <match lemma="signore" tags="n.*"/>
+      <match lemma="signora" tags="n.*"/>
+      <match lemma="signorina" tags="n.*"/>
+      <match lemma="giudice" tags="n.*"/>
+      <match lemma="vicino" tags="n.*"/>
+      <match lemma="collega" tags="n.*"/>
+      <match lemma="collaboratore" tags="n.*"/>
+      <match lemma="cliente" tags="n.*"/>
+      <match lemma="utente" tags="n.*"/>
+      <match lemma="cittadino" tags="n.*"/>
+      <match lemma="concittadino" tags="n.*"/>
       <match tags="np.*"/>
     </or>
   </rule>
@@ -4315,6 +4335,25 @@
     <or>
       <seq n="famiglia"/>
       <match lemma="amico" tags="n.*"/>
+      <match lemma="nemico" tags="n.*"/>
+      <match lemma="bambino" tags="n.*"/>
+      <match lemma="professore" tags="n.*"/>
+      <match lemma="studente" tags="n.*"/>
+      <match lemma="alunno" tags="n.*"/>
+      <match lemma="allievo" tags="n.*"/>
+      <match lemma="direttore" tags="n.*"/>
+      <match lemma="segretario" tags="n.*"/>
+      <match lemma="signore" tags="n.*"/>
+      <match lemma="signora" tags="n.*"/>
+      <match lemma="signorina" tags="n.*"/>
+      <match lemma="giudice" tags="n.*"/>
+      <match lemma="vicino" tags="n.*"/>
+      <match lemma="collega" tags="n.*"/>
+      <match lemma="collaboratore" tags="n.*"/>
+      <match lemma="cliente" tags="n.*"/>
+      <match lemma="utente" tags="n.*"/>
+      <match lemma="cittadino" tags="n.*"/>
+      <match lemma="concittadino" tags="n.*"/>
       <match tags="np.*"/>
     </or>
     <match lemma="caro" tags="adj.*"><select lemma="istimadu"/></match>
