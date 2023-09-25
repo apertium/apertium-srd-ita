@@ -1557,6 +1557,11 @@
     <match lemma="ogni" tags="det.*"><select lemma="cada"/></match>
   </rule>
 
+  <!-- qualche > carchi, calicunu -->
+  <rule weight="0.8">
+    <match lemma="qualche" tags="det.*"><select lemma="carchi"/></match>
+  </rule>
+
   <!-- il > su -->
   <rule weight="0.8">
     <match lemma="il" tags="det.*"><select lemma="su"/></match>
@@ -4032,6 +4037,15 @@
       <match lemma="cabelleria" tags="n.*"/>
       <match lemma="artiglieria" tags="n.*"/>
       <match lemma="blindato"/>
+
+      <match lemma="matematica" tags="n.*"/>
+      <match lemma="aritmetica" tags="n.*"/>
+      <match lemma="aritmetico" tags="adj.*"/>
+      <match lemma="calcolo" tags="n.*"/>
+      <match lemma="calcolare" tags="vblex.*"/>
+      <match lemma="addizione" tags="n.*"/>
+      <match lemma="sottrazione" tags="n.*"/>
+      <match lemma="moltiplicazione" tags="n.*"/>
     </or>
     <repeat from="0" upto="8">
       <or>
@@ -4059,6 +4073,15 @@
       <match lemma="cabelleria" tags="n.*"/>
       <match lemma="artiglieria" tags="n.*"/>
       <match lemma="blindato"/>
+
+      <match lemma="matematica" tags="n.*"/>
+      <match lemma="aritmetica" tags="n.*"/>
+      <match lemma="aritmetico" tags="adj.*"/>
+      <match lemma="calcolo" tags="n.*"/>
+      <match lemma="calcolare" tags="vblex.*"/>
+      <match lemma="addizione" tags="n.*"/>
+      <match lemma="sottrazione" tags="n.*"/>
+      <match lemma="moltiplicazione" tags="n.*"/>
     </or>
   </rule>
 
