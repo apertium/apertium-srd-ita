@@ -9972,7 +9972,7 @@
     </rule>
 
 
-    <rule comment="regla: c'è"> <!-- c'è > b'at, c'erano > b'at (tots els temps simples de l'italià)-->
+    <rule comment="regla: c'è"> <!-- c'è > b'at/b'est, c'erano > b'aiat/bi fiant (tots els temps simples de l'italià)-->
        <pattern>
          <pattern-item n="ci"/>
          <pattern-item n="essere-p3"/>
@@ -9981,161 +9981,316 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
-	 <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
-      <choose>
-	<when>
-	  <test>
-	    <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
-	  </test>
-	  <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
-	</when>
-      </choose>
-      <choose>
-	<when>
-	  <test>
-	    <equal>
-	      <clip pos="2" side="tl" part="temps"/>
-	      <lit-tag v="ifi"/>
-	    </equal>
-	  </test>
-         <out>
-           <chunk name="b'at-ifi">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-               <lu>
-                 <get-case-from pos="1">
-                 <lit v="bi"/>
-                 </get-case-from>
-                 <clip pos="1" side="tl" part="tags"/>
-               </lu>
-               <b pos="1"/>
-               <lu>
-                 <get-case-from pos="2">
-                   <lit v="èssere"/>
-                 </get-case-from>
-                 <lit-tag v="vbser.pri"/>
-                 <clip pos="2" side="tl" part="pers"/>
-                 <clip pos="2" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <get-case-from pos="2">
-                   <lit v="àere"/>
-                 </get-case-from>
-                 <lit-tag v="vbhaver.pp.m.sg"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
-           </chunk>
-         </out>
-	</when>
+         <choose>
+          <when>
+            <test>
+              <equal><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbser"/></equal>
+            </test>
+             <choose>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="tl" part="temps"/><lit-tag v="ifi"/></equal>
+                </test>
+                <out>
+                  <chunk name="bi">
+                    <tags>
+                      <tag><lit-tag v="SN"/></tag>
+                    </tags>
+                    <lu>
+                      <get-case-from pos="1">
+                        <lit v="bi"/>
+                      </get-case-from>
+                      <clip pos="1" side="tl" part="tags"/>
+                    </lu>
+                  </chunk>
+                  <b pos="1"/>
+                  <chunk name="èssere">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                      <tag><lit-tag v="vbser"/></tag>
+                      <tag><lit-tag v="pii"/></tag>
+                    </tags>
+                    <lu>
+                      <clip pos="2" side="tl" part="lemh"/>
+                      <lit-tag v="vbser.pii"/>
+                      <clip pos="2" side="tl" part="pers"/>
+                      <clip pos="2" side="tl" part="nbr"/>
+                    </lu>
+                  </chunk>
+                  <b/>
+                </out>
+                <call-macro n="f_chunk_tags">
+                  <with-param pos="2"/>
+                </call-macro>
+                <let><var n="chunkname"/><clip pos="2" side="tl" part="lem"/></let>
+                <out>
+                  <chunk namefrom="chunkname">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                      <tag><clip pos="2" side="tl" part="a_verb"/></tag>
+                      <tag><lit-tag v="pp"/></tag>
+                      <tag><lit-tag v="GD"/></tag>
+                      <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                      <tag><var n="genero_sl"/></tag>
+                      <tag><var n="numero_sl"/></tag>
+                    </tags>
+                    <lu>
+                      <clip pos="2" side="tl" part="lemh"/>
+                      <clip pos="2" side="tl" part="a_verb"/>
+                      <lit-tag v="pp"/>
+                      <lit-tag v="4"/>
+                      <lit-tag v="5"/>
+                      <clip pos="2" side="tl" part="lemq"/>
+                    </lu>
+                  </chunk>
+                </out>
+              </when>
 
-	<when>
-	  <test>
-	    <equal>
-	      <clip pos="2" side="tl" part="temps"/>
-	      <lit-tag v="fti"/>
-	    </equal>
-	  </test>
-         <out>
-           <chunk name="b'at-fti">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-             <lu>
-               <get-case-from pos="1">
-               <lit v="bi"/>
-               </get-case-from>
-               <clip pos="1" side="tl" part="tags"/>
-             </lu>
-             <b pos="1"/>
-             <lu>
-               <get-case-from pos="2">
-                 <lit v="àere"/>
-               </get-case-from>
-               <lit-tag v="vbhaver.pri"/>
-               <clip pos="2" side="tl" part="pers"/>
-               <clip pos="2" side="tl" part="gen"/>
-               <clip pos="2" side="tl" part="nbr"/>
-             </lu>
-             <b/>
-             <lu>
-               <lit v="a"/><lit-tag v="pr"/>
-             </lu>
-             <b/>
-             <lu>
-               <get-case-from pos="2">
-                 <lit v="àere"/>
-               </get-case-from>
-               <lit-tag v="vbhaver.inf"/>
-               <clip pos="1" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
-	</when>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="tl" part="temps"/><lit-tag v="fti"/></equal>
+                </test>
+                <out>
+                  <chunk name="c'è-fti">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                    </tags>
+                    <lu>
+                      <get-case-from pos="1">
+                      <lit v="bi"/>
+                      </get-case-from>
+                      <clip pos="1" side="tl" part="tags"/>
+                    </lu>
+                    <b pos="1"/>
+                    <lu>
+                      <get-case-from pos="2">
+                        <lit v="àere"/>
+                      </get-case-from>
+                      <lit-tag v="vbhaver.pri"/>
+                      <clip pos="2" side="tl" part="pers"/>
+                      <clip pos="2" side="tl" part="gen"/>
+                      <clip pos="2" side="tl" part="nbr"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                      <lit v="a"/><lit-tag v="pr"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                      <clip pos="2" side="tl" part="lemh"/>
+                      <lit-tag v="vbser.inf"/>
+                      <clip pos="1" side="tl" part="lemq"/>
+                    </lu>
+                  </chunk>
+                </out>
+              </when>
 
-	<when>
-	  <test>
-	    <equal>
-	      <clip pos="2" side="tl" part="temps"/>
-	      <lit-tag v="cni"/>
-	    </equal>
-	  </test>
-         <out>
-           <chunk name="b'at-cni">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-             <lu>
-               <get-case-from pos="1">
-               <lit v="bi"/>
-               </get-case-from>
-               <clip pos="1" side="tl" part="tags"/>
-             </lu>
-             <b pos="1"/>
-             <lu>
-               <get-case-from pos="2"><lit v="dare"/></get-case-from>
-               <lit-tag v="vblex.prs"/>
-               <clip pos="2" side="tl" part="pers"/>
-               <clip pos="2" side="tl" part="gen"/>
-               <clip pos="2" side="tl" part="nbr"/>
-             </lu>
-             <b/>
-             <lu>
-               <get-case-from pos="2">
-                 <lit v="àere"/>
-               </get-case-from>
-               <lit-tag v="vbhaver.inf"/>
-               <clip pos="2" side="tl" part="lemq"/>
-             </lu>
-           </chunk>
-         </out>
-	</when>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="tl" part="temps"/><lit-tag v="cni"/></equal>
+                </test>
+                <out>
+                  <chunk name="c'è-cni">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                    </tags>
+                    <lu>
+                      <get-case-from pos="1">
+                      <lit v="bi"/>
+                      </get-case-from>
+                      <clip pos="1" side="tl" part="tags"/>
+                    </lu>
+                    <b pos="1"/>
+                    <lu>
+                      <get-case-from pos="2"><lit v="dare"/></get-case-from>
+                      <lit-tag v="vblex.prs"/>
+                      <clip pos="2" side="tl" part="pers"/>
+                      <clip pos="2" side="tl" part="gen"/>
+                      <clip pos="2" side="tl" part="nbr"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                      <clip pos="2" side="tl" part="lemh"/>
+                      <lit-tag v="vbser.inf"/>
+                      <clip pos="2" side="tl" part="lemq"/>
+                    </lu>
+                  </chunk>
+                </out>
+              </when>
 
-	<otherwise>
-         <out>
-           <chunk name="b'at">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-               <lu>
-                 <get-case-from pos="1">
-                 <lit v="bi"/>
-                 </get-case-from>
-                 <clip pos="1" side="tl" part="tags"/>
-               </lu>
-               <b pos="1"/>
-               <lu>
-                 <get-case-from pos="2">
-                   <lit v="àere"/>
-                 </get-case-from>
-                 <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
-           </chunk>
-         </out>
-	</otherwise>
-      </choose>
+              <otherwise>
+                <out>
+                  <chunk name="c'è">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                    </tags>
+                    <lu>
+                      <get-case-from pos="1">
+                        <lit v="bi"/>
+                      </get-case-from>
+                      <clip pos="1" side="tl" part="tags"/>
+                    </lu>
+                    <b pos="1"/>
+                    <lu>
+                      <clip pos="2" side="tl" part="lemh"/>
+                      <clip pos="2" side="tl" part="tags"/>
+                      <clip pos="2" side="tl" part="lemq"/>
+                    </lu>
+                  </chunk>
+                </out>
+              </otherwise>
+            </choose>
+          </when>
+          <otherwise>
+
+             <let><clip pos="2" side="tl" part="a_verb"/><lit-tag v="vbhaver"/></let>
+             <choose>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></equal>
+                </test>
+                <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></let>
+              </when>
+             </choose>
+             <choose>
+              <when>
+                <test>
+                  <equal><clip pos="2" side="tl" part="temps"/><lit-tag v="ifi"/></equal>
+                </test>
+                <out>
+                  <chunk name="b'at-ifi">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                    </tags>
+                      <lu>
+                        <get-case-from pos="1">
+                        <lit v="bi"/>
+                        </get-case-from>
+                        <clip pos="1" side="tl" part="tags"/>
+                      </lu>
+                      <b pos="1"/>
+                      <lu>
+                        <get-case-from pos="2">
+                          <lit v="èssere"/>
+                        </get-case-from>
+                        <lit-tag v="vbser.pri"/>
+                        <clip pos="2" side="tl" part="pers"/>
+                        <clip pos="2" side="tl" part="nbr"/>
+                      </lu>
+                      <b/>
+                      <lu>
+                        <get-case-from pos="2">
+                          <lit v="àere"/>
+                        </get-case-from>
+                        <lit-tag v="vbhaver.pp.m.sg"/>
+                        <clip pos="2" side="tl" part="lemq"/>
+                      </lu>
+                  </chunk>
+                </out>
+              </when>
+
+              <when>
+                <test>
+                  <equal><clip pos="2" side="tl" part="temps"/><lit-tag v="fti"/></equal>
+                </test>
+                <out>
+                  <chunk name="b'at-fti">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                    </tags>
+                    <lu>
+                      <get-case-from pos="1">
+                      <lit v="bi"/>
+                      </get-case-from>
+                      <clip pos="1" side="tl" part="tags"/>
+                    </lu>
+                    <b pos="1"/>
+                    <lu>
+                      <get-case-from pos="2">
+                        <lit v="àere"/>
+                      </get-case-from>
+                      <lit-tag v="vbhaver.pri"/>
+                      <clip pos="2" side="tl" part="pers"/>
+                      <clip pos="2" side="tl" part="gen"/>
+                      <clip pos="2" side="tl" part="nbr"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                      <lit v="a"/><lit-tag v="pr"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                      <get-case-from pos="2">
+                        <lit v="àere"/>
+                      </get-case-from>
+                      <lit-tag v="vbhaver.inf"/>
+                      <clip pos="1" side="tl" part="lemq"/>
+                    </lu>
+                  </chunk>
+                </out>
+              </when>
+
+              <when>
+                <test>
+                  <equal><clip pos="2" side="tl" part="temps"/><lit-tag v="cni"/></equal>
+                </test>
+                <out>
+                  <chunk name="b'at-cni">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                    </tags>
+                    <lu>
+                      <get-case-from pos="1">
+                      <lit v="bi"/>
+                      </get-case-from>
+                      <clip pos="1" side="tl" part="tags"/>
+                    </lu>
+                    <b pos="1"/>
+                    <lu>
+                      <get-case-from pos="2"><lit v="dare"/></get-case-from>
+                      <lit-tag v="vblex.prs"/>
+                      <clip pos="2" side="tl" part="pers"/>
+                      <clip pos="2" side="tl" part="gen"/>
+                      <clip pos="2" side="tl" part="nbr"/>
+                    </lu>
+                    <b/>
+                    <lu>
+                      <get-case-from pos="2">
+                        <lit v="àere"/>
+                      </get-case-from>
+                      <lit-tag v="vbhaver.inf"/>
+                      <clip pos="2" side="tl" part="lemq"/>
+                    </lu>
+                  </chunk>
+                </out>
+              </when>
+
+              <otherwise>
+                <out>
+                  <chunk name="b'at">
+                    <tags>
+                      <tag><lit-tag v="SV"/></tag>
+                    </tags>
+                    <lu>
+                      <get-case-from pos="1">
+                        <lit v="bi"/>
+                      </get-case-from>
+                      <clip pos="1" side="tl" part="tags"/>
+                    </lu>
+                    <b pos="1"/>
+                    <lu>
+                      <get-case-from pos="2">
+                        <lit v="àere"/>
+                      </get-case-from>
+                      <clip pos="2" side="tl" part="tags"/>
+                      <clip pos="2" side="tl" part="lemq"/>
+                    </lu>
+                  </chunk>
+                </out>
+              </otherwise>
+            </choose>
+          </otherwise>
+         </choose>
        </action>
     </rule>
 

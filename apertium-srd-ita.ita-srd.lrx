@@ -1245,8 +1245,10 @@
       <match lemma="tornare" tags="vblex.*"/>
       <match lemma="ritornare" tags="vblex.*"/>
       <match lemma="arrivare" tags="vblex.*"/>
-      <match lemma="andare via" tags="vblex.*"/>
+      <match lemma="andare# via" tags="vblex.*"/>
       <match lemma="fuggire" tags="vblex.*"/>
+      <match lemma="saltare" tags="vblex.*"/>
+      <match lemma="balzare" tags="vblex.*"/>
 
       <match lemma="apparire" tags="vblex.*"/>
       <match lemma="portare" tags="vblex.*"/>
@@ -2562,6 +2564,22 @@
     <match tags="det.*"/>
   </rule>
 -->
+
+<!-- **************** VBSER **************** -->
+
+  <!-- essere > èssere, àere -->
+  <rule weight="0.8">
+    <match lemma="essere" tags="vbser.*"><select lemma="èssere"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ci" tags="prn.pro.adv"/>
+    <match lemma="essere" tags="vbser.*"><select lemma="àere"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="ci" tags="prn.pro.adv"/>
+    <match lemma="essere" tags="vbser.*"><select lemma="èssere"/></match>
+    <match tags="det.def.*"/>
+  </rule>
 
 <!-- **************** VBLEX **************** -->
 
