@@ -651,10 +651,14 @@
       <match lemma="sirbone" tags="n.*"/>
       <match lemma="lupu" tags="n.*"/>
       <match lemma="mariane" tags="n.*"/>
+      <match lemma="matzone" tags="n.*"/>
+      <match lemma="margianu" tags="n.*"/>
       <match lemma="lintze" tags="n.*"/>
       <match lemma="orsu" tags="n.*"/>
-      <match lemma="bisonte" tags="n.*"/>
+      <match lemma="mugrone" tags="n.*"/>
       <match lemma="castoru" tags="n.*"/>
+      <match lemma="marmota" tags="n."/>
+      <match lemma="lontra" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="tzerpe" tags="n.*"/>
@@ -670,10 +674,16 @@
       <match lemma="leopardu" tags="n.*"/>
       <match lemma="ghepardu" tags="n.*"/>
       <match lemma="serval" tags="n.*"/>
+      <match lemma="elefante" tags="n.*"/>
+      <match lemma="mamut" tags="n.*"/>
+      <match lemma="mastodonte" tags="n.*"/>
       <match lemma="girafa" tags="n.*"/>
       <match lemma="rinotzeronte" tags="n.*"/>
       <match lemma="ipopòtamu" tags="n.*"/>
+      <match lemma="antìlope" tags="n.*"/>
       <match lemma="zebra" tags="n.*"/>
+      <match lemma="bisonte" tags="n.*"/>
+      <match lemma="gnu" tags="n.*"/>
       <match lemma="cherbu" tags="n.*"/>
       <match lemma="altze" tags="n.*"/>
       <match lemma="caribù" tags="n.*"/>
@@ -683,9 +693,10 @@
       <match lemma="gorilla" tags="n.*"/>
       <match lemma="iscimpantzè" tags="n.*"/>
       <match lemma="canguru" tags="n.*"/>
-      <match lemma="castoru" tags="n."/>
-      <match lemma="marmota" tags="n."/>
-      <match lemma="lontra" tags="n.*"/>
+      <match lemma="camellu" tags="n.*"/>
+      <match lemma="dromedaru" tags="n.*"/>
+      <match lemma="pinguinu" tags="n.*"/>
+      <match lemma="foca" tags="n.*"/>
 
       <match lemma="pugione" tags="n.*"/>
       <match lemma="pugioneddu" tags="n.*"/>

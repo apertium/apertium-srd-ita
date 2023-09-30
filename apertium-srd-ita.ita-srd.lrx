@@ -1136,8 +1136,10 @@
       <match lemma="volpe" tags="n.*"/>
       <match lemma="lince" tags="n.*"/>
       <match lemma="orso" tags="n.*"/>
-      <match lemma="bisonto" tags="n.*"/>
+      <match lemma="muflone" tags="n.*"/>
       <match lemma="castoro" tags="n.*"/>
+      <match lemma="marmotta" tags="n.*"/>
+      <match lemma="lontra" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="serpe" tags="n.*"/>
@@ -1156,11 +1158,17 @@
       <match lemma="ocelot" tags="n.*"/>
       <match lemma="ocelotto" tags="n.*"/>
       <match lemma="serval" tags="n.*"/>
+      <match lemma="elefante" tags="n.*"/>
+      <match lemma="mamut" tags="n.*"/>
+      <match lemma="mastodonte" tags="n.*"/>
       <match lemma="giraffa" tags="n.*"/>
       <match lemma="rinoceronte" tags="n.*"/>
       <match lemma="ippopotamo" tags="n.*"/>
+      <match lemma="antilope" tags="n.*"/>
       <match lemma="gazzella" tags="n.*"/>
       <match lemma="zebra" tags="n.*"/>
+      <match lemma="bisonto" tags="n.*"/>
+      <match lemma="gnu" tags="n.*"/>
       <match lemma="cervo" tags="n.*"/>
       <match lemma="alce" tags="n.*"/>
       <match lemma="renna" tags="n.*"/>
@@ -1170,9 +1178,11 @@
       <match lemma="gorilla" tags="n.*"/>
       <match lemma="scimpanzé" tags="n.*"/>
       <match lemma="canguro" tags="n.*"/>
-      <match lemma="castoro" tags="n."/>
-      <match lemma="marmotta" tags="n.*"/>
-      <match lemma="lontra" tags="n.*"/>
+      <match lemma="cammello" tags="n.*"/>
+      <match lemma="dromedaro" tags="n.*"/>
+      <match lemma="pinguino" tags="n.*"/>
+      <match lemma="foca" tags="n.*"/>
+      <match lemma="tricheco" tags="n.*"/>
 
       <match lemma="uccello" tags="n.*"/>
       <match lemma="uccellino" tags="n.*"/>
