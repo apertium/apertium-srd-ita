@@ -955,6 +955,24 @@
 
 <!-- **************** N **************** -->
 
+  <!-- kashmiri > kashmiro, kashmiri -->
+  <rule weight="0.8">
+    <match lemma="kashmiri" tags="n.*"><select lemma="kashmiro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.def.m.sg"/>
+    <match lemma="kashmiri" tags="n.*"><select lemma="kashmiri"/></match>
+  </rule>
+
+  <!-- kashmiru > kashmiro, kashmiri -->
+  <rule weight="0.8">
+    <match lemma="kashmiru" tags="n.*"><select lemma="kashmiro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match tags="det.def.m.sg"/>
+    <match lemma="kashmiru" tags="n.*"><select lemma="kashmiri"/></match>
+  </rule>
+
   <!-- agiudu > aiuto, ausilio -->
   <rule weight="0.8">
     <match lemma="agiudu" tags="n.*"><select lemma="aiuto"/></match>
@@ -1108,6 +1126,30 @@
   </rule>
 
 <!-- **************** ADJ **************** -->
+
+  <!-- kashmiri > kashmiro, kashmiri -->
+  <rule weight="0.8">
+    <match lemma="kashmiri" tags="adj.*"><select lemma="kashmiro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="limba" tags="n.*"/>
+      <match lemma="literadura" tags="n.*"/>
+    </or>
+    <match lemma="kashmiri" tags="adj.*"><select lemma="kashmiri"/></match>
+  </rule>
+
+  <!-- kashmiru > kashmiro, kashmiri -->
+  <rule weight="0.8">
+    <match lemma="kashmiru" tags="adj.*"><select lemma="kashmiro"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="limba" tags="n.*"/>
+      <match lemma="literadura" tags="n.*"/>
+    </or>
+    <match lemma="kashmiru" tags="adj.*"><select lemma="kashmiri"/></match>
+  </rule>
 
   <!-- bonu > buono, bravo -->
   <rule weight="0.6">

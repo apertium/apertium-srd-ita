@@ -4432,8 +4432,19 @@
       <match lemma="regno" tags="n.*"/>
       <match lemma="giudice" tags="n.*"/>
       <match lemma="re" tags="n.*"/>
+      <match lemma="regnante" tags="n.*"/>
     </or>
     <match lemma="di" tags="pr"/>
+    <match lemma="Arborea" tags="np.top.*"><select lemma="Arbaree"/></match>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="regnare" tags="vblex.*"/>
+    </or>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="in" tags="pr"/>
     <match lemma="Arborea" tags="np.top.*"><select lemma="Arbaree"/></match>
   </rule>
   <rule weight="1.0">
