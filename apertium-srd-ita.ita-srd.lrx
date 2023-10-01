@@ -2045,7 +2045,7 @@
     </or>
   </rule>
 
-  <!-- di > de, dae, remove -->
+  <!-- di > de, dae, in, remove -->
   <rule weight="0.8">
     <match lemma="di" tags="pr"><select lemma="de"/></match>
   </rule>
@@ -2061,6 +2061,13 @@
     <match lemma="di" tags="pr"><select lemma="dae"/></match>
   </rule>
 -->
+  <rule weight="1.0">
+    <match lemma="constare" tags="vblex.*"/>
+    <repeat from="0" upto="1">
+      <match tags="adv"/>
+    </repeat>
+    <match lemma="di" tags="pr"><select lemma="in"/></match>
+  </rule>
   <rule weight="1.0">
     <match lemma="di" tags="pr"><select lemma="dae"/></match>
     <or>
