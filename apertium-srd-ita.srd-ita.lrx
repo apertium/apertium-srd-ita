@@ -645,7 +645,6 @@
       <match lemma="porcheddu" tags="n.*"/>
       <match lemma="ratu" tags="n.*"/>
       <match lemma="sòrighe" tags="n.*"/>
-      <match lemma="sòrighe" tags="n.*"/>
       <match lemma="sorighitu" tags="n.*"/>
 
       <match lemma="sirbone" tags="n.*"/>
@@ -657,6 +656,7 @@
       <match lemma="orsu" tags="n.*"/>
       <match lemma="mugrone" tags="n.*"/>
       <match lemma="castoru" tags="n.*"/>
+      <match lemma="nùtria" tags="n.*"/>
       <match lemma="marmota" tags="n."/>
       <match lemma="lontra" tags="n.*"/>
 
@@ -692,6 +692,7 @@
       <match lemma="martinica" tags="n.*"/>
       <match lemma="gorilla" tags="n.*"/>
       <match lemma="iscimpantzè" tags="n.*"/>
+      <match lemma="orango" tags="n.*"/>
       <match lemma="canguru" tags="n.*"/>
       <match lemma="camellu" tags="n.*"/>
       <match lemma="dromedaru" tags="n.*"/>

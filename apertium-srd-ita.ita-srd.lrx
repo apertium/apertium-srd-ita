@@ -1138,6 +1138,7 @@
       <match lemma="orso" tags="n.*"/>
       <match lemma="muflone" tags="n.*"/>
       <match lemma="castoro" tags="n.*"/>
+      <match lemma="nutria" tags="n.*"/>
       <match lemma="marmotta" tags="n.*"/>
       <match lemma="lontra" tags="n.*"/>
 
@@ -1177,6 +1178,7 @@
       <match lemma="scimmia" tags="n.*"/>
       <match lemma="gorilla" tags="n.*"/>
       <match lemma="scimpanzé" tags="n.*"/>
+      <match lemma="orango" tags="n.*"/>
       <match lemma="canguro" tags="n.*"/>
       <match lemma="cammello" tags="n.*"/>
       <match lemma="dromedaro" tags="n.*"/>
