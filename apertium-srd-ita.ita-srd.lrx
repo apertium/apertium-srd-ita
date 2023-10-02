@@ -4335,21 +4335,47 @@
   </rule>
 
   <!-- reale > beru, reale -->
-  <rule weight="0.5">
+  <rule weight="0.8">
     <match lemma="reale" tags="adj.*"><select lemma="beru"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="Reale" tags="adj.*"><select lemma="reale"/></match>
   </rule>
   <rule weight="1.0">
     <or>
       <match lemma="altezza" tags="n.*"/>
+      <match lemma="sovrano" tags="n.*"/>
+      <match lemma="principe" tags="n.*"/>
+      <match lemma="infante" tags="n.*"/>
       <match lemma="casa" tags="n.*"/>
+      <match lemma="casato" tags="n.*"/>
+      <match lemma="palazzo" tags="n.*"/>
       <match lemma="villa" tags="n.*"/>
       <match lemma="corona" tags="n.*"/>
       <match lemma="famiglia" tags="n.*"/>
       <match lemma="accademia" tags="n.*"/>
+      <match lemma="conservatorio" tags="n.*"/>
       <match lemma="monastero" tags="n.*"/>
+      <match lemma="capella" tags="n.*"/>
       <match lemma="via" tags="n.*"/>
       <match lemma="carrozza" tags="n.*"/>
+      <match lemma="matrimonio" tags="n.*"/>
+      <match lemma="aquila" tags="n.*"/>
+      <match lemma="corona" tags="n.*"/>
+      <match lemma="scettro" tags="n.*"/>
+      <match lemma="effigie" tags="n.*"/>
+      <match lemma="emblema" tags="n.*"/>
+      <match lemma="ordine" tags="n.*"/>
+      <match lemma="decreto" tags="n.*"/>
+      <match lemma="licenza" tags="n.*"/>
+      <match lemma="tesoro" tags="n.*"/>
+      <match lemma="sangue" tags="n.*"/>
     </or>
+    <match lemma="reale" tags="adj.*"><select lemma="reale"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="ordine" tags="n.*"/>
+    <match lemma="famigliare" tags="adj.*"/>
     <match lemma="reale" tags="adj.*"><select lemma="reale"/></match>
   </rule>
   <rule weight="1.0">
@@ -4357,6 +4383,7 @@
     <or>
       <match lemma="accademia" tags="n.*"/>
       <match lemma="monastero" tags="n.*"/>
+      <match lemma="capella" tags="n.*"/>
     </or>
   </rule>
 
