@@ -628,6 +628,7 @@
       <match lemma="angione" tags="n.*"/>
       <match lemma="berbeghe" tags="n.*"/>
       <match lemma="cabra" tags="n.*"/>
+      <match lemma="crapita" tags="n.*"/>
       <match lemma="puddu" tags="n.*"/>
       <match lemma="pudda" tags="n.*"/>
       <match lemma="anade" tags="n.*"/>
@@ -654,6 +655,7 @@
       <match lemma="margianu" tags="n.*"/>
       <match lemma="lintze" tags="n.*"/>
       <match lemma="orsu" tags="n.*"/>
+      <match lemma="camussa" tags="n.*"/>
       <match lemma="mugrone" tags="n.*"/>
       <match lemma="castoru" tags="n.*"/>
       <match lemma="nùtria" tags="n.*"/>
@@ -705,6 +707,7 @@
       <match lemma="furfuràrgiu" tags="n.*"/>
       <match lemma="papagallu" tags="n.*"/>
       <match lemma="àbbila" tags="n.*"/>
+      <match lemma="grughe" tags="n.*"/>
 
       <match lemma="pische" tags="n.*"/>
       <match lemma="balena" tags="n.*"/>
@@ -955,6 +958,11 @@
   </rule>
 
 <!-- **************** N **************** -->
+
+  <!-- grughe > croce, gru -->
+  <rule weight="0.8">
+    <match lemma="grughe" tags="n.*"><select lemma="croce"/></match>
+  </rule>
 
   <!-- kashmiri > kashmiro, kashmiri -->
   <rule weight="0.8">

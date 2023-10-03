@@ -1103,6 +1103,7 @@
       <match lemma="vitello" tags="n.*"/>
       <match lemma="agnello" tags="n.*"/>
       <match lemma="capra" tags="n.*"/>
+      <match lemma="capretta" tags="n.*"/>
       <match lemma="pecora" tags="n.*"/>
       <match lemma="gallo" tags="n.m.*"/>
       <match lemma="gallina" tags="n.*"/>
@@ -1136,6 +1137,7 @@
       <match lemma="volpe" tags="n.*"/>
       <match lemma="lince" tags="n.*"/>
       <match lemma="orso" tags="n.*"/>
+      <match lemma="camoscio" tags="n.*"/>
       <match lemma="muflone" tags="n.*"/>
       <match lemma="castoro" tags="n.*"/>
       <match lemma="nutria" tags="n.*"/>
@@ -1190,11 +1192,14 @@
       <match lemma="uccellino" tags="n.*"/>
       <match lemma="piccione" tags="n.*"/>
       <match lemma="passero" tags="n.*"/>
+      <match lemma="gazza" tags="n.*"/>
+      <match lemma="gazza ladra" tags="n.*"/>
       <match lemma="pappagallo" tags="n.*"/>
       <match lemma="parrocchetto" tags="n.*"/>
       <match lemma="aquila" tags="n.*"/>
       <match lemma="pellicano" tags="n.*"/>
       <match lemma="fenicottero" tags="n.*"/>
+      <match lemma="gru" tags="n.*"/>
 
       <match lemma="pesce" tags="n.*"/>
       <match lemma="balena" tags="n.*"/>
@@ -4365,6 +4370,7 @@
       <match lemma="scettro" tags="n.*"/>
       <match lemma="effigie" tags="n.*"/>
       <match lemma="emblema" tags="n.*"/>
+      <match lemma="sigillo" tags="n.*"/>
       <match lemma="ordine" tags="n.*"/>
       <match lemma="decreto" tags="n.*"/>
       <match lemma="licenza" tags="n.*"/>
