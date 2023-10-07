@@ -1055,6 +1055,17 @@
     <match lemma="unu" tags="det.*"/>
     <match lemma="bia" tags="n.*"><select lemma="volta"/></match>
   </rule>
+  <rule weight="1.0">
+    <repeat from="0" upto="1">
+      <match tags="det.*"/>
+    </repeat>
+    <or>
+      <match tags="adj.ord.*"/>
+      <match lemma="ùrtimu" tags="adj.*"/>
+      <match lemma="penùrtimu" tags="adj.*"/>
+	</or>
+    <match lemma="bia" tags="n.*"><select lemma="volta"/></match>
+  </rule>
 
   <!-- die > giorno, giornata -->
   <rule weight="0.8">

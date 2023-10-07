@@ -1385,7 +1385,11 @@
     <match lemma="posto" tags="n.*"><select lemma="logu" tags="n.*"/></match>
   </rule>
   <rule weight="1.0">
-    <match tags="adj.ord.*"/>
+    <or>
+      <match tags="adj.ord.*"/>
+      <match lemma="ultimo" tags="adj.*"/>
+      <match lemma="penultimo" tags="adj.*"/>
+	</or>
     <match lemma="posto" tags="n.*"><select lemma="postu" tags="n.*"/></match>
   </rule>
   <rule weight="1.0">
@@ -1574,6 +1578,15 @@
   <!-- ogni > cada, ogni/onni -->
   <rule weight="0.8">
     <match lemma="ogni" tags="det.*"><select lemma="cada"/></match>
+  </rule>
+
+  <!-- quello > cuddu, su -->
+  <rule weight="0.8">
+    <match lemma="quello" tags="det.*"><select lemma="cuddu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="quello" tags="det.*"><select lemma="su"/></match>
+    <match tags="vblex.pp.*"/>
   </rule>
 
   <!-- qualche > carchi, calicunu -->
@@ -2896,6 +2909,11 @@
   </rule>
 
 <!-- **************** ADV **************** -->
+
+  <!-- ancora > ancora, galu -->
+  <rule weight="0.8">
+    <match lemma="ancora" tags="adv"><select lemma="ancora"/></match>
+  </rule>
 
   <!-- sì > eja, a manera -->
   <rule weight="0.8">
