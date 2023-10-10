@@ -1006,7 +1006,6 @@
       <match lemma="lana" tags="n.f.sg"/>
       <match lemma="seda" tags="n.f.sg"/>
       <match lemma="filo" tags="n.m.sg"/>
-      <match lemma="ruolo" tags="n.m.sg"/>
       <match lemma="straccio" tags="n.m.sg"/>
       <match lemma="roba" tags="n.f.sg"/>
       <match lemma="plastica" tags="n.f.sg"/>
@@ -4087,9 +4086,20 @@
      <match lemma="divisione" tags="n.*"><select lemma="partzidura"/></match>
   </rule>
   <rule weight="1.0">
+     <match lemma="divisione" tags="n.*"><select lemma="divisione"/></match>
+    <match lemma="di" tags="pr"/>
+    <match lemma="reserva" tags="n.*"/>
+  </rule>
+  <rule weight="1.0">
     <or>
       <match lemma="generale" tags="n.*"/>
       <match lemma="ammiraglio" tags="n.*"/>
+      <match lemma="colonello" tags="n.*"/>
+      <match lemma="capitano" tags="n.*"/>
+      <match lemma="tenente" tags="n.*"/>
+      <match lemma="caporale" tags="n.*"/>
+      <match lemma="soldato" tags="n.*"/>
+      <match lemma="recluta" tags="n.*"/>
       <match lemma="esercito" tags="n.*"/>
       <match lemma="battaglia" tags="n.*"/>
       <match lemma="guerra" tags="n.*"/>
@@ -4126,6 +4136,12 @@
     <or>
       <match lemma="generale" tags="n.*"/>
       <match lemma="ammiraglio" tags="n.*"/>
+      <match lemma="colonello" tags="n.*"/>
+      <match lemma="capitano" tags="n.*"/>
+      <match lemma="tenente" tags="n.*"/>
+      <match lemma="caporale" tags="n.*"/>
+      <match lemma="soldato" tags="n.*"/>
+      <match lemma="recluta" tags="n.*"/>
       <match lemma="esercito" tags="n.*"/>
       <match lemma="battaglia" tags="n.*"/>
       <match lemma="guerra" tags="n.*"/>
