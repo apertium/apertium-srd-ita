@@ -1,284 +1,284 @@
-[-GVChdWA1XPE#0] ^adv<adv>{^no<adv>$}$ ^inf_enc<SV>{^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[-GVChdWA1XPE#0] ^no<SAdv>{^no<adv>$}$ ^pro_inf<SV>{^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/-GVChdWA1XPE]
-[-zgy_SnOdQFi#0] ^inf_enc<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[-zgy_SnOdQFi#0] ^pro_inf<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/-zgy_SnOdQFi]
-[0LhpC0djmXDf#0] ^v<SV>{^istare<vblex><pri><p2><sg>$}$ ^adj<SA>{^calmu<adj><m><sg>$}$
+[0LhpC0djmXDf#0] ^istare<SV><vblex><pri>{^istare<vblex><pri><p2><sg>$}$ ^adj<SA><m><sg><sl_m><sl_sg>{^calmu<adj><2><3>$}$
 [/0LhpC0djmXDf]
-[1OAeZ8jrH26x#0] ^pr<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><f><pl>$}$ ^det-nom<SN>{^unu<det><ind><m><sg>$ ^libru<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[1OAeZ8jrH26x#0] ^De<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><f><pl>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^unu<det><ind><m><sg>$ ^libru<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/1OAeZ8jrH26x]
-[1SGOqWs1dWx-#0] ^det-nom<SN>{^Su<det><def><f><sg>$ ^fìgiu<n><f><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^adv<adv>{^no<adv>$}$ ^adv<adv>{^prus pagu<adv>$}$ ^adj<SA>{^bellu<adj><f><sg>$}$ ^pr<pr>{^de<pr>$}$ ^det-nom<SN>{^su<det><def><f><sg>$ ^mama<n><f><sg>$}$^sent<sent>{^.<sent>$}$
+[1SGOqWs1dWx-#0] ^det-nom<SN><f><sg><sl_f><sl_sg>{^Su<det><def><f><sg>$ ^fìgiu<n><f><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^adj<SA><f><sg><sl_f><sl_sg>{^prus pagu<adv>$ ^bellu<adj><2><3>$}$ ^de<pr>{^de<pr>$}$ ^det-nom<SN><f><sg><sl_f><sl_sg>{^su<det><def><f><sg>$ ^mama<n><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/1SGOqWs1dWx-]
-[1hBKe4Kve8Yw#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[1hBKe4Kve8Yw#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/1hBKe4Kve8Yw]
-[2MAv62lvn6qo#0] ^inf_enc<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[2MAv62lvn6qo#0] ^pro_inf<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/2MAv62lvn6qo]
-[2St6CrdFudVW#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
+[2St6CrdFudVW#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/2St6CrdFudVW]
-[2_9IX23H7EZk#0] ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^oto<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[2_9IX23H7EZk#0] ^det-nom-unu<SN><mf><sp><sl_m><sl_sg>{^su<det><def><m><sg>$ ^oto<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/2_9IX23H7EZk]
-[2elBY1Fju_kw#0] ^v<SV>{^Èssere<vbser><pri><p3><sg>$}$ ^più-adj/adv-inf-chi<SAdj>{^prus<adv>$ ^fàtzile<adj><mf><sg>$ ^promìtere<vblex><inf>$ ^chi<cnjsub>$}$ ^v<SV>{^mantènnere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[2elBY1Fju_kw#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^prus<SAdv>{^prus<adv>$}$ ^adj<SA><mf><sg><sl_mf><sl_sg>{^fàtzile<adj><2><3>$}$ ^pr<pr>{^a<pr>$}$ ^promìtere<SV><vblex><inf>{^promìtere<vblex><inf>$}$ ^cnjsub<cnjsub>{^chi<cnjsub>$}$ ^mantènnere<SV><vblex><inf>{^mantènnere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/2elBY1Fju_kw]
-[2x1U5lphFvhT#0] ^prn<SN>{^Lu<prn><pro><p3><f><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[2x1U5lphFvhT#0] ^prn<SN>{^Lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/2x1U5lphFvhT]
-[30EXvk5wrXYm#0] ^adv<adv>{^no<adv>$}$ ^inf_enc<SV>{^li<prn><pro><p3><mf><sg>$ ^dòlere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[30EXvk5wrXYm#0] ^no<SAdv>{^no<adv>$}$ ^pro_inf<SV>{^li<prn><pro><p3><mf><sg>$ ^dòlere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/30EXvk5wrXYm]
-[3Aug5xvC_tOs#0] ^unknown<unknown>{^*Gliele$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[3Aug5xvC_tOs#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/3Aug5xvC_tOs]
-[3DwCPlvc2JzH#0] ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^nou<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[3DwCPlvc2JzH#0] ^det-nom-unu<SN><mf><sp><sl_m><sl_sg>{^su<det><def><m><sg>$ ^nou<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/3DwCPlvc2JzH]
-[3M2GsF19PC32#0] ^v<SV>{^Dare<vblex><pri><p1><pl>$}$^sent<sent>{^.<sent>$}$
+[3M2GsF19PC32#0] ^Dare<SV><vblex><pri>{^Dare<vblex><pri><p1><pl>$}$^sent<sent>{^.<sent>$}$
 [/3M2GsF19PC32]
-[3aIhp0y-ZcsI#0] ^inf_enc<SV>{^Lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[3aIhp0y-ZcsI#0] ^pro_inf<SV>{^Lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/3aIhp0y-ZcsI]
-[3ltVUGRHzH55#0] ^inf_enc<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[3ltVUGRHzH55#0] ^pro_inf<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/3ltVUGRHzH55]
-[3nTCsguLFKuq#0] ^verb_enc<SV>{^Dare<vblex><ger>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
+[3nTCsguLFKuq#0] ^verb_enc<SV>{^Dare<vblex><ger>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/3nTCsguLFKuq]
-[43VsOm39YdL9#0] ^pr<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$^sent<sent>{^.<sent>$}$
+[43VsOm39YdL9#0] ^De<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/43VsOm39YdL9]
-[47AVNkjuVZJ3#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^istare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^istare<vblex><pp><4><5>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$ ^adjord<SN>{^de tres<adj><ord><mf><sp>$}$ ^a<pr>{^a<pr>$}$ ^arribbare<SV><vblex><inf>{^arribbare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[47AVNkjuVZJ3#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^istare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^istare<vblex><pp><4><5>$}$ ^det_adjord<SAdj>{^su<det><def><m><sg>$ ^de tres<adj><ord><mf><sp>$}$ ^a<pr>{^a<pr>$}$ ^arribbare<SV><vblex><inf>{^arribbare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/47AVNkjuVZJ3]
-[4C2s3-RTTaes#0] ^inf_enc<SV>{^Bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[4C2s3-RTTaes#0] ^pro_inf<SV>{^Li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/4C2s3-RTTaes]
-[4K1tQVI-rtjq#0] ^v<SV>{^Èssere<vbser><pri><p1><sg>$}$ ^adj<SA>{^abarrare<vblex><pp><m><sg>$}$ ^adv<adv>{^inoghe<adv>$}$ ^totu_su_n<SN>{^totu<predet><mf><sp>$ ^su<det><def><m><sg>$ ^tempus<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[4K1tQVI-rtjq#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p1><sg>$}$ ^abarrare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^abarrare<vblex><pp><4><5>$}$ ^inoghe<SAdv>{^inoghe<adv>$}$ ^totu_su_n<SN>{^totu<predet><mf><sp>$ ^su<det><def><m><sg>$ ^tempus<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/4K1tQVI-rtjq]
-[4W3UHCl-Eu2L#0] ^adv<adv>{^no<adv>$}$ ^v<SV>{^fàghere<vblex><inf>$}$ ^adv<adv>{^a malu<adv>$}$^sent<sent>{^.<sent>$}$
+[4W3UHCl-Eu2L#0] ^no<SAdv>{^no<adv>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$ ^a malu<SAdv>{^a malu<adv>$}$^sent<sent>{^.<sent>$}$
 [/4W3UHCl-Eu2L]
-[4k5FvTfezR-p#0] ^v<SV>{^Èssere<vbser><pri><p3><sg>$}$ ^adj_n<SN>{^arribbare<vblex><pp><m><sg>$ ^tres<n><mf><sp>$}$ ^in-nom<SAdv>{^a<pr>$ ^gara<n><f><sg>$}$^sent<sent>{^.<sent>$}$
+[4k5FvTfezR-p#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^adj_n<SN><mf><sp><sl_m><sl_sg>{^arribbare<vblex><pp><m><sg>$ ^tres<n><mf><sp>$}$ ^in-nom<SAdv>{^a<pr>$ ^gara<n><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/4k5FvTfezR-p]
-[5I1yz05mxw9g#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^èssere<vbser><pri><p1><sg>$}$ ^adj<SA>{^mandigare<vblex><pp><f><sg>$}$ ^prn<SN>{^totu<prn><tn><mf><sg>$}$^sent<sent>{^.<sent>$}$
+[5I1yz05mxw9g#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p1><sg>$}$ ^mandigare<SV><vblex><pp><f><sg><sl_f><sl_sg>{^mandigare<vblex><pp><4><5>$}$ ^prn<SN>{^totu<prn><tn><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/5I1yz05mxw9g]
 [5LqN4ap3vX8r#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/5LqN4ap3vX8r]
-[5adQRK3PHXM1#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[5adQRK3PHXM1#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/5adQRK3PHXM1]
 [5edJyjsRkeuK#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/5edJyjsRkeuK]
-[5lPX5-Zd55fX#0] ^inf_enc<SV>{^Bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[5lPX5-Zd55fX#0] ^pro_inf<SV>{^Li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/5lPX5-Zd55fX]
-[64-9814HdDkt#0] ^prn<SN>{^Bi<prn><pro><adv>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[64-9814HdDkt#0] ^prn<SN>{^Bi<prn><pro><adv>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/64-9814HdDkt]
-[64-URnCETYs8#0] ^verb_enc<SV>{^Dare<vblex><ger>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
+[64-URnCETYs8#0] ^verb_enc<SV>{^Dare<vblex><ger>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/64-URnCETYs8]
-[65edK_UW_srP#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[65edK_UW_srP#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/65edK_UW_srP]
-[6P_IaQdXog-B#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><m><sg>$}$
+[6P_IaQdXog-B#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><m><sg>$}$
 [/6P_IaQdXog-B]
-[6QPpU6M220cr#0] ^adjsup<SA>{^Cuntentu<adj><m><sg>$ ^meda<adv>$}$^sent<sent>{^.<sent>$}$
+[6QPpU6M220cr#0] ^adjsup<SA><m><sg><sl_m><sl_sg>{^Cuntentu<adj><2><3>$ ^meda<adv>$}$^sent<sent>{^.<sent>$}$
 [/6QPpU6M220cr]
-[85Fu_wtrbTa_#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+bi<prn><enc><p3><mf><sp>+nde<prn><enc><adv>$}$ ^num<SNum>{^unu<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[85Fu_wtrbTa_#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+li<prn><enc><p3><mf><sg>+nde<prn><enc><adv>$}$ ^num<SNum>{^unu<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/85Fu_wtrbTa_]
-[8JK5qmuIOXXq#0] ^prn<SN>{^Nche<prn><pro><adv>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[8JK5qmuIOXXq#0] ^prn<SN>{^Nche<prn><pro><adv>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/8JK5qmuIOXXq]
-[8ZcwXkDWDenv#0] ^inf_enc<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[8ZcwXkDWDenv#0] ^pro_inf<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/8ZcwXkDWDenv]
 [8gYxYEPBu3tv#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/8gYxYEPBu3tv]
-[9-q98ESUdckn#0] ^inf_enc<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[9-q98ESUdckn#0] ^pro_inf<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/9-q98ESUdckn]
 [9EytUhSLEV1J#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/9EytUhSLEV1J]
-[9jkfpdHA78cM#0] ^inf_enc<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[9jkfpdHA78cM#0] ^pro_inf<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/9jkfpdHA78cM]
-[9oN2mFTpBVZM#0] ^adjord<SN>{^segundu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
+[9oN2mFTpBVZM#0] ^adjord<SAdj>{^segundu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/9oN2mFTpBVZM]
-[A-LGalboyEF1#0] ^v<SV>{^Èssere<vbser><pri><p3><sg>$}$ ^adj<SA>{^arribbare<vblex><pp><m><sg>$}$ ^adjord<SN>{^segundu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
+[A-LGalboyEF1#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^arribbare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^arribbare<vblex><pp><4><5>$}$ ^adjord<SAdj>{^segundu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/A-LGalboyEF1]
-[A6SZ2PFwlvXD#0] ^pr<pr>{^In<pr>$}$ ^d<Sdet>{^su<det><def><f><sg>$}$ ^n_adjpos<SN>{^terra<n><f><sg>$ ^meu<adj><pos><f><sg>$}$^sent<sent>{^.<sent>$}$
+[A6SZ2PFwlvXD#0] ^In<pr>{^In<pr>$}$ ^det_n_adj_adjpos<SN>{^su<det><def><f><sg>$ ^terra<n><f><sg>$ ^meu<adj><pos><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/A6SZ2PFwlvXD]
-[AFm70fitSwWy#0] ^non_imper_enc_enc<SV>{^no<adv>$ ^bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><prs><p2><pl>$}$^sent<sent>{^.<sent>$}$
+[AFm70fitSwWy#0] ^non_imper_enc_enc<SV>{^no<adv>$ ^li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><prs><p2><pl>$}$^sent<sent>{^.<sent>$}$
 [/AFm70fitSwWy]
-[AIhngX11bAEq#0] ^adjord<SN>{^primu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
+[AIhngX11bAEq#0] ^adjord<SAdj>{^primu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/AIhngX11bAEq]
 [ALuqGbO-EI3H#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/ALuqGbO-EI3H]
-[ASsi4V-QcApA#0] ^unknown<unknown>{^*Gliele$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[ASsi4V-QcApA#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/ASsi4V-QcApA]
 [AhraE654JWSA#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/AhraE654JWSA]
-[Aiju-NpRgWse#0] ^adv<adv>{^no<adv>$}$ ^v<SV>{^fàghere<vblex><inf>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[Aiju-NpRgWse#0] ^no<SAdv>{^no<adv>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/Aiju-NpRgWse]
 [AmRVGIvxCDR-#0] ^verb_enc<SV>{^Dare<vblex><ger>+bos<prn><enc><p2><mf><pl>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/AmRVGIvxCDR-]
-[Ao0kiJZQf3DX#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[Ao0kiJZQf3DX#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/Ao0kiJZQf3DX]
 [AzWvSvhgJXUD#0] ^verb_enc<SV>{^Dare<vblex><ger>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/AzWvSvhgJXUD]
-[B2MwQHytq1i8#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^adv<adv>{^no<adv>$}$ ^v<SV>{^andare<vblex><pri><p3><sg>$}$ ^adj<SA>{^pònnere<vblex><pp><m><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[B2MwQHytq1i8#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^andare<SV><vblex><pri>{^andare<vblex><pri><p3><sg>$}$ ^pònnere<SV><vblex><pp><m><sg><sl_m><sl_sg>{^pònnere<vblex><pp><4><5>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/B2MwQHytq1i8]
-[B3UmUZAWXeF-#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^adv<adv>{^no<adv>$}$ ^v<SV>{^chèrrere<vblex><pri><p3><sg>$}$ ^rel<rel>{^chi<rel><an><mf><sp>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^fàghere<vblex><prs><p3><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[B3UmUZAWXeF-#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^chèrrere<SV><vblex><pri>{^chèrrere<vblex><pri><p3><sg>$}$ ^cnjsub<cnjsub>{^chi<cnjsub>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^fàghere<SV><vblex><prs>{^fàghere<vblex><prs><p3><sg>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/B3UmUZAWXeF-]
-[B7-cbvrCfdTd#0] ^d<Sdet>{^Su<det><def><f><sg>$}$ ^adv<adv>{^prus<adv>$}$ ^adj<SA>{^ricu<adj><f><sg>$}$ ^pr<pr>{^de<pr>$}$ ^det-nom<SN>{^su<det><def><m><sg>$ ^mundu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[B7-cbvrCfdTd#0] ^d<Sdet>{^Su<det><def><f><sg>$}$ ^adj<SA><f><sg><sl_f><sl_sg>{^prus<adv>$ ^ricu<adj><2><3>$}$ ^de<pr>{^de<pr>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^su<det><def><m><sg>$ ^mundu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/B7-cbvrCfdTd]
-[BUc65aAvPEsS#0] ^unknown<unknown>{^*Vistola$}$^sent<sent>{^.<sent>$}$
+[BUc65aAvPEsS#0] ^np<SN><f><sg><sl_f><sl_sg>{^Vìstola<np><hyd><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/BUc65aAvPEsS]
-[Bi1dA4xEITjw#0] ^inf_enc<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[Bi1dA4xEITjw#0] ^pro_inf<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/Bi1dA4xEITjw]
 [BrXU9Lf7K1o8#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+nos<prn><enc><p1><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/BrXU9Lf7K1o8]
-[C5lh-vBl4N00#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
+[C5lh-vBl4N00#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/C5lh-vBl4N00]
 [CGMFNLJza-aH#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+li<prn><enc><p3><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/CGMFNLJza-aH]
-[CS5f2CiBiIqG#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^pònnere<vblex><inf>$}$ ^pr<pr>{^in<pr>$}$ ^det-nom<SN>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[CS5f2CiBiIqG#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^chèrrere_pp<SV><vblex><pri>{^chèrrere<vblex><pri><p3><sg>$ ^pònnere<vblex><pp><m><sg>$}$ ^in<pr>{^in<pr>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/CS5f2CiBiIqG]
-[Ccm0krQLmsUg#0] ^inf_enc<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[Ccm0krQLmsUg#0] ^pro_inf<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/Ccm0krQLmsUg]
-[CltPfCROyg3K#0] ^inf_enc<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[CltPfCROyg3K#0] ^pro_inf<SV>{^Bos<prn><pro><p2><mf><pl>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/CltPfCROyg3K]
-[CydiQVClmEMa#0] ^d<Sdet>{^Su<det><def><m><pl>$}$ ^n_adjpos<SN>{^amigu<n><m><pl>$ ^issoro<adj><pos><mf><sp>$}$^sent<sent>{^.<sent>$}$
+[CydiQVClmEMa#0] ^det_n_adj_adjpos<SN>{^Su<det><def><m><pl>$ ^amigu<n><m><pl>$ ^issoro<adj><pos><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/CydiQVClmEMa]
 [D_F5AigPngyM#0] ^verb_enc<SV>{^Dare<vblex><ger>+ti<prn><enc><p2><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/D_F5AigPngyM]
-[Dfv63RuEPgti#0] ^unknown<unknown>{^*Glieli$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[Dfv63RuEPgti#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/Dfv63RuEPgti]
-[DrRn_rGWwhRv#0] ^det-nom<SN>{^Cuddu<det><dem><m><sg>$ ^film<n><m><sp>$}$ ^v<SV>{^èssere<vbser><pii><p3><sg>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^bìdere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[DrRn_rGWwhRv#0] ^det-nom<SN><m><sp><sl_m><sl_sp>{^Cuddu<det><dem><m><sg>$ ^film<n><m><sp>$}$ ^chèrrere_pp<SV><vblex><pii>{^chèrrere<vblex><pii><p3><sg>$ ^bìdere<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/DrRn_rGWwhRv]
-[EBJFnMtogwwF#0] ^inf_enc<SV>{^Lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[EBJFnMtogwwF#0] ^pro_inf<SV>{^Lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/EBJFnMtogwwF]
 [Ep9zOsZvQdvV#0] ^verb_enc<SV>{^Dare<vblex><ger>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/Ep9zOsZvQdvV]
-[EtFFq9Z_ryYb#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[EtFFq9Z_ryYb#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/EtFFq9Z_ryYb]
-[EyPEbVcL55xo#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[EyPEbVcL55xo#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/EyPEbVcL55xo]
-[FJKj2Pd9XnGs#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^v<SV>{^chèrrere<vblex><pii><p3><sg>$}$ ^rel<rel>{^chi<rel><an><mf><sp>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^fàghere<vblex><pis><p3><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[FJKj2Pd9XnGs#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^chèrrere<SV><vblex><pii>{^chèrrere<vblex><pii><p3><sg>$}$ ^cnjsub<cnjsub>{^chi<cnjsub>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^fàghere<SV><vblex><pis>{^fàghere<vblex><pis><p3><sg>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/FJKj2Pd9XnGs]
 [GCsmx1_27RL7#0] ^verb_enc<SV>{^Dare<vblex><ger>+bos<prn><enc><p2><mf><pl>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/GCsmx1_27RL7]
-[GVrWOOmW8ikA#0] ^adjord_n<SN>{^Su<det><def><f><sg>$ ^de tres<adj><ord><mf><sp>$ ^domo<n><f><pl>$}$^sent<sent>{^.<sent>$}$
+[GVrWOOmW8ikA#0] ^det_adjord_n<SN>{^Su<det><def><f><sg>$ ^de tres<adj><ord><mf><sp>$ ^domo<n><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/GVrWOOmW8ikA]
 [HOcKQJ2Jrjz6#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/HOcKQJ2Jrjz6]
 [Hdz1a2xrysGn#0] ^verb_enc<SV>{^Giùghere<vblex><imp><p2><sg>+nos<prn><enc><p1><mf><pl>+nde<prn><enc><adv>$}$ ^num<SNum>{^unu<num><f><sp>$}$^sent<sent>{^.<sent>$}$
 [/Hdz1a2xrysGn]
-[HrHSkruKeciq#0] ^v<SV>{^Dare<vblex><ger>$}$^sent<sent>{^.<sent>$}$
+[HrHSkruKeciq#0] ^Dare<SV><vblex><ger>{^Dare<vblex><ger>$}$^sent<sent>{^.<sent>$}$
 [/HrHSkruKeciq]
-[Idg2tjdgemQH#0] ^prn<SN>{^Lu<prn><pro><p3><m><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[Idg2tjdgemQH#0] ^prn<SN>{^Lu<prn><pro><p3><m><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/Idg2tjdgemQH]
 [Im0VMa03Wwny#0] ^verb_enc<SV>{^Dare<vblex><ger>+si<prn><enc><ref><p3><mf><sp>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/Im0VMa03Wwny]
-[IzpwrJH74Uzo#0] ^predet-det-nom<SN>{^Totu<predet><mf><sp>$ ^su<det><def><m><pl>$ ^àrbore<n><mf><pl>$}$^sent<sent>{^.<sent>$}$
+[IzpwrJH74Uzo#0] ^predet-det-nom<SN><mf><pl><sl_m><sl_pl>{^Totu<predet><mf><sp>$ ^su<det><def><m><pl>$ ^àrbore<n><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/IzpwrJH74Uzo]
-[J1OII4ZdhxYs#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^àere_a_inf<SV>{^àere<vbhaver><pri><p3><sg>$ ^a<pr>$ ^chèrrere<vblex><inf>$}$ ^rel<rel>{^chi<rel><an><mf><sp>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^fàghere<vblex><prs><p3><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[J1OII4ZdhxYs#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^àere_a_inf<SV>{^àere<vbhaver><pri><p3><sg>$ ^a<pr>$ ^chèrrere<vblex><inf>$}$ ^cnjsub<cnjsub>{^chi<cnjsub>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^fàghere<SV><vblex><prs>{^fàghere<vblex><prs><p3><sg>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/J1OII4ZdhxYs]
 [JADkUF3EDr8T#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/JADkUF3EDr8T]
-[JGpjT1OpEiC5#0] ^inf_enc<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[JGpjT1OpEiC5#0] ^pro_inf<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/JGpjT1OpEiC5]
 [JUHxEzjT2Nv7#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/JUHxEzjT2Nv7]
 [Ja_V6fnjKqlV#0] ^verb_enc<SV>{^Dare<vblex><ger>+si<prn><enc><ref><p3><mf><sp>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/Ja_V6fnjKqlV]
-[JarSXVD7Y7NY#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[JarSXVD7Y7NY#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/JarSXVD7Y7NY]
-[JfDuSBjz8PfN#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^adv<adv>{^no<adv>$}$ ^v<SV>{^andare<vblex><pii><p3><sg>$}$ ^adj<SA>{^pònnere<vblex><pp><m><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[JfDuSBjz8PfN#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^andare<SV><vblex><pii>{^andare<vblex><pii><p3><sg>$}$ ^pònnere<SV><vblex><pp><m><sg><sl_m><sl_sg>{^pònnere<vblex><pp><4><5>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/JfDuSBjz8PfN]
-[Jr_QjNDo8hGB#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
+[Jr_QjNDo8hGB#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/Jr_QjNDo8hGB]
-[K2GArJG29VuQ#0] ^d<Sdet>{^Su<det><def><m><sg>$}$ ^adv<adv>{^prus<adv>$}$ ^adj<SA>{^bellu<adj><m><sg>$}$ ^pr<pr>{^de<pr>$}$ ^prn<SN>{^totu<prn><tn><mf><pl>$}$^sent<sent>{^.<sent>$}$
+[K2GArJG29VuQ#0] ^d<Sdet>{^Su<det><def><m><sg>$}$ ^adj<SA><m><sg><sl_m><sl_sg>{^prus<adv>$ ^bellu<adj><2><3>$}$ ^de<pr>{^de<pr>$}$ ^prn<SN>{^totu<prn><tn><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/K2GArJG29VuQ]
-[K3VszBvhdXt7#0] ^prn<SN>{^Lu<prn><pro><p3><m><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[K3VszBvhdXt7#0] ^prn<SN>{^Lu<prn><pro><p3><m><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/K3VszBvhdXt7]
-[KJxemQ205sD1#0] ^adjord_n<SN>{^Su<det><def><f><sg>$ ^segundu<adj><ord><f><sg>$ ^domo<n><f><sg>$}$^sent<sent>{^.<sent>$}$
+[KJxemQ205sD1#0] ^det_adjord_n<SN>{^Su<det><def><f><sg>$ ^segundu<adj><ord><f><sg>$ ^domo<n><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/KJxemQ205sD1]
-[Ktk2pBY9A1iC#0] ^v<SV>{^Bufare<vblex><pri><p1><sg>$}$ ^pr<pr>{}$ ^det-nom<SN>{ ^abba<n><f><sg>$}$^sent<sent>{^.<sent>$}$
+[Ktk2pBY9A1iC#0] ^Bufare<SV><vblex><pri>{^Bufare<vblex><pri><p1><sg>$}$ ^<pr>{}$ ^det-nom<SN><f><sg><sl_f><sl_sg>{ ^abba<n><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/Ktk2pBY9A1iC]
-[Kuz8IUTlITsE#0] ^prn<SN>{^Si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[Kuz8IUTlITsE#0] ^prn<SN>{^Si<prn><pro><ref><p3><mf><sp>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/Kuz8IUTlITsE]
 [LFx-_Ebp0JkC#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+nos<prn><enc><p1><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/LFx-_Ebp0JkC]
-[LNJSqYY7NF9x#0] ^inf_enc<SV>{^Mi<prn><pro><p1><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[LNJSqYY7NF9x#0] ^pro_inf<SV>{^Mi<prn><pro><p1><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/LNJSqYY7NF9x]
-[LioO3DFlJn6k#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^v<SV>{^andare<vblex><pii><p3><sg>$}$ ^adj<SA>{^pònnere<vblex><pp><m><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[LioO3DFlJn6k#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^andare<SV><vblex><pii>{^andare<vblex><pii><p3><sg>$}$ ^pònnere<SV><vblex><pp><m><sg><sl_m><sl_sg>{^pònnere<vblex><pp><4><5>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/LioO3DFlJn6k]
-[LpgQKsKX0qTG#0] ^inf_enc<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[LpgQKsKX0qTG#0] ^pro_inf<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/LpgQKsKX0qTG]
 [LqHlZnYnWHfC#0] ^verb_enc<SV>{^Dare<vblex><ger>+ti<prn><enc><p2><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/LqHlZnYnWHfC]
 [Lz6L0pra5-d7#0] ^det_adjord_n_adjpos<SN>{^Su<det><def><f><sg>$ ^de tres<adj><ord><mf><sp>$ ^domo<n><f><pl>$ ^meu<adj><pos><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/Lz6L0pra5-d7]
-[MAhRqZnudRUF#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^àere_a_inf<SV>{^àere<vbhaver><pri><p3><sg>$ ^a<pr>$ ^èssere<vbser><inf>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^pònnere<vblex><inf>$}$ ^pr<pr>{^in<pr>$}$ ^det-nom<SN>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[MAhRqZnudRUF#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^àere_a_inf<SV><vblex>{^àere<vbhaver><pri><p3><sg>$ ^a<pr>$ ^chèrrere<vblex><inf>$ ^pònnere<vblex><pp><m><sg>$}$ ^in<pr>{^in<pr>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/MAhRqZnudRUF]
 [MILHTuXOdXWV#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/MILHTuXOdXWV]
-[MKTC3t2mdRsL#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[MKTC3t2mdRsL#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/MKTC3t2mdRsL]
-[NIXV-qxQryGA#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^v<SV>{^andare<vblex><pri><p3><sg>$}$ ^adj<SA>{^pònnere<vblex><pp><m><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[NIXV-qxQryGA#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^mucadore<n><m><sg>$}$ ^andare<SV><vblex><pri>{^andare<vblex><pri><p3><sg>$}$ ^pònnere<SV><vblex><pp><m><sg><sl_m><sl_sg>{^pònnere<vblex><pp><4><5>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/NIXV-qxQryGA]
-[NXRGjkHDj7wz#0] ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^bator<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[NXRGjkHDj7wz#0] ^det-nom-unu<SN><mf><sp><sl_m><sl_sg>{^su<det><def><m><sg>$ ^bator<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/NXRGjkHDj7wz]
-[NySK_AXK-Act#0] ^det-nom<SN>{^Cuddu<det><dem><m><sg>$ ^film<n><m><sp>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^bìdere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[NySK_AXK-Act#0] ^det-nom<SN><m><sp><sl_m><sl_sp>{^Cuddu<det><dem><m><sg>$ ^film<n><m><sp>$}$ ^chèrrere_pp<SV><vblex><pri>{^chèrrere<vblex><pri><p3><sg>$ ^bìdere<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/NySK_AXK-Act]
-[OFMD_MEJh2nN#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
+[OFMD_MEJh2nN#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/OFMD_MEJh2nN]
-[Od9PS4lOYScc#0] ^inf_enc<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[Od9PS4lOYScc#0] ^pro_inf<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/Od9PS4lOYScc]
-[PFFp3N8p4q7j#0] ^default<default>{^Carlo<np><ant><m><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^adj<SA>{^mègius<adj><mf><sp>$}$^sent<sent>{^.<sent>$}$
+[PFFp3N8p4q7j#0] ^np<SN><m><sg><sl_m><sl_sg>{^Carlo<np><ant><m><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^adj<SA><mf><sp><sl_mf><sl_sg>{^mègius<adj><2><3>$}$^sent<sent>{^.<sent>$}$
 [/PFFp3N8p4q7j]
-[PROxJkjfnb0H#0] ^default<default>{^Salude<ij>$}$ ^pr<pr>{^a<pr>$}$ ^prn<SN>{^totu<prn><tn><mf><pl>$}$^sent<sent>{^.<sent>$}$
+[PROxJkjfnb0H#0] ^default<default>{^Salude<ij>$}$ ^a<pr>{^a<pr>$}$ ^prn<SN>{^totu<prn><tn><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/PROxJkjfnb0H]
 [PmslqWIWyL9s#0] ^verb_enc<SV>{^Dare<vblex><ger>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/PmslqWIWyL9s]
-[PyLZ2NhLTVFc#0] ^prn<SN>{^Ite<prn><itg><mf><sg>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^dèvere<vbmod><pri><p3><sg>$}$ ^v<SV>{^fàghere<vblex><inf>$}$^sent<sent>{^?<sent>$}$
+[PyLZ2NhLTVFc#0] ^prn<SN>{^Ite<prn><itg><mf><sg>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^dèvere<SV><vbmod><pri>{^dèvere<vbmod><pri><p3><sg>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$^sent<sent>{^?<sent>$}$
 [/PyLZ2NhLTVFc]
 [PzfoKJ-TavKU#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+li<prn><enc><p3><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/PzfoKJ-TavKU]
-[Q9hJklyl5ZY5#0] ^inf_enc<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[Q9hJklyl5ZY5#0] ^pro_inf<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/Q9hJklyl5ZY5]
 [QCuve7jK-7g4#0] ^non_imper_enc<SV>{^no<adv>$ ^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><prs><p2><pl>$}$^sent<sent>{^.<sent>$}$
 [/QCuve7jK-7g4]
-[QOsBS9RylRNd#0] ^predet-det-nom<SN>{^Totu<predet><mf><sp>$ ^su<det><def><f><pl>$ ^domo<n><f><pl>$}$^sent<sent>{^.<sent>$}$
+[QOsBS9RylRNd#0] ^predet-det-nom<SN><f><pl><sl_f><sl_pl>{^Totu<predet><mf><sp>$ ^su<det><def><f><pl>$ ^domo<n><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/QOsBS9RylRNd]
-[Qx4JdL-5F9sT#0] ^unknown<unknown>{^*Gliene$}$^sent<sent>{^.<sent>$}$
+[Qx4JdL-5F9sT#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^nde<prn><pro><adv>$}$^sent<sent>{^.<sent>$}$
 [/Qx4JdL-5F9sT]
-[R2fL2Z7-j7BW#0] ^n_pos<SN>{^Fìgiu<n><m><sg>$ ^tuo<adj><pos><m><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^più-adj/adv-chi<SAdj>{^prus<adv>$ ^intelligente<adj><mf><sg>$ ^chi<cnjsub>$}$ ^adj<SA>{^istudiosu<adj><m><sg>$}$^sent<sent>{^.<sent>$}$
+[R2fL2Z7-j7BW#0] ^n_pos<SN>{^Fìgiu<n><m><sg>$ ^tuo<adj><pos><m><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^più-adj/adv-chi<SA>{^prus<adv>$ ^intelligente<adj><mf><sg>$ ^chi<cnjsub>$}$ ^adj<SA><m><sg><sl_m><sl_sg>{^istudiosu<adj><2><3>$}$^sent<sent>{^.<sent>$}$
 [/R2fL2Z7-j7BW]
-[R3sGKwZM5J26#0] ^n_pos<SN>{^Fìgiu<n><f><sg>$ ^tuo<adj><pos><f><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^adj_meda<SA>{^istudiosu<adj><f><sg>$ ^meda<preadv>$}$^sent<sent>{^.<sent>$}$
+[R3sGKwZM5J26#0] ^n_pos<SN>{^Fìgiu<n><f><sg>$ ^tuo<adj><pos><f><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^adj_meda<SA><f><sg><sl_f><sl_sg>{^istudiosu<adj><2><3>$ ^meda<preadv>$}$^sent<sent>{^.<sent>$}$
 [/R3sGKwZM5J26]
-[R__FDtQojgde#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[R__FDtQojgde#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/R__FDtQojgde]
-[S8vpQUvdEGD6#0] ^b'at<SV>{^Bi<prn><pro><adv>$ ^àere<vbhaver><pii><p3><sg>$}$ ^nom<SN>{^figu<n><f><pl>$}$ ^cnjcoo<cnjcoo>{^e<cnjcoo>$}$ ^nom<SN>{^lande<n><f><pl>$}$^sent<sent>{^.<sent>$}$
+[S8vpQUvdEGD6#0] ^b'at<SV>{^Bi<prn><pro><adv>$ ^àere<vbhaver><pii><p3><sg>$}$ ^nom<SN><f><pl><sl_m><sl_pl>{^figu<n><f><pl>$}$ ^cnjcoo<cnjcoo>{^e<cnjcoo>$}$ ^nom<SN><f><pl><sl_f><sl_pl>{^lande<n><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/S8vpQUvdEGD6]
-[SLbbwxhPoqh3#0] ^inf_enc<SV>{^Bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[SLbbwxhPoqh3#0] ^pro_inf<SV>{^Li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/SLbbwxhPoqh3]
-[SfLwMV0sNFwO#0] ^adj<SA>{^Porrire<vblex><pp><f><sg>$}$ ^pr<pr>{^de<pr>$}$ ^det-nom<SN>{^su<det><def><f><pl>$ ^mela<n><f><pl>$}$^sent<sent>{^.<sent>$}$
+[SfLwMV0sNFwO#0] ^np<SN><mf><sp><sl_mf><sl_sp>{^Porta<np><cog><mf><sp>$}$ ^de<pr>{^de<pr>$}$ ^det-nom<SN><f><pl><sl_f><sl_pl>{^su<det><def><f><pl>$ ^mela<n><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/SfLwMV0sNFwO]
-[ShmuXaro2dT0#0] ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^chimbe<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[ShmuXaro2dT0#0] ^det-nom-unu<SN><mf><sp><sl_m><sl_sg>{^su<det><def><m><sg>$ ^chimbe<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/ShmuXaro2dT0]
 [T4Acsu8BvXf2#0] ^d<Sdet>{^Unos cantos<det><ind><m><pl>$}$ ^prn<SN>{^li<prn><pro><p3><mf><sg>$}$ ^pro<SPron>{^lu<prn><pro><p3><m><sg>$}$ ^àere_pp<SV>{^àere<vbhaver><pii><p3><pl>$ ^pedire<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/T4Acsu8BvXf2]
-[T6ydGQq6wPYj#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[T6ydGQq6wPYj#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/T6ydGQq6wPYj]
-[TJURK-lGdJ8k#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
+[TJURK-lGdJ8k#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/TJURK-lGdJ8k]
 [TJjx21Cj3yLs#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/TJjx21Cj3yLs]
-[TOCo0aDxT0qj#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[TOCo0aDxT0qj#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/TOCo0aDxT0qj]
-[TTij0pxdAAen#0] ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^sete<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[TTij0pxdAAen#0] ^det-nom-unu<SN><mf><sp><sl_m><sl_sg>{^su<det><def><m><sg>$ ^sete<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/TTij0pxdAAen]
-[U5dLa8N6SUNo#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^adv<adv>{^no<adv>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^pònnere<vblex><inf>$}$ ^pr<pr>{^in<pr>$}$ ^det-nom<SN>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[U5dLa8N6SUNo#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^chèrrere_pp<SV><vblex><pri>{^chèrrere<vblex><pri><p3><sg>$ ^pònnere<vblex><pp><m><sg>$}$ ^in<pr>{^in<pr>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/U5dLa8N6SUNo]
-[UE7gXCbAYqS8#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
+[UE7gXCbAYqS8#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/UE7gXCbAYqS8]
 [UM87kdI8nN4v#0] ^verb_enc<SV>{^Dare<vblex><ger>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/UM87kdI8nN4v]
-[UZOqtccI0LWV#0] ^unknown<unknown>{^*Glieli$}$^sent<sent>{^.<sent>$}$
+[UZOqtccI0LWV#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/UZOqtccI0LWV]
 [Ucb48HLaR-1L#0] ^verb_enc<SV>{^Dare<vblex><ger>+si<prn><enc><ref><p3><mf><sp>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/Ucb48HLaR-1L]
-[UrXGzAKmq3GF#0] ^inf_enc<SV>{^Ti<prn><pro><p2><mf><sg>$ ^mi<prn><pro><p1><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[UrXGzAKmq3GF#0] ^pro_inf<SV>{^Ti<prn><pro><p2><mf><sg>$ ^mi<prn><pro><p1><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/UrXGzAKmq3GF]
-[Vg7Y7bO0clz2#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[Vg7Y7bO0clz2#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/Vg7Y7bO0clz2]
-[VkJnrGoq6SjS#0] ^adjsup<SA>{^Bellu<adj><m><pl>$ ^meda<adv>$}$^sent<sent>{^.<sent>$}$
+[VkJnrGoq6SjS#0] ^adjsup<SA><m><pl><sl_m><sl_pl>{^Bellu<adj><2><3>$ ^meda<adv>$}$^sent<sent>{^.<sent>$}$
 [/VkJnrGoq6SjS]
 [VpxEKRuWco1r#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/VpxEKRuWco1r]
-[VtWazt_R9Buh#0] ^prn<SN>{^Lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[VtWazt_R9Buh#0] ^prn<SN>{^Lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/VtWazt_R9Buh]
-[VydWGuFfEbpu#0] ^adjord<SN>{^de deghe<adj><ord><mf><sp>$}$^sent<sent>{^.<sent>$}$
+[VydWGuFfEbpu#0] ^adjord<SAdj>{^de deghe<adj><ord><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/VydWGuFfEbpu]
 [W5Wpi1yvba3N#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/W5Wpi1yvba3N]
@@ -286,17 +286,17 @@
 [/WSzY62pNQFNf]
 [WTt-WABKvXUn#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/WTt-WABKvXUn]
-[WZ5MAHo2tg26#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^adv<adv>{^no<adv>$}$ ^v<SV>{^chèrrere<vblex><pii><p3><sg>$}$ ^rel<rel>{^chi<rel><an><mf><sp>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^fàghere<vblex><pis><p3><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[WZ5MAHo2tg26#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^chèrrere<SV><vblex><pii>{^chèrrere<vblex><pii><p3><sg>$}$ ^cnjsub<cnjsub>{^chi<cnjsub>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^fàghere<SV><vblex><pis>{^fàghere<vblex><pis><p3><sg>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/WZ5MAHo2tg26]
-[WZC3suyzmoTb#0] ^inf_enc<SV>{^Ti<prn><pro><p2><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[WZC3suyzmoTb#0] ^pro_inf<SV>{^Ti<prn><pro><p2><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/WZC3suyzmoTb]
-[WdrXo5Bfvn2w#0] ^inf_enc<SV>{^Lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[WdrXo5Bfvn2w#0] ^pro_inf<SV>{^Lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/WdrXo5Bfvn2w]
 [Wl62twT86s2X#0] ^verb_enc<SV>{^Dare<vblex><ger>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/Wl62twT86s2X]
-[X1xGHKJ3-qtM#0] ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^ses<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[X1xGHKJ3-qtM#0] ^det-nom-unu<SN><mf><sp><sl_m><sl_sg>{^su<det><def><m><sg>$ ^ses<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/X1xGHKJ3-qtM]
-[X3176zNPd46G#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[X3176zNPd46G#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/X3176zNPd46G]
 [XE8Aamsy3vTY#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/XE8Aamsy3vTY]
@@ -312,51 +312,51 @@
 [/Xwx_eNkygDIS]
 [Y8cnqwncZUtg#0] ^verb_enc<SV>{^Dare<vblex><ger>+bos<prn><enc><p2><mf><pl>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/Y8cnqwncZUtg]
-[YAlUQN3RD7C1#0] ^prn<SN>{^Lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[YAlUQN3RD7C1#0] ^prn<SN>{^Lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/YAlUQN3RD7C1]
-[YCifHkg0BjKQ#0] ^inf_enc<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[YCifHkg0BjKQ#0] ^pro_inf<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/YCifHkg0BjKQ]
 [YL1xQdzUzzt0#0] ^verb_enc<SV>{^Dare<vblex><ger>+bos<prn><enc><p2><mf><pl>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/YL1xQdzUzzt0]
 [YMp4_3h-uqPY#0] ^det_adjord_n_adjpos<SN>{^Su<det><def><f><sg>$ ^segundu<adj><ord><f><sg>$ ^domo<n><f><sg>$ ^meu<adj><pos><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/YMp4_3h-uqPY]
-[YUQIuIDWJ3LD#0] ^verb_enc<SV>{^Dare<vblex><ger>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
+[YUQIuIDWJ3LD#0] ^np<SN><mf><sp><sl_mf><sl_sp>{^Dandolo<np><cog><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/YUQIuIDWJ3LD]
 [ZNBMym_hj3wh#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/ZNBMym_hj3wh]
-[ZUDaziNK8-5F#0] ^non_imper_enc_enc<SV>{^no<adv>$ ^bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><f><sg>$ ^fàghere<vblex><prs><p2><pl>$}$^sent<sent>{^.<sent>$}$
+[ZUDaziNK8-5F#0] ^non_imper_enc_enc<SV>{^no<adv>$ ^li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><f><sg>$ ^fàghere<vblex><prs><p2><pl>$}$^sent<sent>{^.<sent>$}$
 [/ZUDaziNK8-5F]
 [ZWseLVMNPksM#0] ^verb_enc<SV>{^Dare<vblex><ger>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/ZWseLVMNPksM]
-[_HmV3v09RkL8#0] ^verb_enc<SV>{^Nàrrere<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>$}$ ^default<default>{^ue<adv><itg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$^sent<sent>{^!<sent>$}$
+[_HmV3v09RkL8#0] ^verb_enc<SV>{^Nàrrere<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>$}$ ^ue<SAdv><itg>{^ue<adv><itg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$^sent<sent>{^!<sent>$}$
 [/_HmV3v09RkL8]
-[_VFG9k64AfrX#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[_VFG9k64AfrX#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/_VFG9k64AfrX]
-[_lOgBXIuZDFr#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[_lOgBXIuZDFr#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/_lOgBXIuZDFr]
-[a8q0qQlrEEPw#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[a8q0qQlrEEPw#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/a8q0qQlrEEPw]
 [aJXtQzpHwcC0#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/aJXtQzpHwcC0]
-[afjcBoXxya7W#0] ^adv<adv>{^no<adv>$}$ ^inf_enc<SV>{^bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><inf>$}$ ^v<SV>{^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[afjcBoXxya7W#0] ^no<SAdv>{^no<adv>$}$ ^pro_inf<SV>{^li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><inf>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/afjcBoXxya7W]
 [amv8ud5ywYC1#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/amv8ud5ywYC1]
-[arN62J3dF77Q#0] ^prn<SN>{^Lu<prn><pro><p3><f><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[arN62J3dF77Q#0] ^prn<SN>{^Lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/arN62J3dF77Q]
 [bG8YOw8WxfJP#0] ^det_n<SN>{^Domo<n><f><pl>$ ^issoro<adj><pos><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/bG8YOw8WxfJP]
-[bLO2cM-vo-qs#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[bLO2cM-vo-qs#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/bLO2cM-vo-qs]
-[bSA9Mqpxr4i4#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[bSA9Mqpxr4i4#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/bSA9Mqpxr4i4]
 [c2HuKSrgvKrw#0] ^prn<SN>{^Ite<prn><itg><mf><sg>$}$ ^b'at<SV>{^bi<prn><pro><adv>$ ^àere<vbhaver><pri><p3><sg>$}$ ^de<pr>{^de<pr>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$^sent<sent>{^?<sent>$}$
 [/c2HuKSrgvKrw]
 [c2W-ugxmSCdu#0] ^b'at<SV>{^Bi<prn><pro><adv>$ ^àere<vbhaver><pri><p3><sg>$}$ ^prn<SN>{^totu<prn><tn><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/c2W-ugxmSCdu]
-[c8_uEZnOPqJW#0] ^default<default>{^Marco<np><ant><m><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^adv<adv>{^prus pagu<adv>$}$ ^adj<SA>{^istudiosu<adj><m><sg>$}$ ^pr<pr>{^de<pr>$}$ ^default<default>{^Carlo<np><ant><m><sg>$}$^sent<sent>{^.<sent>$}$
+[c8_uEZnOPqJW#0] ^np<SN><m><sg><sl_m><sl_sg>{^Marco<np><ant><m><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^adj<SA><m><sg><sl_m><sl_sg>{^prus pagu<adv>$ ^istudiosu<adj><2><3>$}$ ^de<pr>{^de<pr>$}$ ^np<SN><m><sg><sl_m><sl_sg>{^Carlo<np><ant><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/c8_uEZnOPqJW]
-[cUSriVq0Fp20#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^arribbare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^arribbare<vblex><pp><4><5>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$ ^adjord<SN>{^de tres<adj><ord><mf><sp>$}$^sent<sent>{^.<sent>$}$
+[cUSriVq0Fp20#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^arribbare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^arribbare<vblex><pp><4><5>$}$ ^det_adjord<SAdj>{^su<det><def><m><sg>$ ^de tres<adj><ord><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/cUSriVq0Fp20]
 [cVYAnCs8Xo-L#0] ^verb_enc<SV>{^Dare<vblex><ger>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/cVYAnCs8Xo-L]
@@ -364,43 +364,43 @@
 [/cecMZE6g7VPh]
 [cgCO4a3KVFEB#0] ^verb_enc<SV>{^Dare<vblex><ger>+ti<prn><enc><p2><mf><sg>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/cgCO4a3KVFEB]
-[csOEax5508Pn#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^adv<adv>{^no<adv>$}$ ^àere_a_inf<SV>{^àere<vbhaver><pri><p3><sg>$ ^a<pr>$ ^èssere<vbser><inf>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^pònnere<vblex><inf>$}$ ^pr<pr>{^in<pr>$}$ ^det-nom<SN>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[csOEax5508Pn#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^àere_a_inf<SV><vblex>{^àere<vbhaver><pri><p3><sg>$ ^a<pr>$ ^chèrrere<vblex><inf>$ ^pònnere<vblex><pp><m><sg>$}$ ^in<pr>{^in<pr>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/csOEax5508Pn]
-[cxaz04k7AYL-#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[cxaz04k7AYL-#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/cxaz04k7AYL-]
-[dnePcrcIqScU#0] ^inf_enc<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[dnePcrcIqScU#0] ^pro_inf<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><f><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/dnePcrcIqScU]
 [eK9mmJbwdvX_#0] ^verb_enc<SV>{^Dare<vblex><ger>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/eK9mmJbwdvX_]
-[eUoPGZhJ-LKP#0] ^pr<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><f><sg>$}$^sent<sent>{^.<sent>$}$
+[eUoPGZhJ-LKP#0] ^De<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/eUoPGZhJ-LKP]
-[eWRKswuR39n9#0] ^inf_enc<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[eWRKswuR39n9#0] ^pro_inf<SV>{^Mi<prn><pro><p1><mf><sg>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/eWRKswuR39n9]
-[eexAIWjjqHj7#0] ^default<default>{^Diano<np><ant><m><sg>$}$^sent<sent>{^.<sent>$}$
+[eexAIWjjqHj7#0] ^np<SN><m><sg><sl_m><sl_sg>{^Diano<np><ant><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/eexAIWjjqHj7]
-[gISQ5qxfT7aL#0] ^pr<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><f><pl>$}$^sent<sent>{^.<sent>$}$
+[gISQ5qxfT7aL#0] ^De<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/gISQ5qxfT7aL]
 [gNvixgtOqYXM#0] ^verb_enc<SV>{^Dare<vblex><ger>+li<prn><enc><p3><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/gNvixgtOqYXM]
-[h9fIivB2tBSc#0] ^inf_enc<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[h9fIivB2tBSc#0] ^pro_inf<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/h9fIivB2tBSc]
-[hEKOgF2S47k3#0] ^prn<SN>{^Lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[hEKOgF2S47k3#0] ^prn<SN>{^Lu<prn><pro><p3><m><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/hEKOgF2S47k3]
-[hMTHMU5PaRiO#0] ^pr<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><m><pl>$}$^sent<sent>{^.<sent>$}$
+[hMTHMU5PaRiO#0] ^De<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/hMTHMU5PaRiO]
-[hWsRTtd3S-C0#0] ^verb_enc<SV>{^Dare<vblex><ger>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
+[hWsRTtd3S-C0#0] ^verb_enc<SV>{^Dare<vblex><ger>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/hWsRTtd3S-C0]
-[i1m0xhohj3zC#0] ^v<SV>{^Èssere<vbser><pri><p3><sg>$}$ ^adj<SA>{^arribbare<vblex><pp><m><sg>$}$ ^d<Sdet>{^su<det><def><m><sg>$}$ ^adjord<SN>{^segundu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
+[i1m0xhohj3zC#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^arribbare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^arribbare<vblex><pp><4><5>$}$ ^det_adjord<SAdj>{^su<det><def><m><sg>$ ^segundu<adj><ord><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/i1m0xhohj3zC]
 [iEA83JsY-T2G#0] ^verb_enc<SV>{^Dare<vblex><ger>+ti<prn><enc><p2><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/iEA83JsY-T2G]
-[iXpnPpahfSd2#0] ^v<SV>{^Dare<vblex><pri><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[iXpnPpahfSd2#0] ^Dare<SV><vblex><pri>{^Dare<vblex><pri><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/iXpnPpahfSd2]
-[jA6sIZutP9bO#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
+[jA6sIZutP9bO#0] ^verb_enc<SV>{^Dare<vblex><imp><p1><pl>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/jA6sIZutP9bO]
-[jNwMvrc6BtoU#0] ^inf_enc<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[jNwMvrc6BtoU#0] ^pro_inf<SV>{^Nos<prn><pro><p1><mf><pl>$ ^lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/jNwMvrc6BtoU]
-[jUu6u0M46L8L#0] ^inf_enc<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[jUu6u0M46L8L#0] ^pro_inf<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/jUu6u0M46L8L]
 [jvl2RZqhlAEG#0] ^b'at<SV>{^Bi<prn><pro><adv>$ ^àere<vbhaver><pri><p3><sg>$}$ ^prn<SN>{^totu<prn><tn><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/jvl2RZqhlAEG]
@@ -408,77 +408,77 @@
 [/jzmXg90LJOYm]
 [k6rskQpay28f#0] ^verb_enc<SV>{^Dare<vblex><ger>+si<prn><enc><ref><p3><mf><sp>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/k6rskQpay28f]
-[k9A087bGM9VZ#0] ^pr<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><m><pl>$}$ ^det-nom<SN>{^unu<det><ind><m><sg>$ ^libru<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[k9A087bGM9VZ#0] ^De<pr>{^De<pr>$}$ ^d<Sdet>{^su<det><def><m><pl>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^unu<det><ind><m><sg>$ ^libru<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/k9A087bGM9VZ]
-[kFttOJpSXwVn#0] ^adv<adv>{^No<adv>$}$ ^default<default>{^Maria<np><ant><f><sg>$}$^cm<cm>{^,<cm>$}$ ^adv<adv>{^no<adv>$}$ ^pro_pro_vbmod_inf<SV>{^ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^pòdere<vbmod><pri><p1><sg>$ ^nàrrere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[kFttOJpSXwVn#0] ^No<SAdv>{^No<adv>$}$ ^np<SN><f><sg><sl_f><sl_sg>{^Maria<np><ant><f><sg>$}$^cm<cm>{^,<cm>$}$ ^no<SAdv>{^no<adv>$}$ ^pro_pro_vbmod_inf<SV>{^ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^pòdere<vbmod><pri><p1><sg>$ ^nàrrere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/kFttOJpSXwVn]
-[kX3Be_7AsE99#0] ^v<SV>{^Èssere<vbser><pri><p1><sg>$}$ ^adj<SA>{^abarrare<vblex><pp><m><sg>$}$ ^adv<adv>{^in domo<adv>$}$ ^totu_su_n<SN>{^totu<predet><mf><sp>$ ^su<det><def><f><sg>$ ^die<n><f><sg>$}$^sent<sent>{^.<sent>$}$
+[kX3Be_7AsE99#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p1><sg>$}$ ^abarrare<SV><vblex><pp><m><sg><sl_m><sl_sg>{^abarrare<vblex><pp><4><5>$}$ ^in domo<SAdv>{^in domo<adv>$}$ ^totu_su_n<SN>{^totu<predet><mf><sp>$ ^su<det><def><f><sg>$ ^die<n><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/kX3Be_7AsE99]
 [khfZPaoBV2Wp#0] ^verb_enc<SV>{^Dare<vblex><ger>+ti<prn><enc><p2><mf><sg>+nche<prn><enc><adv>$}$^sent<sent>{^.<sent>$}$
 [/khfZPaoBV2Wp]
 [kp-Si8jhXblZ#0] ^verb_enc<SV>{^Dare<vblex><ger>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/kp-Si8jhXblZ]
-[l8TZEODmcAyZ#0] ^unknown<unknown>{^*Ce$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[l8TZEODmcAyZ#0] ^prn<SN>{^Nos<prn><pro><p1><mf><pl>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/l8TZEODmcAyZ]
-[lIa3BPafAPWt#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[lIa3BPafAPWt#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><m><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/lIa3BPafAPWt]
 [lKejOqy7kG11#0] ^pp+lo<PP>{^Àere<vbhaver><ger>+lu<prn><enc><p3><f><pl>$ ^dare<vblex><pp><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/lKejOqy7kG11]
-[lSGqmRf3U8YX#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
+[lSGqmRf3U8YX#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/lSGqmRf3U8YX]
-[m0_Xf6kS-I3D#0] ^default<default>{^Carlo<np><ant><m><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^adv<adv>{^prus<adv>$}$ ^adj<SA>{^sèriu<adj><m><sg>$}$ ^pr<pr>{^de<pr>$}$ ^default<default>{^Marco<np><ant><m><sg>$}$^sent<sent>{^.<sent>$}$
+[m0_Xf6kS-I3D#0] ^np<SN><m><sg><sl_m><sl_sg>{^Carlo<np><ant><m><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^adj<SA><m><sg><sl_m><sl_sg>{^prus<adv>$ ^sèriu<adj><2><3>$}$ ^de<pr>{^de<pr>$}$ ^np<SN><m><sg><sl_m><sl_sg>{^Marco<np><ant><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/m0_Xf6kS-I3D]
 [mJ17-cBa84KE#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/mJ17-cBa84KE]
-[mZLLoSqZyouP#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[mZLLoSqZyouP#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/mZLLoSqZyouP]
-[n0eBTb3GH37N#0] ^v<SV>{^Dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[n0eBTb3GH37N#0] ^Dare<SV><vblex><inf>{^Dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/n0eBTb3GH37N]
 [n2w-cH4Fu--c#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/n2w-cH4Fu--c]
-[ndD933Zim1s1#0] ^unknown<unknown>{^*Gliele$}$^sent<sent>{^.<sent>$}$
+[ndD933Zim1s1#0] ^prn<SN>{^Li<prn><pro><p3><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/ndD933Zim1s1]
-[o4ChB-vG2dQr#0] ^inf_enc<SV>{^Li<prn><pro><p3><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[o4ChB-vG2dQr#0] ^pro_inf<SV>{^Li<prn><pro><p3><mf><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/o4ChB-vG2dQr]
-[oQWoAoJXa1Rx#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^v<SV>{^èssere<vbser><pii><p3><sg>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^pònnere<vblex><inf>$}$ ^pr<pr>{^in<pr>$}$ ^det-nom<SN>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[oQWoAoJXa1Rx#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^chèrrere_pp<SV><vblex><pii>{^chèrrere<vblex><pii><p3><sg>$ ^pònnere<vblex><pp><m><sg>$}$ ^in<pr>{^in<pr>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/oQWoAoJXa1Rx]
-[og_TJubJEU_o#0] ^nom<SN>{^Data<n><f><pl>$}$^sent<sent>{^.<sent>$}$
+[og_TJubJEU_o#0] ^nom<SN><f><pl><sl_f><sl_pl>{^Data<n><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/og_TJubJEU_o]
-[okbeVof47BcJ#0] ^adv<adv>{^no<adv>$}$ ^v<SV>{^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[okbeVof47BcJ#0] ^no<SAdv>{^no<adv>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/okbeVof47BcJ]
-[p1Joywo3Ys78#0] ^inf_enc<SV>{^Nche<prn><pro><adv>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[p1Joywo3Ys78#0] ^pro_inf<SV>{^Nche<prn><pro><adv>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/p1Joywo3Ys78]
-[pM6qD05yMMHh#0] ^det-nom-unu<SN>{^su<det><def><m><sg>$ ^tres<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
+[pM6qD05yMMHh#0] ^det-nom-unu<SN><mf><sp><sl_m><sl_sg>{^su<det><def><m><sg>$ ^tres<n><mf><sp>$ ^unu_num<num><m><sp>$}$^sent<sent>{^.<sent>$}$
 [/pM6qD05yMMHh]
 [pO2jPiajqciJ#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+ti<prn><enc><p2><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/pO2jPiajqciJ]
-[pTixIuIP1yhP#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[pTixIuIP1yhP#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^prn<SN>{^lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/pTixIuIP1yhP]
-[phD6F4ebw5yE#0] ^adv<adv>{^no<adv>$}$ ^v<SV>{^fàghere<vblex><pri><p2><pl>$}$^sent<sent>{^.<sent>$}$
+[phD6F4ebw5yE#0] ^no<SAdv>{^no<adv>$}$ ^fàghere<SV><vblex><pri>{^fàghere<vblex><pri><p2><pl>$}$^sent<sent>{^.<sent>$}$
 [/phD6F4ebw5yE]
-[prSN8Uih1rsI#0] ^adjord_n<SN>{^Unu<det><ind><f><sg>$ ^de tres<adj><ord><mf><sp>$ ^famìlia<n><f><pl>$}$^sent<sent>{^.<sent>$}$
+[prSN8Uih1rsI#0] ^det_adjord_n<SN>{^Unu<det><ind><f><sg>$ ^de tres<adj><ord><mf><sp>$ ^famìlia<n><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/prSN8Uih1rsI]
 [pt8YxK7Eq72G#0] ^unknown<unknown>{^*Dandosegli$}$^sent<sent>{^.<sent>$}$
 [/pt8YxK7Eq72G]
-[pwrRAN6peGdQ#0] ^inf_enc<SV>{^Bos<prn><pro><p2><mf><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[pwrRAN6peGdQ#0] ^pro_inf<SV>{^Bos<prn><pro><p2><mf><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/pwrRAN6peGdQ]
-[qIJQmseQ__F2#0] ^adv<adv>{^no<adv>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^v<SV>{^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[qIJQmseQ__F2#0] ^no<SAdv>{^no<adv>$}$ ^prn<SN>{^lu<prn><pro><p3><m><sg>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/qIJQmseQ__F2]
-[qTDVdDeqxqLg#0] ^verb_enc<SV>{^Dare<vblex><ger>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
+[qTDVdDeqxqLg#0] ^verb_enc<SV>{^Dare<vblex><ger>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/qTDVdDeqxqLg]
-[quOcXPt2p5yd#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
+[quOcXPt2p5yd#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/quOcXPt2p5yd]
-[rhKTYeKEBFxx#0] ^inf_enc<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[rhKTYeKEBFxx#0] ^pro_inf<SV>{^Ti<prn><pro><p2><mf><sg>$ ^lu<prn><pro><p3><m><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/rhKTYeKEBFxx]
-[sBdSFLic9QrF#0] ^inf_enc<SV>{^Lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[sBdSFLic9QrF#0] ^pro_inf<SV>{^Lu<prn><pro><p3><m><sg>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/sBdSFLic9QrF]
-[sO98J2X6c_J_#0] ^v<SV>{^Dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
+[sO98J2X6c_J_#0] ^Dare<SV><vblex><prs>{^Dare<vblex><prs><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/sO98J2X6c_J_]
-[sb6DAayPQMMe#0] ^det-nom<SN>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^adv<adv>{^no<adv>$}$ ^v<SV>{^èssere<vbser><pii><p3><sg>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^pònnere<vblex><inf>$}$ ^pr<pr>{^in<pr>$}$ ^det-nom<SN>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
+[sb6DAayPQMMe#0] ^det-nom<SN><m><sg><sl_m><sl_sg>{^Su<det><def><m><sg>$ ^puale<n><m><sg>$}$ ^no<SAdv>{^no<adv>$}$ ^chèrrere_pp<SV><vblex><pii>{^chèrrere<vblex><pii><p3><sg>$ ^pònnere<vblex><pp><m><sg>$}$ ^in<pr>{^in<pr>$}$ ^det-nom<SN><m><sg><sl_m><sl_sg>{^cuddu<det><dem><m><sg>$ ^àngulu<n><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/sb6DAayPQMMe]
-[sjOdc3MmrCib#0] ^prn<SN>{^Lu<prn><pro><p3><f><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[sjOdc3MmrCib#0] ^prn<SN>{^Lu<prn><pro><p3><f><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/sjOdc3MmrCib]
-[slNMWaoSNe70#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^v<SV>{^chèrrere<vblex><pri><p3><sg>$}$ ^rel<rel>{^chi<rel><an><mf><sp>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^fàghere<vblex><prs><p3><sg>$}$ ^adv<adv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
+[slNMWaoSNe70#0] ^prn<SN>{^Issu<prn><tn><p3><m><sg>$}$ ^chèrrere<SV><vblex><pri>{^chèrrere<vblex><pri><p3><sg>$}$ ^cnjsub<cnjsub>{^chi<cnjsub>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^fàghere<SV><vblex><prs>{^fàghere<vblex><prs><p3><sg>$}$ ^gasi<SAdv>{^gasi<adv>$}$^sent<sent>{^.<sent>$}$
 [/slNMWaoSNe70]
 [t80n_NB_CCVd#0] ^verb_enc<SV>{^Dare<vblex><ger>+bos<prn><enc><p2><mf><pl>$}$^sent<sent>{^.<sent>$}$
 [/t80n_NB_CCVd]
@@ -488,39 +488,39 @@
 [/tg3zKWXWpK1p]
 [tzTFbEx29kn5#0] ^verb_enc<SV>{^Dare<vblex><ger>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/tzTFbEx29kn5]
-[upt8k1EUKpGm#0] ^pr<pr>{^In<pr>$}$ ^d<Sdet>{^su<det><def><f><sg>$}$ ^n_adjpos<SN>{^terra<n><f><sg>$ ^issoro<adj><pos><mf><sp>$}$^sent<sent>{^.<sent>$}$
+[upt8k1EUKpGm#0] ^In<pr>{^In<pr>$}$ ^det_n_adj_adjpos<SN>{^su<det><def><f><sg>$ ^terra<n><f><sg>$ ^issoro<adj><pos><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/upt8k1EUKpGm]
 [uwX2ghZcwHyn#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><m><pl>$}$^sent<sent>{^.<sent>$}$
 [/uwX2ghZcwHyn]
 [vtsIPTmte6KY#0] ^verb_enc<SV>{^Dare<vblex><ger>+si<prn><enc><ref><p3><mf><sp>$}$^sent<sent>{^.<sent>$}$
 [/vtsIPTmte6KY]
-[vzrF8MxIttsy#0] ^prn<SN>{^Nche<prn><pro><adv>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[vzrF8MxIttsy#0] ^prn<SN>{^Nche<prn><pro><adv>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/vzrF8MxIttsy]
-[w50weyetOb-x#0] ^inf_enc<SV>{^Ti<prn><pro><p2><mf><sg>$ ^nche<prn><pro><adv>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[w50weyetOb-x#0] ^pro_inf<SV>{^Ti<prn><pro><p2><mf><sg>$ ^nche<prn><pro><adv>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/w50weyetOb-x]
-[wDhS1IEpIX6j#0] ^det-nom<SN>{^Su<det><def><f><sg>$ ^fìgiu<n><f><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^tanto-adj/adv-quanto<SAdj>{^bellu<adj><f><sg>$ ^cantu<cnjadv>$ ^a<pr>$}$ ^det-nom<SN>{^su<det><def><f><sg>$ ^mama<n><f><sg>$}$^sent<sent>{^.<sent>$}$
+[wDhS1IEpIX6j#0] ^det-nom<SN><f><sg><sl_f><sl_sg>{^Su<det><def><f><sg>$ ^fìgiu<n><f><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^tanto-adj/adv-quanto<SA>{^bellu<adj><f><sg>$ ^cantu<cnjadv>$ ^a<pr>$}$ ^det-nom<SN><f><sg><sl_f><sl_sg>{^su<det><def><f><sg>$ ^mama<n><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/wDhS1IEpIX6j]
 [wvbBmR_MJuYZ#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/wvbBmR_MJuYZ]
-[wweFkLYhdf-7#0] ^inf_enc<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[wweFkLYhdf-7#0] ^pro_inf<SV>{^Si<prn><pro><ref><p3><mf><sp>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/wweFkLYhdf-7]
-[wxUiGrBW7IYq#0] ^inf_enc<SV>{^Bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[wxUiGrBW7IYq#0] ^pro_inf<SV>{^Li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><f><pl>$ ^dare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/wxUiGrBW7IYq]
 [xC1kfe4zFbRW#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+mi<prn><enc><p1><mf><sg>$}$^sent<sent>{^.<sent>$}$
 [/xC1kfe4zFbRW]
-[xPMLjPhl4B6O#0] ^v<SV>{^Dare<vblex><prs><p2><pl>$}$^sent<sent>{^.<sent>$}$
+[xPMLjPhl4B6O#0] ^Dare<SV><vblex><prs>{^Dare<vblex><prs><p2><pl>$}$^sent<sent>{^.<sent>$}$
 [/xPMLjPhl4B6O]
 [xUL92hAPWd-E#0] ^verb_enc<SV>{^Dare<vblex><ger>+nche<prn><enc><adv>$}$^sent<sent>{^.<sent>$}$
 [/xUL92hAPWd-E]
-[xYc12N10N7wu#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+bi<prn><enc><p3><mf><sp>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
+[xYc12N10N7wu#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+li<prn><enc><p3><mf><sg>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/xYc12N10N7wu]
-[xnVJYCdrmKUk#0] ^det-nom<SN>{^Su<det><def><f><sg>$ ^fìgiu<n><f><sg>$}$ ^v<SV>{^èssere<vbser><pri><p3><sg>$}$ ^adv<adv>{^gasi<preadv>$}$ ^adj<SA>{^bellu<adj><f><sg>$}$ ^pr<pr>{^comente<pr>$}$ ^det-nom<SN>{^su<det><def><f><sg>$ ^mama<n><f><sg>$}$^sent<sent>{^.<sent>$}$
+[xnVJYCdrmKUk#0] ^det-nom<SN><f><sg><sl_f><sl_sg>{^Su<det><def><f><sg>$ ^fìgiu<n><f><sg>$}$ ^èssere<SV><vbser><pri>{^èssere<vbser><pri><p3><sg>$}$ ^gasi<SAdv>{^gasi<preadv>$}$ ^adj<SA><f><sg><sl_f><sl_sg>{^bellu<adj><2><3>$}$ ^comente<pr>{^comente<pr>$}$ ^det-nom<SN><f><sg><sl_f><sl_sg>{^su<det><def><f><sg>$ ^mama<n><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/xnVJYCdrmKUk]
-[xo-BPhzGB9R-#0] ^adv<adv>{^no<adv>$}$ ^inf_enc<SV>{^li<prn><pro><p3><mf><sg>$ ^nàrrere<vblex><inf>$}$ ^prn<SN>{^nudda<prn><tn><nt><sg>$}$^sent<sent>{^.<sent>$}$
+[xo-BPhzGB9R-#0] ^no<SAdv>{^no<adv>$}$ ^pro_inf<SV>{^li<prn><pro><p3><mf><sg>$ ^nàrrere<vblex><inf>$}$ ^prn<SN>{^nudda<prn><tn><nt><sg>$}$^sent<sent>{^.<sent>$}$
 [/xo-BPhzGB9R-]
 [y2nLlBYA0mSR#0] ^unknown<unknown>{^*Vistolo$}$^sent<sent>{^.<sent>$}$
 [/y2nLlBYA0mSR]
-[y4MWcKqWQZ7j#0] ^adv<adv>{^no<adv>$}$ ^inf_enc<SV>{^bi<prn><pro><p3><mf><sp>$ ^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[y4MWcKqWQZ7j#0] ^no<SAdv>{^no<adv>$}$ ^pro_inf<SV>{^li<prn><pro><p3><mf><sg>$ ^lu<prn><pro><p3><m><sg>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/y4MWcKqWQZ7j]
 [y73F7Q-peSLg#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><sg>+mi<prn><enc><p1><mf><sg>+lu<prn><enc><p3><f><pl>$}$^sent<sent>{^.<sent>$}$
 [/y73F7Q-peSLg]
@@ -528,7 +528,7 @@
 [/yxbTeiQE1d-K]
 [zaQfnQGJFLa2#0] ^verb_enc<SV>{^Dare<vblex><imp><p2><pl>+lu<prn><enc><p3><f><sg>$}$^sent<sent>{^.<sent>$}$
 [/zaQfnQGJFLa2]
-[zwv9eklz2LmV#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^v<SV>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
+[zwv9eklz2LmV#0] ^prn<SN>{^Mi<prn><pro><p1><mf><sg>$}$ ^dare<SV><vblex><prs>{^dare<vblex><prs><p3><pl>$}$^sent<sent>{^.<sent>$}$
 [/zwv9eklz2LmV]
 [zyckZJByJKxs#0] ^verb_enc<SV>{^Dare<vblex><ger>+nos<prn><enc><p1><mf><pl>+lu<prn><enc><p3><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/zyckZJByJKxs]

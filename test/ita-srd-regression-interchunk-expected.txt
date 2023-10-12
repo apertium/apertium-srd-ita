@@ -1,24 +1,24 @@
-[0Y5-8w6SsnoB#0] ^v<SV>{^Chircare<vblex><pri><p3><sg># de$}$ ^adj<SA>{^nou<adj><m><sg>$}$^sent<sent>{^.<sent>$}$
+[0Y5-8w6SsnoB#0] ^Chircare# de<SV><vblex><pri>{^Chircare<vblex><pri><p3><sg># de$}$ ^adj<SA><m><sg><sl_m><sl_sg>{^nou<adj><2><3>$}$^sent<sent>{^.<sent>$}$
 [/0Y5-8w6SsnoB]
 [39B0YvKY2y2R#0] ^prn<SN>{^Deo<prn><tn><p1><mf><sg>$}$ ^v<SV>{^èssere<vbser><pri><p1><sg>$ ^istudiare<vblex><ger>$}$^sent<sent>{^.<sent>$}$
 [/39B0YvKY2y2R]
 [6kiiBdnzXleB#0] ^àere_a_inf<SV>{^Àere<vbhaver><pri><p1><sg>$ ^a<pr>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/6kiiBdnzXleB]
-[FkBh5xJX1Fnu#0] ^verb_enc<SV>{^Chircare<vblex><imp><p2><sg>+lu<prn><enc><p3><m><sg># de$}$ ^adj<SA>{^nou<adj><m><sg>$}$^sent<sent>{^.<sent>$}$
+[FkBh5xJX1Fnu#0] ^verb_enc<SV>{^Chircare<vblex><imp><p2><sg>+lu<prn><enc><p3><m><sg># de$}$ ^adj<SA><m><sg><sl_m><sl_sg>{^nou<adj><2><3>$}$^sent<sent>{^.<sent>$}$
 [/FkBh5xJX1Fnu]
-[IV5WzGRXreVd#0] ^àere_pp<SV>{^Àere<vbhaver><pii><p3><sg>$ ^gherrare<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
+[IV5WzGRXreVd#0] ^àere_pp<SV>{^Àere<vbhaver><pii><p3><sg>$ ^cumbàtere<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
 [/IV5WzGRXreVd]
-[KCf_wuEqq8jv#0] ^v<SV>{^Èssere<vbser><pri><p1><sg>$}$ ^v<SV>{^èssere<vbser><pp><m><sg>$}$ ^adj<SA>{^mutire<vblex><pp><m><sg>$}$ ^pr<pr>{^dae<pr>$}$ ^tn<SN>{^tene<prn><tn><p2><mf><sg>$}$
+[KCf_wuEqq8jv#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p1><sg>$}$ ^èssere<SV><vbser><pp><m><sg><sl_m><sl_sg>{^èssere<vbser><pp><4><5>$}$ ^mutire<SV><vblex><pp><m><sg><sl_m><sl_sg>{^mutire<vblex><pp><4><5>$}$ ^pr<pr>{^dae<pr>$}$ ^tn<SN>{^tene<prn><tn><p2><mf><sg>$}$
 [/KCf_wuEqq8jv]
-[KtqbjTaDQ1Dh#0] ^mod-inf<SV>{^Dare<vblex><prs><p1><sg>$ ^àere<vbhaver><inf>$}$ ^adj<SA>{^fàghere<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
+[KtqbjTaDQ1Dh#0] ^mod-inf<SV>{^Dare<vblex><prs><p1><sg>$ ^àere<vbhaver><inf>$}$ ^fàghere<SV><vblex><pp><m><sg><sl_m><sl_sg>{^fàghere<vblex><pp><4><5>$}$^sent<sent>{^.<sent>$}$
 [/KtqbjTaDQ1Dh]
 [MNIBhEPicTwl#0] ^b'at<SV>{^Bi<prn><pro><adv>$ ^àere<vbhaver><pri><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/MNIBhEPicTwl]
-[PyLZ2NhLTVFc#0] ^prn<SN>{^Ite<prn><itg><mf><sg>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^v<SV>{^dèvere<vbmod><pri><p3><sg>$}$ ^v<SV>{^fàghere<vblex><inf>$}$^sent<sent>{^?<sent>$}$
+[PyLZ2NhLTVFc#0] ^prn<SN>{^Ite<prn><itg><mf><sg>$}$ ^prn<SN>{^si<prn><pro><ref><p3><mf><sp>$}$ ^dèvere<SV><vbmod><pri>{^dèvere<vbmod><pri><p3><sg>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$^sent<sent>{^?<sent>$}$
 [/PyLZ2NhLTVFc]
 [SIp1520b-yWS#0] ^b'at<SV>{^Bi<prn><pro><adv>$ ^àere<vbhaver><pri><p3><sg>$}$^sent<sent>{^.<sent>$}$
 [/SIp1520b-yWS]
-[SO4usIBoZ0Sk#0] ^v<SV>{^Èssere<vbser><pri><p3><sg>$}$ ^verb_dinuovo<SV>{^torrare<vblex><pp><f><sg>$ ^a<pr>$ ^bènnere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[SO4usIBoZ0Sk#0] ^Èssere<SV><vbser><pri>{^Èssere<vbser><pri><p3><sg>$}$ ^verb_dinuovo<SV>{^torrare<vblex><pp><f><sg>$ ^a<pr>$ ^èssere<vbser><inf>$}$^sent<sent>{^.<sent>$}$
 [/SO4usIBoZ0Sk]
 [SxExxPP_8eqS#0] ^prn<SN>{^cuddu<prn><tn><m><sg>$}$
 [/SxExxPP_8eqS]
@@ -28,23 +28,23 @@
 [/XDQOE60VaFnu]
 [Y6ewe9BKoULn#0] ^fàghere_a_inf<SV>{^Fàghere<vblex><pri><p3><sg>$ ^a<pr>$ ^intrare<vblex><inf>$}$^sent<sent>{^?<sent>$}$
 [/Y6ewe9BKoULn]
-[YElO9K1tzpGo#0] ^su_chi<rel>{^su chi<rel><an><m><sg>$}$ ^nom<SN>{^costa<n><f><sg>$}$ ^adv<adv>{^prus pagu<adv>$}$
+[YElO9K1tzpGo#0] ^su_chi<rel>{^su chi<rel><an><m><sg>$}$ ^nom<SN><f><sg><sl_f><sl_sg>{^costa<n><f><sg>$}$ ^prus pagu<SAdv>{^prus pagu<adv>$}$
 [/YElO9K1tzpGo]
-[c2HuKSrgvKrw#0] ^prn<SN>{^Ite<prn><itg><mf><sg>$}$ ^b'at<SV>{^bi<prn><pro><adv>$ ^àere<vbhaver><pri><p3><sg>$}$ ^pr<pr>{^in<pr>$}$ ^v<SV>{^fàghere<vblex><inf>$}$^sent<sent>{^?<sent>$}$
+[c2HuKSrgvKrw#0] ^prn<SN>{^Ite<prn><itg><mf><sg>$}$ ^b'at<SV>{^bi<prn><pro><adv>$ ^àere<vbhaver><pri><p3><sg>$}$ ^de<pr>{^de<pr>$}$ ^fàghere<SV><vblex><inf>{^fàghere<vblex><inf>$}$^sent<sent>{^?<sent>$}$
 [/c2HuKSrgvKrw]
 [c2if2gSYmQ_f#0] ^mod-inf<SV>{^Dare<vblex><prs><p1><sg>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/c2if2gSYmQ_f]
-[cbMDmFKNjt5V#0] ^ifi_dinuovo<SV>{^Àere<vbhaver><pii><p3><sg>$ ^torrare<vblex><pp><m><sg>$ ^a<pr>$ ^gherrare<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[cbMDmFKNjt5V#0] ^ifi_dinuovo<SV>{^Àere<vbhaver><pii><p3><sg>$ ^torrare<vblex><pp><m><sg>$ ^a<pr>$ ^cumbàtere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/cbMDmFKNjt5V]
-[gWLbeiSoBzKc#0] ^det_n_adv_adj<SN>{^Su<det><def><f><sg>$ ^domo<n><f><sg>$ ^prus<adv>$ ^mannu<adj><f><sg>$}$
+[gWLbeiSoBzKc#0] ^det_n_adv_adj<SN><f><sg><sl_f><sl_sg>{^Su<det><def><f><sg>$ ^domo<n><f><sg>$ ^prus<adv>$ ^mannu<adj><f><sg>$}$
 [/gWLbeiSoBzKc]
 [mNBBXbYvg_Fn#0] ^fti-dinuovo<SV>{^Àere<vbhaver><pri><p1><sg>$ ^a<pr>$ ^torrare<vblex><inf>$ ^a<pr>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/mNBBXbYvg_Fn]
-[nh-zdNevNp91#0] ^àere_a_inf<SV>{^Àere<vbhaver><pri><p1><sg>$ ^a<pr>$ ^àere<vbhaver><inf>$}$ ^adj<SA>{^fàghere<vblex><pp><m><sg>$}$^sent<sent>{^.<sent>$}$
+[nh-zdNevNp91#0] ^àere_a_inf<SV>{^Àere<vbhaver><pri><p1><sg>$ ^a<pr>$ ^àere<vbhaver><inf>$}$ ^fàghere<SV><vblex><pp><m><sg><sl_m><sl_sg>{^fàghere<vblex><pp><4><5>$}$^sent<sent>{^.<sent>$}$
 [/nh-zdNevNp91]
 [twvN1h61BMlu#0] ^àere_a_inf<SV>{^Àere<vbhaver><pri><p1><sg>$ ^a<pr>$ ^àere<vbhaver><inf>$}$ ^verb_dinuovo<SV>{^torrare<vblex><pp><m><sg>$ ^a<pr>$ ^fàghere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/twvN1h61BMlu]
-[uwNuf0a_zgMb#0] ^adv<adv>{^No<adv>$}$ ^fàghere_a_inf<SV>{^fàghere<vblex><pri><p3><sg>$ ^a<pr>$ ^ti<prn><pro><p2><mf><sg>$ ^nàrrere<vblex><inf>$}$ ^prn<SN>{^nudda<prn><tn><nt><sg>$}$^sent<sent>{^.<sent>$}$
+[uwNuf0a_zgMb#0] ^No<SAdv>{^No<adv>$}$ ^fàghere_a_inf<SV>{^fàghere<vblex><pri><p3><sg>$ ^a<pr>$ ^ti<prn><pro><p2><mf><sg>$ ^nàrrere<vblex><inf>$}$ ^prn<SN>{^nudda<prn><tn><nt><sg>$}$^sent<sent>{^.<sent>$}$
 [/uwNuf0a_zgMb]
-[vHy2yKDSO5zT#0] ^v<SV>{^Àere<vbhaver><pri><p3><sg>$}$ ^verb_dinuovo<SV>{^torrare<vblex><pp><m><sg>$ ^a<pr>$ ^cumbàtere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
+[vHy2yKDSO5zT#0] ^Àere<SV><vbhaver><pri>{^Àere<vbhaver><pri><p3><sg>$}$ ^verb_dinuovo<SV>{^torrare<vblex><pp><m><sg>$ ^a<pr>$ ^cumbàtere<vblex><inf>$}$^sent<sent>{^.<sent>$}$
 [/vHy2yKDSO5zT]

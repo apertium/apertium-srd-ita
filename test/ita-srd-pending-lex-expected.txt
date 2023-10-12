@@ -16,13 +16,13 @@
 [/2St6CrdFudVW]
 [2_9IX23H7EZk#0] ^ottavo<n><m><sg>/oto<n><mf><sp>$^.<sent>/.<sent>$
 [/2_9IX23H7EZk]
-[2elBY1Fju_kw#0] ^Essere<vbser><pri><p3><sg>/Èssere<vbser><pri><p3><sg>$ ^più<adv>/prus<adv>/in prus<adv>/de prus<adv>$ ^facile<adj><mf><sg>/fàtzile<adj><mf><sg>$ ^promettere<vblex><inf>/promìtere<vblex><inf>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^mantenere<vblex><inf>/mantènnere<vblex><inf>$^.<sent>/.<sent>$
+[2elBY1Fju_kw#0] ^Essere<vbser><pri><p3><sg>/Èssere<vbser><pri><p3><sg>$ ^più<adv>/prus<adv>/de prus<adv>/in prus<adv>$ ^facile<adj><mf><sg>/fàtzile<adj><mf><sg>$ ^promettere<vblex><inf>/promìtere<vblex><inf>$ ^che<cnjsub>/chi<cnjsub>$ ^mantenere<vblex><inf>/mantènnere<vblex><inf>$^.<sent>/.<sent>$
 [/2elBY1Fju_kw]
 [2x1U5lphFvhT#0] ^Lo<prn><pro><p3><f><pl>/Lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/2x1U5lphFvhT]
 [30EXvk5wrXYm#0] ^non<adv>/no<adv>$ ^fare# male<vblex><inf>/dòlere<vblex><inf>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$^.<sent>/.<sent>$
 [/30EXvk5wrXYm]
-[3Aug5xvC_tOs#0] ^*Gliele/*Gliele$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
+[3Aug5xvC_tOs#0] ^Gli<prn><pro><p3><mf><sp>/Li<prn><pro><p3><mf><ND>$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/3Aug5xvC_tOs]
 [3DwCPlvc2JzH#0] ^nono<n><m><sg>/nou<n><mf><sp>$^.<sent>/.<sent>$
 [/3DwCPlvc2JzH]
@@ -50,7 +50,7 @@
 [/5I1yz05mxw9g]
 [5LqN4ap3vX8r#0] ^Dare<vblex><imp><p2><pl>/Dare<vblex><imp><p2><pl>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/5LqN4ap3vX8r]
-[5adQRK3PHXM1#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><nt>/lu<prn><pro><p3><m><sg>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
+[5adQRK3PHXM1#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><nt>/lu<prn><pro><p3><m><sg>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/5adQRK3PHXM1]
 [5edJyjsRkeuK#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/5edJyjsRkeuK]
@@ -60,7 +60,7 @@
 [/64-9814HdDkt]
 [64-URnCETYs8#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/64-URnCETYs8]
-[65edK_UW_srP#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><nt>/lu<prn><pro><p3><m><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
+[65edK_UW_srP#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><nt>/lu<prn><pro><p3><m><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/65edK_UW_srP]
 [6P_IaQdXog-B#0] ^Dare<vblex><imp><p1><pl>/Dare<vblex><imp><p1><pl>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$
 [/6P_IaQdXog-B]
@@ -92,7 +92,7 @@
 [/AIhngX11bAEq]
 [ALuqGbO-EI3H#0] ^Dare<vblex><imp><p2><pl>/Dare<vblex><imp><p2><pl>$ ^ci<prn><enc><p1><mf><pl>/nos<prn><enc><p1><mf><pl>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/ALuqGbO-EI3H]
-[ASsi4V-QcApA#0] ^*Gliele/*Gliele$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
+[ASsi4V-QcApA#0] ^Gli<prn><pro><p3><mf><sp>/Li<prn><pro><p3><mf><ND>$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/ASsi4V-QcApA]
 [AhraE654JWSA#0] ^Dare<vblex><imp><p2><pl>/Dare<vblex><imp><p2><pl>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/AhraE654JWSA]
@@ -100,17 +100,17 @@
 [/Aiju-NpRgWse]
 [AmRVGIvxCDR-#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^vi<prn><enc><p2><mf><pl>/bos<prn><enc><p2><mf><pl>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/AmRVGIvxCDR-]
-[Ao0kiJZQf3DX#0] ^Gli<prn><pro><p3><f><sg>/Li<prn><pro><p3><mf><sg>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
+[Ao0kiJZQf3DX#0] ^Gli<prn><pro><p3><m><sg>/Li<prn><pro><p3><mf><sg>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/Ao0kiJZQf3DX]
 [AzWvSvhgJXUD#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^ci<prn><enc><p1><mf><pl>/nos<prn><enc><p1><mf><pl>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/AzWvSvhgJXUD]
 [B2MwQHytq1i8#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^fazzoletto<n><m><sg>/mucadore<n><m><sg>$ ^non<adv>/no<adv>$ ^andare<vblex><pri><p3><sg>/andare<vblex><pri><p3><sg>$ ^mettere<vblex><pp><m><sg>/pònnere<vblex><pp><m><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
 [/B2MwQHytq1i8]
-[B3UmUZAWXeF-#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^non<adv>/no<adv>$ ^volere<vbmod><pri><p3><sg>/chèrrere<vblex><pri><p3><sg>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><prs><p3><sg>/fàghere<vblex><prs><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
+[B3UmUZAWXeF-#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^non<adv>/no<adv>$ ^volere<vbmod><pri><p3><sg>/chèrrere<vblex><pri><p3><sg>$ ^che<cnjsub>/chi<cnjsub>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><prs><p3><sg>/fàghere<vblex><prs><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
 [/B3UmUZAWXeF-]
-[B7-cbvrCfdTd#0] ^Il<det><def><f><sg>/Su<det><def><f><sg>$ ^più<adv>/prus<adv>/in prus<adv>/de prus<adv>$ ^ricco<adj><f><sg>/ricu<adj><f><sg>$ ^di<pr>/de<pr>$ ^il<det><def><m><sg>/su<det><def><m><sg>$ ^mondo<n><m><sg>/mundu<n><m><sg>$^.<sent>/.<sent>$
+[B7-cbvrCfdTd#0] ^Il<det><def><f><sg>/Su<det><def><f><sg>$ ^più<adv>/prus<adv>/de prus<adv>/in prus<adv>$ ^ricco<adj><f><sg>/ricu<adj><f><sg>$ ^di<pr>/de<pr>$ ^il<det><def><m><sg>/su<det><def><m><sg>$ ^mondo<n><m><sg>/mundu<n><m><sg>$^.<sent>/.<sent>$
 [/B7-cbvrCfdTd]
-[BUc65aAvPEsS#0] ^*Vistola/*Vistola$^.<sent>/.<sent>$
+[BUc65aAvPEsS#0] ^Vistola<np><hyd><f><sg>/Vìstola<np><hyd><f><sg>$^.<sent>/.<sent>$
 [/BUc65aAvPEsS]
 [Bi1dA4xEITjw#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^ci<prn><enc><p1><mf><pl>/nos<prn><enc><p1><mf><pl>$ ^lo<prn><enc><p3><m><pl>/lu<prn><enc><p3><m><pl>$^.<sent>/.<sent>$
 [/Bi1dA4xEITjw]
@@ -120,7 +120,7 @@
 [/C5lh-vBl4N00]
 [CGMFNLJza-aH#0] ^Dare<vblex><imp><p2><pl>/Dare<vblex><imp><p2><pl>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$^.<sent>/.<sent>$
 [/CGMFNLJza-aH]
-[CS5f2CiBiIqG#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^da<pr>/in<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
+[CS5f2CiBiIqG#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^da<pr>/de<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
 [/CS5f2CiBiIqG]
 [Ccm0krQLmsUg#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/Ccm0krQLmsUg]
@@ -130,9 +130,9 @@
 [/CydiQVClmEMa]
 [D_F5AigPngyM#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$^.<sent>/.<sent>$
 [/D_F5AigPngyM]
-[Dfv63RuEPgti#0] ^*Glieli/*Glieli$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
+[Dfv63RuEPgti#0] ^Gli<prn><pro><p3><mf><sp>/Li<prn><pro><p3><mf><ND>$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/Dfv63RuEPgti]
-[DrRn_rGWwhRv#0] ^Quello<det><dem><m><sg>/Cuddu<det><dem><m><sg>$ ^film<n><m><sp>/film<n><m><sp>$ ^essere<vbser><pii><p3><sg>/èssere<vbser><pii><p3><sg>$ ^da<pr>/in<pr>$ ^vedere<vblex><inf>/bìdere<vblex><inf>$^.<sent>/.<sent>$
+[DrRn_rGWwhRv#0] ^Quello<det><dem><m><sg>/Cuddu<det><dem><m><sg>$ ^film<n><m><sp>/film<n><m><sp>$ ^essere<vbser><pii><p3><sg>/èssere<vbser><pii><p3><sg>$ ^da<pr>/de<pr>$ ^vedere<vblex><inf>/bìdere<vblex><inf>$^.<sent>/.<sent>$
 [/DrRn_rGWwhRv]
 [EBJFnMtogwwF#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^lo<prn><enc><p3><m><pl>/lu<prn><enc><p3><m><pl>$^.<sent>/.<sent>$
 [/EBJFnMtogwwF]
@@ -140,9 +140,9 @@
 [/Ep9zOsZvQdvV]
 [EtFFq9Z_ryYb#0] ^Mi<prn><pro><p1><mf><sg>/Mi<prn><pro><p1><mf><sg>$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/EtFFq9Z_ryYb]
-[EyPEbVcL55xo#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
+[EyPEbVcL55xo#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/EyPEbVcL55xo]
-[FJKj2Pd9XnGs#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^volere<vbmod><pii><p3><sg>/chèrrere<vblex><pii><p3><sg>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><pis><p3><sg>/fàghere<vblex><pis><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
+[FJKj2Pd9XnGs#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^volere<vbmod><pii><p3><sg>/chèrrere<vblex><pii><p3><sg>$ ^che<cnjsub>/chi<cnjsub>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><pis><p3><sg>/fàghere<vblex><pis><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
 [/FJKj2Pd9XnGs]
 [GCsmx1_27RL7#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^vi<prn><enc><p2><mf><pl>/bos<prn><enc><p2><mf><pl>$ ^lo<prn><enc><p3><f><sg>/lu<prn><enc><p3><f><sg>$^.<sent>/.<sent>$
 [/GCsmx1_27RL7]
@@ -160,7 +160,7 @@
 [/Im0VMa03Wwny]
 [IzpwrJH74Uzo#0] ^Tutto<predet><m><pl>/Totu<predet><mf><sp>$ ^il<det><def><m><pl>/su<det><def><m><pl>$ ^albero<n><m><pl>/àrbore<n><mf><pl>$^.<sent>/.<sent>$
 [/IzpwrJH74Uzo]
-[J1OII4ZdhxYs#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^volere<vbmod><fti><p3><sg>/chèrrere<vblex><fti><p3><sg>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><prs><p3><sg>/fàghere<vblex><prs><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
+[J1OII4ZdhxYs#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^volere<vbmod><fti><p3><sg>/chèrrere<vblex><fti><p3><sg>$ ^che<cnjsub>/chi<cnjsub>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><prs><p3><sg>/fàghere<vblex><prs><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
 [/J1OII4ZdhxYs]
 [JADkUF3EDr8T#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/JADkUF3EDr8T]
@@ -176,7 +176,7 @@
 [/JfDuSBjz8PfN]
 [Jr_QjNDo8hGB#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/Jr_QjNDo8hGB]
-[K2GArJG29VuQ#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^più<adv>/prus<adv>/in prus<adv>/de prus<adv>$ ^bello<adj><m><sg>/bellu<adj><m><sg>$ ^di<pr>/de<pr>$ ^tutto<prn><tn><m><pl>/totu<prn><tn><mf><pl>$^.<sent>/.<sent>$
+[K2GArJG29VuQ#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^più<adv>/prus<adv>/de prus<adv>/in prus<adv>$ ^bello<adj><m><sg>/bellu<adj><m><sg>$ ^di<pr>/de<pr>$ ^tutto<prn><tn><m><pl>/totu<prn><tn><mf><pl>$^.<sent>/.<sent>$
 [/K2GArJG29VuQ]
 [K3VszBvhdXt7#0] ^Lo<prn><pro><p3><m><pl>/Lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/K3VszBvhdXt7]
@@ -198,7 +198,7 @@
 [/LqHlZnYnWHfC]
 [Lz6L0pra5-d7#0] ^Il<det><def><f><sg>/Su<det><def><f><sg>$ ^mio<adj><pos><f><sg>/meu<adj><pos><f><sg>$ ^terzo<adj><ord><f><sg>/de tres<adj><ord><mf><sp>$ ^casa<n><f><sg>/domo<n><f><sg>$^.<sent>/.<sent>$
 [/Lz6L0pra5-d7]
-[MAhRqZnudRUF#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^essere<vbser><fti><p3><sg>/èssere<vbser><fti><p3><sg>$ ^da<pr>/in<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
+[MAhRqZnudRUF#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^essere<vbser><fti><p3><sg>/èssere<vbser><fti><p3><sg>$ ^da<pr>/de<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
 [/MAhRqZnudRUF]
 [MILHTuXOdXWV#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$^.<sent>/.<sent>$
 [/MILHTuXOdXWV]
@@ -208,7 +208,7 @@
 [/NIXV-qxQryGA]
 [NXRGjkHDj7wz#0] ^quarto<n><m><sg>/bator<n><mf><sp>$^.<sent>/.<sent>$
 [/NXRGjkHDj7wz]
-[NySK_AXK-Act#0] ^Quello<det><dem><m><sg>/Cuddu<det><dem><m><sg>$ ^film<n><m><sp>/film<n><m><sp>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^da<pr>/in<pr>$ ^vedere<vblex><inf>/bìdere<vblex><inf>$^.<sent>/.<sent>$
+[NySK_AXK-Act#0] ^Quello<det><dem><m><sg>/Cuddu<det><dem><m><sg>$ ^film<n><m><sp>/film<n><m><sp>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^da<pr>/de<pr>$ ^vedere<vblex><inf>/bìdere<vblex><inf>$^.<sent>/.<sent>$
 [/NySK_AXK-Act]
 [OFMD_MEJh2nN#0] ^Dare<vblex><imp><p2><pl>/Dare<vblex><imp><p2><pl>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/OFMD_MEJh2nN]
@@ -230,19 +230,19 @@
 [/QCuve7jK-7g4]
 [QOsBS9RylRNd#0] ^Tutto<predet><f><pl>/Totu<predet><mf><sp>$ ^il<det><def><f><pl>/su<det><def><f><pl>$ ^casa<n><f><pl>/domo<n><f><pl>$^.<sent>/.<sent>$
 [/QOsBS9RylRNd]
-[Qx4JdL-5F9sT#0] ^*Gliene/*Gliene$^.<sent>/.<sent>$
+[Qx4JdL-5F9sT#0] ^Gli<prn><pro><p3><mf><sp>/Li<prn><pro><p3><mf><ND>$ ^ne<prn><pro><adv>/nde<prn><pro><adv>$^.<sent>/.<sent>$
 [/Qx4JdL-5F9sT]
-[R2fL2Z7-j7BW#0] ^Tuo<adj><pos><m><sg>/Tuo<adj><pos><m><sg>$ ^figlio<n><m><sg>/fìgiu<n><m><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^più<adv>/prus<adv>/in prus<adv>/de prus<adv>$ ^intelligente<adj><mf><sg>/intelligente<adj><mf><sg>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^studioso<adj><m><sg>/istudiosu<adj><m><sg>$^.<sent>/.<sent>$
+[R2fL2Z7-j7BW#0] ^Tuo<adj><pos><m><sg>/Tuo<adj><pos><m><sg>$ ^figlio<n><m><sg>/fìgiu<n><m><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^più<adv>/prus<adv>/de prus<adv>/in prus<adv>$ ^intelligente<adj><mf><sg>/intelligente<adj><mf><sg>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^studioso<adj><m><sg>/istudiosu<adj><m><sg>$^.<sent>/.<sent>$
 [/R2fL2Z7-j7BW]
 [R3sGKwZM5J26#0] ^Tuo<adj><pos><f><sg>/Tuo<adj><pos><f><sg>$ ^figlio<n><f><sg>/fìgiu<n><f><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^molto<preadv>/meda<preadv>$ ^studioso<adj><f><sg>/istudiosu<adj><f><sg>$^.<sent>/.<sent>$
 [/R3sGKwZM5J26]
-[R__FDtQojgde#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
+[R__FDtQojgde#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/R__FDtQojgde]
-[S8vpQUvdEGD6#0] ^Ci<prn><pro><adv>/Nche<prn><pro><adv>$ ^essere<vbser><pii><p3><pl>/èssere<vbser><pii><p3><pl>$ ^fico<n><m><pl>/figu<n><f><pl>$ ^e<cnjcoo>/e<cnjcoo>$ ^ghianda<n><f><pl>/lande<n><f><pl>$^.<sent>/.<sent>$
+[S8vpQUvdEGD6#0] ^Ci<prn><pro><adv>/Nche<prn><pro><adv>$ ^essere<vbser><pii><p3><pl>/àere<vblex><pii><p3><pl>$ ^fico<n><m><pl>/figu<n><f><pl>$ ^e<cnjcoo>/e<cnjcoo>$ ^ghianda<n><f><pl>/lande<n><f><pl>$^.<sent>/.<sent>$
 [/S8vpQUvdEGD6]
 [SLbbwxhPoqh3#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/SLbbwxhPoqh3]
-[SfLwMV0sNFwO#0] ^Porgere<vblex><pp><f><sg>/Porrire<vblex><pp><f><sg>/Pòrrere<vblex><pp><f><sg>/Apòrrere<vblex><pp><f><sg>$ ^di<pr>/de<pr>$ ^il<det><def><f><pl>/su<det><def><f><pl>$ ^mela<n><f><pl>/mela<n><f><pl>$^.<sent>/.<sent>$
+[SfLwMV0sNFwO#0] ^Porta<np><cog><mf><sp>/Porta<np><cog><mf><sp>$ ^di<pr>/de<pr>$ ^il<det><def><f><pl>/su<det><def><f><pl>$ ^mela<n><f><pl>/mela<n><f><pl>$^.<sent>/.<sent>$
 [/SfLwMV0sNFwO]
 [ShmuXaro2dT0#0] ^quinto<n><m><sg>/chimbe<n><mf><sp>$^.<sent>/.<sent>$
 [/ShmuXaro2dT0]
@@ -254,23 +254,23 @@
 [/TJURK-lGdJ8k]
 [TJjx21Cj3yLs#0] ^Dare<vblex><imp><p1><pl>/Dare<vblex><imp><p1><pl>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/TJjx21Cj3yLs]
-[TOCo0aDxT0qj#0] ^Gli<prn><pro><p3><f><sg>/Li<prn><pro><p3><mf><sg>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
+[TOCo0aDxT0qj#0] ^Gli<prn><pro><p3><m><sg>/Li<prn><pro><p3><mf><sg>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/TOCo0aDxT0qj]
 [TTij0pxdAAen#0] ^settimo<n><m><sg>/sete<n><mf><sp>$^.<sent>/.<sent>$
 [/TTij0pxdAAen]
-[U5dLa8N6SUNo#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^non<adv>/no<adv>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^da<pr>/in<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
+[U5dLa8N6SUNo#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^non<adv>/no<adv>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^da<pr>/de<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
 [/U5dLa8N6SUNo]
 [UE7gXCbAYqS8#0] ^Dare<vblex><imp><p1><pl>/Dare<vblex><imp><p1><pl>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/UE7gXCbAYqS8]
 [UM87kdI8nN4v#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/UM87kdI8nN4v]
-[UZOqtccI0LWV#0] ^*Glieli/*Glieli$^.<sent>/.<sent>$
+[UZOqtccI0LWV#0] ^Gli<prn><pro><p3><mf><sp>/Li<prn><pro><p3><mf><ND>$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$^.<sent>/.<sent>$
 [/UZOqtccI0LWV]
 [Ucb48HLaR-1L#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^si<prn><enc><ref><p3><mf><sp>/si<prn><enc><ref><p3><mf><sp>$ ^lo<prn><enc><p3><m><pl>/lu<prn><enc><p3><m><pl>$^.<sent>/.<sent>$
 [/Ucb48HLaR-1L]
 [UrXGzAKmq3GF#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$^.<sent>/.<sent>$
 [/UrXGzAKmq3GF]
-[Vg7Y7bO0clz2#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
+[Vg7Y7bO0clz2#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/Vg7Y7bO0clz2]
 [VkJnrGoq6SjS#0] ^Bello<adj><sup><m><pl>/Bellu<adj><m><pl>$^.<sent>/.<sent>$
 [/VkJnrGoq6SjS]
@@ -286,7 +286,7 @@
 [/WSzY62pNQFNf]
 [WTt-WABKvXUn#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/WTt-WABKvXUn]
-[WZ5MAHo2tg26#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^non<adv>/no<adv>$ ^volere<vbmod><pii><p3><sg>/chèrrere<vblex><pii><p3><sg>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><pis><p3><sg>/fàghere<vblex><pis><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
+[WZ5MAHo2tg26#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^non<adv>/no<adv>$ ^volere<vbmod><pii><p3><sg>/chèrrere<vblex><pii><p3><sg>$ ^che<cnjsub>/chi<cnjsub>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><pis><p3><sg>/fàghere<vblex><pis><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
 [/WZ5MAHo2tg26]
 [WZC3suyzmoTb#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$^.<sent>/.<sent>$
 [/WZC3suyzmoTb]
@@ -296,7 +296,7 @@
 [/Wl62twT86s2X]
 [X1xGHKJ3-qtM#0] ^sesto<n><m><sg>/ses<n><mf><sp>$^.<sent>/.<sent>$
 [/X1xGHKJ3-qtM]
-[X3176zNPd46G#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
+[X3176zNPd46G#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/X3176zNPd46G]
 [XE8Aamsy3vTY#0] ^Dare<vblex><imp><p1><pl>/Dare<vblex><imp><p1><pl>$ ^ci<prn><enc><p1><mf><pl>/nos<prn><enc><p1><mf><pl>$ ^lo<prn><enc><p3><f><pl>/lu<prn><enc><p3><f><pl>$^.<sent>/.<sent>$
 [/XE8Aamsy3vTY]
@@ -306,7 +306,7 @@
 [/XYiz7NUyksgG]
 [XZuDgdVcwdUu#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^lo<prn><enc><p3><m><pl>/lu<prn><enc><p3><m><pl>$^.<sent>/.<sent>$
 [/XZuDgdVcwdUu]
-[XszCvW8kPaJ3#0] ^Gli<prn><pro><p3><f><sg>/Li<prn><pro><p3><mf><sg>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$^.<sent>/.<sent>$
+[XszCvW8kPaJ3#0] ^Gli<prn><pro><p3><m><sg>/Li<prn><pro><p3><mf><sg>$ ^lo<prn><pro><p3><f><sg>/lu<prn><pro><p3><f><sg>$^.<sent>/.<sent>$
 [/XszCvW8kPaJ3]
 [Xwx_eNkygDIS#0] ^Dare<vblex><imp><p1><pl>/Dare<vblex><imp><p1><pl>$ ^ci<prn><enc><p1><mf><pl>/nos<prn><enc><p1><mf><pl>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/Xwx_eNkygDIS]
@@ -320,7 +320,7 @@
 [/YL1xQdzUzzt0]
 [YMp4_3h-uqPY#0] ^Il<det><def><f><sg>/Su<det><def><f><sg>$ ^mio<adj><pos><f><sg>/meu<adj><pos><f><sg>$ ^secondo<adj><ord><f><sg>/segundu<adj><ord><f><sg>$ ^casa<n><f><sg>/domo<n><f><sg>$^.<sent>/.<sent>$
 [/YMp4_3h-uqPY]
-[YUQIuIDWJ3LD#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
+[YUQIuIDWJ3LD#0] ^Dandolo<np><cog><mf><sp>/Dandolo<np><cog><mf><sp>$^.<sent>/.<sent>$
 [/YUQIuIDWJ3LD]
 [ZNBMym_hj3wh#0] ^Dare<vblex><imp><p1><pl>/Dare<vblex><imp><p1><pl>$ ^lo<prn><enc><p3><f><sg>/lu<prn><enc><p3><f><sg>$^.<sent>/.<sent>$
 [/ZNBMym_hj3wh]
@@ -330,7 +330,7 @@
 [/ZWseLVMNPksM]
 [_HmV3v09RkL8#0] ^Dire<vblex><imp><p2><sg>/Nàrrere<vblex><imp><p2><sg>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$ ^dove<adv><itg>/ue<adv><itg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$^!<sent>/!<sent>$
 [/_HmV3v09RkL8]
-[_VFG9k64AfrX#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
+[_VFG9k64AfrX#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/_VFG9k64AfrX]
 [_lOgBXIuZDFr#0] ^Gli<prn><pro><p3><m><sg>/Li<prn><pro><p3><mf><sg>$ ^lo<prn><pro><p3><nt>/lu<prn><pro><p3><m><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/_lOgBXIuZDFr]
@@ -350,9 +350,9 @@
 [/bLO2cM-vo-qs]
 [bSA9Mqpxr4i4#0] ^Mi<prn><pro><p1><mf><sg>/Mi<prn><pro><p1><mf><sg>$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/bSA9Mqpxr4i4]
-[c2HuKSrgvKrw#0] ^Cosa<prn><itg><mf><sg>/Ite<prn><itg><mf><sg>$ ^ci<prn><pro><adv>/nche<prn><pro><adv>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^da<pr>/de<pr>$ ^fare<vblex><inf>/fàghere<vblex><inf>$^?<sent>/?<sent>$
+[c2HuKSrgvKrw#0] ^Cosa<prn><itg><mf><sg>/Ite<prn><itg><mf><sg>$ ^ci<prn><pro><adv>/nche<prn><pro><adv>$ ^essere<vbser><pri><p3><sg>/àere<vblex><pri><p3><sg>$ ^da<pr>/de<pr>$ ^fare<vblex><inf>/fàghere<vblex><inf>$^?<sent>/?<sent>$
 [/c2HuKSrgvKrw]
-[c2W-ugxmSCdu#0] ^Ci<prn><pro><adv>/Nche<prn><pro><adv>$ ^essere<vbser><pri><p3><pl>/èssere<vbser><pri><p3><pl>$ ^tutto<prn><tn><f><pl>/totu<prn><tn><mf><pl>$^.<sent>/.<sent>$
+[c2W-ugxmSCdu#0] ^Ci<prn><pro><adv>/Nche<prn><pro><adv>$ ^essere<vbser><pri><p3><pl>/àere<vblex><pri><p3><pl>$ ^tutto<prn><tn><f><pl>/totu<prn><tn><mf><pl>$^.<sent>/.<sent>$
 [/c2W-ugxmSCdu]
 [c8_uEZnOPqJW#0] ^Marco<np><ant><m><sg>/Marco<np><ant><m><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^meno<adv>/prus pagu<adv>$ ^studioso<adj><m><sg>/istudiosu<adj><m><sg>$ ^di<pr>/de<pr>$ ^Carlo<np><ant><m><sg>/Carlo<np><ant><m><sg>$^.<sent>/.<sent>$
 [/c8_uEZnOPqJW]
@@ -364,7 +364,7 @@
 [/cecMZE6g7VPh]
 [cgCO4a3KVFEB#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$ ^lo<prn><enc><p3><nt>/lu<prn><enc><p3><m><sg>$^.<sent>/.<sent>$
 [/cgCO4a3KVFEB]
-[csOEax5508Pn#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^non<adv>/no<adv>$ ^essere<vbser><fti><p3><sg>/èssere<vbser><fti><p3><sg>$ ^da<pr>/in<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
+[csOEax5508Pn#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^non<adv>/no<adv>$ ^essere<vbser><fti><p3><sg>/èssere<vbser><fti><p3><sg>$ ^da<pr>/de<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
 [/csOEax5508Pn]
 [cxaz04k7AYL-#0] ^Mi<prn><pro><p1><mf><sg>/Mi<prn><pro><p1><mf><sg>$ ^dare<vblex><prs><p3><sg>/dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/cxaz04k7AYL-]
@@ -402,7 +402,7 @@
 [/jNwMvrc6BtoU]
 [jUu6u0M46L8L#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^si<prn><enc><ref><p3><mf><sp>/si<prn><enc><ref><p3><mf><sp>$ ^lo<prn><enc><p3><m><pl>/lu<prn><enc><p3><m><pl>$^.<sent>/.<sent>$
 [/jUu6u0M46L8L]
-[jvl2RZqhlAEG#0] ^Ci<prn><pro><adv>/Nche<prn><pro><adv>$ ^essere<vbser><pri><p3><pl>/èssere<vbser><pri><p3><pl>$ ^tutto<prn><tn><m><pl>/totu<prn><tn><mf><pl>$^.<sent>/.<sent>$
+[jvl2RZqhlAEG#0] ^Ci<prn><pro><adv>/Nche<prn><pro><adv>$ ^essere<vbser><pri><p3><pl>/àere<vblex><pri><p3><pl>$ ^tutto<prn><tn><m><pl>/totu<prn><tn><mf><pl>$^.<sent>/.<sent>$
 [/jvl2RZqhlAEG]
 [jzmXg90LJOYm#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$^.<sent>/.<sent>$
 [/jzmXg90LJOYm]
@@ -418,7 +418,7 @@
 [/khfZPaoBV2Wp]
 [kp-Si8jhXblZ#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^lo<prn><enc><p3><f><sg>/lu<prn><enc><p3><f><sg>$^.<sent>/.<sent>$
 [/kp-Si8jhXblZ]
-[l8TZEODmcAyZ#0] ^*Ce/*Ce$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
+[l8TZEODmcAyZ#0] ^Ci<prn><pro><p1><mf><pl>/Nos<prn><pro><p1><mf><pl>$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/l8TZEODmcAyZ]
 [lIa3BPafAPWt#0] ^Mi<prn><pro><p1><mf><sg>/Mi<prn><pro><p1><mf><sg>$ ^lo<prn><pro><p3><m><pl>/lu<prn><pro><p3><m><pl>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/lIa3BPafAPWt]
@@ -426,7 +426,7 @@
 [/lKejOqy7kG11]
 [lSGqmRf3U8YX#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$ ^lo<prn><enc><p3><f><sg>/lu<prn><enc><p3><f><sg>$^.<sent>/.<sent>$
 [/lSGqmRf3U8YX]
-[m0_Xf6kS-I3D#0] ^Carlo<np><ant><m><sg>/Carlo<np><ant><m><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^più<adv>/prus<adv>/in prus<adv>/de prus<adv>$ ^serio<adj><m><sg>/sèriu<adj><m><sg>$ ^di<pr>/de<pr>$ ^Marco<np><ant><m><sg>/Marco<np><ant><m><sg>$^.<sent>/.<sent>$
+[m0_Xf6kS-I3D#0] ^Carlo<np><ant><m><sg>/Carlo<np><ant><m><sg>$ ^essere<vbser><pri><p3><sg>/èssere<vbser><pri><p3><sg>$ ^più<adv>/prus<adv>/de prus<adv>/in prus<adv>$ ^serio<adj><m><sg>/sèriu<adj><m><sg>$ ^di<pr>/de<pr>$ ^Marco<np><ant><m><sg>/Marco<np><ant><m><sg>$^.<sent>/.<sent>$
 [/m0_Xf6kS-I3D]
 [mJ17-cBa84KE#0] ^Dare<vblex><imp><p2><sg>/Dare<vblex><imp><p2><sg>$ ^ti<prn><enc><p2><mf><sg>/ti<prn><enc><p2><mf><sg>$ ^lo<prn><enc><p3><f><sg>/lu<prn><enc><p3><f><sg>$^.<sent>/.<sent>$
 [/mJ17-cBa84KE]
@@ -436,11 +436,11 @@
 [/n0eBTb3GH37N]
 [n2w-cH4Fu--c#0] ^Dare<vblex><imp><p2><pl>/Dare<vblex><imp><p2><pl>$ ^mi<prn><enc><p1><mf><sg>/mi<prn><enc><p1><mf><sg>$ ^lo<prn><enc><p3><f><sg>/lu<prn><enc><p3><f><sg>$^.<sent>/.<sent>$
 [/n2w-cH4Fu--c]
-[ndD933Zim1s1#0] ^*Gliele/*Gliele$^.<sent>/.<sent>$
+[ndD933Zim1s1#0] ^Gli<prn><pro><p3><mf><sp>/Li<prn><pro><p3><mf><ND>$ ^lo<prn><pro><p3><f><pl>/lu<prn><pro><p3><f><pl>$^.<sent>/.<sent>$
 [/ndD933Zim1s1]
 [o4ChB-vG2dQr#0] ^Dare<vblex><inf>/Dare<vblex><inf>$ ^gli<prn><enc><p3><m><sg>/li<prn><enc><p3><mf><sg>$^.<sent>/.<sent>$
 [/o4ChB-vG2dQr]
-[oQWoAoJXa1Rx#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^essere<vbser><pii><p3><sg>/èssere<vbser><pii><p3><sg>$ ^da<pr>/in<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
+[oQWoAoJXa1Rx#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^essere<vbser><pii><p3><sg>/èssere<vbser><pii><p3><sg>$ ^da<pr>/de<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
 [/oQWoAoJXa1Rx]
 [og_TJubJEU_o#0] ^Data<n><f><pl>/Data<n><f><pl>$^.<sent>/.<sent>$
 [/og_TJubJEU_o]
@@ -474,11 +474,11 @@
 [/sBdSFLic9QrF]
 [sO98J2X6c_J_#0] ^Dare<vblex><prs><p3><sg>/Dare<vblex><prs><p3><sg>$^.<sent>/.<sent>$
 [/sO98J2X6c_J_]
-[sb6DAayPQMMe#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^non<adv>/no<adv>$ ^essere<vbser><pii><p3><sg>/èssere<vbser><pii><p3><sg>$ ^da<pr>/in<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
+[sb6DAayPQMMe#0] ^Il<det><def><m><sg>/Su<det><def><m><sg>$ ^secchio<n><m><sg>/puale<n><m><sg>$ ^non<adv>/no<adv>$ ^essere<vbser><pii><p3><sg>/èssere<vbser><pii><p3><sg>$ ^da<pr>/de<pr>$ ^mettere<vblex><inf>/pònnere<vblex><inf>$ ^in<pr>/in<pr>$ ^quello<det><dem><mf><sg>/cuddu<det><dem><GD><sg>$ ^angolo<n><m><sg>/àngulu<n><m><sg>$^.<sent>/.<sent>$
 [/sb6DAayPQMMe]
 [sjOdc3MmrCib#0] ^Lo<prn><pro><p3><f><sg>/Lu<prn><pro><p3><f><sg>$ ^dare<vblex><prs><p3><pl>/dare<vblex><prs><p3><pl>$^.<sent>/.<sent>$
 [/sjOdc3MmrCib]
-[slNMWaoSNe70#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^volere<vbmod><pri><p3><sg>/chèrrere<vblex><pri><p3><sg>$ ^che<rel><an><mf><sp>/chi<rel><an><mf><sp>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><prs><p3><sg>/fàghere<vblex><prs><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
+[slNMWaoSNe70#0] ^Lui<prn><tn><p3><m><sg>/Issu<prn><tn><p3><m><sg>$ ^volere<vbmod><pri><p3><sg>/chèrrere<vblex><pri><p3><sg>$ ^che<cnjsub>/chi<cnjsub>$ ^si<prn><pro><ref><p3><mf><sp>/si<prn><pro><ref><p3><mf><sp>$ ^fare<vblex><prs><p3><sg>/fàghere<vblex><prs><p3><sg>$ ^così<adv>/gasi<adv>$^.<sent>/.<sent>$
 [/slNMWaoSNe70]
 [t80n_NB_CCVd#0] ^Dare<vblex><ger>/Dare<vblex><ger>$ ^vi<prn><enc><p2><mf><pl>/bos<prn><enc><p2><mf><pl>$^.<sent>/.<sent>$
 [/t80n_NB_CCVd]
