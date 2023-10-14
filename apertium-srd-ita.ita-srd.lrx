@@ -1559,6 +1559,16 @@
     <match lemma="in" tags="pr"/>
     <match lemma="corso" tags="n.m.sg"><select lemma="corsicanu"/></match>
   </rule>
+  <rule weight="1.4">
+    <or>
+      <match lemma="operazione" tags="n.*"/>
+      <match lemma="azione" tags="n.*"/>
+      <match lemma="ricerca" tags="n.*"/>
+      <match lemma="lavoro" tags="n.*"/>
+    </or>
+    <match lemma="in" tags="pr"/>
+    <match lemma="corso" tags="n.m.*"><select lemma="cursu"/></match>
+  </rule>
 
 
 <!-- MIGLIO n.m.sg > MÌLLIU/ERBA FERRU -->
