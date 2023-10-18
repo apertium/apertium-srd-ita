@@ -2629,6 +2629,11 @@
 
 <!-- **************** VBLEX **************** -->
 
+  <!-- fondare > fundare, fundamentare -->
+  <rule weight="0.8">
+    <match lemma="fondare" tags="vblex.*"><select lemma="fundare"/></match>
+  </rule>
+
   <!-- venire > bènnire, èssere -->
   <rule weight="0.8">
     <match lemma="venire" tags="vblex.*"><select lemma="bènnire"/></match>
