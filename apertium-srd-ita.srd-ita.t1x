@@ -672,7 +672,7 @@
               <test>
                 <and>
                   <equal><case-of pos="1" side="sl" part="lemh"/><lit v="Aa"/></equal>
-                  <equal><clip pos="1" side="sl" part="lem"/><clip pos="3" side="sl" part="lemh"/></equal>
+                  <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><clip pos="3" side="sl" part="lemh"/></equal>
                 </and>
               </test>
               <let><clip pos="2" side="tl" part="a_adj_pre"/><lit-tag v="adj"/></let>
@@ -8997,30 +8997,68 @@
      <let><clip pos="2" side="tl" part="a_prn"/><lit-tag v="prn.enc"/></let>
      <modify-case><clip pos="3" side="tl" part="lemh"/><case-of pos="1" side="sl" part="lemh"/></modify-case>
      <modify-case><clip pos="1" side="tl" part="lemh"/><case-of pos="2" side="sl" part="lemh"/></modify-case>
-     <out>
-       <chunk namefrom="chunkname">
-         <tags>
-           <tag><lit-tag v="SV"/></tag>
-           <tag><clip pos="3" side="tl" part="a_verb"/></tag>
-           <tag><clip pos="3" side="tl" part="temps"/></tag>
-         </tags>
-         <mlu>
-           <lu>
-             <clip pos="3" side="tl" part="lemh"/>
-             <clip pos="3" side="tl" part="tags"/>
-           </lu>
-           <lu>
-             <clip pos="1" side="tl" part="lem"/>
-             <clip pos="1" side="tl" part="tags"/>
-           </lu>
-           <lu>
-             <clip pos="2" side="tl" part="lem"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="3" side="tl" part="lemq"/>
-           </lu>
-         </mlu>
-       </chunk>
-     </out>
+     <choose>
+       <when>
+         <test>
+           <or>
+             <and>
+               <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="nche"/></equal>
+               <not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="nde"/></equal></not>
+             </and>
+             <and>
+               <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="nde"/></equal>
+               <not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="nche"/></equal></not>
+             </and>
+           </or>
+         </test>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="3" side="tl" part="temps"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+               </lu>
+               <lu>
+                 <clip pos="2" side="tl" part="lem"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </when>
+       <otherwise>
+         <out>
+           <chunk namefrom="chunkname">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+               <tag><clip pos="3" side="tl" part="a_verb"/></tag>
+               <tag><clip pos="3" side="tl" part="temps"/></tag>
+             </tags>
+             <mlu>
+               <lu>
+                 <clip pos="3" side="tl" part="lemh"/>
+                 <clip pos="3" side="tl" part="tags"/>
+               </lu>
+               <lu>
+                 <clip pos="1" side="tl" part="lem"/>
+                 <clip pos="1" side="tl" part="tags"/>
+               </lu>
+               <lu>
+                 <clip pos="2" side="tl" part="lem"/>
+                 <clip pos="2" side="tl" part="tags"/>
+                 <clip pos="3" side="tl" part="lemq"/>
+               </lu>
+             </mlu>
+           </chunk>
+         </out>
+       </otherwise>
+     </choose>
    </action>
 </rule>
 
@@ -9071,10 +9109,16 @@
      <choose>
        <when>
          <test>
-           <and>
-             <equal><clip pos="2" side="sl" part="lem"/><lit v="nche"/></equal>
-             <not><equal><clip pos="3" side="tl" part="lem"/><lit v="nde"/></equal></not>
-           </and>
+           <or>
+             <and>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="nche"/></equal>
+               <not><equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="nde"/></equal></not>
+             </and>
+             <and>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="nde"/></equal>
+               <not><equal caseless="yes"><clip pos="3" side="tl" part="lem"/><lit v="nche"/></equal></not>
+             </and>
+           </or>
          </test>
          <choose>
            <when>
@@ -9082,7 +9126,7 @@
                <and>
                  <equal><clip pos="1" side="sl" part="pers"/><lit-tag v="p2"/></equal>
                  <equal><clip pos="1" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
-                 <equal><clip pos="3" side="sl" part="lem"/><lit v="ti"/></equal>
+                 <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="ti"/></equal>
                </and>
              </test>
              <out>
