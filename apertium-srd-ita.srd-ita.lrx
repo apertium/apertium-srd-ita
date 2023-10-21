@@ -368,6 +368,8 @@
       <rule weight="1.0">
          <or>
            <match lemma="vangelu" tags="n.*"/>
+           <match lemma="vangèliu" tags="n.*"/>
+           <match lemma="evangèliu" tags="n.*"/>
            <match lemma="apocalisse" tags="n.*"/>
          </or>
          <or>
