@@ -4770,12 +4770,12 @@
                   <not><equal><clip pos="5" side="sl" part="nbr"/><lit-tag v="sp"/></equal></not>
                 </and>
               </or>
-              <or> <!-- nom2 e adjpos concordano sul genere -->
+              <or> <!-- nom1 e adjpos concordano sul genere -->
                 <equal><clip pos="2" side="sl" part="gen"/><clip pos="5" side="sl" part="gen"/></equal>
                 <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="mf"/></equal>
                 <equal><clip pos="5" side="sl" part="gen"/><lit-tag v="mf"/></equal>
               </or>
-              <or> <!-- nom2 e adjpos concordano sul numero -->
+              <or> <!-- nom1 e adjpos concordano sul numero -->
                 <equal><clip pos="2" side="sl" part="nbr"/><clip pos="5" side="sl" part="nbr"/></equal>
                 <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
                 <equal><clip pos="5" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
