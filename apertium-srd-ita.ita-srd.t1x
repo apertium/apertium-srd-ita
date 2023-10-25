@@ -20002,7 +20002,7 @@
          <call-macro n="f_chunk_tags">
            <with-param pos="2"/>
          </call-macro>
-         <call-macro n="f_clean_adjpost">
+         <call-macro n="f_clean_advpost">
            <with-param pos="2"/>
          </call-macro>
          <out>
