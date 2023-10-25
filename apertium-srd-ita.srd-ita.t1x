@@ -546,6 +546,8 @@
   <def-var n="numero_sl" v="&lt;sg&gt;"/>
   <def-var n="genero_tl" v="&lt;m&gt;"/>
   <def-var n="numero_tl" v="&lt;sg&gt;"/>
+  <def-var n="genero_tmp"/>
+  <def-var n="numero_tmp"/>
   <def-var n="chunkname"/>
   <def-var n="concPrimero"/>
   <def-var n="concSegundo"/>
@@ -4739,6 +4741,162 @@
          </lu>
        </chunk>
      </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: detdef nom de nom pos: s'esistentzia de cultura issoro > l'esistenza della loro cultura ; su puntu de vista suo > il suo punto di vista">
+   <pattern>
+     <pattern-item n="detdef"/>
+     <pattern-item n="nom"/>
+     <pattern-item n="de_pr"/>
+     <pattern-item n="nom"/>
+     <pattern-item n="adjpos"/>
+   </pattern>
+   <action>
+     <choose>
+        <when>
+          <test>
+            <and>
+              <or> <!-- nom2 e adjpos non concordano sul genere o il numero -->
+                <and> <!-- nom2 e adjpos non concordano sul genere -->
+                  <not><equal><clip pos="4" side="sl" part="gen"/><clip pos="5" side="sl" part="gen"/></equal></not>
+                  <not><equal><clip pos="4" side="sl" part="gen"/><lit-tag v="mf"/></equal></not>
+                  <not><equal><clip pos="5" side="sl" part="gen"/><lit-tag v="mf"/></equal></not>
+                </and>
+                <and> <!-- nom2 e adjpos non concordano sul numero -->
+                  <not><equal><clip pos="4" side="sl" part="nbr"/><clip pos="5" side="sl" part="nbr"/></equal></not>
+                  <not><equal><clip pos="4" side="sl" part="nbr"/><lit-tag v="sp"/></equal></not>
+                  <not><equal><clip pos="5" side="sl" part="nbr"/><lit-tag v="sp"/></equal></not>
+                </and>
+              </or>
+              <or> <!-- nom2 e adjpos concordano sul genere -->
+                <equal><clip pos="2" side="sl" part="gen"/><clip pos="5" side="sl" part="gen"/></equal>
+                <equal><clip pos="2" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+                <equal><clip pos="5" side="sl" part="gen"/><lit-tag v="mf"/></equal>
+              </or>
+              <or> <!-- nom2 e adjpos concordano sul numero -->
+                <equal><clip pos="2" side="sl" part="nbr"/><clip pos="5" side="sl" part="nbr"/></equal>
+                <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+                <equal><clip pos="5" side="sl" part="nbr"/><lit-tag v="sp"/></equal>
+              </or>
+            </and>
+          </test>
+          <call-macro n="f_concord1">
+            <with-param pos="4"/>
+          </call-macro>
+          <call-macro n="f_concord4">
+            <with-param pos="2"/>
+            <with-param pos="1"/>
+            <with-param pos="5"/>
+            <with-param pos="3"/>
+          </call-macro>
+          <call-macro n="f_chunk_tags">
+            <with-param pos="2"/>
+          </call-macro>
+          <out>
+            <chunk name="det-pos-nom-pr-nom">
+              <tags>
+                <tag><lit-tag v="SN"/></tag>
+                <tag><clip pos="2" side="tl" part="gen"/></tag>
+                <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                <tag><var n="genero_sl"/></tag>
+                <tag><var n="numero_sl"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="tl" part="tags"/>
+                <clip pos="5" side="tl" part="lemq"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="tags"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              <b pos="3"/>
+              <lu>
+                <clip pos="3" side="tl" part="lem"/>
+                <clip pos="3" side="tl" part="tags"/>
+              </lu>
+              <b pos="4"/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="tl" part="tags"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
+        </when>
+        <otherwise>
+          <call-macro n="f_concord2">
+            <with-param pos="4"/>
+            <with-param pos="5"/>
+          </call-macro>
+          <let><var n="genero_tmp"/><var n="genero"/></let>
+          <let><var n="numero_tmp"/><var n="numero"/></let>
+          <call-macro n="f_concord3">
+            <with-param pos="2"/>
+            <with-param pos="1"/>
+            <with-param pos="3"/>
+          </call-macro>
+          <call-macro n="f_chunk_tags">
+            <with-param pos="2"/>
+          </call-macro>
+          <out>
+            <chunk name="det-nom-pr-det-pos-nom">
+              <tags>
+                <tag><lit-tag v="SN"/></tag>
+                <tag><clip pos="2" side="tl" part="gen"/></tag>
+                <tag><clip pos="2" side="tl" part="nbr"/></tag>
+                <tag><var n="genero_sl"/></tag>
+                <tag><var n="numero_sl"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="lemh"/>
+                <clip pos="1" side="tl" part="tags"/>
+                <clip pos="1" side="tl" part="lemq"/>
+              </lu>
+              <b pos="1"/>
+              <lu>
+                <clip pos="2" side="tl" part="lemh"/>
+                <clip pos="2" side="tl" part="tags"/>
+                <clip pos="2" side="tl" part="lemq"/>
+              </lu>
+              <b pos="2"/>
+              <lu>
+                <clip pos="3" side="tl" part="lem"/>
+                <clip pos="3" side="tl" part="tags"/>
+              </lu>
+              <b pos="3"/>
+              <lu>
+                <lit v="il"/>
+                <lit-tag v="det.def"/>
+                <var n="genero_tmp"/>
+                <var n="numero_tmp"/>
+              </lu>
+              <b/>
+              <lu>
+                <clip pos="5" side="tl" part="lemh"/>
+                <clip pos="5" side="tl" part="tags"/>
+                <clip pos="5" side="tl" part="lemq"/>
+              </lu>
+              <b pos="4"/>
+              <lu>
+                <clip pos="4" side="tl" part="lemh"/>
+                <clip pos="4" side="tl" part="tags"/>
+                <clip pos="4" side="tl" part="lemq"/>
+              </lu>
+            </chunk>
+          </out>
+        </otherwise>
+     </choose>
    </action>
 </rule>
 
