@@ -3330,6 +3330,12 @@
      </repeat>
      <or>
        <seq n="animale"/>
+       <match lemma="bambino" tags="n.*"/>
+       <match lemma="bebè" tags="n.*"/>
+       <match lemma="bimbo" tags="n.*"/>
+       <match lemma="baby" tags="n.*"/>
+       <match lemma="neonato" tags="n.*"/>
+       <match lemma="scolaro" tags="n.*"/>
      </or>
   </rule>
 
