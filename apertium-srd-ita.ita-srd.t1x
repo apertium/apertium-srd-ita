@@ -17,6 +17,9 @@
     <def-cat n="np">
        <cat-item tags="np.*"/>
     </def-cat>
+    <def-cat n="npant">
+       <cat-item tags="np.ant.*"/>
+    </def-cat>
     <def-cat n="np_unk">
        <cat-item tags="np.*"/>
        <cat-item tags=""/>
@@ -52,6 +55,42 @@
     <def-cat n="num_lettere">
        <cat-item tags="num.*"/>
     </def-cat>
+<!-- not working
+    <def-cat n="numrom">
+       <cat-item lemma="I" tags="num.*"/>
+       <cat-item lemma="II" tags="num.*"/>
+       <cat-item lemma="III" tags="num.*"/>
+       <cat-item lemma="IV" tags="num.*"/>
+       <cat-item lemma="V" tags="num.*"/>
+       <cat-item lemma="VI" tags="num.*"/>
+       <cat-item lemma="VII" tags="num.*"/>
+       <cat-item lemma="VIII" tags="num.*"/>
+       <cat-item lemma="IX" tags="num.*"/>
+       <cat-item lemma="X" tags="num.*"/>
+       <cat-item lemma="XI" tags="num.*"/>
+       <cat-item lemma="XI" tags="num.*"/>
+       <cat-item lemma="XII" tags="num.*"/>
+       <cat-item lemma="XIII" tags="num.*"/>
+       <cat-item lemma="XIV" tags="num.*"/>
+       <cat-item lemma="XV" tags="num.*"/>
+       <cat-item lemma="XVI" tags="num.*"/>
+       <cat-item lemma="XVII" tags="num.*"/>
+       <cat-item lemma="XVIII" tags="num.*"/>
+       <cat-item lemma="XIX" tags="num.*"/>
+       <cat-item lemma="XX" tags="num.*"/>
+       <cat-item lemma="XXI" tags="num.*"/>
+       <cat-item lemma="XXII" tags="num.*"/>
+       <cat-item lemma="XXII" tags="num.*"/>
+       <cat-item lemma="XXIII" tags="num.*"/>
+       <cat-item lemma="XXIV" tags="num.*"/>
+       <cat-item lemma="XXV" tags="num.*"/>
+       <cat-item lemma="XXVI" tags="num.*"/>
+       <cat-item lemma="XXVII" tags="num.*"/>
+       <cat-item lemma="XXVIII" tags="num.*"/>
+       <cat-item lemma="XXIX" tags="num.*"/>
+       <cat-item lemma="XXX" tags="num.*"/>
+    </def-cat>
+-->
     <def-cat n="verb">
        <cat-item tags="vbmod.*"/>
        <cat-item tags="vbser.*"/>
@@ -902,7 +941,7 @@
 </section-def-vars>
 
 <section-def-lists>
-    <def-list n="numrom">
+    <def-list n="lnumrom">
        <list-item v="I"/>
        <list-item v="II"/>
        <list-item v="III"/>
@@ -4953,7 +4992,7 @@
        <when>
          <test>
            <and>
-             <in><clip pos="1" side="sl" part="lemh"/><list n="numrom"/></in>
+             <in><clip pos="1" side="sl" part="lemh"/><list n="lnumrom"/></in>
              <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
@@ -4982,7 +5021,7 @@
        </when>
        <when>
          <test>
-           <in><clip pos="1" side="sl" part="lemh"/><list n="numrom"/></in>
+           <in><clip pos="1" side="sl" part="lemh"/><list n="lnumrom"/></in>
          </test>
          <let><clip pos="2" side="tl" part="nbr"/><lit-tag v="pl"/></let>
          <out>
@@ -5120,7 +5159,7 @@
        <when>
          <test>
            <and>
-             <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
+             <in><clip pos="2" side="sl" part="lemh"/><list n="lnumrom"/></in>
              <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
@@ -5153,7 +5192,7 @@
        </when>
        <when>
          <test>
-           <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
+           <in><clip pos="2" side="sl" part="lemh"/><list n="lnumrom"/></in>
          </test>
          <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let>
          <out>
@@ -9347,7 +9386,7 @@
        <when>
          <test>
            <and>
-             <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
+             <in><clip pos="2" side="sl" part="lemh"/><list n="lnumrom"/></in>
              <equal caseless="yes"><clip pos="3" side="sl" part="lem"/><lit v="secolo"/></equal>
            </and>
          </test>
@@ -9383,7 +9422,7 @@
 
        <when>
          <test>
-           <in><clip pos="2" side="sl" part="lemh"/><list n="numrom"/></in>
+           <in><clip pos="2" side="sl" part="lemh"/><list n="lnumrom"/></in>
          </test>
          <let><clip pos="3" side="tl" part="nbr"/><lit-tag v="pl"/></let>
          <out>
@@ -19828,6 +19867,43 @@
          </out>
        </action>
     </rule>
+
+    <rule comment="regla: npant numrom">
+       <pattern>
+         <pattern-item n="npant"/>
+         <pattern-item n="num_lettere"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="1"/>
+         </call-macro>
+         <call-macro n="f_chunk_tags">
+           <with-param pos="1"/>
+         </call-macro>
+         <out>
+           <chunk name="np">
+             <tags>
+               <tag><lit-tag v="SN"/></tag>
+               <tag><clip pos="1" side="tl" part="gen"/></tag>
+               <tag><clip pos="1" side="tl" part="nbr"/></tag>
+               <tag><var n="genero_sl"/></tag>
+               <tag><var n="numero_sl"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lemh"/>
+               <clip pos="1" side="tl" part="tags"/>
+               <clip pos="1" side="tl" part="lemq"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lem"/>
+               <clip pos="2" side="tl" part="tags"/>
+             </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
 
     <rule comment="regla: pp (tractament multiparaules)">
        <pattern>
