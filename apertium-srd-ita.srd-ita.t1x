@@ -24,6 +24,9 @@
        <cat-item tags="prn.tn.p2.*"/>
        <cat-item tags="prn.tn.p3.*"/>
     </def-cat>
+    <def-cat n="prn-pos">
+       <cat-item tags="prn.pos.*"/>
+    </def-cat>
     <def-cat n="predet">
        <cat-item tags="predet.*"/>
     </def-cat>
@@ -430,6 +433,18 @@
     <def-cat n="prus_mancu">
        <cat-item lemma="prus" tags="adv"/>
        <cat-item lemma="mancu" tags="adv"/>
+    </def-cat>
+    <def-cat n="adv_logu">
+       <cat-item lemma="in dae in antis" tags="adv"/>
+       <cat-item lemma="a dae in antis" tags="adv"/>
+       <cat-item lemma="in antis" tags="adv"/>
+       <cat-item lemma="in dae segus" tags="adv"/>
+       <cat-item lemma="in segus" tags="adv"/>
+       <cat-item lemma="a segus" tags="adv"/>
+       <cat-item lemma="dae segus" tags="adv"/>
+       <cat-item lemma="dae segus a" tags="adv"/>
+       <cat-item lemma="segus" tags="adv"/>
+       <cat-item lemma="a curtzu" tags="adv"/>
     </def-cat>
     <def-cat n="rel">
        <cat-item tags="rel.*"/>
@@ -8457,6 +8472,108 @@
    </action>
 </rule>
 
+
+    <rule comment="regla: adv_logu prn-pos (in dae in antis meu > davanti a me)">
+       <pattern>
+         <pattern-item n="adv_logu"/>
+         <pattern-item n="prn-pos"/>
+       </pattern>
+       <action>
+         <call-macro n="f_concord1">
+           <with-param pos="2"/>
+         </call-macro>
+         <choose>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="in dae in antis"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a dae in antis"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="in antis"/></equal>
+               </or>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="davanti a"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="in dae segus"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="in segus"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a segus"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dae segus"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dae segus a"/></equal>
+                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="segus"/></equal>
+               </or>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="dietro di"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="a curtzu"/></equal>
+             </test>
+             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="vicino a"/></get-case-from></let>
+             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="pr"/></let>
+           </when>
+         </choose>
+         <choose>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="meu"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="me"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p1.mf.sg"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="tuo"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="te"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p2.mf.sg"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="nostru"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="noi"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p1.mf.pl"/></let>
+           </when>
+           <when>
+             <test>
+               <or>
+                 <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="bostru"/></equal>
+                 <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="vostru"/></equal>
+               </or>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="voi"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p2.mf.pl"/></let>
+           </when>
+           <when>
+             <test>
+               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="suo"/></equal>
+             </test>
+             <let><clip pos="2" side="tl" part="lem"/><get-case-from pos="2"><lit v="lui"/></get-case-from></let>
+             <let><clip pos="2" side="tl" part="tags"/><lit-tag v="prn.tn.p3.m.sg"/></let>
+           </when>
+         </choose>
+         <out>
+           <chunk name="pr_tnprs">
+             <tags>
+               <tag><lit-tag v="SAdv"/></tag>
+             </tags>
+             <lu>
+               <clip pos="1" side="tl" part="lem"/>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <clip pos="2" side="tl" part="lem"/>
+               <clip pos="2" side="tl" part="tags"/>
+             </lu>
+           </chunk>
+         </out>
+       </action>
+    </rule>
 
 
     <!-- =============================== SV =================================== -->
