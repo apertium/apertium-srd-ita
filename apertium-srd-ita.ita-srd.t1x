@@ -11229,9 +11229,7 @@
              </lu>
              <b/>
              <lu>
-               <get-case-from pos="2">
-                 <clip pos="1" side="tl" part="lemh"/>
-               </get-case-from>
+               <clip pos="1" side="tl" part="lemh"/>
                <clip pos="1" side="tl" part="a_verb"/>
                <lit-tag v="inf"/>
                <clip pos="1" side="tl" part="lemq"/>
