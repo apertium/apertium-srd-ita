@@ -319,6 +319,7 @@
        <cat-item tags="prn.tn.p1.*"/>
        <cat-item tags="prn.tn.p2.*"/>
        <cat-item tags="prn.tn.p3.*"/>
+       <cat-item tags="prn.tn.ref.p3.*"/>
        <cat-item tags="prn.pro.p3.mf.pl"/> <!-- acceptem aquest error del parser (però per alguna raó no ho està agafant)-->
     </def-cat>
     <def-cat n="pro">
@@ -704,6 +705,7 @@
     </def-cat>
     <def-cat n="loro-tn">
        <cat-item lemma="lui" tags="prn.tn.p3.mf.pl"/>
+       <cat-item lemma="loro" tags="prn.tn.*"/>
     </def-cat>
     <def-cat n="che">
        <cat-item lemma="che" tags="cnjsub"/>
@@ -4613,7 +4615,7 @@
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="me"/></equal>
 	  </test>
-          <choose>
+      <choose>
 	    <when>
 	      <test>
 	        <or>
@@ -4652,13 +4654,13 @@
 	    <otherwise>
 	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="mene"/></get-case-from></let>
 	    </otherwise>
-          </choose>
+      </choose>
 	</when>
 	<when>
 	  <test>
 	    <equal caseless="yes"><clip pos="2" side="sl" part="lemh"/><lit v="te"/></equal>
 	  </test>
-          <choose>
+       <choose>
 	    <when>
 	      <test>
 	        <or>
@@ -4697,7 +4699,7 @@
 	    <otherwise>
 	      <let><clip pos="2" side="tl" part="lemh"/><get-case-from pos="2"><lit v="tene"/></get-case-from></let>
 	    </otherwise>
-          </choose>
+      </choose>
 	</when>
 	<when>
 	  <test>
@@ -17720,7 +17722,7 @@
     </rule>
 
 
-    <rule comment="regla: pr prn (Norme p. 28)">
+    <rule comment="regla: pr prn (davanti a me > dae in antis meu ; come me > comente a mie ; con me > con megus ; per me > pro mene">
        <pattern>
          <pattern-item n="pr"/>
          <pattern-item n="tn-pers"/>
@@ -17729,34 +17731,241 @@
          <call-macro n="f_concord1">
            <with-param pos="2"/>
          </call-macro>
-         <call-macro n="f_pr_tn-pers">
-           <with-param pos="1"/>
-           <with-param pos="2"/>
-         </call-macro>
-
-         <out>
-           <chunk name="pr">
-             <tags>
-               <tag><lit-tag v="pr"/></tag>
-             </tags>
-           <lu>
-             <clip pos="1" side="tl" part="lemh"/>
-             <clip pos="1" side="tl" part="tags"/>
-             <clip pos="1" side="tl" part="lemq"/>
-           </lu>
-           </chunk>
-           <b pos="1"/>
-           <chunk name="tn">
-             <tags>
-               <tag><lit-tag v="SN"/></tag>
-             </tags>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
+         <choose>
+	       <when>
+	         <test>
+	           <or>
+	             <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="davanti a"/></equal>
+	             <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="fronte a"/></equal>
+	             <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dietro"/></equal>
+	             <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dietro a"/></equal>
+	             <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dietro di"/></equal>
+	             <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="accanto a"/></equal>
+	             <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="vicino a"/></equal>
+	           </or>
+	         </test>
+             <choose>
+	           <when>
+	             <test>
+	               <or>
+	                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="davanti a"/></equal>
+	                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="fronte a"/></equal>
+	               </or>
+	             </test>
+	             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="in dae in antis"/></get-case-from></let>
+	             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="adv"/></let>
+	           </when>
+	           <when>
+	             <test>
+	               <or>
+	                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dietro"/></equal>
+	                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dietro a"/></equal>
+	                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="dietro di"/></equal>
+	               </or>
+	             </test>
+	             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="in dae segus"/></get-case-from></let>
+	             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="adv"/></let>
+	           </when>
+	           <when>
+	             <test>
+	               <or>
+	                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="accanto a"/></equal>
+	                 <equal caseless="yes"><clip pos="1" side="sl" part="lem"/><lit v="vicino a"/></equal>
+	               </or>
+	             </test>
+	             <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="a curtzu"/></get-case-from></let>
+	             <let><clip pos="1" side="tl" part="tags"/><lit-tag v="adv"/></let>
+	           </when>
+             </choose>
+             <choose>
+	           <when>
+	             <test>
+	               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="me"/></equal>
+	             </test>
+                 <out>
+                   <chunk name="pr-pos">
+                     <tags>
+                       <tag><lit-tag v="SAdv"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lem"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                     </lu>
+                     <b pos="1"/>
+                     <lu>
+                       <lit v="meu"/><lit-tag v="adj.pos.m.sg"/>
+                     </lu>
+                   </chunk>
+                 </out>
+	           </when>
+	           <when>
+	             <test>
+	               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="te"/></equal>
+	             </test>
+                 <out>
+                   <chunk name="pr-pos">
+                     <tags>
+                       <tag><lit-tag v="SAdv"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lem"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                     </lu>
+                     <b pos="1"/>
+                     <lu>
+                       <lit v="tuo"/><lit-tag v="adj.pos.m.sg"/>
+                     </lu>
+                   </chunk>
+                 </out>
+	           </when>
+	           <when>
+	             <test>
+	               <or>
+	                 <and>
+	                   <or>
+	                     <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="lui"/></equal>
+	                     <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="lei"/></equal>
+	                   </or>
+	                   <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="sg"/></equal>
+	                 </and>
+	                 <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="sé"/></equal>
+	               </or>
+	             </test>
+                 <out>
+                   <chunk name="pr-pos">
+                     <tags>
+                       <tag><lit-tag v="SAdv"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lem"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                     </lu>
+                     <b pos="1"/>
+                     <lu>
+                       <lit v="suo"/><lit-tag v="adj.pos.m.sg"/>
+                     </lu>
+                   </chunk>
+                 </out>
+	           </when>
+	           <when>
+	             <test>
+	               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="noi"/></equal>
+	             </test>
+                 <out>
+                   <chunk name="pr-pos">
+                     <tags>
+                       <tag><lit-tag v="SAdv"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lem"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                     </lu>
+                     <b pos="1"/>
+                     <lu>
+                       <lit v="nostru"/><lit-tag v="adj.pos.m.sg"/>
+                     </lu>
+                   </chunk>
+                 </out>
+	           </when>
+	           <when>
+	             <test>
+	               <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="voi"/></equal>
+	             </test>
+                 <out>
+                   <chunk name="pr-pos">
+                     <tags>
+                       <tag><lit-tag v="SAdv"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lem"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                     </lu>
+                     <b pos="1"/>
+                     <lu>
+                       <lit v="bostru"/><lit-tag v="adj.pos.m.sg"/>
+                     </lu>
+                   </chunk>
+                 </out>
+	           </when>
+	           <when>
+	             <test>
+	               <or>
+	                 <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="loro"/></equal>
+	                 <and>
+	                   <equal caseless="yes"><clip pos="2" side="sl" part="lem"/><lit v="lui"/></equal>
+	                   <equal><clip pos="2" side="sl" part="nbr"/><lit-tag v="pl"/></equal>
+	                 </and>
+	               </or>
+	             </test>
+                 <out>
+                   <chunk name="pr-pos">
+                     <tags>
+                       <tag><lit-tag v="SAdv"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lem"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                     </lu>
+                     <b pos="1"/>
+                     <lu>
+                       <lit v="issoro"/><lit-tag v="adj.pos.mf.sp"/>
+                     </lu>
+                   </chunk>
+                 </out>
+	           </when>
+	           <otherwise>
+                 <out>
+                   <chunk name="pr">
+                     <tags>
+                       <tag><lit-tag v="pr"/></tag>
+                     </tags>
+                     <lu>
+                       <clip pos="1" side="tl" part="lem"/>
+                       <clip pos="1" side="tl" part="tags"/>
+                     </lu>
+                     </chunk>
+                     <b pos="1"/>
+                     <chunk name="tn">
+                       <tags>
+                         <tag><lit-tag v="SN"/></tag>
+                       </tags>
+                     <lu>
+                       <clip pos="2" side="tl" part="lem"/>
+                       <clip pos="2" side="tl" part="tags"/>
+                     </lu>
+                   </chunk>
+                 </out>
+	           </otherwise>
+             </choose>
+	       </when>
+	       <otherwise> <!-- Norme p. 28" -->
+             <call-macro n="f_pr_tn-pers">
+               <with-param pos="1"/>
+               <with-param pos="2"/>
+             </call-macro>
+             <out>
+               <chunk name="pr">
+                 <tags>
+                   <tag><lit-tag v="pr"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lem"/>
+                   <clip pos="1" side="tl" part="tags"/>
+                 </lu>
+                 </chunk>
+                 <b pos="1"/>
+                 <chunk name="tn">
+                   <tags>
+                     <tag><lit-tag v="SN"/></tag>
+                   </tags>
+                 <lu>
+                   <clip pos="2" side="tl" part="lem"/>
+                   <clip pos="2" side="tl" part="tags"/>
+                 </lu>
+               </chunk>
+             </out>
+	       </otherwise>
+         </choose>
        </action>
     </rule>
 
