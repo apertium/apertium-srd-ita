@@ -9241,6 +9241,9 @@
            <with-param pos="3"/>
            <with-param pos="1"/>
          </call-macro>
+         <call-macro n="f_clean_adjpost">
+           <with-param pos="4"/>
+         </call-macro>
          <call-macro n="f_chunk_tags">
            <with-param pos="3"/>
          </call-macro>
