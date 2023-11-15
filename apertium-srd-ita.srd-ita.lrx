@@ -663,6 +663,9 @@
       <match lemma="nùtria" tags="n.*"/>
       <match lemma="marmota" tags="n."/>
       <match lemma="lontra" tags="n.*"/>
+      <match lemma="cherbu" tags="n.*"/>
+      <match lemma="chervu" tags="n.*"/>
+      <match lemma="crabolu" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="tzerpe" tags="n.*"/>

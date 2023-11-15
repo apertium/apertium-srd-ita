@@ -1142,6 +1142,8 @@
       <match lemma="nutria" tags="n.*"/>
       <match lemma="marmotta" tags="n.*"/>
       <match lemma="lontra" tags="n.*"/>
+      <match lemma="cervo" tags="n.*"/>
+      <match lemma="daino" tags="n.*"/>
 
       <match lemma="serpente" tags="n.*"/>
       <match lemma="serpe" tags="n.*"/>
