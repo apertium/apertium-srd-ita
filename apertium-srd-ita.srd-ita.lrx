@@ -964,6 +964,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- intrada > entrata, ingresso -->
+  <rule weight="0.8">
+    <match lemma="intrada" tags="n.*"><select lemma="entrata"/></match>
+  </rule>
+
   <!-- coma > coma, comma -->
   <rule weight="0.8">
     <match lemma="coma" tags="n.*"><select lemma="coma"/></match>
