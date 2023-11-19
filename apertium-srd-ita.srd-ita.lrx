@@ -964,6 +964,41 @@
 
 <!-- **************** N **************** -->
 
+  <!-- coma > coma, comma -->
+  <rule weight="0.8">
+    <match lemma="coma" tags="n.*"><select lemma="coma"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="coma" tags="n.*"><select lemma="comma"/></match>
+    <match tags="num"/>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="coma" tags="n.*"><select lemma="comma"/></match>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="artìculu" tags="n.*"/>
+      <match lemma="art." tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="artìculu" tags="n.*"/>
+      <match lemma="art." tags="n.*"/>
+    </or>
+    <repeat from="0" upto="5">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="coma" tags="n.*"><select lemma="comma"/></match>
+  </rule>
+
   <!-- grughe > croce, gru -->
   <rule weight="0.8">
     <match lemma="grughe" tags="n.*"><select lemma="croce"/></match>
