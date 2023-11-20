@@ -2636,9 +2636,9 @@
     <match lemma="fondare" tags="vblex.*"><select lemma="fundare"/></match>
   </rule>
 
-  <!-- venire > bènnire, èssere -->
+  <!-- venire > bènnere, èssere -->
   <rule weight="0.8">
-    <match lemma="venire" tags="vblex.*"><select lemma="bènnire"/></match>
+    <match lemma="venire" tags="vblex.*"><select lemma="bènnere"/></match>
   </rule>
   <rule weight="1.0">
     <match lemma="venire" tags="vblex.*"><select lemma="èssere"/></match>
@@ -4682,6 +4682,7 @@
   <macro n="ant_antcog"><with-param v="Alessandro"/><with-param v="Lisandru"/></macro>
   <macro n="ant_antcog"><with-param v="Annibale"/><with-param v="Annìbale"/></macro>
   <macro n="ant_antcog"><with-param v="Antioco"/><with-param v="Antìogu"/></macro>
+  <macro n="ant_antcog"><with-param v="Antonino"/><with-param v="Antoninu"/></macro>
   <macro n="ant_antcog"><with-param v="Attila"/><with-param v="Àtila"/></macro>
   <macro n="ant_antcog"><with-param v="Augusto"/><with-param v="Augustu"/></macro>
   <macro n="ant_antcog"><with-param v="Aureliano"/><with-param v="Aurelianu"/></macro>
