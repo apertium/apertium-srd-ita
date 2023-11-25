@@ -871,6 +871,14 @@
     <match lemma="de" tags="pr"><select lemma="di"/></match>
   </rule>
   <rule weight="1.0">
+    <match lemma="màchina" tags="n.*"/>
+    <match lemma="de" tags="pr"><select lemma="da"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="vblex.inf"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
     <match lemma="astènnere" tags="vblex.*"/>
     <repeat from="0" upto="1">
       <match tags="adv"/>

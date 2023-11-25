@@ -2405,16 +2405,24 @@
 
   <!-- da > de, dae, a -->
   <rule weight="0.6">
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+  </rule>
+  <rule weight="1.2">
+    <match lemma="macchina" tags="n.*"/>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="vblex.inf"/>
+    </or>
   </rule>
 
   <rule weight="1.0">
-    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
     <match tags="det.def.m.sg"/>
     <match tags="num"/>
   </rule>
   <rule weight="1.0">
-    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
     <seq n="mese"/>
     <match tags="num"/>
   </rule>
@@ -2423,12 +2431,12 @@
       <match tags="n.*"/>
       <match tags="adj.*"/>
     </or>
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
     <match tags="det.def.m.sg"/>
     <match tags="num"/>
   </rule>
   <rule weight="1.4">
-    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
     <match tags="det.def.m.sg"/>
     <match tags="num"/>
     <or>
@@ -2440,7 +2448,7 @@
 
   <rule weight="1.0"> <!-- complemento agente introducido por "dae" en sardo -->
     <or><match tags="vblex.pp.*"/><match tags="vbmod.pp.*"/></or>
-    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
   </rule>
   <rule weight="1.0">
     <or>
@@ -2454,7 +2462,7 @@
         <match tags=""/>
       </or>
     </repeat>
-    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
   </rule>
   <rule weight="1.2">
     <or>
@@ -2468,7 +2476,7 @@
         <match tags=""/>
       </or>
     </repeat>
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
     <repeat from="0" upto="1">
       <match tags="adv"/>
     </repeat>
@@ -2487,7 +2495,7 @@
         <match tags=""/>
       </or>
     </repeat>
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
   </rule>
   <rule weight="1.4">
     <or>
@@ -2506,13 +2514,13 @@
         <match tags=""/>
       </or>
     </repeat>
-    <match lemma="da" tags="pr"><select lemma="dae" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="dae"/></match>
   </rule>
 
 <!--
   <rule weight="1.0">
     <match lemma="essere" tags="vbser.*"/>
-    <match lemma="da" tags="pr"><select lemma="de" tags="pr"/></match>
+    <match lemma="da" tags="pr"><select lemma="de"/></match>
   </rule>
 -->
   <rule weight="1.0">
@@ -2678,6 +2686,7 @@
       <match lemma="cortometraggio" tags="n.*"/>
       <match lemma="documentario" tags="n.*"/>
       <match lemma="attore" tags="n.*"/>
+      <match lemma="dialogo" tags="n.*"/>
       <match lemma="sottotitolo" tags="n.*"/>
       <match lemma="sottotitolare" tags="vblex.*"/>
       <match lemma="proggetare" tags="vblex.*"/>
@@ -2690,6 +2699,7 @@
       <match lemma="cortometraggio" tags="n.*"/>
       <match lemma="documentario" tags="n.*"/>
       <match lemma="attore" tags="n.*"/>
+      <match lemma="dialogo" tags="n.*"/>
       <match lemma="sottotitolo" tags="n.*"/>
       <match lemma="sottotitolare" tags="vblex.*"/>
       <match lemma="proggetare" tags="vblex.*"/>
@@ -3228,8 +3238,39 @@
     <match lemma="gallo" tags="n.*"><select lemma="puddu"/></match>
   </rule>
   <rule weight="1.0">
-    <match lemma="Gallo" tags="n.m.pl"><select lemma="gallu"/></match>
+    <match lemma="Gallo" tags="n.*"><select lemma="gallu"/></match>
   </rule>
+  <rule weight="1.0">
+    <match lemma="gallo" tags="n.*"><select lemma="gallu"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="Asterix" tags="np.*"/>
+      <match lemma="Obelix" tags="np.*"/>
+      <match lemma="Uderzo" tags="np.*"/>
+      <match lemma="Goscinny" tags="np.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="Asterix" tags="np.*"/>
+      <match lemma="Obelix" tags="np.*"/>
+      <match lemma="Uderzo" tags="np.*"/>
+      <match lemma="Goscinny" tags="np.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="gallo" tags="n.*"><select lemma="gallu"/></match>
+  </rule>
+
 
   <!-- autista > isciaferru, autista -->
   <rule weight="0.6">
@@ -3433,6 +3474,12 @@
   <!-- macchina > màchina, vetura -->
   <rule weight="0.6">
     <match lemma="macchina" tags="n.*"><select lemma="màchina"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="macchina" tags="n.*"><select lemma="vetura"/></match>
+    <match lemma="da" tags="pr"/>
+    <match lemma="corsa" tags="n.*"/>
   </rule>
   <rule weight="1.0">
     <match lemma="in" tags="pr"/>
