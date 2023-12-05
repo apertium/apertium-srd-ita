@@ -4568,6 +4568,16 @@
 
 <!-- **************** NP **************** -->
 
+  <!-- Columbia > Columbia, Colùmbia -->
+  <rule weight="0.6">
+    <match lemma="Columbia" tags="np.top.*"><select lemma="Columbia"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="distretto" tags="n.*"/>
+    <match lemma="di" tags="pr"/>
+    <match lemma="Columbia" tags="np.top.*"><select lemma="Colùmbia"/></match>
+  </rule>
+
   <!-- Arborea > Arborea, Arboree -->
   <rule weight="0.6">
     <match lemma="Arborea" tags="np.top.*"><select lemma="Arborea"/></match>
