@@ -8,46 +8,26 @@
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="de" tags="pr"/>
-         <or>
-           <match tags="np.top.*"/>
-           <match lemma="Lacon" tags="np.cog.*"/>
-           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
-           <match lemma="Lacon-Massa" tags="np.cog.*"/>
-         </or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="de" tags="pr"/>
-         <or>
-           <match tags="np.top.*"/>
-           <match lemma="Lacon" tags="np.cog.*"/>
-           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
-           <match lemma="Lacon-Massa" tags="np.cog.*"/>
-         </or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match lemma="de" tags="pr"/>
          <match tags="det.def.*"/>
-         <or>
-           <match tags="np.top.*"/>
-           <match lemma="Lacon" tags="np.cog.*"/>
-           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
-           <match lemma="Lacon-Massa" tags="np.cog.*"/>
-         </or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
          <match tags="np.ant.*"/>
          <match lemma="de" tags="pr"/>
          <match tags="det.def.*"/>
-         <or>
-           <match tags="np.top.*"/>
-           <match lemma="Lacon" tags="np.cog.*"/>
-           <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
-           <match lemma="Lacon-Massa" tags="np.cog.*"/>
-         </or>
+         <or><match tags="np.top.*"/><seq n="cognomen"/></or>
       </rule>
       <rule weight="1.0">
          <match plemma="1" tags="np.*"><select plemma="2"/></match>
@@ -560,6 +540,25 @@
   </def-macros>
 
   <def-seqs>
+    <def-seq n="cognomen"><or>
+      <match lemma="Medici" tags="np.cog.*"/>
+      <match lemma="Mèdici" tags="np.cog.*"/>
+      <match lemma="Este" tags="np.cog.*"/>
+      <match lemma="Asburgu" tags="np.cog.*"/>
+      <match lemma="Borbone" tags="np.cog.*"/>
+      <match lemma="Valois" tags="np.cog.*"/>
+      <match lemma="Capetu" tags="np.cog.*"/>
+      <match lemma="Plantagenet" tags="np.cog.*"/>
+      <match lemma="Braganza" tags="np.cog.*"/>
+      <match lemma="Comnenu" tags="np.cog.*"/>
+      <match lemma="Comnena" tags="np.cog.*"/>
+      <match lemma="Paleòlogu" tags="np.cog.*"/>
+      <match lemma="Jagellone" tags="np.cog.*"/>
+      <match lemma="Lacon" tags="np.cog.*"/>
+      <match lemma="Lacon-Gunaule" tags="np.cog.*"/>
+      <match lemma="Lacon-Massa" tags="np.cog.*"/>
+    </or></def-seq>
+
     <def-seq n="periodu"><or>
       <match lemma="minutu" tags="n.*"/>
       <match lemma="ora" tags="n.*"/>
@@ -1116,7 +1115,7 @@
       <match tags="adj.ord.*"/>
       <match lemma="ùrtimu" tags="adj.*"/>
       <match lemma="penùrtimu" tags="adj.*"/>
-	</or>
+    </or>
     <match lemma="bia" tags="n.*"><select lemma="volta"/></match>
   </rule>
 
@@ -1444,6 +1443,7 @@
   <macro n="ant_antcog"><with-param v="Clàudiu"/><with-param v="Claudio"/></macro>
   <macro n="ant_antcog"><with-param v="Costantinu"/><with-param v="Costantino"/></macro>
   <macro n="ant_antcog"><with-param v="Èrcule"/><with-param v="Ercole"/></macro>
+  <macro n="ant_antcog"><with-param v="Làzaru"/><with-param v="Lazzaro"/></macro>
   <macro n="ant_antcog"><with-param v="Lisandru"/><with-param v="Alessandro"/></macro>
   <macro n="ant_antcog"><with-param v="Màriu"/><with-param v="Mario"/></macro>
   <macro n="ant_antcog"><with-param v="Michelàngelu"/><with-param v="Michelangelo"/></macro>
@@ -1505,6 +1505,7 @@
   <macro n="noms_propis"><with-param v="Juvanna"/><with-param v="Giovanna"/></macro>
   <macro n="noms_propis"><with-param v="Lughia"/><with-param v="Lucia"/></macro>
   <macro n="noms_propis"><with-param v="Ladislau"/><with-param v="Ladislao"/></macro>
+  <macro n="noms_propis"><with-param v="Larentu"/><with-param v="Lorenzo"/></macro>
   <macro n="noms_propis"><with-param v="Lenardu"/><with-param v="Leonardo"/></macro>
   <macro n="noms_propis"><with-param v="Ludovicu"/><with-param v="Ludovico"/></macro>
   <macro n="noms_propis"><with-param v="Luisi"/><with-param v="Luigi"/></macro>
