@@ -9098,35 +9098,73 @@
 
 
 
-    <rule comment="regla: èssere ger (fiat cumbatende > stava combattendo)">
-       <pattern>
-         <pattern-item n="èssere"/>
-         <pattern-item n="ger"/>
-       </pattern>
-       <action>
-          <let><clip pos="1" side="tl" part="lem"/><lit v="stare"/></let>
-          <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex"/></let>
-         <out>
-           <chunk name="v">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-           <lu>
-             <get-case-from pos="1">
-               <clip pos="1" side="tl" part="lemh"/>
-             </get-case-from>
-             <clip pos="1" side="tl" part="tags"/>
-           </lu>
-           <b pos="1"/>
-           <lu>
-             <clip pos="2" side="tl" part="lemh"/>
-             <clip pos="2" side="tl" part="tags"/>
-             <clip pos="2" side="tl" part="lemq"/>
-           </lu>
-         </chunk>
-         </out>
-       </action>
-    </rule>
+<rule comment="regla: èssere ger (fiat cumbatende > stava combattendo)">
+   <pattern>
+     <pattern-item n="èssere"/>
+     <pattern-item n="ger"/>
+   </pattern>
+   <action>
+      <let><clip pos="1" side="tl" part="lem"/><lit v="stare"/></let>
+      <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex"/></let>
+     <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+       <lu>
+         <get-case-from pos="1">
+           <clip pos="1" side="tl" part="lemh"/>
+         </get-case-from>
+         <clip pos="1" side="tl" part="tags"/>
+       </lu>
+       <b pos="1"/>
+       <lu>
+         <clip pos="2" side="tl" part="lemh"/>
+         <clip pos="2" side="tl" part="tags"/>
+         <clip pos="2" side="tl" part="lemq"/>
+       </lu>
+     </chunk>
+     </out>
+   </action>
+</rule>
+
+
+<rule comment="regla: èssere ger (est faghende·si > sta facendosi)">
+   <pattern>
+     <pattern-item n="èssere"/>
+     <pattern-item n="ger"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+      <let><clip pos="1" side="tl" part="lem"/><lit v="stare"/></let>
+      <let><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex"/></let>
+     <out>
+       <chunk name="v">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+       <lu>
+         <get-case-from pos="1">
+           <clip pos="1" side="tl" part="lemh"/>
+         </get-case-from>
+         <clip pos="1" side="tl" part="tags"/>
+       </lu>
+       <b pos="1"/>
+       <mlu>
+         <lu>
+           <clip pos="2" side="tl" part="lemh"/>
+           <clip pos="2" side="tl" part="tags"/>
+           <clip pos="2" side="tl" part="lemq"/>
+         </lu>
+         <lu>
+           <clip pos="3" side="tl" part="lem"/>
+           <clip pos="3" side="tl" part="tags"/>
+         </lu>
+       </mlu>
+     </chunk>
+     </out>
+   </action>
+</rule>
 
 
 <rule comment="regla: bi + àere > ci + essere (b'at > c'è)">
@@ -9480,35 +9518,35 @@
 </rule>
 
 
-    <rule comment="regla: imper-ger-pp enc">
-       <pattern>
-         <pattern-item n="imper-ger-pp"/>
-         <pattern-item n="enc"/>
-       </pattern>
-       <action>
-         <call-macro n="f_concord1">
-           <with-param pos="2"/>
-         </call-macro>
-         <out>
-           <chunk name="verb_enc">
-             <tags>
-               <tag><lit-tag v="SV"/></tag>
-             </tags>
-             <mlu>
-               <lu>
-                 <clip pos="1" side="tl" part="lemh"/>
-                 <clip pos="1" side="tl" part="tags"/>
-               </lu>
-               <lu>
-                 <clip pos="2" side="tl" part="lem"/>
-                 <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="1" side="tl" part="lemq"/>
-               </lu>
-             </mlu>
-           </chunk>
-         </out>
-       </action>
-    </rule>
+<rule comment="regla: imper-ger-pp enc">
+   <pattern>
+     <pattern-item n="imper-ger-pp"/>
+     <pattern-item n="enc"/>
+   </pattern>
+   <action>
+     <call-macro n="f_concord1">
+       <with-param pos="2"/>
+     </call-macro>
+     <out>
+       <chunk name="verb_enc">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+         </tags>
+         <mlu>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="tags"/>
+           </lu>
+           <lu>
+             <clip pos="2" side="tl" part="lem"/>
+             <clip pos="2" side="tl" part="tags"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </mlu>
+       </chunk>
+     </out>
+   </action>
+</rule>
 
 <rule comment="regla: imper-ger-pp enc enc">	<!-- eliminamos nche -->
    <pattern>
