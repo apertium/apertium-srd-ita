@@ -971,6 +971,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- altura > altura, altopiano -->
+  <rule weight="0.8">
+    <match lemma="altura" tags="n.*"><select lemma="altura"/></match>
+  </rule>
+
   <!-- intrada > entrata, ingresso -->
   <rule weight="0.8">
     <match lemma="intrada" tags="n.*"><select lemma="entrata"/></match>
@@ -1300,7 +1305,12 @@
     <match lemma="fintzas" tags="adv"><select lemma="anche"/></match>
   </rule>
 
-<!-- **************** VBLEX **************** -->
+<!-- **************** V VBLEX **************** -->
+
+  <!-- artziare > elevare, alzare, salire -->
+  <rule weight="0.8">
+    <match lemma="artziare" tags="vblex.*"><select lemma="elevare"/></match>
+  </rule>
 
   <!-- incarcare > cliccare, ... -->
   <rule weight="0.8">
@@ -1435,6 +1445,7 @@
 
 <!-- **************** NP **************** -->
 
+  <macro n="ant_antcog"><with-param v="Adrianu"/><with-param v="Adriano"/></macro>
   <macro n="ant_antcog"><with-param v="Annìbale"/><with-param v="Annibale"/></macro>
   <macro n="ant_antcog"><with-param v="Antìogu"/><with-param v="Antioco"/></macro>
   <macro n="ant_antcog"><with-param v="Antoninu"/><with-param v="Antonino"/></macro>
