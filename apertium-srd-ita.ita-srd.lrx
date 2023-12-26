@@ -127,6 +127,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="San" tags="np.*"/>
            <match lemma="apostolo" tags="n.*"/>
@@ -160,6 +161,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="San" tags="np.*"/>
            <match lemma="apostolo" tags="n.*"/>
@@ -196,6 +198,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="San" tags="np.*"/>
            <match lemma="apostolo" tags="n.*"/>
@@ -228,6 +231,7 @@
            <match lemma="patriarca" tags="n.*"/>
            <match lemma="vescovo" tags="n.*"/>
            <match lemma="arcivescovo" tags="n.*"/>
+           <match lemma="esarca" tags="n.*"/>
            <match lemma="santo" tags="adj.*"/>
            <match lemma="San" tags="np.*"/>
            <match lemma="apostolo" tags="n.*"/>
@@ -869,6 +873,7 @@
       <match lemma="osservatore" tags="n.*"/>
       <match lemma="vescovo" tags="n.*"/>
       <match lemma="arcivescovo" tags="n.*"/>
+      <match lemma="esarca" tags="n.*"/>
       <match lemma="papa" tags="n.*"/>
     </or></def-seq>
 
