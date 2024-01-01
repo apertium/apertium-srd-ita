@@ -35,6 +35,7 @@
          <or>
            <match tags="adj.*"/>
            <match lemma="conquistatore" tags="n.*"/>
+           <match lemma="apostata" tags="n.*"/>
            <match lemma="re" tags="n.*"/>
          </or>
       </rule>
@@ -809,6 +810,8 @@
       <match lemma="Capeto" tags="np.cog.*"/>
       <match lemma="Plantagenet" tags="np.cog.*"/>
       <match lemma="Braganza" tags="np.cog.*"/>
+      <match lemma="Orange" tags="np.cog.*"/>
+      <match lemma="Orange-Nassau" tags="np.cog.*"/>
       <match lemma="Comneno" tags="np.cog.*"/>
       <match lemma="Comnena" tags="np.cog.*"/>
       <match lemma="Lacon" tags="np.cog.*"/>
@@ -4785,6 +4788,7 @@
   <macro n="ant_antcog"><with-param v="Zenobia"/><with-param v="Zenòbia"/></macro>
 
   <macro n="noms_propis"><with-param v="Adalberto"/><with-param v="Adalbertu"/></macro>
+  <macro n="noms_propis"><with-param v="Agostino"/><with-param v="Austinu"/></macro>
   <macro n="noms_propis"><with-param v="Alberto"/><with-param v="Albertu"/></macro>
   <macro n="noms_propis"><with-param v="Alfonso"/><with-param v="Alfonsu"/></macro>
   <macro n="noms_propis"><with-param v="Amedeo"/><with-param v="Amedeu"/></macro>
@@ -4848,6 +4852,7 @@
   <macro n="noms_propis"><with-param v="Roberto"/><with-param v="Robertu"/></macro>
   <macro n="noms_propis"><with-param v="Salvatore"/><with-param v="Sarbadore"/></macro>
   <macro n="noms_propis"><with-param v="Sisto"/><with-param v="Sistu"/></macro>
+  <macro n="noms_propis"><with-param v="Tommaso"/><with-param v="Tomasu"/></macro>
   <macro n="noms_propis"><with-param v="Ubaldo"/><with-param v="Ubaldu"/></macro>
   <macro n="noms_propis"><with-param v="Ugo"/><with-param v="Ugu"/></macro>
   <macro n="noms_propis"><with-param v="Umberto"/><with-param v="Umbertu"/></macro>
