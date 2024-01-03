@@ -978,6 +978,11 @@
 
 <!-- **************** N **************** -->
 
+  <!-- segundària > secondaria, ferrovia secondaria -->
+  <rule weight="0.8">
+    <match lemma="segundària" tags="n.*"><select lemma="secondaria"/></match>
+  </rule>
+
   <!-- altura > altura, altopiano -->
   <rule weight="0.8">
     <match lemma="altura" tags="n.*"><select lemma="altura"/></match>
