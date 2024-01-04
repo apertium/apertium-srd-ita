@@ -3237,6 +3237,20 @@
 
 <!-- **************** N **************** -->
 
+  <!-- piazzale > pàtiu, pratza -->
+  <rule weight="0.6">
+    <match lemma="piazzale" tags="n.*"><select lemma="pratza"/></match>
+  </rule>
+<!--
+  <rule weight="0.6">
+    <match lemma="piazzale" tags="n.*"><select lemma="pàtiu"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="piazzale" tags="n.*"><select lemma="pratza"/></match>
+    <match case="Aa"/>
+  </rule>
+-->
+
   <!-- gallo > puddu, gallo -->
   <rule weight="0.6">
     <match lemma="gallo" tags="n.*"><select lemma="puddu"/></match>
