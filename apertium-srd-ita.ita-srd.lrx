@@ -2940,6 +2940,11 @@
 
 <!-- **************** ADV **************** -->
 
+  <!-- tanto > tantu, meda -->
+  <rule weight="0.8">
+    <match lemma="tanto" tags="adv"><select lemma="tantu"/></match>
+  </rule>
+
   <!-- ancora > ancora, galu -->
   <rule weight="0.8">
     <match lemma="ancora" tags="adv"><select lemma="ancora"/></match>
