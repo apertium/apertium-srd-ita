@@ -978,6 +978,37 @@
 
 <!-- **************** N **************** -->
 
+  <!-- minore > minore, minorenne -->
+  <rule weight="0.8">
+    <match lemma="minore" tags="n.*"><select lemma="minore"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="minore" tags="n.*"><select lemma="minorenne"/></match>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <or>
+      <match lemma="mannu" tags="n.*"/>
+      <match lemma="magiorenne" tags="n.*"/>
+    </or>
+  </rule>
+  <rule weight="1.0">
+    <or>
+      <match lemma="mannu" tags="n.*"/>
+      <match lemma="magiorenne" tags="n.*"/>
+    </or>
+    <repeat from="0" upto="8">
+      <or>
+        <match tags="*"/>
+        <match tags=""/>
+      </or>
+    </repeat>
+    <match lemma="minore" tags="n.*"><select lemma="minorenne"/></match>
+  </rule>
+
   <!-- segundària > secondaria, ferrovia secondaria -->
   <rule weight="0.8">
     <match lemma="segundària" tags="n.*"><select lemma="secondaria"/></match>
@@ -1070,8 +1101,9 @@
       <match lemma="bufare" tags="vblex.*"/>
       <match lemma="pigare" tags="vblex.*"/>
     </or>
-    <repeat from="0" upto="8">
+    <repeat from="0" upto="2">
       <or>
+        <match tags="adv"/>
         <match tags="det.*"/>
         <match tags="num.*"/>
       </or>
