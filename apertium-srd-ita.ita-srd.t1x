@@ -129,6 +129,14 @@
        <cat-item tags="vbhaver.ger"/>
        <cat-item tags="vbhaver.pp.*"/>
     </def-cat>
+    <def-cat n="vbser-tmp-srd">
+       <cat-item tags="vbser.inf"/>
+       <cat-item tags="vbser.pri.*"/>
+       <cat-item tags="vbser.prs.*"/>
+       <cat-item tags="vbser.pii.*"/>
+       <cat-item tags="vbser.pis.*"/>
+       <cat-item tags="vbser.imp.*"/>
+    </def-cat>
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
     </def-cat>
@@ -18648,6 +18656,52 @@
              </get-case-from>
              <lit-tag v="adv"/>
            </lu>
+         </chunk>
+         </out>
+       </action>
+    </rule>
+
+    <rule comment="regla: essere + pp + di-nuovo > àere torrare a + inf (è venuta di nuovo > at torradu a bènnere)">
+       <pattern>
+         <pattern-item n="vbser-tmp-srd"/>
+         <pattern-item n="pp"/>
+         <pattern-item n="di_nuovo"/>
+       </pattern>
+       <action>
+         <out>
+           <chunk name="verb_dinuovo">
+             <tags>
+               <tag><lit-tag v="SV"/></tag>
+             </tags>
+             <lu>
+               <get-case-from pos="1"><lit v="àere"/></get-case-from>
+               <lit-tag v="vbhaver"/>
+               <clip pos="1" side="tl" part="temps"/>
+               <clip pos="1" side="tl" part="pers"/>
+               <clip pos="1" side="tl" part="gen"/>
+               <clip pos="1" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2"><lit v="torrare"/></get-case-from>
+               <lit-tag v="vblex.pp.m.sg"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+               <lit v="a"/>
+               </get-case-from>
+               <lit-tag v="pr"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+               <clip pos="2" side="tl" part="lemh"/>
+               </get-case-from>
+               <clip pos="2" side="tl" part="a_verb"/>
+               <lit-tag v="inf"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
          </chunk>
          </out>
        </action>
