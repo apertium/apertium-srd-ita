@@ -1351,6 +1351,11 @@
 
 <!-- **************** V VBLEX **************** -->
 
+  <!-- torrare > tornare, ritornare -->
+  <rule weight="0.8">
+    <match lemma="torrare" tags="vblex.*"><select lemma="tornare"/></match>
+  </rule>
+
   <!-- artziare > elevare, alzare, salire -->
   <rule weight="0.8">
     <match lemma="artziare" tags="vblex.*"><select lemma="elevare"/></match>

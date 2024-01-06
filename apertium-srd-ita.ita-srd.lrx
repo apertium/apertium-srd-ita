@@ -2640,6 +2640,11 @@
     <match lemma="essere" tags="vbser.*"><select lemma="èssere"/></match>
     <match tags="det.def.*"/>
   </rule>
+  <rule weight="1.0">
+    <match lemma="essere" tags="vbser.*"><select lemma="àere"/></match>
+    <match tags="vblex.pp.*"/>
+    <match lemma="di nuovo" tags="adv"/>
+  </rule>
 
 <!-- **************** VBLEX **************** -->
 
