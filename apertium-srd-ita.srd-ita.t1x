@@ -112,6 +112,9 @@
     <def-cat n="vbhaver">
        <cat-item tags="vbhaver.*"/>
     </def-cat>
+    <def-cat n="vbhaver_p3">
+       <cat-item tags="vbhaver.*.p3.*"/>
+    </def-cat>
     <def-cat n="vbmod">
        <cat-item tags="vbmod.*"/>
     </def-cat>
@@ -120,6 +123,9 @@
     </def-cat>
     <def-cat n="aere_inf">
        <cat-item lemma="àere" tags="vblex.inf"/>
+    </def-cat>
+    <def-cat n="aere_pp">
+       <cat-item lemma="àere" tags="vblex.pp.*"/>
     </def-cat>
     <def-cat n="aere_p3">
        <cat-item lemma="àere" tags="vblex.*.p3.*"/>
@@ -9302,20 +9308,71 @@
          <tags>
            <tag><lit-tag v="SV"/></tag>
          </tags>
-       <lu>
-         <clip pos="1" side="tl" part="lemh"/>
-         <clip pos="1" side="tl" part="tags"/>
-         <clip pos="1" side="tl" part="lemq"/>
-       </lu>
-       <b pos="1"/>
-       <lu>
-         <lit v="essere"/>
-         <lit-tag v="vbser"/>
-         <clip pos="2" side="tl" part="temps"/>
-         <clip pos="2" side="tl" part="pers"/>
-         <clip pos="2" side="tl" part="gen"/>
-         <clip pos="2" side="tl" part="nbr"/>
-       </lu>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <get-case-from pos="2">
+             <lit v="essere"/>
+           </get-case-from>
+           <lit-tag v="vbser"/>
+           <clip pos="2" side="tl" part="temps"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <clip pos="2" side="tl" part="gen"/>
+           <clip pos="2" side="tl" part="nbr"/>
+         </lu>
+       </chunk>
+     </out>
+   </action>
+</rule>
+
+<rule comment="regla: bi + àere + àere.pp > ci + essere + essere.pp (b'at àpidu > c'è stato)">
+   <pattern>
+     <pattern-item n="bi-adv"/>
+     <pattern-item n="vbhaver_p3"/>
+     <pattern-item n="aere_pp"/>
+   </pattern>
+   <action>
+     <out>
+       <chunk name="c_e_stato">
+         <tags>
+           <tag><lit-tag v="SV"/></tag>
+           <tag><lit-tag v="vbser"/></tag>
+           <tag><clip pos="2" side="tl" part="temps"/></tag>
+           <tag><lit-tag v="m"/></tag>
+           <tag><clip pos="2" side="tl" part="nbr"/></tag>
+           <tag><lit-tag v="sl_m"/></tag>
+           <tag><lit-tag v="sl_sg"/></tag>
+         </tags>
+         <lu>
+           <clip pos="1" side="tl" part="lemh"/>
+           <clip pos="1" side="tl" part="tags"/>
+           <clip pos="1" side="tl" part="lemq"/>
+         </lu>
+         <b pos="1"/>
+         <lu>
+           <get-case-from pos="2">
+             <lit v="essere"/>
+           </get-case-from>
+           <lit-tag v="vbser"/>
+           <clip pos="2" side="tl" part="temps"/>
+           <clip pos="2" side="tl" part="pers"/>
+           <lit-tag v="5"/>
+         </lu>
+         <b pos="2"/>
+         <lu>
+           <get-case-from pos="2">
+             <lit v="essere"/>
+           </get-case-from>
+           <lit-tag v="vbser"/>
+           <clip pos="3" side="tl" part="temps"/>
+           <clip pos="3" side="tl" part="pers"/>
+           <lit-tag v="4"/>
+           <lit-tag v="5"/>
+         </lu>
        </chunk>
      </out>
    </action>
