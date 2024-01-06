@@ -10578,7 +10578,7 @@
     </rule>
 
 
-    <rule comment="regla: c'è stato"> <!-- c'è > b'est istado (tots els temps simples de l'italià))-->
+    <rule comment="regla: c'è stato > b'at àpidu (tots els temps simples de l'italià)">
        <pattern>
          <pattern-item n="ci"/>
          <pattern-item n="essere-p3"/>
@@ -10601,35 +10601,37 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
-               <lu>
-                 <get-case-from pos="1">
-                 <lit v="bi"/>
-                 </get-case-from>
-                 <clip pos="1" side="tl" part="tags"/>
-               </lu>
-               <b pos="1"/>
-               <lu>
-                 <get-case-from pos="2">
-                   <lit v="èssere"/>
-                 </get-case-from>
-                 <lit-tag v="vbser.pri"/>
-                 <clip pos="2" side="tl" part="pers"/>
-                 <clip pos="2" side="tl" part="nbr"/>
-               </lu>
-               <b/>
-               <lu>
-                 <get-case-from pos="2">
-                   <lit v="èssere"/>
-                 </get-case-from>
-                 <lit-tag v="vbser.pp.m.sg"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
-               <b pos="2"/>
-               <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
-               </lu>
+             <lu>
+               <get-case-from pos="1">
+               <lit v="bi"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pri"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="nbr"/>
+             </lu>
+             <b/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pp.m.sg"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+             <get-case-from pos="2">
+               <lit v="àere"/>
+             </get-case-from>
+             <lit-tag v="vbhaver.pp.m.sg"/>
+             <clip pos="3" side="tl" part="lemq"/>
+             </lu>
            </chunk>
          </out>
 	</when>
@@ -10669,17 +10671,19 @@
              <b/>
              <lu>
                <get-case-from pos="2">
-                 <lit v="èssere"/>
+                 <lit v="àere"/>
                </get-case-from>
-               <lit-tag v="vbser.inf"/>
+               <lit-tag v="vbhaver.inf"/>
                <clip pos="1" side="tl" part="lemq"/>
              </lu>
-               <b pos="2"/>
-               <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
-               </lu>
+             <b pos="2"/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pp.m.sg"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
            </chunk>
          </out>
 	</when>
@@ -10713,17 +10717,19 @@
              <b/>
              <lu>
                <get-case-from pos="2">
-                 <lit v="èssere"/>
+                 <lit v="àere"/>
                </get-case-from>
-               <lit-tag v="vbser.inf"/>
+               <lit-tag v="vbhaver.inf"/>
                <clip pos="2" side="tl" part="lemq"/>
              </lu>
-               <b pos="2"/>
-               <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
-               </lu>
+             <b pos="2"/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pp.m.sg"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
            </chunk>
          </out>
 	</when>
@@ -10734,24 +10740,31 @@
              <tags>
                <tag><lit-tag v="SV"/></tag>
              </tags>
-               <lu>
-                 <get-case-from pos="1">
-                 <lit v="bi"/>
-                 </get-case-from>
-                 <clip pos="1" side="tl" part="tags"/>
-               </lu>
-               <b pos="1"/>
-               <lu>
-                 <clip pos="2" side="tl" part="lemh"/>
-                 <clip pos="2" side="tl" part="tags"/>
-                 <clip pos="2" side="tl" part="lemq"/>
-               </lu>
-               <b pos="2"/>
-               <lu>
-                 <clip pos="3" side="tl" part="lemh"/>
-                 <clip pos="3" side="tl" part="tags"/>
-                 <clip pos="3" side="tl" part="lemq"/>
-               </lu>
+             <lu>
+               <get-case-from pos="1">
+               <lit v="bi"/>
+               </get-case-from>
+               <clip pos="1" side="tl" part="tags"/>
+             </lu>
+             <b pos="1"/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver"/>
+               <clip pos="2" side="tl" part="temps"/>
+               <clip pos="2" side="tl" part="pers"/>
+               <clip pos="2" side="tl" part="nbr"/>
+               <clip pos="2" side="tl" part="lemq"/>
+             </lu>
+             <b pos="2"/>
+             <lu>
+               <get-case-from pos="2">
+                 <lit v="àere"/>
+               </get-case-from>
+               <lit-tag v="vbhaver.pp.m.sg"/>
+               <clip pos="3" side="tl" part="lemq"/>
+             </lu>
            </chunk>
          </out>
 	</otherwise>
